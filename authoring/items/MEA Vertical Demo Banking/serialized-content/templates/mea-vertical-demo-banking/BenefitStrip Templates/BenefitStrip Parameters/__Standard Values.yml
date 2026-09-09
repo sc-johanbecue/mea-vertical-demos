@@ -1,0 +1,17 @@
+---
+ID: "a4a814e4-86d7-4a97-aa7b-45e73107e004"
+Parent: "53b88e5c-6e0c-4ea8-a12b-75c7b278d490"
+Template: "53b88e5c-6e0c-4ea8-a12b-75c7b278d490"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/BenefitStrip Templates/BenefitStrip Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

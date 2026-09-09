@@ -1,0 +1,25 @@
+{
+  "slug": "127-0-0-1--home",
+  "url": "http://127.0.0.1:5173/#banking",
+  "layoutChrome": [
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    }
+  ],
+  "sections": [
+    {
+      "order": 1,
+      "sectionFolder": "home-event-detail-hero-section-alt-alt",
+      "sectionScreenshotName": "HereFinancialOverviewEventDetailHeroSectionSectionSection",
+      "parentComponent": {
+        "cmsName": "FullBleedHeroBannerSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    }
+  ],
+  "confidence": "high",
+  "notes": []
+}

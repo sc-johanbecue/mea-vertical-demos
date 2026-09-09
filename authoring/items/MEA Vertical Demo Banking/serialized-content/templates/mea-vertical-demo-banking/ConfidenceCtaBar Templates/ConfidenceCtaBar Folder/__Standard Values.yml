@@ -1,0 +1,23 @@
+---
+ID: "8b37e8e7-0d70-4141-b503-f3e98b5b72d5"
+Parent: "2e5072a0-37a3-4b03-b09a-c266f2a4fede"
+Template: "2e5072a0-37a3-4b03-b09a-c266f2a4fede"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/ConfidenceCtaBar Templates/ConfidenceCtaBar Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {06BBBDCF-BA36-455A-9FE2-4A4A2C25A84A}
+    {2E5072A0-37A3-4B03-B09A-C266F2A4FEDE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,17 @@
+---
+ID: "4d36b66b-b948-4202-88e6-996ac7f10350"
+Parent: "d105b823-85cf-45cc-8f68-3309246561eb"
+Template: "d105b823-85cf-45cc-8f68-3309246561eb"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/ChatAssistantButton Templates/ChatAssistantButton Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

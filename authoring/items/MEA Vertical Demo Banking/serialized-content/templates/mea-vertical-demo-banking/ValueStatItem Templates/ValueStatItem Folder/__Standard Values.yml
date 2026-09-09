@@ -1,0 +1,23 @@
+---
+ID: "cebc1d72-59d5-4292-9f2a-2a1fd64c9c8f"
+Parent: "c88a2e0f-89a0-46dd-a276-5317f654d943"
+Template: "c88a2e0f-89a0-46dd-a276-5317f654d943"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/ValueStatItem Templates/ValueStatItem Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {710CB8B7-7E59-4516-BAE8-065D2EF47658}
+    {C88A2E0F-89A0-46DD-A276-5317F654D943}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

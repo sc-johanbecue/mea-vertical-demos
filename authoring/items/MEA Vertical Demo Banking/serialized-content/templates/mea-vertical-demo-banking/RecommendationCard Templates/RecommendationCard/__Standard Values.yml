@@ -1,0 +1,17 @@
+---
+ID: "0d29d7f3-1995-4fdb-badb-2b3ddeb63c68"
+Parent: "bc46b4c6-b746-4aee-bb5d-44420d121142"
+Template: "bc46b4c6-b746-4aee-bb5d-44420d121142"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/RecommendationCard Templates/RecommendationCard/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

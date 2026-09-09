@@ -1,0 +1,23 @@
+---
+ID: "9e0f5295-585c-46d9-b417-3cb47cb9f860"
+Parent: "993a5f28-b25e-4d92-bb72-8c45d86ad19f"
+Template: "993a5f28-b25e-4d92-bb72-8c45d86ad19f"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/ProductValueHighlight Templates/ProductValueHighlight Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {0BBA2BF7-0734-47AE-B96F-6D25543F6CF7}
+    {993A5F28-B25E-4D92-BB72-8C45D86AD19F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

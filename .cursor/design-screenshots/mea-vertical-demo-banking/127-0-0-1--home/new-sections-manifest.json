@@ -1,0 +1,132 @@
+{
+  "pageSlug": "127-0-0-1--home",
+  "pageDir": "127-0-0-1--home",
+  "pageSectionsRoot": "127-0-0-1--home/sections",
+  "domainSectionsRoot": "sections",
+  "mergedAt": "2026-09-09T08:19:15.509Z",
+  "sections": [
+    {
+      "action": "promoted",
+      "cmsName": "EventDetailHeroSection",
+      "sourceCmsName": "EventDetailHeroSection",
+      "domainFolder": "event-detail-hero-section",
+      "pageSectionFolder": "127-0-0-1--home/sections/event-detail-hero-section",
+      "fingerprint": "7d81691705f8ebb5",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "FindTheRightSolutionRichTextSection",
+      "sourceCmsName": "FindTheRightSolutionRichTextSection",
+      "domainFolder": "find-the-right-solution-rich-text-section",
+      "pageSectionFolder": "127-0-0-1--home/sections/find-the-right-solution-rich-text-section",
+      "fingerprint": "ad78a2527e7109a3",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "AnAccountThatKeepsRichTextSection",
+      "sourceCmsName": "AnAccountThatKeepsRichTextSection",
+      "domainFolder": "an-account-that-keeps-rich-text-section",
+      "pageSectionFolder": "127-0-0-1--home/sections/an-account-that-keeps-rich-text-section",
+      "fingerprint": "33f767364ac7b66a",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "RecommendedForYouSarahRichTextSection",
+      "sourceCmsName": "RecommendedForYouSarahRichTextSection",
+      "domainFolder": "recommended-for-you-sarah-rich-text-section",
+      "pageSectionFolder": "127-0-0-1--home/sections/recommended-for-you-sarah-rich-text-section",
+      "fingerprint": "e8f8e6d779c45421",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "ChooseARelationshipThatCtaBlock",
+      "sourceCmsName": "ChooseARelationshipThatCtaBlock",
+      "domainFolder": "choose-a-relationship-that-cta-block",
+      "pageSectionFolder": "127-0-0-1--home/sections/choose-a-relationship-that-cta-block",
+      "fingerprint": "0cf6a95edabc8c2e",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "YourBankShouldThinkRichTextSection",
+      "sourceCmsName": "YourBankShouldThinkRichTextSection",
+      "domainFolder": "your-bank-should-think-rich-text-section",
+      "pageSectionFolder": "127-0-0-1--home/sections/your-bank-should-think-rich-text-section",
+      "fingerprint": "f4a9b06fd4b6719a",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "YourHomeGoalIsRichTextSection",
+      "sourceCmsName": "YourHomeGoalIsRichTextSection",
+      "domainFolder": "your-home-goal-is-rich-text-section",
+      "pageSectionFolder": "127-0-0-1--home/sections/your-home-goal-is-rich-text-section",
+      "fingerprint": "5b4fc5fc09e2aff9",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "SeeWhatOneRegularRichTextSection",
+      "sourceCmsName": "SeeWhatOneRegularRichTextSection",
+      "domainFolder": "see-what-one-regular-rich-text-section",
+      "pageSectionFolder": "127-0-0-1--home/sections/see-what-one-regular-rich-text-section",
+      "fingerprint": "8bb8563d05022bff",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "MoreValueInEveryRichTextSection",
+      "sourceCmsName": "MoreValueInEveryRichTextSection",
+      "domainFolder": "more-value-in-every-rich-text-section",
+      "pageSectionFolder": "127-0-0-1--home/sections/more-value-in-every-rich-text-section",
+      "fingerprint": "58da6e171c78615b",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "IdeasAnswersAndAFaqSection",
+      "sourceCmsName": "IdeasAnswersAndAFaqSection",
+      "domainFolder": "ideas-answers-and-a-faq-section",
+      "pageSectionFolder": "127-0-0-1--home/sections/ideas-answers-and-a-faq-section",
+      "fingerprint": "e0dc27d0a61af04b",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "ContentBlock9",
+      "sourceCmsName": "ContentBlock9",
+      "domainFolder": "content-block9",
+      "pageSectionFolder": "127-0-0-1--home/sections/content-block9",
+      "fingerprint": "4ca50514aa9c91a4",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    }
+  ],
+  "componentsToBuild": [
+    "EventDetailHeroSection",
+    "FindTheRightSolutionRichTextSection",
+    "AnAccountThatKeepsRichTextSection",
+    "RecommendedForYouSarahRichTextSection",
+    "ChooseARelationshipThatCtaBlock",
+    "YourBankShouldThinkRichTextSection",
+    "YourHomeGoalIsRichTextSection",
+    "SeeWhatOneRegularRichTextSection",
+    "MoreValueInEveryRichTextSection",
+    "IdeasAnswersAndAFaqSection",
+    "ContentBlock9"
+  ]
+}

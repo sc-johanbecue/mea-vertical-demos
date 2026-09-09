@@ -1,0 +1,23 @@
+---
+ID: "1751fc46-9c18-4c66-991f-6dc60a187ac0"
+Parent: "a746ce2c-57b5-455b-9525-c280cb8a3b7c"
+Template: "a746ce2c-57b5-455b-9525-c280cb8a3b7c"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/FeatureIconItem Templates/FeatureIconItem Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {07D6EB1A-2746-44ED-AA6F-83E0A41C4C83}
+    {A746CE2C-57B5-455B-9525-C280CB8A3B7C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

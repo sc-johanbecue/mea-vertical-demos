@@ -1,0 +1,23 @@
+---
+ID: "2ed5a634-54bb-4f92-bc28-5bfd1342f743"
+Parent: "b491a787-bdd3-488d-8030-8d12ffdcc7be"
+Template: "b491a787-bdd3-488d-8030-8d12ffdcc7be"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/RecommendationCard Templates/RecommendationCard Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {BC46B4C6-B746-4AEE-BB5D-44420D121142}
+    {B491A787-BDD3-488D-8030-8D12FFDCC7BE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,23 @@
+---
+ID: "99d5d08a-e415-4924-a8cf-da65172830cc"
+Parent: "96b29978-4530-48c2-8238-8edc56b0fbbc"
+Template: "96b29978-4530-48c2-8238-8edc56b0fbbc"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/QuickActionsGrid Templates/QuickActionsGrid Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {8DEBD262-B844-4E3C-BADF-98392381285F}
+    {96B29978-4530-48C2-8238-8EDC56B0FBBC}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

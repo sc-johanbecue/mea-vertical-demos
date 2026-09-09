@@ -1,6 +1,6 @@
 {
-  "projectRoot": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots",
-  "updatedAt": "2026-09-01T09:10:28.437Z",
+  "projectRoot": "C:\\Projects\\SE19\\mea-vertical-demos\\.cursor\\design-screenshots",
+  "updatedAt": "2026-09-09T08:17:39.772Z",
   "components": {
     "Header": {
       "cmsName": "Header",
@@ -38,6 +38,91 @@
       "confidence": "high",
       "sourceSectionFolders": [
         "header"
+      ]
+    },
+    "FullBleedHeroBannerSection": {
+      "cmsName": "FullBleedHeroBannerSection",
+      "componentType": "Hero",
+      "description": "Full-bleed hero banner with title and CTA.",
+      "fields": [
+        {
+          "name": "Title",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "Body",
+          "type": "Multi-Line Text"
+        },
+        {
+          "name": "BackgroundImage",
+          "type": "Image"
+        },
+        {
+          "name": "Cta",
+          "type": "General Link"
+        }
+      ],
+      "placeholders": [],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated"
+      ],
+      "confidence": "medium",
+      "sourceSectionFolders": [
+        "event-detail-hero-section"
+      ]
+    },
+    "ImageRichTextSection": {
+      "cmsName": "ImageRichTextSection",
+      "componentType": "Section",
+      "description": "Editorial content section inferred from screenshot band.",
+      "fields": [
+        {
+          "name": "Title",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "Body",
+          "type": "Multi-Line Text"
+        }
+      ],
+      "placeholders": [],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated"
+      ],
+      "confidence": "medium",
+      "sourceSectionFolders": [
+        "find-the-right-solution-rich-text-section",
+        "an-account-that-keeps-rich-text-section",
+        "recommended-for-you-sarah-rich-text-section",
+        "your-bank-should-think-rich-text-section",
+        "your-home-goal-is-rich-text-section",
+        "see-what-one-regular-rich-text-section",
+        "more-value-in-every-rich-text-section"
+      ]
+    },
+    "TitleDescriptionCtaSection": {
+      "cmsName": "TitleDescriptionCtaSection",
+      "componentType": "Section",
+      "description": "Editorial content section inferred from screenshot band.",
+      "fields": [],
+      "placeholders": [],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated"
+      ],
+      "confidence": "medium",
+      "sourceSectionFolders": [
+        "choose-a-relationship-that-cta-block",
+        "ideas-answers-and-a-faq-section",
+        "content-block9"
       ]
     }
   }

@@ -1,0 +1,219 @@
+{
+  "url": "http://127.0.0.1:5173/#travel",
+  "slug": "127-0-0-1--home",
+  "sectionOrder": [
+    "Header",
+    "MakeEveryJourneyEventDetailHeroSectionSection",
+    "HomeContentBlock2",
+    "MoreRewardingFromDepartureRichTextSection",
+    "RecommendedYouSarahRecommendedForYouSarahRichTextSection",
+    "Footer"
+  ],
+  "components": [
+    {
+      "cmsName": "EventDetailHeroSection",
+      "folderName": "event-detail-hero-section",
+      "type": "hero",
+      "scope": "page",
+      "selector": "section.page-hero.card-hero",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "order": 0,
+      "heading": "Make every journey feel first class.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "ContentBlock2",
+      "folderName": "content-block2",
+      "type": "content-section",
+      "scope": "page",
+      "selector": "section.content-section.feature-row",
+      "reason": "Major full-width content band",
+      "order": 1,
+      "heading": null,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "MoreRewardingFromDepartureRichTextSection",
+      "folderName": "more-rewarding-from-departure-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section.content-section.card-detail",
+      "reason": "MoreRewardingFromDepartureRichTextSection: editorial content block",
+      "order": 2,
+      "heading": "More rewarding from departure to arrival.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "RecommendedForYouSarahRichTextSection",
+      "folderName": "recommended-for-you-sarah-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "#root > div > main > section:nth-of-type(4)",
+      "reason": "RecommendedForYouSarahRichTextSection: editorial content block",
+      "order": 3,
+      "heading": "Recommended for you, Sarah",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "type": "footer",
+      "scope": "site",
+      "selector": "#root > div > footer",
+      "reason": "Site footer with links and legal",
+      "order": 4,
+      "heading": null,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    }
+  ],
+  "stickyOverlays": {
+    "components": [
+      {
+        "cmsName": "Header",
+        "captured": false,
+        "skipped": true
+      }
+    ],
+    "hideMethod": "css",
+    "found": true
+  },
+  "fullPageShots": {
+    "overlay": {
+      "desktop": "desktop.png",
+      "tablet": "tablet.png",
+      "mobile": "mobile.png"
+    },
+    "clean": {
+      "desktop": "desktop-clean.png",
+      "tablet": "tablet-clean.png",
+      "mobile": "mobile-clean.png"
+    }
+  },
+  "design": {
+    "fonts": [
+      {
+        "family": "DM Sans",
+        "count": 44,
+        "sources": []
+      },
+      {
+        "family": "Georgia",
+        "count": 6,
+        "sources": []
+      }
+    ],
+    "colors": {
+      "primary": {
+        "hex": [],
+        "gradients": [
+          "linear-gradient(110deg, #cb8d28, #e4ad45)"
+        ]
+      },
+      "secondary": {
+        "hex": [
+          "#001a3a",
+          "#1b2432"
+        ],
+        "gradients": []
+      },
+      "accent": {
+        "hex": [],
+        "gradients": []
+      },
+      "neutrals": {
+        "hex": [
+          "#d7e0ea",
+          "#e4ebf3",
+          "#edf3fc",
+          "#ffffff"
+        ],
+        "gradients": []
+      },
+      "semantic": {
+        "success": "#eef5f0",
+        "error": "#ff6b28",
+        "warning": "#f8f2e9",
+        "info": "#07162f"
+      }
+    },
+    "css": {
+      "directory": "css",
+      "files": []
+    }
+  },
+  "newSections": {
+    "pageSlug": "127-0-0-1--home",
+    "pageDir": "travel",
+    "pageSectionsRoot": "travel/sections",
+    "domainSectionsRoot": "sections",
+    "mergedAt": "2026-09-09T08:26:47.483Z",
+    "sections": [
+      {
+        "action": "variant",
+        "cmsName": "MakeEveryJourneyEventDetailHeroSectionSection",
+        "sourceCmsName": "EventDetailHeroSection",
+        "domainFolder": "home-event-detail-hero-section-alt",
+        "pageSectionFolder": "travel/sections/event-detail-hero-section",
+        "fingerprint": "b63bc657b4428f92",
+        "existingDomainCmsName": "EventDetailHeroSection",
+        "buildComponent": true
+      },
+      {
+        "action": "variant",
+        "cmsName": "HomeContentBlock2",
+        "sourceCmsName": "ContentBlock2",
+        "domainFolder": "home-content-block2",
+        "pageSectionFolder": "travel/sections/content-block2",
+        "fingerprint": "ff1a4c2f7a6d3958",
+        "existingDomainCmsName": "ContentBlock2",
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "MoreRewardingFromDepartureRichTextSection",
+        "sourceCmsName": "MoreRewardingFromDepartureRichTextSection",
+        "domainFolder": "more-rewarding-from-departure-rich-text-section",
+        "pageSectionFolder": "travel/sections/more-rewarding-from-departure-rich-text-section",
+        "fingerprint": "d0bd18cb17ec1afa",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "variant",
+        "cmsName": "RecommendedYouSarahRecommendedForYouSarahRichTextSection",
+        "sourceCmsName": "RecommendedForYouSarahRichTextSection",
+        "domainFolder": "home-recommended-for-you-sarah-rich-text-section",
+        "pageSectionFolder": "travel/sections/recommended-for-you-sarah-rich-text-section",
+        "fingerprint": "e31cd88df0f631ed",
+        "existingDomainCmsName": "RecommendedForYouSarahRichTextSection",
+        "buildComponent": true
+      }
+    ],
+    "componentsToBuild": [
+      "MakeEveryJourneyEventDetailHeroSectionSection",
+      "HomeContentBlock2",
+      "MoreRewardingFromDepartureRichTextSection",
+      "RecommendedYouSarahRecommendedForYouSarahRichTextSection"
+    ]
+  }
+}

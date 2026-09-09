@@ -1,0 +1,23 @@
+---
+ID: "5c35979c-457a-409b-96f0-4318a93bab84"
+Parent: "8f101b75-0536-41ca-88c2-1e5c43f0b899"
+Template: "8f101b75-0536-41ca-88c2-1e5c43f0b899"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/ChatAssistantButton Templates/ChatAssistantButton Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {31DF98A8-8928-4A2E-957B-8ABB8684BD90}
+    {8F101B75-0536-41CA-88C2-1E5C43F0B899}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

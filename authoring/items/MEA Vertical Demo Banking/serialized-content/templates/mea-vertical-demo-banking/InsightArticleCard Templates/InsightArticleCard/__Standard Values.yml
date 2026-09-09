@@ -1,0 +1,17 @@
+---
+ID: "5ace91de-9ed2-444b-a521-b7faaef728d1"
+Parent: "db2e25a5-4945-4889-9911-9f4ecd7d2d31"
+Template: "db2e25a5-4945-4889-9911-9f4ecd7d2d31"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/InsightArticleCard Templates/InsightArticleCard/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

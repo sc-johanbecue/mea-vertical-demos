@@ -1,0 +1,42 @@
+---
+ID: "262bee1c-0c15-4cab-ae11-c47ad0ad00cd"
+Parent: "af78b4a4-70c2-45cc-9c2d-d0ead1eaf3b9"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: "/sitecore/layout/Renderings/Project/mea-vertical-demo-banking/InsightsGuidanceSection"
+SharedFields:
+- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
+  Hint: Placeholders
+  Value: |
+    {F82D5562-F8C9-4F13-B661-B5D5FC0FCB24}
+    {F1B045C1-32A6-45DF-AFAF-FF63C5CD6EA7}
+    {164A3DDD-EAC7-4B2E-A3D4-E7C0F67FF942}
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: InsightsGuidanceSection
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: "/sitecore/templates/Project/mea-vertical-demo-banking/InsightsGuidanceSection Templates/InsightsGuidanceSection"
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{A06B9F41-7C6D-43FE-AADF-7294FDDD4224}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='InsightsGuidanceSection Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='InsightsGuidanceSection Folder']"
+- ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
+  Hint: Open Properties after Add
+  Value: 0
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/window_star.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

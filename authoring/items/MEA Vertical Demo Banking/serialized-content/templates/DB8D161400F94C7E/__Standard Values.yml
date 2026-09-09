@@ -1,0 +1,17 @@
+---
+ID: "80a9e7b9-df6a-42d0-b752-8d93397bda63"
+Parent: "176323c3-0433-47a3-aacf-d9935cf02fd9"
+Template: "176323c3-0433-47a3-aacf-d9935cf02fd9"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/NextBestActionItem Templates/NextBestActionItem Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

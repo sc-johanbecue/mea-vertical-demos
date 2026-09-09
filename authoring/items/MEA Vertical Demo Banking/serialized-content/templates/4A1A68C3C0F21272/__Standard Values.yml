@@ -1,0 +1,23 @@
+---
+ID: "7a02be08-4a6d-48b9-a831-fb829b2bcd19"
+Parent: "6ef2cb96-906f-4acc-84ad-e76d148b9818"
+Template: "6ef2cb96-906f-4acc-84ad-e76d148b9818"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/DigitalFeatureBlock Templates/DigitalFeatureBlock Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {D5E5959C-F750-4098-92A7-5ABCBD056A10}
+    {6EF2CB96-906F-4ACC-84AD-E76D148B9818}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

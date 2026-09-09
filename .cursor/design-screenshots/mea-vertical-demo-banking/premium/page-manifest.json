@@ -1,0 +1,245 @@
+{
+  "url": "http://127.0.0.1:5173/#premium",
+  "slug": "127-0-0-1--home",
+  "sectionOrder": [
+    "Header",
+    "BankingThatMovesEventDetailHeroSection",
+    "ContentBlock2",
+    "RecognisedWhereverLifeTakesRichTextSection",
+    "ExploreYourPremiumBenefitsRichTextSection",
+    "ContentBlock5",
+    "Footer"
+  ],
+  "components": [
+    {
+      "cmsName": "EventDetailHeroSection",
+      "folderName": "event-detail-hero-section",
+      "type": "hero",
+      "scope": "page",
+      "selector": "section.page-hero",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "order": 0,
+      "heading": "Banking that moves with your ambitions.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "ContentBlock2",
+      "folderName": "content-block2",
+      "type": "content-section",
+      "scope": "page",
+      "selector": "div.benefit-strip.light",
+      "reason": "Major full-width content band",
+      "order": 1,
+      "heading": null,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "RecognisedWhereverLifeTakesRichTextSection",
+      "folderName": "recognised-wherever-life-takes-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section.content-section.split-story",
+      "reason": "RecognisedWhereverLifeTakesRichTextSection: editorial content block",
+      "order": 2,
+      "heading": "Recognised wherever life takes you.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "ExploreYourPremiumBenefitsRichTextSection",
+      "folderName": "explore-your-premium-benefits-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "#root > div > main > section:nth-of-type(3)",
+      "reason": "ExploreYourPremiumBenefitsRichTextSection: editorial content block",
+      "order": 3,
+      "heading": "Explore your Premium benefits",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "ContentBlock5",
+      "folderName": "content-block5",
+      "type": "content-section",
+      "scope": "page",
+      "selector": "section.confidence",
+      "reason": "Major full-width content band",
+      "order": 4,
+      "heading": null,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "type": "footer",
+      "scope": "site",
+      "selector": "#root > div > footer",
+      "reason": "Site footer with links and legal",
+      "order": 5,
+      "heading": null,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    }
+  ],
+  "stickyOverlays": {
+    "components": [
+      {
+        "cmsName": "Header",
+        "captured": false,
+        "skipped": true
+      }
+    ],
+    "hideMethod": "css",
+    "found": true
+  },
+  "fullPageShots": {
+    "overlay": {
+      "desktop": "desktop.png",
+      "tablet": "tablet.png",
+      "mobile": "mobile.png"
+    },
+    "clean": {
+      "desktop": "desktop-clean.png",
+      "tablet": "tablet-clean.png",
+      "mobile": "mobile-clean.png"
+    }
+  },
+  "design": {
+    "fonts": [
+      {
+        "family": "DM Sans",
+        "count": 43,
+        "sources": []
+      },
+      {
+        "family": "Georgia",
+        "count": 6,
+        "sources": []
+      }
+    ],
+    "colors": {
+      "primary": {
+        "hex": [],
+        "gradients": [
+          "linear-gradient(110deg, #cb8d28, #e4ad45)"
+        ]
+      },
+      "secondary": {
+        "hex": [
+          "#001a3a",
+          "#1b2432"
+        ],
+        "gradients": []
+      },
+      "accent": {
+        "hex": [],
+        "gradients": []
+      },
+      "neutrals": {
+        "hex": [
+          "#e4ebf3",
+          "#edf3fc",
+          "#ffffff"
+        ],
+        "gradients": []
+      },
+      "semantic": {
+        "success": "#eef5f0",
+        "error": "#ff6b28",
+        "warning": "#f8f2e9",
+        "info": "#07162f"
+      }
+    },
+    "css": {
+      "directory": "css",
+      "files": []
+    }
+  },
+  "newSections": {
+    "pageSlug": "127-0-0-1--home",
+    "pageDir": "premium",
+    "pageSectionsRoot": "premium/sections",
+    "domainSectionsRoot": "sections",
+    "mergedAt": "2026-09-09T08:26:19.052Z",
+    "sections": [
+      {
+        "action": "variant",
+        "cmsName": "BankingThatMovesEventDetailHeroSection",
+        "sourceCmsName": "EventDetailHeroSection",
+        "domainFolder": "home-event-detail-hero-section",
+        "pageSectionFolder": "premium/sections/event-detail-hero-section",
+        "fingerprint": "80fc529ab341b827",
+        "existingDomainCmsName": "EventDetailHeroSection",
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "ContentBlock2",
+        "sourceCmsName": "ContentBlock2",
+        "domainFolder": "content-block2",
+        "pageSectionFolder": "premium/sections/content-block2",
+        "fingerprint": "f7d47a1bf9327025",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "RecognisedWhereverLifeTakesRichTextSection",
+        "sourceCmsName": "RecognisedWhereverLifeTakesRichTextSection",
+        "domainFolder": "recognised-wherever-life-takes-rich-text-section",
+        "pageSectionFolder": "premium/sections/recognised-wherever-life-takes-rich-text-section",
+        "fingerprint": "6d7add2707180851",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "ExploreYourPremiumBenefitsRichTextSection",
+        "sourceCmsName": "ExploreYourPremiumBenefitsRichTextSection",
+        "domainFolder": "explore-your-premium-benefits-rich-text-section",
+        "pageSectionFolder": "premium/sections/explore-your-premium-benefits-rich-text-section",
+        "fingerprint": "fcd7afe9bad6c7c9",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "ContentBlock5",
+        "sourceCmsName": "ContentBlock5",
+        "domainFolder": "content-block5",
+        "pageSectionFolder": "premium/sections/content-block5",
+        "fingerprint": "39224d4f555ecdf4",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      }
+    ],
+    "componentsToBuild": [
+      "BankingThatMovesEventDetailHeroSection",
+      "ContentBlock2",
+      "RecognisedWhereverLifeTakesRichTextSection",
+      "ExploreYourPremiumBenefitsRichTextSection",
+      "ContentBlock5"
+    ]
+  }
+}

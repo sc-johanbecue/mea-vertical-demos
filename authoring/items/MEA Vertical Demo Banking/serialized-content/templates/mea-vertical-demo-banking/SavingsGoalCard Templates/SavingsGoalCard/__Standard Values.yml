@@ -1,0 +1,17 @@
+---
+ID: "027e8953-5cca-46bc-b611-0bfceb1d07fd"
+Parent: "c7810c77-7469-4c0d-b926-b833e6884bb5"
+Template: "c7810c77-7469-4c0d-b926-b833e6884bb5"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/SavingsGoalCard Templates/SavingsGoalCard/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

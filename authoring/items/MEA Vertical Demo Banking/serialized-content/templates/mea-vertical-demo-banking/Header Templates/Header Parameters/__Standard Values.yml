@@ -1,0 +1,17 @@
+---
+ID: "e3240d99-41ed-45f0-8cf4-a0710f099d9c"
+Parent: "863bf24b-815e-4b30-85f6-897458961848"
+Template: "863bf24b-815e-4b30-85f6-897458961848"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/Header Templates/Header Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

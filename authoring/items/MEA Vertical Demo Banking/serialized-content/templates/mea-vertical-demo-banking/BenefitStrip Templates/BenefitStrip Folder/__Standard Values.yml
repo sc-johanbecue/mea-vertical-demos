@@ -1,0 +1,23 @@
+---
+ID: "560d08ab-39d2-4afa-8635-1e136d8aa2d5"
+Parent: "bdf00aaf-0ed0-4464-bcd3-3dcbc681109f"
+Template: "bdf00aaf-0ed0-4464-bcd3-3dcbc681109f"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/BenefitStrip Templates/BenefitStrip Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {660A6189-C46D-4ABA-AF44-4C68421CB678}
+    {BDF00AAF-0ED0-4464-BCD3-3DCBC681109F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

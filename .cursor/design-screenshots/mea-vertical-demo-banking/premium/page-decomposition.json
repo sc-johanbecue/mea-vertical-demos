@@ -1,0 +1,65 @@
+{
+  "slug": "127-0-0-1--home",
+  "url": "http://127.0.0.1:5173/#premium",
+  "layoutChrome": [
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    }
+  ],
+  "sections": [
+    {
+      "order": 1,
+      "sectionFolder": "home-event-detail-hero-section",
+      "sectionScreenshotName": "BankingThatMovesEventDetailHeroSection",
+      "parentComponent": {
+        "cmsName": "FullBleedHeroBannerSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 2,
+      "sectionFolder": "content-block2",
+      "sectionScreenshotName": "ContentBlock2",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionCtaSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 3,
+      "sectionFolder": "recognised-wherever-life-takes-rich-text-section",
+      "sectionScreenshotName": "RecognisedWhereverLifeTakesRichTextSection",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 4,
+      "sectionFolder": "explore-your-premium-benefits-rich-text-section",
+      "sectionScreenshotName": "ExploreYourPremiumBenefitsRichTextSection",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 5,
+      "sectionFolder": "content-block5",
+      "sectionScreenshotName": "ContentBlock5",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionCtaSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    }
+  ],
+  "confidence": "high",
+  "notes": []
+}

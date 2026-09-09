@@ -1,0 +1,17 @@
+---
+ID: "de990caf-3a9a-422a-a506-9d6122759d35"
+Parent: "a08ec8f2-ad87-4532-bd77-46e5a995d9d4"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/ProductCardHero Templates"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

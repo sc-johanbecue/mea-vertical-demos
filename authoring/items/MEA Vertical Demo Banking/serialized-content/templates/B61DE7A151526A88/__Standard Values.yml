@@ -1,0 +1,17 @@
+---
+ID: "cce10d10-3a79-4ff2-979a-6de6f8718c74"
+Parent: "ffddb2fc-f57b-4f51-ad66-e905a227dc5a"
+Template: "ffddb2fc-f57b-4f51-ad66-e905a227dc5a"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/AccountSummaryCard Templates/AccountSummaryCard Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

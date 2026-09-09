@@ -1,0 +1,52 @@
+{
+  "fonts": [
+    {
+      "family": "DM Sans",
+      "count": 44,
+      "sources": []
+    },
+    {
+      "family": "Georgia",
+      "count": 6,
+      "sources": []
+    }
+  ],
+  "colors": {
+    "primary": {
+      "hex": [],
+      "gradients": [
+        "linear-gradient(110deg, #cb8d28, #e4ad45)"
+      ]
+    },
+    "secondary": {
+      "hex": [
+        "#001a3a",
+        "#1b2432"
+      ],
+      "gradients": []
+    },
+    "accent": {
+      "hex": [],
+      "gradients": []
+    },
+    "neutrals": {
+      "hex": [
+        "#d7e0ea",
+        "#e4ebf3",
+        "#edf3fc",
+        "#ffffff"
+      ],
+      "gradients": []
+    },
+    "semantic": {
+      "success": "#eef5f0",
+      "error": "#ff6b28",
+      "warning": "#f8f2e9",
+      "info": "#07162f"
+    }
+  },
+  "css": {
+    "directory": "css",
+    "files": []
+  }
+}

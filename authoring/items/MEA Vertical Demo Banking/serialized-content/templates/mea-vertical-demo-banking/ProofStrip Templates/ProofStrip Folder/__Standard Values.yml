@@ -1,0 +1,23 @@
+---
+ID: "01e6d405-3ad8-449f-bfd4-83cfb61a2bc1"
+Parent: "da158f1c-4dca-4839-a7d0-ef17d2f0c7be"
+Template: "da158f1c-4dca-4839-a7d0-ef17d2f0c7be"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/ProofStrip Templates/ProofStrip Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {13177B09-D029-4335-94BD-8D30C76051E4}
+    {DA158F1C-4DCA-4839-A7D0-EF17D2F0C7BE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

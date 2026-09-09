@@ -1,0 +1,23 @@
+---
+ID: "e86a1fe6-33b8-40c7-972a-98d441bb6a15"
+Parent: "f8a5db17-83f4-4b55-8af3-6e4c69ae8dbc"
+Template: "f8a5db17-83f4-4b55-8af3-6e4c69ae8dbc"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/ProductCardHero Templates/ProductCardHero Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {095B0EEB-25ED-48AA-860D-02FAA5DC0E0C}
+    {F8A5DB17-83F4-4B55-8AF3-6E4C69AE8DBC}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

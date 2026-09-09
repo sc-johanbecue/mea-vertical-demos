@@ -1,0 +1,23 @@
+---
+ID: "52341ddd-6b32-4fbf-87f7-7552582d568f"
+Parent: "a04bcb6a-a6e7-4b7d-a0a1-456acaf0bd92"
+Template: "a04bcb6a-a6e7-4b7d-a0a1-456acaf0bd92"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/AccountSummaryCard Templates/AccountSummaryCard Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {ED57487B-417D-444D-B4D1-87F900B03227}
+    {A04BCB6A-A6E7-4B7D-A0A1-456ACAF0BD92}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

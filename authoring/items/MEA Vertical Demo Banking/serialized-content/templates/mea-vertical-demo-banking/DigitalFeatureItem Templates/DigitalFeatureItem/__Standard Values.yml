@@ -1,0 +1,17 @@
+---
+ID: "aacf2d04-987e-40ad-9993-77e1fea15dd4"
+Parent: "58f24185-0239-4353-bad5-a595ca4c0385"
+Template: "58f24185-0239-4353-bad5-a595ca4c0385"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/DigitalFeatureItem Templates/DigitalFeatureItem/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

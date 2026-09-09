@@ -1,0 +1,24 @@
+---
+ID: "174a78ad-41ec-4306-9ad4-7272b0d75b16"
+Parent: "ecdce85b-7d1e-40bd-9217-a1fc87d542ee"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/PremiumHeroBanner Templates/PremiumHeroBanner Folder"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/window_star.png
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{91357AF2-D0E8-404E-81A2-2760650D6999}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,23 @@
+---
+ID: "2b86664a-f058-4796-bb05-22b443b851fe"
+Parent: "417bbe70-2b2a-485d-8c23-b6719eafbd46"
+Template: "417bbe70-2b2a-485d-8c23-b6719eafbd46"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/GoalPlannerSection Templates/GoalPlannerSection Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {32F2EBAE-705F-46E1-8D24-C327A461166D}
+    {417BBE70-2B2A-485D-8C23-B6719EAFBD46}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

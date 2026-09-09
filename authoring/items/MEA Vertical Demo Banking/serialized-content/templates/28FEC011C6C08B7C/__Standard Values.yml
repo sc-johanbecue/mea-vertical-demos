@@ -1,0 +1,23 @@
+---
+ID: "9f76c73e-9e8f-4d56-b9f2-38ce87674a57"
+Parent: "2141035e-8858-4190-9c74-eef4d2529a36"
+Template: "2141035e-8858-4190-9c74-eef4d2529a36"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/RelationshipTierCard Templates/RelationshipTierCard Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {F301C63F-F721-463F-8923-87423891DBD3}
+    {2141035E-8858-4190-9C74-EEF4D2529A36}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

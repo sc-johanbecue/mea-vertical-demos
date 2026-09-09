@@ -1,0 +1,23 @@
+---
+ID: "2883e8d7-a2b4-46f6-9edb-0e2166b1f3b5"
+Parent: "6d6a44ab-ec81-4fa8-b8c5-092f2ef50874"
+Template: "6d6a44ab-ec81-4fa8-b8c5-092f2ef50874"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/InsightTopicItem Templates/InsightTopicItem Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {EAC75145-7E72-4F7D-AB5D-B87EB548E0D3}
+    {6D6A44AB-EC81-4FA8-B8C5-092F2EF50874}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

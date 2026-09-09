@@ -1,0 +1,284 @@
+/* Digital Experience Bank — generated base styles */
+:root {
+  --deb-navy: #001a3a;
+  --deb-navy-deep: #05192d;
+  --deb-gold: #d4a017;
+  --deb-orange: #e57347;
+  --deb-cream: #f7f3eb;
+  --deb-muted: #66717f;
+  --deb-white: #ffffff;
+  --deb-serif: Georgia, 'Times New Roman', serif;
+  --deb-sans: 'DM Sans', system-ui, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--deb-sans);
+  color: var(--deb-navy);
+  background: var(--deb-cream);
+}
+
+a { color: inherit; }
+
+.deb-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  padding: 0.85rem 1.5rem;
+  background: var(--deb-white);
+  border-bottom: 1px solid #dce4ee;
+}
+
+.deb-header__logo-text {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.deb-header__header-nav {
+  display: flex;
+  flex: 1;
+  gap: 1rem;
+  align-items: center;
+}
+
+.deb-nav-item {
+  display: inline-flex;
+}
+
+.deb-premium-hero-banner,
+.deb-product-card-hero {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 1.5rem;
+  width: 100%;
+  min-height: 28rem;
+  padding: 3rem 2rem;
+  background: linear-gradient(145deg, #001a3a, #073b6c);
+  color: var(--deb-white);
+}
+
+.deb-premium-hero-banner__title,
+.deb-product-card-hero__title,
+.deb-why-premium-section__title,
+.deb-premium-value-section__title {
+  font-family: var(--deb-serif);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.15;
+}
+
+.deb-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  background: var(--deb-navy-deep);
+  color: var(--deb-white);
+}
+
+.deb-chat-assistant-button {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 40;
+  padding: 0.75rem 1.1rem;
+  border-radius: 999px;
+  background: var(--deb-orange);
+  color: var(--deb-white);
+}
+
+
+.deb-proof-strip {
+  display: block;
+  width: 100%;
+}
+
+.deb-proof-item {
+  display: block;
+  width: 100%;
+}
+
+.deb-product-solution-explorer {
+  display: block;
+  width: 100%;
+}
+
+.deb-product-solution-panel {
+  display: block;
+  width: 100%;
+}
+
+.deb-recommendation-card-grid {
+  display: block;
+  width: 100%;
+}
+
+.deb-recommendation-card {
+  display: block;
+  width: 100%;
+}
+
+.deb-relationship-tier-grid {
+  display: block;
+  width: 100%;
+}
+
+.deb-relationship-tier-card {
+  display: block;
+  width: 100%;
+}
+
+.deb-digital-feature-block {
+  display: block;
+  width: 100%;
+}
+
+.deb-digital-feature-item {
+  display: block;
+  width: 100%;
+}
+
+.deb-next-best-action-card {
+  display: block;
+  width: 100%;
+}
+
+.deb-next-best-action-item {
+  display: block;
+  width: 100%;
+}
+
+.deb-goal-planner-section {
+  display: block;
+  width: 100%;
+}
+
+.deb-premium-value-section {
+  display: block;
+  width: 100%;
+}
+
+.deb-value-stat-item {
+  display: block;
+  width: 100%;
+}
+
+.deb-insights-guidance-section {
+  display: block;
+  width: 100%;
+}
+
+.deb-insight-article-card {
+  display: block;
+  width: 100%;
+}
+
+.deb-insight-topic-item {
+  display: block;
+  width: 100%;
+}
+
+.deb-faq-item {
+  display: block;
+  width: 100%;
+}
+
+.deb-confidence-cta-bar {
+  display: block;
+  width: 100%;
+}
+
+.deb-footer {
+  display: block;
+  width: 100%;
+}
+
+.deb-footer-link-item {
+  display: block;
+  width: 100%;
+}
+
+.deb-benefit-strip {
+  display: block;
+  width: 100%;
+}
+
+.deb-why-premium-section {
+  display: block;
+  width: 100%;
+}
+
+.deb-product-card-hero {
+  display: block;
+  width: 100%;
+}
+
+.deb-feature-icon-row {
+  display: block;
+  width: 100%;
+}
+
+.deb-feature-icon-item {
+  display: block;
+  width: 100%;
+}
+
+.deb-product-value-highlight {
+  display: block;
+  width: 100%;
+}
+
+.deb-banking-overview-header {
+  display: block;
+  width: 100%;
+}
+
+.deb-account-summary-card {
+  display: block;
+  width: 100%;
+}
+
+.deb-savings-goal-card {
+  display: block;
+  width: 100%;
+}
+
+.deb-quick-actions-grid {
+  display: block;
+  width: 100%;
+}
+
+.deb-quick-action-item {
+  display: block;
+  width: 100%;
+}
+
+.deb-recent-activity-section {
+  display: block;
+  width: 100%;
+}
+
+.deb-activity-item {
+  display: block;
+  width: 100%;
+}
+
+.deb-chat-assistant-button {
+  display: block;
+  width: 100%;
+}
+
+.deb-recommendation-card--inversed {
+  background: var(--deb-navy);
+  color: var(--deb-white);
+}
+
+.deb-chat-assistant-button {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 40;
+}

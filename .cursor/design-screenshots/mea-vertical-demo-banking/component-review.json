@@ -1,0 +1,1631 @@
+{
+  "project": "mea-vertical-demo-banking",
+  "sourceUrls": [
+    "http://127.0.0.1:5173/",
+    "http://127.0.0.1:5173/#premium",
+    "http://127.0.0.1:5173/#travel",
+    "http://127.0.0.1:5173/#banking"
+  ],
+  "pages": [
+    "127-0-0-1--home",
+    "premium",
+    "travel",
+    "banking"
+  ],
+  "generatedAt": "2026-09-09T08:30:47.230Z",
+  "notes": [
+    "Auto-capture names were content-literal (e.g. EventDetailHeroSection, ContentBlock9). This review renames to CMS taxonomy.",
+    "proof-strip exists in page.html between hero and solutions but was not cropped as its own section — create from full-page evidence.",
+    "digital-section was split into digital-copy + next-best crops; treat as one FeatureBlock with a nested NextBestAction card.",
+    "solution-section intro crop and solution-shell crop belong to one ProductSolutionExplorer parent.",
+    "Added pages premium, travel, banking (hash routes captured as separate page folders).",
+    "Reuse Header/NavItem/Footer/FooterLinkItem across all pages; reuse Recommendation*/ConfidenceCtaBar/PremiumHeroBanner/HeroBenefitItem/PremiumValueSection where visual match is strong.",
+    "Banking dashboard was captured as one crop (div.banking-page); decomposed visually into dashboard components.",
+    "Ask DEB Assistant floating pill appears on premium/travel/banking — proposed as site ChatAssistantButton.",
+    "Stop: approve/adjust actions + answer unclear reuse questions before sitecore-from-capture.",
+    "User decisions: WhyPremiumSection new; ProductCardHero new; FeatureIconRow new. Host: editing-hosts/mea-vertical-demo-banking."
+  ],
+  "components": [
+    {
+      "id": "S1",
+      "cmsName": "Header",
+      "visualRole": "Sticky site header with logo, primary nav, search, messages badge, and profile menu",
+      "scope": "site",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home",
+        "premium",
+        "travel",
+        "banking"
+      ],
+      "sectionFolder": "header",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/header/header-desktop.png"
+      ],
+      "selector": "#root > div > header",
+      "fields": [
+        "logoText",
+        "logoSubtext",
+        "searchLabel",
+        "messagesLabel",
+        "profileName",
+        "profileInitials"
+      ],
+      "placeholders": [
+        {
+          "name": "header-nav",
+          "allows": [
+            "NavItem"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Nav items Home/Accounts/Cards/Loans/Investments/Insurance/Offers/Wealth should be NavItem children. Wire same datasource/partial on premium/travel/banking — do not recreate."
+    },
+    {
+      "id": "S1a",
+      "cmsName": "NavItem",
+      "visualRole": "Primary navigation link with active underline state",
+      "scope": "site",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home",
+        "premium",
+        "travel",
+        "banking"
+      ],
+      "sectionFolder": "header",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/header/header-desktop.png"
+      ],
+      "selector": "header nav button",
+      "fields": [
+        "link",
+        "label"
+      ],
+      "placeholders": [],
+      "parentSection": "Header",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Child of Header. Wire same datasource/partial on premium/travel/banking — do not recreate."
+    },
+    {
+      "id": "S2",
+      "cmsName": "PremiumHeroBanner",
+      "visualRole": "Split premium hero: copy + CTAs on navy panel, lifestyle image, benefit strip overlay",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home",
+        "premium"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/event-detail-hero-section/event-detail-hero-section-desktop.png",
+        ".cursor/design-screenshots/mea-vertical-demo-banking/127-0-0-1--home/desktop-clean.png"
+      ],
+      "selector": "section.hero",
+      "fields": [
+        "eyebrow",
+        "title",
+        "body",
+        "primaryLink",
+        "secondaryLink",
+        "image"
+      ],
+      "placeholders": [
+        {
+          "name": "hero-benefits",
+          "allows": [
+            "HeroBenefitItem"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "HeroBenefitItem",
+      "confidence": "high",
+      "notes": "Replaces auto-name EventDetailHeroSection. Bottom benefit bar is four HeroBenefitItem children."
+    },
+    {
+      "id": "S2a",
+      "cmsName": "HeroBenefitItem",
+      "visualRole": "Icon + title + subtitle in hero benefit strip",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home",
+        "premium"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/event-detail-hero-section/event-detail-hero-section-desktop.png"
+      ],
+      "selector": "section.hero .hero-benefits > div",
+      "fields": [
+        "icon",
+        "title",
+        "subtitle"
+      ],
+      "placeholders": [],
+      "parentSection": "PremiumHeroBanner",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Airport lounge, Travel insurance, Dedicated manager, Priority support."
+    },
+    {
+      "id": "S3",
+      "cmsName": "ProofStrip",
+      "visualRole": "Four-column proof/stats strip under hero",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": null,
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/127-0-0-1--home/desktop-clean.png",
+        ".cursor/design-screenshots/mea-vertical-demo-banking/127-0-0-1--home/page.html"
+      ],
+      "selector": "section.proof-strip",
+      "fields": [],
+      "placeholders": [
+        {
+          "name": "proof-items",
+          "allows": [
+            "ProofItem"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "ProofItem",
+      "confidence": "high",
+      "notes": "Missed by section capture. Present in page.html as section.proof-strip. Needs section crop refresh before build."
+    },
+    {
+      "id": "S3a",
+      "cmsName": "ProofItem",
+      "visualRole": "Stat value + supporting label in proof strip",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": null,
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/127-0-0-1--home/desktop-clean.png"
+      ],
+      "selector": "section.proof-strip > div",
+      "fields": [
+        "value",
+        "label"
+      ],
+      "placeholders": [],
+      "parentSection": "ProofStrip",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "2 minutes / 24/7 / One view / Always secure."
+    },
+    {
+      "id": "S4",
+      "cmsName": "ProductSolutionExplorer",
+      "visualRole": "Section intro + product category tabs + active panel with copy and expectation checklist",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "an-account-that-keeps-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/find-the-right-solution-rich-text-section/find-the-right-solution-rich-text-section-desktop.png",
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/an-account-that-keeps-rich-text-section/an-account-that-keeps-rich-text-section-desktop.png"
+      ],
+      "selector": "section.content-section.solution-section",
+      "fields": [
+        "eyebrow",
+        "title",
+        "intro"
+      ],
+      "placeholders": [
+        {
+          "name": "solution-tabs",
+          "allows": [
+            "ProductSolutionPanel"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "ProductSolutionPanel",
+      "confidence": "high",
+      "notes": "Merges FindTheRightSolutionRichTextSection intro crop with AnAccountThatKeepsRichTextSection shell. Tabs: Accounts, Cards, Home, Wealth."
+    },
+    {
+      "id": "S4a",
+      "cmsName": "ProductSolutionPanel",
+      "visualRole": "Tab panel: eyebrow, title, body, CTA, and navy expectation checklist card",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "an-account-that-keeps-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/an-account-that-keeps-rich-text-section/an-account-that-keeps-rich-text-section-desktop.png"
+      ],
+      "selector": "div.solution-detail",
+      "fields": [
+        "tabLabel",
+        "tabIcon",
+        "eyebrow",
+        "title",
+        "body",
+        "link",
+        "cardIcon",
+        "cardEyebrow",
+        "cardItems"
+      ],
+      "placeholders": [],
+      "parentSection": "ProductSolutionExplorer",
+      "placeholderFor": null,
+      "confidence": "medium",
+      "notes": "cardItems may be RichText or multilist of checklist lines. Marked medium until tab switching strategy is chosen."
+    },
+    {
+      "id": "S5",
+      "cmsName": "RecommendationCardGrid",
+      "visualRole": "Personalized recommendation section with header link and four offer cards",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home",
+        "premium",
+        "travel",
+        "banking"
+      ],
+      "sectionFolder": "recommended-for-you-sarah-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/recommended-for-you-sarah-rich-text-section/recommended-for-you-sarah-rich-text-section-desktop.png"
+      ],
+      "selector": "section.content-section.recommendations",
+      "fields": [
+        "eyebrow",
+        "title",
+        "viewAllLink"
+      ],
+      "placeholders": [
+        {
+          "name": "recommendation-cards",
+          "allows": [
+            "RecommendationCard"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "RecommendationCard",
+      "confidence": "high",
+      "notes": "Replaces RecommendedForYouSarahRichTextSection."
+    },
+    {
+      "id": "S5a",
+      "cmsName": "RecommendationCard",
+      "visualRole": "Offer card with category, title, body, CTA, and icon treatment; supports inverted navy variant",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home",
+        "premium",
+        "travel",
+        "banking"
+      ],
+      "sectionFolder": "recommended-for-you-sarah-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/recommended-for-you-sarah-rich-text-section/recommended-for-you-sarah-rich-text-section-desktop.png"
+      ],
+      "selector": "section.recommendations .card",
+      "fields": [
+        "category",
+        "title",
+        "body",
+        "link",
+        "icon"
+      ],
+      "placeholders": [],
+      "parentSection": "RecommendationCardGrid",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Use variant Inversed for the wealth-advisor navy card."
+    },
+    {
+      "id": "S6",
+      "cmsName": "RelationshipTierGrid",
+      "visualRole": "Three relationship-tier comparison cards with section intro and footer link",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "choose-a-relationship-that-cta-block",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/choose-a-relationship-that-cta-block/choose-a-relationship-that-cta-block-desktop.png"
+      ],
+      "selector": "section.tier-section",
+      "fields": [
+        "eyebrow",
+        "title",
+        "intro",
+        "footerLink"
+      ],
+      "placeholders": [
+        {
+          "name": "tier-cards",
+          "allows": [
+            "RelationshipTierCard"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "RelationshipTierCard",
+      "confidence": "high",
+      "notes": "Replaces ChooseARelationshipThatCtaBlock."
+    },
+    {
+      "id": "S6a",
+      "cmsName": "RelationshipTierCard",
+      "visualRole": "Tier card with label, title, description, feature checklist, CTA; featured/elevated variant",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "choose-a-relationship-that-cta-block",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/choose-a-relationship-that-cta-block/choose-a-relationship-that-cta-block-desktop.png"
+      ],
+      "selector": "div.tier-grid > div",
+      "fields": [
+        "eyebrow",
+        "title",
+        "body",
+        "features",
+        "link"
+      ],
+      "placeholders": [],
+      "parentSection": "RelationshipTierGrid",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Everyday / Premium (featured) / Private."
+    },
+    {
+      "id": "S7",
+      "cmsName": "DigitalFeatureBlock",
+      "visualRole": "Two-column digital banking band: feature list + CTA on left, next-best-action card on right",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "your-bank-should-think-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/your-bank-should-think-rich-text-section/your-bank-should-think-rich-text-section-desktop.png",
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/your-home-goal-is-rich-text-section/your-home-goal-is-rich-text-section-desktop.png",
+        ".cursor/design-screenshots/mea-vertical-demo-banking/127-0-0-1--home/desktop-clean.png"
+      ],
+      "selector": "section.content-section.digital-section",
+      "fields": [
+        "eyebrow",
+        "title",
+        "body",
+        "primaryLink"
+      ],
+      "placeholders": [
+        {
+          "name": "digital-features",
+          "allows": [
+            "DigitalFeatureItem"
+          ]
+        },
+        {
+          "name": "next-best-action",
+          "allows": [
+            "NextBestActionCard"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Merges YourBankShouldThinkRichTextSection + YourHomeGoalIsRichTextSection into one CMS band."
+    },
+    {
+      "id": "S7a",
+      "cmsName": "DigitalFeatureItem",
+      "visualRole": "Icon + title + description row in digital feature list",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "your-bank-should-think-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/your-bank-should-think-rich-text-section/your-bank-should-think-rich-text-section-desktop.png"
+      ],
+      "selector": "div.digital-features > div",
+      "fields": [
+        "icon",
+        "title",
+        "body"
+      ],
+      "placeholders": [],
+      "parentSection": "DigitalFeatureBlock",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "S7b",
+      "cmsName": "NextBestActionCard",
+      "visualRole": "Navy intelligence card with progress meter and two action rows",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "your-home-goal-is-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/your-home-goal-is-rich-text-section/your-home-goal-is-rich-text-section-desktop.png"
+      ],
+      "selector": "div.next-best",
+      "fields": [
+        "statusLabel",
+        "updatedLabel",
+        "eyebrow",
+        "title",
+        "progressValue",
+        "progressLabel"
+      ],
+      "placeholders": [
+        {
+          "name": "next-best-actions",
+          "allows": [
+            "NextBestActionItem"
+          ]
+        }
+      ],
+      "parentSection": "DigitalFeatureBlock",
+      "placeholderFor": "NextBestActionItem",
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "S7c",
+      "cmsName": "NextBestActionItem",
+      "visualRole": "Action row with icon, title, body, and link arrow",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "your-home-goal-is-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/your-home-goal-is-rich-text-section/your-home-goal-is-rich-text-section-desktop.png"
+      ],
+      "selector": "div.next-best a, div.next-best .next-card",
+      "fields": [
+        "icon",
+        "title",
+        "body",
+        "link"
+      ],
+      "placeholders": [],
+      "parentSection": "NextBestActionCard",
+      "placeholderFor": null,
+      "confidence": "medium",
+      "notes": "Selector approximate — confirm from section.html before build."
+    },
+    {
+      "id": "S8",
+      "cmsName": "GoalPlannerSection",
+      "visualRole": "Contribution planner with copy left and interactive slider/result card right",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "see-what-one-regular-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/see-what-one-regular-rich-text-section/see-what-one-regular-rich-text-section-desktop.png"
+      ],
+      "selector": "section.planner-section",
+      "fields": [
+        "eyebrow",
+        "title",
+        "body",
+        "disclaimer",
+        "contributionLabel",
+        "minAmount",
+        "maxAmount",
+        "defaultAmount",
+        "goalAmount",
+        "startingBalance",
+        "resultPrefix",
+        "resultSuffix"
+      ],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "medium",
+      "notes": "Interactive calculator — fields cover authored defaults; runtime calc stays in component logic."
+    },
+    {
+      "id": "S9",
+      "cmsName": "PremiumValueSection",
+      "visualRole": "Copy left + three-stat value card right",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "more-value-in-every-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/more-value-in-every-rich-text-section/more-value-in-every-rich-text-section-desktop.png"
+      ],
+      "selector": "section.content-section.premium-story",
+      "fields": [
+        "eyebrow",
+        "title",
+        "body",
+        "link"
+      ],
+      "placeholders": [
+        {
+          "name": "value-stats",
+          "allows": [
+            "ValueStatItem"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "ValueStatItem",
+      "confidence": "high",
+      "notes": "Home Premium value band only. Premium page uses WhyPremiumSection."
+    },
+    {
+      "id": "S9a",
+      "cmsName": "ValueStatItem",
+      "visualRole": "Icon + headline value + supporting label in value grid",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home",
+        "premium"
+      ],
+      "sectionFolder": "more-value-in-every-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/more-value-in-every-rich-text-section/more-value-in-every-rich-text-section-desktop.png"
+      ],
+      "selector": "div.value-grid > div",
+      "fields": [
+        "icon",
+        "value",
+        "label"
+      ],
+      "placeholders": [],
+      "parentSection": "PremiumValueSection",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Shared child for PremiumValueSection and WhyPremiumSection."
+    },
+    {
+      "id": "S10",
+      "cmsName": "InsightsGuidanceSection",
+      "visualRole": "Three-column guidance band: featured article, topic links, FAQ accordion",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "ideas-answers-and-a-faq-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/ideas-answers-and-a-faq-section/ideas-answers-and-a-faq-section-desktop.png"
+      ],
+      "selector": "section.content-section.learn-section",
+      "fields": [
+        "eyebrow",
+        "title",
+        "viewAllLink"
+      ],
+      "placeholders": [
+        {
+          "name": "featured-insight",
+          "allows": [
+            "InsightArticleCard"
+          ]
+        },
+        {
+          "name": "insight-topics",
+          "allows": [
+            "InsightTopicItem"
+          ]
+        },
+        {
+          "name": "faq-items",
+          "allows": [
+            "FaqItem"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Replaces IdeasAnswersAndAFaqSection. Parent owns section chrome; children fill the three columns."
+    },
+    {
+      "id": "S10a",
+      "cmsName": "InsightArticleCard",
+      "visualRole": "Featured navy insight card with meta, title, body, link",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "ideas-answers-and-a-faq-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/ideas-answers-and-a-faq-section/ideas-answers-and-a-faq-section-desktop.png"
+      ],
+      "selector": "div.learn-grid > div:first-child",
+      "fields": [
+        "meta",
+        "title",
+        "body",
+        "link"
+      ],
+      "placeholders": [],
+      "parentSection": "InsightsGuidanceSection",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "S10b",
+      "cmsName": "InsightTopicItem",
+      "visualRole": "Topic row with icon, category, title, and arrow link",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "ideas-answers-and-a-faq-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/ideas-answers-and-a-faq-section/ideas-answers-and-a-faq-section-desktop.png"
+      ],
+      "selector": "div.learn-grid > div:nth-child(2) > *",
+      "fields": [
+        "icon",
+        "category",
+        "title",
+        "link"
+      ],
+      "placeholders": [],
+      "parentSection": "InsightsGuidanceSection",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "S10c",
+      "cmsName": "FaqItem",
+      "visualRole": "Accordion FAQ question/answer pair",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "ideas-answers-and-a-faq-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/ideas-answers-and-a-faq-section/ideas-answers-and-a-faq-section-desktop.png"
+      ],
+      "selector": "div.learn-grid details, div.learn-grid .faq-item",
+      "fields": [
+        "question",
+        "answer"
+      ],
+      "placeholders": [],
+      "parentSection": "InsightsGuidanceSection",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "FAQ column also needs a small title/eyebrow on the parent or a nested FaqPanel — prefer fields faqEyebrow/faqTitle on InsightsGuidanceSection if HTML shows them on the column chrome."
+    },
+    {
+      "id": "S11",
+      "cmsName": "ConfidenceCtaBar",
+      "visualRole": "White CTA bar with two assurance points and primary upgrade button",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home",
+        "premium"
+      ],
+      "sectionFolder": "content-block9",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/content-block9/content-block9-desktop.png"
+      ],
+      "selector": "section.confidence",
+      "fields": [
+        "leftIcon",
+        "leftTitle",
+        "leftBody",
+        "rightIcon",
+        "rightTitle",
+        "rightBody",
+        "primaryLink"
+      ],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Replaces ContentBlock9."
+    },
+    {
+      "id": "S12",
+      "cmsName": "Footer",
+      "visualRole": "Site footer with logo, tagline, and utility links",
+      "scope": "site",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home",
+        "premium",
+        "travel",
+        "banking"
+      ],
+      "sectionFolder": "footer",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/127-0-0-1--home/sections/footer/footer-desktop.png"
+      ],
+      "selector": "#root > div > footer",
+      "fields": [
+        "logoText",
+        "logoSubtext",
+        "tagline"
+      ],
+      "placeholders": [
+        {
+          "name": "footer-links",
+          "allows": [
+            "FooterLinkItem"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "FooterLinkItem",
+      "confidence": "high",
+      "notes": "Footer crop lives under page sections; promote to domain sections on next capture if needed. Wire same datasource/partial on premium/travel/banking — do not recreate."
+    },
+    {
+      "id": "S12a",
+      "cmsName": "FooterLinkItem",
+      "visualRole": "Footer utility link",
+      "scope": "site",
+      "action": "create",
+      "pageSlugs": [
+        "127-0-0-1--home",
+        "premium",
+        "travel",
+        "banking"
+      ],
+      "sectionFolder": "footer",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/127-0-0-1--home/sections/footer/footer-desktop.png"
+      ],
+      "selector": "footer button, footer a",
+      "fields": [
+        "link",
+        "label"
+      ],
+      "placeholders": [],
+      "parentSection": "Footer",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Privacy, Security, Contact us. Wire same datasource/partial on premium/travel/banking — do not recreate."
+    },
+    {
+      "id": "SKIP1",
+      "cmsName": "EventDetailHeroSection",
+      "visualRole": "Auto-capture alias for PremiumHeroBanner",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [],
+      "selector": "section.hero",
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded by PremiumHeroBanner."
+    },
+    {
+      "id": "SKIP2",
+      "cmsName": "FindTheRightSolutionRichTextSection",
+      "visualRole": "Intro crop only — merged into ProductSolutionExplorer",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "find-the-right-solution-rich-text-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Merged."
+    },
+    {
+      "id": "SKIP3",
+      "cmsName": "AnAccountThatKeepsRichTextSection",
+      "visualRole": "Solution shell crop — merged into ProductSolutionExplorer",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "an-account-that-keeps-rich-text-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Merged."
+    },
+    {
+      "id": "SKIP4",
+      "cmsName": "RecommendedForYouSarahRichTextSection",
+      "visualRole": "Auto-capture alias for RecommendationCardGrid",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "recommended-for-you-sarah-rich-text-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP5",
+      "cmsName": "ChooseARelationshipThatCtaBlock",
+      "visualRole": "Auto-capture alias for RelationshipTierGrid",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "choose-a-relationship-that-cta-block",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP6",
+      "cmsName": "YourBankShouldThinkRichTextSection",
+      "visualRole": "Left half of digital band — merged into DigitalFeatureBlock",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "your-bank-should-think-rich-text-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Merged."
+    },
+    {
+      "id": "SKIP7",
+      "cmsName": "YourHomeGoalIsRichTextSection",
+      "visualRole": "Right half of digital band — merged into DigitalFeatureBlock / NextBestActionCard",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "your-home-goal-is-rich-text-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Merged."
+    },
+    {
+      "id": "SKIP8",
+      "cmsName": "SeeWhatOneRegularRichTextSection",
+      "visualRole": "Auto-capture alias for GoalPlannerSection",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "see-what-one-regular-rich-text-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP9",
+      "cmsName": "MoreValueInEveryRichTextSection",
+      "visualRole": "Auto-capture alias for PremiumValueSection",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "more-value-in-every-rich-text-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP10",
+      "cmsName": "IdeasAnswersAndAFaqSection",
+      "visualRole": "Auto-capture alias for InsightsGuidanceSection",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "ideas-answers-and-a-faq-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP11",
+      "cmsName": "ContentBlock9",
+      "visualRole": "Auto-capture alias for ConfidenceCtaBar",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "127-0-0-1--home"
+      ],
+      "sectionFolder": "content-block9",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "P1",
+      "cmsName": "BenefitStrip",
+      "visualRole": "Floating white rounded strip of icon+title+subtitle benefit items under page hero",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "premium"
+      ],
+      "sectionFolder": "content-block2",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/content-block2/content-block2-desktop.png"
+      ],
+      "selector": "div.benefit-strip.light",
+      "fields": [],
+      "placeholders": [
+        {
+          "name": "benefit-items",
+          "allows": [
+            "HeroBenefitItem"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "HeroBenefitItem",
+      "confidence": "high",
+      "notes": "Same 4 benefits as home hero strip; different chrome (white floating card vs navy on-hero). Reuses HeroBenefitItem children."
+    },
+    {
+      "id": "P2",
+      "cmsName": "WhyPremiumSection",
+      "visualRole": "Why Premium split: copy + checklist left, three value stats right",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "premium"
+      ],
+      "sectionFolder": "recognised-wherever-life-takes-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/recognised-wherever-life-takes-rich-text-section/recognised-wherever-life-takes-rich-text-section-desktop.png",
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/more-value-in-every-rich-text-section/more-value-in-every-rich-text-section-desktop.png"
+      ],
+      "selector": "section.content-section.split-story",
+      "fields": [
+        "eyebrow",
+        "title",
+        "body",
+        "checklist"
+      ],
+      "placeholders": [
+        {
+          "name": "value-stats",
+          "allows": [
+            "ValueStatItem"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "ValueStatItem",
+      "confidence": "high",
+      "notes": "New component per review decision (not reuse of PremiumValueSection)."
+    },
+    {
+      "id": "T1",
+      "cmsName": "ProductCardHero",
+      "visualRole": "Split product hero with lifestyle image and floating product/credit-card mockup",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "travel"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/travel/sections/event-detail-hero-section/event-detail-hero-section-desktop.png"
+      ],
+      "selector": "section.page-hero.card-hero",
+      "fields": [
+        "eyebrow",
+        "title",
+        "body",
+        "primaryLink",
+        "image",
+        "cardBrand",
+        "cardTitle",
+        "cardLogo"
+      ],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Travel hero shares split navy+image with PremiumHeroBanner but adds floating card mockup — treated as new rendering. Ask if you prefer PremiumHeroBanner variant instead."
+    },
+    {
+      "id": "T2",
+      "cmsName": "FeatureIconRow",
+      "visualRole": "Four-column icon feature row with title + longer description and vertical dividers",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "travel"
+      ],
+      "sectionFolder": "home-content-block2",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/home-content-block2/home-content-block2-desktop.png"
+      ],
+      "selector": "section.content-section.feature-row",
+      "fields": [],
+      "placeholders": [
+        {
+          "name": "feature-items",
+          "allows": [
+            "FeatureIconItem"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "FeatureIconItem",
+      "confidence": "high",
+      "notes": "Not ProofStrip (value+short label) and not HeroBenefitItem strip (icon-left short subtitle). New layout."
+    },
+    {
+      "id": "T2a",
+      "cmsName": "FeatureIconItem",
+      "visualRole": "Icon + title + description column in FeatureIconRow",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "travel"
+      ],
+      "sectionFolder": "home-content-block2",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/home-content-block2/home-content-block2-desktop.png"
+      ],
+      "selector": "section.feature-row > div",
+      "fields": [
+        "icon",
+        "title",
+        "body"
+      ],
+      "placeholders": [],
+      "parentSection": "FeatureIconRow",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "T3",
+      "cmsName": "ProductValueHighlight",
+      "visualRole": "Copy left + navy annual-value highlight card right",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "travel"
+      ],
+      "sectionFolder": "more-rewarding-from-departure-rich-text-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/sections/more-rewarding-from-departure-rich-text-section/more-rewarding-from-departure-rich-text-section-desktop.png"
+      ],
+      "selector": "section.content-section.card-detail",
+      "fields": [
+        "eyebrow",
+        "title",
+        "body",
+        "link",
+        "cardEyebrow",
+        "cardValue",
+        "cardBody"
+      ],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Related to PremiumValueSection but right side is a single navy value card, not a 3-stat white card. Create unless you want one polymorphic section."
+    },
+    {
+      "id": "B1",
+      "cmsName": "BankingOverviewHeader",
+      "visualRole": "Navy dashboard greeting bar with personalized hello and primary transfer CTA",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "banking"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/banking/sections/event-detail-hero-section/event-detail-hero-section-desktop.png",
+        ".cursor/design-screenshots/mea-vertical-demo-banking/banking/desktop-clean.png"
+      ],
+      "selector": "div.banking-page .overview-header, div.banking-page > header, div.banking-page > .hero",
+      "fields": [
+        "greeting",
+        "title",
+        "primaryLink"
+      ],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Part of lumped banking-page crop — no separate section folder yet."
+    },
+    {
+      "id": "B2",
+      "cmsName": "AccountSummaryCard",
+      "visualRole": "Account balance card with masked number and three footer actions",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "banking"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/banking/desktop-clean.png"
+      ],
+      "selector": "div.banking-page .account-card",
+      "fields": [
+        "eyebrow",
+        "accountName",
+        "accountNumber",
+        "balanceLabel",
+        "balance",
+        "action1Link",
+        "action2Link",
+        "action3Link"
+      ],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "B3",
+      "cmsName": "SavingsGoalCard",
+      "visualRole": "Goal progress card with percent complete, bar, and amount totals",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "banking"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/banking/desktop-clean.png"
+      ],
+      "selector": "div.banking-page .goal-card",
+      "fields": [
+        "icon",
+        "eyebrow",
+        "progressLabel",
+        "progressValue",
+        "currentAmount",
+        "goalAmount"
+      ],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Visually related to NextBestActionCard progress UI but standalone card — create separate."
+    },
+    {
+      "id": "B4",
+      "cmsName": "QuickActionsGrid",
+      "visualRole": "Quick actions heading + row of icon action tiles",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "banking"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/banking/desktop-clean.png"
+      ],
+      "selector": "div.banking-page .quick-actions",
+      "fields": [
+        "title"
+      ],
+      "placeholders": [
+        {
+          "name": "quick-actions",
+          "allows": [
+            "QuickActionItem"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "QuickActionItem",
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "B4a",
+      "cmsName": "QuickActionItem",
+      "visualRole": "Icon + label tile for a quick banking action",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "banking"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/banking/desktop-clean.png"
+      ],
+      "selector": "div.banking-page .quick-actions > *",
+      "fields": [
+        "icon",
+        "label",
+        "link"
+      ],
+      "placeholders": [],
+      "parentSection": "QuickActionsGrid",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "B5",
+      "cmsName": "RecentActivitySection",
+      "visualRole": "Recent transactions list with view-all link",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "banking"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/banking/desktop-clean.png"
+      ],
+      "selector": "div.banking-page .recent-activity",
+      "fields": [
+        "title",
+        "viewAllLink"
+      ],
+      "placeholders": [
+        {
+          "name": "activity-items",
+          "allows": [
+            "ActivityItem"
+          ]
+        }
+      ],
+      "parentSection": null,
+      "placeholderFor": "ActivityItem",
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "B5a",
+      "cmsName": "ActivityItem",
+      "visualRole": "Transaction row with icon, title, date, signed amount",
+      "scope": "page",
+      "action": "create",
+      "pageSlugs": [
+        "banking"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/banking/desktop-clean.png"
+      ],
+      "selector": "div.banking-page .recent-activity li, div.banking-page .activity-row",
+      "fields": [
+        "icon",
+        "title",
+        "date",
+        "amount",
+        "amountTone"
+      ],
+      "placeholders": [],
+      "parentSection": "RecentActivitySection",
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "amountTone: credit|debit for green vs default styling."
+    },
+    {
+      "id": "B6",
+      "cmsName": "ChatAssistantButton",
+      "visualRole": "Floating Ask DEB Assistant pill button",
+      "scope": "site",
+      "action": "create",
+      "pageSlugs": [
+        "premium",
+        "travel",
+        "banking"
+      ],
+      "sectionFolder": null,
+      "evidence": [
+        ".cursor/design-screenshots/mea-vertical-demo-banking/premium/desktop-clean.png",
+        ".cursor/design-screenshots/mea-vertical-demo-banking/travel/desktop-clean.png",
+        ".cursor/design-screenshots/mea-vertical-demo-banking/banking/desktop-clean.png"
+      ],
+      "selector": "button.assistant, .ask-assistant, [aria-label*=\"Assistant\"]",
+      "fields": [
+        "label",
+        "icon",
+        "link"
+      ],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "medium",
+      "notes": "Sticky overlay chrome; confirm if site-scoped partial vs page-only."
+    },
+    {
+      "id": "SKIP_P1",
+      "cmsName": "BankingThatMovesEventDetailHeroSection",
+      "visualRole": "Auto-capture alias — reuse PremiumHeroBanner on premium",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "premium"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [],
+      "selector": "section.page-hero",
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded by PremiumHeroBanner reuse."
+    },
+    {
+      "id": "SKIP_P2",
+      "cmsName": "ContentBlock2",
+      "visualRole": "Auto-capture alias for BenefitStrip on premium",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "premium"
+      ],
+      "sectionFolder": "content-block2",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded by BenefitStrip."
+    },
+    {
+      "id": "SKIP_P3",
+      "cmsName": "RecognisedWhereverLifeTakesRichTextSection",
+      "visualRole": "Auto-capture alias for PremiumValueSection reuse",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "premium"
+      ],
+      "sectionFolder": "recognised-wherever-life-takes-rich-text-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP_P4",
+      "cmsName": "ExploreYourPremiumBenefitsRichTextSection",
+      "visualRole": "Auto-capture alias for RecommendationCardGrid reuse",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "premium"
+      ],
+      "sectionFolder": "explore-your-premium-benefits-rich-text-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP_P5",
+      "cmsName": "ContentBlock5",
+      "visualRole": "Auto-capture alias for ConfidenceCtaBar reuse",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "premium"
+      ],
+      "sectionFolder": "content-block5",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP_T1",
+      "cmsName": "MakeEveryJourneyEventDetailHeroSectionSection",
+      "visualRole": "Auto-capture alias for ProductCardHero",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "travel"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP_T2",
+      "cmsName": "HomeContentBlock2",
+      "visualRole": "Auto-capture alias for FeatureIconRow",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "travel"
+      ],
+      "sectionFolder": "home-content-block2",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP_T3",
+      "cmsName": "MoreRewardingFromDepartureRichTextSection",
+      "visualRole": "Auto-capture alias for ProductValueHighlight",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "travel"
+      ],
+      "sectionFolder": "more-rewarding-from-departure-rich-text-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP_T4",
+      "cmsName": "RecommendedYouSarahRecommendedForYouSarahRichTextSection",
+      "visualRole": "Auto-capture alias for RecommendationCardGrid reuse",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "travel"
+      ],
+      "sectionFolder": "recommended-for-you-sarah-rich-text-section",
+      "evidence": [],
+      "selector": null,
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Superseded."
+    },
+    {
+      "id": "SKIP_B1",
+      "cmsName": "HereFinancialOverviewEventDetailHeroSectionSectionSection",
+      "visualRole": "Auto-capture alias — whole banking dashboard lumped as one hero",
+      "scope": "page",
+      "action": "skip",
+      "pageSlugs": [
+        "banking"
+      ],
+      "sectionFolder": "event-detail-hero-section",
+      "evidence": [],
+      "selector": "div.banking-page",
+      "fields": [],
+      "placeholders": [],
+      "parentSection": null,
+      "placeholderFor": null,
+      "confidence": "high",
+      "notes": "Decomposed into BankingOverviewHeader, AccountSummaryCard, SavingsGoalCard, QuickActions*, RecentActivity*, RecommendationCardGrid."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "url": "http://127.0.0.1:5173/",
+    "slug": "127-0-0-1--home",
+    "dir": "C:\\Projects\\SE19\\mea-vertical-demos\\.cursor\\design-screenshots\\mea-vertical-demo-banking\\127-0-0-1--home",
+    "shots": {
+      "desktop": "C:\\Projects\\SE19\\mea-vertical-demos\\.cursor\\design-screenshots\\mea-vertical-demo-banking\\127-0-0-1--home\\desktop.png",
+      "tablet": "C:\\Projects\\SE19\\mea-vertical-demos\\.cursor\\design-screenshots\\mea-vertical-demo-banking\\127-0-0-1--home\\tablet.png",
+      "mobile": "C:\\Projects\\SE19\\mea-vertical-demos\\.cursor\\design-screenshots\\mea-vertical-demo-banking\\127-0-0-1--home\\mobile.png"
+    },
+    "shotsClean": {
+      "desktop": "C:\\Projects\\SE19\\mea-vertical-demos\\.cursor\\design-screenshots\\mea-vertical-demo-banking\\127-0-0-1--home\\desktop-clean.png",
+      "tablet": "C:\\Projects\\SE19\\mea-vertical-demos\\.cursor\\design-screenshots\\mea-vertical-demo-banking\\127-0-0-1--home\\tablet-clean.png",
+      "mobile": "C:\\Projects\\SE19\\mea-vertical-demos\\.cursor\\design-screenshots\\mea-vertical-demo-banking\\127-0-0-1--home\\mobile-clean.png"
+    },
+    "html": {
+      "page": "C:\\Projects\\SE19\\mea-vertical-demos\\.cursor\\design-screenshots\\mea-vertical-demo-banking\\127-0-0-1--home\\page.html"
+    },
+    "design": {
+      "fonts": [
+        {
+          "family": "DM Sans",
+          "count": 98,
+          "sources": []
+        },
+        {
+          "family": "Georgia",
+          "count": 18,
+          "sources": []
+        }
+      ],
+      "colors": {
+        "primary": {
+          "hex": [],
+          "gradients": [
+            "linear-gradient(110deg, #cb8d28, #e4ad45)",
+            "linear-gradient(145deg, #001a3a, #073b6c)"
+          ]
+        },
+        "secondary": {
+          "hex": [
+            "#001a3a",
+            "#1b2432"
+          ],
+          "gradients": []
+        },
+        "accent": {
+          "hex": [],
+          "gradients": []
+        },
+        "neutrals": {
+          "hex": [
+            "#66717f",
+            "#d7e0ea",
+            "#dce4ee",
+            "#edf3fc",
+            "#f0ede7",
+            "#f1ece3",
+            "#f7f3eb",
+            "#f8f2e9",
+            "#f8f7f4",
+            "#ffffff"
+          ],
+          "gradients": []
+        },
+        "semantic": {
+          "success": "#eef5f0",
+          "error": "#ff6b28",
+          "warning": "#ebe5dc",
+          "info": "#07162f"
+        }
+      },
+      "css": {
+        "directory": "css",
+        "files": []
+      }
+    }
+  }
+]

@@ -1,0 +1,415 @@
+{
+  "url": "http://127.0.0.1:5173/",
+  "slug": "127-0-0-1--home",
+  "sectionOrder": [
+    "Header",
+    "EventDetailHeroSection",
+    "FindTheRightSolutionRichTextSection",
+    "AnAccountThatKeepsRichTextSection",
+    "RecommendedForYouSarahRichTextSection",
+    "ChooseARelationshipThatCtaBlock",
+    "YourBankShouldThinkRichTextSection",
+    "YourHomeGoalIsRichTextSection",
+    "SeeWhatOneRegularRichTextSection",
+    "MoreValueInEveryRichTextSection",
+    "IdeasAnswersAndAFaqSection",
+    "ContentBlock9",
+    "Footer"
+  ],
+  "components": [
+    {
+      "cmsName": "EventDetailHeroSection",
+      "folderName": "event-detail-hero-section",
+      "type": "hero",
+      "scope": "page",
+      "selector": "section.hero",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "order": 0,
+      "heading": "career milestone, SarahDiscover Premium Bankingtailored to your next chapter.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "FindTheRightSolutionRichTextSection",
+      "folderName": "find-the-right-solution-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "#root > div > main > section:nth-of-type(3) > div:nth-of-type(1)",
+      "reason": "FindTheRightSolutionRichTextSection: editorial content block",
+      "order": 1,
+      "heading": "Find the right solution for your next move.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "AnAccountThatKeepsRichTextSection",
+      "folderName": "an-account-that-keeps-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "div.solution-shell",
+      "reason": "AnAccountThatKeepsRichTextSection: editorial content block",
+      "order": 2,
+      "heading": "An account that keeps life moving.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "RecommendedForYouSarahRichTextSection",
+      "folderName": "recommended-for-you-sarah-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section.content-section.recommendations",
+      "reason": "RecommendedForYouSarahRichTextSection: editorial content block",
+      "order": 3,
+      "heading": "Recommended for you, Sarah",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "ChooseARelationshipThatCtaBlock",
+      "folderName": "choose-a-relationship-that-cta-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section.tier-section",
+      "reason": "ChooseARelationshipThatCtaBlock: editorial content block",
+      "order": 4,
+      "heading": "Choose a relationship that fits your world.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "YourBankShouldThinkRichTextSection",
+      "folderName": "your-bank-should-think-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "div.digital-copy",
+      "reason": "YourBankShouldThinkRichTextSection: editorial content block",
+      "order": 5,
+      "heading": "Your bank should think one step ahead.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "YourHomeGoalIsRichTextSection",
+      "folderName": "your-home-goal-is-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "div.next-best",
+      "reason": "YourHomeGoalIsRichTextSection: editorial content block",
+      "order": 6,
+      "heading": "Your home goal is gaining momentum.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "SeeWhatOneRegularRichTextSection",
+      "folderName": "see-what-one-regular-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section.planner-section",
+      "reason": "SeeWhatOneRegularRichTextSection: editorial content block",
+      "order": 7,
+      "heading": "See what one regular step could add up to.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "MoreValueInEveryRichTextSection",
+      "folderName": "more-value-in-every-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section.content-section.premium-story",
+      "reason": "MoreValueInEveryRichTextSection: editorial content block",
+      "order": 8,
+      "heading": "More value in every chapter of your life.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "IdeasAnswersAndAFaqSection",
+      "folderName": "ideas-answers-and-a-faq-section",
+      "type": "faq-section",
+      "scope": "page",
+      "selector": "section.content-section.learn-section",
+      "reason": "FAQ / accordion",
+      "order": 9,
+      "heading": null,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "ContentBlock9",
+      "folderName": "content-block9",
+      "type": "content-section",
+      "scope": "page",
+      "selector": "section.confidence",
+      "reason": "Major full-width content band",
+      "order": 10,
+      "heading": null,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "type": "footer",
+      "scope": "site",
+      "selector": "#root > div > footer",
+      "reason": "Site footer with links and legal",
+      "order": 11,
+      "heading": null,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    }
+  ],
+  "stickyOverlays": {
+    "components": [
+      {
+        "cmsName": "Header",
+        "captured": true,
+        "recaptured": true
+      }
+    ],
+    "hideMethod": "css",
+    "found": true
+  },
+  "fullPageShots": {
+    "overlay": {
+      "desktop": "desktop.png",
+      "tablet": "tablet.png",
+      "mobile": "mobile.png"
+    },
+    "clean": {
+      "desktop": "desktop-clean.png",
+      "tablet": "tablet-clean.png",
+      "mobile": "mobile-clean.png"
+    }
+  },
+  "design": {
+    "fonts": [
+      {
+        "family": "DM Sans",
+        "count": 98,
+        "sources": []
+      },
+      {
+        "family": "Georgia",
+        "count": 18,
+        "sources": []
+      }
+    ],
+    "colors": {
+      "primary": {
+        "hex": [],
+        "gradients": [
+          "linear-gradient(110deg, #cb8d28, #e4ad45)",
+          "linear-gradient(145deg, #001a3a, #073b6c)"
+        ]
+      },
+      "secondary": {
+        "hex": [
+          "#001a3a",
+          "#1b2432"
+        ],
+        "gradients": []
+      },
+      "accent": {
+        "hex": [],
+        "gradients": []
+      },
+      "neutrals": {
+        "hex": [
+          "#66717f",
+          "#d7e0ea",
+          "#dce4ee",
+          "#edf3fc",
+          "#f0ede7",
+          "#f1ece3",
+          "#f7f3eb",
+          "#f8f2e9",
+          "#f8f7f4",
+          "#ffffff"
+        ],
+        "gradients": []
+      },
+      "semantic": {
+        "success": "#eef5f0",
+        "error": "#ff6b28",
+        "warning": "#ebe5dc",
+        "info": "#07162f"
+      }
+    },
+    "css": {
+      "directory": "css",
+      "files": []
+    }
+  },
+  "newSections": {
+    "pageSlug": "127-0-0-1--home",
+    "pageDir": "127-0-0-1--home",
+    "pageSectionsRoot": "127-0-0-1--home/sections",
+    "domainSectionsRoot": "sections",
+    "mergedAt": "2026-09-09T08:19:15.509Z",
+    "sections": [
+      {
+        "action": "promoted",
+        "cmsName": "EventDetailHeroSection",
+        "sourceCmsName": "EventDetailHeroSection",
+        "domainFolder": "event-detail-hero-section",
+        "pageSectionFolder": "127-0-0-1--home/sections/event-detail-hero-section",
+        "fingerprint": "7d81691705f8ebb5",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "FindTheRightSolutionRichTextSection",
+        "sourceCmsName": "FindTheRightSolutionRichTextSection",
+        "domainFolder": "find-the-right-solution-rich-text-section",
+        "pageSectionFolder": "127-0-0-1--home/sections/find-the-right-solution-rich-text-section",
+        "fingerprint": "ad78a2527e7109a3",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "AnAccountThatKeepsRichTextSection",
+        "sourceCmsName": "AnAccountThatKeepsRichTextSection",
+        "domainFolder": "an-account-that-keeps-rich-text-section",
+        "pageSectionFolder": "127-0-0-1--home/sections/an-account-that-keeps-rich-text-section",
+        "fingerprint": "33f767364ac7b66a",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "RecommendedForYouSarahRichTextSection",
+        "sourceCmsName": "RecommendedForYouSarahRichTextSection",
+        "domainFolder": "recommended-for-you-sarah-rich-text-section",
+        "pageSectionFolder": "127-0-0-1--home/sections/recommended-for-you-sarah-rich-text-section",
+        "fingerprint": "e8f8e6d779c45421",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "ChooseARelationshipThatCtaBlock",
+        "sourceCmsName": "ChooseARelationshipThatCtaBlock",
+        "domainFolder": "choose-a-relationship-that-cta-block",
+        "pageSectionFolder": "127-0-0-1--home/sections/choose-a-relationship-that-cta-block",
+        "fingerprint": "0cf6a95edabc8c2e",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "YourBankShouldThinkRichTextSection",
+        "sourceCmsName": "YourBankShouldThinkRichTextSection",
+        "domainFolder": "your-bank-should-think-rich-text-section",
+        "pageSectionFolder": "127-0-0-1--home/sections/your-bank-should-think-rich-text-section",
+        "fingerprint": "f4a9b06fd4b6719a",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "YourHomeGoalIsRichTextSection",
+        "sourceCmsName": "YourHomeGoalIsRichTextSection",
+        "domainFolder": "your-home-goal-is-rich-text-section",
+        "pageSectionFolder": "127-0-0-1--home/sections/your-home-goal-is-rich-text-section",
+        "fingerprint": "5b4fc5fc09e2aff9",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "SeeWhatOneRegularRichTextSection",
+        "sourceCmsName": "SeeWhatOneRegularRichTextSection",
+        "domainFolder": "see-what-one-regular-rich-text-section",
+        "pageSectionFolder": "127-0-0-1--home/sections/see-what-one-regular-rich-text-section",
+        "fingerprint": "8bb8563d05022bff",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "MoreValueInEveryRichTextSection",
+        "sourceCmsName": "MoreValueInEveryRichTextSection",
+        "domainFolder": "more-value-in-every-rich-text-section",
+        "pageSectionFolder": "127-0-0-1--home/sections/more-value-in-every-rich-text-section",
+        "fingerprint": "58da6e171c78615b",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "IdeasAnswersAndAFaqSection",
+        "sourceCmsName": "IdeasAnswersAndAFaqSection",
+        "domainFolder": "ideas-answers-and-a-faq-section",
+        "pageSectionFolder": "127-0-0-1--home/sections/ideas-answers-and-a-faq-section",
+        "fingerprint": "e0dc27d0a61af04b",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "ContentBlock9",
+        "sourceCmsName": "ContentBlock9",
+        "domainFolder": "content-block9",
+        "pageSectionFolder": "127-0-0-1--home/sections/content-block9",
+        "fingerprint": "4ca50514aa9c91a4",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      }
+    ],
+    "componentsToBuild": [
+      "EventDetailHeroSection",
+      "FindTheRightSolutionRichTextSection",
+      "AnAccountThatKeepsRichTextSection",
+      "RecommendedForYouSarahRichTextSection",
+      "ChooseARelationshipThatCtaBlock",
+      "YourBankShouldThinkRichTextSection",
+      "YourHomeGoalIsRichTextSection",
+      "SeeWhatOneRegularRichTextSection",
+      "MoreValueInEveryRichTextSection",
+      "IdeasAnswersAndAFaqSection",
+      "ContentBlock9"
+    ]
+  }
+}

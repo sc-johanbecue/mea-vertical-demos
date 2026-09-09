@@ -1,0 +1,22 @@
+{
+  "pageSlug": "127-0-0-1--home",
+  "pageDir": "banking",
+  "pageSectionsRoot": "banking/sections",
+  "domainSectionsRoot": "sections",
+  "mergedAt": "2026-09-09T08:27:07.386Z",
+  "sections": [
+    {
+      "action": "variant",
+      "cmsName": "HereFinancialOverviewEventDetailHeroSectionSectionSection",
+      "sourceCmsName": "EventDetailHeroSection",
+      "domainFolder": "home-event-detail-hero-section-alt-alt",
+      "pageSectionFolder": "banking/sections/event-detail-hero-section",
+      "fingerprint": "eef872c019829818",
+      "existingDomainCmsName": "EventDetailHeroSection",
+      "buildComponent": true
+    }
+  ],
+  "componentsToBuild": [
+    "HereFinancialOverviewEventDetailHeroSectionSectionSection"
+  ]
+}

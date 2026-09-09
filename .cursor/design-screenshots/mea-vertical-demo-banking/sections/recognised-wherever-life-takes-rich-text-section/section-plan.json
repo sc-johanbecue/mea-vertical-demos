@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-09T08:27:07.650Z",
+  "reviewStatus": "pending",
+  "sectionFolder": "recognised-wherever-life-takes-rich-text-section",
+  "review": {
+    "narrativeSummary": "We will create one component: ImageRichTextSection. ImageRichTextSection datasource fields: Title, Body. No placeholders — editors publish content directly on this component.",
+    "notes": [
+      "Detection: RecognisedWhereverLifeTakesRichTextSection: editorial content block",
+      "No Sitecore placeholders on this component."
+    ],
+    "contentGuidance": null,
+    "nextSteps": [
+      "Review the narrative summary and responsive layout notes against the section PNGs.",
+      "Edit component names or fields in this file if the plan looks wrong, then set reviewStatus to \"approved\".",
+      "Run sitecore-component-from-design for each component under implementationPlan.components.",
+      "Create YAML artifacts listed under each component.yaml.artifacts.",
+      "Wire renderings into page YAML via sitecore-page-from-design."
+    ]
+  },
+  "responsiveLayout": null,
+  "detection": {
+    "cmsName": "RecognisedWhereverLifeTakesRichTextSection",
+    "folderName": "recognised-wherever-life-takes-rich-text-section",
+    "type": "feature-section",
+    "componentType": null,
+    "scope": "page",
+    "selector": "section.content-section.split-story",
+    "anchorWebid": null,
+    "heading": "Recognised wherever life takes you.",
+    "reason": "RecognisedWhereverLifeTakesRichTextSection: editorial content block",
+    "captureMode": "clean",
+    "isStickyOverlay": false,
+    "order": 2,
+    "repeatCount": null,
+    "placeholderFor": null,
+    "parentSection": null,
+    "includesSectionTitle": false,
+    "detectedFields": [],
+    "source": "visual-dom"
+  },
+  "assets": {
+    "screenshots": {
+      "desktop": "recognised-wherever-life-takes-rich-text-section-desktop.png",
+      "tablet": "recognised-wherever-life-takes-rich-text-section-tablet.png",
+      "mobile": "recognised-wherever-life-takes-rich-text-section-mobile.png"
+    },
+    "sectionHtml": "section.html",
+    "outputDir": "recognised-wherever-life-takes-rich-text-section"
+  },
+  "implementationPlan": {
+    "confidence": "medium",
+    "summary": "Build 1 Sitecore component: ImageRichTextSection.",
+    "placeholderKey": null,
+    "repeatCount": 0,
+    "components": [
+      {
+        "role": "standalone",
+        "cmsName": "ImageRichTextSection",
+        "componentType": "Section",
+        "description": "Editorial content section inferred from screenshot band.",
+        "confidence": "medium",
+        "fields": [
+          {
+            "name": "Title",
+            "type": "Single-Line Text"
+          },
+          {
+            "name": "Body",
+            "type": "Multi-Line Text"
+          }
+        ],
+        "placeholders": [],
+        "variants": [
+          "Default",
+          "Inversed",
+          "ImageTop",
+          "Animated"
+        ],
+        "parentComponents": [],
+        "tsx": {
+          "componentMapKey": "ImageRichTextSection",
+          "directory": "src/components/image-rich-text-section/",
+          "mainFile": "src/components/image-rich-text-section/ImageRichTextSection.tsx",
+          "variantExports": [
+            "Default",
+            "Inversed",
+            "ImageTop",
+            "Animated"
+          ],
+          "componentMapRegistration": ".sitecore/component-map.ts → 'ImageRichTextSection': () => import('@/components/image-rich-text-section/ImageRichTextSection')"
+        },
+        "yaml": {
+          "sitecoreProjectPath": "authoring/items/{ProjectName}/serialized-content/",
+          "artifacts": [
+            {
+              "kind": "template-branch",
+              "description": "Sitecore template branch (Template, Data section, field items)",
+              "pathPattern": "/sitecore/templates/Project/{project}/ImageRichTextSection/"
+            },
+            {
+              "kind": "rendering",
+              "description": "Json rendering definition",
+              "pathPattern": "/sitecore/layout/Renderings/Project/{project}/ImageRichTextSection"
+            },
+            {
+              "kind": "headless-variants-folder",
+              "description": "Headless Variants folder for Experience Editor",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/ImageRichTextSection"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Default variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/ImageRichTextSection/Default.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Inversed variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/ImageRichTextSection/Inversed.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "ImageTop variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/ImageRichTextSection/ImageTop.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Animated variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/ImageRichTextSection/Animated.yml"
+            },
+            {
+              "kind": "data-folder",
+              "description": "Datasource folder for authored content",
+              "pathPattern": "{siteContentPath}/Data/ImageRichTextSections"
+            },
+            {
+              "kind": "default-datasource",
+              "description": "Default datasource item with field values from design",
+              "pathPattern": "{siteContentPath}/Data/ImageRichTextSections/Default ImageRichTextSection.yml"
+            }
+          ],
+          "fields": [
+            {
+              "name": "Title",
+              "type": "Single-Line Text"
+            },
+            {
+              "name": "Body",
+              "type": "Multi-Line Text"
+            }
+          ]
+        },
+        "placeholderKey": null
+      }
+    ]
+  }
+}

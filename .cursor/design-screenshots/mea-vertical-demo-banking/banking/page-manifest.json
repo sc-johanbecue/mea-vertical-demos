@@ -1,0 +1,136 @@
+{
+  "url": "http://127.0.0.1:5173/#banking",
+  "slug": "127-0-0-1--home",
+  "sectionOrder": [
+    "Header",
+    "HereFinancialOverviewEventDetailHeroSectionSectionSection",
+    "Footer"
+  ],
+  "components": [
+    {
+      "cmsName": "EventDetailHeroSection",
+      "folderName": "event-detail-hero-section",
+      "type": "hero",
+      "scope": "page",
+      "selector": "div.banking-page",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "order": 0,
+      "heading": "Here’s your financial overview.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "type": "footer",
+      "scope": "site",
+      "selector": "#root > div > footer",
+      "reason": "Site footer with links and legal",
+      "order": 1,
+      "heading": null,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    }
+  ],
+  "stickyOverlays": {
+    "components": [
+      {
+        "cmsName": "Header",
+        "captured": false,
+        "skipped": true
+      }
+    ],
+    "hideMethod": "css",
+    "found": true
+  },
+  "fullPageShots": {
+    "overlay": {
+      "desktop": "desktop.png",
+      "tablet": "tablet.png",
+      "mobile": "mobile.png"
+    },
+    "clean": {
+      "desktop": "desktop-clean.png",
+      "tablet": "tablet-clean.png",
+      "mobile": "mobile-clean.png"
+    }
+  },
+  "design": {
+    "fonts": [
+      {
+        "family": "DM Sans",
+        "count": 45,
+        "sources": []
+      },
+      {
+        "family": "Georgia",
+        "count": 5,
+        "sources": []
+      }
+    ],
+    "colors": {
+      "primary": {
+        "hex": [],
+        "gradients": [
+          "linear-gradient(110deg, #cb8d28, #e4ad45)"
+        ]
+      },
+      "secondary": {
+        "hex": [
+          "#001a3a",
+          "#1b2432"
+        ],
+        "gradients": []
+      },
+      "accent": {
+        "hex": [],
+        "gradients": []
+      },
+      "neutrals": {
+        "hex": [
+          "#edf3fc",
+          "#ffffff"
+        ],
+        "gradients": []
+      },
+      "semantic": {
+        "success": null,
+        "error": "#ff6b28",
+        "warning": "#e4ad45",
+        "info": "#07162f"
+      }
+    },
+    "css": {
+      "directory": "css",
+      "files": []
+    }
+  },
+  "newSections": {
+    "pageSlug": "127-0-0-1--home",
+    "pageDir": "banking",
+    "pageSectionsRoot": "banking/sections",
+    "domainSectionsRoot": "sections",
+    "mergedAt": "2026-09-09T08:27:07.386Z",
+    "sections": [
+      {
+        "action": "variant",
+        "cmsName": "HereFinancialOverviewEventDetailHeroSectionSectionSection",
+        "sourceCmsName": "EventDetailHeroSection",
+        "domainFolder": "home-event-detail-hero-section-alt-alt",
+        "pageSectionFolder": "banking/sections/event-detail-hero-section",
+        "fingerprint": "eef872c019829818",
+        "existingDomainCmsName": "EventDetailHeroSection",
+        "buildComponent": true
+      }
+    ],
+    "componentsToBuild": [
+      "HereFinancialOverviewEventDetailHeroSectionSectionSection"
+    ]
+  }
+}

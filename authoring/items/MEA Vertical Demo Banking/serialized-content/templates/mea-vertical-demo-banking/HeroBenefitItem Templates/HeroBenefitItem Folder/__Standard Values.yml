@@ -1,0 +1,23 @@
+---
+ID: "6a054828-b321-442d-987a-1632d59c7d69"
+Parent: "c3bc22b9-f4fc-43b7-8a6a-c92f55c53d63"
+Template: "c3bc22b9-f4fc-43b7-8a6a-c92f55c53d63"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/HeroBenefitItem Templates/HeroBenefitItem Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {4A694DAC-F7E8-4708-83D9-14DF97C74B03}
+    {C3BC22B9-F4FC-43B7-8A6A-C92F55C53D63}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

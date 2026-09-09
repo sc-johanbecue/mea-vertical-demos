@@ -1,0 +1,17 @@
+---
+ID: "b0b24366-c0fc-4c89-bc36-46d3bbb751b8"
+Parent: "ed9c92a1-371f-47ab-a646-4738d6dbf717"
+Template: "ed9c92a1-371f-47ab-a646-4738d6dbf717"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/RecommendationCardGrid Templates/RecommendationCardGrid Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

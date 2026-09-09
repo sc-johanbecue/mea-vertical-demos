@@ -1,0 +1,23 @@
+---
+ID: "809a7967-cd54-4295-a529-4ec0e62b8487"
+Parent: "58308442-dc63-4a34-b28c-5ab84f3590c5"
+Template: "58308442-dc63-4a34-b28c-5ab84f3590c5"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/RecommendationCardGrid Templates/RecommendationCardGrid Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {401E736C-715B-4F1E-8EBE-0F0C25F1ACD0}
+    {58308442-DC63-4A34-B28C-5AB84F3590C5}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

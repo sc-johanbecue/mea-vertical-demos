@@ -1,0 +1,17 @@
+---
+ID: "1f0b0be9-9f72-4e7f-ab98-1cc6a5c97ae1"
+Parent: "3cc4c768-4a40-4237-8c14-a00a5a526029"
+Template: "3cc4c768-4a40-4237-8c14-a00a5a526029"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/NavItem Templates/NavItem/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
