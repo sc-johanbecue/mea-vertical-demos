@@ -1,10 +1,12 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, Link, Placeholder } from '@sitecore-content-sdk/nextjs';
+import { Text, Placeholder } from '@sitecore-content-sdk/nextjs';
 import type { TextField, LinkField } from '@sitecore-content-sdk/nextjs';
+import { ArrowRight } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
-import { componentKey, dynamicPlaceholderKey } from '@/lib/component-utils';
+import { componentKey, dynamicPlaceholderKey, hasLinkField } from '@/lib/component-utils';
+import { FieldLink } from '@/components/banking/FieldLink';
 
 export interface InsightsGuidanceSectionFields {
   Eyebrow?: TextField;
@@ -13,10 +15,14 @@ export interface InsightsGuidanceSectionFields {
 }
 
 const defaultFields: InsightsGuidanceSectionFields = {
-  Eyebrow: { value: 'Eyebrow' },
-  Title: { value: 'Title' },
-  ViewAllLink: { value: { href: '#', text: 'ViewAllLink' } },
+  Eyebrow: { value: "GUIDANCE FOR WHAT'S NEXT" },
+  Title: { value: 'Ideas, answers and a little inspiration.' },
+  ViewAllLink: { value: { href: '#', text: 'View all insights' } },
 };
+
+function hasText(field?: TextField): boolean {
+  return Boolean(String(field?.value ?? '').trim());
+}
 
 export type InsightsGuidanceSectionProps = ComponentProps & { fields?: InsightsGuidanceSectionFields };
 
@@ -27,23 +33,33 @@ export const Default = (props: InsightsGuidanceSectionProps): JSX.Element => {
   const faqItemsPh = dynamicPlaceholderKey('faq-items', params);
 
   return (
-    <div
+    <section
       key={componentKey(props)}
-      className={`deb-insights-guidance-section ${params?.styles ?? ''}`.trim()}
+      className={`content-section learn-section ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} className="deb-insights-guidance-section__eyebrow" /> : null}
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-insights-guidance-section__title" /> : null}
-      {fields.ViewAllLink ? <Link field={fields.ViewAllLink} className="deb-insights-guidance-section__view-all-link" /> : null}
-      <div className="deb-insights-guidance-section__featured-insight">
+      <div className="section-title">
+        <div>
+          {hasText(fields.Eyebrow) ? <Text tag="p" field={fields.Eyebrow} className="overline" /> : null}
+          {hasText(fields.Title) ? <Text tag="h2" field={fields.Title} /> : null}
+        </div>
+        {hasLinkField(fields.ViewAllLink) ? (
+          <FieldLink field={fields.ViewAllLink}>
+            <ArrowRight aria-hidden="true" />
+          </FieldLink>
+        ) : null}
+      </div>
+      <div className="learn-grid">
         <Placeholder name={featuredInsightPh} rendering={rendering} />
+        <div className="article-list">
+          <Placeholder name={insightTopicsPh} rendering={rendering} />
+        </div>
+        <div className="faq-card">
+          <p className="overline">COMMON QUESTIONS</p>
+          <h3>Here when you need clarity.</h3>
+          <Placeholder name={faqItemsPh} rendering={rendering} />
+        </div>
       </div>
-      <div className="deb-insights-guidance-section__insight-topics">
-        <Placeholder name={insightTopicsPh} rendering={rendering} />
-      </div>
-      <div className="deb-insights-guidance-section__faq-items">
-        <Placeholder name={faqItemsPh} rendering={rendering} />
-      </div>
-    </div>
+    </section>
   );
 };

@@ -1,0 +1,117 @@
+---
+ID: "2296dcfd-ae6b-4b57-86ec-08c9434f675c"
+Parent: "7342a904-255a-4244-a4d2-25b32c88f9c7"
+Template: "2434808b-3701-4ed2-8988-ae83c5df23bd"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Home/Travel"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{329C20C8-46E9-4E0E-A5F4-31CC6D8571A3}"
+          p:before="*"
+          s:ds="86b6afa8-a75f-47ef-81fa-d0e9398bafae"
+          s:id="{031416E6-2123-4014-8A1F-408BF3748A15}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{0EF9A300-9BF8-42B3-8051-57F17D153308}"
+          p:after="r[@uid='{329C20C8-46E9-4E0E-A5F4-31CC6D8571A3}']"
+          s:ds="0318eca9-bc79-4d0e-8452-0be42940523f"
+          s:id="{8CC7EBA6-7A1F-4997-B515-84AA432CE357}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{FB084586-7FFE-4DA8-A4CE-11832FC0EFD0}"
+          p:after="r[@uid='{0EF9A300-9BF8-42B3-8051-57F17D153308}']"
+          s:ds="c27cbaf7-a787-45e0-b418-9b413e0a582c"
+          s:id="{34DE64F6-267A-4FC8-BA24-DE32D9823343}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/feature-items-2" />
+        <r
+          uid="{EB5186FD-DCD1-4EC3-938C-D98BBBEE1F4E}"
+          p:after="r[@uid='{FB084586-7FFE-4DA8-A4CE-11832FC0EFD0}']"
+          s:ds="7f740d7e-fad3-4633-ae0b-41f61e975ab1"
+          s:id="{34DE64F6-267A-4FC8-BA24-DE32D9823343}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/feature-items-2" />
+        <r
+          uid="{8959B9F1-6D35-4E17-B087-C426E86196BD}"
+          p:after="r[@uid='{EB5186FD-DCD1-4EC3-938C-D98BBBEE1F4E}']"
+          s:ds="92575a90-870b-4fff-bf98-5ec559a47ff7"
+          s:id="{34DE64F6-267A-4FC8-BA24-DE32D9823343}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/feature-items-2" />
+        <r
+          uid="{2DFB761A-1A18-4048-AADE-C95AFA5449C1}"
+          p:after="r[@uid='{8959B9F1-6D35-4E17-B087-C426E86196BD}']"
+          s:ds="3f9aa394-7f65-4fd1-a669-f2f537cf19fa"
+          s:id="{34DE64F6-267A-4FC8-BA24-DE32D9823343}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/feature-items-2" />
+        <r
+          uid="{7B37118C-8A36-4E40-8264-565C17D098EF}"
+          p:after="r[@uid='{2DFB761A-1A18-4048-AADE-C95AFA5449C1}']"
+          s:ds="e40c9b25-6049-4d3f-8dcd-5a8b4b87964d"
+          s:id="{979FC85D-3BAF-477A-B816-A15A27D47F73}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{36B34DBB-A91B-499D-85E5-A3F38CA56EC3}"
+          p:after="r[@uid='{7B37118C-8A36-4E40-8264-565C17D098EF}']"
+          s:ds="e37e9c02-72d7-4c1b-8939-889664fcb541"
+          s:id="{E7BAED42-93A7-4834-8E4B-ED3176310CCA}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="headless-main" />
+        <r
+          uid="{4C4812B3-7C17-4218-B914-B7045699822C}"
+          p:after="r[@uid='{36B34DBB-A91B-499D-85E5-A3F38CA56EC3}']"
+          s:ds="9933241d-4fab-4c18-890f-6d635152936a"
+          s:id="{1F80ACAC-243C-4B75-82BD-739ADC3FACA6}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/recommendation-cards-4" />
+        <r
+          uid="{3CA90C74-3D3A-4C3F-9A8A-608FB8A7A5E5}"
+          p:after="r[@uid='{4C4812B3-7C17-4218-B914-B7045699822C}']"
+          s:ds="0981be94-b972-4ce0-b62c-76b56d656b0a"
+          s:id="{1F80ACAC-243C-4B75-82BD-739ADC3FACA6}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/recommendation-cards-4" />
+        <r
+          uid="{383962E7-DAAE-466D-A058-564846F48141}"
+          p:after="r[@uid='{3CA90C74-3D3A-4C3F-9A8A-608FB8A7A5E5}']"
+          s:ds="8ec036f3-f7d8-4a8f-b0eb-d2daf5e6b187"
+          s:id="{1F80ACAC-243C-4B75-82BD-739ADC3FACA6}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/recommendation-cards-4" />
+        <r
+          uid="{F58880EE-E121-4FED-89BD-9BA63B8A5E0E}"
+          p:after="r[@uid='{383962E7-DAAE-466D-A058-564846F48141}']"
+          s:ds="5cf1c4a3-60c7-4b69-b643-bac65b21c672"
+          s:id="{420FD842-09CB-43A3-96DB-15F41906D281}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "1cc7f424-b667-478e-b344-c314a8257083"
+      Hint: Title
+      Value: "Travel"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Travel"

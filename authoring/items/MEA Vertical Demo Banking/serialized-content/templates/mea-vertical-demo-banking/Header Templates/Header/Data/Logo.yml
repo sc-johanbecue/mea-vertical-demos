@@ -2,11 +2,11 @@
 ID: "90b8c975-653f-4197-a31a-bb1a5c48143c"
 Parent: "e9bd5f48-067e-4c99-8026-94d9370f84d9"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/mea-vertical-demo-banking/Header Templates/Header/Data/LogoText"
+Path: "/sitecore/templates/Project/mea-vertical-demo-banking/Header Templates/Header/Data/Logo"
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: "Image"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
@@ -15,7 +15,7 @@ Languages:
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: Logo Text
+    Value: Logo
   Versions:
   - Version: 1
     Fields:

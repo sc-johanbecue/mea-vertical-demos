@@ -1,0 +1,33 @@
+---
+ID: "2b33d43c-ad4b-4295-b61a-84026377ff1d"
+Parent: "4b423193-534a-461c-905f-53fa2c143b04"
+Template: "2737a898-a430-42d1-b9aa-ba3d7696808a"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/Headers/Default Header"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "90b8c975-653f-4197-a31a-bb1a5c48143c"
+      Hint: Logo
+      Value: |
+        <image mediaid="{B7E2C4A1-9F3D-4E8B-A6C2-1D5E8F0A2B34}" alt="Digital Experience Bank" />
+    - ID: "d1250974-f92e-4bfd-b9e0-7d152509357e"
+      Hint: SearchLabel
+      Value: "Search"
+    - ID: "0b14e17e-8502-4fac-863a-10e096ad9487"
+      Hint: MessagesLabel
+      Value: "Messages"
+    - ID: "51009aec-ed46-4504-a3eb-cfc975a2eeed"
+      Hint: ProfileName
+      Value: "Hi, Sarah"
+    - ID: "4cea754f-7d21-462b-bb10-5ab053ea94db"
+      Hint: ProfileInitials
+      Value: "SA"

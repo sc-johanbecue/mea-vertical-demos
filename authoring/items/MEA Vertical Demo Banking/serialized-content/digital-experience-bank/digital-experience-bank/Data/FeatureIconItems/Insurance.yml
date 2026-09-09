@@ -1,0 +1,20 @@
+---
+ID: "92575a90-870b-4fff-bf98-5ec559a47ff7"
+Parent: "cb1b45f5-a5d4-4e8e-a51c-282463049b3e"
+Template: "07d6eb1a-2746-44ed-aa6f-83e0a41c4c83"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/FeatureIconItems/Insurance"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "ff917292-6b02-4c20-b7a6-93068e88bf27"
+      Hint: Title
+      Value: "Travel insurance"
+    - ID: "931994d4-0921-41a3-8320-f6629870f675"
+      Hint: Body
+      Value: |
+        <p>Complimentary protection for every journey.</p>

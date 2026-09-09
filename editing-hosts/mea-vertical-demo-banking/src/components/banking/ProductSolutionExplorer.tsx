@@ -5,6 +5,7 @@ import { Text, RichText, Placeholder } from '@sitecore-content-sdk/nextjs';
 import type { TextField, RichTextField } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey, dynamicPlaceholderKey } from '@/lib/component-utils';
+import { SolutionTabsProvider } from '@/components/banking/SolutionTabsContext';
 
 export interface ProductSolutionExplorerFields {
   Eyebrow?: TextField;
@@ -13,9 +14,9 @@ export interface ProductSolutionExplorerFields {
 }
 
 const defaultFields: ProductSolutionExplorerFields = {
-  Eyebrow: { value: 'Eyebrow' },
-  Title: { value: 'Title' },
-  Intro: { value: '<p>Intro</p>' },
+  Eyebrow: { value: "EXPLORE WHAT'S POSSIBLE" },
+  Title: { value: 'Find the right solution for your next move.' },
+  Intro: { value: "<p>Start with what you want to achieve. We'll help you narrow down the possibilities.</p>" },
 };
 
 export type ProductSolutionExplorerProps = ComponentProps & { fields?: ProductSolutionExplorerFields };
@@ -25,17 +26,23 @@ export const Default = (props: ProductSolutionExplorerProps): JSX.Element => {
   const solutionTabsPh = dynamicPlaceholderKey('solution-tabs', params);
 
   return (
-    <div
+    <section
       key={componentKey(props)}
-      className={`deb-product-solution-explorer ${params?.styles ?? ''}`.trim()}
+      className={`content-section solution-section ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} className="deb-product-solution-explorer__eyebrow" /> : null}
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-product-solution-explorer__title" /> : null}
-      {fields.Intro ? <div className="deb-product-solution-explorer__intro"><RichText field={fields.Intro} /></div> : null}
-      <div className="deb-product-solution-explorer__solution-tabs">
-        <Placeholder name={solutionTabsPh} rendering={rendering} />
+      <div className="section-intro">
+        {fields.Eyebrow ? <Text tag="p" field={fields.Eyebrow} className="overline" /> : null}
+        {fields.Title ? <Text tag="h2" field={fields.Title} /> : null}
+        {fields.Intro ? <RichText field={fields.Intro} /> : null}
       </div>
-    </div>
+      <div className="solution-shell">
+        <div className="solution-tabs" role="tablist">
+          <SolutionTabsProvider>
+            <Placeholder name={solutionTabsPh} rendering={rendering} />
+          </SolutionTabsProvider>
+        </div>
+      </div>
+    </section>
   );
 };

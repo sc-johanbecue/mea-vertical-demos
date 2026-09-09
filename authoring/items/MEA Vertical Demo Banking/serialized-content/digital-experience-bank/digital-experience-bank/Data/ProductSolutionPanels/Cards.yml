@@ -1,0 +1,37 @@
+---
+ID: "1bce4d70-8a91-4f2e-9c35-6d7e8f9a0b11"
+Parent: "6e95b3bb-494a-4113-8882-b8f6cc56537a"
+Template: "8c379795-0f5d-4714-a544-11506058e5e8"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ProductSolutionPanels/Cards"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "19f5568d-702c-4ead-bd01-b38944495a76"
+      Hint: TabLabel
+      Value: "Cards"
+    - ID: "3740a071-3010-4005-b413-415b0a219a97"
+      Hint: Eyebrow
+      Value: "CARDS & REWARDS"
+    - ID: "dcb162e3-3bcf-4b5f-bd68-c1945ed16d9a"
+      Hint: Title
+      Value: "A card made for how you live."
+    - ID: "d9f37bc2-a553-43e7-86b8-557a07544eae"
+      Hint: Body
+      Value: |
+        <p>From travel miles to everyday rewards, find a card that turns the way you spend into something more valuable.</p>
+    - ID: "6e16655a-8f4e-4209-bf60-9eb32b1c1091"
+      Hint: Link
+      Value: |
+        <link text="Explore cards" linktype="external" url="/Travel" anchor="" target="" />
+    - ID: "1b32c097-dbaa-48fe-abcc-276c92252c06"
+      Hint: CardEyebrow
+      Value: "WHAT YOU CAN EXPECT"
+    - ID: "99839b52-5fac-45f7-9a9a-ecbaf29ae295"
+      Hint: CardItems
+      Value: |
+        <p>Travel and lifestyle rewards</p><p>Flexible payment options</p><p>Protection built into every purchase</p>

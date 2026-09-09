@@ -1,0 +1,38 @@
+---
+ID: "e40c9b25-6049-4d3f-8dcd-5a8b4b87964d"
+Parent: "b6bfaebc-c655-4a1d-a21c-680eabda137f"
+Template: "0bba2bf7-0734-47ae-b96f-6d25543f6cf7"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ProductValueHighlights/Default ProductValueHighlight"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b88018a7-4db2-4a81-9d1f-1c536b8a94ca"
+      Hint: Type
+      Value: |
+        <p>The DEB Travel Credit Card combines Premium Banking benefits with travel-specific rewards.</p>
+    - ID: "fcac996d-3d72-45c6-aa45-7ee82a92e7ef"
+      Hint: Type
+      Value: |
+        <p>Airport lounge access, travel insurance, rewards and more.</p>
+    - ID: "cbbf0752-8ed7-4165-ac11-b399e8ecd9cc"
+      Hint: Type
+      Value: "AED 2,000+"
+    - ID: "9e4c0608-1995-49e4-9d32-5d9938730963"
+      Hint: Type
+      Value: "DESIGNED FOR HOW YOU TRAVEL"
+    - ID: "d0c4361b-58b4-46d3-bc4f-dc4752a6c801"
+      Hint: Type
+      Value: |
+        <link text="View benefits guide" linktype="external" url="#" anchor="" target="" />
+    - ID: "db3433d1-8358-440e-8ad3-74e187a6a8bb"
+      Hint: Type
+      Value: "More rewarding from departure to arrival."

@@ -1,0 +1,44 @@
+---
+ID: "21aee73b-5dea-4129-b8f9-aaa41bc9df67"
+Parent: "9bb5aa00-3dc9-4b28-a76a-9f7a73318b9c"
+Template: "ed57487b-417d-444d-b4d1-87f900b03227"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/AccountSummaryCards/Default AccountSummaryCard"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7cc36d2e-eebc-4f4b-8e60-332d45d2af74"
+      Hint: Type
+      Value: "Everyday Account"
+    - ID: "7375853b-08e2-4316-a2f3-865565d15435"
+      Hint: Type
+      Value: "**** 1234"
+    - ID: "de40e346-343b-4dd5-a145-a3df61093b5c"
+      Hint: Type
+      Value: |
+        <link text="View statements" linktype="external" url="#" anchor="" target="" />
+    - ID: "8dcd14b8-50b6-41a6-82bd-ccf2c002f256"
+      Hint: Type
+      Value: |
+        <link text="Transfer money" linktype="external" url="#" anchor="" target="" />
+    - ID: "0c1deae6-ffc0-44c8-b392-1db40bdb796a"
+      Hint: Type
+      Value: |
+        <link text="Account details" linktype="external" url="#" anchor="" target="" />
+    - ID: "95fb5a73-6753-4915-8031-34266e2ae6d1"
+      Hint: Type
+      Value: "AED 125,750.00"
+    - ID: "a1e26a33-cbb7-4949-9dc3-3f9d3201b9bc"
+      Hint: Type
+      Value: "Available balance"
+    - ID: "ac32c60a-4ed3-4834-b982-25cd001ae122"
+      Hint: Type
+      Value: "PREMIUM CURRENT ACCOUNT"

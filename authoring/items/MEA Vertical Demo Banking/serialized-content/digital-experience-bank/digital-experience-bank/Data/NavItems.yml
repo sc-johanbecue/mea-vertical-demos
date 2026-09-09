@@ -1,0 +1,17 @@
+---
+ID: "1c363ba1-39a8-4aa8-a7ce-af1d6e8bb58a"
+Parent: "6a768631-6185-45c4-b56f-8de74ac0eb1d"
+Template: "04db5969-acd2-4395-a9d1-03905bf436e6"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/NavItems"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

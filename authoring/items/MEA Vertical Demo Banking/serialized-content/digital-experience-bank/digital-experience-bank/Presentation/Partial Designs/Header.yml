@@ -1,0 +1,93 @@
+---
+ID: "98918e73-f2f1-466e-9346-4ab799f98070"
+Parent: "c9f2e018-6033-4a61-b968-7c1368c071d4"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Presentation/Partial Designs/Header"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "header"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4DB1A638-4825-4B29-801C-4814C2418B3E}"
+          p:before="*"
+          s:ds="2b33d43c-ad4b-4295-b61a-84026377ff1d"
+          s:id="{A7717CFD-35AA-4E38-8BFA-E200969527BC}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-header" />
+        <r
+          uid="{1E6A794F-3D86-48AA-8BE1-4D9381ACE45A}"
+          p:after="r[@uid='{4DB1A638-4825-4B29-801C-4814C2418B3E}']"
+          s:ds="cfb0a115-baa8-42db-b9c2-73bc33f3e6c0"
+          s:id="{AB979091-2543-4F74-AE13-D32AB1D8A8A5}"
+          s:par="CSSStyles"
+          s:ph="/headless-header/header-nav-1" />
+        <r
+          uid="{30698A2A-B1C2-4999-B548-AB531DC68395}"
+          p:after="r[@uid='{1E6A794F-3D86-48AA-8BE1-4D9381ACE45A}']"
+          s:ds="5d878fdb-cddf-4e99-bede-e77fa3327425"
+          s:id="{AB979091-2543-4F74-AE13-D32AB1D8A8A5}"
+          s:par="CSSStyles"
+          s:ph="/headless-header/header-nav-1" />
+        <r
+          uid="{63C24F6A-A4F2-46C3-A3FA-861B07AB01C3}"
+          p:after="r[@uid='{30698A2A-B1C2-4999-B548-AB531DC68395}']"
+          s:ds="0227a792-3068-4fc3-8e12-b8d1fc09aa02"
+          s:id="{AB979091-2543-4F74-AE13-D32AB1D8A8A5}"
+          s:par="CSSStyles"
+          s:ph="/headless-header/header-nav-1" />
+        <r
+          uid="{ED4E00E9-D88E-48AA-A238-7F31D8779F26}"
+          p:after="r[@uid='{63C24F6A-A4F2-46C3-A3FA-861B07AB01C3}']"
+          s:ds="f0127020-a5a4-4486-b29d-364e516d6360"
+          s:id="{AB979091-2543-4F74-AE13-D32AB1D8A8A5}"
+          s:par="CSSStyles"
+          s:ph="/headless-header/header-nav-1" />
+        <r
+          uid="{4E3F4087-41C9-4E89-AC31-D3F05A280AAE}"
+          p:after="r[@uid='{ED4E00E9-D88E-48AA-A238-7F31D8779F26}']"
+          s:ds="150615b2-9629-41bb-820b-dc6d80e9d9b0"
+          s:id="{AB979091-2543-4F74-AE13-D32AB1D8A8A5}"
+          s:par="CSSStyles"
+          s:ph="/headless-header/header-nav-1" />
+        <r
+          uid="{EA172265-9CF9-49DC-ABB4-574F2DF6B6CE}"
+          p:after="r[@uid='{4E3F4087-41C9-4E89-AC31-D3F05A280AAE}']"
+          s:ds="c9682da0-168b-46c0-ba0f-afead4d9a560"
+          s:id="{AB979091-2543-4F74-AE13-D32AB1D8A8A5}"
+          s:par="CSSStyles"
+          s:ph="/headless-header/header-nav-1" />
+        <r
+          uid="{C1ACFD4E-1BF3-4B2E-971E-18EDC6481E40}"
+          p:after="r[@uid='{EA172265-9CF9-49DC-ABB4-574F2DF6B6CE}']"
+          s:ds="fccf402a-e43f-4e71-8184-8c5b4aab351a"
+          s:id="{AB979091-2543-4F74-AE13-D32AB1D8A8A5}"
+          s:par="CSSStyles"
+          s:ph="/headless-header/header-nav-1" />
+        <r
+          uid="{37A83277-1153-4310-8473-15EB21621012}"
+          p:after="r[@uid='{C1ACFD4E-1BF3-4B2E-971E-18EDC6481E40}']"
+          s:ds="fa3a68c3-f8da-4c92-861d-10ef7aeae090"
+          s:id="{AB979091-2543-4F74-AE13-D32AB1D8A8A5}"
+          s:par="CSSStyles"
+          s:ph="/headless-header/header-nav-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

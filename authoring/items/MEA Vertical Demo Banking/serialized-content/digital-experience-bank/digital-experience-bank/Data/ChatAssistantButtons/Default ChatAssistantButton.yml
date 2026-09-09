@@ -1,0 +1,28 @@
+---
+ID: "5cf1c4a3-60c7-4b69-b643-bac65b21c672"
+Parent: "df4722ae-8dc0-4ab1-9243-3a37ddc1b7c4"
+Template: "31df98a8-8928-4a2e-957b-8abb8684bd90"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ChatAssistantButtons/Default ChatAssistantButton"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "3cad7003-0de2-412c-a3a8-4b2ef6ef1a73"
+      Hint: Type
+      Value: |
+        <image mediapath="" alt="Type" height="" width="" hspace="" vspace="" />
+    - ID: "93e4b835-e22d-45b5-b370-e5a1a65624b8"
+      Hint: Type
+      Value: "Ask DEB Assistant"
+    - ID: "df63e126-b16e-492c-97a3-8a191ada47df"
+      Hint: Type
+      Value: |
+        <link text="Assistant" linktype="external" url="#" anchor="" target="" />

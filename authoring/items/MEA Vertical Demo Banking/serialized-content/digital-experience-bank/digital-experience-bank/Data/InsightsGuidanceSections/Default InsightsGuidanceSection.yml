@@ -1,0 +1,27 @@
+---
+ID: "59369d8b-f780-4e7d-b8da-798ec2897c39"
+Parent: "10145497-a78a-4563-8cfd-cf60b0361f90"
+Template: "6c0ff33e-132f-4ce8-89be-1253930be158"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/InsightsGuidanceSections/Default InsightsGuidanceSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "502d8b09-e8fc-41e0-99f1-c6aadc01e2c7"
+      Hint: Eyebrow
+      Value: "GUIDANCE FOR WHAT'S NEXT"
+    - ID: "b70eb684-8734-42f9-8d9c-d6548a6725a5"
+      Hint: Title
+      Value: "Ideas, answers and a little inspiration."
+    - ID: "97576095-8c09-4a8f-a6f2-7a4a5b0a7927"
+      Hint: ViewAllLink
+      Value: |
+        <link text="View all insights" linktype="external" url="#" anchor="" target="" />

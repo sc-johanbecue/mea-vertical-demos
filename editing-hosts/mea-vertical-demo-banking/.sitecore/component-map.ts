@@ -8,6 +8,7 @@ import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-
 import * as Image from 'src/components/image/Image';
 import * as WhyPremiumSection from 'src/components/banking/WhyPremiumSection';
 import * as ValueStatItem from 'src/components/banking/ValueStatItem';
+import * as SolutionTabsContext from 'src/components/banking/SolutionTabsContext';
 import * as SavingsGoalCard from 'src/components/banking/SavingsGoalCard';
 import * as RelationshipTierGrid from 'src/components/banking/RelationshipTierGrid';
 import * as RelationshipTierCard from 'src/components/banking/RelationshipTierCard';
@@ -35,6 +36,7 @@ import * as Header from 'src/components/banking/Header';
 import * as GoalPlannerSection from 'src/components/banking/GoalPlannerSection';
 import * as FooterLinkItem from 'src/components/banking/FooterLinkItem';
 import * as Footer from 'src/components/banking/Footer';
+import * as FieldLink from 'src/components/banking/FieldLink';
 import * as FeatureIconRow from 'src/components/banking/FeatureIconRow';
 import * as FeatureIconItem from 'src/components/banking/FeatureIconItem';
 import * as FaqItem from 'src/components/banking/FaqItem';
@@ -55,6 +57,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Image', { ...Image }],
   ['WhyPremiumSection', { ...WhyPremiumSection, componentType: 'client' }],
   ['ValueStatItem', { ...ValueStatItem, componentType: 'client' }],
+  ['SolutionTabsContext', { ...SolutionTabsContext, componentType: 'client' }],
   ['SavingsGoalCard', { ...SavingsGoalCard, componentType: 'client' }],
   ['RelationshipTierGrid', { ...RelationshipTierGrid, componentType: 'client' }],
   ['RelationshipTierCard', { ...RelationshipTierCard, componentType: 'client' }],
@@ -82,6 +85,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['GoalPlannerSection', { ...GoalPlannerSection, componentType: 'client' }],
   ['FooterLinkItem', { ...FooterLinkItem, componentType: 'client' }],
   ['Footer', { ...Footer, componentType: 'client' }],
+  ['FieldLink', { ...FieldLink, componentType: 'client' }],
   ['FeatureIconRow', { ...FeatureIconRow, componentType: 'client' }],
   ['FeatureIconItem', { ...FeatureIconItem, componentType: 'client' }],
   ['FaqItem', { ...FaqItem, componentType: 'client' }],

@@ -1,0 +1,23 @@
+---
+ID: "148892e5-fa6e-472d-abff-a52272ba84ca"
+Parent: "be7ab6b2-935e-4088-8e00-ec1a8f52f89b"
+Template: "4a694dac-f7e8-4708-83d9-14df97c74b03"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/HeroBenefitItems/Insurance"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "4982d71c-2d2e-42ed-b882-bcd75d37b2f8"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D4E8F1A2-3B4C-5D6E-7F80-91A2B3C4D5F2}" alt="Travel insurance" height="" width="" hspace="" vspace="" />
+    - ID: "16a5859c-4d81-46ec-b79c-e9feae767cc2"
+      Hint: Title
+      Value: "Travel insurance"
+    - ID: "1b5b06e9-4f73-4d1a-9f49-c55e70a67334"
+      Hint: Subtitle
+      Value: "Complimentary"

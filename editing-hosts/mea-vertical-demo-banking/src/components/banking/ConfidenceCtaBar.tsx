@@ -1,51 +1,64 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, Image, Link } from '@sitecore-content-sdk/nextjs';
-import type { TextField, ImageField, LinkField } from '@sitecore-content-sdk/nextjs';
+import { Text, RichText } from '@sitecore-content-sdk/nextjs';
+import type { TextField, RichTextField, LinkField } from '@sitecore-content-sdk/nextjs';
+import { ShieldCheck, Headset, ArrowRight } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey } from '@/lib/component-utils';
+import { FieldLink } from '@/components/banking/FieldLink';
 
 export interface ConfidenceCtaBarFields {
-  LeftIcon?: ImageField;
   LeftTitle?: TextField;
-  LeftBody?: TextField;
-  RightIcon?: ImageField;
+  LeftBody?: RichTextField;
   RightTitle?: TextField;
-  RightBody?: TextField;
+  RightBody?: RichTextField;
   PrimaryLink?: LinkField;
 }
 
 const defaultFields: ConfidenceCtaBarFields = {
-  LeftIcon: { value: { src: '', alt: 'LeftIcon' } },
-  LeftTitle: { value: 'LeftTitle' },
-  LeftBody: { value: 'LeftBody' },
-  RightIcon: { value: { src: '', alt: 'RightIcon' } },
-  RightTitle: { value: 'RightTitle' },
-  RightBody: { value: 'RightBody' },
-  PrimaryLink: { value: { href: '#', text: 'PrimaryLink' } },
+  LeftTitle: { value: 'Built around your security' },
+  LeftBody: { value: '<p>Industry-leading protection and privacy at every step.</p>' },
+  RightTitle: { value: 'Human help, whenever you need it' },
+  RightBody: { value: '<p>Priority specialists available 24 hours a day.</p>' },
+  PrimaryLink: { value: { href: '/Premium', text: 'Start your upgrade' } },
 };
 
 export type ConfidenceCtaBarProps = ComponentProps & { fields?: ConfidenceCtaBarFields };
 
 export const Default = (props: ConfidenceCtaBarProps): JSX.Element => {
   const { params, fields = defaultFields } = props;
-
-
   return (
-    <div
+    <section
       key={componentKey(props)}
-      className={`deb-confidence-cta-bar ${params?.styles ?? ''}`.trim()}
+      className={`confidence ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.LeftIcon?.value?.src ? <Image field={fields.LeftIcon} className="deb-confidence-cta-bar__left-icon" /> : null}
-      {fields.LeftTitle ? <Text tag="span" field={fields.LeftTitle} className="deb-confidence-cta-bar__left-title" /> : null}
-      {fields.LeftBody ? <Text tag="span" field={fields.LeftBody} className="deb-confidence-cta-bar__left-body" /> : null}
-      {fields.RightIcon?.value?.src ? <Image field={fields.RightIcon} className="deb-confidence-cta-bar__right-icon" /> : null}
-      {fields.RightTitle ? <Text tag="span" field={fields.RightTitle} className="deb-confidence-cta-bar__right-title" /> : null}
-      {fields.RightBody ? <Text tag="span" field={fields.RightBody} className="deb-confidence-cta-bar__right-body" /> : null}
-      {fields.PrimaryLink ? <Link field={fields.PrimaryLink} className="deb-confidence-cta-bar__primary-link" /> : null}
-
-    </div>
+      <div>
+        <ShieldCheck />
+        <span>
+          {fields.LeftTitle ? (
+            <strong>
+              <Text field={fields.LeftTitle} />
+            </strong>
+          ) : null}
+          {fields.LeftBody ? <RichText field={fields.LeftBody} /> : null}
+        </span>
+      </div>
+      <div>
+        <Headset />
+        <span>
+          {fields.RightTitle ? (
+            <strong>
+              <Text field={fields.RightTitle} />
+            </strong>
+          ) : null}
+          {fields.RightBody ? <RichText field={fields.RightBody} /> : null}
+        </span>
+      </div>
+      <FieldLink field={fields.PrimaryLink} className="primary">
+        <ArrowRight aria-hidden="true" />
+      </FieldLink>
+    </section>
   );
 };

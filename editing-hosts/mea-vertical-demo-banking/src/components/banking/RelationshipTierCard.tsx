@@ -1,10 +1,12 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, RichText, Link } from '@sitecore-content-sdk/nextjs';
+import { Text, RichText } from '@sitecore-content-sdk/nextjs';
 import type { TextField, RichTextField, LinkField } from '@sitecore-content-sdk/nextjs';
+import { ArrowRight } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey } from '@/lib/component-utils';
+import { FieldLink } from '@/components/banking/FieldLink';
 
 export interface RelationshipTierCardFields {
   Eyebrow?: TextField;
@@ -15,31 +17,46 @@ export interface RelationshipTierCardFields {
 }
 
 const defaultFields: RelationshipTierCardFields = {
-  Eyebrow: { value: 'Eyebrow' },
-  Title: { value: 'Title' },
-  Body: { value: '<p>Body</p>' },
-  Features: { value: '<p>Features</p>' },
-  Link: { value: { href: '#', text: 'Link' } },
+  Eyebrow: { value: 'DEB EVERYDAY' },
+  Title: { value: 'Everyday' },
+  Body: { value: '<p>For simple, flexible daily banking.</p>' },
+  Features: { value: '<p>Digital support</p><p>Everyday rewards</p>' },
+  Link: { value: { href: '#', text: 'Compare this tier' } },
 };
 
 export type RelationshipTierCardProps = ComponentProps & { fields?: RelationshipTierCardFields };
 
 export const Default = (props: RelationshipTierCardProps): JSX.Element => {
   const { params, fields = defaultFields } = props;
-
+  const title = String(fields.Title?.value ?? '');
+  const selected = /premium/i.test(title) ? 'selected' : '';
 
   return (
-    <div
+    <button
+      type="button"
       key={componentKey(props)}
-      className={`deb-relationship-tier-card ${params?.styles ?? ''}`.trim()}
+      className={`${selected} ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} className="deb-relationship-tier-card__eyebrow" /> : null}
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-relationship-tier-card__title" /> : null}
-      {fields.Body ? <div className="deb-relationship-tier-card__body"><RichText field={fields.Body} /></div> : null}
-      {fields.Features ? <div className="deb-relationship-tier-card__features"><RichText field={fields.Features} /></div> : null}
-      {fields.Link ? <Link field={fields.Link} className="deb-relationship-tier-card__link" /> : null}
-
-    </div>
+      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} /> : null}
+      {fields.Title ? <Text tag="h3" field={fields.Title} /> : null}
+      {fields.Body ? <RichText field={fields.Body} /> : null}
+      {fields.Features ? (
+        <ul className="tier-features">
+          <RichText field={fields.Features} />
+        </ul>
+      ) : null}
+      <em>
+        {selected ? (
+          <>
+            Selected <ArrowRight aria-hidden="true" />
+          </>
+        ) : (
+          <FieldLink field={fields.Link}>
+            <ArrowRight aria-hidden="true" />
+          </FieldLink>
+        )}
+      </em>
+    </button>
   );
 };

@@ -1,0 +1,27 @@
+---
+ID: "9a868608-5b24-40fc-aefa-93842e6d00f9"
+Parent: "f0e97c9d-00e6-4f59-8a6f-6e940783e882"
+Template: "eac75145-7e72-4f7d-ab5d-b87eb548e0d3"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/InsightTopicItems/Travel"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a9a12430-10f8-4aa1-89ee-1f193602452e"
+      Hint: Category
+      Value: "TRAVEL"
+    - ID: "aaa21bca-deaa-47cf-8c1b-9fce5d9fd6ca"
+      Hint: Title
+      Value: "Make your rewards work harder on every journey."
+    - ID: "f0a4a043-8ba3-44c0-9d63-ba168796ad9c"
+      Hint: Link
+      Value: |
+        <link text="Read" linktype="external" url="#" anchor="" target="" />

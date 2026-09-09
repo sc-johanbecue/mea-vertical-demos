@@ -1,54 +1,81 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, RichText, Image, Link } from '@sitecore-content-sdk/nextjs';
+import { Text, RichText, Image } from '@sitecore-content-sdk/nextjs';
 import type { TextField, RichTextField, LinkField, ImageField } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey } from '@/lib/component-utils';
+import { FieldLink } from '@/components/banking/FieldLink';
 
 export interface ProductCardHeroFields {
   Eyebrow?: TextField;
   Title?: TextField;
   Body?: RichTextField;
   PrimaryLink?: LinkField;
-  Image?: TextField;
+  Image?: ImageField;
   CardBrand?: TextField;
   CardTitle?: TextField;
-  CardLogo?: ImageField;
+  CardLogo?: TextField;
 }
 
 const defaultFields: ProductCardHeroFields = {
-  Eyebrow: { value: 'Eyebrow' },
-  Title: { value: 'Title' },
-  Body: { value: '<p>Body</p>' },
-  PrimaryLink: { value: { href: '#', text: 'PrimaryLink' } },
-  Image: { value: 'Image' },
-  CardBrand: { value: 'CardBrand' },
-  CardTitle: { value: 'CardTitle' },
-  CardLogo: { value: { src: '', alt: 'CardLogo' } },
+  Eyebrow: { value: 'DEB TRAVEL CREDIT CARD' },
+  Title: { value: 'Make every journey feel first class.' },
+  Body: {
+    value:
+      '<p>Earn accelerated miles, unlock unlimited lounge visits and enjoy travel protection wherever you go.</p>',
+  },
+  PrimaryLink: { value: { href: '#', text: 'Check your eligibility' } },
+  Image: {
+    value: {
+      src: '/assets/deb-hero.png',
+      alt: 'Sarah overlooking the Dubai skyline at sunrise',
+    },
+  },
+  CardBrand: { value: 'DEB TRAVEL' },
+  CardTitle: { value: 'Every journey,<br/>rewarded.' },
+  CardLogo: { value: 'VISA' },
 };
 
 export type ProductCardHeroProps = ComponentProps & { fields?: ProductCardHeroFields };
 
+function hasImage(field?: ImageField): boolean {
+  const v = field?.value;
+  if (!v) return false;
+  return Boolean(v.src || (v as { mediaid?: string }).mediaid || (v as { mediaId?: string }).mediaId);
+}
+
 export const Default = (props: ProductCardHeroProps): JSX.Element => {
   const { params, fields = defaultFields } = props;
-
-
   return (
-    <div
-      key={componentKey(props)}
-      className={`deb-product-card-hero ${params?.styles ?? ''}`.trim()}
+    <section
+      className={`page-hero card-hero ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
+      data-component={componentKey(props)}
     >
-      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} className="deb-product-card-hero__eyebrow" /> : null}
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-product-card-hero__title" /> : null}
-      {fields.Body ? <div className="deb-product-card-hero__body"><RichText field={fields.Body} /></div> : null}
-      {fields.PrimaryLink ? <Link field={fields.PrimaryLink} className="deb-product-card-hero__primary-link" /> : null}
-      {fields.Image ? <Text tag="span" field={fields.Image} className="deb-product-card-hero__image" /> : null}
-      {fields.CardBrand ? <Text tag="span" field={fields.CardBrand} className="deb-product-card-hero__card-brand" /> : null}
-      {fields.CardTitle ? <Text tag="span" field={fields.CardTitle} className="deb-product-card-hero__card-title" /> : null}
-      {fields.CardLogo?.value?.src ? <Image field={fields.CardLogo} className="deb-product-card-hero__card-logo" /> : null}
-
-    </div>
+      {hasImage(fields.Image) && fields.Image ? (
+        <Image field={fields.Image} className="hero-media" />
+      ) : null}
+      <div className="page-hero-copy">
+        {fields.Eyebrow ? (
+          <p className="eyebrow">
+            <i className="eyebrow-rule" aria-hidden="true" />
+            <Text field={fields.Eyebrow} className="eyebrow-text" />
+          </p>
+        ) : null}
+        {fields.Title ? <Text tag="h1" field={fields.Title} /> : null}
+        {fields.Body ? (
+          <div className="page-hero-body">
+            <RichText field={fields.Body} />
+          </div>
+        ) : null}
+        <FieldLink field={fields.PrimaryLink} className="primary" />
+      </div>
+      <div className="debit-card">
+        {fields.CardBrand ? <Text tag="small" field={fields.CardBrand} /> : null}
+        {fields.CardTitle ? <Text tag="strong" field={fields.CardTitle} /> : null}
+        {fields.CardLogo ? <Text tag="span" field={fields.CardLogo} /> : null}
+      </div>
+    </section>
   );
 };

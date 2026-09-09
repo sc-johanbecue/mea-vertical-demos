@@ -1,0 +1,24 @@
+---
+ID: "841442bb-4e9a-49a9-9395-84b355aa65b9"
+Parent: "2dc62993-0b1d-4aae-be98-5777c84dc56e"
+Template: "5b8b2b17-4f0a-4d92-969b-da30bfa4d472"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/FooterLinkItems/Contact us"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "21592129-04f9-4b67-8e18-dad25d16507d"
+      Hint: Type
+      Value: "Contact us"
+    - ID: "ec8b92bd-4eb1-4b68-a6f6-36658c6ecf57"
+      Hint: Type
+      Value: |
+        <link text="Contact us" linktype="external" url="#" anchor="" target="" />

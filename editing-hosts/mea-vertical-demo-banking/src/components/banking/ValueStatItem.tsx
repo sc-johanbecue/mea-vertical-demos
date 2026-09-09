@@ -1,39 +1,36 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, Image } from '@sitecore-content-sdk/nextjs';
-import type { TextField, ImageField } from '@sitecore-content-sdk/nextjs';
+import { Text } from '@sitecore-content-sdk/nextjs';
+import type { TextField } from '@sitecore-content-sdk/nextjs';
+import { Crown, Sparkle, TrendUp } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey } from '@/lib/component-utils';
 
 export interface ValueStatItemFields {
-  Icon?: ImageField;
   Value?: TextField;
   Label?: TextField;
 }
 
 const defaultFields: ValueStatItemFields = {
-  Icon: { value: { src: '', alt: 'Icon' } },
-  Value: { value: 'Value' },
-  Label: { value: 'Label' },
+  Value: { value: 'AED 4,650+' },
+  Label: { value: 'estimated annual value' },
 };
+
+const ICONS = [Crown, Sparkle, TrendUp];
 
 export type ValueStatItemProps = ComponentProps & { fields?: ValueStatItemFields };
 
 export const Default = (props: ValueStatItemProps): JSX.Element => {
-  const { params, fields = defaultFields } = props;
-
+  const { params, fields = defaultFields, rendering } = props;
+  const digits = String(rendering?.uid ?? '0').replace(/\D/g, '');
+  const Icon = ICONS[Number(digits.slice(-1) || '0') % ICONS.length];
 
   return (
-    <div
-      key={componentKey(props)}
-      className={`deb-value-stat-item ${params?.styles ?? ''}`.trim()}
-      id={params?.RenderingIdentifier}
-    >
-      {fields.Icon?.value?.src ? <Image field={fields.Icon} className="deb-value-stat-item__icon" /> : null}
-      {fields.Value ? <Text tag="span" field={fields.Value} className="deb-value-stat-item__value" /> : null}
-      {fields.Label ? <Text tag="span" field={fields.Label} className="deb-value-stat-item__label" /> : null}
-
+    <div key={componentKey(props)} className={`${params?.styles ?? ''}`.trim()} id={params?.RenderingIdentifier}>
+      <Icon />
+      {fields.Value ? <Text tag="strong" field={fields.Value} /> : null}
+      {fields.Label ? <Text tag="span" field={fields.Label} /> : null}
     </div>
   );
 };

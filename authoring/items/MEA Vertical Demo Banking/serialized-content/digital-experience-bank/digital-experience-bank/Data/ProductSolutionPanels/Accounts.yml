@@ -1,0 +1,41 @@
+---
+ID: "0abe0fc1-2474-42f6-9859-31e09553d862"
+Parent: "6e95b3bb-494a-4113-8882-b8f6cc56537a"
+Template: "8c379795-0f5d-4714-a544-11506058e5e8"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ProductSolutionPanels/Accounts"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "19f5568d-702c-4ead-bd01-b38944495a76"
+      Hint: TabLabel
+      Value: "Accounts"
+    - ID: "3740a071-3010-4005-b413-415b0a219a97"
+      Hint: Eyebrow
+      Value: "EVERYDAY BANKING"
+    - ID: "dcb162e3-3bcf-4b5f-bd68-c1945ed16d9a"
+      Hint: Title
+      Value: "An account that keeps life moving."
+    - ID: "d9f37bc2-a553-43e7-86b8-557a07544eae"
+      Hint: Body
+      Value: |
+        <p>Choose flexible everyday banking with easy international transfers, smart saving tools and support when you need it.</p>
+    - ID: "6e16655a-8f4e-4209-bf60-9eb32b1c1091"
+      Hint: Link
+      Value: |
+        <link text="Explore accounts" linktype="external" url="#" anchor="" target="" />
+    - ID: "1b32c097-dbaa-48fe-abcc-276c92252c06"
+      Hint: CardEyebrow
+      Value: "WHAT YOU CAN EXPECT"
+    - ID: "99839b52-5fac-45f7-9a9a-ecbaf29ae295"
+      Hint: CardItems
+      Value: |
+        <p>Current and savings options</p><p>Multi-currency access</p><p>Digital onboarding in minutes</p>

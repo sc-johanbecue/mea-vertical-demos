@@ -1,0 +1,58 @@
+---
+ID: "7c5bcb72-0cab-4f75-b8fa-2d7c377dde74"
+Parent: "c9f2e018-6033-4a61-b968-7c1368c071d4"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Presentation/Partial Designs/Footer"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "footer"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{790AC047-CEB1-4FB2-A1C1-8BA55765371A}"
+          p:before="*"
+          s:ds="f34a9af4-e1ad-4917-849a-b8c1aa6efc0e"
+          s:id="{03B02659-F206-4D8D-9F19-6D4C0BACB219}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{F734D578-2B17-49A0-96C6-FDF25B292078}"
+          p:after="r[@uid='{790AC047-CEB1-4FB2-A1C1-8BA55765371A}']"
+          s:ds="ce28d4ac-f06f-4c68-8c3d-a2ac71fa2dd6"
+          s:id="{1305A9DB-F7A6-40FA-8A5A-72E8DC884B41}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-links-1" />
+        <r
+          uid="{4DC06C5F-E73F-4A8D-8324-8C6686816117}"
+          p:after="r[@uid='{F734D578-2B17-49A0-96C6-FDF25B292078}']"
+          s:ds="d046f27b-370f-41c3-815d-69c313527e3c"
+          s:id="{1305A9DB-F7A6-40FA-8A5A-72E8DC884B41}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-links-1" />
+        <r
+          uid="{2D412D5D-3D37-4764-969D-F26C0D48D513}"
+          p:after="r[@uid='{4DC06C5F-E73F-4A8D-8324-8C6686816117}']"
+          s:ds="841442bb-4e9a-49a9-9395-84b355aa65b9"
+          s:id="{1305A9DB-F7A6-40FA-8A5A-72E8DC884B41}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-links-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

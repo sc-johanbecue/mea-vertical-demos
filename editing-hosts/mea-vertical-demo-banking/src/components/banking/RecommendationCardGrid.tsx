@@ -1,10 +1,12 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, Link, Placeholder } from '@sitecore-content-sdk/nextjs';
+import { Text, Placeholder } from '@sitecore-content-sdk/nextjs';
 import type { TextField, LinkField } from '@sitecore-content-sdk/nextjs';
+import { ArrowRight } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey, dynamicPlaceholderKey } from '@/lib/component-utils';
+import { FieldLink } from '@/components/banking/FieldLink';
 
 export interface RecommendationCardGridFields {
   Eyebrow?: TextField;
@@ -13,29 +15,37 @@ export interface RecommendationCardGridFields {
 }
 
 const defaultFields: RecommendationCardGridFields = {
-  Eyebrow: { value: 'Eyebrow' },
-  Title: { value: 'Title' },
-  ViewAllLink: { value: { href: '#', text: 'ViewAllLink' } },
+  Eyebrow: { value: 'SELECTED FOR YOUR NEXT CHAPTER' },
+  Title: { value: 'Recommended for you, Sarah' },
+  ViewAllLink: { value: { href: '/Premium', text: 'View all offers' } },
 };
 
 export type RecommendationCardGridProps = ComponentProps & { fields?: RecommendationCardGridFields };
 
 export const Default = (props: RecommendationCardGridProps): JSX.Element => {
   const { params, fields = defaultFields, rendering } = props;
-  const recommendationCardsPh = dynamicPlaceholderKey('recommendation-cards', params);
+  const cardsPh = dynamicPlaceholderKey('recommendation-cards', params);
+  const styles = `${params?.styles ?? ''} ${(params as { Styles?: string })?.Styles ?? ''}`;
+  const compact = styles.includes('three');
 
   return (
-    <div
+    <section
       key={componentKey(props)}
-      className={`deb-recommendation-card-grid ${params?.styles ?? ''}`.trim()}
+      className={`content-section recommendations ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} className="deb-recommendation-card-grid__eyebrow" /> : null}
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-recommendation-card-grid__title" /> : null}
-      {fields.ViewAllLink ? <Link field={fields.ViewAllLink} className="deb-recommendation-card-grid__view-all-link" /> : null}
-      <div className="deb-recommendation-card-grid__recommendation-cards">
-        <Placeholder name={recommendationCardsPh} rendering={rendering} />
+      <div className="section-title">
+        <div>
+          {fields.Eyebrow ? <Text tag="p" field={fields.Eyebrow} className="overline" /> : null}
+          {fields.Title ? <Text tag="h2" field={fields.Title} /> : null}
+        </div>
+        <FieldLink field={fields.ViewAllLink}>
+          <ArrowRight aria-hidden="true" />
+        </FieldLink>
       </div>
-    </div>
+      <div className={`offer-grid${compact ? ' three' : ''}`}>
+        <Placeholder name={cardsPh} rendering={rendering} />
+      </div>
+    </section>
   );
 };

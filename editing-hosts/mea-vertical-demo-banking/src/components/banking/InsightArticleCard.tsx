@@ -1,10 +1,12 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, RichText, Link } from '@sitecore-content-sdk/nextjs';
+import { Text, RichText } from '@sitecore-content-sdk/nextjs';
 import type { TextField, RichTextField, LinkField } from '@sitecore-content-sdk/nextjs';
+import { ArrowRight } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey } from '@/lib/component-utils';
+import { FieldLink } from '@/components/banking/FieldLink';
 
 export interface InsightArticleCardFields {
   Meta?: TextField;
@@ -14,29 +16,28 @@ export interface InsightArticleCardFields {
 }
 
 const defaultFields: InsightArticleCardFields = {
-  Meta: { value: 'Meta' },
-  Title: { value: 'Title' },
-  Body: { value: '<p>Body</p>' },
-  Link: { value: { href: '#', text: 'Link' } },
+  Meta: { value: 'LIFE & MONEY · 6 MIN READ' },
+  Title: { value: 'Five smart financial moves after a promotion.' },
+  Body: { value: '<p>Turn a higher income into more choice—today and in the years ahead.</p>' },
+  Link: { value: { href: '#', text: 'Read the guide' } },
 };
 
 export type InsightArticleCardProps = ComponentProps & { fields?: InsightArticleCardFields };
 
 export const Default = (props: InsightArticleCardProps): JSX.Element => {
   const { params, fields = defaultFields } = props;
-
-
   return (
-    <div
+    <article
       key={componentKey(props)}
-      className={`deb-insight-article-card ${params?.styles ?? ''}`.trim()}
+      className={`feature-article ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.Meta ? <Text tag="span" field={fields.Meta} className="deb-insight-article-card__meta" /> : null}
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-insight-article-card__title" /> : null}
-      {fields.Body ? <div className="deb-insight-article-card__body"><RichText field={fields.Body} /></div> : null}
-      {fields.Link ? <Link field={fields.Link} className="deb-insight-article-card__link" /> : null}
-
-    </div>
+      {fields.Meta ? <Text tag="span" field={fields.Meta} /> : null}
+      {fields.Title ? <Text tag="h3" field={fields.Title} /> : null}
+      {fields.Body ? <RichText field={fields.Body} /> : null}
+      <FieldLink field={fields.Link}>
+        <ArrowRight aria-hidden="true" />
+      </FieldLink>
+    </article>
   );
 };

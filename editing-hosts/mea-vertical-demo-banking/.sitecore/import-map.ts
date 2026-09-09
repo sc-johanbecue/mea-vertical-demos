@@ -9,7 +9,7 @@ import {
 
 import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
 import { Placeholder, NextImage, Link, Text, useSitecore, CdpHelper, RichText, Image as Image_8a80e63291fea86e0744df19113dc44bec187216 } from '@sitecore-content-sdk/nextjs';
-import { useEffect } from 'react';
+import { useEffect, createContext, useCallback, useContext, useMemo, useState } from 'react';
 import React from 'react';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
@@ -18,7 +18,10 @@ import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
 import { pageView } from '@sitecore-content-sdk/events';
 import config from 'sitecore.config';
-import { componentKey, dynamicPlaceholderKey } from '@/lib/component-utils';
+import { ShieldCheck, AirplaneTilt, User, Crown, Sparkle, TrendUp, ArrowRight, Plant, House, PaperPlaneTilt, CreditCard, UsersThree, Wallet, ChartLineUp, Headset, MagnifyingGlass, ChatCircleDots, CaretDown, List, Calculator, Gift, DeviceMobile, LockKey, Eye } from '@phosphor-icons/react';
+import { componentKey, dynamicPlaceholderKey, hasLinkField, normalizeLinkField } from '@/lib/component-utils';
+import { FieldLink } from '@/components/banking/FieldLink';
+import { useSolutionTabs, SolutionTabsProvider } from '@/components/banking/SolutionTabsContext';
 
 const importMap = [
   {
@@ -46,6 +49,11 @@ const importMap = [
     module: 'react',
     exports: [
       { name: 'useEffect', value: useEffect },
+      { name: 'createContext', value: createContext },
+      { name: 'useCallback', value: useCallback },
+      { name: 'useContext', value: useContext },
+      { name: 'useMemo', value: useMemo },
+      { name: 'useState', value: useState },
       { name: 'default', value: React },
     ]
   },
@@ -92,10 +100,54 @@ const importMap = [
     ]
   },
   {
+    module: '@phosphor-icons/react',
+    exports: [
+      { name: 'ShieldCheck', value: ShieldCheck },
+      { name: 'AirplaneTilt', value: AirplaneTilt },
+      { name: 'User', value: User },
+      { name: 'Crown', value: Crown },
+      { name: 'Sparkle', value: Sparkle },
+      { name: 'TrendUp', value: TrendUp },
+      { name: 'ArrowRight', value: ArrowRight },
+      { name: 'Plant', value: Plant },
+      { name: 'House', value: House },
+      { name: 'PaperPlaneTilt', value: PaperPlaneTilt },
+      { name: 'CreditCard', value: CreditCard },
+      { name: 'UsersThree', value: UsersThree },
+      { name: 'Wallet', value: Wallet },
+      { name: 'ChartLineUp', value: ChartLineUp },
+      { name: 'Headset', value: Headset },
+      { name: 'MagnifyingGlass', value: MagnifyingGlass },
+      { name: 'ChatCircleDots', value: ChatCircleDots },
+      { name: 'CaretDown', value: CaretDown },
+      { name: 'List', value: List },
+      { name: 'Calculator', value: Calculator },
+      { name: 'Gift', value: Gift },
+      { name: 'DeviceMobile', value: DeviceMobile },
+      { name: 'LockKey', value: LockKey },
+      { name: 'Eye', value: Eye },
+    ]
+  },
+  {
     module: '@/lib/component-utils',
     exports: [
       { name: 'componentKey', value: componentKey },
       { name: 'dynamicPlaceholderKey', value: dynamicPlaceholderKey },
+      { name: 'hasLinkField', value: hasLinkField },
+      { name: 'normalizeLinkField', value: normalizeLinkField },
+    ]
+  },
+  {
+    module: '@/components/banking/FieldLink',
+    exports: [
+      { name: 'FieldLink', value: FieldLink },
+    ]
+  },
+  {
+    module: '@/components/banking/SolutionTabsContext',
+    exports: [
+      { name: 'useSolutionTabs', value: useSolutionTabs },
+      { name: 'SolutionTabsProvider', value: SolutionTabsProvider },
     ]
   }
 ] as ImportEntry[];

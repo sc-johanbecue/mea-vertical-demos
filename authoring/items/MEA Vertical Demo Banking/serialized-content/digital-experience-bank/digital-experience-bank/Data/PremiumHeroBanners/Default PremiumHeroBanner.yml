@@ -1,0 +1,39 @@
+---
+ID: "51662ce1-118f-4a62-8479-5d17445718f4"
+Parent: "27fdf09f-a9ed-4aeb-890a-3e1af7a76bf8"
+Template: "404a361c-8f3e-46b1-8cdd-ac6e5e601695"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/PremiumHeroBanners/Default PremiumHeroBanner"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c80eedd3-b046-47fe-8def-82cc16317b21"
+      Hint: Type
+      Value: |
+        <p>Discover Premium Banking tailored to your next chapter.</p>
+    - ID: "d5720ecd-78bc-4ff4-90f9-c4d475ece4cb"
+      Hint: Type
+      Value: "Congratulations on your recent"
+    - ID: "8c094332-9a6f-41ad-a8e1-407216d8e86f"
+      Hint: Image
+      Value: |
+        <image mediaid="{0C03BCAB-1F87-4ACE-9C7B-71252D092A02}" alt="Sarah overlooking the Dubai skyline at sunrise" />
+    - ID: "76fa7ace-3441-43f3-938f-85afca560530"
+      Hint: Type
+      Value: |
+        <link text="Explore Premium Banking" linktype="external" url="#" anchor="" target="" />
+    - ID: "715f9bd0-d248-4b03-b5bb-89e49a84c43b"
+      Hint: Type
+      Value: |
+        <link text="Not now" linktype="external" url="#" anchor="" target="" />
+    - ID: "2d9ed51f-54b7-4e52-9333-97d57b48083b"
+      Hint: Type
+      Value: "career milestone, Sarah"

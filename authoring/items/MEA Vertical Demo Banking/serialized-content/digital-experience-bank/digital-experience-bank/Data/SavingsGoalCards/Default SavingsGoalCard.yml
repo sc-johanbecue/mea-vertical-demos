@@ -1,0 +1,36 @@
+---
+ID: "eb2d806f-2064-4f46-ad15-4447f7d251d3"
+Parent: "2f8d411d-4e5f-4681-8238-15fc87be3a7f"
+Template: "c7810c77-7469-4c0d-b926-b833e6884bb5"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/SavingsGoalCards/Default SavingsGoalCard"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "68c78378-e2fc-46a5-976e-3bbb8a2e6f29"
+      Hint: Type
+      Value: "AED 180,000"
+    - ID: "3fe42cb8-7cad-4dd4-9090-78dacfee06b3"
+      Hint: Type
+      Value: "HOME SAVINGS GOAL"
+    - ID: "a51ccd28-a66b-4966-9819-890b289ae563"
+      Hint: Type
+      Value: "AED 250,000"
+    - ID: "bc64b2ff-d000-4aac-9b8b-0a84245bb723"
+      Hint: Type
+      Value: |
+        <image mediapath="" alt="Type" height="" width="" hspace="" vspace="" />
+    - ID: "7db4a0fa-31fd-4c5f-a16f-a9b3846809dd"
+      Hint: Type
+      Value: "72% complete"
+    - ID: "69623fbe-2027-4814-82d0-d32efe36a846"
+      Hint: Type
+      Value: "72"

@@ -1,0 +1,23 @@
+---
+ID: "e37e9c02-72d7-4c1b-8939-889664fcb541"
+Parent: "0c95073f-0693-4979-9583-f31f5b3b8a16"
+Template: "401e736c-715b-4f1e-8ebe-0f0c25f1acd0"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/RecommendationCardGrids/Default RecommendationCardGrid"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a6177192-fead-490d-a5aa-390c94a0e855"
+      Hint: Type
+      Value: "SELECTED FOR YOUR NEXT CHAPTER"
+    - ID: "ea672f72-a293-4b32-94d3-d54c416004a9"
+      Hint: Type
+      Value: "Recommended for you, Sarah"

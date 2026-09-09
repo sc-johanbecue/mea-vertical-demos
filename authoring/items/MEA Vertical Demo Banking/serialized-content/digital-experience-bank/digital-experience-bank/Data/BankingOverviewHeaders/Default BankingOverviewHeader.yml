@@ -1,0 +1,23 @@
+---
+ID: "50ad50bf-4257-4681-b2cc-6d14d27e373b"
+Parent: "7780e5a0-6b35-43a8-9412-723a62b22518"
+Template: "827a31fd-b34e-456b-8646-b1a86eedf813"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/BankingOverviewHeaders/Default BankingOverviewHeader"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a2510bef-3f68-4d34-ad94-3f24cf8c274c"
+      Hint: Type
+      Value: "Good morning, Sarah"
+    - ID: "2e27d9c7-30a7-453a-903c-e597caa0b492"
+      Hint: Type
+      Value: "Here's your financial overview."

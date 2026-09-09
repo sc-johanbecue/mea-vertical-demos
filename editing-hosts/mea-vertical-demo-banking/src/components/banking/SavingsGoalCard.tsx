@@ -1,13 +1,13 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, Image } from '@sitecore-content-sdk/nextjs';
-import type { TextField, ImageField } from '@sitecore-content-sdk/nextjs';
+import { Text } from '@sitecore-content-sdk/nextjs';
+import type { TextField } from '@sitecore-content-sdk/nextjs';
+import { TrendUp } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey } from '@/lib/component-utils';
 
 export interface SavingsGoalCardFields {
-  Icon?: ImageField;
   Eyebrow?: TextField;
   ProgressLabel?: TextField;
   ProgressValue?: TextField;
@@ -16,33 +16,36 @@ export interface SavingsGoalCardFields {
 }
 
 const defaultFields: SavingsGoalCardFields = {
-  Icon: { value: { src: '', alt: 'Icon' } },
-  Eyebrow: { value: 'Eyebrow' },
-  ProgressLabel: { value: 'ProgressLabel' },
-  ProgressValue: { value: 'ProgressValue' },
-  CurrentAmount: { value: 'CurrentAmount' },
-  GoalAmount: { value: 'GoalAmount' },
+  Eyebrow: { value: 'HOME SAVINGS GOAL' },
+  ProgressLabel: { value: '72% complete' },
+  ProgressValue: { value: '72' },
+  CurrentAmount: { value: 'AED 180,000' },
+  GoalAmount: { value: 'AED 250,000' },
 };
 
 export type SavingsGoalCardProps = ComponentProps & { fields?: SavingsGoalCardFields };
 
 export const Default = (props: SavingsGoalCardProps): JSX.Element => {
   const { params, fields = defaultFields } = props;
-
+  const width = Math.min(100, Number(fields.ProgressValue?.value ?? 72));
 
   return (
-    <div
+    <aside
       key={componentKey(props)}
-      className={`deb-savings-goal-card ${params?.styles ?? ''}`.trim()}
+      className={`goal-card ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.Icon?.value?.src ? <Image field={fields.Icon} className="deb-savings-goal-card__icon" /> : null}
-      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} className="deb-savings-goal-card__eyebrow" /> : null}
-      {fields.ProgressLabel ? <Text tag="span" field={fields.ProgressLabel} className="deb-savings-goal-card__progress-label" /> : null}
-      {fields.ProgressValue ? <Text tag="span" field={fields.ProgressValue} className="deb-savings-goal-card__progress-value" /> : null}
-      {fields.CurrentAmount ? <Text tag="span" field={fields.CurrentAmount} className="deb-savings-goal-card__current-amount" /> : null}
-      {fields.GoalAmount ? <Text tag="span" field={fields.GoalAmount} className="deb-savings-goal-card__goal-amount" /> : null}
-
-    </div>
+      <TrendUp />
+      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} /> : null}
+      {fields.ProgressLabel ? <Text tag="strong" field={fields.ProgressLabel} /> : null}
+      <div className="progress">
+        <i style={{ width: `${width}%` }} />
+      </div>
+      <small>
+        {fields.CurrentAmount ? <Text field={fields.CurrentAmount} /> : null}
+        {' of '}
+        {fields.GoalAmount ? <Text field={fields.GoalAmount} /> : null}
+      </small>
+    </aside>
   );
 };

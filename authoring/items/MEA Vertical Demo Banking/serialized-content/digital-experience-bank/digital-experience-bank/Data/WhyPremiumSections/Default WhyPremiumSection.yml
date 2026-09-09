@@ -1,0 +1,31 @@
+---
+ID: "d47879e1-b341-4349-8672-3728f2203ce6"
+Parent: "02e1caba-8c9b-4e1b-99c0-0b7c6526231f"
+Template: "2b5418e1-5f73-4021-87ad-eabfe5282ec2"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/WhyPremiumSections/Default WhyPremiumSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "87eb5e2d-4314-449f-8c1e-7192bc48e4b4"
+      Hint: Type
+      Value: |
+        <p>Enjoy privileges that make travel more comfortable.</p>
+    - ID: "9695ba9a-978b-49ad-8a8c-612ada09a4a7"
+      Hint: Type
+      Value: |
+        <p>Waived fees on balances above AED 20,000</p>
+    - ID: "48fc923e-bd2f-42da-af3e-cf65890c292b"
+      Hint: Type
+      Value: "WHY PREMIUM"
+    - ID: "80ce31df-ecd1-41b9-9217-2eeda2c157e3"
+      Hint: Type
+      Value: "Recognised wherever life takes you."

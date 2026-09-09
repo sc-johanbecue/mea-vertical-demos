@@ -1,0 +1,20 @@
+---
+ID: "347c28f8-3cd3-4db5-990f-3dc987560823"
+Parent: "4e780c4b-80a1-45e1-80ec-64b3ce2028ba"
+Template: "e47d87ce-5f18-48de-a60c-dac2db566495"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/FaqItems/Q2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "3db603c1-d0c2-4bb1-ba37-d9cf5231558e"
+      Hint: Question
+      Value: "Can I speak with someone before choosing?"
+    - ID: "f5c356bf-22e6-4024-a5ed-392fc2cfc89c"
+      Hint: Answer
+      Value: |
+        <p>Yes. You can book a complimentary conversation with a DEB specialist at any stage.</p>

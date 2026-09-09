@@ -1,0 +1,31 @@
+---
+ID: "0c9a53f3-d973-4179-a047-7a6096ba0b3d"
+Parent: "286a7ff5-c535-4eba-8910-b37b4674dd44"
+Template: "182f9b02-b4a0-437d-8385-714b66973dd8"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/RelationshipTierGrids/Default RelationshipTierGrid"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8394f952-0d58-46ac-b5b8-c14f8eaf393a"
+      Hint: Type
+      Value: "BANK YOUR WAY"
+    - ID: "87dd7028-90eb-4bc4-9880-029a0f5493bd"
+      Hint: Type
+      Value: |
+        <link text="Explore Premium banking" linktype="external" url="#" anchor="" target="" />
+    - ID: "72b22abb-9560-417d-b8a3-6a0be2684508"
+      Hint: Type
+      Value: |
+        <p>Compare the support and privileges available as your needs evolve.</p>
+    - ID: "f0a8da49-f67f-4fa4-a2d6-793e0fff425d"
+      Hint: Type
+      Value: "Choose a relationship that fits your world."

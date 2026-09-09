@@ -1,0 +1,17 @@
+---
+ID: "9bb5aa00-3dc9-4b28-a76a-9f7a73318b9c"
+Parent: "6a768631-6185-45c4-b56f-8de74ac0eb1d"
+Template: "a04bcb6a-a6e7-4b7d-a0a1-456acaf0bd92"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/AccountSummaryCards"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

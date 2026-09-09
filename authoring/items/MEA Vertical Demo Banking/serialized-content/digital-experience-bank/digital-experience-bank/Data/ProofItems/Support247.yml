@@ -1,0 +1,23 @@
+---
+ID: "5825ffdf-7004-494d-abfc-e594a82f8783"
+Parent: "e0c6b478-9156-45eb-9c24-7a0b930b0efd"
+Template: "c8139fb6-589f-4dfb-ab4e-1fc0a8c1bf89"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ProofItems/Support247"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9f4dfe5e-b680-45c7-8912-3d44cde2a939"
+      Hint: Value
+      Value: "24/7"
+    - ID: "9284d6b2-5fa8-412a-8c06-29746b14f363"
+      Hint: Label
+      Value: "human and digital support"

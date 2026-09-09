@@ -16,12 +16,12 @@ export interface NextBestActionCardFields {
 }
 
 const defaultFields: NextBestActionCardFields = {
-  StatusLabel: { value: 'StatusLabel' },
-  UpdatedLabel: { value: 'UpdatedLabel' },
-  Eyebrow: { value: 'Eyebrow' },
-  Title: { value: 'Title' },
-  ProgressValue: { value: 'ProgressValue' },
-  ProgressLabel: { value: 'ProgressLabel' },
+  StatusLabel: { value: 'DEB INTELLIGENCE' },
+  UpdatedLabel: { value: 'Updated today' },
+  Eyebrow: { value: 'YOUR NEXT BEST ACTION' },
+  Title: { value: 'Your home goal is gaining momentum.' },
+  ProgressValue: { value: '72%' },
+  ProgressLabel: { value: 'of goal reached' },
 };
 
 export type NextBestActionCardProps = ComponentProps & { fields?: NextBestActionCardFields };
@@ -33,18 +33,27 @@ export const Default = (props: NextBestActionCardProps): JSX.Element => {
   return (
     <div
       key={componentKey(props)}
-      className={`deb-next-best-action-card ${params?.styles ?? ''}`.trim()}
+      className={`next-best ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.StatusLabel ? <Text tag="span" field={fields.StatusLabel} className="deb-next-best-action-card__status-label" /> : null}
-      {fields.UpdatedLabel ? <Text tag="span" field={fields.UpdatedLabel} className="deb-next-best-action-card__updated-label" /> : null}
-      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} className="deb-next-best-action-card__eyebrow" /> : null}
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-next-best-action-card__title" /> : null}
-      {fields.ProgressValue ? <Text tag="span" field={fields.ProgressValue} className="deb-next-best-action-card__progress-value" /> : null}
-      {fields.ProgressLabel ? <Text tag="span" field={fields.ProgressLabel} className="deb-next-best-action-card__progress-label" /> : null}
-      <div className="deb-next-best-action-card__next-best-actions">
-        <Placeholder name={nextBestActionsPh} rendering={rendering} />
+      <div className="next-head">
+        <span>
+          <i /> {fields.StatusLabel ? <Text field={fields.StatusLabel} /> : null}
+        </span>
+        {fields.UpdatedLabel ? <Text tag="small" field={fields.UpdatedLabel} /> : null}
       </div>
+      {fields.Eyebrow ? <Text tag="p" field={fields.Eyebrow} /> : null}
+      {fields.Title ? <Text tag="h3" field={fields.Title} /> : null}
+      <div className="goal-visual">
+        <div>
+          {fields.ProgressValue ? <Text tag="strong" field={fields.ProgressValue} /> : null}
+          {fields.ProgressLabel ? <Text tag="span" field={fields.ProgressLabel} /> : null}
+        </div>
+        <i>
+          <b />
+        </i>
+      </div>
+      <Placeholder name={nextBestActionsPh} rendering={rendering} />
     </div>
   );
 };

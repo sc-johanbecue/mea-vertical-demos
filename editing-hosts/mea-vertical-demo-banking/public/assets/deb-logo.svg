@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72" role="img" aria-label="Digital Experience Bank">
+  <g fill="#001a3a">
+    <text x="0" y="42" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="-2">D</text>
+    <text x="30" y="42" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="-2">E</text>
+    <text x="56" y="42" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="-2">B</text>
+    <rect x="34" y="26" width="16" height="4" fill="#ff6b28"/>
+    <rect x="86" y="12" width="1.5" height="36" fill="#ff6b28"/>
+    <text x="98" y="22" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="1.4">DIGITAL</text>
+    <text x="98" y="34" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="1.4">EXPERIENCE</text>
+    <text x="98" y="46" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="1.4">BANK</text>
+  </g>
+</svg>

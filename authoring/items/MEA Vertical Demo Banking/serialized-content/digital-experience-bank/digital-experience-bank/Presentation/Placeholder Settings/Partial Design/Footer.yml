@@ -1,0 +1,21 @@
+---
+ID: "4431c8e1-96ff-4c2f-897a-a94aab534f26"
+Parent: "07fc15ff-13b8-4fb0-a77a-094be90de5c4"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Presentation/Placeholder Settings/Partial Design/Footer"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

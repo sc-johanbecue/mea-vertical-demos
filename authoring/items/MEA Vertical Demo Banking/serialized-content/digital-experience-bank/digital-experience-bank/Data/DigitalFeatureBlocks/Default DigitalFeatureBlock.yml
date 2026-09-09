@@ -1,0 +1,31 @@
+---
+ID: "994512a6-63a8-4a18-8baf-8c98bab77ce0"
+Parent: "1d88eb5e-8c8d-4b11-8c61-ea84c8beb104"
+Template: "d5e5959c-f750-4098-92a7-5abcbd056a10"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/DigitalFeatureBlocks/Default DigitalFeatureBlock"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b4a0ea6d-2f91-469a-b42f-7e8eff69589c"
+      Hint: Type
+      Value: |
+        <p>DEB brings your goals, products and personal support together.</p>
+    - ID: "da19679e-d285-48db-97fa-386eed50222d"
+      Hint: Type
+      Value: "DIGITAL, WITH A HUMAN TOUCH."
+    - ID: "fd9c3db4-a14e-4d20-9475-534c6f1169b2"
+      Hint: Type
+      Value: |
+        <link text="See how digital banking works" linktype="external" url="#" anchor="" target="" />
+    - ID: "aaa3b0dd-f1ac-474e-b1ba-41115dc199ab"
+      Hint: Type
+      Value: "Your bank should think one step ahead."

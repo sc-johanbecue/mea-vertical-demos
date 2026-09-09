@@ -1,0 +1,20 @@
+---
+ID: "2fdc05c1-6ef3-442e-8a8c-95b177bdfe11"
+Parent: "4e780c4b-80a1-45e1-80ec-64b3ce2028ba"
+Template: "e47d87ce-5f18-48de-a60c-dac2db566495"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/FaqItems/Q3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "3db603c1-d0c2-4bb1-ba37-d9cf5231558e"
+      Hint: Question
+      Value: "What makes Premium Banking different?"
+    - ID: "f5c356bf-22e6-4024-a5ed-392fc2cfc89c"
+      Hint: Answer
+      Value: |
+        <p>Premium combines richer travel and lifestyle privileges with priority support and more personalised guidance.</p>

@@ -1,0 +1,17 @@
+---
+ID: "a3c75c4e-fd7d-4b79-b443-8dc0e8f840ea"
+Parent: "4156281a-e73f-4936-b101-50d4b2f3e7fe"
+Template: "13177b09-d029-4335-94bd-8d30c76051e4"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ProofStrips/Default ProofStrip"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

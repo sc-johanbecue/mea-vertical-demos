@@ -1,0 +1,41 @@
+---
+ID: "a7c6f50e-6650-4aa3-bda5-adbe573ea3b1"
+Parent: "ffecf68d-6ff1-4a86-afcb-16975fdc6e52"
+Template: "06bbbdcf-ba36-455a-9fe2-4a4a2c25a84a"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ConfidenceCtaBars/Default ConfidenceCtaBar"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "2641d173-6410-456b-a6e8-24c51c47f41c"
+      Hint: Type
+      Value: "Industry-leading protection and privacy at every step."
+    - ID: "d589679f-c777-4b5e-8b15-fa01c20ebf10"
+      Hint: Type
+      Value: |
+        <image mediapath="" alt="Type" height="" width="" hspace="" vspace="" />
+    - ID: "9e1e7a93-2eef-48a8-bde1-64a240ae45c5"
+      Hint: Type
+      Value: "Built around your security"
+    - ID: "df5ff6fb-5e91-4698-ba33-8293659c3023"
+      Hint: Type
+      Value: |
+        <link text="Start your upgrade" linktype="external" url="#" anchor="" target="" />
+    - ID: "6c10d939-232c-4ca7-a238-fde77a7e7e9e"
+      Hint: Type
+      Value: "Priority specialists available 24 hours a day."
+    - ID: "8bd94332-2f3b-46a8-8e19-6bbc251db20a"
+      Hint: Type
+      Value: |
+        <image mediapath="" alt="Type" height="" width="" hspace="" vspace="" />
+    - ID: "21e7700a-956b-4027-92a0-76b15cf9bad7"
+      Hint: Type
+      Value: "Human help, whenever you need it"

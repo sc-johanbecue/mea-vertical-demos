@@ -1,0 +1,20 @@
+---
+ID: "88f50ff5-81d4-4d68-8221-cc93e3bca99a"
+Parent: "2306bc1c-b63c-4d15-9cd3-d352fcba40a1"
+Template: "58f24185-0239-4353-bad5-a595ca4c0385"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/DigitalFeatureItems/Connected"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "6fe22fc7-b7c3-481d-bc6b-82c6a4423108"
+      Hint: Title
+      Value: "One connected experience"
+    - ID: "9f915462-8e41-437a-ae8c-81ff707d35eb"
+      Hint: Body
+      Value: |
+        <p>Move smoothly between mobile and web.</p>

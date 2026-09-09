@@ -1,10 +1,12 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, RichText, Link, Placeholder } from '@sitecore-content-sdk/nextjs';
+import { Text, RichText, Placeholder } from '@sitecore-content-sdk/nextjs';
 import type { TextField, RichTextField, LinkField } from '@sitecore-content-sdk/nextjs';
+import { ArrowRight } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey, dynamicPlaceholderKey } from '@/lib/component-utils';
+import { FieldLink } from '@/components/banking/FieldLink';
 
 export interface RelationshipTierGridFields {
   Eyebrow?: TextField;
@@ -14,10 +16,10 @@ export interface RelationshipTierGridFields {
 }
 
 const defaultFields: RelationshipTierGridFields = {
-  Eyebrow: { value: 'Eyebrow' },
-  Title: { value: 'Title' },
-  Intro: { value: '<p>Intro</p>' },
-  FooterLink: { value: { href: '#', text: 'FooterLink' } },
+  Eyebrow: { value: 'BANK YOUR WAY' },
+  Title: { value: 'Choose a relationship that fits your world.' },
+  Intro: { value: '<p>Compare the support and privileges available as your needs evolve.</p>' },
+  FooterLink: { value: { href: '/Premium', text: 'Explore Premium banking' } },
 };
 
 export type RelationshipTierGridProps = ComponentProps & { fields?: RelationshipTierGridFields };
@@ -27,18 +29,24 @@ export const Default = (props: RelationshipTierGridProps): JSX.Element => {
   const tierCardsPh = dynamicPlaceholderKey('tier-cards', params);
 
   return (
-    <div
+    <section
       key={componentKey(props)}
-      className={`deb-relationship-tier-grid ${params?.styles ?? ''}`.trim()}
+      className={`tier-section ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} className="deb-relationship-tier-grid__eyebrow" /> : null}
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-relationship-tier-grid__title" /> : null}
-      {fields.Intro ? <div className="deb-relationship-tier-grid__intro"><RichText field={fields.Intro} /></div> : null}
-      {fields.FooterLink ? <Link field={fields.FooterLink} className="deb-relationship-tier-grid__footer-link" /> : null}
-      <div className="deb-relationship-tier-grid__tier-cards">
-        <Placeholder name={tierCardsPh} rendering={rendering} />
+      <div className="content-section">
+        <div className="section-intro centered">
+          {fields.Eyebrow ? <Text tag="p" field={fields.Eyebrow} className="overline" /> : null}
+          {fields.Title ? <Text tag="h2" field={fields.Title} /> : null}
+          {fields.Intro ? <RichText field={fields.Intro} /> : null}
+        </div>
+        <div className="tier-grid">
+          <Placeholder name={tierCardsPh} rendering={rendering} />
+        </div>
+        <FieldLink field={fields.FooterLink} className="tier-cta">
+          <ArrowRight aria-hidden="true" />
+        </FieldLink>
       </div>
-    </div>
+    </section>
   );
 };

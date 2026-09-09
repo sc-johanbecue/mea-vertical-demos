@@ -1,0 +1,24 @@
+---
+ID: "89bf8d8e-2b71-4ff2-b00b-37be8ed29b48"
+Parent: "854bff1a-0950-419e-b18d-c83763929c1f"
+Template: "433df46f-d755-4bb5-a87d-e49aa3cbde21"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/NextBestActionItems/Mortgage"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "9c25b682-18a1-4def-ae06-24db03309f4b"
+      Hint: Title
+      Value: "You could be mortgage-ready sooner"
+    - ID: "5ee3c982-9fa8-4e9f-9a4f-e7f3db89a39d"
+      Hint: Body
+      Value: |
+        <p>Explore a personalised readiness check based on your goal.</p>
+    - ID: "4e379731-cd49-4ecd-af3a-d52f07c276d2"
+      Hint: Link
+      Value: |
+        <link text="Explore" linktype="external" url="#" anchor="" target="" />

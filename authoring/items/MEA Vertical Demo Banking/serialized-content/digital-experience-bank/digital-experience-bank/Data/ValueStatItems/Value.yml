@@ -1,0 +1,19 @@
+---
+ID: "465e3feb-d6f4-46d3-97eb-978060332436"
+Parent: "af54fecb-aeb1-4400-9efc-dcafad8c53e4"
+Template: "710cb8b7-7e59-4516-bae8-065d2ef47658"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ValueStatItems/Value"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "d6f3160c-2914-418b-a47c-564a6326f89d"
+      Hint: Value
+      Value: "AED 4,650+"
+    - ID: "9cbbf5e6-1bf8-4e62-b2a7-320016d1ebee"
+      Hint: Label
+      Value: "estimated annual value"

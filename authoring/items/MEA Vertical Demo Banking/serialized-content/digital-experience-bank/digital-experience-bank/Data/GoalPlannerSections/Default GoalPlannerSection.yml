@@ -1,0 +1,52 @@
+---
+ID: "d8d1ae33-9afb-4d1c-8972-66d340673cd4"
+Parent: "7e7a9f41-e623-4abd-ae55-8004873dbda8"
+Template: "32f2ebae-705f-46e1-8d24-c327a461166d"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/GoalPlannerSections/Default GoalPlannerSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "39b1ab6a-d969-4241-8e99-49feed954e30"
+      Hint: Type
+      Value: |
+        <p>Adjust your monthly contribution to explore a simple path toward a AED 250,000 home deposit goal.</p>
+    - ID: "dc86b469-9249-4a30-b52a-d0827a534552"
+      Hint: Type
+      Value: "AED 5,000"
+    - ID: "21ff3546-f6c9-47b7-9b0d-f8d0b43f04e1"
+      Hint: Type
+      Value: |
+        <p>Illustrative estimate only.</p>
+    - ID: "9a73bede-83fa-483f-9016-102ce07ef6f7"
+      Hint: Type
+      Value: "PLAN WITH CLARITY"
+    - ID: "d3882aa5-f17c-4609-b59e-d55ad8fa4378"
+      Hint: Type
+      Value: "AED 250,000"
+    - ID: "5d92bd6f-f53a-43ee-aff7-e07da3282249"
+      Hint: Type
+      Value: "AED 12,000"
+    - ID: "e28fe455-7eac-4a02-ac9e-9ffd2f3b7a36"
+      Hint: Type
+      Value: "AED 1,000"
+    - ID: "b56e0ee9-4a80-4e50-b2ad-367ad7ac89df"
+      Hint: Type
+      Value: "At this pace, you could reach your goal in"
+    - ID: "e64b645c-8f64-4887-bb69-0935215d4cb8"
+      Hint: Type
+      Value: "Starting from AED 80,000 already saved"
+    - ID: "a5c641f0-7119-43c5-9d7a-4926a5835474"
+      Hint: Type
+      Value: "AED 80,000"
+    - ID: "87e8a41c-606c-4717-951a-25f024d06539"
+      Hint: Type
+      Value: "See what one regular step could add up to."

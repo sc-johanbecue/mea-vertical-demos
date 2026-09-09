@@ -1,0 +1,145 @@
+---
+ID: "ee2aafd5-e43c-4f0f-b5e6-95320df30960"
+Parent: "7342a904-255a-4244-a4d2-25b32c88f9c7"
+Template: "2434808b-3701-4ed2-8988-ae83c5df23bd"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Home/Banking"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{67A9E076-7AEA-42CA-AB7E-852F9C4FA8E2}"
+          p:before="*"
+          s:ds="50ad50bf-4257-4681-b2cc-6d14d27e373b"
+          s:id="{419E1EAA-164D-4BBE-BC68-11854E20ADCE}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{169509DF-8BA9-401E-96DB-18CD851EF5A5}"
+          p:after="r[@uid='{67A9E076-7AEA-42CA-AB7E-852F9C4FA8E2}']"
+          s:ds="21aee73b-5dea-4129-b8f9-aaa41bc9df67"
+          s:id="{07248644-8A4B-4DA6-A22C-A9E3EC14F159}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{34BB8CC3-2F5D-417E-8824-E13E20A470C0}"
+          p:after="r[@uid='{169509DF-8BA9-401E-96DB-18CD851EF5A5}']"
+          s:ds="eb2d806f-2064-4f46-ad15-4447f7d251d3"
+          s:id="{F0F4B45D-3A4D-4935-8F48-269D40416FE1}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{70FD1D51-2949-4EF0-9578-B3AA728ED30F}"
+          p:after="r[@uid='{34BB8CC3-2F5D-417E-8824-E13E20A470C0}']"
+          s:ds="9f563752-6c20-4753-8d5e-dd35ae0848fc"
+          s:id="{2DA39999-4128-4920-AC14-61CA224EF8CB}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="headless-main" />
+        <r
+          uid="{FABD679C-CC55-4004-B5D7-04E2F205C7EE}"
+          p:after="r[@uid='{70FD1D51-2949-4EF0-9578-B3AA728ED30F}']"
+          s:ds="69fe50a7-81fb-47fa-9403-2696fadedeec"
+          s:id="{3D3CDC4E-255B-4A64-80A9-CEBBFC817510}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/quick-actions-4" />
+        <r
+          uid="{2690B714-BE57-4351-A593-C30F83715183}"
+          p:after="r[@uid='{FABD679C-CC55-4004-B5D7-04E2F205C7EE}']"
+          s:ds="36ee4289-3281-4d67-85da-263b15877300"
+          s:id="{3D3CDC4E-255B-4A64-80A9-CEBBFC817510}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/quick-actions-4" />
+        <r
+          uid="{69CEAC38-1E19-49BB-A6C8-547833D4461B}"
+          p:after="r[@uid='{2690B714-BE57-4351-A593-C30F83715183}']"
+          s:ds="7d09210a-f176-4282-abf3-2c771fb06156"
+          s:id="{3D3CDC4E-255B-4A64-80A9-CEBBFC817510}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/quick-actions-4" />
+        <r
+          uid="{E87BCC70-C564-41CC-9C84-86C86464EFF4}"
+          p:after="r[@uid='{69CEAC38-1E19-49BB-A6C8-547833D4461B}']"
+          s:ds="32d911e5-7380-456a-8e36-c17471f1ac51"
+          s:id="{3D3CDC4E-255B-4A64-80A9-CEBBFC817510}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/quick-actions-4" />
+        <r
+          uid="{E8E16C28-9451-4373-AE9E-D80DA3F61EFE}"
+          p:after="r[@uid='{E87BCC70-C564-41CC-9C84-86C86464EFF4}']"
+          s:ds="d40cf948-3868-4628-8846-651f79170b8c"
+          s:id="{3D3CDC4E-255B-4A64-80A9-CEBBFC817510}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/quick-actions-4" />
+        <r
+          uid="{9B6C6A4C-EF50-4A54-BEB2-DA4499B0E1CA}"
+          p:after="r[@uid='{E8E16C28-9451-4373-AE9E-D80DA3F61EFE}']"
+          s:ds="6dfeca3d-1a90-4b00-b946-8885086ab1c5"
+          s:id="{2BF3CA6F-75D5-4CFB-9723-35132D10CF04}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="headless-main" />
+        <r
+          uid="{E69D673A-9419-439A-B356-67F7D8AD07B7}"
+          p:after="r[@uid='{9B6C6A4C-EF50-4A54-BEB2-DA4499B0E1CA}']"
+          s:ds="c7688014-b873-431a-9e02-8e8341edc6e3"
+          s:id="{89C0BB19-43E3-44B9-9237-E0319DF56DE3}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/activity-items-5" />
+        <r
+          uid="{AD876776-A4A2-43AA-A041-9260D968C81C}"
+          p:after="r[@uid='{E69D673A-9419-439A-B356-67F7D8AD07B7}']"
+          s:ds="5e1e2521-ed74-4d82-923b-f4b7219c8c5a"
+          s:id="{89C0BB19-43E3-44B9-9237-E0319DF56DE3}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/activity-items-5" />
+        <r
+          uid="{E2BA6091-6189-4733-A7CE-4CAB99A352D7}"
+          p:after="r[@uid='{AD876776-A4A2-43AA-A041-9260D968C81C}']"
+          s:ds="4ea0854b-5d42-4db8-aa4d-4a921fbaba3c"
+          s:id="{89C0BB19-43E3-44B9-9237-E0319DF56DE3}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/activity-items-5" />
+        <r
+          uid="{91E93585-330D-4395-8A3A-EB431E757CBB}"
+          p:after="r[@uid='{E2BA6091-6189-4733-A7CE-4CAB99A352D7}']"
+          s:ds="e37e9c02-72d7-4c1b-8939-889664fcb541"
+          s:id="{E7BAED42-93A7-4834-8E4B-ED3176310CCA}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=6"
+          s:ph="headless-main" />
+        <r
+          uid="{CEF05D9E-961B-4017-ACCA-43DE0B872DD2}"
+          p:after="r[@uid='{91E93585-330D-4395-8A3A-EB431E757CBB}']"
+          s:ds="9933241d-4fab-4c18-890f-6d635152936a"
+          s:id="{1F80ACAC-243C-4B75-82BD-739ADC3FACA6}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/recommendation-cards-6" />
+        <r
+          uid="{B8E33554-D009-409B-B55B-4607C4FCBBAD}"
+          p:after="r[@uid='{CEF05D9E-961B-4017-ACCA-43DE0B872DD2}']"
+          s:ds="5cf1c4a3-60c7-4b69-b643-bac65b21c672"
+          s:id="{420FD842-09CB-43A3-96DB-15F41906D281}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "1cc7f424-b667-478e-b344-c314a8257083"
+      Hint: Title
+      Value: "Banking"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Banking"

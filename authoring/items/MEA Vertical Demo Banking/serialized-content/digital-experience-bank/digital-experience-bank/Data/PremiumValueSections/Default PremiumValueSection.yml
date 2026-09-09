@@ -1,0 +1,31 @@
+---
+ID: "4c66a655-7894-45ec-a62c-57a60b5f8a0f"
+Parent: "976d7c81-fb8d-4874-ab0c-e0a5a1029dc2"
+Template: "73dde1bf-df9e-48cb-b285-3bd1726c6f7c"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/PremiumValueSections/Default PremiumValueSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ac358ba6-998d-4c3f-8d2a-f6e46696202e"
+      Hint: Type
+      Value: |
+        <p>From airport lounges to expert guidance, Premium Banking brings privileges together.</p>
+    - ID: "884e9237-34ff-4982-a68a-65de072d9ad4"
+      Hint: Type
+      Value: "PREMIUM BANKING, MADE PERSONAL"
+    - ID: "c8c09c25-8fb2-45eb-a358-8d83e7324906"
+      Hint: Type
+      Value: |
+        <link text="Discover all Premium benefits" linktype="external" url="#" anchor="" target="" />
+    - ID: "642609bc-b322-48e5-94fe-eac4991f38c2"
+      Hint: Type
+      Value: "More value in every chapter of your life."

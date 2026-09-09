@@ -1,0 +1,39 @@
+---
+ID: "d4e8f1a2-3b4c-5d6e-7f80-91a2b3c4d5f4"
+Parent: "a6d1b390-8e2c-4d7a-95b1-0c4d7e9f1a23"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/mea-vertical-demo-banking/digital-experience-bank/Images/icon-support"
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 48
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "e1f2a3b4-c5d6-4789-8abc-def012345614"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgYXJpYS1oaWRkZW49InRydWUiPjxwYXRoIGQ9Ik0xMCAyOFYyMmExNCAxNCAwIDEgMSAyOCAwdjYiIHN0cm9rZT0iI2YxYWUzOSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0xMCAyOGE0IDQgMCAwIDAgNCA0aDJ2LTEwaC0yYTQgNCAwIDAgMC00IDR2MlptMjggMGE0IDQgMCAwIDEtNCA0aC0ydi0xMGgyYTQgNCAwIDAgMSA0IDR2MloiIGZpbGw9IiNmMWFlMzkiLz48cGF0aCBkPSJNMzQgMzZjMCAzLTMgNi0xMCA2IiBzdHJva2U9IiNmMWFlMzkiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 404
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 48 x 48
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 48
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T140500Z
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "Priority support"

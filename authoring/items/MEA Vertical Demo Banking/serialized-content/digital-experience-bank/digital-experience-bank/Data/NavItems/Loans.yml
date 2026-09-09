@@ -1,0 +1,24 @@
+---
+ID: "f0127020-a5a4-4486-b29d-364e516d6360"
+Parent: "1c363ba1-39a8-4aa8-a7ce-af1d6e8bb58a"
+Template: "3cc4c768-4a40-4237-8c14-a00a5a526029"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/NavItems/Loans"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "788cb9e4-9ad5-47ca-98af-4e1089e165f0"
+      Hint: Type
+      Value: "Loans"
+    - ID: "bf65b262-f5bd-4f53-ad22-882d091cb65d"
+      Hint: Type
+      Value: |
+        <link text="Loans" linktype="external" url="#" anchor="" target="" />

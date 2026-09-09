@@ -1,0 +1,20 @@
+---
+ID: "6dfeca3d-1a90-4b00-b946-8885086ab1c5"
+Parent: "e36dbc57-7060-45e2-96bc-353c0111c1e5"
+Template: "055fb880-dbdc-452f-80ed-106b2aee0742"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/RecentActivitySections/Default RecentActivitySection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "4026e0f2-5467-41ac-a267-239707b6cb70"
+      Hint: Type
+      Value: "Recent activity"

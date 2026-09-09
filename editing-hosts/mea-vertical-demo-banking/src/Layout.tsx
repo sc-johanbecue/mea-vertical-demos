@@ -1,5 +1,5 @@
 /**
- * This Layout is needed for Starter Kit.
+ * Digital Experience Bank layout — mirrors original app-shell / main structure.
  */
 import { JSX } from 'react';
 import Head from 'next/head';
@@ -27,31 +27,18 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
       <Scripts />
       <SitecoreStyles layoutData={layout} />
       <Head>
-        <title>{fields?.Title?.value?.toString() || 'Page'}</title>
+        <title>{fields?.Title?.value?.toString() || 'Digital Experience Bank'}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* root placeholder for the app, which we add components to using route data */}
-      <div className={mainClassPageEditing}>
+      <div className={`app-shell ${mainClassPageEditing}`.trim()}>
         {mode.isDesignLibrary ? (
           <DesignLibrary />
         ) : (
           <>
-            <header>
-              <div id="header">
-                {route && <Placeholder name="headless-header" rendering={route} />}
-              </div>
-            </header>
-            <main>
-              <div id="content">
-                {route && <Placeholder name="headless-main" rendering={route} />}
-              </div>
-            </main>
-            <footer>
-              <div id="footer">
-                {route && <Placeholder name="headless-footer" rendering={route} />}
-              </div>
-            </footer>
+            {route && <Placeholder name="headless-header" rendering={route} />}
+            <main>{route && <Placeholder name="headless-main" rendering={route} />}</main>
+            {route && <Placeholder name="headless-footer" rendering={route} />}
             <div id="cookie-consent" className="layout-cookie" aria-live="polite">
               {route && <Placeholder name="headless-cookie" rendering={route} />}
             </div>

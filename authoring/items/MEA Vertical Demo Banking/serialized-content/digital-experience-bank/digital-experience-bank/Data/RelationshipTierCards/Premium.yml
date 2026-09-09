@@ -1,0 +1,31 @@
+---
+ID: "b1eb4cd3-643c-468e-ab19-c8c154c4ae0c"
+Parent: "445dbb79-bcd1-4664-b278-547ecf6b4d33"
+Template: "f301c63f-f721-463f-8923-87423891dbd3"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/RelationshipTierCards/Premium"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "986e8dd6-ff2c-4522-8f61-22fc32ac84d6"
+      Hint: Eyebrow
+      Value: "RECOMMENDED FOR YOU"
+    - ID: "6dac1fe9-1d2c-4e9d-9485-a8172587c25e"
+      Hint: Title
+      Value: "Premium"
+    - ID: "5b44f936-f385-4e11-b244-2e08f9742ceb"
+      Hint: Body
+      Value: |
+        <p>For growing ambitions and richer benefits.</p>
+    - ID: "7c192050-c030-4b35-bd87-8618a0e3c785"
+      Hint: Features
+      Value: |
+        <p>Dedicated manager</p><p>Travel privileges</p>
+    - ID: "b191e9c5-69ca-40e9-9f6b-37c21208e931"
+      Hint: Link
+      Value: |
+        <link text="Compare this tier" linktype="external" url="/Premium" anchor="" target="" />

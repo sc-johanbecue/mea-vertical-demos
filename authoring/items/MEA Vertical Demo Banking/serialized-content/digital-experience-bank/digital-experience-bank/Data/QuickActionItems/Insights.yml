@@ -1,0 +1,28 @@
+---
+ID: "d40cf948-3868-4628-8846-651f79170b8c"
+Parent: "bfeea8f5-2fd5-4faf-93e8-c7b314ae72ba"
+Template: "7a1b76c9-4e3e-4e18-a780-77c647fb2e6e"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/QuickActionItems/Insights"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bf252eab-9f34-47fc-8d75-9642b3876537"
+      Hint: Type
+      Value: |
+        <image mediapath="" alt="Type" height="" width="" hspace="" vspace="" />
+    - ID: "ce8e91e1-100c-44c1-8b8c-400a9e90e468"
+      Hint: Type
+      Value: "Insights"
+    - ID: "562986f6-639c-4ee8-9e7b-337706c31414"
+      Hint: Type
+      Value: |
+        <link text="Insights" linktype="external" url="#" anchor="" target="" />

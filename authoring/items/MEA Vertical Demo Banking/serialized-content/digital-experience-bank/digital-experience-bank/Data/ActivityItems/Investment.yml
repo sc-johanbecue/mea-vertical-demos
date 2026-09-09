@@ -1,0 +1,33 @@
+---
+ID: "4ea0854b-5d42-4db8-aa4d-4a921fbaba3c"
+Parent: "215f2201-0b8f-49b4-99de-c781ee90b6f4"
+Template: "c4af993c-0b8b-45df-9063-b5ed92669517"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ActivityItems/Investment"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c8d499f1-f545-41b5-ac5d-dc7519318ffb"
+      Hint: Type
+      Value: "AED 0"
+    - ID: "f0a58df9-ffda-4f91-b3dc-c04bc18ddcaa"
+      Hint: Type
+      Value: "credit"
+    - ID: "f32b45a9-3b7c-4054-a142-4a6f4bad5307"
+      Hint: Type
+      Value: "Today"
+    - ID: "96d70cac-b906-43ea-996f-12f389896be8"
+      Hint: Type
+      Value: |
+        <image mediapath="" alt="Type" height="" width="" hspace="" vspace="" />
+    - ID: "97f2621b-ee8b-43d9-9d4b-bf56084c1806"
+      Hint: Type
+      Value: "Investment"

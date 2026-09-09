@@ -1,0 +1,35 @@
+---
+ID: "ad9170c5-5125-4d13-9614-5177d3dbbb80"
+Parent: "e7e9e600-3655-4f44-9478-08ffff59e91e"
+Template: "cbd1a9e2-2f7b-4d9b-ae80-a9343369143b"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/NextBestActionCards/Default NextBestActionCard"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "d93e5232-510e-42e3-a05b-185de300d34f"
+      Hint: Type
+      Value: "YOUR NEXT BEST ACTION"
+    - ID: "461b329a-d0bd-46af-97af-dffd759ced01"
+      Hint: Type
+      Value: "of goal reached"
+    - ID: "9dc6e6bf-d4fb-48c5-8df5-3838bf96b26c"
+      Hint: Type
+      Value: "72%"
+    - ID: "da417bc9-7126-4f35-94cd-a9f9897e3321"
+      Hint: Type
+      Value: "DEB INTELLIGENCE"
+    - ID: "9e3cccd1-9cf9-41d3-935f-84a1dff16a89"
+      Hint: Type
+      Value: "Your home goal is gaining momentum."
+    - ID: "81588d61-a39b-4303-943c-c354c7fec764"
+      Hint: Type
+      Value: "Updated today"

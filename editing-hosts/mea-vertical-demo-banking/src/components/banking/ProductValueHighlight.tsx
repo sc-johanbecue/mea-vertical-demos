@@ -1,10 +1,12 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, RichText, Link } from '@sitecore-content-sdk/nextjs';
+import { Text, RichText } from '@sitecore-content-sdk/nextjs';
 import type { TextField, RichTextField, LinkField } from '@sitecore-content-sdk/nextjs';
+import { ArrowRight } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey } from '@/lib/component-utils';
+import { FieldLink } from '@/components/banking/FieldLink';
 
 export interface ProductValueHighlightFields {
   Eyebrow?: TextField;
@@ -17,35 +19,41 @@ export interface ProductValueHighlightFields {
 }
 
 const defaultFields: ProductValueHighlightFields = {
-  Eyebrow: { value: 'Eyebrow' },
-  Title: { value: 'Title' },
-  Body: { value: '<p>Body</p>' },
-  Link: { value: { href: '#', text: 'Link' } },
-  CardEyebrow: { value: 'CardEyebrow' },
-  CardValue: { value: 'CardValue' },
-  CardBody: { value: '<p>CardBody</p>' },
+  Eyebrow: { value: 'DESIGNED FOR HOW YOU TRAVEL' },
+  Title: { value: 'More rewarding from departure to arrival.' },
+  Body: {
+    value:
+      '<p>The DEB Travel Credit Card combines Premium Banking benefits with travel-specific rewards.</p>',
+  },
+  Link: { value: { href: '#', text: 'View benefits guide' } },
+  CardEyebrow: { value: 'Your potential annual value' },
+  CardValue: { value: 'AED 2,000+' },
+  CardBody: { value: '<p>Airport lounge access, travel insurance, rewards and more.</p>' },
 };
 
 export type ProductValueHighlightProps = ComponentProps & { fields?: ProductValueHighlightFields };
 
 export const Default = (props: ProductValueHighlightProps): JSX.Element => {
   const { params, fields = defaultFields } = props;
-
-
   return (
-    <div
+    <section
       key={componentKey(props)}
-      className={`deb-product-value-highlight ${params?.styles ?? ''}`.trim()}
+      className={`content-section card-detail ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} className="deb-product-value-highlight__eyebrow" /> : null}
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-product-value-highlight__title" /> : null}
-      {fields.Body ? <div className="deb-product-value-highlight__body"><RichText field={fields.Body} /></div> : null}
-      {fields.Link ? <Link field={fields.Link} className="deb-product-value-highlight__link" /> : null}
-      {fields.CardEyebrow ? <Text tag="span" field={fields.CardEyebrow} className="deb-product-value-highlight__card-eyebrow" /> : null}
-      {fields.CardValue ? <Text tag="span" field={fields.CardValue} className="deb-product-value-highlight__card-value" /> : null}
-      {fields.CardBody ? <div className="deb-product-value-highlight__card-body"><RichText field={fields.CardBody} /></div> : null}
-
-    </div>
+      <div>
+        {fields.Eyebrow ? <Text tag="p" field={fields.Eyebrow} className="overline" /> : null}
+        {fields.Title ? <Text tag="h2" field={fields.Title} /> : null}
+        {fields.Body ? <RichText field={fields.Body} /> : null}
+        <FieldLink field={fields.Link} className="story-link">
+          <ArrowRight aria-hidden="true" />
+        </FieldLink>
+      </div>
+      <div className="comparison">
+        {fields.CardEyebrow ? <Text tag="span" field={fields.CardEyebrow} /> : null}
+        {fields.CardValue ? <Text tag="strong" field={fields.CardValue} /> : null}
+        {fields.CardBody ? <RichText field={fields.CardBody} /> : null}
+      </div>
+    </section>
   );
 };

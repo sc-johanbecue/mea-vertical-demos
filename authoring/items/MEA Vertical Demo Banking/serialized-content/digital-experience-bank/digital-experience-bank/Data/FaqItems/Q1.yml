@@ -1,0 +1,20 @@
+---
+ID: "3701854a-0c21-4c0b-9335-df4624f45adb"
+Parent: "4e780c4b-80a1-45e1-80ec-64b3ce2028ba"
+Template: "e47d87ce-5f18-48de-a60c-dac2db566495"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/FaqItems/Q1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "3db603c1-d0c2-4bb1-ba37-d9cf5231558e"
+      Hint: Question
+      Value: "How quickly can I open an account?"
+    - ID: "f5c356bf-22e6-4024-a5ed-392fc2cfc89c"
+      Hint: Answer
+      Value: |
+        <p>A digital application can be started in minutes. The exact time depends on the product and any verification required.</p>

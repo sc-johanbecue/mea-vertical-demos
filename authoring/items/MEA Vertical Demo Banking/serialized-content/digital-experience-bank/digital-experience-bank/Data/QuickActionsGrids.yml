@@ -1,0 +1,17 @@
+---
+ID: "290d68ce-590b-4760-ba86-1b3453653915"
+Parent: "6a768631-6185-45c4-b56f-8de74ac0eb1d"
+Template: "96b29978-4530-48c2-8238-8edc56b0fbbc"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/QuickActionsGrids"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

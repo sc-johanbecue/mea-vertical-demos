@@ -1,0 +1,145 @@
+---
+ID: "66a200a1-13f9-47a9-b456-05ad27a74745"
+Parent: "7342a904-255a-4244-a4d2-25b32c88f9c7"
+Template: "2434808b-3701-4ed2-8988-ae83c5df23bd"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Home/Premium"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{6839C0C0-63FC-4965-82E6-5DB13FD78B11}"
+          p:before="*"
+          s:ds="51662ce1-118f-4a62-8479-5d17445718f4"
+          s:id="{4CFFDB2E-841C-489E-B3E2-6A2E2AE06D9C}"
+          s:par="CSSStyles&amp;Styles=page-hero"
+          s:ph="headless-main" />
+        <r
+          uid="{D6290147-D4D9-4CE7-8294-FBE2097045C3}"
+          p:after="r[@uid='{6839C0C0-63FC-4965-82E6-5DB13FD78B11}']"
+          s:ds="971e04e0-6ab3-4a8c-b0a6-5bd865999709"
+          s:id="{4FA69B68-2521-4FC7-A963-82406DE20FFF}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{3263C8B3-F182-46A3-B6E9-DCEA162935A2}"
+          p:after="r[@uid='{D6290147-D4D9-4CE7-8294-FBE2097045C3}']"
+          s:ds="e9d96e5d-c97b-4aa0-bd1d-8e04c6647b42"
+          s:id="{8B089455-3AEF-402B-90D0-5042234D9420}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/benefit-items-2" />
+        <r
+          uid="{D9D69C90-9062-4962-B5E5-E97C28FCBD00}"
+          p:after="r[@uid='{3263C8B3-F182-46A3-B6E9-DCEA162935A2}']"
+          s:ds="148892e5-fa6e-472d-abff-a52272ba84ca"
+          s:id="{8B089455-3AEF-402B-90D0-5042234D9420}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/benefit-items-2" />
+        <r
+          uid="{5C1D7C79-6BA4-4F56-8B8F-5353F25AD64D}"
+          p:after="r[@uid='{D9D69C90-9062-4962-B5E5-E97C28FCBD00}']"
+          s:ds="25933702-3e7d-4cb1-a507-ed6288efbb86"
+          s:id="{8B089455-3AEF-402B-90D0-5042234D9420}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/benefit-items-2" />
+        <r
+          uid="{47B5B280-0187-48A6-AAEA-3D4B126F81FA}"
+          p:after="r[@uid='{5C1D7C79-6BA4-4F56-8B8F-5353F25AD64D}']"
+          s:ds="5bbead9f-9df5-4965-aa02-3bd8fc849178"
+          s:id="{8B089455-3AEF-402B-90D0-5042234D9420}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/benefit-items-2" />
+        <r
+          uid="{0546576C-7BD5-49B7-AFFC-6AEA8F4ED476}"
+          p:after="r[@uid='{47B5B280-0187-48A6-AAEA-3D4B126F81FA}']"
+          s:ds="d47879e1-b341-4349-8672-3728f2203ce6"
+          s:id="{2A2A09B5-1C66-4133-9535-AEC571B85469}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main" />
+        <r
+          uid="{3D4751C5-BE0A-4377-BEAC-A46FFDA2B09C}"
+          p:after="r[@uid='{0546576C-7BD5-49B7-AFFC-6AEA8F4ED476}']"
+          s:ds="465e3feb-d6f4-46d3-97eb-978060332436"
+          s:id="{9F2C9DA5-ABBF-4943-B711-D0294E603823}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/value-stats-3" />
+        <r
+          uid="{68D1499A-007C-4643-8DE4-65C5CA694021}"
+          p:after="r[@uid='{3D4751C5-BE0A-4377-BEAC-A46FFDA2B09C}']"
+          s:ds="78ef8f38-ea09-4a82-88db-2cabe6fedeb1"
+          s:id="{9F2C9DA5-ABBF-4943-B711-D0294E603823}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/value-stats-3" />
+        <r
+          uid="{C1C1B871-5456-45DD-9A7F-4D4BFBF242F3}"
+          p:after="r[@uid='{68D1499A-007C-4643-8DE4-65C5CA694021}']"
+          s:ds="18f7d718-cb8f-425f-a6b4-de95638cc36a"
+          s:id="{9F2C9DA5-ABBF-4943-B711-D0294E603823}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/value-stats-3" />
+        <r
+          uid="{293308A8-7563-436A-8651-65E361756EB6}"
+          p:after="r[@uid='{C1C1B871-5456-45DD-9A7F-4D4BFBF242F3}']"
+          s:ds="e37e9c02-72d7-4c1b-8939-889664fcb541"
+          s:id="{E7BAED42-93A7-4834-8E4B-ED3176310CCA}"
+          s:par="CSSStyles&amp;Styles=three&amp;DynamicPlaceholderId=4"
+          s:ph="headless-main" />
+        <r
+          uid="{24C040E6-D12F-4988-B0F9-AB854F72BD58}"
+          p:after="r[@uid='{293308A8-7563-436A-8651-65E361756EB6}']"
+          s:ds="9933241d-4fab-4c18-890f-6d635152936a"
+          s:id="{1F80ACAC-243C-4B75-82BD-739ADC3FACA6}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/recommendation-cards-4" />
+        <r
+          uid="{CF1F9A50-13F3-4C55-9355-F93FE20D765F}"
+          p:after="r[@uid='{24C040E6-D12F-4988-B0F9-AB854F72BD58}']"
+          s:ds="0981be94-b972-4ce0-b62c-76b56d656b0a"
+          s:id="{1F80ACAC-243C-4B75-82BD-739ADC3FACA6}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/recommendation-cards-4" />
+        <r
+          uid="{7F054B6C-9AD8-4253-BD8C-9FA20129D5AD}"
+          p:after="r[@uid='{CF1F9A50-13F3-4C55-9355-F93FE20D765F}']"
+          s:ds="8ec036f3-f7d8-4a8f-b0eb-d2daf5e6b187"
+          s:id="{1F80ACAC-243C-4B75-82BD-739ADC3FACA6}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/recommendation-cards-4" />
+        <r
+          uid="{5B97725A-8539-44BE-8443-788BB36CC253}"
+          p:after="r[@uid='{7F054B6C-9AD8-4253-BD8C-9FA20129D5AD}']"
+          s:ds="a7c6f50e-6650-4aa3-bda5-adbe573ea3b1"
+          s:id="{2E640C8E-CF81-45B8-B149-F1EA1CDE46E5}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{86815E67-DC6E-4CF5-AEDB-0BF088A0A718}"
+          p:after="r[@uid='{5B97725A-8539-44BE-8443-788BB36CC253}']"
+          s:ds="5cf1c4a3-60c7-4b69-b643-bac65b21c672"
+          s:id="{420FD842-09CB-43A3-96DB-15F41906D281}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "1cc7f424-b667-478e-b344-c314a8257083"
+      Hint: Title
+      Value: "Premium"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Premium"

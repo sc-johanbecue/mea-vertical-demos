@@ -1,0 +1,31 @@
+---
+ID: "bcdeccce-b125-412f-b54c-bef46b31a187"
+Parent: "acc012a4-7351-4f6a-84a9-affaf34a3a54"
+Template: "db2e25a5-4945-4889-9911-9f4ecd7d2d31"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/InsightArticleCards/Default InsightArticleCard"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "acc24950-0d57-4935-8003-22d08ca679d6"
+      Hint: Type
+      Value: |
+        <p>Turn a higher income into more choice—today and in the years ahead.</p>
+    - ID: "568a7cc9-5cc4-4249-82c9-3f43c52c1e00"
+      Hint: Type
+      Value: |
+        <link text="Read the guide" linktype="external" url="#" anchor="" target="" />
+    - ID: "62aed40d-7499-4ac1-bb5d-a854a8aa384d"
+      Hint: Type
+      Value: "LIFE & MONEY • 6 MIN READ"
+    - ID: "f1ca0c92-191f-4b4c-976a-3acb664f6a45"
+      Hint: Type
+      Value: "Five smart financial moves after a promotion."

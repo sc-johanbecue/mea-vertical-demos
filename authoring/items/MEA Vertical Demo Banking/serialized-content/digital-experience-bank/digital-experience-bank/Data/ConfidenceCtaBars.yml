@@ -1,0 +1,17 @@
+---
+ID: "ffecf68d-6ff1-4a86-afcb-16975fdc6e52"
+Parent: "6a768631-6185-45c4-b56f-8de74ac0eb1d"
+Template: "2e5072a0-37a3-4b03-b09a-c266f2a4fede"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ConfidenceCtaBars"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

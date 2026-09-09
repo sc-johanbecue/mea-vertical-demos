@@ -1,0 +1,24 @@
+---
+ID: "8244d737-03b6-4ae3-ba64-6039801b8ce5"
+Parent: "dfbca24d-38d6-454e-9012-3e3731974b2c"
+Template: "50d8f6b0-ecfd-4848-ad7a-854974971043"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ProductSolutionExplorers/Default ProductSolutionExplorer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "4712d343-f618-445e-96ee-8f82efdd5f35"
+      Hint: Type
+      Value: |
+        <p>Start with what you want to achieve. We'll help you narrow down the possibilities.</p>
+    - ID: "56b165ca-cba8-4bf6-8cff-6c548ea88bcb"
+      Hint: Type
+      Value: "Find the right solution for your next move."

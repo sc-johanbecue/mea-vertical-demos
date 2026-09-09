@@ -1,8 +1,10 @@
 'use client';
 
 import type { JSX } from 'react';
+import { useState } from 'react';
 import { Text, RichText } from '@sitecore-content-sdk/nextjs';
 import type { TextField, RichTextField } from '@sitecore-content-sdk/nextjs';
+import { Calculator } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey } from '@/lib/component-utils';
 
@@ -10,7 +12,7 @@ export interface GoalPlannerSectionFields {
   Eyebrow?: TextField;
   Title?: TextField;
   Body?: RichTextField;
-  Disclaimer?: RichTextField;
+  Disclaimer?: TextField;
   ContributionLabel?: TextField;
   MinAmount?: TextField;
   MaxAmount?: TextField;
@@ -22,45 +24,78 @@ export interface GoalPlannerSectionFields {
 }
 
 const defaultFields: GoalPlannerSectionFields = {
-  Eyebrow: { value: 'Eyebrow' },
-  Title: { value: 'Title' },
-  Body: { value: '<p>Body</p>' },
-  Disclaimer: { value: '<p>Disclaimer</p>' },
-  ContributionLabel: { value: 'ContributionLabel' },
-  MinAmount: { value: 'MinAmount' },
-  MaxAmount: { value: 'MaxAmount' },
-  DefaultAmount: { value: 'DefaultAmount' },
-  GoalAmount: { value: 'GoalAmount' },
-  StartingBalance: { value: 'StartingBalance' },
-  ResultPrefix: { value: 'ResultPrefix' },
-  ResultSuffix: { value: 'ResultSuffix' },
+  Eyebrow: { value: 'PLAN WITH CLARITY' },
+  Title: { value: 'See what one regular step could add up to.' },
+  Body: {
+    value:
+      '<p>Adjust your monthly contribution to explore a simple path toward a AED 250,000 home deposit goal.</p>',
+  },
+  Disclaimer: { value: 'Illustrative estimate only.' },
+  ContributionLabel: { value: 'Monthly contribution' },
+  MinAmount: { value: 'AED 1,000' },
+  MaxAmount: { value: 'AED 12,000' },
+  DefaultAmount: { value: 'AED 5,000' },
+  GoalAmount: { value: 'AED 250,000' },
+  StartingBalance: { value: 'AED 80,000' },
+  ResultPrefix: { value: 'At this pace, you could reach your goal in' },
+  ResultSuffix: { value: 'Starting from AED 80,000 already saved' },
 };
 
 export type GoalPlannerSectionProps = ComponentProps & { fields?: GoalPlannerSectionFields };
 
+function formatAmount(value: number): string {
+  return new Intl.NumberFormat('en-US').format(value);
+}
+
 export const Default = (props: GoalPlannerSectionProps): JSX.Element => {
   const { params, fields = defaultFields } = props;
-
+  const parseAmt = (v?: TextField) => Number(String(v?.value ?? '').replace(/[^\d]/g, '')) || 0;
+  const [monthly, setMonthly] = useState(parseAmt(fields.DefaultAmount) || 5000);
+  const target = parseAmt(fields.GoalAmount) || 250000;
+  const current = parseAmt(fields.StartingBalance) || 80000;
+  const months = Math.max(1, Math.ceil((target - current) / Math.max(monthly, 1)));
 
   return (
-    <div
+    <section
       key={componentKey(props)}
-      className={`deb-goal-planner-section ${params?.styles ?? ''}`.trim()}
+      className={`planner-section ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} className="deb-goal-planner-section__eyebrow" /> : null}
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-goal-planner-section__title" /> : null}
-      {fields.Body ? <div className="deb-goal-planner-section__body"><RichText field={fields.Body} /></div> : null}
-      {fields.Disclaimer ? <div className="deb-goal-planner-section__disclaimer"><RichText field={fields.Disclaimer} /></div> : null}
-      {fields.ContributionLabel ? <Text tag="span" field={fields.ContributionLabel} className="deb-goal-planner-section__contribution-label" /> : null}
-      {fields.MinAmount ? <Text tag="span" field={fields.MinAmount} className="deb-goal-planner-section__min-amount" /> : null}
-      {fields.MaxAmount ? <Text tag="span" field={fields.MaxAmount} className="deb-goal-planner-section__max-amount" /> : null}
-      {fields.DefaultAmount ? <Text tag="span" field={fields.DefaultAmount} className="deb-goal-planner-section__default-amount" /> : null}
-      {fields.GoalAmount ? <Text tag="span" field={fields.GoalAmount} className="deb-goal-planner-section__goal-amount" /> : null}
-      {fields.StartingBalance ? <Text tag="span" field={fields.StartingBalance} className="deb-goal-planner-section__starting-balance" /> : null}
-      {fields.ResultPrefix ? <Text tag="span" field={fields.ResultPrefix} className="deb-goal-planner-section__result-prefix" /> : null}
-      {fields.ResultSuffix ? <Text tag="span" field={fields.ResultSuffix} className="deb-goal-planner-section__result-suffix" /> : null}
-
-    </div>
+      <div className="planner-copy">
+        {fields.Eyebrow ? <Text tag="p" field={fields.Eyebrow} className="overline" /> : null}
+        {fields.Title ? <Text tag="h2" field={fields.Title} /> : null}
+        {fields.Body ? <RichText field={fields.Body} /> : null}
+        {fields.Disclaimer ? <Text tag="small" field={fields.Disclaimer} /> : null}
+      </div>
+      <div className="planner-card">
+        <div className="planner-label">
+          {fields.ContributionLabel ? <Text tag="span" field={fields.ContributionLabel} /> : null}
+          <strong>AED {formatAmount(monthly)}</strong>
+        </div>
+        <input
+          type="range"
+          min={1000}
+          max={12000}
+          step={500}
+          value={monthly}
+          onChange={(e) => setMonthly(Number(e.target.value))}
+          aria-label="Monthly savings contribution"
+        />
+        <div className="range-ends">
+          {fields.MinAmount ? <Text tag="span" field={fields.MinAmount} /> : null}
+          {fields.MaxAmount ? <Text tag="span" field={fields.MaxAmount} /> : null}
+        </div>
+        <div className="planner-result">
+          <Calculator />
+          <div>
+            {fields.ResultPrefix ? <Text tag="span" field={fields.ResultPrefix} /> : null}
+            <strong>
+              {Math.floor(months / 12)} years {months % 12} months
+            </strong>
+            {fields.ResultSuffix ? <Text tag="small" field={fields.ResultSuffix} /> : null}
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };

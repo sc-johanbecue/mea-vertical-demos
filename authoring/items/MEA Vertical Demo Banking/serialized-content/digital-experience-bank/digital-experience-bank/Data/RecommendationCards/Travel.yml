@@ -1,0 +1,31 @@
+---
+ID: "9933241d-4fab-4c18-890f-6d635152936a"
+Parent: "c31dbed0-b8a4-41ef-8e56-ce0d882fbc25"
+Template: "bc46b4c6-b746-4aee-bb5d-44420d121142"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/RecommendationCards/Travel"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "e1d8cdfa-f391-4d3b-b5b2-97b595a57fb4"
+      Hint: Category
+      Value: "TRAVEL"
+    - ID: "590658da-972f-456e-be8f-716f014c7ff5"
+      Hint: Title
+      Value: "Make every journey feel first class"
+    - ID: "c735c08f-4a38-4a2e-84e5-046cc92e51c1"
+      Hint: Body
+      Value: |
+        <p>Unlimited lounge access and accelerated miles with your DEB Travel Card.</p>
+    - ID: "80eb4b79-dd95-4b72-afb8-31c28fe5a9f8"
+      Hint: Link
+      Value: |
+        <link text="View benefits" linktype="external" url="/Travel" anchor="" target="" />
+    - ID: "802cea22-0ad8-4883-ae62-457cf94b5a0f"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D4E8F1A2-3B4C-5D6E-7F80-91A2B3C4D5E1}" alt="Travel" height="" width="" hspace="" vspace="" />

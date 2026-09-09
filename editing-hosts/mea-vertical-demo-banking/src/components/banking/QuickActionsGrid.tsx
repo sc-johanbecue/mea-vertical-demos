@@ -11,7 +11,7 @@ export interface QuickActionsGridFields {
 }
 
 const defaultFields: QuickActionsGridFields = {
-  Title: { value: 'Title' },
+  Title: { value: 'Quick actions' },
 };
 
 export type QuickActionsGridProps = ComponentProps & { fields?: QuickActionsGridFields };
@@ -21,15 +21,15 @@ export const Default = (props: QuickActionsGridProps): JSX.Element => {
   const quickActionsPh = dynamicPlaceholderKey('quick-actions', params);
 
   return (
-    <div
+    <section
       key={componentKey(props)}
-      className={`deb-quick-actions-grid ${params?.styles ?? ''}`.trim()}
+      className={`content-section ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-quick-actions-grid__title" /> : null}
-      <div className="deb-quick-actions-grid__quick-actions">
+      <div className="section-title">{fields.Title ? <Text tag="h2" field={fields.Title} /> : null}</div>
+      <div className="quick-actions">
         <Placeholder name={quickActionsPh} rendering={rendering} />
       </div>
-    </div>
+    </section>
   );
 };

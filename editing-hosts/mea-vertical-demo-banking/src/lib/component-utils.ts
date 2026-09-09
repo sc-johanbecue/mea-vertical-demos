@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import type { LinkField } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
 
 /** Stable React key for Sitecore placeholder siblings. */
@@ -53,6 +54,43 @@ export type LinkFieldValue = {
   text?: string;
   linktype?: string;
 };
+
+/**
+ * Ensure General Link values expose `href` (Content SDK treats missing href as empty).
+ * Serialized external links often only have `url` (e.g. url="#").
+ */
+export function normalizeLinkField(field?: LinkField | null): LinkField | undefined {
+  if (!field) return undefined;
+  const value = field.value as LinkFieldValue | undefined;
+  if (!value || typeof value !== 'object') return field;
+
+  const href = value.href?.toString().trim() ?? '';
+  if (href) return field;
+
+  const url = value.url?.toString().trim() ?? '';
+  if (!url) return field;
+
+  return {
+    ...field,
+    value: {
+      ...value,
+      href: url,
+    },
+  };
+}
+
+/** True when a link field has text and/or a target (including demo "#" hrefs). */
+export function hasLinkField(field?: LinkField | null): boolean {
+  const normalized = normalizeLinkField(field);
+  const value = normalized?.value as LinkFieldValue | undefined;
+  if (!value) return false;
+  return Boolean(
+    value.text?.toString().trim() ||
+      value.href?.toString().trim() ||
+      value.url?.toString().trim() ||
+      value.id?.toString().trim(),
+  );
+}
 
 /** Returns true when the link field has a usable target (href, url, or internal id). */
 export function hasLink(hrefOrValue?: string | LinkFieldValue | null): boolean {

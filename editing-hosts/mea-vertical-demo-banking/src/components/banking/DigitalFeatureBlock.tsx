@@ -1,10 +1,12 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, RichText, Link, Placeholder } from '@sitecore-content-sdk/nextjs';
+import { Text, RichText, Placeholder } from '@sitecore-content-sdk/nextjs';
 import type { TextField, RichTextField, LinkField } from '@sitecore-content-sdk/nextjs';
+import { ArrowRight } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
 import { componentKey, dynamicPlaceholderKey } from '@/lib/component-utils';
+import { FieldLink } from '@/components/banking/FieldLink';
 
 export interface DigitalFeatureBlockFields {
   Eyebrow?: TextField;
@@ -14,10 +16,10 @@ export interface DigitalFeatureBlockFields {
 }
 
 const defaultFields: DigitalFeatureBlockFields = {
-  Eyebrow: { value: 'Eyebrow' },
-  Title: { value: 'Title' },
-  Body: { value: '<p>Body</p>' },
-  PrimaryLink: { value: { href: '#', text: 'PrimaryLink' } },
+  Eyebrow: { value: 'DIGITAL, WITH A HUMAN TOUCH' },
+  Title: { value: 'Your bank should think one step ahead.' },
+  Body: { value: '<p>DEB brings your goals, products and personal support together in one clear experience.</p>' },
+  PrimaryLink: { value: { href: '#', text: 'See how digital banking works' } },
 };
 
 export type DigitalFeatureBlockProps = ComponentProps & { fields?: DigitalFeatureBlockFields };
@@ -28,21 +30,23 @@ export const Default = (props: DigitalFeatureBlockProps): JSX.Element => {
   const nextBestActionPh = dynamicPlaceholderKey('next-best-action', params);
 
   return (
-    <div
+    <section
       key={componentKey(props)}
-      className={`deb-digital-feature-block ${params?.styles ?? ''}`.trim()}
+      className={`content-section digital-section ${params?.styles ?? ''}`.trim()}
       id={params?.RenderingIdentifier}
     >
-      {fields.Eyebrow ? <Text tag="span" field={fields.Eyebrow} className="deb-digital-feature-block__eyebrow" /> : null}
-      {fields.Title ? <Text tag="span" field={fields.Title} className="deb-digital-feature-block__title" /> : null}
-      {fields.Body ? <div className="deb-digital-feature-block__body"><RichText field={fields.Body} /></div> : null}
-      {fields.PrimaryLink ? <Link field={fields.PrimaryLink} className="deb-digital-feature-block__primary-link" /> : null}
-      <div className="deb-digital-feature-block__digital-features">
-        <Placeholder name={digitalFeaturesPh} rendering={rendering} />
+      <div className="digital-copy">
+        {fields.Eyebrow ? <Text tag="p" field={fields.Eyebrow} className="overline" /> : null}
+        {fields.Title ? <Text tag="h2" field={fields.Title} /> : null}
+        {fields.Body ? <RichText field={fields.Body} /> : null}
+        <div className="digital-features">
+          <Placeholder name={digitalFeaturesPh} rendering={rendering} />
+        </div>
+        <FieldLink field={fields.PrimaryLink} className="primary">
+          <ArrowRight aria-hidden="true" />
+        </FieldLink>
       </div>
-      <div className="deb-digital-feature-block__next-best-action">
-        <Placeholder name={nextBestActionPh} rendering={rendering} />
-      </div>
-    </div>
+      <Placeholder name={nextBestActionPh} rendering={rendering} />
+    </section>
   );
 };

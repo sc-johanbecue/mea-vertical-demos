@@ -1,0 +1,45 @@
+---
+ID: "86b6afa8-a75f-47ef-81fa-d0e9398bafae"
+Parent: "d908bd75-c12f-4f3e-96ec-c1f0c73e1cee"
+Template: "095b0eeb-25ed-48aa-860d-02faa5dc0e0c"
+Path: "/sitecore/content/mea-vertical-demo-banking/digital-experience-bank/Data/ProductCardHeros/Default ProductCardHero"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260909T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6b2db7a3-a151-4a41-a409-3c22728843be"
+      Hint: Type
+      Value: |
+        <p>Earn accelerated miles, unlock unlimited lounge visits and enjoy travel protection.</p>
+    - ID: "603dd460-013a-43fe-b7df-5305132c4b3a"
+      Hint: Type
+      Value: "DEB TRAVEL"
+    - ID: "88ec8848-36b9-40f0-a0d3-7bc193c0d898"
+      Hint: Type
+      Value: |
+        <image mediapath="" alt="VISA" height="" width="" hspace="" vspace="" />
+    - ID: "47e1442c-9dcd-4d90-8e3b-90d1ba39814c"
+      Hint: Type
+      Value: "Every journey, rewarded."
+    - ID: "4e165b8a-8a95-406e-8ebd-e7491d4cb9b7"
+      Hint: Type
+      Value: "DEB TRAVEL CREDIT CARD"
+    - ID: "56659e08-7fee-4880-b33b-4146f186222c"
+      Hint: Image
+      Value: |
+        <image mediaid="{0C03BCAB-1F87-4ACE-9C7B-71252D092A02}" alt="Sarah overlooking the Dubai skyline at sunrise" />
+    - ID: "b1ee0be5-4c1d-472f-a1f0-3b599a8bad8d"
+      Hint: Type
+      Value: |
+        <link text="Check your eligibility" linktype="external" url="#" anchor="" target="" />
+    - ID: "af731092-cf9f-4fc9-b355-90d506afeeeb"
+      Hint: Type
+      Value: "Make every journey feel first class."
