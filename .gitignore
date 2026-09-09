@@ -49,5 +49,8 @@ packages/
 # VS Code settings
 .vscode/
 
+# Website capture screenshots / HTML manifests (local skill output)
+.cursor/design-screenshots/
+
 # Ignore all TS incremental build files
 *.tsbuildinfo
