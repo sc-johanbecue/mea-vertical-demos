@@ -1,0 +1,42 @@
+﻿---
+ID: "2e3c5c6f-f84b-4cf4-be75-7aa96bd102af"
+Parent: "c299b363-0fec-4df5-ad97-e446694ffd5b"
+Template: "2326bf45-f437-4f27-8f00-5775126cf71e"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/HeaderSections/Default HeaderSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "14624da4-e861-43cf-b9a5-7aacd39595c0"
+      Hint: MyMillerHomeLink
+      Value: |
+        <link linktype="internal" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" anchor="" querystring="" target="_blank" class="" text="My Miller Homes" title=""/>
+    - ID: "1ad340ce-8865-461d-acc2-08f320439508"
+      Hint: CorporateLink
+      Value: |
+        <link linktype="internal" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" anchor="" querystring="" target="_blank" class="" text="Corporate" title=""/>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031323Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6517681d-1550-4c35-bc7b-b760dc036bd9"
+    - ID: "971aa41a-6eba-483d-a586-9c1ff24c4a30"
+      Hint: Logo
+      Value: |
+        <image mediaid="733c8afa-ead5-4019-81ad-9770ed746f97" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T225830Z
+    - ID: "fa011623-a1f0-4922-927f-01dd11722d7a"
+      Hint: LoginLink
+      Value: |
+        <link linktype="internal" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" anchor="" querystring="" target="_blank" class="" text="Login / Register" title=""/>

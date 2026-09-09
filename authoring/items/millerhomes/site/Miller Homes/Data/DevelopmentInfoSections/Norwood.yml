@@ -1,0 +1,46 @@
+﻿---
+ID: "b313113d-5cd9-4599-bd17-90b07ac58989"
+Parent: "fb9bd44f-4654-412e-986d-8ba5e2b5d060"
+Template: "44fc5219-5d8e-4fa8-af91-e9a81c174474"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/DevelopmentInfoSections/Norwood"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T024156Z
+    - ID: "3148d3b5-2121-4f17-9fc3-a4d685c24480"
+      Hint: AppointmentLink
+      Value: |
+        <link linktype="internal" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" anchor="" querystring="" target="_blank" class="" text="Book an appointment" title=""/>
+    - ID: "374379d5-2cd1-4b2a-826a-1e5fff378b91"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><h3>From moving boxes to making memories</h3><p>Adventure awaits in your brand-new home! At Miller Homes, we&#8217;re here to turn your &#8216;one day&#8217; dreams into &#8216;right now&#8217; reality. On selected homes you can choose from up to 5% towards your mortgage, deposit, or Stamp Duty*, or benefit from our Part Exchange&#8224; and Assisted Move^ options, meaning your new adventure is closer than you think. So, get moving. Pre-reserve your new home online today. <a href="https://www.millerhomes.co.uk/promo/adventure-awaits">Terms and conditions apply</a>.</p><p><br />&#160;</p><h3>Find out more</h3><p>Visit us anytime during our opening hours and find out how we could help you move here; no appointment is needed. If you would prefer to, you can still make an appointment by calling our sales centre or booking on our website. We look forward to seeing you soon.</p><h3>Show homes and virtual show homes</h3><p>Our stunning 4-bedroom Gresham show home and 4-bedroom Ridgewell view home are now open in Northampton. You can also take a virtual tour of some of our other homes by looking through the gallery in the 'Explore' section further down the page.</p><h3>The perfect place to call home</h3><p>Come visit us to learn more about our current available homes, featuring detached 4 bedroom homes with garage, 3 bedroom detached homes, 3 bedroom 3 storey semi-detached homes, 2 bedroom terraced and semi-detached homes.</p><p>Miller Homes @ Norwood Quarter is an exciting new development of energy efficient 2, 3, 4 and 5 bedroom homes and apartments set within easy walking distance of the desirable Duston area of Northampton, near beautiful open countryside yet just a five minute drive to Junction 16 of the M1 offering easy links to London and Birmingham, this is the perfect place to call home. Northampton town centre is a short drive away, alongside well-rated schools, shops and amenities making this an ideal base for commuting and family living. Norwood Quarter offers the charm of a well-connected community with everyday essentials right at your doorstep. </p><h3>Energy-efficient family homes</h3><p>A report published by the Home Builders Federation in February 2025, found that&#8230;<br />New build home buyers could save an average of almost &#163;979 a year on their energy bills<br />86% of new build homes are rated A or B for energy efficiency<br />New build homes are likely to be 50% cheaper to run than their older equivalents<br />Not only are our homes here at Norwood Quarter extremely cost-efficient, energy-efficient and environmentally friendly, they also combine style and comfort, with a dedicated study or flexible living and bedroom space that can comfortably accommodate home working, and private gardens which allow you to make the most of the outdoors.</p></div>
+    - ID: "3b5a6d49-2ace-4901-aebe-c6479e864bae"
+      Hint: RegisterHeading
+      Value: From moving boxes to making memories 
+    - ID: "5f460493-2031-459a-87d9-4354851901d4"
+      Hint: Name
+      Value: Miller Homes @ Norwood Quarter 
+    - ID: "85394a43-7530-4a27-851a-b7ee8057185d"
+      Hint: ReleaseHeading
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "967e3697-8938-434a-82a0-b373d485f3d1"
+    - ID: "b5c8e68f-4e35-4edf-9fcf-4c14be1b7734"
+      Hint: Address
+      Value: Berrywood Road, Northampton, Northamptonshire, NN5 6UZ  
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260203T144215Z

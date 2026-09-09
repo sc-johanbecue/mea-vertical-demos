@@ -1,0 +1,300 @@
+﻿---
+ID: "daa56549-e95e-4cc4-9c79-b2a95e5e5a76"
+Parent: "1068e96b-e8a3-4257-ae0a-1feb423195fc"
+Template: "b11e2500-0001-4001-8500-000000000001"
+Path: "/sitecore/content/british-council/british-council/Home/Portal/Audiobooks/Short Stories Aloud"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F1DE0AA1-A27E-4668-9BE3-66F8D109B3D0}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "54c479ec-f900-410a-9336-bb5432c73aaa"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: Short Stories Aloud
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Short Stories Aloud
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link text="Short Stories Aloud" linktype="internal" id="{daa56549-e95e-4cc4-9c79-b2a95e5e5a76}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "33ba078e-b24d-488e-9b4c-0b610d021dd3"
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Narrated collection
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Audio
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2004
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-6637767"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Audiobook
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: English
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 346
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Discover Short Stories Aloud from the British Council Digital Library. This Audiobook title brings together engaging material for learners and curious readers alike.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Short Stories Aloud begins with a carefully paced introduction that draws you into its world. The opening chapters establish character, place and purpose with clarity. As the narrative unfolds, themes of culture, learning and curiosity weave through everyday detail. Observations land lightly, then deepen. By the middle stretch of this sample, the tone settles into a confident rhythm. Scenes are sketched with economy, leaving room for the reader to linger. The later sample pages look ahead: questions are raised, threads are gathered, and the closing lines of this preview invite you to continue beyond the first twenty pages."
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="74f1e9cd-643d-4868-bde6-06f791cb7243" />
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Short Stories Aloud
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: Histoires courtes à haute voix
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Histoires courtes à haute voix
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{daa56549-e95e-4cc4-9c79-b2a95e5e5a76}" linktype="internal" text="Histoires courtes à haute voix" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d2ea37da-0fc8-48eb-b06d-cb412740c411"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Collection narrée
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Audio
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2004
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-6637767"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Livre audio
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: Anglais
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 346
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Découvrez Histoires courtes à haute voix de la bibliothèque numérique du British Council. Ce titre de livre audio rassemble du matériel captivant pour les apprenants et les lecteurs curieux.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Histoires courtes à haute voix commence par une introduction soigneusement rythmée qui vous plonge dans son univers. Les premiers chapitres établissent les personnages, les lieux et les objectifs avec clarté. À mesure que le récit se déroule, des thèmes de culture, d'apprentissage et de curiosité se tissent dans les détails du quotidien. Les observations sont légères au début, puis s'approfondissent. Au milieu de cet échantillon, le ton s'installe dans un rythme confiant. Les scènes sont esquissées avec économie, laissant de la place au lecteur pour s'attarder. Les dernières pages de cet aperçu se projettent vers l'avenir : des questions sont soulevées, des fils sont rassemblés, et les dernières lignes de cet extrait vous invitent à continuer au-delà des vingt premières pages."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="74f1e9cd-643d-4868-bde6-06f791cb7243" alt="Carte teaser de recherche 1" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084826Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Histoires courtes à haute voix
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: शॉर्ट स्टोरीज़ अलाउड
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: शॉर्ट स्टोरीज़ अलाउड
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{daa56549-e95e-4cc4-9c79-b2a95e5e5a76}" linktype="internal" text="शॉर्ट स्टोरीज़ अलाउड" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "313e858d-cdc0-4d9f-b73f-f6eabf37e7da"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: संग्रहित कथाएँ
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: ब्रिटिश काउंसिल ऑडियो
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2004
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-6637767"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: ऑडियोबुक
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: अंग्रेज़ी
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 346
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: ब्रिटिश काउंसिल डिजिटल लाइब्रेरी से शॉर्ट स्टोरीज़ अलाउड की खोज करें। यह ऑडियोबुक शीर्षक शिक्षार्थियों और जिज्ञासु पाठकों के लिए आकर्षक सामग्री प्रस्तुत करता है।
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "शॉर्ट स्टोरीज़ अलाउड एक सावधानीपूर्वक तैयार किए गए परिचय के साथ शुरू होता है जो आपको इसकी दुनिया में खींचता है। शुरुआती अध्याय चरित्र, स्थान और उद्देश्य को स्पष्टता के साथ स्थापित करते हैं। जैसे-जैसे कथा आगे बढ़ती है, संस्कृति, सीखने और जिज्ञासा के विषय रोजमर्रा के विवरणों के माध्यम से बुने जाते हैं। अवलोकन हल्के से उतरते हैं, फिर गहराई में जाते हैं। इस नमूने के मध्य भाग तक, स्वर एक आत्मविश्वासपूर्ण लय में बस जाता है। दृश्यों को अर्थव्यवस्था के साथ रेखांकित किया गया है, जिससे पाठक को ठहरने का स्थान मिलता है। बाद के नमूना पृष्ठ आगे देखते हैं: प्रश्न उठाए जाते हैं, धागे इकट्ठे किए जाते हैं, और इस पूर्वावलोकन की अंतिम पंक्तियाँ आपको पहले बीस पृष्ठों से आगे बढ़ने के लिए आमंत्रित करती हैं।"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="74f1e9cd-643d-4868-bde6-06f791cb7243" alt="अनुसंधान टीज़र कार्ड 1" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093508Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: शॉर्ट स्टोरीज़ अलाउड
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: Korte Verhalen Hardop
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Korte Verhalen Hardop
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{daa56549-e95e-4cc4-9c79-b2a95e5e5a76}" linktype="internal" text="Korte Verhalen Hardop" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e861e367-8e07-4c37-92ea-9521f7686d89"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Vertelde collectie
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Audio
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2004
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-6637767"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Audioboek
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: Engels
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 346
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Ontdek Korte Verhalen Hardop van de British Council Digitale Bibliotheek. Deze audioboektitel brengt boeiend materiaal samen voor zowel leerlingen als nieuwsgierige lezers.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Korte Verhalen Hardop begint met een zorgvuldig opgebouwd introductie die je in zijn wereld trekt. De openingshoofdstukken stellen personages, plaats en doel duidelijk vast. Terwijl het verhaal zich ontvouwt, verweven thema's zoals cultuur, leren en nieuwsgierigheid zich door alledaagse details. Observaties landen lichtjes, maar verdiepen zich daarna. Tegen het midden van dit voorbeeld krijgt de toon een zelfverzekerd ritme. Scènes worden met zuinigheid geschetst, waardoor er ruimte is voor de lezer om te blijven hangen. De latere voorbeeldpagina's kijken vooruit: vragen worden gesteld, draden worden verzameld, en de slotregels van deze preview nodigen je uit om verder te gaan dan de eerste twintig pagina's."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="74f1e9cd-643d-4868-bde6-06f791cb7243" alt="Onderzoek teaserkaart 1" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084828Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Korte Verhalen Hardop

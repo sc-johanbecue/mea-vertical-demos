@@ -1,0 +1,155 @@
+﻿---
+ID: "7f7cd6b8-39bd-4270-9282-ee4f8ce6c2a0"
+Parent: "5f610f24-b87c-47a4-9d2c-3b84e6aa9cac"
+Template: "f43d609d-342e-47dd-baee-52523d40b0c7"
+Path: "/sitecore/content/british-council/british-council/Data/PortalCarouselSlides/Slide Audiobooks"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Audiobooks
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{6EF7CCA7-9508-415D-8983-04F46BF25432}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4dce1e27-2749-4a71-b1c2-dcfa2ca5f4de"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link text="Browse Audiobooks" linktype="external" url="/portal/audiobooks" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T043009Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Livres audio
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{6EF7CCA7-9508-415D-8983-04F46BF25432}" alt="Casque pour écouter" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ac4d307-6216-4d1a-80d9-3c4511a76724"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Parcourir les livres audio" url="/portal/audiobooks" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084716Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: ऑडियोबुक्स
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{6EF7CCA7-9508-415D-8983-04F46BF25432}" alt="सुनने के लिए हेडफ़ोन" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5eed4751-ecba-4235-8e0d-e0ac5e113f22"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="ऑडियोबुक्स ब्राउज़ करें" url="/portal/audiobooks" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093407Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Audioboeken
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{6EF7CCA7-9508-415D-8983-04F46BF25432}" alt="Koptelefoons om te luisteren" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5923f133-b24a-4aed-927b-de64774c140d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Blader door audioboeken" url="/portal/audiobooks" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084717Z

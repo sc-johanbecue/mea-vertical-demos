@@ -1,0 +1,51 @@
+﻿---
+ID: "4196ae89-78e3-4ee3-8bfc-426835b5c688"
+Parent: "56ee7dd0-de44-47db-87a7-65fe5b8796c7"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/kpmg/kpmgbeyond/Website/imgi_6_default
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/4196AE8978E34EE38BFC426835B5C688.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "489d7ecd-ee3a-481f-8721-d4f6846f0fbc"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgY29sb3I9IiNmZmZmZmYiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMGMuNjkgMCAxLjI1LjU2IDEuMjUgMS4yNVYyLjVBMy43NSAzLjc1IDAgMCAxIDIwIDYuMjV2MTBBMy43NSAzLjc1IDAgMCAxIDE2LjI1IDIwSDMuNzVBMy43NSAzLjc1IDAgMCAxIDAgMTYuMjV2LTEwQTMuNzUgMy43NSAwIDAgMSAzLjc1IDIuNVYxLjI1YTEuMjUgMS4yNSAwIDAgMSAyLjUgMFYyLjVoNy41VjEuMjVDMTMuNzUuNTYgMTQuMzEgMCAxNSAwbTIuNSAxMGgtMTV2Ni4yNWMwIC42OS41NiAxLjI1IDEuMjUgMS4yNWgxMi41Yy42OSAwIDEuMjUtLjU2IDEuMjUtMS4yNXpNMTUgMTEuMjVjLjY5IDAgMS4yNS41NiAxLjI1IDEuMjVWMTVjMCAuNjktLjU2IDEuMjUtMS4yNSAxLjI1aC0yLjVjLS42OSAwLTEuMjUtLjU2LTEuMjUtMS4yNXYtMi41YzAtLjY5LjU2LTEuMjUgMS4yNS0xLjI1ek0xNi4yNSA1SDMuNzVjLS42OSAwLTEuMjUuNTYtMS4yNSAxLjI1VjcuNWgxNVY2LjI1YzAtLjY5LS41Ni0xLjI1LTEuMjUtMS4yNSI+PC9wYXRoPjwvc3ZnPg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 616
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "14126f7f-9534-45fa-a3ac-5caf268e3b70"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260529T223109Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd178c45-7f82-4ae2-b3d4-d46768b8b2b9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260529T223109Z

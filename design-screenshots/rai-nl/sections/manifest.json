@@ -1,0 +1,542 @@
+{
+  "components": {
+    "CookieBanner": {
+      "cmsName": "CookieBanner",
+      "folderName": "cookie-banner",
+      "name": "cookie-banner",
+      "selector": "#CybotCookiebotDialog",
+      "type": "cookie-banner",
+      "scope": "site",
+      "reason": "Sticky overlay (CookieBanner) — captured before hide",
+      "componentType": "CookieBanner",
+      "isStickyOverlay": true,
+      "captureMode": "overlay",
+      "capturedBeforeHide": true,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\sections\\cookie-banner",
+      "outputs": {
+        "desktop": "cookie-banner/cookie-banner-desktop.png",
+        "tablet": "cookie-banner/cookie-banner-tablet.png",
+        "mobile": "cookie-banner/cookie-banner-mobile.png"
+      },
+      "sectionHtml": "cookie-banner/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "rai-nl--en",
+        "rai-nl--en-calendar",
+        "rai-nl--en-calendar-hlth-2026"
+      ]
+    },
+    "Header": {
+      "cmsName": "Header",
+      "folderName": "header",
+      "name": "header",
+      "selector": "header.sticky.top-0",
+      "type": "header",
+      "scope": "site",
+      "reason": "Sticky overlay (Header) — captured before hide",
+      "componentType": "Header",
+      "isStickyOverlay": true,
+      "captureMode": "overlay",
+      "capturedBeforeHide": true,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\sections\\header",
+      "outputs": {
+        "desktop": "header/header-desktop.png",
+        "tablet": "header/header-tablet.png",
+        "mobile": "header/header-mobile.png"
+      },
+      "sectionHtml": "header/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "rai-nl--en",
+        "rai-nl--en-calendar",
+        "rai-nl--en-calendar-hlth-2026"
+      ]
+    },
+    "HeroBanner": {
+      "cmsName": "HeroBanner",
+      "folderName": "hero-banner",
+      "name": "hero-banner",
+      "selector": "#content > div:nth-of-type(1)",
+      "anchorWebid": null,
+      "heading": null,
+      "reason": "Hero banner with background image",
+      "type": "hero",
+      "componentType": "Hero",
+      "scope": "page",
+      "order": 0,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "fields": [
+        "title",
+        "subtitle",
+        "image",
+        "cta"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\sections\\hero-banner",
+      "outputs": {
+        "desktop": "hero-banner/hero-banner-desktop.png",
+        "tablet": "hero-banner/hero-banner-tablet.png",
+        "mobile": "hero-banner/hero-banner-mobile.png"
+      },
+      "sectionHtml": "hero-banner/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "rai-nl--en"
+      ]
+    },
+    "TheseEventsWillBeTeaserGrid": {
+      "cmsName": "TheseEventsWillBeTeaserGrid",
+      "folderName": "these-events-will-be-teaser-grid",
+      "name": "these-events-will-be-teaser-grid",
+      "selector": "#content > div:nth-of-type(2) > div > div > div > div:nth-of-type(5)",
+      "anchorWebid": null,
+      "heading": "These events will be atRAI Amsterdam soon",
+      "reason": "Events list with 6 cards",
+      "type": "grid",
+      "componentType": "Grid",
+      "scope": "page",
+      "order": 1,
+      "source": "visual-dom",
+      "bandSelectors": [
+        "#content > div:nth-of-type(2) > div > div > div > div:nth-of-type(5)",
+        "div:nth-of-type(2) > div > div > div > div:nth-of-type(5) > div",
+        "div > div > div > div:nth-of-type(5) > div > div"
+      ],
+      "placeholderFor": "EventListCard",
+      "repeatCount": 6,
+      "includesSectionTitle": true,
+      "allowParentOfClaimed": true,
+      "fields": [
+        "title",
+        "subtitle",
+        "allEventsLink",
+        "cards"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\sections\\these-events-will-be-teaser-grid",
+      "outputs": {
+        "desktop": "these-events-will-be-teaser-grid/these-events-will-be-teaser-grid-desktop.png",
+        "tablet": "these-events-will-be-teaser-grid/these-events-will-be-teaser-grid-tablet.png",
+        "mobile": "these-events-will-be-teaser-grid/these-events-will-be-teaser-grid-mobile.png"
+      },
+      "sectionHtml": "these-events-will-be-teaser-grid/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "rai-nl--en"
+      ]
+    },
+    "TheLatestNewsArticlesSection": {
+      "cmsName": "TheLatestNewsArticlesSection",
+      "folderName": "the-latest-news-articles-section",
+      "name": "the-latest-news-articles-section",
+      "selector": "#content > div:nth-of-type(2) > div > div > div > div:nth-of-type(4)",
+      "anchorWebid": null,
+      "heading": "The latest news articles",
+      "reason": "News articles section (3 cards)",
+      "type": "grid",
+      "componentType": "Grid",
+      "scope": "page",
+      "order": 2,
+      "source": "visual-dom",
+      "bandSelectors": [
+        "#content > div:nth-of-type(2) > div > div > div > div:nth-of-type(4)",
+        "#content > div:nth-of-type(2) > div > div > div > div:nth-of-type(5)",
+        "div:nth-of-type(2) > div > div > div > div:nth-of-type(5) > div",
+        "div > div > div > div:nth-of-type(5) > div > div"
+      ],
+      "placeholderFor": "NewsArticleCard",
+      "repeatCount": 3,
+      "includesSectionTitle": true,
+      "allowParentOfClaimed": true,
+      "fields": [
+        "title",
+        "cards"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\sections\\the-latest-news-articles-section",
+      "outputs": {
+        "desktop": "the-latest-news-articles-section/the-latest-news-articles-section-desktop.png",
+        "tablet": "the-latest-news-articles-section/the-latest-news-articles-section-tablet.png",
+        "mobile": "the-latest-news-articles-section/the-latest-news-articles-section-mobile.png"
+      },
+      "sectionHtml": "the-latest-news-articles-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "rai-nl--en"
+      ]
+    },
+    "Footer": {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "name": "footer",
+      "selector": "footer.sticky.top-\\[100vh\\]",
+      "anchorWebid": null,
+      "heading": "Events at RAI Amsterdam",
+      "reason": "Site footer with links and legal",
+      "type": "footer",
+      "componentType": "Footer",
+      "scope": "site",
+      "order": 3,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "visualRole": "Site-wide footer",
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\sections\\footer",
+      "outputs": {
+        "desktop": "footer/footer-desktop.png",
+        "tablet": "footer/footer-tablet.png",
+        "mobile": "footer/footer-mobile.png"
+      },
+      "sectionHtml": "footer/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "rai-nl--en",
+        "rai-nl--en-calendar",
+        "rai-nl--en-calendar-hlth-2026"
+      ]
+    },
+    "Breadcrumb": {
+      "cmsName": "Breadcrumb",
+      "folderName": "breadcrumb",
+      "name": "breadcrumb",
+      "selector": "#content > div:nth-of-type(2)",
+      "anchorWebid": null,
+      "heading": null,
+      "reason": "Breadcrumb navigation",
+      "type": "breadcrumb",
+      "componentType": "Navigation",
+      "scope": "page",
+      "order": 0,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\sections\\breadcrumb",
+      "outputs": {
+        "desktop": "breadcrumb/breadcrumb-desktop.png",
+        "tablet": "breadcrumb/breadcrumb-tablet.png",
+        "mobile": "breadcrumb/breadcrumb-mobile.png"
+      },
+      "sectionHtml": "breadcrumb/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "rai-nl--en-calendar",
+        "rai-nl--en-calendar-hlth-2026"
+      ]
+    },
+    "CalendarListingSection": {
+      "cmsName": "CalendarListingSection",
+      "folderName": "calendar-listing-section",
+      "name": "calendar-listing-section",
+      "selector": "#content > div:nth-of-type(3)",
+      "anchorWebid": null,
+      "heading": null,
+      "reason": "Calendar listing (10 event links)",
+      "type": "listing",
+      "componentType": "Listing",
+      "scope": "page",
+      "order": 1,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "placeholderFor": "EventListCard",
+      "fields": [
+        "title",
+        "cards"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\sections\\calendar-listing-section",
+      "outputs": {
+        "desktop": "calendar-listing-section/calendar-listing-section-desktop.png",
+        "tablet": "calendar-listing-section/calendar-listing-section-tablet.png",
+        "mobile": "calendar-listing-section/calendar-listing-section-mobile.png"
+      },
+      "sectionHtml": "calendar-listing-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "rai-nl--en-calendar"
+      ]
+    },
+    "EventDetailHeroSection": {
+      "cmsName": "EventDetailHeroSection",
+      "folderName": "event-detail-hero-section",
+      "name": "event-detail-hero-section",
+      "selector": "h1.mb-9",
+      "anchorWebid": null,
+      "heading": "HLTH Europe 2026",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "type": "hero",
+      "componentType": "Hero",
+      "scope": "page",
+      "order": 1,
+      "source": "visual-dom",
+      "bandSelectors": [
+        "h1.mb-9"
+      ],
+      "fields": [
+        "title",
+        "dateRange",
+        "description",
+        "primaryCta",
+        "secondaryCta",
+        "image"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\sections\\event-detail-hero-section",
+      "outputs": {
+        "desktop": "event-detail-hero-section/event-detail-hero-section-desktop.png",
+        "tablet": "event-detail-hero-section/event-detail-hero-section-tablet.png",
+        "mobile": "event-detail-hero-section/event-detail-hero-section-mobile.png"
+      },
+      "sectionHtml": "event-detail-hero-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "rai-nl--en-calendar-hlth-2026"
+      ]
+    },
+    "EventDetailInfoSection": {
+      "cmsName": "EventDetailInfoSection",
+      "folderName": "event-detail-info-section",
+      "name": "event-detail-info-section",
+      "selector": "#content > div:nth-of-type(3) > div > div",
+      "anchorWebid": null,
+      "heading": "HLTH Europe 2026",
+      "reason": "Event detail info blocks (hours, location, tickets)",
+      "type": "info",
+      "componentType": "RichText",
+      "scope": "page",
+      "order": 2,
+      "source": "visual-dom",
+      "bandSelectors": [
+        "#content > div:nth-of-type(3) > div > div",
+        "h3.mt-4",
+        "h4.mb-4",
+        "div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p",
+        "div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(1) > p",
+        "div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(2) > p",
+        "div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(3) > p",
+        "p.text-center"
+      ],
+      "allowParentOfClaimed": true,
+      "fields": [
+        "openingHours",
+        "location",
+        "ticketInfo"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\sections\\event-detail-info-section",
+      "outputs": {
+        "desktop": "event-detail-info-section/event-detail-info-section-desktop.png",
+        "tablet": "event-detail-info-section/event-detail-info-section-tablet.png",
+        "mobile": "event-detail-info-section/event-detail-info-section-mobile.png"
+      },
+      "sectionHtml": "event-detail-info-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "rai-nl--en-calendar-hlth-2026"
+      ]
+    }
+  },
+  "pages": [
+    {
+      "slug": "rai-nl--en",
+      "url": "https://www.rai.nl/en",
+      "pageDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\rai-nl--en",
+      "capturedAt": "2026-06-16T22:33:15.785Z",
+      "sectionOrder": [
+        "CookieBanner",
+        "Header",
+        "HeroBanner",
+        "TheseEventsWillBeTeaserGrid",
+        "TheLatestNewsArticlesSection",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "HeroBanner",
+          "folderName": "hero-banner",
+          "type": "hero",
+          "scope": "page",
+          "selector": "#content > div:nth-of-type(1)",
+          "reason": "Hero banner with background image",
+          "order": 0,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "TheseEventsWillBeTeaserGrid",
+          "folderName": "these-events-will-be-teaser-grid",
+          "type": "grid",
+          "scope": "page",
+          "selector": "#content > div:nth-of-type(2) > div > div > div > div:nth-of-type(5)",
+          "reason": "Events list with 6 cards",
+          "order": 1,
+          "placeholderFor": "EventListCard",
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "TheLatestNewsArticlesSection",
+          "folderName": "the-latest-news-articles-section",
+          "type": "grid",
+          "scope": "page",
+          "selector": "#content > div:nth-of-type(2) > div > div > div > div:nth-of-type(4)",
+          "reason": "News articles section (3 cards)",
+          "order": 2,
+          "placeholderFor": "NewsArticleCard",
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "footer.sticky.top-\\[100vh\\]",
+          "reason": "Site footer with links and legal",
+          "order": 3,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        }
+      ]
+    },
+    {
+      "slug": "rai-nl--en-calendar",
+      "url": "https://www.rai.nl/en/calendar",
+      "pageDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\rai-nl--en-calendar",
+      "capturedAt": "2026-06-16T22:33:42.415Z",
+      "sectionOrder": [
+        "CookieBanner",
+        "Header",
+        "Breadcrumb",
+        "CalendarListingSection",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "Breadcrumb",
+          "folderName": "breadcrumb",
+          "type": "breadcrumb",
+          "scope": "page",
+          "selector": "#content > div:nth-of-type(2)",
+          "reason": "Breadcrumb navigation",
+          "order": 0,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "CalendarListingSection",
+          "folderName": "calendar-listing-section",
+          "type": "listing",
+          "scope": "page",
+          "selector": "#content > div:nth-of-type(3)",
+          "reason": "Calendar listing (10 event links)",
+          "order": 1,
+          "placeholderFor": "EventListCard",
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "footer.sticky.top-\\[100vh\\]",
+          "reason": "Site footer with links and legal",
+          "order": 2,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        }
+      ]
+    },
+    {
+      "slug": "rai-nl--en-calendar-hlth-2026",
+      "url": "https://www.rai.nl/en/calendar/hlth-2026",
+      "pageDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\rai-nl--en-calendar-hlth-2026",
+      "capturedAt": "2026-06-16T22:34:13.166Z",
+      "sectionOrder": [
+        "CookieBanner",
+        "Header",
+        "Breadcrumb",
+        "EventDetailHeroSection",
+        "EventDetailInfoSection",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "Breadcrumb",
+          "folderName": "breadcrumb",
+          "type": "breadcrumb",
+          "scope": "page",
+          "selector": "#content > div:nth-of-type(2)",
+          "reason": "Breadcrumb navigation",
+          "order": 0,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "EventDetailHeroSection",
+          "folderName": "event-detail-hero-section",
+          "type": "hero",
+          "scope": "page",
+          "selector": "h1.mb-9",
+          "reason": "Event detail hero with title, dates, and CTAs",
+          "order": 1,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "EventDetailInfoSection",
+          "folderName": "event-detail-info-section",
+          "type": "info",
+          "scope": "page",
+          "selector": "#content > div:nth-of-type(3) > div > div",
+          "reason": "Event detail info blocks (hours, location, tickets)",
+          "order": 2,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "footer.sticky.top-\\[100vh\\]",
+          "reason": "Site footer with links and legal",
+          "order": 3,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        }
+      ]
+    }
+  ],
+  "projectRoot": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl",
+  "sectionsRoot": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl\\sections",
+  "updatedAt": "2026-06-16T22:34:14.298Z"
+}

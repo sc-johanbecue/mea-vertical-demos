@@ -1,0 +1,47 @@
+﻿---
+ID: "ee81e84e-4512-408f-97bc-a7dd5029a970"
+Parent: "e5817860-5880-4898-8033-09582dcb386e"
+Template: "01739fec-a4ac-4617-b218-db735ed68002"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondTopPicksSections/Home Top Picks Other
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260528T140000Z
+    - ID: "3dba8a43-dd2f-4694-89f5-743c29261dde"
+      Hint: TabRecommended
+      Value: Recommended
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "548ec787-35c8-4f0f-ab0d-537267a57cd5"
+    - ID: "8f58f90e-5ba9-46a4-84f0-919a0f986b62"
+      Hint: ViewMoreLink
+      Value: |
+        <link linktype="external" url="#" text="View more" anchor="" target="" class="" />
+    - ID: "a1b2c3d4-e5f6-4789-a012-3456789abcde"
+      Hint: CardsFolder
+      Value: "{31ED7662-82C7-402C-85C0-CC041B93C9BC}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260608T084844Z
+    - ID: "ea320040-8c6f-4395-8fc3-dc5fe636fb4e"
+      Hint: Title
+      Value: Top picks for you
+    - ID: "f9a8c8b4-de95-4b84-b936-dff56a325474"
+      Hint: TabDiscover
+      Value: Discover

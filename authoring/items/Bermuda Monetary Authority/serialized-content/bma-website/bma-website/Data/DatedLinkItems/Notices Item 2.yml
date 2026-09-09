@@ -1,0 +1,32 @@
+---
+ID: "af5d32e2-2917-4113-8f60-f89a24bcc9e7"
+Parent: "8ba9cb31-76ee-4745-8a4e-fa008e357c2b"
+Template: "c9dc236a-621a-4817-a9ce-9f7c1a368f6e"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/DatedLinkItems/Notices Item 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "f18f6df0-c012-428d-a38f-cfe49fbb4d3f"
+      Hint: DateLabel
+      Value: "14 August 2026"
+    - ID: "aa1a5666-cd05-454d-806a-3e0b14ddedb9"
+      Hint: Link
+      Value: |
+        <link text="Notice - Consultation Paper - Proposed Amendments to the Bermuda Monetary Authority Act 1969" linktype="external" url="https://www.bma.bm/viewPDF/documents/2026-08-14-13-45-44-Notice---Consultation-Paper---Proposed-Amendments-to-the-Bermuda-Monetary-Authority-Act-1969.pdf" anchor="" target="_blank" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "af5d32e2-2917-4113-8f60-f89a24bcc9e7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

@@ -1,0 +1,139 @@
+﻿---
+ID: "c11e2310-0001-4001-8310-000000000050"
+Parent: "c7106c9b-d5de-4757-b862-6e1e3d31a47a"
+Template: "8395f68b-5c11-463b-a3e2-e16609327b51"
+Path: "/sitecore/content/british-council/british-council/Data/SocialLinkItems/TikTok"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T074000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4611bb90-97c3-47b7-be54-15c961e2fa3b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cc798b9e-b677-4c66-b1bb-a00cd811314a"
+      Hint: Platform
+      Value: TikTok
+    - ID: "d6b22936-0786-4cdd-9b35-247c7c318b8e"
+      Hint: Link
+      Value: |
+        <link text="TikTok" linktype="external" url="https://www.tiktok.com/@britishcouncil" anchor="" target="_blank" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T054559Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T074000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bd281517-ca2a-401c-b13c-4ffdda37f9ae"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cc798b9e-b677-4c66-b1bb-a00cd811314a"
+      Hint: Platform
+      Value: TikTok
+    - ID: "d6b22936-0786-4cdd-9b35-247c7c318b8e"
+      Hint: Link
+      Value: |
+        <link text="TikTok" linktype="external" url="https://www.tiktok.com/@britishcouncil" anchor="" target="_blank" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084729Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T074000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4b50963c-7344-4ef5-8cdc-7db3d0582b75"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cc798b9e-b677-4c66-b1bb-a00cd811314a"
+      Hint: Platform
+      Value: टिकटॉक
+    - ID: "d6b22936-0786-4cdd-9b35-247c7c318b8e"
+      Hint: Link
+      Value: |
+        <link anchor="" target="_blank" title="टिकटॉक" linktype="external" text="टिकटॉक" url="https://www.tiktok.com/@britishcouncil" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093420Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T074000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0246dc66-378e-4f9b-b5e8-ac0e77702144"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cc798b9e-b677-4c66-b1bb-a00cd811314a"
+      Hint: Platform
+      Value: TikTok
+    - ID: "d6b22936-0786-4cdd-9b35-247c7c318b8e"
+      Hint: Link
+      Value: |
+        <link text="TikTok" linktype="external" url="https://www.tiktok.com/@britishcouncil" anchor="" target="_blank" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084730Z

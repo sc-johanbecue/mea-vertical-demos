@@ -1,0 +1,113 @@
+{
+  "slug": "matthey-com--products-and-markets-chemicals-methanol",
+  "url": "https://matthey.com/products-and-markets/chemicals/methanol",
+  "layoutChrome": [
+    {
+      "cmsName": "CookieBanner",
+      "scope": "site",
+      "sectionFolder": "cookie-banner"
+    },
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    },
+    {
+      "cmsName": "Footer",
+      "scope": "site",
+      "sectionFolder": "footer"
+    }
+  ],
+  "sections": [
+    {
+      "order": 1,
+      "sectionFolder": "products-and-markets-chemicals-methanol-event-detail-hero-section",
+      "sectionScreenshotName": "MethanolEventDetailHeroSection",
+      "parentComponent": {
+        "cmsName": "FullBleedHeroBannerSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 2,
+      "sectionFolder": "the-potential-of-methanol-link-grid",
+      "sectionScreenshotName": "ThePotentialOfMethanolLinkGrid",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionLinkGridSection",
+        "placeholderKey": "link-cards-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "HorizontalLinkCard",
+          "repeatCount": 2,
+          "inPlaceholder": "link-cards-{DynamicPlaceholderId}"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "sectionFolder": "unlock-the-possibilities-with-rich-text-section",
+      "sectionScreenshotName": "UnlockThePossibilitiesWithRichTextSection",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 4,
+      "sectionFolder": "faq-section",
+      "sectionScreenshotName": "FaqSection",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionCtaSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 5,
+      "sectionFolder": "high-performance-methanol-catalysts-link-grid",
+      "sectionScreenshotName": "HighPerformanceMethanolCatalystsLinkGrid",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionLinkGridSection",
+        "placeholderKey": "link-cards-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "HorizontalLinkCard",
+          "repeatCount": 2,
+          "inPlaceholder": "link-cards-{DynamicPlaceholderId}"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "sectionFolder": "get-in-touch-cta-block",
+      "sectionScreenshotName": "GetInTouchCtaBlock",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionCtaSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 7,
+      "sectionFolder": "read-more-link-grid",
+      "sectionScreenshotName": "ReadMoreLinkGrid",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionLinkGridSection",
+        "placeholderKey": "link-cards-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "HorizontalLinkCard",
+          "repeatCount": 2,
+          "inPlaceholder": "link-cards-{DynamicPlaceholderId}"
+        }
+      ]
+    }
+  ],
+  "confidence": "high",
+  "notes": []
+}

@@ -1,0 +1,43 @@
+---
+ID: "a0220d65-ea2f-453e-8444-ce46214ee59d"
+Parent: "d2cc56c1-37f4-484a-82f3-0e56e4b379d6"
+Template: "ba9aa3cf-22e5-4286-8d9f-5a0c510cddd6"
+Path: "/sitecore/content/rai/rai-amsterdam/Data/LinkLists/Footer Links 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "a661aaa8-08de-4537-91bf-f39c6d8ded25"
+      Hint: Link1
+      Value: |
+        <link text="Plan your visit" linktype="external" url="https://www.rai.nl/en/visiting" />
+    - ID: "f7c66929-3efe-443d-86a6-725d0d2cee7e"
+      Hint: Link2
+      Value: |
+        <link text="Getting here" linktype="external" url="https://www.rai.nl/en/route" />
+    - ID: "6a83e27f-6b35-4e6c-8024-5dbab50f18b4"
+      Hint: Link3
+      Value: |
+        <link text="Accessibility" linktype="external" url="https://www.rai.nl/en/accessibility" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "788e1579-ce04-45e4-8e4b-6d00b6845599"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

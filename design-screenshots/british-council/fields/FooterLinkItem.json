@@ -1,0 +1,10 @@
+{
+  "fields": [
+    {
+      "name": "Link",
+      "title": "Link",
+      "type": "General Link",
+      "sort": 100
+    }
+  ]
+}

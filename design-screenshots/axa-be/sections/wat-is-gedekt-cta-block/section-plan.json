@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-15T01:14:17.291Z",
+  "reviewStatus": "pending",
+  "sectionFolder": "wat-is-gedekt-cta-block",
+  "review": {
+    "narrativeSummary": "We will create one component: TitleDescriptionCtaSection. TitleDescriptionCtaSection datasource fields: Title, Body, Cta. No placeholders — editors publish content directly on this component.",
+    "notes": [
+      "Detection: WatIsGedektCtaBlock: editorial content block",
+      "No Sitecore placeholders on this component."
+    ],
+    "contentGuidance": null,
+    "nextSteps": [
+      "Review the narrative summary and responsive layout notes against the section PNGs.",
+      "Edit component names or fields in this file if the plan looks wrong, then set reviewStatus to \"approved\".",
+      "Run sitecore-component-from-design for each component under implementationPlan.components.",
+      "Create YAML artifacts listed under each component.yaml.artifacts.",
+      "Wire renderings into page YAML via sitecore-page-from-design."
+    ]
+  },
+  "responsiveLayout": null,
+  "detection": {
+    "cmsName": "WatIsGedektCtaBlock",
+    "folderName": "wat-is-gedekt-cta-block",
+    "type": "feature-section",
+    "componentType": "RichText",
+    "scope": "page",
+    "selector": "section:has([data-webid=\"habitation_mainpage_coverage\"])",
+    "anchorWebid": "habitation_mainpage_coverage",
+    "heading": "Wat is gedekt?",
+    "reason": "WatIsGedektCtaBlock: editorial content block",
+    "captureMode": "clean",
+    "isStickyOverlay": false,
+    "order": 3,
+    "repeatCount": null,
+    "placeholderFor": null,
+    "parentSection": null,
+    "includesSectionTitle": false,
+    "detectedFields": [
+      "title",
+      "body",
+      "cta"
+    ],
+    "source": "visual-dom"
+  },
+  "assets": {
+    "screenshots": {
+      "desktop": "wat-is-gedekt-cta-block-desktop.png",
+      "tablet": "wat-is-gedekt-cta-block-tablet.png",
+      "mobile": "wat-is-gedekt-cta-block-mobile.png"
+    },
+    "sectionHtml": "section.html",
+    "outputDir": "wat-is-gedekt-cta-block"
+  },
+  "implementationPlan": {
+    "confidence": "medium",
+    "summary": "Build 1 Sitecore component: TitleDescriptionCtaSection.",
+    "placeholderKey": null,
+    "repeatCount": 0,
+    "components": [
+      {
+        "role": "standalone",
+        "cmsName": "TitleDescriptionCtaSection",
+        "componentType": "Section",
+        "description": "Editorial content section inferred from screenshot band.",
+        "confidence": "medium",
+        "fields": [
+          {
+            "name": "Title",
+            "type": "Single-Line Text"
+          },
+          {
+            "name": "Body",
+            "type": "Multi-Line Text"
+          },
+          {
+            "name": "Cta",
+            "type": "General Link"
+          }
+        ],
+        "placeholders": [],
+        "variants": [
+          "Default",
+          "Inversed",
+          "ImageTop",
+          "Animated"
+        ],
+        "parentComponents": [],
+        "tsx": {
+          "componentMapKey": "TitleDescriptionCtaSection",
+          "directory": "src/components/title-description-cta-section/",
+          "mainFile": "src/components/title-description-cta-section/TitleDescriptionCtaSection.tsx",
+          "variantExports": [
+            "Default",
+            "Inversed",
+            "ImageTop",
+            "Animated"
+          ],
+          "componentMapRegistration": ".sitecore/component-map.ts → 'TitleDescriptionCtaSection': () => import('@/components/title-description-cta-section/TitleDescriptionCtaSection')"
+        },
+        "yaml": {
+          "sitecoreProjectPath": "authoring/items/{ProjectName}/serialized-content/",
+          "artifacts": [
+            {
+              "kind": "template-branch",
+              "description": "Sitecore template branch (Template, Data section, field items)",
+              "pathPattern": "/sitecore/templates/Project/{project}/TitleDescriptionCtaSection/"
+            },
+            {
+              "kind": "rendering",
+              "description": "Json rendering definition",
+              "pathPattern": "/sitecore/layout/Renderings/Project/{project}/TitleDescriptionCtaSection"
+            },
+            {
+              "kind": "headless-variants-folder",
+              "description": "Headless Variants folder for Experience Editor",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionCtaSection"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Default variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionCtaSection/Default.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Inversed variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionCtaSection/Inversed.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "ImageTop variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionCtaSection/ImageTop.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Animated variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionCtaSection/Animated.yml"
+            },
+            {
+              "kind": "data-folder",
+              "description": "Datasource folder for authored content",
+              "pathPattern": "{siteContentPath}/Data/TitleDescriptionCtaSections"
+            },
+            {
+              "kind": "default-datasource",
+              "description": "Default datasource item with field values from design",
+              "pathPattern": "{siteContentPath}/Data/TitleDescriptionCtaSections/Default TitleDescriptionCtaSection.yml"
+            }
+          ],
+          "fields": [
+            {
+              "name": "Title",
+              "type": "Single-Line Text"
+            },
+            {
+              "name": "Body",
+              "type": "Multi-Line Text"
+            },
+            {
+              "name": "Cta",
+              "type": "General Link"
+            }
+          ]
+        },
+        "placeholderKey": null
+      }
+    ]
+  }
+}

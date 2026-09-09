@@ -1,0 +1,17 @@
+---
+ID: "867a0b8f-0250-486e-9432-9b8b8eeddb33"
+Parent: "4ff90e6a-77fe-4095-a056-4c8759c86e1d"
+Template: "4ff90e6a-77fe-4095-a056-4c8759c86e1d"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/CookieBanner Templates/CookieBanner Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

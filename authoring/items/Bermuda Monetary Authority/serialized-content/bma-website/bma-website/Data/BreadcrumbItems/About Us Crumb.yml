@@ -1,0 +1,32 @@
+---
+ID: "253f6e67-6cf4-41fa-851c-f988d29932a3"
+Parent: "a9d10eec-fa5e-4dcb-8c2a-247c1971e840"
+Template: "406bbdad-ea18-459b-b49a-0e9f538c587e"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/BreadcrumbItems/About Us Crumb"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "fd7195d3-9a13-4d9f-910e-22c72e09682f"
+      Hint: Title
+      Value: "About Us"
+    - ID: "d49c4558-d511-4523-b958-fb2a55c418d4"
+      Hint: Link
+      Value: |
+        <link text="About Us" linktype="external" url="" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "253f6e67-6cf4-41fa-851c-f988d29932a3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260902T110000Z"

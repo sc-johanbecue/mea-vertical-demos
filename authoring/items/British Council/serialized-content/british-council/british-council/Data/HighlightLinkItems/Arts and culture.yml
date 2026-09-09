@@ -1,0 +1,151 @@
+﻿---
+ID: "a11e1003-0003-4003-8003-000000000002"
+Parent: "d11a069a-8410-48a5-9af4-05cfaa3f81ca"
+Template: "aa1eec4c-67e5-4066-8f7c-3fe5f9c72f50"
+Path: "/sitecore/content/british-council/british-council/Data/HighlightLinkItems/Arts and culture"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d6fc6c28-3c2a-4ded-9de5-76779195b978"
+    - ID: "96ce6470-943f-4fa7-beec-6a273881ddcc"
+      Hint: Body
+      Value: Explore creative programmes worldwide.
+    - ID: "ab60f2c8-6793-4c70-8896-cdc34b4588b6"
+      Hint: Link
+      Value: |
+        <link text="Arts and culture" linktype="external" url="/" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T130942Z
+    - ID: "ea05e2dc-09d8-4fbb-a4b9-4027dc820c4d"
+      Hint: Title
+      Value: Arts and culture
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f138353c-b195-482a-bede-8735cbee4522"
+    - ID: "96ce6470-943f-4fa7-beec-6a273881ddcc"
+      Hint: Body
+      Value: Explorez des programmes créatifs dans le monde entier.
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "ab60f2c8-6793-4c70-8896-cdc34b4588b6"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Arts et culture" url="/" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084705Z
+    - ID: "ea05e2dc-09d8-4fbb-a4b9-4027dc820c4d"
+      Hint: Title
+      Value: Arts et culture
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3e3aa019-1d4f-425e-bd15-342ebe840695"
+    - ID: "96ce6470-943f-4fa7-beec-6a273881ddcc"
+      Hint: Body
+      Value: दुनिया भर में रचनात्मक कार्यक्रमों का अन्वेषण करें।
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "ab60f2c8-6793-4c70-8896-cdc34b4588b6"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="कला और संस्कृति" url="/" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093355Z
+    - ID: "ea05e2dc-09d8-4fbb-a4b9-4027dc820c4d"
+      Hint: Title
+      Value: कला और संस्कृति
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3f073ccc-7860-48a5-af26-1f66fa587237"
+    - ID: "96ce6470-943f-4fa7-beec-6a273881ddcc"
+      Hint: Body
+      Value: Ontdek creatieve programma's wereldwijd.
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "ab60f2c8-6793-4c70-8896-cdc34b4588b6"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Kunst en cultuur" url="/" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084704Z
+    - ID: "ea05e2dc-09d8-4fbb-a4b9-4027dc820c4d"
+      Hint: Title
+      Value: Kunst en cultuur

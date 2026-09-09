@@ -1,0 +1,90 @@
+{
+  "fonts": [
+    {
+      "family": "Source Sans Pro",
+      "count": 231,
+      "sources": [
+        "https://cdn.website.axa.be/fonts/sourcesanspro-bold-subset-latin.woff2",
+        "https://cdn.website.axa.be/fonts/sourcesanspro-regular-subset-latin.woff2",
+        "https://cdn.website.axa.be/fonts/sourcesanspro-semibold-subset-latin.woff2"
+      ]
+    },
+    {
+      "family": "Publico",
+      "count": 19,
+      "sources": [
+        "https://cdn.website.axa.be/fonts/publicoheadline-bold.woff2",
+        "https://cdn.website.axa.be/fonts/PublicoHeadline-Light-subset-latin.woff2"
+      ]
+    },
+    {
+      "family": "icomoon",
+      "count": 3,
+      "sources": [
+        "https://cdn.website.axa.be/fonts/icomoon/fonts/icomoon.woff?tznc38",
+        "https://cdn.website.axa.be/fonts/icomoon/fonts/icomoon.ttf?tznc38",
+        "https://cdn.website.axa.be/fonts/icomoon/fonts/icomoon.svg?tznc38#icomoon"
+      ]
+    }
+  ],
+  "colors": {
+    "primary": {
+      "hex": [
+        "#00008f",
+        "#0000d2",
+        "#0000f7",
+        "#4658fc"
+      ],
+      "gradients": [
+        "linear-gradient(#e2efff 0%, rgba(0, 0, 0, 0) 100%)"
+      ]
+    },
+    "secondary": {
+      "hex": [
+        "#0c0e45",
+        "#750707"
+      ],
+      "gradients": []
+    },
+    "accent": {
+      "hex": [],
+      "gradients": []
+    },
+    "neutrals": {
+      "hex": [
+        "#000000",
+        "#343c3d",
+        "#4a4c5a",
+        "#64677a",
+        "#9fa1b1",
+        "#f2f2f6",
+        "#f8faff",
+        "#fafafb",
+        "#ffeaea",
+        "#fff7f7"
+      ],
+      "gradients": []
+    },
+    "semantic": {
+      "success": null,
+      "error": "#ec000a",
+      "warning": null,
+      "info": "#e2efff"
+    }
+  },
+  "css": {
+    "directory": "css",
+    "files": [
+      {
+        "file": "css/style.css",
+        "href": "https://cdn.website.axa.be/fonts/icomoon/style.css?tznc38",
+        "score": 100
+      },
+      {
+        "file": "css/axa-fonts.css",
+        "href": "https://cdn.website.axa.be/fonts/axa-fonts.css?v=639148782000000000",
+        "score": 100
+      }
+    ]
+  }
+}

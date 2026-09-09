@@ -1,0 +1,48 @@
+﻿---
+ID: "fd6e7434-415a-483d-a1e5-5014784cd01a"
+Parent: "a4789005-aa4a-4c22-b89d-92f2bd25ec17"
+Template: "4b665d79-09bb-4a94-8857-97d4521b84b9"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/Hero Slides/Durham and the perfect place to call home"
+SharedFields:
+- ID: "1850942e-2f58-462b-9ac8-a2edcca7bca2"
+  Hint: CTALink
+  Value: |
+    <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+- ID: "d2f4d982-2e47-43db-94ad-b16bd4a9708c"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{7D331AA8-1B1D-4D55-8496-BE844107DBC1}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "08d3f73b-d8bf-43e6-bbe0-6664d41e0f00"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0cc2111a-cd08-4411-8c5c-02a7c211e7d7"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p><span style="color:hsl(0, 0%, 100%);">Energy efficient 2, 3, 4 &amp; 5 bedroom homes and apartments in the desirable Duston area of Northampton</span></p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260203T015130Z
+    - ID: "8b93af92-87f5-484b-be53-425afbd218e0"
+      Hint: CTAText
+      Value: Explore our homes
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f4b1356-dc9c-4465-a0b1-327d388751ee"
+    - ID: "b574c058-1c92-4432-8748-66b266146730"
+      Hint: Title
+      Value: Durham The perfect place to call home
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "c23f3a12-81b1-4c55-b1c3-aef310e4d5a6"
+      Hint: SubTitle
+      Value: Durham is an exciting new community 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260205T122219Z

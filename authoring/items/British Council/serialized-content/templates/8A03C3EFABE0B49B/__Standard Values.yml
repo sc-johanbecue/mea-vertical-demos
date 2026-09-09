@@ -1,0 +1,23 @@
+---
+ID: "4fe5f136-d39f-4cbf-995f-091aba74c249"
+Parent: "a12b78fc-f63c-4e2b-9b65-5b99b4e3e0d6"
+Template: "a12b78fc-f63c-4e2b-9b65-5b99b4e3e0d6"
+Path: "/sitecore/templates/Project/british-council/CourseLinkListSection Templates/CourseLinkListSection Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {B1121A66-9BF9-4C8B-9E66-0CE3DAA4DB60}
+    {A12B78FC-F63C-4E2B-9B65-5B99B4E3E0D6}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

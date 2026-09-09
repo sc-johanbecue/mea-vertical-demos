@@ -1,0 +1,44 @@
+{
+  "projectRoot": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots",
+  "updatedAt": "2026-09-01T09:10:28.437Z",
+  "components": {
+    "Header": {
+      "cmsName": "Header",
+      "componentType": "Navigation",
+      "description": "Site header with logo and navigation placeholder.",
+      "fields": [
+        {
+          "name": "Logo",
+          "type": "Image"
+        },
+        {
+          "name": "LogoLink",
+          "type": "General Link"
+        },
+        {
+          "name": "LogoText",
+          "type": "Single-Line Text"
+        }
+      ],
+      "placeholders": [
+        {
+          "key": "header-nav-{DynamicPlaceholderId}",
+          "allowedRenderings": [
+            "Navigation"
+          ],
+          "layout": "nav"
+        }
+      ],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated"
+      ],
+      "confidence": "high",
+      "sourceSectionFolders": [
+        "header"
+      ]
+    }
+  }
+}

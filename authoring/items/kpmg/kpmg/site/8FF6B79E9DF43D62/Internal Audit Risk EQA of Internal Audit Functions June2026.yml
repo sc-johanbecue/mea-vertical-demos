@@ -1,0 +1,141 @@
+﻿---
+ID: "e1000001-0001-4000-8000-000000000004"
+Parent: "23e30bae-367c-48c4-87d6-ab86b55580d7"
+Template: "08185eef-cacb-44b4-81cb-231122a7b3b5"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Events/Internal Audit Risk EQA of Internal Audit Functions June2026
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4B21DB20-2001-4EF6-9E15-E4CF808C2928}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{5C246E6D-9807-437E-9C4F-9A0A728D34A4}"
+          p:before="*"
+          s:id="{A3000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{19DAFF86-D056-4612-8740-D12F540596B6}"
+          p:after="r[@uid='{5C246E6D-9807-437E-9C4F-9A0A728D34A4}']"
+          s:id="{A3000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{D53DAA1F-CC90-4102-9724-E94548838505}"
+          p:after="r[@uid='{19DAFF86-D056-4612-8740-D12F540596B6}']"
+          s:id="{A3000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{158FE13D-57D4-46A4-B9BE-88B46FCB3C90}"
+          p:after="r[@uid='{D53DAA1F-CC90-4102-9724-E94548838505}']"
+          s:id="{A3000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{B4C3B682-DD58-46CC-B394-7A11A98B298C}"
+          p:after="r[@uid='{158FE13D-57D4-46A4-B9BE-88B46FCB3C90}']"
+          s:id="{A3000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{C4D5E6F7-A8B9-4012-C456-789012345DEF}"
+          p:after="*[1=2]"
+          s:id="{A3000001-0006-4000-8000-000000000006}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260606T120000Z
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Internal Audit Risk EQA of Internal Audit Functions June2026
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Internal Audit and Risk Leaders Forum: External Quality Assessments (EQA) of IA Functions"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5ad8bac9-0735-40c4-b7eb-cc97b53ac9dc"
+      Hint: CategoryLabel
+      Value: Strategy and Planning
+    - ID: "5b6410ea-1c15-42da-9ee6-2cede6f972be"
+      Hint: Image
+      Value: |
+        <image mediaid="db790d06-5450-41e6-9624-0fd030b340b7" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "89a5f0a6-05e6-4206-99ae-3dc22e4ccdb5"
+      Hint: EventMonth
+      Value: JUN
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a4eb6d7c-93df-4cfe-99a7-a127f4e03d69"
+    - ID: "a07c92d1-fc66-4639-8e07-74dd019527a6"
+      Hint: Time
+      Value: 10.00 AM
+    - ID: "a6113907-276a-49c5-85e8-119d7066aa7f"
+      Hint: Duration
+      Value: 1h
+    - ID: "a91f3d80-4fa2-4bab-9f01-d40ab9cc6890"
+      Hint: Title
+      Value: "Internal Audit and Risk Leaders Forum: External Quality Assessments (EQA) of IA Functions"
+    - ID: "abdf1a78-5a74-4c3f-bd07-982f87126c87"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/events/Internal-Audit-Risk-EQA-of-Internal-Audit-Functions-June2026" anchor="" target="" class="" />
+    - ID: "ad74afd6-ca80-4eb4-ad01-26ed711d6e7d"
+      Hint: Summary
+      Value: "This session will be focused on External Quality Assessments (EQA) of Internal Audit (IA) Functions and taking place on Wednesday 17 June, 10:00–11:00."
+    - ID: "b6113907-276a-49c5-85e8-119d7066aa80"
+      Hint: Body
+      Value: |
+        <p>This session will be focused on External Quality Assessments (EQA) of Internal Audit (IA) Functions and taking place on Wednesday 17 June, 10:00–11:00.</p>
+        <p>The Global Institute of Internal Auditors issued its revised Standards in January 2024, with an effective date of 9 January 2025, alongside the introduction of the new Topical Requirements. These updates represent a significant evolution in expectations for some Internal Audit Functions.</p>
+        <p>In response to these changes, we have seen a notable increase in demand for EQAs. This session will therefore focus on:<br />- How organisations are responding to the revised Standards, including readiness assessments, peer reviews, and full EQAs; and<br />- Key thematic insights emerging from EQAs we have performed, including the increased emphasis on Internal Audit strategy, board level profile and influence, effective use of tools and technology, and structured career pathways for internal audit professionals.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d8113907-276a-49c5-85e8-119d7066aa82"
+      Hint: JoinLink
+      Value: |
+        <link linktype="external" url="/events/Internal-Audit-Risk-EQA-of-Internal-Audit-Functions-June2026" text="Join now" anchor="" target="" class="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T073106Z
+    - ID: "e4946d4a-538c-4a84-bdfd-dc2626b93982"
+      Hint: EventDay
+      Value: 17
+    - ID: "e9113907-276a-49c5-85e8-119d7066aa83"
+      Hint: RegisteredMessage
+      Value: Thank you for registering. Please check your email for confirmation.
+    - ID: "f5113907-276a-49c5-85e8-119d7066aa7e"
+      Hint: Location
+      Value: Virtual
+    - ID: "fa113907-276a-49c5-85e8-119d7066aa84"
+      Hint: DateDisplay
+      Value: June 17, 2026 at 10.00 AM
+    - ID: "fc113907-276a-49c5-85e8-119d7066aa86"
+      Hint: SpeakersBody
+      Value: <ul><li><strong>Anand Shah</strong> — Partner, Governance, Risk and Compliance, KPMG</li><li><strong>Lynn Yallop</strong> — Partner, Governance, Risk and Compliance Services, KPMG</li><li><strong>Amanda Sefain</strong> — Internal Audit Manager, KPMG UK</li></ul>

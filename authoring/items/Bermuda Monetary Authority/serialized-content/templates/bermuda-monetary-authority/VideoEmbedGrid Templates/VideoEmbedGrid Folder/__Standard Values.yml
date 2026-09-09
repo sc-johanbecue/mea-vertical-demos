@@ -1,0 +1,23 @@
+---
+ID: "2401f6b3-2726-4337-a5dc-c64bb5885601"
+Parent: "6c52ecd2-7947-453c-bfe4-bcbb82e41d7b"
+Template: "6c52ecd2-7947-453c-bfe4-bcbb82e41d7b"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/VideoEmbedGrid Templates/VideoEmbedGrid Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {F46C2C8B-D7A1-4861-A643-CD567BC28B38}
+    {6C52ECD2-7947-453C-BFE4-BCBB82E41D7B}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

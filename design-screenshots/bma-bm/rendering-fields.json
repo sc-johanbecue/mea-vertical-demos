@@ -1,0 +1,159 @@
+{
+  "TopBar": {
+    "fields": [
+      { "name": "PrimaryLink", "type": "General Link", "sort": 100 },
+      { "name": "SecondaryLink", "type": "General Link", "sort": 200 }
+    ]
+  },
+  "Header": {
+    "fields": [
+      { "name": "Logo", "type": "Image", "sort": 100 },
+      { "name": "LogoLink", "type": "General Link", "sort": 200 }
+    ]
+  },
+  "Navigation": {
+    "fields": [
+      { "name": "Link", "type": "General Link", "sort": 100 },
+      { "name": "Description", "type": "Multi-Line Text", "sort": 200 },
+      { "name": "Image", "type": "Image", "sort": 300 }
+    ]
+  },
+  "NavItem": {
+    "fields": [
+      { "name": "Link", "type": "General Link", "sort": 100 },
+      { "name": "Title", "type": "Single-Line Text", "sort": 200 }
+    ]
+  },
+  "CookieBanner": {
+    "fields": [
+      { "name": "Body", "type": "Rich Text", "sort": 100 },
+      { "name": "PolicyLink", "type": "General Link", "sort": 200 }
+    ]
+  },
+  "Footer": {
+    "fields": [
+      { "name": "Logo", "type": "Image", "sort": 100 },
+      { "name": "AddressTitle", "type": "Single-Line Text", "sort": 200 },
+      { "name": "AddressBody", "type": "Rich Text", "sort": 300 },
+      { "name": "MailingTitle", "type": "Single-Line Text", "sort": 400 },
+      { "name": "MailingBody", "type": "Rich Text", "sort": 500 },
+      { "name": "ContactTitle", "type": "Single-Line Text", "sort": 600 },
+      { "name": "ContactBody", "type": "Rich Text", "sort": 700 },
+      { "name": "AlertsTitle", "type": "Single-Line Text", "sort": 800 },
+      { "name": "AlertsIntro", "type": "Single-Line Text", "sort": 900 },
+      { "name": "SubscribeLink", "type": "General Link", "sort": 1000 },
+      { "name": "Copyright", "type": "Single-Line Text", "sort": 1100 },
+      { "name": "PrivacyLink", "type": "General Link", "sort": 1200 },
+      { "name": "TermsLink", "type": "General Link", "sort": 1300 },
+      { "name": "SitemapLink", "type": "General Link", "sort": 1400 }
+    ]
+  },
+  "SocialLinkItem": {
+    "fields": [
+      { "name": "Link", "type": "General Link", "sort": 100 },
+      { "name": "IconName", "type": "Single-Line Text", "sort": 200 }
+    ]
+  },
+  "HeroCarousel": {
+    "fields": [
+      { "name": "Title", "type": "Single-Line Text", "sort": 100 },
+      { "name": "SearchPlaceholder", "type": "Single-Line Text", "sort": 200 },
+      { "name": "SearchAction", "type": "General Link", "sort": 300 }
+    ]
+  },
+  "HeroSlide": {
+    "fields": [
+      { "name": "Image", "type": "Image", "sort": 100 },
+      { "name": "Link", "type": "General Link", "sort": 200 },
+      { "name": "AltText", "type": "Single-Line Text", "sort": 300 }
+    ]
+  },
+  "HighlightLinkGrid": { "fields": [] },
+  "HighlightLinkCard": {
+    "fields": [
+      { "name": "Title", "type": "Single-Line Text", "sort": 100 },
+      { "name": "Subtitle", "type": "Single-Line Text", "sort": 200 },
+      { "name": "Link", "type": "General Link", "sort": 300 },
+      { "name": "AccentColor", "type": "Single-Line Text", "sort": 400 }
+    ]
+  },
+  "DatedLinkItem": {
+    "fields": [
+      { "name": "DateLabel", "type": "Single-Line Text", "sort": 100 },
+      { "name": "Link", "type": "General Link", "sort": 200 }
+    ]
+  },
+  "LinkColumnGrid": { "fields": [] },
+  "LinkColumn": {
+    "fields": [
+      { "name": "Title", "type": "Single-Line Text", "sort": 100 },
+      { "name": "Intro", "type": "Multi-Line Text", "sort": 200 }
+    ]
+  },
+  "LinkListItem": {
+    "fields": [
+      { "name": "Link", "type": "General Link", "sort": 100 }
+    ]
+  },
+  "Breadcrumb": { "fields": [] },
+  "BreadcrumbItem": {
+    "fields": [
+      { "name": "Link", "type": "General Link", "sort": 100 },
+      { "name": "Title", "type": "Single-Line Text", "sort": 200 }
+    ]
+  },
+  "PageUtilityActions": {
+    "fields": [
+      { "name": "ShowShare", "type": "Checkbox", "sort": 100 },
+      { "name": "ShowPrint", "type": "Checkbox", "sort": 200 },
+      { "name": "ShowEmail", "type": "Checkbox", "sort": 300 }
+    ]
+  },
+  "PageTitleHeader": {
+    "fields": [
+      { "name": "Title", "type": "Single-Line Text", "sort": 100 }
+    ]
+  },
+  "RichTextSection": {
+    "fields": [
+      { "name": "Body", "type": "Rich Text", "sort": 100 }
+    ]
+  },
+  "VideoEmbedGrid": { "fields": [] },
+  "VideoEmbedItem": {
+    "fields": [
+      { "name": "Title", "type": "Single-Line Text", "sort": 100 },
+      { "name": "VideoUrl", "type": "Single-Line Text", "sort": 200 }
+    ]
+  },
+  "DocumentCentreLayout": {
+    "fields": [
+      { "name": "SidebarTitle", "type": "Single-Line Text", "sort": 100 },
+      { "name": "ResultsHeading", "type": "Single-Line Text", "sort": 200 },
+      { "name": "ResultsIntro", "type": "Single-Line Text", "sort": 300 },
+      { "name": "ArchiveLink", "type": "General Link", "sort": 400 },
+      { "name": "ResultsCountLabel", "type": "Single-Line Text", "sort": 500 }
+    ]
+  },
+  "DocumentFilterGroup": {
+    "fields": [
+      { "name": "Title", "type": "Single-Line Text", "sort": 100 }
+    ]
+  },
+  "DocumentFilterOption": {
+    "fields": [
+      { "name": "Label", "type": "Single-Line Text", "sort": 100 },
+      { "name": "Value", "type": "Single-Line Text", "sort": 200 },
+      { "name": "IsSelected", "type": "Checkbox", "sort": 300 }
+    ]
+  },
+  "DocumentResultCard": {
+    "fields": [
+      { "name": "Title", "type": "Single-Line Text", "sort": 100 },
+      { "name": "PublishedDate", "type": "Single-Line Text", "sort": 200 },
+      { "name": "ViewLink", "type": "General Link", "sort": 300 },
+      { "name": "DownloadLink", "type": "General Link", "sort": 400 },
+      { "name": "RelatedLink", "type": "General Link", "sort": 500 }
+    ]
+  }
+}

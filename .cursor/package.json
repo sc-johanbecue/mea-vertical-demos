@@ -1,0 +1,16 @@
+{
+  "name": "cursor-skill-runtime",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  },
+  "scripts": {
+    "setup:playwright": "playwright install chromium",
+    "capture:website": "node capture-website/scripts/capture.mjs",
+    "capture:html": "node capture-website/scripts/fetch-html.mjs",
+    "capture:sections": "node capture-website/scripts/section-capture.mjs",
+    "capture:merge-sections": "node capture-website/scripts/merge-page-sections.mjs",
+    "capture:enrich-design": "node capture-website/scripts/enrich-page-design.mjs"
+  }
+}

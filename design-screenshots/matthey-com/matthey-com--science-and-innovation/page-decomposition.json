@@ -1,0 +1,81 @@
+{
+  "slug": "matthey-com--science-and-innovation",
+  "url": "https://matthey.com/science-and-innovation",
+  "layoutChrome": [
+    {
+      "cmsName": "CookieBanner",
+      "scope": "site",
+      "sectionFolder": "cookie-banner"
+    },
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    },
+    {
+      "cmsName": "Footer",
+      "scope": "site",
+      "sectionFolder": "footer"
+    }
+  ],
+  "sections": [
+    {
+      "order": 1,
+      "sectionFolder": "event-detail-hero-section",
+      "sectionScreenshotName": "EventDetailHeroSection",
+      "parentComponent": {
+        "cmsName": "FullBleedHeroBannerSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 2,
+      "sectionFolder": "rich-text-image-block",
+      "sectionScreenshotName": "RichTextImageBlock",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 3,
+      "sectionFolder": "core-technical-capabilities-underpinning-teaser-grid",
+      "sectionScreenshotName": "CoreTechnicalCapabilitiesUnderpinningTeaserGrid",
+      "parentComponent": {
+        "cmsName": "BackgroundPanelSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 4,
+      "sectionFolder": "collaborative-innovation-for-the-rich-text-image-block",
+      "sectionScreenshotName": "CollaborativeInnovationForTheRichTextImageBlock",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 5,
+      "sectionFolder": "explore-more-teaser-grid",
+      "sectionScreenshotName": "ExploreMoreTeaserGrid",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionTeaserGridSection",
+        "placeholderKey": "teaser-cards-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "VerticalTeaserCard",
+          "repeatCount": 4,
+          "inPlaceholder": "teaser-cards-{DynamicPlaceholderId}"
+        }
+      ]
+    }
+  ],
+  "confidence": "high",
+  "notes": []
+}

@@ -1,0 +1,23 @@
+﻿---
+ID: "9b156908-852f-4f91-904f-f13efd6df946"
+Parent: "527e82cf-693d-4ffd-9d2d-dbed3b6874b7"
+Template: "dead9123-5e0c-4de9-980f-88fc36e95bb2"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/MortgageCalculatorSections"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T032112Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "88c63f2a-4636-45a0-a73f-c99bcf9f002c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T032112Z

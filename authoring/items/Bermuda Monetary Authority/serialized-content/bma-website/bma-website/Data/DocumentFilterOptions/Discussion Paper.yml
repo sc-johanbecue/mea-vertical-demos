@@ -1,0 +1,34 @@
+---
+ID: "ec5f61c3-d4fc-4c5a-8e36-4200709e6947"
+Parent: "ef86e826-511d-4ccc-88e9-1b1e3e366e47"
+Template: "bdc961e3-16bd-46b5-b74c-3ca715d998e4"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/DocumentFilterOptions/Discussion Paper"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "7c7813e0-8767-45e3-b6dd-f2d73bdeebd1"
+      Hint: Label
+      Value: "Discussion Paper"
+    - ID: "980498f6-ba3b-45f1-903a-65c59fc3248b"
+      Hint: Value
+      Value: "discussion-paper"
+    - ID: "7fccdd46-2366-4766-a124-8472103be73d"
+      Hint: IsSelected
+      Value: "0"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec5f61c3-d4fc-4c5a-8e36-4200709e6947"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

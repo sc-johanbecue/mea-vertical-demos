@@ -1,0 +1,23 @@
+﻿---
+ID: "944c0f72-6620-4322-ab1e-076d5a1b91f2"
+Parent: "c4000004-0001-4000-8000-000000000005"
+Template: "c4000004-0001-4000-8000-000000000005"
+Path: /sitecore/templates/Project/kpmg/KPMG Beyond/Curated Collection Card/Curated Collection Card Rendering Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T031245Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7db4742-392e-4227-8efc-49d3f9eb7e02"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T031245Z

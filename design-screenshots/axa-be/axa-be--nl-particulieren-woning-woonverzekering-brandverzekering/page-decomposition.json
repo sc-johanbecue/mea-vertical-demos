@@ -1,0 +1,204 @@
+{
+  "slug": "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering",
+  "url": "https://www.axa.be/nl/particulieren/woning/woonverzekering-brandverzekering",
+  "layoutChrome": [
+    {
+      "cmsName": "CookieBanner",
+      "scope": "site",
+      "sectionFolder": "cookie-banner"
+    },
+    {
+      "cmsName": "TopBar",
+      "scope": "site",
+      "sectionFolder": "top-bar"
+    },
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    },
+    {
+      "cmsName": "Footer",
+      "scope": "site",
+      "sectionFolder": "footer"
+    }
+  ],
+  "sections": [
+    {
+      "order": 1,
+      "sectionFolder": "woon-verzekering-hero-banner",
+      "sectionScreenshotName": "WoonVerzekeringHeroBanner",
+      "parentComponent": {
+        "cmsName": "FullBleedHeroBannerSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 2,
+      "sectionFolder": "stel-de-brandverzekering-samen-teaser-grid",
+      "sectionScreenshotName": "StelDeBrandverzekeringSamenTeaserGrid",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionTeaserGridSection",
+        "placeholderKey": "teaser-cards-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "VerticalTeaserCard",
+          "repeatCount": 3,
+          "inPlaceholder": "teaser-cards-{DynamicPlaceholderId}"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "sectionFolder": "je-brandverzekering-in-een-rich-text-section",
+      "sectionScreenshotName": "JeBrandverzekeringInEenRichTextSection",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 4,
+      "sectionFolder": "wat-is-gedekt-cta-block",
+      "sectionScreenshotName": "WatIsGedektCtaBlock",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionCtaSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 5,
+      "sectionFolder": "rich-text-image-block",
+      "sectionScreenshotName": "RichTextImageBlock",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 6,
+      "sectionFolder": "rich-text-image-block2",
+      "sectionScreenshotName": "RichTextImageBlock2",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 7,
+      "sectionFolder": "3-eerste-maanden-cadeau-rich-text-image-block",
+      "sectionScreenshotName": "3EersteMaandenCadeauRichTextImageBlock",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 8,
+      "sectionFolder": "axa-steeds-tot-je-rich-text-image-block",
+      "sectionScreenshotName": "AxaSteedsTotJeRichTextImageBlock",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 9,
+      "sectionFolder": "heb-je-een-vraag-teaser-grid",
+      "sectionScreenshotName": "HebJeEenVraagTeaserGrid",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionTeaserGridSection",
+        "placeholderKey": "teaser-cards-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "VerticalTeaserCard",
+          "repeatCount": 2,
+          "inPlaceholder": "teaser-cards-{DynamicPlaceholderId}"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "sectionFolder": "hoe-je-brandverzekering-online-cta-block",
+      "sectionScreenshotName": "HoeJeBrandverzekeringOnlineCtaBlock",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionCtaSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 11,
+      "sectionFolder": "je-makelaar-staat-altijd-rich-text-image-block",
+      "sectionScreenshotName": "JeMakelaarStaatAltijdRichTextImageBlock",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 12,
+      "sectionFolder": "wat-onze-klanten-denken-hero-carousel",
+      "sectionScreenshotName": "WatOnzeKlantenDenkenHeroCarousel",
+      "parentComponent": {
+        "cmsName": "EyebrowTitleCarouselSection",
+        "placeholderKey": "carousel-slides-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "FeatureCarouselCard",
+          "repeatCount": 2,
+          "inPlaceholder": "carousel-slides-{DynamicPlaceholderId}"
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "sectionFolder": "ook-voor-je-auto-rich-text-image-block",
+      "sectionScreenshotName": "OokVoorJeAutoRichTextImageBlock",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 14,
+      "sectionFolder": "nog-vragen-cta-block",
+      "sectionScreenshotName": "NogVragenCtaBlock",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionCtaSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 15,
+      "sectionFolder": "interessant-voor-jou-hero-carousel",
+      "sectionScreenshotName": "InteressantVoorJouHeroCarousel",
+      "parentComponent": {
+        "cmsName": "EyebrowTitleCarouselSection",
+        "placeholderKey": "carousel-slides-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "FeatureCarouselCard",
+          "repeatCount": 2,
+          "inPlaceholder": "carousel-slides-{DynamicPlaceholderId}"
+        }
+      ]
+    }
+  ],
+  "confidence": "high",
+  "notes": []
+}

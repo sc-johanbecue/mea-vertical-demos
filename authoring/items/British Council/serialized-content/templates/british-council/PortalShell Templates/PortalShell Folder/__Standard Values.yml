@@ -1,0 +1,23 @@
+---
+ID: "a62ffaf7-27d5-4573-b0f2-91b9f1076db0"
+Parent: "31266504-b904-4da0-ba04-00c9d189e721"
+Template: "31266504-b904-4da0-ba04-00c9d189e721"
+Path: "/sitecore/templates/Project/british-council/PortalShell Templates/PortalShell Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {46958E82-88BA-494B-948A-847BCE87397B}
+    {31266504-B904-4DA0-BA04-00C9D189E721}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

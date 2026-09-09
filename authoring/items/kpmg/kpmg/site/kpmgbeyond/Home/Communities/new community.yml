@@ -1,0 +1,97 @@
+﻿---
+ID: "22d51f4c-dc20-4842-9313-bc209cee31de"
+Parent: "db00b75b-fd7a-4a2c-85f1-c86e1bd69b2f"
+Template: "d5000001-0001-4000-8000-000000000002"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Communities/new community
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5C6E6571-3DE6-4BDA-B009-8DE584B3264C}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4c4a46e6-a5ed-4681-aff0-40ee43d50377"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{63997969-0335-4963-BACF-040BB5426AA9}"
+              p:before="*"
+              s:id="{D5000001-0001-4000-8000-000000000031}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{70BCD3A4-A58C-415A-9B81-8C5E12BA0C57}"
+              p:after="r[@uid='{63997969-0335-4963-BACF-040BB5426AA9}']"
+              s:ds="a9b1f822-1b68-416b-a758-0d0a44495634"
+              s:id="{0CE641FE-FACE-41EE-91B4-C7FFCA74C90D}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{2B8277AF-5E09-46AF-B529-5C55DF0515E2}"
+              p:after="r[@uid='{70BCD3A4-A58C-415A-9B81-8C5E12BA0C57}']"
+              s:id="{D5000001-0001-4000-8000-000000000032}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{8177D88F-ED75-409B-97ED-E0D1C04D54EA}"
+              p:after="*[1=2]"
+              s:id="{D5000001-0001-4000-8000-000000000033}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260608T114427Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{46DA5376-10DC-4B66-B464-AFDAA29DE84F}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: new community
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c2e6599-571e-41ce-9eaf-cffb354fdd44"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d5000001-0001-4000-8000-000000000015"
+      Hint: BannerImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/bc2b2fe8d4a140afbd1257b60aa12890?v=d621d55b" dam-id="1S-c34-KRE-7lyZ57yq8KA" width="1100" height="733" alt="GettyImages-1171717055.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/40729/thumbnail" />
+    - ID: "d5000001-0001-4000-8000-000000000016"
+      Hint: About
+      Value: |
+        <div class="ck-content"><p>gdfgfdgd</p></div>
+    - ID: "d5000001-0001-4000-8000-000000000021"
+      Hint: Guidelines
+      Value: |
+        <div class="ck-content"><h3>Community Guidelines</h3><p>Welcome to KPMG Beyond, where leaders belong. To ensure a welcoming and valuable space, follow these guidelines:</p><ul><li>Engage respectfully in discussions and networking.</li><li>Share expertise generously while valuing diverse views.</li><li>Stay professional and avoid offensive language.</li><li>Focus on connection and growth, not promotions.</li><li>Protect confidentiality and avoid sharing sensitive information.</li><li>Base claims on credible information.</li><li>Respect privacy and avoid soliciting personal or financial data.</li></ul><p>Let’s build a supportive community of leaders dedicated to learning and growth. Thank you for being part of KPMG Beyond.</p></div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260608T115025Z

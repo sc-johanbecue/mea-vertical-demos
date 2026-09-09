@@ -1,0 +1,31 @@
+---
+ID: "23d8431c-f604-4d49-a64b-4637a8421cbd"
+Parent: "5ffbaddc-e2df-4ddf-b264-4fd8c60a42c7"
+Template: "ecb5a604-5814-4876-b232-3a01b42ce4f9"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondUpcomingEventsSections
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260528T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f25e942-3620-4a6b-a304-8c71d021ff06"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260528T120000Z

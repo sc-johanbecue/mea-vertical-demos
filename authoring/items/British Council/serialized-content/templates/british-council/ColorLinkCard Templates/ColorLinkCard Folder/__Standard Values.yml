@@ -1,0 +1,23 @@
+---
+ID: "8010ac6c-c545-4f3d-8aeb-603de0265e8c"
+Parent: "e8aaa3b6-4ed8-447e-9dc9-caf21a8a9e2f"
+Template: "e8aaa3b6-4ed8-447e-9dc9-caf21a8a9e2f"
+Path: "/sitecore/templates/Project/british-council/ColorLinkCard Templates/ColorLinkCard Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {B0A73E98-B130-4E8D-9FD8-C3DB50CD09BB}
+    {E8AAA3B6-4ED8-447E-9DC9-CAF21A8A9E2F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

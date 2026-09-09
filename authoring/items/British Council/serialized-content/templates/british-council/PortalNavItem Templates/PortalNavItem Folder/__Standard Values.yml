@@ -1,0 +1,23 @@
+---
+ID: "2b71573d-7e97-4c2e-bff2-b2cca88339be"
+Parent: "b0c93d31-6386-4188-8968-ee2e54534d60"
+Template: "b0c93d31-6386-4188-8968-ee2e54534d60"
+Path: "/sitecore/templates/Project/british-council/PortalNavItem Templates/PortalNavItem Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {EC10652D-3AFD-49BE-9B5D-66EE9CBFE063}
+    {B0C93D31-6386-4188-8968-EE2E54534D60}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

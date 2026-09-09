@@ -1,0 +1,166 @@
+{
+  "slug": "axa-be--nl-particulieren",
+  "url": "https://www.axa.be/nl/particulieren",
+  "layoutChrome": [
+    {
+      "cmsName": "CookieBanner",
+      "scope": "site",
+      "sectionFolder": "cookie-banner"
+    },
+    {
+      "cmsName": "TopBar",
+      "scope": "site",
+      "sectionFolder": "top-bar"
+    },
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    },
+    {
+      "cmsName": "Footer",
+      "scope": "site",
+      "sectionFolder": "footer"
+    }
+  ],
+  "sections": [
+    {
+      "order": 1,
+      "sectionFolder": "verzekerd-online-en-je-hero-banner",
+      "sectionScreenshotName": "VerzekerdOnlineEnJeHeroBanner",
+      "parentComponent": {
+        "cmsName": "FullBleedHeroBannerSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 2,
+      "sectionFolder": "hero-carousel",
+      "sectionScreenshotName": "HeroCarousel",
+      "parentComponent": {
+        "cmsName": "EyebrowTitleCarouselSection",
+        "placeholderKey": "carousel-slides-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "FeatureCarouselCard",
+          "repeatCount": 2,
+          "inPlaceholder": "carousel-slides-{DynamicPlaceholderId}"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "sectionFolder": "dringende-bijstand-rich-text-image-block",
+      "sectionScreenshotName": "DringendeBijstandRichTextImageBlock",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 4,
+      "sectionFolder": "waarom-voor-axa-belgium-link-grid",
+      "sectionScreenshotName": "WaaromVoorAxaBelgiumLinkGrid",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionLinkGridSection",
+        "placeholderKey": "link-cards-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "HorizontalLinkCard",
+          "repeatCount": 3,
+          "inPlaceholder": "link-cards-{DynamicPlaceholderId}"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "sectionFolder": "duurzaam-ondernemen-staat-centraal-hero-carousel",
+      "sectionScreenshotName": "DuurzaamOndernemenStaatCentraalHeroCarousel",
+      "parentComponent": {
+        "cmsName": "EyebrowTitleCarouselSection",
+        "placeholderKey": "carousel-slides-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "FeatureCarouselCard",
+          "repeatCount": 2,
+          "inPlaceholder": "carousel-slides-{DynamicPlaceholderId}"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "sectionFolder": "we-maken-deel-uit-link-grid",
+      "sectionScreenshotName": "WeMakenDeelUitLinkGrid",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionLinkGridSection",
+        "placeholderKey": "link-cards-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "HorizontalLinkCard",
+          "repeatCount": 3,
+          "inPlaceholder": "link-cards-{DynamicPlaceholderId}"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "sectionFolder": "newsroom-cta-block",
+      "sectionScreenshotName": "NewsroomCtaBlock",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionCtaSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 8,
+      "sectionFolder": "interessant-voor-jou-hero-carousel",
+      "sectionScreenshotName": "InteressantVoorJouHeroCarousel",
+      "parentComponent": {
+        "cmsName": "EyebrowTitleCarouselSection",
+        "placeholderKey": "carousel-slides-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "FeatureCarouselCard",
+          "repeatCount": 2,
+          "inPlaceholder": "carousel-slides-{DynamicPlaceholderId}"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "sectionFolder": "je-makelaar-staat-altijd-rich-text-image-block",
+      "sectionScreenshotName": "JeMakelaarStaatAltijdRichTextImageBlock",
+      "parentComponent": {
+        "cmsName": "ImageRichTextSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 10,
+      "sectionFolder": "alle-verzekeringen-cta-block",
+      "sectionScreenshotName": "AlleVerzekeringenCtaBlock",
+      "parentComponent": {
+        "cmsName": "InsuranceCategoryCatalogSection",
+        "placeholderKey": "category-groups-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "InsuranceCategoryGroupCard",
+          "repeatCount": 6,
+          "inPlaceholder": "category-groups-{DynamicPlaceholderId}"
+        }
+      ]
+    }
+  ],
+  "confidence": "high",
+  "notes": []
+}

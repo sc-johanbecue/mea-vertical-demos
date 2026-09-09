@@ -1,0 +1,129 @@
+﻿---
+ID: "9af74255-1e6a-4c24-bad6-8f73a7d9519e"
+Parent: "c49a7274-eaf6-4106-ad23-527514bc7931"
+Template: "24aeaefd-be05-4f17-b570-4f50f2249b09"
+Path: "/sitecore/content/british-council/british-council/Data/BreadcrumbItems/Crumb Home"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c7218b55-ddfc-4d7f-852d-5a2f90476e4d"
+      Hint: Title
+      Value: Home
+    - ID: "e4f14d09-4433-4cc7-9cc1-d53e4be83ae8"
+      Hint: Link
+      Value: |
+        <link text="Home" linktype="external" url="/" anchor="" target="" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "19058c7a-40c6-40fe-8727-4050f02adfd4"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7218b55-ddfc-4d7f-852d-5a2f90476e4d"
+      Hint: Title
+      Value: Accueil
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084624Z
+    - ID: "e4f14d09-4433-4cc7-9cc1-d53e4be83ae8"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Accueil" url="/" />
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ea76116-61b3-45b1-bcc0-73345f9f70b8"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7218b55-ddfc-4d7f-852d-5a2f90476e4d"
+      Hint: Title
+      Value: होम
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093326Z
+    - ID: "e4f14d09-4433-4cc7-9cc1-d53e4be83ae8"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" title="होम" linktype="external" text="होम" url="/" />
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2bd7210b-42ad-4f92-beb3-f0b55d55f002"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7218b55-ddfc-4d7f-852d-5a2f90476e4d"
+      Hint: Title
+      Value: Startpagina
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084627Z
+    - ID: "e4f14d09-4433-4cc7-9cc1-d53e4be83ae8"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Startpagina" url="/" />

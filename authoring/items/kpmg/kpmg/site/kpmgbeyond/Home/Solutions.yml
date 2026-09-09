@@ -1,0 +1,74 @@
+﻿---
+ID: "c3000001-0001-4000-8000-000000000001"
+Parent: "ddd121d2-a119-4784-963b-f9394f31c24a"
+Template: "97acf665-1d92-48b4-a1fc-c87838718ab3"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{148A048D-7F1E-44A6-B680-C31978FD379D}"
+          p:before="*"
+          s:ds="c3000003-0001-4000-8000-000000000003"
+          s:id="{38D7120C-0F7C-408C-9857-2EEFF1872A53}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{5FF8817E-1844-4DAA-8107-6CEBAAA063FB}"
+          p:after="r[@uid='{148A048D-7F1E-44A6-B680-C31978FD379D}']"
+          s:ds="c3000003-0001-4000-8000-000000000001"
+          s:id="{C3000002-0001-4000-8000-000000000010}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{B8E4F2A1-3C5D-4E6F-9012-3456789ABCDE}"
+          p:after="*[1=2]"
+          s:ds="c3000005-0001-4000-8000-000000000011"
+          s:id="{C3000005-0001-4000-8000-000000000010}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Solutions
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Solutions
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e16fcb8d-c557-49e3-8fca-9ef207466fbd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T120000Z

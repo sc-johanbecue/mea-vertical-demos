@@ -1,0 +1,37 @@
+---
+ID: "c88dd405-c388-44fb-9d0e-3a781054ba1e"
+Parent: "2488e6b1-209f-4d92-ad17-13145d8cad3d"
+Template: "41237b36-e7f3-4d97-8496-8eb286120513"
+Path: "/sitecore/content/rai/rai-amsterdam/Data/HeaderIconLinks/Default HeaderIconLink"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3f422653-af40-400b-b4b5-9d6f596011d8"
+      Hint: Link
+      Value: <link text="FAQ" linktype="external" url="https://www.rai.nl/en/faq" />
+    - ID: "dd078336-8210-4324-b1b6-067f8a23550f"
+      Hint: IconClass
+      Value: fa-duotone fa-light fa-messages-question
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c88dd405-c388-44fb-9d0e-3a781054ba1e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260612T120000Z

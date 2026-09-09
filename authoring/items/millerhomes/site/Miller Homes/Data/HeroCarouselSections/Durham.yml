@@ -1,0 +1,35 @@
+﻿---
+ID: "26738882-fbd3-46d7-a65e-d767719476bd"
+Parent: "dc137793-eecd-48d3-b0fd-b62ac148c675"
+Template: "188c8c27-f7b4-474b-ab41-d378a5180d10"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/HeroCarouselSections/Durham"
+SharedFields:
+- ID: "40b34348-2b5f-4e15-b783-d1f0d43b8f0e"
+  Hint: Slides
+  Value: |
+    {FD6E7434-415A-483D-A1E5-5014784CD01A}
+    {BEAC85D4-B218-41BB-BAA1-3DCEF4ADCB9C}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e003642e-c469-4524-a7f1-0a9af3025fe4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260203T014420Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfdcfaca-1938-40ea-9a50-b3e619e59545"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260205T122430Z

@@ -1,0 +1,51 @@
+---
+ID: "cbe34706-c430-4e94-b63a-9d4cb09182fa"
+Parent: "899ba18f-4c10-4ccd-af54-fb462d9cb943"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Presentation/Available Renderings/Page Structure"
+BranchID: "7f2cd90a-5812-48f4-a0d2-cbe2f7e5ca25"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {C4CA6330-20B2-4B94-AB33-9CE43059A919}
+    {BA55E1DA-A524-4E09-BD65-DE34947D2E12}
+    {54D13632-5322-44AC-BA04-71CF88645C96}
+    {20B242C6-B4C2-415C-ABC2-4DF7F6549EFA}
+    {4AD0637E-E0AE-4329-8E97-1FF3433D083D}
+    {AEB8EF87-E4E3-4535-B68D-70B504C76E92}
+    {DD27DB58-16C8-49C1-82E9-571C5EF74970}
+    {ABCFEC74-6710-4232-B540-B282B5332F8E}
+    {53141565-7D72-47A4-94A5-16B48CF74A64}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1a638db0-ff59-4eba-9eda-9bca2fded643"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5C3DAFA2-8F50-485F-ACB1-22E3A492E86D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T221346Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d83bee0a-abbc-4960-be47-de598b627102"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260612T221346Z

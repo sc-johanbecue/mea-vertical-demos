@@ -1,0 +1,157 @@
+﻿---
+ID: "32501f60-c585-4679-81e4-5c12f293de29"
+Parent: "e44a72ac-4bb3-4b3f-817e-6d526576f2ec"
+Template: "ec10652d-3afd-49be-9b5d-66ee9cbfe063"
+Path: "/sitecore/content/british-council/british-council/Data/PortalNavItems/Nav Home"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "2c7bf213-0d95-4146-9ebf-9d3b82d2adcb"
+      Hint: IsActive
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "97e6e0cd-122e-4c67-b1b0-5d5102fa1d33"
+      Hint: Icon
+      Value: home
+    - ID: "ab7ce338-78a7-47d1-9cec-b323bb2f4006"
+      Hint: Link
+      Value: |
+        <link text="Home" linktype="external" url="/portal" anchor="" target="" />
+    - ID: "f42b96ab-ccb6-4e7c-9a43-4a5098811007"
+      Hint: HasChildren
+      Value: |
+        ""
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "2c7bf213-0d95-4146-9ebf-9d3b82d2adcb"
+      Hint: IsActive
+      Value: 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "049787aa-b538-406c-9a65-c9a201fdc9eb"
+    - ID: "97e6e0cd-122e-4c67-b1b0-5d5102fa1d33"
+      Hint: Icon
+      Value: home
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "ab7ce338-78a7-47d1-9cec-b323bb2f4006"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Accueil" url="/portal" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084721Z
+    - ID: "f42b96ab-ccb6-4e7c-9a43-4a5098811007"
+      Hint: HasChildren
+      Value: |
+        ""
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "2c7bf213-0d95-4146-9ebf-9d3b82d2adcb"
+      Hint: IsActive
+      Value: 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a3bd917-3ba1-4d09-8a23-4614dceddc71"
+    - ID: "97e6e0cd-122e-4c67-b1b0-5d5102fa1d33"
+      Hint: Icon
+      Value: home
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "ab7ce338-78a7-47d1-9cec-b323bb2f4006"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" title="होम" linktype="external" text="होम" url="/portal" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093412Z
+    - ID: "f42b96ab-ccb6-4e7c-9a43-4a5098811007"
+      Hint: HasChildren
+      Value: |
+        ""
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "2c7bf213-0d95-4146-9ebf-9d3b82d2adcb"
+      Hint: IsActive
+      Value: 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f4e7ccc-d441-48d9-bfca-1b7d383ff9a9"
+    - ID: "97e6e0cd-122e-4c67-b1b0-5d5102fa1d33"
+      Hint: Icon
+      Value: home
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "ab7ce338-78a7-47d1-9cec-b323bb2f4006"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Startpagina" url="/portal" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084723Z
+    - ID: "f42b96ab-ccb6-4e7c-9a43-4a5098811007"
+      Hint: HasChildren
+      Value: |
+        ""

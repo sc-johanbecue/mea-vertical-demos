@@ -1,0 +1,23 @@
+---
+ID: "7121b5cd-27a6-40ae-846e-13adda3a4c13"
+Parent: "e4c0f9d8-55b8-4f43-a21a-17ddabf681e5"
+Template: "e4c0f9d8-55b8-4f43-a21a-17ddabf681e5"
+Path: "/sitecore/templates/Project/british-council/PromoTeaserCard Templates/PromoTeaserCard Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {5C621097-5532-4081-BEEE-2DF087F71EA8}
+    {E4C0F9D8-55B8-4F43-A21A-17DDABF681E5}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

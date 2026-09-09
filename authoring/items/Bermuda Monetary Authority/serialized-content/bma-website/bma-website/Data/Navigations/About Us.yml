@@ -1,0 +1,36 @@
+---
+ID: "d02d24c3-5f22-4226-8550-4fa52a20e0a6"
+Parent: "aeb2911c-34f6-4439-84ec-c30c14ec3a60"
+Template: "3202e7a7-c4fd-4ecf-8b30-d52ccc4165a0"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/Navigations/About Us"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "365f6247-8ecf-4257-85fb-5e2ea6c080bc"
+      Hint: Link
+      Value: |
+        <link text="About Us" linktype="external" url="/About Us" anchor="" target="" />
+    - ID: "bd02c3c0-a5e7-451c-ae82-30f15e3e6263"
+      Hint: Description
+      Value: "Who we are, what we do and why we do it - Discover our corporate mission, leadership team and approach to community and culture."
+    - ID: "15f0905f-0143-44a0-a5c6-89d9faf807d2"
+      Hint: Image
+      Value: |
+        <image mediaid="{E273B7CC-EBC4-1D48-AD70-B83F9DCCD20A}" alt="About Us" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260902T100000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d02d24c3-5f22-4226-8550-4fa52a20e0a6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260902T100000Z"

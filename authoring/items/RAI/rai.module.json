@@ -1,0 +1,96 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "rai-scs",
+  "items": {
+    "path": "serialized-content",
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/rai",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "branches",
+        "path": "/sitecore/templates/Branches/Project/rai",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "media-library",
+        "path": "/sitecore/media library/Project/rai",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "renderings",
+        "path": "/sitecore/Layout/Renderings/Project/rai",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "placeholder-settings",
+        "path": "/sitecore/Layout/Placeholder Settings/Project/rai",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "project-settings",
+        "path": "/sitecore/system/Settings/Project/rai",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "collection",
+        "path": "/sitecore/content/rai/",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "rai-amsterdam",
+        "path": "/sitecore/content/rai/rai-amsterdam",
+        "allowedPushOperations": "CreateAndUpdate",
+        "rules": [
+          {
+            "path": "/home",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "/Media",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "/Data",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "/Dictionary",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "/Presentation",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "/Settings/Site Grouping",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "/Settings",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      }
+    ]
+  }
+}

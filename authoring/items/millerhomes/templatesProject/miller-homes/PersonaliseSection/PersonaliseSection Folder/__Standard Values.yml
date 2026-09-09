@@ -1,0 +1,43 @@
+﻿---
+ID: "782ebcc7-2252-4191-bdfc-4519d0fbb42f"
+Parent: "c2c77cdc-554f-44b2-8d93-aef4a3357a08"
+Template: "c2c77cdc-554f-44b2-8d93-aef4a3357a08"
+Path: "/sitecore/templates/Project/miller-homes/PersonaliseSection/PersonaliseSection Folder/__Standard Values"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: /sitecore/shell/themes/standard/Applications/32x32/folder.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {A22B1E89-2835-4AFB-9D3C-0B974626019E}
+    {C2C77CDC-554F-44B2-8D93-AEF4A3357A08}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e4b3d74a-959f-4e30-9d62-5e2ff8dd4e51"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T030331Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49e60cd5-6b8d-49d5-b755-d9b43ec54f4e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T030341Z

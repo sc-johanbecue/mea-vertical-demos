@@ -1,0 +1,17 @@
+---
+ID: "2e0a672c-27fc-4230-96ee-dc75f6169357"
+Parent: "48781aa6-4047-487f-b415-c7b488ce58fa"
+Template: "48781aa6-4047-487f-b415-c7b488ce58fa"
+Path: "/sitecore/templates/Project/british-council/CourseLinkCard Templates/CourseLinkCard/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

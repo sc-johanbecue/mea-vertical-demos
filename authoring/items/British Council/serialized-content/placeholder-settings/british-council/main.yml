@@ -1,0 +1,28 @@
+---
+ID: "1f261029-3f64-427f-b02b-3525368513b7"
+Parent: "1d4dc09d-b568-4e01-a5fd-d4cf3c360a78"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/british-council/main"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "main-{*}"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {E86E1959-634F-4DA4-A6D0-6B4A1D234322}
+    {39236F6A-F08A-4CD6-B51E-EFA3D7B8F00A}
+    {D6F2A514-3FF5-4C6E-B0CD-A36F2A275A24}
+    {FCBA68B8-BA9D-42BB-A715-A7A5B28AD7D9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

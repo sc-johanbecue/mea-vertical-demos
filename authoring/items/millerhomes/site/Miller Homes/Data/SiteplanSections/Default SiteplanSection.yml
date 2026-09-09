@@ -1,0 +1,33 @@
+﻿---
+ID: "959757c7-50b7-4fff-a63d-8ac214aa4a0c"
+Parent: "951d61d4-8a49-42a6-8614-0e933983e410"
+Template: "efbd5b71-4d48-4e39-a9b9-b85681eb1fbb"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/SiteplanSections/Default SiteplanSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T030524Z
+    - ID: "6298e068-4fe2-4030-8123-dc5c893f0ad3"
+      Hint: SiteplanImage
+      Value: |
+        <image mediaid="f5134481-7ded-4edc-9062-9d95051b4d89" />
+    - ID: "8191d705-dcd6-405e-ae65-b82dedf5e222"
+      Hint: Title
+      Value: Miller Homes @ Norwood Quarter
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b0db0174-f3f0-45a4-9a47-d5d8ad97b0f6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260203T142717Z

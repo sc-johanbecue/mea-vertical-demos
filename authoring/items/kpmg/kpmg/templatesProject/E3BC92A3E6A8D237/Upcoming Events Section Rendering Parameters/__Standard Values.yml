@@ -1,0 +1,31 @@
+---
+ID: "3def89b5-e37a-4553-befb-c1f5643958fd"
+Parent: "bf30b767-a3e5-4eaa-96a0-c4a387079757"
+Template: "bf30b767-a3e5-4eaa-96a0-c4a387079757"
+Path: /sitecore/templates/Project/kpmg/KPMG Beyond/Upcoming Events Section/Upcoming Events Section Rendering Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260528T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22bde6f8-e14e-45d1-be74-8d19e3a9cdd8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260528T120000Z

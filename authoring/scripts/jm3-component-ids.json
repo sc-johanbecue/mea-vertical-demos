@@ -1,0 +1,287 @@
+{
+  "CookieBanner": {
+    "renderingId": "383f804c-5321-4927-a900-249a81f76c02",
+    "templateId": "068e1911-b332-4543-8f4a-9002a62e4660",
+    "datasourceId": "38cd9b87-6ce9-4465-8a71-30501eac2a6e",
+    "fieldIds": {
+      "Message": "6d0f9b4f-a5a0-4373-928d-a6e95f5cc0dc",
+      "AcceptLabel": "fea5525e-d59d-47cb-90ea-9224830e6db7",
+      "PrivacyLink": "32cb1550-85de-409b-a547-7e1b3d268253"
+    }
+  },
+  "Header": {
+    "renderingId": "8ca9afa5-b933-4ac8-aa90-31bca1760086",
+    "templateId": "43436345-53a7-4ef1-ac5f-65a72a083d45",
+    "datasourceId": "e3e06665-d245-4ac6-88e2-face7f9044e2",
+    "fieldIds": {
+      "Logo": "0e251d4f-f9a2-4153-885a-a09f9dcda30e",
+      "LogoLink": "5a83ced4-7999-4f02-9fa9-4819024dd4a9",
+      "LogoText": "36d84e17-9113-47f8-8d7f-42807465dd23",
+      "SearchLabel": "f84ec590-f3e1-4bf8-b171-b3602e4ea876"
+    }
+  },
+  "HeaderIconLink": {
+    "renderingId": "41033e2b-e0c8-4f4a-b0da-e234fa54b812",
+    "templateId": "8b0d936b-cc5f-4c87-a186-d4c6814d65f7",
+    "datasourceId": "25ce3b58-9ac9-474e-b30f-7985b1f533e0",
+    "fieldIds": {
+      "Link": "661cb67e-1e78-4540-9218-7c25fc7d1a58",
+      "IconClass": "91880170-38f5-4fc8-993b-96d4cefa00c6",
+      "DropdownLink1": "1d75c8e2-ec69-4203-8666-345186a83e28",
+      "DropdownLink2": "d0d491c2-e541-4a90-850c-c4e47c55cbcf"
+    }
+  },
+  "Navigation": {
+    "renderingId": "81c987aa-b802-4cf1-b9da-0e4ee4abdc82",
+    "templateId": "ac5b9d16-0c38-414c-b596-aa2ef6accdcc",
+    "datasourceId": "42907afa-e434-4f9a-881c-fe8956e5639c",
+    "fieldIds": {}
+  },
+  "Footer": {
+    "renderingId": "8191966f-88e9-4e5a-a4a8-e71c6bdc9a3f",
+    "templateId": "402aa597-79f9-4fe4-afdf-ecf10e262fd8",
+    "datasourceId": "06eaf977-6e4c-4065-b4f4-baecc75671fc",
+    "fieldIds": {
+      "CopyrightText": "e1dfc7cd-bb96-4475-9599-79a6018626d7",
+      "Logo": "78b5b6f0-dd4f-47eb-9cff-4b00722fabcd"
+    }
+  },
+  "LinkList": {
+    "renderingId": "351ab083-92c1-46b4-ae86-600cbeb84fcb",
+    "templateId": "eb03a23e-5e8e-46b8-aa63-eb35b8a124cc",
+    "datasourceId": "89bba02a-bd42-42c7-a71f-95a659192d1d",
+    "fieldIds": {
+      "Title": "588b5ff2-7937-4adc-9cce-5cc0d7c477b3",
+      "Link1": "554260f3-ec43-4cc5-bae9-64ec83229bef",
+      "Link2": "773b5666-65e3-4d3b-b1a4-5c42933d18c7",
+      "Link3": "14f4cece-60dc-4e69-938b-f78acad468cb",
+      "Link4": "9a33c38c-ee0f-4cb6-a4fc-50330c246499",
+      "Link5": "250744ef-b2e9-4004-8ab7-41463b9c82ae",
+      "Link6": "170867b6-b97a-45e3-9c14-718c3251a886"
+    }
+  },
+  "FullBleedHeroBannerSection": {
+    "renderingId": "aaeb3cca-2eb6-4699-a76b-a5a77ccc1d2f",
+    "templateId": "fa0f0c4e-3ba1-4207-98ea-d4d753e55c7c",
+    "datasourceId": "3ff165ad-b521-44d3-87c7-4bb9db8c151e",
+    "fieldIds": {
+      "Title": "c1255fb8-c234-4db7-b14d-231892d0a8f5",
+      "Body": "4c1a7fd2-aaa9-4910-8cfa-0dcd133d8519",
+      "BackgroundImage": "f7ce61ee-1837-4077-9913-25853544f0f6"
+    }
+  },
+  "CompositeHeroBandSection": {
+    "renderingId": "e03b1ea7-0361-43cf-af6f-9135d1a6a3ac",
+    "templateId": "ed52347e-6ab9-4085-9bff-68bb682bf584",
+    "datasourceId": "5c1722f3-6eae-4465-b9c7-8b9a4df83af8",
+    "fieldIds": {}
+  },
+  "HeroSlideCard": {
+    "renderingId": "243d63d7-a7b8-40dc-b937-cf5638bdd640",
+    "templateId": "eb3b317d-ce9d-4067-bbc0-da336e50c356",
+    "datasourceId": "ff84c0db-5a98-418c-94a4-bb2d16e6b1c0",
+    "fieldIds": {
+      "Image": "49fd3bd3-7329-446f-9d58-bc1398ac4a02",
+      "Title": "c5288373-51bd-4fcd-b6a7-d6cf0367392b",
+      "Subtitle": "4de1239a-21ef-4044-adbc-378b9f474191",
+      "Cta": "7a1b044b-d5df-40f2-9977-341f936a1f3b"
+    }
+  },
+  "HeroPanelCard": {
+    "renderingId": "7492d949-9f0b-4fb7-8e46-f662adaff759",
+    "templateId": "7bdc95f5-203c-4710-a930-83e2446cec15",
+    "datasourceId": "d4520a83-cab7-4781-92c6-d3c97c113060",
+    "fieldIds": {
+      "PanelTitle": "1e2898b1-234d-476a-959f-d16143dd7b9b",
+      "Body": "77a358ab-faf6-4dc6-90dd-c354182a7d93",
+      "Cta": "017edd83-7d47-46f3-a2f2-1d6ef5097a1a"
+    }
+  },
+  "HeroStatsPanel": {
+    "renderingId": "8e73426d-1614-4c66-91eb-6fd5e72e0ddd",
+    "templateId": "c1660c8a-a656-4edb-84f2-9541191b5383",
+    "datasourceId": "0c0689f1-e130-4665-aa44-ea2ac0e86c21",
+    "fieldIds": {
+      "Title": "7845f05d-3509-48c1-9d06-67d5de1a3089",
+      "Value": "237f12df-e8fe-4f74-9a7e-7ddf48acbd04",
+      "Change": "4286ddde-c18b-4047-9b20-714303b2eb65",
+      "Date": "b67a89a0-6a0c-4d7a-9535-595627c16ca4",
+      "Link": "d8c065e6-20dc-42a4-8154-3faea06f1d19"
+    }
+  },
+  "EyebrowTitleCarouselSection": {
+    "renderingId": "a53cd0ce-fd84-4dc2-ad87-25f58eab1f2a",
+    "templateId": "f952ec08-9633-4f25-a648-43623c38e2bf",
+    "datasourceId": "30f573b0-68cc-4a7e-9b70-90d5c07fcc13",
+    "fieldIds": {}
+  },
+  "FeatureCarouselCard": {
+    "renderingId": "81bb2ba2-5d98-4c25-b202-96011227039f",
+    "templateId": "e24f41df-2d5c-449e-9890-3a9a372157c0",
+    "datasourceId": "d6075858-57c0-4166-8c83-c73e0dd0c0d4",
+    "fieldIds": {
+      "Eyebrow": "ed38ea6a-18d2-4036-8b0c-1edb61689aae",
+      "Title": "22127791-4eb4-41dd-9186-e30c7aa03a80",
+      "Body": "d3b273c0-17d1-4ea7-ad9c-b2f3b9f7e068"
+    }
+  },
+  "TitleDescriptionCtaSection": {
+    "renderingId": "ff56448f-f899-4368-86d1-7c678ce79d7e",
+    "templateId": "6bfade42-c2b1-4ac9-8b3e-993077b8d5fc",
+    "datasourceId": "36353694-dc09-40e0-b6fe-ad5b5667110d",
+    "fieldIds": {
+      "Title": "066d4438-a78f-4bbd-a644-c786fcc152d0",
+      "Body": "3d25ac7d-f750-4017-9e3f-157bc8a90211",
+      "Cta": "d0630724-2600-4716-b43e-3f68adfc1b22"
+    }
+  },
+  "TitleDescriptionVideoSection": {
+    "renderingId": "1fede5c0-73a0-44ae-9188-06662b2fd0c7",
+    "templateId": "ecb731ef-e4c5-49e6-b673-827451e151bc",
+    "datasourceId": "0ebce25b-ce9b-4f39-a69c-c8cba93b202f",
+    "fieldIds": {
+      "Title": "3dbefbe3-841f-4398-9917-8d52928df57a",
+      "Body": "cbd27ace-f637-48f5-9f07-ec8af19f933b",
+      "Cta": "e8a229c0-09d4-4de2-8608-4bf4a50d09e7",
+      "VideoThumbnail": "67c1b16a-f760-445d-b980-616c41473470",
+      "VideoThumbnailMobile": "9e6f70a9-83f8-4a8d-b2f4-2403738aae1e",
+      "PlayVideoLabel": "665c7d1d-0abd-4068-ae7c-95cd9a0be7fe",
+      "VideoLink": "caefe9f2-1506-42af-85d8-7f86971df596"
+    }
+  },
+  "ImageRichTextSection": {
+    "renderingId": "1b2be381-3f50-47fe-951a-197e838f2a60",
+    "templateId": "4a6f67b2-5b80-48e9-85ad-905d17644f6a",
+    "datasourceId": "d78bc03b-d763-4bb1-9924-bc4687040f97",
+    "fieldIds": {
+      "Title": "4317126f-37a9-4881-9a54-f683463b333e",
+      "Body": "0ad672aa-62ec-40b9-94ae-59918b9b3adf",
+      "Image": "7bebd488-aab9-4fa9-b08f-e7ed0dceeca9",
+      "Cta": "d27cebf1-c1eb-4542-908e-6f241bf3a067"
+    }
+  },
+  "TitleDescriptionLinkGridSection": {
+    "renderingId": "3e76a040-0c22-43ed-9352-5f9ee0853c33",
+    "templateId": "14bf9324-1e78-4c08-8547-cb8d22022cf2",
+    "datasourceId": "fccfc13c-81c1-49a8-82f4-918c97a97621",
+    "fieldIds": {
+      "Title": "9ed8ba85-d713-494e-8d00-9a565f116ed6"
+    }
+  },
+  "HorizontalLinkCard": {
+    "renderingId": "fcd8655d-8104-4689-97c1-6b60feba8074",
+    "templateId": "a19ef6f4-cb93-4eec-8879-b66978521b0f",
+    "datasourceId": "304dde1f-7f8d-48e2-b9b8-91d0390263ff",
+    "fieldIds": {
+      "Logo": "4e25e39c-b2f1-4bc5-ba8f-ebbd4ac067b6",
+      "Title": "dd7d658f-5212-4c52-9aa1-2732b498c3fc",
+      "Cta": "96d267b6-6565-49de-ac77-67802e95f10c"
+    }
+  },
+  "BackgroundPanelSection": {
+    "renderingId": "e8fcf7d8-bea4-4495-a6e2-eec13f3a3078",
+    "templateId": "ee9523b2-2782-408b-9bc8-5362595a1a02",
+    "datasourceId": "744c9d27-dd82-4045-8b8e-12f2264044a9",
+    "fieldIds": {
+      "Title": "639b876d-3578-47b3-a91e-3f85ed55334a",
+      "BackgroundImage": "8b17bf68-e041-4334-9d86-37f0bc8f63a9",
+      "Image": "69774607-6c2d-4932-940c-aa960ce2d887",
+      "Body": "39daafdd-9fe3-4d61-98d3-038ed2674c12",
+      "Cta": "1c6de43a-5533-4568-85ac-4764da3490c5"
+    }
+  },
+  "TitleDescriptionTeaserGridSection": {
+    "renderingId": "1b2ee854-eed7-4cd0-a047-46cb7cb3cfc7",
+    "templateId": "d61ac020-69db-4ad7-ba06-6a3449607e6f",
+    "datasourceId": "855724f7-1550-4777-9271-f3df1d924f84",
+    "fieldIds": {
+      "Title": "ba88531a-e218-4624-b9fb-6ea00b0340f2"
+    }
+  },
+  "VerticalTeaserCard": {
+    "renderingId": "2d3c65e1-aa10-465c-8c6a-018d82885e00",
+    "templateId": "954e9295-ada9-43a7-b7a9-dd34bbe60dc3",
+    "datasourceId": "4941a271-face-43c5-87c6-63d62c660003",
+    "fieldIds": {
+      "Image": "9cdc7608-3c5b-4686-bfcc-1786468c6e1d",
+      "Title": "52d98192-3a1f-4dbb-8744-864993133995",
+      "Description": "70c208ac-eb20-423f-8dc6-1b7fcff1faa7",
+      "Cta": "345885fb-99cd-4919-ae66-83c968b0a2ba"
+    }
+  },
+  "TitleStatsBarSection": {
+    "renderingId": "25d74f05-d9f6-4319-9995-89d2bf81e227",
+    "templateId": "7982bd12-8b92-4967-af5b-c55d76583b4d",
+    "datasourceId": "44614033-48e3-4978-ad2f-9a056d3fe80f",
+    "fieldIds": {
+      "Title": "021322be-360d-424c-bb14-b7bc489514fd"
+    }
+  },
+  "StatsItem": {
+    "renderingId": "5b030d13-f922-4cb2-bb7f-762425253ee3",
+    "templateId": "8b90fa6f-3adb-4993-a18d-4c9a67f69239",
+    "datasourceId": "3a6a2025-5a0d-4736-bc85-8e03d7fd1a41",
+    "fieldIds": {
+      "Title": "bfab3923-64ae-4b96-b909-9cf21a738329",
+      "Value": "f51bbd3f-c998-4c80-bff2-417c78b023d1",
+      "Label": "d392c9f1-0c9b-4206-87eb-f6056d534ffa",
+      "Link": "99d217bf-36c1-4737-9af0-ee5316b67977"
+    }
+  },
+  "Breadcrumb": {
+    "renderingId": "a37ee773-74ca-48b6-920a-5165e0fa8803",
+    "templateId": "7346ddca-8354-4383-8f14-8c4ce6ead213",
+    "datasourceId": "b350ad35-e81a-446c-8cc2-55301d8f4ed3",
+    "fieldIds": {
+      "ParentLabel": "c9a0aba7-00b6-4922-be14-fbe634549008",
+      "ParentLink": "84813cce-3b9a-41e5-81b4-0c951d96c3c0",
+      "CurrentTitle": "bffdff5b-6e78-4c11-8075-b05d2783530b"
+    }
+  },
+  "NewsArticleGridSection": {
+    "renderingId": "780e51c1-6bea-40ef-80cb-ef2e9b002151",
+    "templateId": "adeac363-9c56-47c3-b087-e346ace37ad0",
+    "datasourceId": "323abace-6215-428f-a22e-b2a5f8ba4e7f",
+    "fieldIds": {
+      "Title": "8a9be15a-e06a-43f0-82b4-e218371b2a10",
+      "FilterLabel": "ae828907-c130-4cd7-a01d-c37cd57f463a",
+      "TotalEntries": "f449d45b-83c2-41e1-8db4-e34fbacc21ed",
+      "CurrentPage": "6fb82fd6-e2df-4d33-ba6d-ecb08d16a857",
+      "EntriesPerPage": "906de659-8377-4609-99e4-47621d3e126b"
+    }
+  },
+  "NewsArticleCard": {
+    "renderingId": "ae68b4f2-2026-46f4-adc2-20b71533867f",
+    "templateId": "ccd4ea52-4687-4300-bcad-6edbf02fb5c4",
+    "datasourceId": "7d1f9d00-735e-44f6-bd0f-9d881b960943",
+    "fieldIds": {
+      "Image": "9649e2f9-8368-4cd8-87bd-1e1723efddaa",
+      "ImageMobile": "2e4f9f89-5789-46bd-8bb3-d25150a91df2",
+      "Date": "2cf39a60-0169-4df4-a5b5-6dea44893883",
+      "Title": "92036e32-0125-44e9-af8f-4f7f29d9f879",
+      "Link": "2e3cfeca-481b-4add-b289-e7884f5fb188"
+    }
+  },
+  "ArticleHeroSection": {
+    "renderingId": "4bb4dbb6-73cf-4f69-9c64-6a5867eeba91",
+    "contextItem": true,
+    "pageTemplateId": "d857b7ec-8648-4d16-ab55-16bfaa0157c8",
+    "fieldIds": {
+      "Title": "b5943b4e-e537-4d5d-9eee-cf101b6676b1",
+      "Date": "01f8f051-aff2-4dd2-aa4e-12e6471122b7",
+      "BackgroundImage": "55880398-aec8-4f8e-bd42-9110375b6969",
+      "PrimaryCta": "b1b30860-473b-4768-a030-93faa01d4a98",
+      "SecondaryCta": "2e2498d8-8116-4c23-894c-c98ab36785f5"
+    }
+  },
+  "ArticleBodySection": {
+    "renderingId": "506e6f4f-dcc9-4269-a241-04a1db0aaf72",
+    "contextItem": true,
+    "pageTemplateId": "d857b7ec-8648-4d16-ab55-16bfaa0157c8",
+    "fieldIds": {
+      "Body": "a6702643-6571-4bdf-b376-a8cb58fe27dc",
+      "LinkedInShareUrl": "a6adbe21-b6b8-411a-ae4d-18e1f5fd2879",
+      "TwitterShareUrl": "31073af2-5051-4aba-b0b0-f3b2ea39c3b6"
+    }
+  }
+}

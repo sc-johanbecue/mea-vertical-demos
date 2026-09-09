@@ -1,0 +1,129 @@
+﻿---
+ID: "29d559ff-23ec-4b71-a517-e33d595f0c72"
+Parent: "fb7a1110-0e00-42f7-886d-1b34d2568a4e"
+Template: "c9617090-f71d-4bca-9889-16c8015db53c"
+Path: "/sitecore/content/british-council/british-council/Data/SidebarNavigations/Learn English Sidebar Nav"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1174d85f-a29e-4dbd-ab36-12e91cb6ad0c"
+      Hint: Title
+      Value: Learn English
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "3da342d3-dee1-4af9-b659-b0a245708273"
+      Hint: ParentLink
+      Value: |
+        <link text="Learn English" linktype="external" url="/english" anchor="" target="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1174d85f-a29e-4dbd-ab36-12e91cb6ad0c"
+      Hint: Title
+      Value: Apprenez l'anglais
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "3da342d3-dee1-4af9-b659-b0a245708273"
+      Hint: ParentLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Apprenez l'anglais" url="/english" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a771a041-d763-48c9-ab33-0ab9165e6490"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084728Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1174d85f-a29e-4dbd-ab36-12e91cb6ad0c"
+      Hint: Title
+      Value: अंग्रेज़ी सीखें
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "3da342d3-dee1-4af9-b659-b0a245708273"
+      Hint: ParentLink
+      Value: |
+        <link anchor="" target="" title="अंग्रेज़ी सीखें" linktype="external" text="अंग्रेज़ी सीखें" url="/english" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f9a95d54-731f-420a-b5f7-616c3fca0f1c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093420Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1174d85f-a29e-4dbd-ab36-12e91cb6ad0c"
+      Hint: Title
+      Value: Leer Engels
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "3da342d3-dee1-4af9-b659-b0a245708273"
+      Hint: ParentLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Leer Engels" url="/english" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0c90fefa-204a-4dcc-b4f3-5a728782e2db"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084730Z

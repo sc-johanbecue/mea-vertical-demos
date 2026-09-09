@@ -1,0 +1,1501 @@
+{
+  "props": {
+    "pageProps": {
+      "page": {
+        "locale": "en",
+        "layout": {
+          "sitecore": {
+            "context": {
+              "pageEditing": true,
+              "site": {
+                "name": "jm2"
+              },
+              "pageState": "edit",
+              "editMode": "metadata",
+              "clientData": {
+                "hrz-canvas-state": {
+                  "itemId": "d990e4cc-264b-4dbb-a3ef-444b2eeddf92",
+                  "itemVersion": 1,
+                  "siteName": "jm2",
+                  "language": "en",
+                  "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+                  "pageMode": "NORMAL",
+                  "variant": null
+                },
+                "hrz-canvas-verification-token": ""
+              },
+              "clientScripts": [
+                "https://xmc-sitecoresaa9553-jbedmdemos1741-productionf120.sitecorecloud.io/sitecore modules/Shell/SXA/xa-inline-editor.js?v=40.2.1305.11255",
+                "https://feaasstatic.blob.core.windows.net/packages/page-extension/latest/page.js",
+                "https://pages.sitecorecloud.io/horizon/canvas/horizon.canvas.orchestrator.js?v=4AB6D60DFCF2D14387548158C4130BB4"
+              ],
+              "language": "en",
+              "itemPath": "/",
+              "variantId": "_default"
+            },
+            "route": {
+              "name": "Home",
+              "displayName": "Home",
+              "fields": {
+                "Content": {
+                  "metadata": {
+                    "datasource": {
+                      "id": "{D990E4CC-264B-4DBB-A3EF-444B2EEDDF92}",
+                      "language": "en",
+                      "revision": "c95947b2-407a-4b72-a46b-777caa6f506e",
+                      "version": 1
+                    },
+                    "title": "Content",
+                    "fieldId": "{6A8D5346-322C-42A4-866A-615330E987E6}",
+                    "fieldType": "Rich Text",
+                    "rawValue": ""
+                  },
+                  "value": ""
+                },
+                "Title": {
+                  "metadata": {
+                    "datasource": {
+                      "id": "{D990E4CC-264B-4DBB-A3EF-444B2EEDDF92}",
+                      "language": "en",
+                      "revision": "c95947b2-407a-4b72-a46b-777caa6f506e",
+                      "version": 1
+                    },
+                    "title": "Title",
+                    "fieldId": "{5E52319C-CB94-41A4-9A9A-95703035B99D}",
+                    "fieldType": "Single-Line Text",
+                    "rawValue": "Home"
+                  },
+                  "value": "Home"
+                },
+                "NavigationFilter": [],
+                "NavigationTitle": {
+                  "metadata": {
+                    "datasource": {
+                      "id": "{D990E4CC-264B-4DBB-A3EF-444B2EEDDF92}",
+                      "language": "en",
+                      "revision": "c95947b2-407a-4b72-a46b-777caa6f506e",
+                      "version": 1
+                    },
+                    "title": "Link caption in navigation",
+                    "fieldId": "{4E0720E9-9D50-4DDC-87CF-ECD65E8E94C8}",
+                    "fieldType": "Single-Line Text",
+                    "rawValue": "Home"
+                  },
+                  "value": "Home"
+                },
+                "NavigationClass": null,
+                "SxaTags": [],
+                "Page Design": null
+              },
+              "databaseName": "master",
+              "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+              "itemId": "d990e4cc-264b-4dbb-a3ef-444b2eeddf92",
+              "itemLanguage": "en",
+              "itemVersion": 1,
+              "layoutId": "96e5f4ba-a2cf-4a4c-a4e7-64da88226362",
+              "templateId": "cd7fa85a-f3b7-492b-99a1-a6eee9878ffb",
+              "templateName": "Page",
+              "placeholders": {
+                "headless-header": [
+                  {
+                    "uid": "14d77897-8aa8-4c38-a988-ad5971678a28",
+                    "componentName": "PartialDesignDynamicPlaceholder",
+                    "dataSource": "",
+                    "params": {
+                      "sid": "{14D77897-8AA8-4C38-A988-AD5971678A28}",
+                      "ph": "headless-header",
+                      "sig": "sxa-header"
+                    },
+                    "placeholders": {
+                      "sxa-header": [
+                        {
+                          "uid": "00000000-0000-0000-0000-000000000000",
+                          "componentName": "Header",
+                          "dataSource": "158ed525-f8e3-4155-995d-c28672b96e92",
+                          "params": {
+                            "DynamicPlaceholderId": "1"
+                          },
+                          "fields": {
+                            "LogoLink": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{158ED525-F8E3-4155-995D-C28672B96E92}",
+                                  "language": "en",
+                                  "revision": "3c06a656-9e92-46a5-a78d-4205fe20057a",
+                                  "version": 1
+                                },
+                                "title": "LogoLink",
+                                "fieldId": "{B19565A7-30F9-4AFC-9B30-FD41C2796174}",
+                                "fieldType": "General Link",
+                                "rawValue": "<link text=\"Johnson Matthey\" linktype=\"external\" url=\"https://matthey.com\" />"
+                              },
+                              "value": {
+                                "href": "https://matthey.com",
+                                "text": "Johnson Matthey",
+                                "linktype": "external",
+                                "url": "https://matthey.com"
+                              }
+                            },
+                            "LogoText": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{158ED525-F8E3-4155-995D-C28672B96E92}",
+                                  "language": "en",
+                                  "revision": "3c06a656-9e92-46a5-a78d-4205fe20057a",
+                                  "version": 1
+                                },
+                                "title": "LogoText",
+                                "fieldId": "{0144C37D-E863-4222-879D-C293289BAA04}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "Johnson Matthey"
+                              },
+                              "value": "Johnson Matthey"
+                            },
+                            "Logo": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{158ED525-F8E3-4155-995D-C28672B96E92}",
+                                  "language": "en",
+                                  "revision": "3c06a656-9e92-46a5-a78d-4205fe20057a",
+                                  "version": 1
+                                },
+                                "title": "Logo",
+                                "fieldId": "{84E710FA-9272-422B-AC16-DCA49A6B2EB7}",
+                                "fieldType": "Image",
+                                "rawValue": "<image mediaid=\"8B599A3B-11FA-434E-B3F7-1D55C8E430C7\" />"
+                              },
+                              "value": {
+                                "src": "https://xmc-sitecoresaa9553-jbedmdemos1741-productionf120.sitecorecloud.io/-/media/Project/johnson-matthey-2/jm2/o/jm-platinum-theme/images/new__jm__images/Johnson_Matthey-_Logo_blue.svg?h=448&iar=0&w=1865&ttc=63917124152&tt=FFDE8392A757B1D0B99153F426E66E32&hash=5EC8298D1C8AD7F7EB0CEE18245497FD",
+                                "alt": "Johnson Matthey logo",
+                                "width": "1865",
+                                "height": "448"
+                              }
+                            }
+                          },
+                          "placeholders": {
+                            "header-nav-{*}": [
+                              {
+                                "uid": "00000000-0000-0000-0000-000000000000",
+                                "componentName": "Navigation",
+                                "dataSource": "f8d5fe3c-2cac-42a9-87e6-73dad620b9af",
+                                "fields": {
+                                  "NavLink1": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F8D5FE3C-2CAC-42A9-87E6-73DAD620B9AF}",
+                                        "language": "en",
+                                        "revision": "f294447d-5750-4a91-800e-5922a3bede61",
+                                        "version": 1
+                                      },
+                                      "title": "NavLink1",
+                                      "fieldId": "{5243EDC7-AC22-4D05-8B85-2239838D5DA0}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"About us\" linktype=\"external\" url=\"https://matthey.com/about-us\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/about-us",
+                                      "text": "About us",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/about-us"
+                                    }
+                                  },
+                                  "NavLink2": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F8D5FE3C-2CAC-42A9-87E6-73DAD620B9AF}",
+                                        "language": "en",
+                                        "revision": "f294447d-5750-4a91-800e-5922a3bede61",
+                                        "version": 1
+                                      },
+                                      "title": "NavLink2",
+                                      "fieldId": "{28CF2314-79F2-4E6C-BF12-89F56C45E107}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Products and markets\" linktype=\"external\" url=\"https://matthey.com/products-and-markets\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/products-and-markets",
+                                      "text": "Products and markets",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/products-and-markets"
+                                    }
+                                  },
+                                  "SearchLabel": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F8D5FE3C-2CAC-42A9-87E6-73DAD620B9AF}",
+                                        "language": "en",
+                                        "revision": "f294447d-5750-4a91-800e-5922a3bede61",
+                                        "version": 1
+                                      },
+                                      "title": "SearchLabel",
+                                      "fieldId": "{7D693DE3-C6EF-47B1-A5BF-E5E7C3F6C660}",
+                                      "fieldType": "Single-Line Text",
+                                      "rawValue": "Search"
+                                    },
+                                    "value": "Search"
+                                  },
+                                  "NavLink3": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F8D5FE3C-2CAC-42A9-87E6-73DAD620B9AF}",
+                                        "language": "en",
+                                        "revision": "f294447d-5750-4a91-800e-5922a3bede61",
+                                        "version": 1
+                                      },
+                                      "title": "NavLink3",
+                                      "fieldId": "{87E5A7B0-4DC2-4228-8660-28E1B321AC46}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Sustainability\" linktype=\"external\" url=\"https://matthey.com/sustainability\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/sustainability",
+                                      "text": "Sustainability",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/sustainability"
+                                    }
+                                  },
+                                  "NavLink4": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F8D5FE3C-2CAC-42A9-87E6-73DAD620B9AF}",
+                                        "language": "en",
+                                        "revision": "f294447d-5750-4a91-800e-5922a3bede61",
+                                        "version": 1
+                                      },
+                                      "title": "NavLink4",
+                                      "fieldId": "{4A62E22A-6036-41EF-B525-5711F02FA27B}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Investors\" linktype=\"external\" url=\"https://matthey.com/investors\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/investors",
+                                      "text": "Investors",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/investors"
+                                    }
+                                  },
+                                  "NavLink5": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F8D5FE3C-2CAC-42A9-87E6-73DAD620B9AF}",
+                                        "language": "en",
+                                        "revision": "f294447d-5750-4a91-800e-5922a3bede61",
+                                        "version": 1
+                                      },
+                                      "title": "NavLink5",
+                                      "fieldId": "{FAA6398A-8BCD-40C1-9888-659679A79627}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Media\" linktype=\"external\" url=\"https://matthey.com/news\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/news",
+                                      "text": "Media",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/news"
+                                    }
+                                  },
+                                  "NavLink6": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F8D5FE3C-2CAC-42A9-87E6-73DAD620B9AF}",
+                                        "language": "en",
+                                        "revision": "f294447d-5750-4a91-800e-5922a3bede61",
+                                        "version": 1
+                                      },
+                                      "title": "NavLink6",
+                                      "fieldId": "{2A89FD9E-6D5B-42BE-AAF8-C7E46294F850}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Careers\" linktype=\"external\" url=\"https://matthey.com/careers\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/careers",
+                                      "text": "Careers",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/careers"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "headless-main": [
+                  {
+                    "uid": "72ad3f22-f46c-4fc4-a5b4-26f2885e96df",
+                    "componentName": "CookieBanner",
+                    "dataSource": "38f0c10d-e739-4360-b90e-7e45c1f7ba8d",
+                    "fields": {
+                      "AcceptLabel": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{38F0C10D-E739-4360-B90E-7E45C1F7BA8D}",
+                            "language": "en",
+                            "revision": "3335fde7-5567-4a52-b73e-573516dbc12a",
+                            "version": 1
+                          },
+                          "title": "AcceptLabel",
+                          "fieldId": "{FF87F69A-6B2F-4445-B2FE-FB6970A0F175}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Accept All Cookies"
+                        },
+                        "value": "Accept All Cookies"
+                      },
+                      "Message": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{38F0C10D-E739-4360-B90E-7E45C1F7BA8D}",
+                            "language": "en",
+                            "revision": "3335fde7-5567-4a52-b73e-573516dbc12a",
+                            "version": 1
+                          },
+                          "title": "Message",
+                          "fieldId": "{3399CACA-60DC-450A-8A11-E1B9C7FFFB33}",
+                          "fieldType": "Multi-Line Text",
+                          "rawValue": "By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. Cookie Notice"
+                        },
+                        "value": "By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. Cookie Notice"
+                      },
+                      "PrivacyLink": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{38F0C10D-E739-4360-B90E-7E45C1F7BA8D}",
+                            "language": "en",
+                            "revision": "3335fde7-5567-4a52-b73e-573516dbc12a",
+                            "version": 1
+                          },
+                          "title": "PrivacyLink",
+                          "fieldId": "{E9141248-5A6D-4F69-93B1-7A791679A30A}",
+                          "fieldType": "General Link",
+                          "rawValue": "<link text=\"Cookie Notice\" linktype=\"external\" url=\"https://matthey.com/en/website-information/cookies-notice\" />"
+                        },
+                        "value": {
+                          "href": "https://matthey.com/en/website-information/cookies-notice",
+                          "text": "Cookie Notice",
+                          "linktype": "external",
+                          "url": "https://matthey.com/en/website-information/cookies-notice"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "uid": "012b12c9-3d24-486d-9f47-6853f4fb0635",
+                    "componentName": "EyebrowTitleCarouselSection",
+                    "dataSource": "4e0d381c-1f80-47bc-9642-f36611f84c79",
+                    "params": {
+                      "DynamicPlaceholderId": "1"
+                    },
+                    "fields": {},
+                    "placeholders": {
+                      "carousel-slides-{*}": [
+                        {
+                          "uid": "e528e9bb-f59b-475a-a933-2fffc1042499",
+                          "componentName": "FeatureCarouselCard",
+                          "dataSource": "a46824ed-b86d-4fbd-bc20-b6574888938d",
+                          "fields": {
+                            "Body": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{A46824ED-B86D-4FBD-BC20-B6574888938D}",
+                                  "language": "en",
+                                  "revision": "8d7cf2af-9e9e-46cb-9085-8d8161ef7df4",
+                                  "version": 1
+                                },
+                                "title": "Body",
+                                "fieldId": "{4FF8AEC2-8023-4144-82D9-E8DDECCB3037}",
+                                "fieldType": "Multi-Line Text",
+                                "rawValue": "JM set to acquire US-based Cormetech"
+                              },
+                              "value": "JM set to acquire US-based Cormetech"
+                            },
+                            "Eyebrow": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{A46824ED-B86D-4FBD-BC20-B6574888938D}",
+                                  "language": "en",
+                                  "revision": "8d7cf2af-9e9e-46cb-9085-8d8161ef7df4",
+                                  "version": 1
+                                },
+                                "title": "Eyebrow",
+                                "fieldId": "{446876FB-E0ED-454B-B532-4F505558413F}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "Products and markets"
+                              },
+                              "value": "Products and markets"
+                            },
+                            "Title": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{A46824ED-B86D-4FBD-BC20-B6574888938D}",
+                                  "language": "en",
+                                  "revision": "8d7cf2af-9e9e-46cb-9085-8d8161ef7df4",
+                                  "version": 1
+                                },
+                                "title": "Title",
+                                "fieldId": "{02F862BB-B770-4C63-A6AB-4DFDBAF6722F}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "JM set to acquire US-based Cormetech"
+                              },
+                              "value": "JM set to acquire US-based Cormetech"
+                            }
+                          }
+                        },
+                        {
+                          "uid": "240bc513-463a-4bae-ab33-5e13458bf8cb",
+                          "componentName": "FeatureCarouselCard",
+                          "dataSource": "ed121084-098f-4fe8-97f9-082799467e91",
+                          "fields": {
+                            "Body": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{ED121084-098F-4FE8-97F9-082799467E91}",
+                                  "language": "en",
+                                  "revision": "babe64a8-efad-488b-8a29-2574c5d78633",
+                                  "version": 1
+                                },
+                                "title": "Body",
+                                "fieldId": "{4FF8AEC2-8023-4144-82D9-E8DDECCB3037}",
+                                "fieldType": "Multi-Line Text",
+                                "rawValue": "Powering the industries we need most"
+                              },
+                              "value": "Powering the industries we need most"
+                            },
+                            "Eyebrow": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{ED121084-098F-4FE8-97F9-082799467E91}",
+                                  "language": "en",
+                                  "revision": "babe64a8-efad-488b-8a29-2574c5d78633",
+                                  "version": 1
+                                },
+                                "title": "Eyebrow",
+                                "fieldId": "{446876FB-E0ED-454B-B532-4F505558413F}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "PGMs and circularity"
+                              },
+                              "value": "PGMs and circularity"
+                            },
+                            "Title": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{ED121084-098F-4FE8-97F9-082799467E91}",
+                                  "language": "en",
+                                  "revision": "babe64a8-efad-488b-8a29-2574c5d78633",
+                                  "version": 1
+                                },
+                                "title": "Title",
+                                "fieldId": "{02F862BB-B770-4C63-A6AB-4DFDBAF6722F}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "PGMs and circularity"
+                              },
+                              "value": "PGMs and circularity"
+                            }
+                          }
+                        },
+                        {
+                          "uid": "d6c3ac27-d9e9-43d5-b959-0479ac33a6fb",
+                          "componentName": "FeatureCarouselCard",
+                          "dataSource": "f3da1d70-64d2-4c23-bee3-79ecec510968",
+                          "fields": {
+                            "Body": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{F3DA1D70-64D2-4C23-BEE3-79ECEC510968}",
+                                  "language": "en",
+                                  "revision": "2a034016-2f5e-4eae-b306-36586b1c0c77",
+                                  "version": 1
+                                },
+                                "title": "Body",
+                                "fieldId": "{4FF8AEC2-8023-4144-82D9-E8DDECCB3037}",
+                                "fieldType": "Multi-Line Text",
+                                "rawValue": "Metals that matter, for a healthier world"
+                              },
+                              "value": "Metals that matter, for a healthier world"
+                            },
+                            "Eyebrow": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{F3DA1D70-64D2-4C23-BEE3-79ECEC510968}",
+                                  "language": "en",
+                                  "revision": "2a034016-2f5e-4eae-b306-36586b1c0c77",
+                                  "version": 1
+                                },
+                                "title": "Eyebrow",
+                                "fieldId": "{446876FB-E0ED-454B-B532-4F505558413F}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "Products and markets"
+                              },
+                              "value": "Products and markets"
+                            },
+                            "Title": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{F3DA1D70-64D2-4C23-BEE3-79ECEC510968}",
+                                  "language": "en",
+                                  "revision": "2a034016-2f5e-4eae-b306-36586b1c0c77",
+                                  "version": 1
+                                },
+                                "title": "Title",
+                                "fieldId": "{02F862BB-B770-4C63-A6AB-4DFDBAF6722F}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "Metals that matter, for a healthier world"
+                              },
+                              "value": "Metals that matter, for a healthier world"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "uid": "f7fc9930-d811-4869-8073-c1b5147c3318",
+                    "componentName": "TitleDescriptionLinkGridSection",
+                    "dataSource": "dd13eaf1-df59-45ec-a0d0-a4e8dec7b0d5",
+                    "params": {
+                      "DynamicPlaceholderId": "2"
+                    },
+                    "fields": {
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{DD13EAF1-DF59-45EC-A0D0-A4E8DEC7B0D5}",
+                            "language": "en",
+                            "revision": "62afdd0a-125c-4d60-a493-b9675ba0d324",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{2D3367DC-AFF1-4EDA-AB8C-E992DB527F58}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "News"
+                        },
+                        "value": "News"
+                      }
+                    },
+                    "placeholders": {
+                      "link-cards-{*}": [
+                        {
+                          "uid": "8c76df31-34fa-4e0e-aad6-94ce12376f1b",
+                          "componentName": "HorizontalLinkCard",
+                          "dataSource": "36ceb693-09c8-4a2c-931d-f9399d76152c",
+                          "fields": {
+                            "Title": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{36CEB693-09C8-4A2C-931D-F9399D76152C}",
+                                  "language": "en",
+                                  "revision": "a8267fa8-6bcf-4c48-80e6-de13b10eab3e",
+                                  "version": 1
+                                },
+                                "title": "Title",
+                                "fieldId": "{2709161B-E960-4BB1-8678-39C4DCBE1CCB}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "News"
+                              },
+                              "value": "News"
+                            },
+                            "Cta": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{36CEB693-09C8-4A2C-931D-F9399D76152C}",
+                                  "language": "en",
+                                  "revision": "a8267fa8-6bcf-4c48-80e6-de13b10eab3e",
+                                  "version": 1
+                                },
+                                "title": "Cta",
+                                "fieldId": "{9D8541D3-FE5A-4610-ABA2-E949F2C384D6}",
+                                "fieldType": "General Link",
+                                "rawValue": "<link text=\"Preliminary results for the year ended 31st March 2026\" linktype=\"external\" url=\"https://matthey.com/\" />"
+                              },
+                              "value": {
+                                "href": "https://matthey.com/",
+                                "text": "Preliminary results for the year ended 31st March 2026",
+                                "linktype": "external",
+                                "url": "https://matthey.com/"
+                              }
+                            },
+                            "Logo": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{36CEB693-09C8-4A2C-931D-F9399D76152C}",
+                                  "language": "en",
+                                  "revision": "a8267fa8-6bcf-4c48-80e6-de13b10eab3e",
+                                  "version": 1
+                                },
+                                "title": "Logo",
+                                "fieldId": "{734BDBEC-C8A3-44E5-86E6-1480DC9463E8}",
+                                "fieldType": "Image",
+                                "rawValue": ""
+                              },
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "uid": "9ec203ff-037c-4714-b714-5709a13e1ec7",
+                          "componentName": "HorizontalLinkCard",
+                          "dataSource": "f429c610-5e23-4ebb-b622-71f1232806fa",
+                          "fields": {
+                            "Title": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{F429C610-5E23-4EBB-B622-71F1232806FA}",
+                                  "language": "en",
+                                  "revision": "f9ff9753-1f1b-4be0-80c1-18a97bbfb88b",
+                                  "version": 1
+                                },
+                                "title": "Title",
+                                "fieldId": "{2709161B-E960-4BB1-8678-39C4DCBE1CCB}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "ARA 2026"
+                              },
+                              "value": "ARA 2026"
+                            },
+                            "Cta": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{F429C610-5E23-4EBB-B622-71F1232806FA}",
+                                  "language": "en",
+                                  "revision": "f9ff9753-1f1b-4be0-80c1-18a97bbfb88b",
+                                  "version": 1
+                                },
+                                "title": "Cta",
+                                "fieldId": "{9D8541D3-FE5A-4610-ABA2-E949F2C384D6}",
+                                "fieldType": "General Link",
+                                "rawValue": "<link text=\"JM publishes Annual Report and Accounts 2026 View highlights >>\" linktype=\"external\" url=\"https://matthey.com/\" />"
+                              },
+                              "value": {
+                                "href": "https://matthey.com/",
+                                "text": "JM publishes Annual Report and Accounts 2026 View highlights >>",
+                                "linktype": "external",
+                                "url": "https://matthey.com/"
+                              }
+                            },
+                            "Logo": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{F429C610-5E23-4EBB-B622-71F1232806FA}",
+                                  "language": "en",
+                                  "revision": "f9ff9753-1f1b-4be0-80c1-18a97bbfb88b",
+                                  "version": 1
+                                },
+                                "title": "Logo",
+                                "fieldId": "{734BDBEC-C8A3-44E5-86E6-1480DC9463E8}",
+                                "fieldType": "Image",
+                                "rawValue": ""
+                              },
+                              "value": {}
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "uid": "18e2a2b7-ac0a-4aba-af45-f709e64ae4a8",
+                    "componentName": "TitleStatsBarSection",
+                    "dataSource": "f7e619dd-7a55-47b2-917a-833a9cac7e22",
+                    "params": {
+                      "DynamicPlaceholderId": "3"
+                    },
+                    "fields": {
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{F7E619DD-7A55-47B2-917A-833A9CAC7E22}",
+                            "language": "en",
+                            "revision": "1478a39a-c9fc-4fc4-b61e-7062ac352f9e",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{785CECF3-2FC9-4CE5-828B-66E1A226F523}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Share Price"
+                        },
+                        "value": "Share Price"
+                      }
+                    },
+                    "placeholders": {
+                      "stats-items-{*}": [
+                        {
+                          "uid": "9ac25029-244c-49b0-bfd6-f2335246b989",
+                          "componentName": "StatsItem",
+                          "dataSource": "147d5201-4a87-4f6c-8fc4-526bfc2e1cf8",
+                          "fields": {
+                            "Label": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{147D5201-4A87-4F6C-8FC4-526BFC2E1CF8}",
+                                  "language": "en",
+                                  "revision": "e25e1c15-d7a8-4698-bb72-3e36735f138b",
+                                  "version": 1
+                                },
+                                "title": "Label",
+                                "fieldId": "{3ADF7111-09F6-4348-B225-24F8A6FD21BA}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "Share Price"
+                              },
+                              "value": "Share Price"
+                            },
+                            "Link": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{147D5201-4A87-4F6C-8FC4-526BFC2E1CF8}",
+                                  "language": "en",
+                                  "revision": "e25e1c15-d7a8-4698-bb72-3e36735f138b",
+                                  "version": 1
+                                },
+                                "title": "Link",
+                                "fieldId": "{F7AA8536-EA76-4192-B5DC-B0F6AD848C15}",
+                                "fieldType": "General Link",
+                                "rawValue": ""
+                              },
+                              "value": {
+                                "href": ""
+                              }
+                            },
+                            "Value": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{147D5201-4A87-4F6C-8FC4-526BFC2E1CF8}",
+                                  "language": "en",
+                                  "revision": "e25e1c15-d7a8-4698-bb72-3e36735f138b",
+                                  "version": 1
+                                },
+                                "title": "Value",
+                                "fieldId": "{FD2C904A-7161-4079-BE50-199ADD029AA1}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "2,086.00 GBX"
+                              },
+                              "value": "2,086.00 GBX"
+                            }
+                          }
+                        },
+                        {
+                          "uid": "84b7606d-f2f3-4406-b3ab-29cd49bdcd9f",
+                          "componentName": "StatsItem",
+                          "dataSource": "7318254c-0252-4cb4-a307-abd67d731648",
+                          "fields": {
+                            "Label": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{7318254C-0252-4CB4-A307-ABD67D731648}",
+                                  "language": "en",
+                                  "revision": "c1bde49e-ca5c-4580-bfd8-f50c146f737d",
+                                  "version": 1
+                                },
+                                "title": "Label",
+                                "fieldId": "{3ADF7111-09F6-4348-B225-24F8A6FD21BA}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "15 June 2026"
+                              },
+                              "value": "15 June 2026"
+                            },
+                            "Link": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{7318254C-0252-4CB4-A307-ABD67D731648}",
+                                  "language": "en",
+                                  "revision": "c1bde49e-ca5c-4580-bfd8-f50c146f737d",
+                                  "version": 1
+                                },
+                                "title": "Link",
+                                "fieldId": "{F7AA8536-EA76-4192-B5DC-B0F6AD848C15}",
+                                "fieldType": "General Link",
+                                "rawValue": ""
+                              },
+                              "value": {
+                                "href": ""
+                              }
+                            },
+                            "Value": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{7318254C-0252-4CB4-A307-ABD67D731648}",
+                                  "language": "en",
+                                  "revision": "c1bde49e-ca5c-4580-bfd8-f50c146f737d",
+                                  "version": 1
+                                },
+                                "title": "Value",
+                                "fieldId": "{FD2C904A-7161-4079-BE50-199ADD029AA1}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "+20.00 ( +0.97)%"
+                              },
+                              "value": "+20.00 ( +0.97)%"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "uid": "13c69fdb-5c19-4364-ae27-fa17101c0f6e",
+                    "componentName": "TitleDescriptionCtaSection",
+                    "dataSource": "3321ae5d-2ca3-492d-88a4-f73b4b58484f",
+                    "fields": {
+                      "Body": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{3321AE5D-2CA3-492D-88A4-F73B4B58484F}",
+                            "language": "en",
+                            "revision": "4317142a-4b06-45e6-bf59-72737ab285f5",
+                            "version": 1
+                          },
+                          "title": "Body",
+                          "fieldId": "{45C22E83-7AB2-40E0-B26D-1A1752EBEFD4}",
+                          "fieldType": "Multi-Line Text",
+                          "rawValue": "Few organisations boast our track record, a history spanning more than two centuries, driven by innovation and a mission to provide the technologies and solutions that help solve the planet’s biggest challenges.\r\n\r\nToday, our globally renowned customers across key industries rely on our scientific expertise, quality and trust in applying, refining and recycling metals that matter, for a healthier and more resilient world."
+                        },
+                        "value": "Few organisations boast our track record, a history spanning more than two centuries, driven by innovation and a mission to provide the technologies and solutions that help solve the planet’s biggest challenges.\r\n\r\nToday, our globally renowned customers across key industries rely on our scientific expertise, quality and trust in applying, refining and recycling metals that matter, for a healthier and more resilient world."
+                      },
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{3321AE5D-2CA3-492D-88A4-F73B4B58484F}",
+                            "language": "en",
+                            "revision": "4317142a-4b06-45e6-bf59-72737ab285f5",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{DBAFCA88-D36A-421D-99C6-6E00BACDEB43}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Johnson Matthey is a world leader in platinum group metals (PGMs)."
+                        },
+                        "value": "Johnson Matthey is a world leader in platinum group metals (PGMs)."
+                      },
+                      "Cta": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{3321AE5D-2CA3-492D-88A4-F73B4B58484F}",
+                            "language": "en",
+                            "revision": "4317142a-4b06-45e6-bf59-72737ab285f5",
+                            "version": 1
+                          },
+                          "title": "Cta",
+                          "fieldId": "{33780E4A-07DB-4C92-95EF-4B171B501986}",
+                          "fieldType": "General Link",
+                          "rawValue": "<link text=\"Read more\" linktype=\"external\" url=\"https://matthey.com/about-us\" />"
+                        },
+                        "value": {
+                          "href": "https://matthey.com/about-us",
+                          "text": "Read more",
+                          "linktype": "external",
+                          "url": "https://matthey.com/about-us"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "uid": "d4e5e7a2-b9be-4528-83a4-313d54e3d795",
+                    "componentName": "TitleDescriptionLinkGridSection",
+                    "dataSource": "c8fdceb2-0e3f-4a2d-afc0-30998b7f4850",
+                    "params": {
+                      "DynamicPlaceholderId": "5"
+                    },
+                    "fields": {
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{C8FDCEB2-0E3F-4A2D-AFC0-30998B7F4850}",
+                            "language": "en",
+                            "revision": "32813e71-3131-4b26-991f-dc599b2d12ca",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{2D3367DC-AFF1-4EDA-AB8C-E992DB527F58}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Developing the future of platinum group metals"
+                        },
+                        "value": "Developing the future of platinum group metals"
+                      }
+                    },
+                    "placeholders": {
+                      "link-cards-{*}": [
+                        {
+                          "uid": "7e53cd0d-2931-4508-989f-74e63d0e4c80",
+                          "componentName": "HorizontalLinkCard",
+                          "dataSource": "0579f797-b7d0-4265-98ae-d3a2f80ab843",
+                          "fields": {
+                            "Title": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{0579F797-B7D0-4265-98AE-D3A2F80AB843}",
+                                  "language": "en",
+                                  "revision": "52425dd0-8c1b-401e-8940-eba53c1b6a40",
+                                  "version": 1
+                                },
+                                "title": "Title",
+                                "fieldId": "{2709161B-E960-4BB1-8678-39C4DCBE1CCB}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "We're partnering with leading platinum group metal (PGM) companies in a transformative programme, aiming to accelerate the development of new applications and harness the power of these metals."
+                              },
+                              "value": "We're partnering with leading platinum group metal (PGM) companies in a transformative programme, aiming to accelerate the development of new applications and harness the power of these metals."
+                            },
+                            "Cta": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{0579F797-B7D0-4265-98AE-D3A2F80AB843}",
+                                  "language": "en",
+                                  "revision": "52425dd0-8c1b-401e-8940-eba53c1b6a40",
+                                  "version": 1
+                                },
+                                "title": "Cta",
+                                "fieldId": "{9D8541D3-FE5A-4610-ABA2-E949F2C384D6}",
+                                "fieldType": "General Link",
+                                "rawValue": "<link text=\"Read more\" linktype=\"external\" url=\"https://matthey.com/future-pgms-partnership\" />"
+                              },
+                              "value": {
+                                "href": "https://matthey.com/future-pgms-partnership",
+                                "text": "Read more",
+                                "linktype": "external",
+                                "url": "https://matthey.com/future-pgms-partnership"
+                              }
+                            },
+                            "Logo": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{0579F797-B7D0-4265-98AE-D3A2F80AB843}",
+                                  "language": "en",
+                                  "revision": "52425dd0-8c1b-401e-8940-eba53c1b6a40",
+                                  "version": 1
+                                },
+                                "title": "Logo",
+                                "fieldId": "{734BDBEC-C8A3-44E5-86E6-1480DC9463E8}",
+                                "fieldType": "Image",
+                                "rawValue": "<image mediaid=\"533FA9A3-2A35-4909-99A3-F9A10C337A88\" />"
+                              },
+                              "value": {
+                                "src": "https://xmc-sitecoresaa9553-jbedmdemos1741-productionf120.sitecorecloud.io/-/media/Project/johnson-matthey-2/jm2/documents/161599/348539/home,-pl-,video,-pl-,thumbnail,-pl-,S.png?h=690&iar=0&w=654&ttc=63917124152&tt=7EA7B2963E4952CE7B60AC611C491146&hash=CBE7431D708118E7BBE6FE138E11C317",
+                                "alt": "Future PGMs partnership",
+                                "width": "654",
+                                "height": "690"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "headless-footer": [
+                  {
+                    "uid": "42f1806f-b722-4548-9b9d-227fe0913796",
+                    "componentName": "PartialDesignDynamicPlaceholder",
+                    "dataSource": "",
+                    "params": {
+                      "sid": "{42F1806F-B722-4548-9B9D-227FE0913796}",
+                      "ph": "headless-footer",
+                      "sig": "sxa-footer"
+                    },
+                    "placeholders": {
+                      "sxa-footer": [
+                        {
+                          "uid": "00000000-0000-0000-0000-000000000000",
+                          "componentName": "Footer",
+                          "dataSource": "c9cb9e2c-d63f-426e-b5be-e98df1244448",
+                          "params": {
+                            "DynamicPlaceholderId": "1"
+                          },
+                          "fields": {
+                            "CopyrightText": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{C9CB9E2C-D63F-426E-B5BE-E98DF1244448}",
+                                  "language": "en",
+                                  "revision": "8d38cd0f-eccd-4ed0-bbf4-21929e2af750",
+                                  "version": 1
+                                },
+                                "title": "CopyrightText",
+                                "fieldId": "{DF9CDDEF-2F22-4832-8FFC-2CDA708F47EA}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "© Johnson Matthey plc. All rights reserved."
+                              },
+                              "value": "© Johnson Matthey plc. All rights reserved."
+                            },
+                            "Logo": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{C9CB9E2C-D63F-426E-B5BE-E98DF1244448}",
+                                  "language": "en",
+                                  "revision": "8d38cd0f-eccd-4ed0-bbf4-21929e2af750",
+                                  "version": 1
+                                },
+                                "title": "Logo",
+                                "fieldId": "{0FCE4EDD-642A-4204-A0F6-F67A9DD2E822}",
+                                "fieldType": "Image",
+                                "rawValue": "<image mediaid=\"8B599A3B-11FA-434E-B3F7-1D55C8E430C7\" />"
+                              },
+                              "value": {
+                                "src": "https://xmc-sitecoresaa9553-jbedmdemos1741-productionf120.sitecorecloud.io/-/media/Project/johnson-matthey-2/jm2/o/jm-platinum-theme/images/new__jm__images/Johnson_Matthey-_Logo_blue.svg?h=448&iar=0&w=1865&ttc=63917124152&tt=FFDE8392A757B1D0B99153F426E66E32&hash=5EC8298D1C8AD7F7EB0CEE18245497FD",
+                                "alt": "Johnson Matthey logo",
+                                "width": "1865",
+                                "height": "448"
+                              }
+                            }
+                          },
+                          "placeholders": {
+                            "footer-links-{*}": [
+                              {
+                                "uid": "00000000-0000-0000-0000-000000000000",
+                                "componentName": "LinkList",
+                                "dataSource": "dec65610-6ed2-4ed5-902f-980001869842",
+                                "fields": {
+                                  "Link1": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{DEC65610-6ED2-4ED5-902F-980001869842}",
+                                        "language": "en",
+                                        "revision": "13e676af-aae7-4595-8798-e86876adc26d",
+                                        "version": 1
+                                      },
+                                      "title": "Link1",
+                                      "fieldId": "{761C9726-5734-453C-9014-E4A49804C289}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Policies and disclosures\" linktype=\"external\" url=\"https://matthey.com/sustainability/policies-and-disclosures\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/sustainability/policies-and-disclosures",
+                                      "text": "Policies and disclosures",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/sustainability/policies-and-disclosures"
+                                    }
+                                  },
+                                  "Link2": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{DEC65610-6ED2-4ED5-902F-980001869842}",
+                                        "language": "en",
+                                        "revision": "13e676af-aae7-4595-8798-e86876adc26d",
+                                        "version": 1
+                                      },
+                                      "title": "Link2",
+                                      "fieldId": "{78C75159-33DE-45E7-8972-2BBA668325BF}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Quality certificates\" linktype=\"external\" url=\"https://matthey.com/products-and-markets/quality-certificates\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/products-and-markets/quality-certificates",
+                                      "text": "Quality certificates",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/products-and-markets/quality-certificates"
+                                    }
+                                  },
+                                  "Link3": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{DEC65610-6ED2-4ED5-902F-980001869842}",
+                                        "language": "en",
+                                        "revision": "13e676af-aae7-4595-8798-e86876adc26d",
+                                        "version": 1
+                                      },
+                                      "title": "Link3",
+                                      "fieldId": "{46EEA37B-F76F-4878-BA70-B59EECFB1EEC}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Partnering with us\" linktype=\"external\" url=\"https://matthey.com/about-us/partnering-with-us\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/about-us/partnering-with-us",
+                                      "text": "Partnering with us",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/about-us/partnering-with-us"
+                                    }
+                                  },
+                                  "Link4": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{DEC65610-6ED2-4ED5-902F-980001869842}",
+                                        "language": "en",
+                                        "revision": "13e676af-aae7-4595-8798-e86876adc26d",
+                                        "version": 1
+                                      },
+                                      "title": "Link4",
+                                      "fieldId": "{3F770AE3-742B-47B2-A049-EE11B34C52AE}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Whistleblowing\" linktype=\"external\" url=\"https://app.convercent.com/en-US/LandingPage/b2c0984e-7acd-ed11-a99e-000d3ab9f062?_=1680683033759\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://app.convercent.com/en-US/LandingPage/b2c0984e-7acd-ed11-a99e-000d3ab9f062?_=1680683033759",
+                                      "text": "Whistleblowing",
+                                      "linktype": "external",
+                                      "url": "https://app.convercent.com/en-US/LandingPage/b2c0984e-7acd-ed11-a99e-000d3ab9f062?_=1680683033759"
+                                    }
+                                  },
+                                  "Link5": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{DEC65610-6ED2-4ED5-902F-980001869842}",
+                                        "language": "en",
+                                        "revision": "13e676af-aae7-4595-8798-e86876adc26d",
+                                        "version": 1
+                                      },
+                                      "title": "Link5",
+                                      "fieldId": "{630E70B8-1AC6-4D3F-9ED4-0C7A5C6F2B22}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Code of Ethics\" linktype=\"external\" url=\"https://matthey.com/about-us/governance/code-of-ethics\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/about-us/governance/code-of-ethics",
+                                      "text": "Code of Ethics",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/about-us/governance/code-of-ethics"
+                                    }
+                                  },
+                                  "Link6": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{DEC65610-6ED2-4ED5-902F-980001869842}",
+                                        "language": "en",
+                                        "revision": "13e676af-aae7-4595-8798-e86876adc26d",
+                                        "version": 1
+                                      },
+                                      "title": "Link6",
+                                      "fieldId": "{942423DC-EC60-494D-B0CA-97E2A3D33FA5}",
+                                      "fieldType": "General Link",
+                                      "rawValue": ""
+                                    },
+                                    "value": {
+                                      "href": ""
+                                    }
+                                  },
+                                  "Title": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{DEC65610-6ED2-4ED5-902F-980001869842}",
+                                        "language": "en",
+                                        "revision": "13e676af-aae7-4595-8798-e86876adc26d",
+                                        "version": 1
+                                      },
+                                      "title": "Title",
+                                      "fieldId": "{0DB1D422-AC5F-4AA4-8478-3E8052F559AA}",
+                                      "fieldType": "Single-Line Text",
+                                      "rawValue": "Quick access"
+                                    },
+                                    "value": "Quick access"
+                                  }
+                                }
+                              },
+                              {
+                                "uid": "00000000-0000-0000-0000-000000000000",
+                                "componentName": "LinkList",
+                                "dataSource": "f51b0062-31b0-4f9f-abaf-eab0609b6103",
+                                "fields": {
+                                  "Link1": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F51B0062-31B0-4F9F-ABAF-EAB0609B6103}",
+                                        "language": "en",
+                                        "revision": "e0786bc6-766e-4c33-a56b-90a32e967452",
+                                        "version": 1
+                                      },
+                                      "title": "Link1",
+                                      "fieldId": "{761C9726-5734-453C-9014-E4A49804C289}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Find a product\" linktype=\"external\" url=\"https://matthey.com/products-and-markets/all-products\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/products-and-markets/all-products",
+                                      "text": "Find a product",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/products-and-markets/all-products"
+                                    }
+                                  },
+                                  "Link2": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F51B0062-31B0-4F9F-ABAF-EAB0609B6103}",
+                                        "language": "en",
+                                        "revision": "e0786bc6-766e-4c33-a56b-90a32e967452",
+                                        "version": 1
+                                      },
+                                      "title": "Link2",
+                                      "fieldId": "{78C75159-33DE-45E7-8972-2BBA668325BF}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Media enquiries\" linktype=\"external\" url=\"https://matthey.com/news/media-enquiries\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/news/media-enquiries",
+                                      "text": "Media enquiries",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/news/media-enquiries"
+                                    }
+                                  },
+                                  "Link3": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F51B0062-31B0-4F9F-ABAF-EAB0609B6103}",
+                                        "language": "en",
+                                        "revision": "e0786bc6-766e-4c33-a56b-90a32e967452",
+                                        "version": 1
+                                      },
+                                      "title": "Link3",
+                                      "fieldId": "{46EEA37B-F76F-4878-BA70-B59EECFB1EEC}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Investor enquiries\" linktype=\"external\" url=\"https://matthey.com/investors/investor-enquiries\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/investors/investor-enquiries",
+                                      "text": "Investor enquiries",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/investors/investor-enquiries"
+                                    }
+                                  },
+                                  "Link4": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F51B0062-31B0-4F9F-ABAF-EAB0609B6103}",
+                                        "language": "en",
+                                        "revision": "e0786bc6-766e-4c33-a56b-90a32e967452",
+                                        "version": 1
+                                      },
+                                      "title": "Link4",
+                                      "fieldId": "{3F770AE3-742B-47B2-A049-EE11B34C52AE}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Search JM jobs and apply\" linktype=\"external\" url=\"https://matthey.wd3.myworkdayjobs.com/Ext_Career_Site\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.wd3.myworkdayjobs.com/Ext_Career_Site",
+                                      "text": "Search JM jobs and apply",
+                                      "linktype": "external",
+                                      "url": "https://matthey.wd3.myworkdayjobs.com/Ext_Career_Site"
+                                    }
+                                  },
+                                  "Link5": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F51B0062-31B0-4F9F-ABAF-EAB0609B6103}",
+                                        "language": "en",
+                                        "revision": "e0786bc6-766e-4c33-a56b-90a32e967452",
+                                        "version": 1
+                                      },
+                                      "title": "Link5",
+                                      "fieldId": "{630E70B8-1AC6-4D3F-9ED4-0C7A5C6F2B22}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Location and contacts\" linktype=\"external\" url=\"https://matthey.com/contact-us\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/contact-us",
+                                      "text": "Location and contacts",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/contact-us"
+                                    }
+                                  },
+                                  "Link6": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F51B0062-31B0-4F9F-ABAF-EAB0609B6103}",
+                                        "language": "en",
+                                        "revision": "e0786bc6-766e-4c33-a56b-90a32e967452",
+                                        "version": 1
+                                      },
+                                      "title": "Link6",
+                                      "fieldId": "{942423DC-EC60-494D-B0CA-97E2A3D33FA5}",
+                                      "fieldType": "General Link",
+                                      "rawValue": ""
+                                    },
+                                    "value": {
+                                      "href": ""
+                                    }
+                                  },
+                                  "Title": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{F51B0062-31B0-4F9F-ABAF-EAB0609B6103}",
+                                        "language": "en",
+                                        "revision": "e0786bc6-766e-4c33-a56b-90a32e967452",
+                                        "version": 1
+                                      },
+                                      "title": "Title",
+                                      "fieldId": "{0DB1D422-AC5F-4AA4-8478-3E8052F559AA}",
+                                      "fieldType": "Single-Line Text",
+                                      "rawValue": "Get in touch"
+                                    },
+                                    "value": "Get in touch"
+                                  }
+                                }
+                              },
+                              {
+                                "uid": "00000000-0000-0000-0000-000000000000",
+                                "componentName": "LinkList",
+                                "dataSource": "7d743c0c-48c6-4b13-b978-d000475648aa",
+                                "fields": {
+                                  "Link1": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{7D743C0C-48C6-4B13-B978-D000475648AA}",
+                                        "language": "en",
+                                        "revision": "93adc475-2026-44fd-80cd-be52cc91226f",
+                                        "version": 1
+                                      },
+                                      "title": "Link1",
+                                      "fieldId": "{761C9726-5734-453C-9014-E4A49804C289}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Acceptable use\" linktype=\"external\" url=\"https://matthey.com/website-information/acceptable-use-policy\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/website-information/acceptable-use-policy",
+                                      "text": "Acceptable use",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/website-information/acceptable-use-policy"
+                                    }
+                                  },
+                                  "Link2": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{7D743C0C-48C6-4B13-B978-D000475648AA}",
+                                        "language": "en",
+                                        "revision": "93adc475-2026-44fd-80cd-be52cc91226f",
+                                        "version": 1
+                                      },
+                                      "title": "Link2",
+                                      "fieldId": "{78C75159-33DE-45E7-8972-2BBA668325BF}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Accessibility\" linktype=\"external\" url=\"https://matthey.com/website-information/accessibility\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/website-information/accessibility",
+                                      "text": "Accessibility",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/website-information/accessibility"
+                                    }
+                                  },
+                                  "Link3": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{7D743C0C-48C6-4B13-B978-D000475648AA}",
+                                        "language": "en",
+                                        "revision": "93adc475-2026-44fd-80cd-be52cc91226f",
+                                        "version": 1
+                                      },
+                                      "title": "Link3",
+                                      "fieldId": "{46EEA37B-F76F-4878-BA70-B59EECFB1EEC}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Cookies\" linktype=\"external\" url=\"https://matthey.com/website-information/cookies-notice\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/website-information/cookies-notice",
+                                      "text": "Cookies",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/website-information/cookies-notice"
+                                    }
+                                  },
+                                  "Link4": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{7D743C0C-48C6-4B13-B978-D000475648AA}",
+                                        "language": "en",
+                                        "revision": "93adc475-2026-44fd-80cd-be52cc91226f",
+                                        "version": 1
+                                      },
+                                      "title": "Link4",
+                                      "fieldId": "{3F770AE3-742B-47B2-A049-EE11B34C52AE}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Modern slavery\" linktype=\"external\" url=\"https://matthey.com/modern-slavery\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/modern-slavery",
+                                      "text": "Modern slavery",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/modern-slavery"
+                                    }
+                                  },
+                                  "Link5": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{7D743C0C-48C6-4B13-B978-D000475648AA}",
+                                        "language": "en",
+                                        "revision": "93adc475-2026-44fd-80cd-be52cc91226f",
+                                        "version": 1
+                                      },
+                                      "title": "Link5",
+                                      "fieldId": "{630E70B8-1AC6-4D3F-9ED4-0C7A5C6F2B22}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Privacy notice\" linktype=\"external\" url=\"https://matthey.com/website-information/privacy-notice\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/website-information/privacy-notice",
+                                      "text": "Privacy notice",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/website-information/privacy-notice"
+                                    }
+                                  },
+                                  "Link6": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{7D743C0C-48C6-4B13-B978-D000475648AA}",
+                                        "language": "en",
+                                        "revision": "93adc475-2026-44fd-80cd-be52cc91226f",
+                                        "version": 1
+                                      },
+                                      "title": "Link6",
+                                      "fieldId": "{942423DC-EC60-494D-B0CA-97E2A3D33FA5}",
+                                      "fieldType": "General Link",
+                                      "rawValue": "<link text=\"Terms of use\" linktype=\"external\" url=\"https://matthey.com/website-information/terms-of-use\" />"
+                                    },
+                                    "value": {
+                                      "href": "https://matthey.com/website-information/terms-of-use",
+                                      "text": "Terms of use",
+                                      "linktype": "external",
+                                      "url": "https://matthey.com/website-information/terms-of-use"
+                                    }
+                                  },
+                                  "Title": {
+                                    "metadata": {
+                                      "datasource": {
+                                        "id": "{7D743C0C-48C6-4B13-B978-D000475648AA}",
+                                        "language": "en",
+                                        "revision": "93adc475-2026-44fd-80cd-be52cc91226f",
+                                        "version": 1
+                                      },
+                                      "title": "Title",
+                                      "fieldId": "{0DB1D422-AC5F-4AA4-8478-3E8052F559AA}",
+                                      "fieldType": "Single-Line Text",
+                                      "rawValue": "Further information"
+                                    },
+                                    "value": "Further information"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "siteName": "jm2",
+        "mode": {
+          "name": "edit",
+          "isNormal": false,
+          "isPreview": false,
+          "isEditing": true,
+          "isDesignLibrary": false,
+          "designLibrary": {
+            "isVariantGeneration": false
+          }
+        }
+      },
+      "dictionary": {},
+      "componentProps": {}
+    },
+    "__N_PREVIEW": true,
+    "__N_SSP": true
+  },
+  "page": "/[[...path]]",
+  "query": {},
+  "buildId": "development",
+  "isFallback": false,
+  "gsp": true,
+  "locale": "en",
+  "locales": [
+    "en"
+  ],
+  "defaultLocale": "en",
+  "isPreview": true,
+  "scriptLoader": []
+}

@@ -1,0 +1,45 @@
+---
+ID: "4547f8da-d344-4c25-8697-b1252b2b0526"
+Parent: "11fac09d-5802-47ea-ae07-929d509d939d"
+Template: "83f69b8f-bf4a-4b41-9318-f16d2a78d9dc"
+Path: "/sitecore/content/rai/rai-amsterdam/Data/EventListCards/Calendar Event 6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "915860a3-8c05-44f9-9b9a-6964486539ec"
+      Hint: Title
+      Value: TechEx Europe 2026
+    - ID: "9f017a34-dc15-4b6f-b244-3bb59b85846a"
+      Hint: DateRange
+      Value: 1 - 2 October 2026
+    - ID: "dc9f4359-fd2a-43b4-8d19-9b4a98ad3656"
+      Hint: Image
+      Value: |
+        <image mediaid="7F38C0E2-4E4A-40F8-8455-6E6294B5AA5F" />
+    - ID: "bee1051c-919c-4e77-a2dc-aa8978078859"
+      Hint: Link
+      Value: |
+        <link class="" id="ff334a74-0136-4b0d-b3d2-fb0d7ab857be" querystring="" anchor="" target="" title="" linktype="internal" text="TechEx Europe 2026" url="/rai/rai-amsterdam/Home/Calendar/Tech Ex 2026" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c784e645-63d2-4687-9a32-e245aa1e2768"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

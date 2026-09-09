@@ -1,0 +1,48 @@
+﻿---
+ID: "994ccf0a-fcf9-4413-a2d4-1c6f0b6ccd27"
+Parent: "9fec5a7f-64e7-4255-9d40-4055c3666558"
+Template: "9fec5a7f-64e7-4255-9d40-4055c3666558"
+Path: "/sitecore/templates/Project/miller-homes/Miller Page/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {98E60957-0783-4A9A-85CC-77DAD30E9711}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {F6E44A9E-074A-4865-987E-0C2DC00B7AF5}
+    {4D2B49E6-1130-444A-B22C-5C7E25D01B56}
+    {412BF445-B1A6-4AFF-8054-0B21A1FEBC47}
+    {B79B5166-C106-4F82-A8CA-11CEC6032D52}
+    {9FEC5A7F-64E7-4255-9D40-4055C3666558}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2b13360f-010d-41e4-ab60-d3ae4a59ea1c"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250820T091612Z
+    - ID: "422170a2-13b5-4347-a107-58ab04616cca"
+      Hint: Title
+      Value: $name
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f0de10d7-2228-43dd-9ef5-c2bf505c3768"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260527T131932Z

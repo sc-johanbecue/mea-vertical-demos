@@ -1,0 +1,155 @@
+﻿---
+ID: "1881a20c-972a-44c0-b149-d4f86b12efec"
+Parent: "c43d2b3d-87ad-4f14-88a6-510388630416"
+Template: "390a1891-63bc-49f2-96b3-451708962730"
+Path: "/sitecore/content/british-council/british-council/Data/CookieBanners/Site Cookie Banner"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "21410c3e-3e4a-4667-b31c-f1d8e751038e"
+      Hint: Body
+      Value: We use cookies on this site to enhance your user experience.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30ff0cb2-699b-4458-ac1a-9e7636a5a9b4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cfe356cc-a441-4302-b029-3a179713f6fc"
+      Hint: SettingsLink
+      Value: |
+        <link text="Cookie Settings" linktype="external" url="#" />
+    - ID: "d80431d3-838c-458e-a868-be5277945991"
+      Hint: AcceptLink
+      Value: |
+        <link text="Accept All Cookies" linktype="external" url="#" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T084747Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "21410c3e-3e4a-4667-b31c-f1d8e751038e"
+      Hint: Body
+      Value: Nous utilisons des cookies sur ce site pour améliorer votre expérience utilisateur.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d580b3f-acac-4206-8663-5d5357ec441e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cfe356cc-a441-4302-b029-3a179713f6fc"
+      Hint: SettingsLink
+      Value: |
+        <link linktype="external" text="Paramètres des cookies" url="#" />
+    - ID: "d80431d3-838c-458e-a868-be5277945991"
+      Hint: AcceptLink
+      Value: |
+        <link linktype="external" text="Accepter tous les cookies" url="#" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084641Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "21410c3e-3e4a-4667-b31c-f1d8e751038e"
+      Hint: Body
+      Value: हम इस साइट पर आपकी उपयोगकर्ता अनुभव को बेहतर बनाने के लिए कुकीज़ का उपयोग करते हैं।
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "531b18c7-294b-421e-83e9-ccefc1ac71fc"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cfe356cc-a441-4302-b029-3a179713f6fc"
+      Hint: SettingsLink
+      Value: |
+        <link linktype="external" text="कुकी सेटिंग्स" url="#" />
+    - ID: "d80431d3-838c-458e-a868-be5277945991"
+      Hint: AcceptLink
+      Value: |
+        <link linktype="external" text="सभी कुकीज़ स्वीकार करें" url="#" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093335Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "21410c3e-3e4a-4667-b31c-f1d8e751038e"
+      Hint: Body
+      Value: We gebruiken cookies op deze site om uw gebruikerservaring te verbeteren.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3fffc03-5cef-4b44-9f17-4da359786369"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cfe356cc-a441-4302-b029-3a179713f6fc"
+      Hint: SettingsLink
+      Value: |
+        <link linktype="external" text="Cookie-instellingen" url="#" />
+    - ID: "d80431d3-838c-458e-a868-be5277945991"
+      Hint: AcceptLink
+      Value: |
+        <link linktype="external" text="Accepteer alle cookies" url="#" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084644Z

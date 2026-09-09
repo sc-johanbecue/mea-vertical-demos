@@ -1,0 +1,41 @@
+﻿---
+ID: "1f5c152b-4a1a-4bb3-a870-77b056223945"
+Parent: "d9d46863-fb72-4029-a0b6-b49a56707101"
+Template: "289ab153-bb3a-4827-a91d-bb0c1386f779"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/PageTitleSections/Default PageTitleSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T001828Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8630a1ed-730e-46ea-9f13-314b03712806"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><div><div><div><div><p>If you’re looking for new homes in the East Midlands, Miller Homes is almost certain to have something to suit you.</p><p>Whether you’re drawn to the urban buzz or the spectacular scenery of the Peak District, there’s something for everyone in the East Midlands. Choose from thriving cities including <a href="https://www.millerhomes.co.uk/locations/east-midlands-and-the-surrounding-areas/nottingham.aspx">Nottingham</a>, <a href="https://www.millerhomes.co.uk/locations/east-midlands-and-the-surrounding-areas/leicester.aspx">Leicester</a>, <a href="https://www.millerhomes.co.uk/locations/east-midlands-and-the-surrounding-areas/derby.aspx">Derby</a> and more. Or, if you prefer a more relaxed pace of life, we have developments located in a number of picturesque towns and villages too.</p><p>Here at Miller Homes, we pride ourselves on ensuring that our East Midlands properties are of the highest quality, so you’re sure to find a home that appeals to you and your family.</p><p>A number of major road arteries pass through the East Midlands, including the M1 – which links the area to London and <a href="https://www.millerhomes.co.uk/locations/yorkshire-and-the-surrounding-areas/leeds.aspx">Leeds</a> – and the A46, connecting the region to southern England. East Midlands Airport, located in Leicestershire offers domestic and overseas flights.</p><p>To find out more about Miller Homes’ new homes in the East Midlands, please get in touch.</p></div></div><p>&nbsp;</p></div></div></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c836b185-bcfa-4d91-81fd-2f93b4625d7f"
+    - ID: "b712f738-6b84-46c4-bf8d-1ce516ae673f"
+      Hint: Subtitle
+      Value: Choose from 7 developments in East Midlands 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260203T113927Z

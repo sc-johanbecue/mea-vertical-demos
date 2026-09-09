@@ -1,0 +1,38 @@
+---
+ID: "10d056f0-fc80-435f-916a-e07091cdf7b8"
+Parent: "a4ca3062-f4c8-401c-837e-1c68ed5da450"
+Template: "a4ca3062-f4c8-401c-837e-1c68ed5da450"
+Path: "/sitecore/templates/Project/rai/Navigation/Navigation Rendering Parameters/__Standard Values"
+SharedFields:
+- ID: "b20124b2-820e-4f89-a310-a260656f1a55"
+  Hint: LevelFrom
+  Value: "{{1BB88840-5FB3-4353-AD8D-81136F6FF75A}}"
+- ID: "d3ae28e6-b489-4ab9-8c28-5b2bd0161228"
+  Hint: LevelTo
+  Value: "{{A59325BB-5A27-46F9-B8110-9D499715F3BE}}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "10d056f0-fc80-435f-916a-e07091cdf7b8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260612T120000Z

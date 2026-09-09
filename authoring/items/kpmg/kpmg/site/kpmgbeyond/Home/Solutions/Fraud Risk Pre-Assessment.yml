@@ -1,0 +1,117 @@
+﻿---
+ID: "d6ab0d31-e8dd-4c9c-8a80-3d7cb1cb19ec"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: "/sitecore/content/kpmg/kpmgbeyond/Home/Solutions/Fraud Risk Pre-Assessment"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9F9E9AC2-C5E2-44BE-B81D-CA6C6832EE7A}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{6C18CC2F-0CBB-406E-960E-6F75293F689A}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{BB27055C-53E2-42FC-97B5-B2C8732C175B}"
+          p:after="r[@uid='{6C18CC2F-0CBB-406E-960E-6F75293F689A}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{C87D1A19-48FA-4B8A-9E46-50C24003B269}"
+          p:after="r[@uid='{BB27055C-53E2-42FC-97B5-B2C8732C175B}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{2C8B48D3-0902-4CAC-9347-1C1530501A6A}"
+          p:after="r[@uid='{C87D1A19-48FA-4B8A-9E46-50C24003B269}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{769D1D55-B3C6-4A51-9C80-4C9651F81765}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: "Fraud Risk Pre-Assessment | Free Diagnostic & Prevention Tool"
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "Our Fraud Risk Questionnaire is a free, easily accessible web-based tool which provides a quick overview of how well your organisation is managing its fraud risk. It can be completed within 10 minutes and provides an instant response."
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/Fraud-Risk-Pre-Assessment" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: "Fraud Risk Pre-Assessment"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Fraud Risk Pre-Assessment"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: Understand your business’ fraud risk, identify vulnerabilities and mitigate issues
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "431381d4-2d55-454f-b302-590219c6a632"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="983984ea-0154-49d7-8065-24579b5802d2" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Fraud-Risk-Pre-Assessment/Fraud_1.jpg?rev=fd2f0018cfb546128ba7a0ad0673a968&hash=867E8AE76377BB647815DECAE414FD76" alt="Fraud Risk Pre-Assessment" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        Our Fraud Risk Questionnaire is a free, easily accessible web-based tool which provides a quick overview of how well your organisation is managing its fraud risk. It can be completed within 10 minutes and provides an instant response.
+        <p>Under the new Failure to Prevent Fraud Act, introduced in September 2025, it&rsquo;s now your responsibility to demonstrate reasonable fraud prevention procedures across your business.   <br /> <br /> Our questionnaire is a first step on the journey to assessing how robustly you're managing your fraud risk. We can support you in assessing the maturity of your fraud risk strategy, and whether it aligns to the requirements of the Failure to Prevent Fraud legislation.  </p> <h2>Assess your risk</h2> <p>Don't leave your business exposed to vulnerabilities. Quickly and easily understand how effectively your fraud risk management processes are embedded within your organisation, and how well your fraud risk is being managed.  </p> <h2>Identify your weaknesses </h2> <p>From your results, you&rsquo;ll know if there is more you could - and should - be doing to prevent fraud.  </p> <p>If that&rsquo;s the case, we can support you with a more detailed maturity assessment, encompassing the key elements of strategy, governance, risk assessments, training, and monitoring. </p> <p> <img alt="" style="height:500px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Fraud-Risk-Pre-Assessment/Copy-of-Fraud---banner_v4.png?h=500&w=1920&rev=f0233e18e05c4a768f7b192ce127dc3f&hash=F178EC35C6E69468D5291CB42B21F988" /></p> <h2>Take action  </h2> <p> From setting clear strategic directions to implementing effective monitoring techniques, we&rsquo;ll work to ensure that your business is equipped to combat fraud at every level. </p> <h2>Remain compliant </h2> <p>Failure to prevent offences can result in severe penalties, including hefty fines and reputational damage. It's now your responsible to ensure the necessary controls are in place to prevent fraud.  </p> <p>Across our team of accountants, investigators, economists, technology specialists, ex-law enforcement professionals and regulators, we bring together a wealth of forensic skills to support your business in its compliance. </p> <img alt="Total value hits nearly £1 billion of alleged fraud cases reaching UK Crown Courts It’s estimated that up to 5% of business revenues are lost to fraud Over a third (36%) of businesses assess their fraud risk on an ad hoc basis." style="height:600px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Fraud-Risk-Pre-Assessment/Fraud-Risk-QA--statsV4.gif?rev=15c4e049da694ec3b2675be63f3ee745&hash=D80700A079E57AF12628F194D6EA8B51" />  <h2>Did you know? </h2> <ul> <li>Crime statistics suggest that fraud related incidents currently account for almost 40% of all crime committed in the UK</li> <li>The total value of alleged fraud cases reaching UK Crown Courts is almost &pound;1 billion </li> <li>It&rsquo;s estimated that up to 5% of business revenues are lost to fraud</li> <li>Over a third (36%) of businesses assess their fraud risk on an ad hoc basis, and almost one in ten has never carried out a fraud risk assessment. </li> </ul> <div>Start proactively managing your fraud risk today. Complete our short questionnaire to get your free risk score results. </div> <p><em><sub><sup>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities</sup></sub></em></p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T013438Z

@@ -1,0 +1,282 @@
+﻿---
+ID: "ff9ad57a-afbd-4a4b-b91d-2d976c3b24c3"
+Parent: "e2c81c7e-67a7-4617-a06d-8ea5020610fc"
+Template: "4d2b49e6-1130-444a-b22c-5c7e25d01b56"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Home/Our Locations/East Midlands and the surrounding areas"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "c17f3d69-c947-45a0-b4f5-cbcdf58e805c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76684-HomePageHero-2000x800?v=531cee18" dam-id="RVpmO47SRf23V15z6NE3YQ" width="2000" height="800" alt="beds-meta.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76684/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{80B5E520-CE3A-4F2C-89CA-3AC33B9F5AE5}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "cda1a112-a1c3-4a5d-a622-12f8e51c4027"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{AD3BB6B9-560B-45B2-9506-C3DF4EEEDDFA}"
+          p:before="*"
+          s:ds="1f5c152b-4a1a-4bb3-a870-77b056223945"
+          s:id="{85C215AB-4D5B-4B19-A252-4CFFCB8CDB99}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{2C016B49-AE19-4403-99BE-E74D3EA5C015}"
+          p:after="r[@uid='{AD3BB6B9-560B-45B2-9506-C3DF4EEEDDFA}']"
+          s:ds="4c6168f2-6978-4fa4-aaac-a3a6cb87d299"
+          s:id="{EBF2A39C-8B23-4917-B5C1-CCAA2B984192}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main" />
+        <r
+          uid="{05B1EC3B-FC4F-4B73-A6C5-A3E6E297805C}"
+          p:after="r[@uid='{2C016B49-AE19-4403-99BE-E74D3EA5C015}']"
+          s:ds="6846483c-3d77-425b-a7e1-d1a4fd2fcb8a"
+          s:id="{AE0C33FA-8B15-4652-BAD0-0C9F04155052}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="/headless-main/developmentCards-3" />
+        <r
+          uid="{34F4CAB7-AB3B-461E-97A4-3C6964AFD262}"
+          p:after="r[@uid='{05B1EC3B-FC4F-4B73-A6C5-A3E6E297805C}']"
+          s:ds="20a223d6-bbb4-4f7b-bb7b-bbe082414d4a"
+          s:id="{AE0C33FA-8B15-4652-BAD0-0C9F04155052}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+          s:ph="/headless-main/developmentCards-3" />
+        <r
+          uid="{FA775552-4CF7-4E27-BCE0-9489A33071CC}"
+          p:after="r[@uid='{34F4CAB7-AB3B-461E-97A4-3C6964AFD262}']"
+          s:ds="8487d66c-1b08-4a4b-9ae1-495f06993944"
+          s:id="{AE0C33FA-8B15-4652-BAD0-0C9F04155052}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
+          s:ph="/headless-main/developmentCards-3" />
+        <r
+          uid="{4DBA97B9-113C-40A3-8079-7BDB7E913DDC}"
+          p:after="r[@uid='{FA775552-4CF7-4E27-BCE0-9489A33071CC}']"
+          s:ds="2f0ca6ea-aae7-4576-9770-48e30eeab336"
+          s:id="{AE0C33FA-8B15-4652-BAD0-0C9F04155052}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+          s:ph="/headless-main/developmentCards-3" />
+        <r
+          uid="{BE3785EA-5C1D-4A9E-9BEA-59EF01E12A66}"
+          p:after="*[1=2]"
+          s:ds="29d4fd79-35f3-4c29-ac3f-1a4ad375c1ef"
+          s:id="{AE0C33FA-8B15-4652-BAD0-0C9F04155052}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="/headless-main/developmentCards-3" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "438daa8b-193b-4204-ab33-dbae6e0ddb17"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: East Midlands and the surrounding areas
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1bdb1624-90c5-46d5-968f-0c17c9a816c4"
+      Hint: metadataKeywords
+      Value: "luxury beds, modern bed frames, minimalist bed design, sustainable furniture, wooden bed, handcrafted furniture, bedroom design, timeless comfort, eco-friendly furniture"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155045Z
+    - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
+      Hint: metadataTitle
+      Value: East Midlands and the surrounding areas
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: East Midlands and the surrounding areas
+    - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
+      Hint: pageSummary
+      Value: The bed collection transforms the bedroom into a calm, restorative space. Built with natural materials and clean lines, each design emphasizes comfort, balance, and the quiet sophistication of timeless craftsmanship.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
+      Hint: Title
+      Value: East Midlands and the surrounding areas
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e847c37-562d-43ac-8bc8-cae43684ce7a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
+      Hint: metadataDescription
+      Value: Explore modern beds crafted with natural materials and refined design. Each piece brings balance, serenity, and enduring comfort to the contemporary bedroom.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260322T175834Z
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: East Midlands and the surrounding areas
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1bdb1624-90c5-46d5-968f-0c17c9a816c4"
+      Hint: metadataKeywords
+      Value: camas de lujo, marcos de cama modernos, diseño de cama minimalista, muebles sostenibles, cama de madera, muebles hechos a mano, diseño de dormitorio, comodidad atemporal, muebles ecológicos
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155045Z
+    - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
+      Hint: metadataTitle
+      Value: Camas de Lujo
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cama
+    - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
+      Hint: pageSummary
+      Value: La colección de camas transforma el dormitorio en un espacio tranquilo y reparador. Construido con materiales naturales y líneas limpias, cada diseño enfatiza la comodidad, el equilibrio y la sofisticación silenciosa de la artesanía atemporal.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
+      Hint: Title
+      Value: Cama
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d4bd2d7-500c-4dd7-8c5b-b5b3a2a27b3b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
+      Hint: metadataDescription
+      Value: Explora camas modernas elaboradas con materiales naturales y diseño refinado. Cada pieza aporta equilibrio, serenidad y comodidad duradera al dormitorio contemporáneo.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260322T175835Z
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Cama
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1bdb1624-90c5-46d5-968f-0c17c9a816c4"
+      Hint: metadataKeywords
+      Value: lits de luxe, cadres de lit modernes, design de lit minimaliste, meubles durables, lit en bois, meubles artisanaux, design de chambre, confort intemporel, meubles écologiques
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155045Z
+    - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
+      Hint: metadataTitle
+      Value: Lits de luxe
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lit
+    - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
+      Hint: pageSummary
+      Value: La collection de lits transforme la chambre en un espace calme et réparateur. Conçue avec des matériaux naturels et des lignes épurées, chaque design met l'accent sur le confort, l'équilibre et la sophistication discrète d'un artisanat intemporel.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
+      Hint: Title
+      Value: Lit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8a79cdc4-3d04-405c-8413-a7748696366b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
+      Hint: metadataDescription
+      Value: Découvrez des lits modernes fabriqués avec des matériaux naturels et un design raffiné. Chaque pièce apporte équilibre, sérénité et confort durable à la chambre contemporaine.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260322T175835Z
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Lit
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1bdb1624-90c5-46d5-968f-0c17c9a816c4"
+      Hint: metadataKeywords
+      Value: lits de luxe, cadres de lit modernes, design de lit minimaliste, mobilier durable, lit en bois, mobilier artisanal, design de chambre, confort intemporel, mobilier écologique
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155045Z
+    - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
+      Hint: metadataTitle
+      Value: Lits de Luxe
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lit
+    - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
+      Hint: pageSummary
+      Value: La collection de lits transforme la chambre en un espace calme et réparateur. Conçue avec des matériaux naturels et des lignes épurées, chaque création met l'accent sur le confort, l'équilibre et la sophistication discrète d'un artisanat intemporel.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
+      Hint: Title
+      Value: Lit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4bdeabf1-8cf3-4f70-a1c6-489b89370dc3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
+      Hint: metadataDescription
+      Value: Découvrez des lits modernes fabriqués avec des matériaux naturels et un design raffiné. Chaque pièce apporte équilibre, sérénité et confort durable à la chambre contemporaine.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260322T175834Z
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Lit

@@ -1,0 +1,57 @@
+﻿---
+ID: "7366123b-00a3-4013-8f55-479c52622938"
+Parent: "9b577491-9b01-4fe5-a4a1-ba193bb3bf81"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Sample Content Item"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{01583D3A-9D19-43ED-AFDF-1DA1504860B8}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: sample, content, item, test, sitecore, xm cloud, demonstration
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260121T013815Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: "Sample Content Item - SEO Optimized Title"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sample Navigation Item
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Sample Content Item Title
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: "<p>This is a sample content item created through the MCP marketer API. It contains rich text content to demonstrate the functionality.</p><p>Here is some additional content with <strong>bold text</strong> and <em>italic text</em>.</p><p>This content item has been created to showcase the capabilities of the Sitecore XM Cloud platform and demonstrates various field types including rich text, single-line text, and multi-line text fields.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: This is a comprehensive metadata description for the sample content item. It provides search engines and social media platforms with information about this content.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d367ad83-af26-40e1-b100-ac0b0d845d44"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: This is a detailed summary of the sample content item that provides readers with an overview of what they can expect to find in this content. It serves as an introduction and helps users decide if this content is relevant to their needs.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260317T130009Z

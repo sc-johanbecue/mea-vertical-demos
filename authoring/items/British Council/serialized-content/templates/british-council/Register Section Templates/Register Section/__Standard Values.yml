@@ -1,0 +1,130 @@
+---
+ID: "b11e2600-0001-4001-8500-000000000003"
+Parent: "b11e2600-0001-4001-8500-000000000002"
+Template: "b11e2600-0001-4001-8500-000000000002"
+Path: "/sitecore/templates/Project/british-council/Register Section Templates/Register Section/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260804T000000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b11e2600-0001-4001-8500-000000000010"
+      Hint: PageTitle
+      Value: Create an account
+    - ID: "b11e2600-0001-4001-8500-000000000011"
+      Hint: PageIntro
+      Value: Register for free access to the British Council Digital Library and learning resources.
+    - ID: "b11e2600-0001-4001-8500-000000000012"
+      Hint: LoginPrompt
+      Value: Already have an account?
+    - ID: "b11e2600-0001-4001-8500-000000000013"
+      Hint: LoginLink
+      Value: |
+        <link text="Login" linktype="external" url="/auth/login" anchor="" target="" />
+    - ID: "b11e2600-0001-4001-8500-000000000014"
+      Hint: FirstNameLabel
+      Value: First name
+    - ID: "b11e2600-0001-4001-8500-000000000015"
+      Hint: LastNameLabel
+      Value: Last name
+    - ID: "b11e2600-0001-4001-8500-000000000016"
+      Hint: EmailLabel
+      Value: Email address
+    - ID: "b11e2600-0001-4001-8500-000000000017"
+      Hint: PasswordLabel
+      Value: Password
+    - ID: "b11e2600-0001-4001-8500-000000000018"
+      Hint: ConfirmPasswordLabel
+      Value: Confirm password
+    - ID: "b11e2600-0001-4001-8500-000000000019"
+      Hint: CompanyLabel
+      Value: Organisation
+    - ID: "b11e2600-0001-4001-8500-00000000001a"
+      Hint: SectorLabel
+      Value: Sector
+    - ID: "b11e2600-0001-4001-8500-00000000001b"
+      Hint: JobRoleLabel
+      Value: Role
+    - ID: "b11e2600-0001-4001-8500-00000000001c"
+      Hint: BusinessPostcodeLabel
+      Value: Postcode
+    - ID: "b11e2600-0001-4001-8500-00000000001d"
+      Hint: AnnualTurnoverLabel
+      Value: Organisation size
+    - ID: "b11e2600-0001-4001-8500-00000000001e"
+      Hint: TopicsSectionTitle
+      Value: Topic preferences
+    - ID: "b11e2600-0001-4001-8500-00000000001f"
+      Hint: TopicsIntro
+      Value: Select topics to personalise your library experience.
+    - ID: "b11e2600-0001-4001-8500-000000000020"
+      Hint: TopicOptions
+      Value: |
+        English learning
+        Audiobooks
+        Fiction
+        Magazines
+        Newspapers
+        Comics
+        Movies
+        Exams and assessment
+        Teaching resources
+        Arts and culture
+    - ID: "b11e2600-0001-4001-8500-000000000021"
+      Hint: TermsLabel
+      Value: I agree to the Terms of Use and Privacy Policy.
+    - ID: "b11e2600-0001-4001-8500-000000000022"
+      Hint: MarketingLabel
+      Value: I would like to receive communications from the British Council.
+    - ID: "b11e2600-0001-4001-8500-000000000024"
+      Hint: SubmitButtonLabel
+      Value: Create an account
+    - ID: "b11e2600-0001-4001-8500-000000000025"
+      Hint: SubmittingLabel
+      Value: Creating account…
+    - ID: "b11e2600-0001-4001-8500-000000000026"
+      Hint: ErrorMessage
+      Value: We could not create your account. Please check your details and try again.
+    - ID: "b11e2600-0001-4001-8500-000000000027"
+      Hint: SuccessMessage
+      Value: Your account has been created. You can now sign in.
+    - ID: "b11e2600-0001-4001-8500-000000000028"
+      Hint: SectorOptions
+      Value: |
+        Primary education
+        Secondary education
+        Higher education
+        English language learning
+        Arts and culture
+        Public sector
+        Not for profit
+        Corporate
+        Other
+    - ID: "b11e2600-0001-4001-8500-000000000029"
+      Hint: JobRoleOptions
+      Value: |
+        Teacher
+        Student
+        Librarian
+        Education manager
+        School administrator
+        Policy maker
+        Researcher
+        Partner organisation
+        Other
+    - ID: "b11e2600-0001-4001-8500-00000000002a"
+      Hint: AnnualTurnoverOptions
+      Value: |
+        Less than £5 million
+        £5 million - £25 million
+        £25 million - £50 million
+        £50 million - £100 million
+        More than £100 million
+        Not applicable

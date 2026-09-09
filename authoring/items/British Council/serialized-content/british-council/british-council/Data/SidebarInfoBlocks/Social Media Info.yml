@@ -1,0 +1,151 @@
+﻿---
+ID: "fcb18a39-e1f1-40a2-bf36-31311f58f481"
+Parent: "6ad2af09-8b0b-4f7b-a784-ed475bf86a8a"
+Template: "52cd4c2f-e36b-46a3-b417-0a9cd6e86407"
+Path: "/sitecore/content/british-council/british-council/Data/SidebarInfoBlocks/Social Media Info"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "241ad3eb-ff9e-41da-b516-81586c77af1c"
+      Hint: Link
+      Value: |
+        <link text="Social media" linktype="external" url="/" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "4ac1d03a-c117-462c-b495-f9a5985f48cb"
+      Hint: Title
+      Value: Stay updated on social media
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01eb9dfb-4335-4673-8f9f-bb157471bd59"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260729T145919Z
+    - ID: "fdcc3d6c-33a4-41dc-8932-b96ba1f1ee9a"
+      Hint: Body
+      Value: Follow the British Council.
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "241ad3eb-ff9e-41da-b516-81586c77af1c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Réseaux sociaux" url="/" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "4ac1d03a-c117-462c-b495-f9a5985f48cb"
+      Hint: Title
+      Value: Restez informé sur les réseaux sociaux
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80d6e21d-8ea0-438e-9742-38e98e800927"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084725Z
+    - ID: "fdcc3d6c-33a4-41dc-8932-b96ba1f1ee9a"
+      Hint: Body
+      Value: Suivez le British Council.
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "241ad3eb-ff9e-41da-b516-81586c77af1c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="सोशल मीडिया" url="/" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "4ac1d03a-c117-462c-b495-f9a5985f48cb"
+      Hint: Title
+      Value: सोशल मीडिया पर अपडेट रहें।
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe21f9dd-cf24-4b48-b90e-9924e99cfd70"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093417Z
+    - ID: "fdcc3d6c-33a4-41dc-8932-b96ba1f1ee9a"
+      Hint: Body
+      Value: ब्रिटिश काउंसिल का अनुसरण करें।
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "241ad3eb-ff9e-41da-b516-81586c77af1c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Sociale media" url="/" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "4ac1d03a-c117-462c-b495-f9a5985f48cb"
+      Hint: Title
+      Value: Blijf op de hoogte via sociale media
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "697b3f80-59a8-49c7-b167-38beb58627e9"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084727Z
+    - ID: "fdcc3d6c-33a4-41dc-8932-b96ba1f1ee9a"
+      Hint: Body
+      Value: Volg de British Council.

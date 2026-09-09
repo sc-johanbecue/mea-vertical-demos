@@ -1,0 +1,47 @@
+﻿---
+ID: "00244f93-93af-40e0-90b4-03f950500a35"
+Parent: "188c8c27-f7b4-474b-ab41-d378a5180d10"
+Template: "188c8c27-f7b4-474b-ab41-d378a5180d10"
+Path: "/sitecore/templates/Project/miller-homes/HeroCarouselSection/HeroCarouselSection Template/__Standard Values"
+SharedFields:
+- ID: "40b34348-2b5f-4e15-b783-d1f0d43b8f0e"
+  Hint: Slides
+  Value: "{A24B70DF-A004-43E9-AAD2-9621BF92AC90}"
+- ID: "cfdbee07-8015-4b42-8126-32333d6423b8"
+  Hint: AutoplayInterval
+  Value: 5000
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c5ce1c23-3a2f-461e-ba0f-96a257b2d54b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031156Z
+    - ID: "4b52da6b-c853-4cda-b775-812629fe2e90"
+      Hint: NextSlideLabel
+      Value: Next slide
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8b374bf8-6adf-497a-9a48-07633c9714ad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d3e16ff6-acf6-465c-a1c7-2ef272f19975"
+      Hint: PreviousSlideLabel
+      Value: Previous slide
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T101133Z

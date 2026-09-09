@@ -1,0 +1,310 @@
+﻿---
+ID: "3e9c08d5-9c51-459f-9c3f-ebe44f2943e3"
+Parent: "ddd121d2-a119-4784-963b-f9394f31c24a"
+Template: "393412d8-5a94-4581-b7c8-0ee2342617c2"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/KPMG Beyond Positioning Memo Page
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B20A46D6-0A84-4412-BC13-8F20F1CC6118}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5640acde-d4a3-46e2-9563-36bcd799e326"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "2fe51daf-b850-43ec-ba28-f080ad64c068"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: KPMG Beyond Positioning Memo
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T155658Z
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: KPMG Beyond Positioning Memo Page
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: KPMG Beyond Positioning Memo Page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fbe67d8a-0e7b-48bc-bead-b2997375ebed"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T155659Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T155700Z
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: KPMG Beyond Positioning Memo
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: KPMG Beyond Positioning Memo Page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b82c473d-4190-4a42-866a-6e544780bad8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20260605T155700Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T155700Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3AF4B999-A898-47B5-AA01-60A106086A54}"
+              p:before="*"
+              s:id="{A1000001-0001-4000-8000-000000000001}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{1A45D23F-909C-4689-8094-1CD0209765B1}"
+              p:after="r[@uid='{3AF4B999-A898-47B5-AA01-60A106086A54}']"
+              s:id="{A1000001-0002-4000-8000-000000000002}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{4D1B8010-9286-4A27-94BD-56394F60A68D}"
+              p:after="r[@uid='{1A45D23F-909C-4689-8094-1CD0209765B1}']"
+              s:id="{A1000001-0003-4000-8000-000000000003}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{EF83A868-FEEF-416B-9C85-BF82AA853372}"
+              p:after="r[@uid='{4D1B8010-9286-4A27-94BD-56394F60A68D}']"
+              s:id="{A1000001-0004-4000-8000-000000000004}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{59DA7FC6-E594-4839-9C16-B9FECA04D498}"
+              p:after="r[@uid='{EF83A868-FEEF-416B-9C85-BF82AA853372}']"
+              s:id="{A1000001-0005-4000-8000-000000000005}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{3CCA0C43-F62B-474E-A61D-26F891B0D095}"
+              p:after="r[@uid='{59DA7FC6-E594-4839-9C16-B9FECA04D498}']"
+              s:ds="31814902-89c3-ca47-9776-b6bbdd469617"
+              s:id="{23F08862-0BC1-4009-8810-0BDDB70FD4D3}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{CB793583-E5F8-42C2-B317-3F7338991651}"
+              p:after="*[1=2]"
+              s:id="{A1000001-0009-4000-8000-000000000009}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "13680e6a-00fa-4d8b-becf-74d2ff848ac6"
+      Hint: Content
+      Value: |
+        # KPMG Beyond Positioning Memo
+        
+        ## Executive summary
+        KPMG Beyond should position itself as an **invitation-only client connectivity platform for senior leaders** that turns complex topics into **trusted peer exchange, curated insight, and decision support**. The competitive field is crowded with high-quality thought leadership, but much of it remains either too public, too generic, or too advisory-led. KPMG Beyond can stand apart by combining **board-relevant content, private community engagement, and practical business implications** in one experience.
+        
+        The strongest whitespace is not simply more content. It is a **better experience for executive trust-building**: a place where senior leaders can compare how peers are handling cost pressure, ESG reporting, tax reform, and audit assurance, then move from insight to action with confidence.
+        
+        ## Market context
+        Across the four priority topics, competitors tend to cluster into three patterns:
+        
+        1. **Strategic thought leadership** — strong point of view, but often broad and public.
+        2. **Service-led expertise** — highly credible, but usually framed as advisory support rather than a client community.
+        3. **Reporting/compliance guidance** — useful and timely, but often tactical and fragmented.
+        
+        KPMG Beyond can bridge those patterns by being:
+        - **Curated, not cluttered**
+        - **Private, not public-first**
+        - **Executive, not technical-first**
+        - **Community-led, not publication-led**
+        
+        ## Competitive implications by topic
+        
+        ### 1) Cost optimisation
+        Competitors frame cost optimisation as resilience, margin improvement, and reinvestment in growth. EY and Deloitte are especially strong on the idea that cost reduction should be structural and technology-enabled, while PwC/Strategy& emphasizes benchmarking and fit-for-growth.
+        
+        **Implication for KPMG Beyond:**
+        Position cost optimisation as a **leadership decision forum** rather than a cost-cutting content stream. KPMG Beyond can help leaders compare cost moves, pressure-test tradeoffs, and identify where efficiency is supporting or undermining strategic ambition.
+        
+        **Differentiation opportunity:**
+        - Private peer benchmarking on what is actually being cut, kept, or reinvested
+        - Executive summaries that translate cost programs into business outcomes
+        - Short, high-value leader exchanges instead of long-form efficiency content
+        
+        ### 2) ESG reporting
+        Competitors are strong on regulation, assurance readiness, and reporting processes. EY and Deloitte lead on operational and assurance framing; PwC links ESG to value creation and broader corporate reporting; Accenture is strong on controls and reporting systems.
+        
+        **Implication for KPMG Beyond:**
+        Do not compete only on regulatory explanation. Compete on **executive confidence**. KPMG Beyond can help senior leaders understand how peers are approaching CSRD, ISSB, assurance expectations, disclosure controls, and board oversight.
+        
+        **Differentiation opportunity:**
+        - “What good looks like” benchmarking for reporting maturity
+        - Private discussion around what boards actually want to see
+        - Practical community insights on implementation barriers and lessons learned
+        
+        ### 3) Tax reform
+        PwC and EY are especially visible here. PwC has the clearest direct coverage of 2025 tax reform, while EY offers strong policy readiness and planning guidance. Most competitor content is still highly technical or policy-heavy.
+        
+        **Implication for KPMG Beyond:**
+        Translate tax reform into **business implication, leadership impact, and peer comparison**. That is the gap. Senior leaders do not just need rule changes; they need to know what peers are doing, what risks are emerging, and how tax change interacts with capital allocation, operating model, and cross-border strategy.
+        
+        **Differentiation opportunity:**
+        - Board-level tax reform briefings
+        - Curated peer responses by industry
+        - Executive-focused summaries of policy implications, not just technical changes
+        
+        ### 4) Audit assurance
+        Deloitte and EY are the strongest assurance voices, especially where audit intersects with internal controls, ESG assurance, and governance. Their content is credible, but often still professional-services-led rather than community-led.
+        
+        **Implication for KPMG Beyond:**
+        Make assurance feel less like a service brochure and more like a **trusted executive conversation about confidence, controls, and readiness**.
+        
+        **Differentiation opportunity:**
+        - Invite-only discussions on assurance readiness and audit committee priorities
+        - Peer exchange on how organizations are preparing for nonfinancial assurance
+        - Curated insight that connects controls, data quality, and leadership oversight
+        
+        ## Positioning statement
+        **KPMG Beyond is the invitation-only community where senior business leaders turn complex business change into trusted decisions — through curated insight, peer exchange, and practical executive perspective.**
+        
+        ## Message pillars
+        ### 1) Trusted peer connectivity
+        Leaders want to understand how other leaders are responding. KPMG Beyond should promise access to relevant peers, not just access to content.
+        
+        ### 2) Curated insight with executive relevance
+        The platform should surface only the most decision-useful intelligence, written for senior leaders and framed around impact.
+        
+        ### 3) Practical confidence in complexity
+        For cost, ESG, tax, and assurance, the platform should help leaders reduce ambiguity and act with confidence.
+        
+        ### 4) Private and invitation-only
+        Exclusivity is not just a brand attribute; it is a trust mechanism. The value is in the quality of the audience and the quality of the exchange.
+        
+        ## Tone and voice guidance
+        KPMG Beyond should sound:
+        - **Confident but not corporate-heavy**
+        - **Insightful but not academic**
+        - **Executive and concise**
+        - **Selective, not noisy**
+        - **Practical, with a clear line to action**
+        
+        Avoid sounding like:
+        - a generic insights hub
+        - a broad consulting services page
+        - a public newsfeed
+        - a compliance-only content library
+        
+        ## Content and experience recommendations
+        1. **Curate by executive question, not by topic alone**
+           - Example: “How are leaders handling rising cost pressure without sacrificing growth?”
+           - Example: “What does board-ready ESG reporting look like in practice?”
+        
+        2. **Build around leader moments**
+           - quarterly business planning
+           - board cycles
+           - reporting deadlines
+           - regulatory change windows
+        
+        3. **Use community mechanics**
+           - invite-only roundtables
+           - peer commentary
+           - expert-hosted sessions
+           - short briefing notes after live discussions
+        
+        4. **Translate expertise into action**
+           - what changed
+           - why it matters
+           - what peers are doing
+           - what leaders should do next
+        
+        ## Strategic whitespace
+        KPMG Beyond can own the space where:
+        - **insight meets interaction**
+        - **authority meets intimacy**
+        - **technical change becomes executive decision support**
+        - **private community creates more value than public thought leadership**
+        
+        That is the clearest way to differentiate from Deloitte, EY, PwC, Accenture, McKinsey, and BCG.
+        
+        ## Recommended tagline directions
+        - **Trusted insight for leaders navigating change**
+        - **Where senior leaders compare, learn, and decide**
+        - **Private access to practical perspective**
+        - **Curated intelligence for complex decisions**
+        
+        ## Bottom line
+        KPMG Beyond should not try to outpublish competitors. It should out-orchestrate them. The advantage lies in combining **quality of insight, relevance of audience, and depth of exchange** into a premium, invitation-only experience that feels materially more useful than a public insights library.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T155701Z
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: KPMG Beyond Positioning Memo
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: KPMG Beyond
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2e204e3c-d393-49fe-92a3-bf99fc456ffb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20260605T155701Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T160224Z

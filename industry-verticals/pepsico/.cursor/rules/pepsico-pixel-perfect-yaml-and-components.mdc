@@ -1,0 +1,133 @@
+---
+description: Pepsico (Next.js + Content SDK) — pixel-perfect UI from screenshots + correct Sitecore serialized YAML and TSX wiring
+globs:
+  - "**/pepsico/src/**/*.tsx"
+  - "**/pepsico/src/**/*.ts"
+  - "**/pepsico/.sitecore/**"
+  - "**/authoring/items/pepsico/**/*.yml"
+alwaysApply: false
+author: Johan Becue
+---
+
+# Bupa: screenshots → TSX + YAML (do this every time)
+
+Use this when building **pixel-faithful** components or **full-page** layouts from screenshots, and when adding **serialized Sitecore items** under `authoring/items/pepsico`. It merges UI discipline with **Sitecore CLI serialization** constraints so pushes do not fail.
+
+---
+
+## 1) Clarify the design source (before coding)
+
+- **Scope:** Single component vs whole page. A page may need **multiple components**, placeholders, and **separate mobile/desktop** treatments.
+- **Breakpoints:** Note where layout changes (e.g. `lg` = 1024px). Match Tailwind `sm` / `md` / `lg` / `xl` to the design, do not assume defaults.
+- **States:** Active nav section, open drawers, hover — list them; implement the critical path first.
+- **Content:** Editable via Sitecore fields vs static markup — prefer fields + sensible defaults in TSX.
+- **Brand tokens:** Blues (`#0079c1`, `#002b5c`), greys, radii — align with existing Bupa components rather than inventing new palettes.
+
+---
+
+## 2) React / TSX components (`industry-verticals/pepsico/src`)
+
+### Structure
+
+- Prefer **`'use client'`** when using hooks, `useState`, `useSitecore`, drawers, or browser-only APIs.
+- Keep **`ComponentProps`** from `@/lib/component-props` and mirror **fields** to authoring templates.
+- **Styling:** Prefer **Tailwind in TSX** (and minimal inline `style{}` only for dynamic URLs). Avoid new `.module.css` unless the codebase already uses it for that pattern.
+
+### Pixel fidelity
+
+- Reproduce **spacing, typography scale, border-radius, shadows**, and **two-row / stacked** patterns from the reference literally, then tune with devtools.
+- **Do not** merge unrelated regions into one card if the design shows **separate panels** with **visible page/photo between** them (common in Bupa hero).
+- **Images:** Respect aspect ratio / thumbnail vs hero rules from the design (e.g. small rounded thumbs vs full-bleed background).
+
+### Sitecore integration
+
+- **`Placeholder`:** Dynamic names must match YAML placeholder settings — use `DynamicPlaceholderId` from params: `` `name-${DynamicPlaceholderId ?? '1'}` ``.
+- **Child renderings:** If behaviour differs when nested (e.g. hero cards vs standalone), use **React context** providers around the placeholder instead of fragile global CSS, so children can read layout mode.
+- **Navigation:** If the design needs **different secondary links per top-level section**, model **children under each section** in the nav tree and implement **active section → show children** in a dedicated export (e.g. `BupaNavigation`) without breaking the default `Navigation` export if other sites rely on it.
+
+### Registration
+
+- Add the component to **`industry-verticals/pepsico/.sitecore/component-map.ts`** with the exact **Sitecore Component Name** as the map key.
+- Set **`componentType: 'client'`** for client components.
+- If the Sitecore name must stay generic (**`Header`**) but the implementation is `BupaHeader`, register **`BupaHeader`** in the map and use the **rendering item’s component name field** to point at it (same pattern as other Bupa components).
+
+---
+
+## 3) Serialized YAML (`authoring/items/pepsico`)
+
+### Paths and repo layout
+
+- Bupa content lives under paths like **`/sitecore/content/pepsico/pepsico-uk/...`** with corresponding files under **`authoring/items/pepsico/site/pepsico-uk/`**.
+- **Project-specific** renderings and placeholder settings live under:
+  - `authoring/items/pepsico/projectRenderings/pepsico/`
+  - `authoring/items/pepsico/projectPlaceholderSettings/pepsico/`
+
+### Rendering items (JSON rendering)
+
+- **File name** can match the human name (e.g. `Header.yml`).
+- **Critical:** `componentName` in YAML must match the key in **`component-map.ts`** (e.g. `BupaHeader`).
+- Include **`Placeholders`** shared field with **IDs** of placeholder setting items when the component exposes placeholders.
+- Use **`IsRenderingsWithDynamicPlaceholders=true`** in **OtherProperties** when using `header-nav-{*}` style keys.
+- **Datasource Template / Location** — follow existing Bupa components (Footer, Hero, etc.) for consistency.
+
+### Placeholder settings (new placeholders)
+
+- Create a **Placeholder Settings** item under `Project/pepsico/`.
+- **Placeholder Key:** use `{*}` for the dynamic segment (e.g. `pepsico-header-nav-{*}`).
+- **Allowed Controls:** reference the rendering IDs that may be inserted (often **Navigation** rendering id).
+
+### Available renderings
+
+- Append new rendering item **IDs** to **`Presentation/Available Renderings/Bupa.yml`** so authors can pick it in the UI.
+
+### Partial designs
+
+- Partial design YAML must place the rendering on the correct **placeholder** (e.g. `headless-header`) and use **nested placeholder** paths for dynamic placeholders (e.g. `/headless-header/pepsico-header-nav-1`).
+
+### Content pages under `Home`
+
+- Prefer letting **Sitecore Serialization** create or **relayout** files: **do not** rely on deep hand-built folder trees for many siblings.
+- After bulk-adding or scripting YAML files, always run validation (see §4). Items whose **path** in YAML does not match the configured **name serializer** will fail **filesystem integrity validation** on push.
+
+---
+
+## 4) Sitecore CLI — mandatory after YAML churn
+
+Run from **`industry-verticals/pepsico`** (where `sitecore.json` lives):
+
+```bash
+dotnet sitecore serialization validate --fix
+dotnet sitecore serialization push -n <environmentName>
+```
+
+- **`validate --fix`** moves serialized files to **expected on-disk paths** (e.g. hashed folder segments) and removes empty folders. Without this, **`serialization push` may refuse** with `INCORRECT FILE PATH` / `Filesystem integrity validation found errors`.
+- Re-run **`validate`** (without `--fix`) after fixes if you need a clean report.
+
+---
+
+## 5) “Pixel perfect from screenshot” checklist
+
+1. Crop or label **desktop vs mobile** screenshots; implement **mobile-first** or **desktop-first** consistently with the design.
+2. List **every distinct region** (header strip, nav row, hero, tray, footer) and map each to a **component or placeholder**.
+3. Match **exact visual hierarchy** (which blocks are separate cards vs one container).
+4. Specify **breakpoints** for each layout change.
+5. Use **theme colours / radii** from existing Bupa TSX where possible.
+6. Wire **Sitecore** (fields, placeholders, renderings, available renderings, partial designs).
+7. **`dotnet sitecore serialization validate --fix`** then **push**.
+
+---
+
+## 6) Related rules in this repo
+
+- **`componentRegistration.mdc`** — full SitecoreAI registration steps when using Marketer MCP / templates.
+- **`placeholder-layout.mdc`** — flex + placeholder patterns for card grids.
+- **`sitecoreAiComponentRegistrationPrompt.mdc`** — SitecoreAI-oriented registration prompt.
+
+---
+
+## 7) Anti-patterns (avoid)
+
+- Adding dozens of page YAML files **only** as nested `Home/.../Long Name/Long Name.yml` without running **`serialization validate --fix`**.
+- Using the **same** `Navigation` behaviour for Bupa and other verticals when Bupa needs a **completely different** DOM — use a **separate export** or component name.
+- **Globally** changing shared navigation or header behaviour without a **feature flag**, context, or distinct component name.
+- Registering the component in **`component-map.ts`** but forgetting **Available Renderings** or **placeholder settings**, so authors cannot add it.

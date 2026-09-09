@@ -1,0 +1,155 @@
+﻿---
+ID: "fa87dab7-1319-43e4-b382-85a65ac60ef1"
+Parent: "5f610f24-b87c-47a4-9d2c-3b84e6aa9cac"
+Template: "f43d609d-342e-47dd-baee-52523d40b0c7"
+Path: "/sitecore/content/british-council/british-council/Data/PortalCarouselSlides/Slide Comics"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Comics
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{79CF108B-8968-4E4E-93F8-FC13D3715029}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa6fed22-f579-42d5-a884-2adcb6a70728"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link text="Browse Comics" linktype="external" url="/portal/comics" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T043009Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Bandes dessinées
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{79CF108B-8968-4E4E-93F8-FC13D3715029}" alt="Bandes dessinées et romans graphiques" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e885534-2695-4738-9c34-fd228e7f01d0"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Parcourir les bandes dessinées" url="/portal/comics" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084716Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: कॉमिक्स
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{79CF108B-8968-4E4E-93F8-FC13D3715029}" alt="कॉमिक पुस्तकें और ग्राफिक उपन्यास" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "934b6f32-84e8-43fe-8309-66ae747c124b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="कॉमिक्स ब्राउज़ करें" url="/portal/comics" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093407Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Strips
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{79CF108B-8968-4E4E-93F8-FC13D3715029}" alt="Stripboeken en graphic novels" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fefd0b81-fc0d-47e5-8136-b0674ce23eb7"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Blader door strips" url="/portal/comics" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084717Z

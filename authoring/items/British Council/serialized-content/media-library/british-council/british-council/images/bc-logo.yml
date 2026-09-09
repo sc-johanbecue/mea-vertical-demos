@@ -1,0 +1,49 @@
+﻿---
+ID: "1b437fa1-88b5-49dd-9e6f-284ab81b34d7"
+Parent: "88b15d38-82b0-443b-847c-4e93c77baf07"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/british-council/british-council/images/bc-logo"
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 220
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "31652d3d-390f-4db9-b80d-59cada59a75f"
+  Value: iVBORw0KGgoAAAANSUhEUgAAANwAAAA4CAIAAAAZ7QFCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVHhe7dKxCYBAAMDAL93DrewFJxDcRFz2HcABTHFwVeqMddkgZXwT/MuU5JiSHFOSY0pyTEmOKckxJTmmJMeU5JiSHFOSY0pyTEmOKckxJTmmJMeU5JiSHFOSY0pyTEmOKckxJTmmJMeU5JiSHFOSY0pyTEmOKckxJTmmJMeU5JiSHFOSY0pyTEmOKckxJTmmJMeU5JiSHFOSY0pyTEmOKckxJTmmJMeU5JiSHFOSY0pyTEnLdTymJOTc7znnC9//BnR42v8QAAAAAElFTkSuQmCC
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 300
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 220 x 56
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 56
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T130939Z
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: British Council
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7db68bbd-8064-4cc7-8bc6-29ceafd887a3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T130939Z

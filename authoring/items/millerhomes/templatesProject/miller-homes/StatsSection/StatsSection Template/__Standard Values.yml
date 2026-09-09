@@ -1,0 +1,50 @@
+﻿---
+ID: "1c2c79f1-fa4a-4fe4-a8ca-fdd3847dbd5c"
+Parent: "005a5510-120e-4263-b8d1-07fe9227f30a"
+Template: "005a5510-120e-4263-b8d1-07fe9227f30a"
+Path: "/sitecore/templates/Project/miller-homes/StatsSection/StatsSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "104f5a9e-a0d7-4c34-a98f-7af92b8f8638"
+      Hint: CTAText
+      Value: Take me there
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T030657Z
+    - ID: "31fe3e87-bf6b-4504-b974-b9f81161ef02"
+      Hint: TitleHighlight
+      Value: new adventure
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ef0f2e9e-3448-4dd3-b28f-05c6ed3bd52f"
+    - ID: "a73016a2-c230-497b-bec5-7067bedf251b"
+      Hint: Description
+      Value: |
+        <p>Buying a new home is an exciting adventure and we're here to offer you all the support you need from our very first meeting through to moving day and beyond.
+        </p>
+        <p>Let us guide you on a journey through the exciting experience of buying a brand-new Miller home.</p>
+    - ID: "b12b61f8-214b-43db-bbb9-f75c619987de"
+      Hint: CTALink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bfb9598c-8933-4387-aa88-e6268563a320"
+      Hint: TitlePart1
+      Value: Every home is a
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T155228Z

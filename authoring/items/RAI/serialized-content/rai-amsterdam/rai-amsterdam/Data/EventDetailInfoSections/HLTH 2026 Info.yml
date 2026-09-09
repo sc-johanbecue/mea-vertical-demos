@@ -1,0 +1,59 @@
+---
+ID: "62342bd1-7f7c-4496-8e68-511861fd86ac"
+Parent: "cb5351ba-317d-4ac9-9883-19bf6e9b3ad5"
+Template: "8aca8eab-cce4-48ab-808f-7df9cb3e78d5"
+Path: "/sitecore/content/rai/rai-amsterdam/Data/EventDetailInfoSections/HLTH 2026 Info"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "e433a478-3c5b-4f92-8b7f-7c34ed1b878f"
+      Hint: OpeningHoursTitle
+      Value: Opening hours
+    - ID: "732c3ca2-e550-4308-af93-d0a444ffe705"
+      Hint: OpeningHours
+      Value: |
+        <p>15 June  12:00PM - 07:30PM<br>16 June  08:00AM - 06:45PM<br>17 June  08:00AM - 10:30PM<br>18 June  09:00AM - 03:00PM</p>
+    - ID: "636a09fb-bbdd-4240-acbd-a6e02d294cd0"
+      Hint: LocationTitle
+      Value: Location
+    - ID: "b70beb77-d456-4a01-a5fe-44873494af5c"
+      Hint: Location
+      Value: |
+        <p>Entrance K</p>
+    - ID: "4e8a387a-128d-496f-a968-45dc8e271d59"
+      Hint: TicketTitle
+      Value: Ticket info
+    - ID: "9a136386-2662-4be0-b168-ab7683b01505"
+      Hint: TicketInfo
+      Value: |
+        <p>2795</p>
+    - ID: "70afeb72-7cdc-469d-9e0a-45458355d466"
+      Hint: OrganisationName
+      Value: HLTH 2026
+    - ID: "0435ea39-d956-4ee5-a978-9a6cdadca5a5"
+      Hint: OrganisationLink
+      Value: |
+        <link text="HLTH 2026" linktype="external" url="https://hlth.com/events/europe/" anchor="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed1c374f-fec9-49bd-8acc-bfd9017b3e80"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

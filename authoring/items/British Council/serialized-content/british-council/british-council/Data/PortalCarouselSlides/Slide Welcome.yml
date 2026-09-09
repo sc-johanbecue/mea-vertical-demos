@@ -1,0 +1,145 @@
+﻿---
+ID: "ce2334c5-11a9-4eaa-824b-314e6b8ec7ec"
+Parent: "5f610f24-b87c-47a4-9d2c-3b84e6aa9cac"
+Template: "f43d609d-342e-47dd-baee-52523d40b0c7"
+Path: "/sitecore/content/british-council/british-council/Data/PortalCarouselSlides/Slide Welcome"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Newspapers
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{B9A68BE9-5AB9-487F-98AA-3A0EF093262A}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link text="Browse Newspapers" linktype="external" url="/portal/newspapers" anchor="" target="" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Journaux
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{B9A68BE9-5AB9-487F-98AA-3A0EF093262A}" alt="Pile de journaux" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bdda52f1-db35-42a4-a163-5f3c71a1cca2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Parcourir les journaux" url="/portal/newspapers" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084717Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: अखबार
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{B9A68BE9-5AB9-487F-98AA-3A0EF093262A}" alt="अखबारों का ढेर" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "434384cc-9c94-4980-86d0-b1f2593300f3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="अखबार ब्राउज़ करें" url="/portal/newspapers" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093407Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Kranten
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{B9A68BE9-5AB9-487F-98AA-3A0EF093262A}" alt="Stapel kranten" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "df823aaa-6927-436f-bf42-66b6f44f03fe"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Blader door kranten" url="/portal/newspapers" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084718Z

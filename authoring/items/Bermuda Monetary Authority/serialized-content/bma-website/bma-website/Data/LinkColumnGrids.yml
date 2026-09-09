@@ -1,0 +1,25 @@
+---
+ID: "61b3fe3b-c792-42d9-8790-9e6f8e4f82f2"
+Parent: "e5f58de1-9e2a-4c96-a653-ceb18ba7ee9d"
+Template: "60684ff4-2e4b-43a9-b0fd-a9085afc50e3"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/LinkColumnGrids"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "61b3fe3b-c792-42d9-8790-9e6f8e4f82f2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

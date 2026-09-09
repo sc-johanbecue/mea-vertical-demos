@@ -1,0 +1,38 @@
+﻿---
+ID: "cbde15a2-614d-4dda-8a19-6bae544b822e"
+Parent: "98b32dbc-eb29-4be7-a17c-2d4d0576c853"
+Template: "98b32dbc-eb29-4be7-a17c-2d4d0576c853"
+Path: "/sitecore/templates/Project/british-council/Entitlements/Entitlement Page Fields/__Standard Values"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5baa5c36-3c3a-4843-b57b-6953b3c477fc"
+- ID: "dd9683e6-8d4c-4b81-a81f-bb33ed292f59"
+  Hint: EntitlementsOperator
+  Value: "{63290F56-C8D3-4D06-9C64-4AB3DDE821A1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260306T105539Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54a83c95-4b17-44fd-b850-ec2ba6cfa9c7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T014904Z

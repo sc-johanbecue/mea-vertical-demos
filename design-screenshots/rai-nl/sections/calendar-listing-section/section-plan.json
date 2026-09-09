@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-16T22:34:14.328Z",
+  "reviewStatus": "pending",
+  "sectionFolder": "calendar-listing-section",
+  "review": {
+    "narrativeSummary": "We will create 2 components: TitleDescriptionTeaserGridSection (section wrapper) and EventListCard (repeatable child). TitleDescriptionTeaserGridSection datasource fields: Title. Sitecore placeholder \"teaser-cards\" on TitleDescriptionTeaserGridSection accepts ~2 EventListCard item(s). Each EventListCard is authored with: Title, Body, Cta. Layout: grid.",
+    "notes": [
+      "Detection: Calendar listing (10 event links)",
+      "Placeholder \"teaser-cards\" → EventListCard (grid).",
+      "Child card component \"EventListCard\" slots into parent placeholder."
+    ],
+    "contentGuidance": null,
+    "nextSteps": [
+      "Review the narrative summary and responsive layout notes against the section PNGs.",
+      "Edit component names or fields in this file if the plan looks wrong, then set reviewStatus to \"approved\".",
+      "Run sitecore-component-from-design for each component under implementationPlan.components.",
+      "Create YAML artifacts listed under each component.yaml.artifacts.",
+      "Wire renderings into page YAML via sitecore-page-from-design."
+    ]
+  },
+  "responsiveLayout": null,
+  "detection": {
+    "cmsName": "CalendarListingSection",
+    "folderName": "calendar-listing-section",
+    "type": "listing",
+    "componentType": "Listing",
+    "scope": "page",
+    "selector": "#content > div:nth-of-type(3)",
+    "anchorWebid": null,
+    "heading": null,
+    "reason": "Calendar listing (10 event links)",
+    "captureMode": "clean",
+    "isStickyOverlay": false,
+    "order": 1,
+    "repeatCount": null,
+    "placeholderFor": "EventListCard",
+    "parentSection": null,
+    "includesSectionTitle": false,
+    "detectedFields": [
+      "title",
+      "cards"
+    ],
+    "source": "visual-dom"
+  },
+  "assets": {
+    "screenshots": {
+      "desktop": "calendar-listing-section-desktop.png",
+      "tablet": "calendar-listing-section-tablet.png",
+      "mobile": "calendar-listing-section-mobile.png"
+    },
+    "sectionHtml": "section.html",
+    "outputDir": "calendar-listing-section"
+  },
+  "implementationPlan": {
+    "confidence": "high",
+    "summary": "Build 2 Sitecore components: TitleDescriptionTeaserGridSection + EventListCard (parent/child placeholder pattern).",
+    "placeholderKey": "teaser-cards-{DynamicPlaceholderId}",
+    "repeatCount": 2,
+    "components": [
+      {
+        "role": "parent",
+        "cmsName": "TitleDescriptionTeaserGridSection",
+        "componentType": "Section",
+        "description": "Grid section with section title and repeating card placeholder.",
+        "confidence": "high",
+        "fields": [
+          {
+            "name": "Title",
+            "type": "Single-Line Text"
+          }
+        ],
+        "placeholders": [
+          {
+            "key": "teaser-cards-{DynamicPlaceholderId}",
+            "allowedRenderings": [
+              "EventListCard"
+            ],
+            "layout": "grid"
+          }
+        ],
+        "variants": [
+          "Default",
+          "Inversed",
+          "ImageTop",
+          "Animated",
+          "Carousel"
+        ],
+        "parentComponents": [],
+        "tsx": {
+          "componentMapKey": "TitleDescriptionTeaserGridSection",
+          "directory": "src/components/title-description-teaser-grid-section/",
+          "mainFile": "src/components/title-description-teaser-grid-section/TitleDescriptionTeaserGridSection.tsx",
+          "variantExports": [
+            "Default",
+            "Inversed",
+            "ImageTop",
+            "Animated",
+            "Carousel"
+          ],
+          "componentMapRegistration": ".sitecore/component-map.ts → 'TitleDescriptionTeaserGridSection': () => import('@/components/title-description-teaser-grid-section/TitleDescriptionTeaserGridSection')"
+        },
+        "yaml": {
+          "sitecoreProjectPath": "authoring/items/{ProjectName}/serialized-content/",
+          "artifacts": [
+            {
+              "kind": "template-branch",
+              "description": "Sitecore template branch (Template, Data section, field items)",
+              "pathPattern": "/sitecore/templates/Project/{project}/TitleDescriptionTeaserGridSection/"
+            },
+            {
+              "kind": "rendering",
+              "description": "Json rendering definition",
+              "pathPattern": "/sitecore/layout/Renderings/Project/{project}/TitleDescriptionTeaserGridSection"
+            },
+            {
+              "kind": "headless-variants-folder",
+              "description": "Headless Variants folder for Experience Editor",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionTeaserGridSection"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Default variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionTeaserGridSection/Default.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Inversed variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionTeaserGridSection/Inversed.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "ImageTop variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionTeaserGridSection/ImageTop.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Animated variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionTeaserGridSection/Animated.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Carousel variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionTeaserGridSection/Carousel.yml"
+            },
+            {
+              "kind": "data-folder",
+              "description": "Datasource folder for authored content",
+              "pathPattern": "{siteContentPath}/Data/TitleDescriptionTeaserGridSections"
+            },
+            {
+              "kind": "default-datasource",
+              "description": "Default datasource item with field values from design",
+              "pathPattern": "{siteContentPath}/Data/TitleDescriptionTeaserGridSections/Default TitleDescriptionTeaserGridSection.yml"
+            },
+            {
+              "kind": "placeholder-setting",
+              "description": "Placeholder setting for teaser-cards-{DynamicPlaceholderId}",
+              "pathPattern": "/sitecore/layout/Placeholder Settings/Project/{project}/teaser-cards",
+              "placeholderKey": "teaser-cards-{DynamicPlaceholderId}",
+              "allowedRenderings": [
+                "EventListCard"
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "name": "Title",
+              "type": "Single-Line Text"
+            }
+          ]
+        },
+        "placeholderKey": "teaser-cards-{DynamicPlaceholderId}"
+      },
+      {
+        "role": "child",
+        "cmsName": "EventListCard",
+        "componentType": "Card",
+        "description": "EventListCard for grid placeholder.",
+        "confidence": "high",
+        "fields": [
+          {
+            "name": "Title",
+            "type": "Single-Line Text"
+          },
+          {
+            "name": "Body",
+            "type": "Multi-Line Text"
+          },
+          {
+            "name": "Cta",
+            "type": "General Link"
+          }
+        ],
+        "placeholders": [],
+        "variants": [
+          "Default",
+          "Inversed",
+          "ImageTop",
+          "Animated"
+        ],
+        "parentComponents": [
+          "TitleDescriptionTeaserGridSection"
+        ],
+        "tsx": {
+          "componentMapKey": "EventListCard",
+          "directory": "src/components/event-list-card/",
+          "mainFile": "src/components/event-list-card/EventListCard.tsx",
+          "variantExports": [
+            "Default",
+            "Inversed",
+            "ImageTop",
+            "Animated"
+          ],
+          "componentMapRegistration": ".sitecore/component-map.ts → 'EventListCard': () => import('@/components/event-list-card/EventListCard')"
+        },
+        "yaml": {
+          "sitecoreProjectPath": "authoring/items/{ProjectName}/serialized-content/",
+          "artifacts": [
+            {
+              "kind": "template-branch",
+              "description": "Sitecore template branch (Template, Data section, field items)",
+              "pathPattern": "/sitecore/templates/Project/{project}/EventListCard/"
+            },
+            {
+              "kind": "rendering",
+              "description": "Json rendering definition",
+              "pathPattern": "/sitecore/layout/Renderings/Project/{project}/EventListCard"
+            },
+            {
+              "kind": "headless-variants-folder",
+              "description": "Headless Variants folder for Experience Editor",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/EventListCard"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Default variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/EventListCard/Default.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Inversed variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/EventListCard/Inversed.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "ImageTop variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/EventListCard/ImageTop.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Animated variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/EventListCard/Animated.yml"
+            },
+            {
+              "kind": "data-folder",
+              "description": "Datasource folder for authored content",
+              "pathPattern": "{siteContentPath}/Data/EventListCards"
+            },
+            {
+              "kind": "default-datasource",
+              "description": "Default datasource item with field values from design",
+              "pathPattern": "{siteContentPath}/Data/EventListCards/Default EventListCard.yml"
+            }
+          ],
+          "fields": [
+            {
+              "name": "Title",
+              "type": "Single-Line Text"
+            },
+            {
+              "name": "Body",
+              "type": "Multi-Line Text"
+            },
+            {
+              "name": "Cta",
+              "type": "General Link"
+            }
+          ]
+        },
+        "inPlaceholder": "teaser-cards-{DynamicPlaceholderId}",
+        "repeatCount": 2
+      }
+    ]
+  }
+}

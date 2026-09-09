@@ -1,0 +1,17 @@
+---
+ID: "08e68326-56a6-43b6-97a2-8118548e1a89"
+Parent: "61855d03-07f7-42af-8b73-140c8c111db2"
+Template: "61855d03-07f7-42af-8b73-140c8c111db2"
+Path: "/sitecore/templates/Project/british-council/BookCard Templates/BookCard Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

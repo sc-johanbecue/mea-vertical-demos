@@ -1,0 +1,36 @@
+---
+ID: "b435140d-0747-4d64-8dc6-d51ec4dda8cf"
+Parent: "0492b754-99a1-4361-8059-d8a4ae59a94e"
+Template: "7bad0098-ecfb-4959-bdf2-bc8cd92f9025"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/HeroSlides/Slide News"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "dd181db5-2089-45f1-8b5c-a24429a129d2"
+      Hint: Image
+      Value: |
+        <image mediaid="{9226E95C-02AF-449D-9749-7F8AD4AE207C}" alt="2026 BMA Business Plan" />
+    - ID: "7972fcaf-35e5-4884-a2cc-98cce03e028c"
+      Hint: AltText
+      Value: "2026 BMA Business Plan"
+    - ID: "8b770599-02a2-4ecb-bbea-f70cc3527b2a"
+      Hint: Link
+      Value: |
+        <link text="View news" linktype="external" url="https://www.bma.bm/documents-centre/document-business-plan/general-all-sectors" anchor="" target="_blank" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b435140d-0747-4d64-8dc6-d51ec4dda8cf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

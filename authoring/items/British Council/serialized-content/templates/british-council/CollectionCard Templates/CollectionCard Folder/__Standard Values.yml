@@ -1,0 +1,23 @@
+---
+ID: "5e2c3dcb-0bb9-4090-a4b1-e5ab91277c59"
+Parent: "e8ed9f0d-62a3-4184-ac47-61bb13106537"
+Template: "e8ed9f0d-62a3-4184-ac47-61bb13106537"
+Path: "/sitecore/templates/Project/british-council/CollectionCard Templates/CollectionCard Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {FD0FA6C7-C631-49D7-927D-C31B9C74B5FC}
+    {E8ED9F0D-62A3-4184-AC47-61BB13106537}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

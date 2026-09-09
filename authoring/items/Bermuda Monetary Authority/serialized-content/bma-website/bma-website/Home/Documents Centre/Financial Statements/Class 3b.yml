@@ -1,0 +1,30 @@
+---
+ID: "2580b0d1-3188-4ba6-b541-3ff3d77dca5a"
+Parent: "0cfe456d-28f4-4f6c-a75f-c512265a92d6"
+Template: "97a02f7a-b48e-4eca-a8bd-58c22054c373"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Home/Documents Centre/Financial Statements/Class 3b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260902T130000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Class 3b
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2580b0d1-3188-4ba6-b541-3ff3d77dca5a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260902T130000Z

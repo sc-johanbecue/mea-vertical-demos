@@ -1,0 +1,17 @@
+---
+ID: "c2ee5f2b-18b2-41ba-b421-1abdbe1a33a7"
+Parent: "0a6aeda3-5fa3-485e-a078-eae6cb093894"
+Template: "0a6aeda3-5fa3-485e-a078-eae6cb093894"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/VideoEmbedItem Templates/VideoEmbedItem/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

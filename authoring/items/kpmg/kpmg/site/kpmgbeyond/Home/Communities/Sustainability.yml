@@ -1,0 +1,135 @@
+﻿---
+ID: "19cf9dc2-d540-4af7-a6e9-03de119bdff1"
+Parent: "db00b75b-fd7a-4a2c-85f1-c86e1bd69b2f"
+Template: "d5000001-0001-4000-8000-000000000002"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Communities/Sustainability
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7AC14919-CAEE-4B6E-8056-DFAADA1B9BF4}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "48568cff-6611-4246-a3ae-d71a360d254a"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{90F04987-314E-49BC-8454-1FA477D7BBD1}"
+          p:before="*"
+          s:id="{D5000001-0001-4000-8000-000000000031}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{A7B8C9D0-E1F2-3456-7890-ABCDEF123456}"
+          p:after="r[@uid='{90F04987-314E-49BC-8454-1FA477D7BBD1}']"
+          s:id="{D5000004-0001-4000-8000-000000000020}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{0FF28F37-89A7-4D3E-B23C-A04E14938808}"
+          p:after="r[@uid='{A7B8C9D0-E1F2-3456-7890-ABCDEF123456}']"
+          s:id="{D5000001-0001-4000-8000-000000000032}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="headless-main" />
+        <r
+          uid="{A1A2A3A4-B5B6-4789-0123-456789ABCDEF}"
+          p:after="r[@uid='{0FF28F37-89A7-4D3E-B23C-A04E14938808}']"
+          s:id="{D5000002-0001-4000-8000-000000000021}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main" />
+        <r
+          uid="{00014923-412E-4A9D-B56D-F00A282E7377}"
+          p:after="r[@uid='{A1A2A3A4-B5B6-4789-0123-456789ABCDEF}']"
+          s:id="{D5000001-0001-4000-8000-000000000033}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260606T120000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sustainability
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd1ab08c-871c-43c9-be98-6905eaf56b21"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5000001-0001-4000-8000-000000000010"
+      Hint: CategoryLabel
+      Value: CLOSED
+    - ID: "d5000001-0001-4000-8000-000000000011"
+      Hint: Title
+      Value: Sustainability
+    - ID: "d5000001-0001-4000-8000-000000000012"
+      Hint: Summary
+      Value: A community for professionals driving sustainability strategy, reporting, and transformation across sectors.
+    - ID: "d5000001-0001-4000-8000-000000000013"
+      Hint: Image
+      Value: |
+        <image mediaid="ecbaf6ed-fc38-4afb-867a-e2005d4b3591" />
+    - ID: "d5000001-0001-4000-8000-000000000014"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/communities/Sustainability" anchor="" target="" class="" />
+    - ID: "d5000001-0001-4000-8000-000000000015"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="ecbaf6ed-fc38-4afb-867a-e2005d4b3591" />
+    - ID: "d5000001-0001-4000-8000-000000000016"
+      Hint: About
+      Value: |
+        <div class="ck-content"><p>A community for professionals driving sustainability strategy, reporting, and transformation across sectors.</p><p>Join this community to connect with peers, ask questions, and share practical insights from your experience.</p></div>
+    - ID: "d5000001-0001-4000-8000-000000000017"
+      Hint: PrivacyStatus
+      Value: Closed
+    - ID: "d5000001-0001-4000-8000-000000000018"
+      Hint: MemberCount
+      Value: 189
+    - ID: "d5000001-0001-4000-8000-000000000019"
+      Hint: SupportText
+      Value: |
+        <div class="ck-content"><p>Need help with this community? Contact the hosts or email support during UK business hours.</p></div>
+    - ID: "d5000001-0001-4000-8000-000000000020"
+      Hint: SupportEmail
+      Value: sustainability@kpmg.com
+    - ID: "d5000001-0001-4000-8000-000000000021"
+      Hint: Guidelines
+      Value: |
+        <div class="ck-content"><ul><li>Be helpful but respectful.</li><li>Speak up and share your expertise.</li><li>Do not post confidential client information.</li></ul></div>
+    - ID: "d5000001-0001-4000-8000-000000000022"
+      Hint: JoinRequests
+      Value: "[]"
+    - ID: "d5000001-0001-4000-8000-000000000024"
+      Hint: ClosedLabel
+      Value: Closed
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260608T103703Z

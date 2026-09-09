@@ -1,0 +1,37 @@
+---
+ID: "dbd566d5-1232-4be7-b1be-58c7e5a229ac"
+Parent: "fe554bfa-b9e6-44a6-9c58-1cd0cd41f7c4"
+Template: "fe554bfa-b9e6-44a6-9c58-1cd0cd41f7c4"
+Path: "/sitecore/templates/Project/rai/HeaderIconLink/HeaderIconLink Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C9F4D7C5-AEB5-45D1-A922-83AC252E50EA}
+    {FE554BFA-B9E6-44A6-9C58-1CD0CD41F7C4}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dbd566d5-1232-4be7-b1be-58c7e5a229ac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260612T120000Z

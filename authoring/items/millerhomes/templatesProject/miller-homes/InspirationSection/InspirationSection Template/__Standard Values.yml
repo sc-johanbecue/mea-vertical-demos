@@ -1,0 +1,55 @@
+﻿---
+ID: "081a79de-666f-44f8-b1f0-b6097dfebbd6"
+Parent: "4c1819fe-711f-4e3c-a5d5-eb14110aacd4"
+Template: "4c1819fe-711f-4e3c-a5d5-eb14110aacd4"
+Path: "/sitecore/templates/Project/miller-homes/InspirationSection/InspirationSection Template/__Standard Values"
+SharedFields:
+- ID: "1912b715-fab5-43fd-b6b6-cc5f69fd48e7"
+  Hint: CTALink
+  Value: |
+    <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+- ID: "a88f31cb-2b19-4751-9886-96e415ee9dae"
+  Hint: Video
+  Value: |
+    <link linktype="external" url="https://www.millerhomes.co.uk/videos/Visualizer-Video-Banner.mp4" anchor="" target="" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "82346598-8457-4ec7-be0c-fe3571bce750"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T010443Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "81d2a999-2204-47ef-bbbc-9d5389eb1607"
+      Hint: TitleHighlight
+      Value: get inspired
+    - ID: "89ddf094-41fd-4761-a4bf-e21df0b4fd62"
+      Hint: CTAText
+      Value: Visit our Inspiration Hub
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "20fed82b-d73c-43f8-ad4e-8ff3d961308a"
+    - ID: "98e15dbe-1b50-4a86-a3d7-864ddfc07154"
+      Hint: TitlePart1
+      Value: It's time to
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T133939Z
+    - ID: "e6e7710c-f134-44bb-b6d4-0f2f6e92b3b7"
+      Hint: Description
+      Value: <p>Our Inspiration Hub has everything you need to get planning for your new home. From interior design tips and house tours to buyer guides and financial calculators, the Inspiration Hub has all this and more to help you start your new adventure.</p>

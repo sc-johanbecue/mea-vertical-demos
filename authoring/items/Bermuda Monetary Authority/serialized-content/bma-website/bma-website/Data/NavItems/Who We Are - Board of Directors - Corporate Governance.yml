@@ -1,0 +1,32 @@
+---
+ID: "9e33cd3b-695e-5046-a008-2c388d9df180"
+Parent: "536b010a-d848-4294-808d-bb3d05220f2c"
+Template: "fc58484e-338a-426a-b341-61677134fd75"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/NavItems/Who We Are - Board of Directors - Corporate Governance"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6bede9bd-5bbe-44b0-9617-d2e993b154ab"
+      Hint: Title
+      Value: "Corporate Governance"
+    - ID: "422282cb-83ef-4695-b987-ce0ac5e0385a"
+      Hint: Link
+      Value: |
+        <link text="Corporate Governance" linktype="external" url="/About Us/Who We Are/Board of Directors/Corporate Governance" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260902T100000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e33cd3b-695e-5046-a008-2c388d9df180"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260902T100000Z"

@@ -1,0 +1,45 @@
+---
+ID: "c3000005-0001-4000-8000-000000000011"
+Parent: "c3000005-0001-4000-8000-000000000012"
+Template: "c3000005-0001-4000-8000-000000000002"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondSolutionsBookCallSections/Default Solutions Book Call
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1b2c3d4-e5f6-7890-abcd-ef0100000011"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c3000005-0001-4000-8000-000000000021"
+      Hint: Title
+      Value: Book a call with our experts
+    - ID: "c3000005-0001-4000-8000-000000000022"
+      Hint: Text
+      Value: Speak to our team to find out how our technology solutions can help your business move to the next level.
+    - ID: "c3000005-0001-4000-8000-000000000023"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/contact" text="Get in touch" anchor="" target="" class="" />
+    - ID: "c3000005-0001-4000-8000-000000000024"
+      Hint: Image
+      Value: |
+        <image mediaid="54caef87-8a45-4c2f-9d00-280110491535" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T120000Z

@@ -1,0 +1,41 @@
+﻿---
+ID: "e24ec816-d416-47e1-b296-d04beb84bf2a"
+Parent: "0d83f085-da25-4255-921c-2253712a4fe4"
+Template: "31b96108-eeee-43e2-bd72-6069e1e33296"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/NearbyDevelopmentCards/Thorley Glade"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00c39652-e7ca-4b7e-a77b-3cc9c4644606"
+      Hint: Description
+      Value: "<p>Thorley Glade is a luxurious new development of 3, 4 and 5-bedroom homes conveniently located between Timperley and Hale, with outstanding schools, excellent transport links and a vibrant social scene all within minutes of the development.</p>"
+    - ID: "18799fd4-2872-4939-a836-9d24ed350568"
+      Hint: Name
+      Value: Thorley Glade
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T144742Z
+    - ID: "39558fb7-42a1-40a3-a1f6-9b0b2f4e5b96"
+      Hint: PriceMin
+      Value: £626,995
+    - ID: "66fc2a02-021e-45dc-bf01-5de16b80b020"
+      Hint: Location
+      Value: Hale, WA15 7PJ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a93a15d3-b204-41cf-a898-e9ca06a668a6"
+    - ID: "a4d3696d-1fc1-410c-a9a7-b22a581ca05c"
+      Hint: PriceMax
+      Value: £969,995
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T145016Z
+    - ID: "e4006d27-e7c5-418c-b4e2-db642d52f1cd"
+      Hint: CTAText
+      Value: Discover Thorley Glade

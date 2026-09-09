@@ -1,0 +1,72 @@
+﻿---
+ID: "f9b77a5a-bfc8-4ef4-a435-528f953f9454"
+Parent: "ba573838-df94-473c-a22b-3fcd392648ab"
+Template: "4c83ed3e-e712-4745-b0a3-50d5307bf9c6"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/FooterSections/Default FooterSection"
+SharedFields:
+- ID: "0b7195d8-5c67-4f3d-8f30-66bcf0c51f97"
+  Hint: AccessibilityLink
+  Value: |
+    <link linktype="internal" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" anchor="" querystring="" target="_blank" class="" text="Accessibility" title=""/>
+- ID: "259dd1c0-0b56-4912-8307-cf09ff6d8f88"
+  Hint: PrivacySettingsLink
+  Value: |
+    <link linktype="internal" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" anchor="" querystring="" target="_blank" class="" text="Privacy settings" title=""/>
+- ID: "46ba7c58-42d2-4de0-b396-fcb9176271b5"
+  Hint: ConsumerCodeBadge
+  Value: |
+    <image mediaid="b3000132-f0ad-45e8-8883-311846e888c3" />
+- ID: "48f05608-32f9-4ec8-913b-ca8bd79ad715"
+  Hint: TrustpilotBadge
+  Value: |
+    <image mediaid="6079eb2e-3f59-47ce-be2e-30cfac5d6224" />
+- ID: "605f0226-35fe-42ff-bbcc-94a438ec97d6"
+  Hint: CookiePolicyLink
+  Value: |
+    <link linktype="internal" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" anchor="" querystring="" target="_blank" class="" text="Cookie policy" title=""/>
+- ID: "6557f9f5-85a4-46df-9676-caaa6a18a72b"
+  Hint: NewHomesQualityBadge
+  Value: |
+    <image mediaid="71c27762-70c6-44da-8a85-0868761b6f4d" />
+- ID: "6df057f7-0d6a-4509-af0f-9d3276b543a0"
+  Hint: PrivacyPolicyLink
+  Value: |
+    <link linktype="internal" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" anchor="" querystring="" target="_blank" class="" text="Privacy policy - updated" title=""/>
+- ID: "b9d3fa20-a5a0-4472-a5d0-c33340961700"
+  Hint: TermsLink
+  Value: |
+    <link linktype="internal" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" anchor="" querystring="" target="_blank" class="" text="Terms &amp; conditions" title=""/>
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9ab9528c-86d4-447e-8cd8-f094bcaa4bed"
+- ID: "fc7afbda-4af0-41ae-a8e8-4b48f5e556bc"
+  Hint: TSIBadge
+  Value: |
+    <image mediaid="35356434-9415-439e-8f8d-184f4ddcb0ee" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031323Z
+    - ID: "89d963e5-aa23-46e0-9cf8-7d28cabf0e23"
+      Hint: SocialHeading
+      Value: Visit our Inspiration Hub
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d1f024f2-e314-4a7c-966b-7f838d2850f2"
+    - ID: "9b725b01-7d6b-42da-9271-e748851b219a"
+      Hint: CopyrightText
+      Value: "© Miller Homes Limited 2026 - All rights reserved, Registered in Scotland No. SC255429"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T214323Z

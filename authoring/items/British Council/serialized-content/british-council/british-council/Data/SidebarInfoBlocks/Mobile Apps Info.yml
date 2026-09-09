@@ -1,0 +1,151 @@
+﻿---
+ID: "053f8c70-17ce-497a-84f5-e2d7eb861d87"
+Parent: "6ad2af09-8b0b-4f7b-a784-ed475bf86a8a"
+Template: "52cd4c2f-e36b-46a3-b417-0a9cd6e86407"
+Path: "/sitecore/content/british-council/british-council/Data/SidebarInfoBlocks/Mobile Apps Info"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "241ad3eb-ff9e-41da-b516-81586c77af1c"
+      Hint: Link
+      Value: |
+        <link text="Find out more" linktype="external" url="/" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "4ac1d03a-c117-462c-b495-f9a5985f48cb"
+      Hint: Title
+      Value: Mobile apps
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3817cb10-abbf-42ee-b52b-d94cca7d326b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260729T145919Z
+    - ID: "fdcc3d6c-33a4-41dc-8932-b96ba1f1ee9a"
+      Hint: Body
+      Value: Learn English on the go with our apps.
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "241ad3eb-ff9e-41da-b516-81586c77af1c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="En savoir plus" url="/" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "4ac1d03a-c117-462c-b495-f9a5985f48cb"
+      Hint: Title
+      Value: Applications mobiles
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "79ac0c0a-3cea-4eb5-8ee4-3d5e5315159b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084725Z
+    - ID: "fdcc3d6c-33a4-41dc-8932-b96ba1f1ee9a"
+      Hint: Body
+      Value: Apprenez l'anglais en déplacement avec nos applications.
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "241ad3eb-ff9e-41da-b516-81586c77af1c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="और अधिक जानें" url="/" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "4ac1d03a-c117-462c-b495-f9a5985f48cb"
+      Hint: Title
+      Value: मोबाइल ऐप्स
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2a1d399-4196-4a4a-bc6e-d7b792f46f24"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093417Z
+    - ID: "fdcc3d6c-33a4-41dc-8932-b96ba1f1ee9a"
+      Hint: Body
+      Value: "हमारे ऐप्स के साथ चलते-फिरते अंग्रेजी सीखें।"
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "241ad3eb-ff9e-41da-b516-81586c77af1c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Ontdek meer" url="/" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "4ac1d03a-c117-462c-b495-f9a5985f48cb"
+      Hint: Title
+      Value: Mobiele apps
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0c0d735-e29d-42b7-9c57-b677f23fa7dd"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084727Z
+    - ID: "fdcc3d6c-33a4-41dc-8932-b96ba1f1ee9a"
+      Hint: Body
+      Value: Leer Engels onderweg met onze apps.

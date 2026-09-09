@@ -1,0 +1,75 @@
+﻿---
+ID: "81a7d331-6662-4262-83d8-d457b5e72029"
+Parent: "21374436-4380-46f6-8b7d-43598d5419f7"
+Template: "42516e49-bf0f-4872-92ff-1bc88d15df1d"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/Footers/Site Footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b948ed01-2ff3-4553-b333-28f6b589adc3"
+      Hint: Logo
+      Value: |
+        <image mediaid="{A1F8C2E4-7B39-4D6A-9E15-3C8F0A2D91B7}" alt="Bermuda Monetary Authority" />
+    - ID: "a166c3b8-0a7b-4061-b85d-347a568e6d81"
+      Hint: AddressTitle
+      Value: "Address"
+    - ID: "1a772286-aee3-4b21-9884-d8433a14c925"
+      Hint: AddressBody
+      Value: |
+        <p>Bermuda Monetary Authority<br />BMA House<br />43 Victoria Street<br />Hamilton<br />HM12</p>
+    - ID: "c43dc1cc-1fd6-47f3-99e4-0f2cb40660c9"
+      Hint: MailingTitle
+      Value: "Mailing Address"
+    - ID: "40eef396-8d7e-4650-a9bf-450d5dbc9d81"
+      Hint: MailingBody
+      Value: |
+        <p>P.O. Box 2447<br />Hamilton HM JX<br />Bermuda</p>
+    - ID: "3b8b0556-503d-46f0-b672-a16e8aec8ce5"
+      Hint: ContactTitle
+      Value: "Contact Us"
+    - ID: "41e76ecc-fed2-4ca3-8df3-3386c52cd813"
+      Hint: ContactBody
+      Value: |
+        <p><a href="tel:(441) 295 5278"><span>Tel:</span>(441) 295 5278</a><br /><span>Fax: (441) 292 7471</span><br /><a href="https://www.bma.bm"><span>Website:</span>https://www.bma.bm</a></p>
+    - ID: "550e1e2b-3694-48cb-8fd2-6cf87ea9a795"
+      Hint: AlertsTitle
+      Value: "E-Alerts"
+    - ID: "087347ff-f05b-4d36-ae07-8481308a7c25"
+      Hint: AlertsIntro
+      Value: "Sign up for Our E-Alert Service"
+    - ID: "ac4f3e51-be73-4cd2-a523-ecd41cf020a1"
+      Hint: SubscribeLink
+      Value: |
+        <link text="Subscribe" linktype="external" url="https://visitor.r20.constantcontact.com/d.jsp?llr=wfvytlxab&amp;p=oi&amp;m=1124597519542&amp;sit=qabmzaskb&amp;f=ba50e548-bb94-4bb4-ba78-547932a22447" anchor="" target="_blank" />
+    - ID: "f0940c2f-d0d8-4fc2-9de1-709a718f43ab"
+      Hint: Copyright
+      Value: "© Copyright 2026 Bermuda Monetary Authority"
+    - ID: "469b67ed-328a-42fe-9108-c8fb06d9e80f"
+      Hint: PrivacyLink
+      Value: |
+        <link text="Privacy Policy" linktype="external" url="https://www.bma.bm/website-privacy-policy" anchor="" target="" />
+    - ID: "d48a3349-937e-4d3c-83e8-1e5a808818f8"
+      Hint: TermsLink
+      Value: |
+        <link text="Terms &amp; Conditions" linktype="external" url="https://www.bma.bm/terms-conditions" anchor="" target="" />
+    - ID: "788b7a7a-e299-43aa-b5a8-e5e8cbfe15c6"
+      Hint: SitemapLink
+      Value: |
+        <link text="Site Map" linktype="external" url="https://www.bma.bm/sitemap" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "81a7d331-6662-4262-83d8-d457b5e72029"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260902T120000Z"

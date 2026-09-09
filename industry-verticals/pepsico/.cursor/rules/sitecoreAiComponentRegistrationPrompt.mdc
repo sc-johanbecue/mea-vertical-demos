@@ -1,0 +1,223 @@
+---
+description: Generic workflow to create or update Sitecore serialized YAML for any Content SDK TSX component (no MCP); use with authoring module paths you define.
+alwaysApply: false
+globs:
+  - industry-verticals/bupa/src/components/**/*.tsx
+  - authoring/items/**/*.yml
+  - authoring/items/**/Presentation/**/*.yml
+author: Johan Becue
+---
+
+# Usage
+
+Use when the user wants **serialized Sitecore items as YAML** under **`authoring/items/`** for **any** new or updated TSX component—then sync with XM Cloud / Sitecore CLI. **Do not** use Sitecore or Marketer MCP for this workflow.
+
+Keep **`.sitecore/component-map.ts`** (or your app’s component map) aligned with the Json Rendering **`componentName`** value.
+
+---
+
+## 0) Fill the module table once per repo (then reuse)
+
+Replace placeholders for **your** authoring layout. Example values are from this repo’s Bupa vertical only—swap for retail/teamviewer/etc.
+
+| Placeholder                 | Meaning                                                                                      | Example (Bupa)                                                    |
+| --------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| `{{moduleKey}}`             | Top-level folder under `authoring/items/` that holds serialized trees                        | `bupa`                                                            |
+| `{{moduleDefinitionFile}}`  | Module JSON next to `items/` (defines includes / roots)                                      | `authoring/items/bupa-uk.module.json`                             |
+| `{{sitecoreProjectKey}}`    | Sitecore segment in `/templates/Project/…`, `/layout/Renderings/Project/…`, etc.             | `bupa`                                                            |
+| `{{siteKey}}`               | Site folder name under `authoring/items/{{moduleKey}}/site/`                                 | `bupa-uk`                                                         |
+| `{{rootWebsitePath}}`       | Site root item path in Sitecore                                                              | `/sitecore/content/bupa/bupa-uk`                                  |
+| `{{homeWebsitePath}}`       | Home item path (link standard values)                                                        | `/sitecore/content/bupa/bupa-uk/home`                             |
+| `{{sitecoreAuthorAccount}}` | User name written to **new** items’ audit fields (`__Owner`, `__Created by`, `__Updated by`) | `sitecore\johan.becue@sitecore.com` (Bupa); override per vertical |
+
+**Derived paths (always derive from the table—do not hardcode another vertical’s names):**
+
+- `{{serializationRoot}}` = `authoring/items/{{moduleKey}}/`
+- **Templates:** `{{serializationRoot}}templatesProject/{{sitecoreProjectKey}}/`
+- **Json renderings:** `{{serializationRoot}}projectRenderings/{{sitecoreProjectKey}}/`
+- **Placeholder settings:** `{{serializationRoot}}projectPlaceholderSettings/{{sitecoreProjectKey}}/`
+- **Site content:** `{{serializationRoot}}site/{{siteKey}}/`
+- **Available Renderings (EE picker):** `{{serializationRoot}}site/{{siteKey}}/Presentation/Available Renderings/` + the site’s group file (e.g. `Bupa.yml` when `{{sitecoreProjectKey}}` is `bupa`—confirm the filename under that folder).
+
+If your module JSON uses different include names, map them from **`{{moduleDefinitionFile}}`** instead of the rows above.
+
+---
+
+## 1) Name the new component (from TSX)
+
+| Placeholder                     | Rule                                                                                                                                                                                                                                                                                                      |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| `{{tsxFilePath}}`               | Repo path to the component file, e.g. `industry-verticals/bupa/src/components/bupa/MyWidget.tsx`                                                                                                                                                                                                          |
+| `{{componentMapKey}}`           | Exact string key in the Content SDK **component map** (often the TSX file base name)                                                                                                                                                                                                                      |
+| `{{sitecoreBaseName}}`          | Short name for **template folder**, **inner datasource template item**, **Json Rendering item name**, and **`{{sitecoreBaseName}} Folder`** template. Often = file base name, or strip a **known brand prefix** (e.g. `BupaMyWidget` → `MyWidget`)—**pick one rule per vertical and apply consistently**. |
+| `{{dataFolderDisplayName}}`     | Plural (or conventional) **site Data** subfolder for datasource instances                                                                                                                                                                                                                                 | e.g. `MyWidgets`        |
+| `{{defaultDatasourceItemName}}` | First default item under that folder                                                                                                                                                                                                                                                                      | e.g. `Default MyWidget` |
+
+---
+
+## 2) Pick a **reference component** to clone (not LinkBox-specific)
+
+Choose **any** component in **`{{serializationRoot}}`** that already has the same **item shape** you need (datasource template + folder template + parameters + Json Rendering; optional placeholder settings).
+
+| Placeholder                        | Meaning                                                                                                                      |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `{{referenceSitecoreBaseName}}`    | That component’s short name (e.g. `LinkBoxCard`, `Title`, `Promo`—whatever exists in YAML)                                   |
+| `{{referenceSerializationPrefix}}` | Repo prefix to its files, e.g. `{{serializationRoot}}templatesProject/{{sitecoreProjectKey}}/{{referenceSitecoreBaseName}}/` |
+
+**Clone `Template:` / `Parent:` / `SharedFields` shapes** from the reference YAML; **generate new GUIDs** for every new item and fix all `Parent` / cross-references. Do **not** copy IDs from the reference into new items.
+
+---
+
+## Mandatory: YAML change log
+
+For every create/update/delete:
+
+### YAML change log
+
+| Repo file                | Action                   | What changed                                                                                |
+| ------------------------ | ------------------------ | ------------------------------------------------------------------------------------------- |
+| `{{serializationRoot}}…` | create / update / delete | Concrete hints: `componentName`, new field `Hint`, `Path:`, `__Masters`, deleted file, etc. |
+
+Rules:
+
+- **Create** — list each new file and main fields set.
+- **Update** — each file + semantic before/after (e.g. “removed field YAML; TSX dropped prop”).
+- **Delete** — path + reason.
+- New IDs must be **unique** across the module.
+
+---
+
+## New YAML files: audit / user fields (mandatory)
+
+Whenever you **create** a new serialized item YAML (template, rendering, site Data, placeholder settings, Presentation, etc.), set these fields to **`{{sitecoreAuthorAccount}}`** everywhere they appear on that item (typically under `Languages` → `Versions` → `Fields`, and sometimes alongside other metadata):
+
+| Hint           | Sitecore field id (for YAML `ID:`)     | Value                                                                                  |
+| -------------- | -------------------------------------- | -------------------------------------------------------------------------------------- |
+| `__Owner`      | `52807595-0f8f-4b20-8d2a-cb71d28c6103` | `{{sitecoreAuthorAccount}}` (multiline block string, same style as existing Bupa YAML) |
+| `__Created by` | `5dd74568-4d4b-44c1-b513-0af5f4cda34f` | `{{sitecoreAuthorAccount}}`                                                            |
+| `__Updated by` | `badd9cf9-53e0-4d0c-bcc0-2d784c282f6a` | `{{sitecoreAuthorAccount}}`                                                            |
+
+**Rules:**
+
+- Apply on **create** for every new `.yml` file you add (each item’s first version / shared metadata as appropriate—mirror sibling items in the same folder).
+- On **update-only** edits to existing YAML, do **not** rewrite `__Created by` unless you are intentionally re-authoring; you may still set **`__Updated by`** to `{{sitecoreAuthorAccount}}` if your team convention bumps it on every edit (default here: **set `__Updated by` on substantive updates**; leave historical `__Created by` unchanged).
+- Literal for this Bupa repo: `sitecore\johan.becue@sitecore.com` (backslash + email).
+
+---
+
+## Template field rules (field definition YAML)
+
+- **Image** — appropriate Sitecore type; **Source** `query:$siteMedia`; **Shared** when your vertical’s pattern requires it.
+- **Rich Text** — Source `query:$xaRichTextProfile`.
+- **General Link** — Source `query:$linkableHomes`; **Shared** when required.
+- Other types — match existing patterns in **`{{referenceSerializationPrefix}}`**.
+
+---
+
+## Standard values
+
+- Link fields: follow your vertical’s serialized link pattern (often home by ID).
+- Image defaults: `<image mediaid="{GUID}" />` only when a media item exists in YAML.
+- Keep datasource field items **1:1** with the TSX `fields` / `Fields` contract.
+
+---
+
+## Steps → YAML (generic patterns)
+
+In all paths below, substitute **`{{serializationRoot}}`**, **`{{sitecoreProjectKey}}`**, **`{{sitecoreBaseName}}`**, **`{{siteKey}}`**.
+
+### Step 1 — Template folder item
+
+- **Create:** `{{serializationRoot}}templatesProject/{{sitecoreProjectKey}}/{{sitecoreBaseName}}.yml`
+- **Sitecore `Path:`:** `/sitecore/templates/Project/{{sitecoreProjectKey}}/{{sitecoreBaseName}}`
+- **Clone from:** `{{referenceSitecoreBaseName}}.yml` at the same templates level.
+
+### Step 2 — Datasource template tree
+
+Under `templatesProject/{{sitecoreProjectKey}}/{{sitecoreBaseName}}/`:
+
+- Inner template `{{sitecoreBaseName}}.yml`, section `Data.yml`, one yml per field, `__Standard Values.yml`
+- **Clone** layout from `{{referenceSerializationPrefix}}` (adjust names, IDs, `Parent`).
+
+### Step 3 — Datasource **folder** template
+
+- `{{sitecoreBaseName}} Folder.yml` + `{{sitecoreBaseName}} Folder/__Standard Values.yml`
+- Mirror **`{{referenceSitecoreBaseName}} Folder`** pattern (`__Masters`, icons).
+
+### Step 4 — Rendering parameters template
+
+- `{{sitecoreBaseName}} Parameters.yml`, child `Rendering Parameters.yml`, `__Standard Values.yml`
+- Clone from reference **Parameters** tree (base templates: rendering params + dynamic placeholder + rendering id—same as your reference Json rendering component).
+
+### Step 5 — Site Data insert options (if present in YAML)
+
+If the repo serializes the item that controls **Insert Options** under `Data`, append the new **`{{sitecoreBaseName}} Folder`** template ID to `__Masters`. If not serialized, state **Step 5 N/A** in the change log.
+
+### Step 6 — Site datasource folder + default item
+
+- `{{serializationRoot}}site/{{siteKey}}/Data/{{dataFolderDisplayName}}.yml`
+- `…/Data/{{dataFolderDisplayName}}/{{defaultDatasourceItemName}}.yml`
+- **Paths** under `{{rootWebsitePath}}/Data/…`
+
+**`Template` (root-level YAML key on each content item)—must match Sitecore definitions you created; never reuse another component’s template id by mistake.**
+
+| Item you serialize                                                                    | `Template:` value = GUID from …                                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Data folder** holding datasource instances (e.g. `Data/BoxCards`, `Data/MyWidgets`) | **`{{sitecoreBaseName}} Folder`** template item: `{{serializationRoot}}templatesProject/{{sitecoreProjectKey}}/{{sitecoreBaseName}}/{{sitecoreBaseName}} Folder.yml` → use its top-level **`ID:`** (not `LinkBoxCard Folder`, `Common/…`, etc.). |
+| **Leaf datasource** under that folder (e.g. a single card or section row)             | **Inner datasource template**: `…/{{sitecoreBaseName}}/{{sitecoreBaseName}}.yml` → its **`ID:`** (the template whose fields match the TSX `fields`).                                                                                             |
+
+**Verify:** `Datasource Template` on the Json Rendering points at the inner template **path**; site folder items use **Folder** template id; children use **inner** template id. All three must refer to the **same** `{{sitecoreBaseName}}` tree.
+
+### Step 7 — Json Rendering
+
+- **Create:** `{{serializationRoot}}projectRenderings/{{sitecoreProjectKey}}/{{sitecoreBaseName}}.yml`
+- **`componentName`:** `{{componentMapKey}}`
+- **Datasource / parameters / location:** same **shape** as reference rendering; replace names and GUIDs with the new template IDs/paths.
+
+### Step 8 — Placeholder settings (only if TSX uses `<Placeholder />`)
+
+- **Create:** `{{serializationRoot}}projectPlaceholderSettings/{{sitecoreProjectKey}}/<kebab-slug>.yml`
+- **Placeholder Key:** TSX pattern with dynamic segment replaced by `{*}` (e.g. `my-widgets-${id}` → `my-widgets-{*}`).
+- **Allowed Controls:** Json Rendering IDs allowed in that placeholder.
+- **Update** parent rendering(s): **`Placeholders`** shared field lists this placeholder settings item’s ID.
+
+### Step 9 — Available Renderings (Experience Editor component list)
+
+If your site serializes an **Available Renderings** item (so editors can insert Json renderings from a curated list), **update that YAML** whenever you add a new Json Rendering under **`{{serializationRoot}}projectRenderings/{{sitecoreProjectKey}}/`**.
+
+| Detail           | Value                                                                                                                                                                                                                                                                                                                                                                            |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Typical path** | `{{serializationRoot}}site/{{siteKey}}/Presentation/Available Renderings/<Group>.yml` — use the file that already exists for your site (do not invent a second list unless the product requires it).                                                                                                                                                                             |
+| **Shared field** | `{715AE6C0-71C8-4744-AB4F-65362D20AD65}` — `Hint: Renderings`.                                                                                                                                                                                                                                                                                                                   |
+| **Meaning**      | Sitecore stores a **pipe-separated** list of **Json Rendering item IDs** (each id in braces). Serialized YAML in this repo often shows **one `{GUID}` per line** under a multiline `Value: \|`; that is equivalent to the pipe-separated list—**append** the new rendering’s **`ID`** from `projectRenderings/.../{{sitecoreBaseName}}.yml` in the same format as sibling lines. |
+| **Rules**        | Do **not** duplicate GUIDs; preserve existing entries; match brace casing to the file’s convention.                                                                                                                                                                                                                                                                              |
+
+If no **Available Renderings** item exists under `Presentation/` for your site, **Step 9 N/A**—note that in the change log.
+
+---
+
+## Copy-paste kickoff (fill blanks)
+
+```text
+Module: moduleKey={{ }}, sitecoreProjectKey={{ }}, siteKey={{ }}, serializationRoot=authoring/items/{{moduleKey}}/
+sitecoreAuthorAccount={{ }} (new YAML: __Owner, __Created by, __Updated by)
+TSX: {{tsxFilePath}}
+componentMapKey={{ }} | sitecoreBaseName={{ }} | dataFolderDisplayName={{ }}
+Reference to clone (YAML shape only): {{referenceSitecoreBaseName}} under {{serializationRoot}}templatesProject/{{sitecoreProjectKey}}/
+Placeholders: yes/no — if yes, name pattern and allowed child renderings: …
+Produce YAML + ### YAML change log + component-map reminder.
+If Step 9 applies: append new Json Rendering **ID** to **Available Renderings** `Renderings` field (`715ae6c0-71c8-4744-ab4f-65362d20ad65`).
+```
+
+---
+
+## Final checklist
+
+1. **### YAML change log** (mandatory).
+2. Full list of paths under **`{{serializationRoot}}`** touched.
+3. **Component map** entry updated when adding a new rendering.
+4. **Available Renderings** — when serialized for the site, **`Renderings`** (`715ae6c0-71c8-4744-ab4f-65362d20ad65`) includes every new **`projectRenderings`** item **ID** (pipe-separated list; YAML may use one `{GUID}` per line).
+5. **New YAML** — **`__Owner`**, **`__Created by`**, and **`__Updated by`** set to **`{{sitecoreAuthorAccount}}`** (Bupa default: `sitecore\johan.becue@sitecore.com`); see **New YAML files: audit / user fields**.
+6. **Site `Data/` content YAML** — root **`Template:`** on each item: **Folder** template id for list folders, **inner** datasource template id for leaf items (see Step 6 table); must match `templatesProject/...` **`ID:`** values, not copy-paste from a different component.
+7. Remind user to run **Sitecore CLI** sync if your pipeline requires it.
+

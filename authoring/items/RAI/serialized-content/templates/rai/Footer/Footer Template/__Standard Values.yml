@@ -1,0 +1,92 @@
+---
+ID: "54fe15f7-12a7-431d-93a4-ffa6d0e2b0cc"
+Parent: "512c25ec-c5dd-4b98-a8f6-f791c9963d5b"
+Template: "512c25ec-c5dd-4b98-a8f6-f791c9963d5b"
+Path: "/sitecore/templates/Project/rai/Footer/Footer Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b3d5ce6-a2cf-4aab-be47-2b4fd74d5965"
+      Hint: EventsTitle
+      Value: Events at RAI Amsterdam
+    - ID: "9a79a299-4c78-453e-8c38-b6ccc7869016"
+      Hint: EventLink1
+      Value: <link text="Check out all events" linktype="external" url="https://www.rai.nl/en/calendar" />
+    - ID: "864811ae-08ee-4de6-98a5-57433b43344d"
+      Hint: EventLink2
+      Value: <link text="Organise your event" linktype="external" url="https://www.rai.nl/en/organising" />
+    - ID: "b53b8e71-8097-4474-ab76-bbf2d74a79b3"
+      Hint: EventLink3
+      Value: <link text="Become an exhibitor" linktype="external" url="https://www.rai.nl/en/exhibiting" />
+    - ID: "4117cd22-0731-4212-a0cb-381fcab5058a"
+      Hint: NewsletterTitle
+      Value: Subscribe for newsletter
+    - ID: "ed8dea74-7593-49e2-bb3e-3f0f05b959a9"
+      Hint: NewsletterCta
+      Value: <link text="Subscribe" linktype="external" url="https://www.rai.nl/en/newsletter" />
+    - ID: "a3f4d2c4-26d6-4d46-88fa-9d9152daed52"
+      Hint: ContactTitle
+      Value: Contact us
+    - ID: "0a853eb5-9d61-4f19-b834-cf4b42650774"
+      Hint: ContactBody
+      Value: |
+        RAI Amsterdam
+        P.O. Box 77777, 1070 MS Amsterdam
+        Europaplein 24, 1078 GZ Amsterdam
+        The Netherlands
+    - ID: "1eb9a783-82ab-4ba1-8afd-694f2750f7c2"
+      Hint: ContactPhone
+      Value: +31 (0)20 549 12 12
+    - ID: "a08377dc-f5af-4372-8922-1f7bf2e4e02b"
+      Hint: ContactLink
+      Value: <link text="Contact" linktype="external" url="https://www.rai.nl/en/contact" />
+    - ID: "fc1608f8-d8ea-4341-ba2a-27f1c53e6c61"
+      Hint: DirectionsLink
+      Value: <link text="Get directions" linktype="external" url="https://www.rai.nl/en/route" />
+    - ID: "450e8a40-cc86-48a5-ba5f-8c3694191ecb"
+      Hint: LegalLink1
+      Value: <link text="Privacyverklaring" linktype="external" url="https://www.rai.nl/en/privacy-statement" />
+    - ID: "cf9f6276-aea0-4255-80a8-19a531601e60"
+      Hint: LegalLink2
+      Value: <link text="Cookie settings" linktype="external" url="#" />
+    - ID: "09de23fa-fa9e-43e8-8ea3-45c8f5ad742c"
+      Hint: LegalLink3
+      Value: <link text="Terms of use" linktype="external" url="https://www.rai.nl/en/terms-of-use" />
+    - ID: "9ef5e851-4e53-4282-a91f-d9c7838f9b1a"
+      Hint: SocialLink1
+      Value: <link text="LinkedIn" linktype="external" url="https://www.linkedin.com/company/raiamsterdam" />
+    - ID: "d14aac84-ffaf-4e06-a1ca-7b72874bd097"
+      Hint: SocialLink2
+      Value: <link text="Instagram" linktype="external" url="https://www.instagram.com/raiamsterdam/" />
+    - ID: "674690cc-d55d-44f9-a953-c41fc50232be"
+      Hint: SocialLink3
+      Value: <link text="Youtube" linktype="external" url="http://www.youtube.com/user/amsterdamrai" />
+    - ID: "63069cb1-79d2-4d10-bfab-e2bab716ee73"
+      Hint: CopyrightYear
+      Value: 2026
+    - ID: "339d84d6-0daf-4ed5-a7ca-3d0ceda7b227"
+      Hint: CopyrightText
+      Value: Copyright
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54fe15f7-12a7-431d-93a4-ffa6d0e2b0cc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260612T120000Z

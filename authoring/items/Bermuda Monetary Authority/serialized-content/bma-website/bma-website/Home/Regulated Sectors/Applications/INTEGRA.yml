@@ -1,0 +1,31 @@
+---
+ID: "1746284f-fef4-5346-a1b3-e2e623ccc9e0"
+Parent: "dbfb8972-0edc-174e-b7e5-f1ae84a43ac4"
+Template: "97a02f7a-b48e-4eca-a8bd-58c22054c373"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Home/Regulated Sectors/Applications/INTEGRA"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260902T110000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: INTEGRA
+
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1746284f-fef4-5346-a1b3-e2e623ccc9e0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260902T110000Z

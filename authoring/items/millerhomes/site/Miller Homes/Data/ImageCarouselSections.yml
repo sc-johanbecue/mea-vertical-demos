@@ -1,0 +1,31 @@
+﻿---
+ID: "e97acff2-b31d-4f65-95d5-a155a0d307c8"
+Parent: "527e82cf-693d-4ffd-9d2d-dbed3b6874b7"
+Template: "55886669-0d5b-4b57-8e6e-17ebdfb880d5"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/ImageCarouselSections"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260201T235934Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fec43fa5-c94d-4522-ad43-c12a991f9636"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260201T235934Z

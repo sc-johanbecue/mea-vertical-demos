@@ -1,0 +1,117 @@
+﻿---
+ID: "e76104b3-4efd-4ced-90a9-13883ee203cd"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/Right to Work
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E2B48C7A-29C6-4219-8DC2-9572A3344269}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{25F5A261-C73A-4751-8991-E4BEC5BF0C5F}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{5D753BE7-F7D8-4756-8E36-BC3B36EEB47B}"
+          p:after="r[@uid='{25F5A261-C73A-4751-8991-E4BEC5BF0C5F}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{2038B172-8F45-487F-9AB9-49A5CB94BA57}"
+          p:after="r[@uid='{5D753BE7-F7D8-4756-8E36-BC3B36EEB47B}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{C96D126D-AEF9-4191-95D2-771F9997A4D2}"
+          p:after="r[@uid='{2038B172-8F45-487F-9AB9-49A5CB94BA57}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{6EA0E7B7-8D86-41D2-90B7-B5F9CD03B6FD}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: Right to Work | Employee Onboarding App
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: As an employer, it's your responsibility to check that each employee has the right to work in the UK. Our intuitive app makes the process quick and easy.
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/Right-to-work" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Right to Work
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Right to Work
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: "Speed up, simplify and add security - manage every step of a right to work check in a single solution"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a97da8db-10bb-40ea-b648-847efc098de9"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="816e7bd7-51c3-44f7-8af4-5f6a7a72fcac" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Right-to-Work/RightToWork_mainimage.jpg?rev=52c630b791f446b0ba0ea736fc2b719f&hash=F26BCD4653F4EFE20F4356230FE6AD3F" alt="KPMG Right to Work app main image" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        <p>As an employer, it's your responsibility to check that each employee has the right to work in the UK. Our intuitive app makes the process quick and easy.</p>
+        <p>Since October 2022, all businesses are legally required to conduct either in-person or digital 'right to work' checks, to ensure that every employee is eligible to work in the UK. Non-compliance could result in fines of up to £20,000 per individual, criminal charges, and reputational damage. Streamline and speed up the process with our Right to Work app. </p> <h2>An end-to-end solution</h2> <p>Documents can be digitally verified by uploading them into the app. Each check is securely stored on a web portal and users will be alerted to expiring documents and re-checks. </p> <h2>Quick and accessible</h2> <p>Each check typically takes less than a minute and our mobile app guides users through every step. Using our app, you'll automate and standardise the 'right to work' process, saving valuable time and effort for your HR team. </p> <h2>Compliance at your fingertips</h2> <p>KPMG’s UK immigration lawyers keep the logic of the app up to date, working to ensure that it reflects current immigration law. </p> <h2>Privacy safeguarding</h2> <p>With personal information at stake, our technology is designed in line with GDPR requirements and high-level digital safety. </p> <img alt="50% - the increase in the number of Home Office audits since 2022; £60,000 - the amount you could be fined by the Home Office for non-compliance; 1 minute – our app typically takes less than this per check and does not require an immigration expert. " style="height:600px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Right-to-Work/Right-to-Work---stats60.gif?rev=3e2bba48f7f742fd94a9f6ee4553a4c6&hash=DEDF4A081622EFD63343D3AC783CB031" /> <h2>Did you know?</h2> <ul> <li>There was a 50% increase in the number of Home Office audits of businesses between 2021 and 2022.</li> <li>Non-compliance could result in fines of up to £60K per employee you hire without the appropriate Right to Work checks.</li> <li>Each check with our app should take no more than a minute to complete, giving you an efficient and cost-effective way to ensure compliance. </li> </ul> <h2>Pricing and how to buy</h2> <p>Pricing will vary depending on your choice - choose from an enterprise version of the product or a bespoke set up. <br /> <br /> <strong>Enterprise: </strong></p> A KPMG branded portal and app. Flat implementation fee. Quarterly licence fee. (The licence fee is based on the number of checks completed per quarter.) <strong>Bespoke: <br /> </strong> Own-branded portal and app. Integrated into your internal HR systems, allowing for features such as Single Sign-On. Bespoke pricing options, based on your individual needs. <em><sup><sub>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities. KPMG Law is part of KPMG LLP, a multi-disciplinary practice authorised and regulated by the Solicitors Regulation Authority. SRA ID: 615423. For full details of our professional regulation please refer to 'Regulatory information' under 'About' at kpmg.com/uk</sub></sup></em>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T014254Z

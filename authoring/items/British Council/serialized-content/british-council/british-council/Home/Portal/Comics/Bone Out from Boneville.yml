@@ -1,0 +1,334 @@
+﻿---
+ID: "7c9f2ae8-63ae-4aa2-996f-33c2d1770a20"
+Parent: "9bc9fda4-8254-4db6-94b6-701af578920d"
+Template: "b11e2500-0001-4001-8500-000000000001"
+Path: "/sitecore/content/british-council/british-council/Home/Portal/Comics/Bone Out from Boneville"
+SharedFields:
+- ID: "0257e7f4-ca18-4237-86f2-4c8fde3ba474"
+  Hint: Roles
+  Value: "{08343D17-1915-4BE6-ADD2-65E6DED441B2}"
+- ID: "3a78f749-3ca7-42fd-9d73-0e35ab5c289f"
+  Hint: Entitlements
+  Value: "{153FF9DD-5C4A-4997-A6F7-F73B098A7F6F}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7BC47EF8-7ADA-4EBA-BA0A-13E6F049DFEC}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6f6cbf3d-803b-4ca2-b409-19759c5998a3"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{BA29C3D9-DC56-407A-BA47-9B2895C7C856}"
+          p:after="*[1=2]"
+          s:id="{B11E2500-0001-4001-8500-000000000020}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=26"
+          s:ph="/headless-main/portal-main-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T160000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: "Bone: Out from Boneville"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Bone: Out from Boneville"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link text="Bone: Out from Boneville" linktype="internal" id="{7c9f2ae8-63ae-4aa2-996f-33c2d1770a20}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea4c6d54-4280-43f2-9e6e-cceb8dcc1498"
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Illustrated Stories
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Comics
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 1998
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-5278133"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Comics
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: English
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 379
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: "Discover Bone: Out from Boneville from the British Council Digital Library. This Comics title brings together engaging material for learners and curious readers alike."
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Bone: Out from Boneville begins with a carefully paced introduction that draws you into its world. The opening chapters establish character, place and purpose with clarity. As the narrative unfolds, themes of culture, learning and curiosity weave through everyday detail. Observations land lightly, then deepen. By the middle stretch of this sample, the tone settles into a confident rhythm. Scenes are sketched with economy, leaving room for the reader to linger. The later sample pages look ahead: questions are raised, threads are gathered, and the closing lines of this preview invite you to continue beyond the first twenty pages."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iN91ppG30dXsZmWmMO9pqN6O0T2jMHFV
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="9fb4c85d-85fe-4679-8337-1dee93c6fae3" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T092502Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: "Bone: Out from Boneville"
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T160000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: "Bone : À l'aventure avec Boneville"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Bone : À l'aventure avec Boneville"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{7c9f2ae8-63ae-4aa2-996f-33c2d1770a20}" linktype="internal" text="Bone : À l'aventure avec Boneville" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38c21e76-b594-4681-a201-e929d9219aa0"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Histoires illustrées
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: Bandes dessinées du British Council
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 1998
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-5278133"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Bandes dessinées
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: Anglais
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 379
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: "Découvrez Bone : À l'aventure avec Boneville dans la bibliothèque numérique du British Council. Ce titre de bande dessinée rassemble un contenu captivant pour les apprenants et les lecteurs curieux."
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Bone : À l'aventure avec Boneville commence par une introduction soigneusement rythmée qui vous plonge dans son univers. Les premiers chapitres établissent les personnages, les lieux et les objectifs avec clarté. Au fil du récit, des thèmes de culture, d'apprentissage et de curiosité se tissent dans les détails du quotidien. Les observations atterrissent légèrement, puis s'approfondissent. Vers le milieu de cet extrait, le ton s'installe dans un rythme confiant. Les scènes sont esquissées avec économie, laissant au lecteur le temps de s'attarder. Les dernières pages de cet extrait ouvrent des perspectives : des questions sont soulevées, des fils sont rassemblés, et les dernières lignes de cet aperçu vous invitent à aller au-delà des vingt premières pages."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="9fb4c85d-85fe-4679-8337-1dee93c6fae3" alt="Bone : À l'aventure avec Boneville par Jeff Smith" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084827Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: "Bone : À l'aventure avec Boneville"
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T160000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: "बोन: आउट फ्रॉम बोनविले"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "बोन: आउट फ्रॉम बोनविले"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{7c9f2ae8-63ae-4aa2-996f-33c2d1770a20}" linktype="internal" text="बोन: आउट फ्रॉम बोनविले" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "469c8c16-e943-401b-9c05-7cbc866a7fcf"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: चित्रित कहानियाँ
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: ब्रिटिश काउंसिल कॉमिक्स
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 1998
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-5278133"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: कॉमिक्स
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: अंग्रेज़ी
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 379
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: "ब्रिटिश काउंसिल डिजिटल लाइब्रेरी से बोन: आउट फ्रॉम बोनविले की खोज करें। यह कॉमिक्स शीर्षक शिक्षार्थियों और जिज्ञासु पाठकों के लिए आकर्षक सामग्री प्रस्तुत करता है।"
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "बोन: आउट फ्रॉम बोनविले एक सावधानीपूर्वक गति से परिचय के साथ शुरू होता है जो आपको इसकी दुनिया में खींचता है। शुरुआती अध्याय चरित्र, स्थान और उद्देश्य को स्पष्टता के साथ स्थापित करते हैं। जैसे-जैसे कथा आगे बढ़ती है, संस्कृति, सीखने और जिज्ञासा के विषय रोजमर्रा के विवरणों के माध्यम से बुने जाते हैं। अवलोकन हल्के ढंग से प्रस्तुत किए जाते हैं, फिर गहराई में जाते हैं। इस नमूने के मध्य भाग तक, स्वर एक आत्मविश्वासपूर्ण लय में बस जाता है। दृश्यों को संक्षिप्तता के साथ रेखांकित किया गया है, जिससे पाठक को ठहरने की जगह मिलती है। बाद के नमूना पृष्ठ आगे की ओर देखते हैं: प्रश्न उठाए जाते हैं, धागे एकत्र किए जाते हैं, और इस पूर्वावलोकन की समापन पंक्तियाँ आपको पहले बीस पृष्ठों से आगे बढ़ने के लिए आमंत्रित करती हैं।"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="9fb4c85d-85fe-4679-8337-1dee93c6fae3" alt="बोन: आउट फ्रॉम बोनविले, जेफ स्मिथ द्वारा" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093509Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: "बोन: आउट फ्रॉम बोनविले"
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T160000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: "Bone: Uit Boneville"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Bone: Uit Boneville"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{7c9f2ae8-63ae-4aa2-996f-33c2d1770a20}" linktype="internal" text="Bone: Uit Boneville" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b8674a46-0d73-4bde-b13b-5781999ec12e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Geïllustreerde Verhalen
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Strips
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 1998
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-5278133"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Strips
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: Engels
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 379
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: "Ontdek Bone: Uit Boneville in de British Council Digitale Bibliotheek. Deze strip biedt boeiend materiaal voor zowel leerlingen als nieuwsgierige lezers."
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Bone: Uit Boneville begint met een zorgvuldig opgebouwd begin dat je in zijn wereld trekt. De openingshoofdstukken introduceren personages, plaats en doel met helderheid. Naarmate het verhaal zich ontvouwt, verweven thema's van cultuur, leren en nieuwsgierigheid zich door alledaagse details. Observaties landen licht, maar verdiepen zich vervolgens. Halverwege dit voorbeeld krijgt de toon een zelfverzekerd ritme. Scènes worden met economie geschetst, waardoor er ruimte is voor de lezer om te blijven hangen. De latere voorbeeldpagina's kijken vooruit: vragen worden gesteld, draden worden verzameld, en de slotregels van deze preview nodigen je uit om verder te gaan dan de eerste twintig pagina's."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="9fb4c85d-85fe-4679-8337-1dee93c6fae3" alt="Bone: Uit Boneville door Jeff Smith" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084829Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: "Bone: Uit Boneville"

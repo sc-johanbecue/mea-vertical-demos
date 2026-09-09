@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-01T09:10:28.433Z",
+  "project": "design-screenshots",
+  "urls": [],
+  "sections": {
+    "site": [
+      "Header"
+    ],
+    "content": []
+  },
+  "fonts": [],
+  "colors": {
+    "primary": {
+      "hex": [],
+      "gradients": []
+    },
+    "secondary": {
+      "hex": [],
+      "gradients": []
+    },
+    "accent": {
+      "hex": [],
+      "gradients": []
+    },
+    "neutrals": {
+      "hex": [],
+      "gradients": []
+    },
+    "semantic": {
+      "success": null,
+      "error": null,
+      "warning": null,
+      "info": null
+    }
+  },
+  "stylesheets": []
+}

@@ -1,0 +1,17 @@
+---
+ID: "d7eb1f8e-6932-4e80-8fa3-3af879086e73"
+Parent: "74f9759b-f507-4595-b9ce-7895d2b53298"
+Template: "74f9759b-f507-4595-b9ce-7895d2b53298"
+Path: "/sitecore/templates/Project/british-council/HighlightsLinkGrid Templates/HighlightsLinkGrid/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

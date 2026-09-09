@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-19T13:28:15.751Z",
+  "reviewStatus": "pending",
+  "sectionFolder": "read-more-link-grid",
+  "review": {
+    "narrativeSummary": "We will create 2 components: TitleDescriptionLinkGridSection (section wrapper) and HorizontalLinkCard (repeatable child). TitleDescriptionLinkGridSection datasource fields: Title, Body. Sitecore placeholder \"link-cards\" on TitleDescriptionLinkGridSection accepts ~2 HorizontalLinkCard item(s). Each HorizontalLinkCard is authored with: Logo, Title, Cta. Layout: grid.",
+    "notes": [
+      "Detection: HorizontalLinkCardGrid with section title + 4 repeated tiles",
+      "Placeholder \"link-cards\" → HorizontalLinkCard (grid).",
+      "Child card component \"HorizontalLinkCard\" slots into parent placeholder."
+    ],
+    "contentGuidance": null,
+    "nextSteps": [
+      "Review the narrative summary and responsive layout notes against the section PNGs.",
+      "Edit component names or fields in this file if the plan looks wrong, then set reviewStatus to \"approved\".",
+      "Run sitecore-component-from-design for each component under implementationPlan.components.",
+      "Create YAML artifacts listed under each component.yaml.artifacts.",
+      "Wire renderings into page YAML via sitecore-page-from-design."
+    ]
+  },
+  "responsiveLayout": null,
+  "detection": {
+    "cmsName": "ReadMoreLinkGrid",
+    "folderName": "read-more-link-grid",
+    "type": "grid",
+    "componentType": null,
+    "scope": "page",
+    "selector": "#main-content > div:nth-of-type(8)",
+    "anchorWebid": null,
+    "heading": "Read more",
+    "reason": "HorizontalLinkCardGrid with section title + 4 repeated tiles",
+    "captureMode": "clean",
+    "isStickyOverlay": false,
+    "order": 6,
+    "repeatCount": null,
+    "placeholderFor": "HorizontalLinkCard",
+    "parentSection": null,
+    "includesSectionTitle": false,
+    "detectedFields": [],
+    "source": "visual-dom"
+  },
+  "assets": {
+    "screenshots": {
+      "desktop": "read-more-link-grid-desktop.png",
+      "tablet": "read-more-link-grid-tablet.png",
+      "mobile": "read-more-link-grid-mobile.png"
+    },
+    "sectionHtml": "section.html",
+    "outputDir": "read-more-link-grid"
+  },
+  "implementationPlan": {
+    "confidence": "high",
+    "summary": "Build 2 Sitecore components: TitleDescriptionLinkGridSection + HorizontalLinkCard (parent/child placeholder pattern).",
+    "placeholderKey": "link-cards-{DynamicPlaceholderId}",
+    "repeatCount": 2,
+    "components": [
+      {
+        "role": "parent",
+        "cmsName": "TitleDescriptionLinkGridSection",
+        "componentType": "Section",
+        "description": "Grid section with section title and repeating card placeholder.",
+        "confidence": "high",
+        "fields": [
+          {
+            "name": "Title",
+            "type": "Single-Line Text"
+          },
+          {
+            "name": "Body",
+            "type": "Multi-Line Text"
+          }
+        ],
+        "placeholders": [
+          {
+            "key": "link-cards-{DynamicPlaceholderId}",
+            "allowedRenderings": [
+              "HorizontalLinkCard"
+            ],
+            "layout": "grid"
+          }
+        ],
+        "variants": [
+          "Default",
+          "Inversed",
+          "ImageTop",
+          "Animated",
+          "Carousel"
+        ],
+        "parentComponents": [],
+        "tsx": {
+          "componentMapKey": "TitleDescriptionLinkGridSection",
+          "directory": "src/components/title-description-link-grid-section/",
+          "mainFile": "src/components/title-description-link-grid-section/TitleDescriptionLinkGridSection.tsx",
+          "variantExports": [
+            "Default",
+            "Inversed",
+            "ImageTop",
+            "Animated",
+            "Carousel"
+          ],
+          "componentMapRegistration": ".sitecore/component-map.ts → 'TitleDescriptionLinkGridSection': () => import('@/components/title-description-link-grid-section/TitleDescriptionLinkGridSection')"
+        },
+        "yaml": {
+          "sitecoreProjectPath": "authoring/items/{ProjectName}/serialized-content/",
+          "artifacts": [
+            {
+              "kind": "template-branch",
+              "description": "Sitecore template branch (Template, Data section, field items)",
+              "pathPattern": "/sitecore/templates/Project/{project}/TitleDescriptionLinkGridSection/"
+            },
+            {
+              "kind": "rendering",
+              "description": "Json rendering definition",
+              "pathPattern": "/sitecore/layout/Renderings/Project/{project}/TitleDescriptionLinkGridSection"
+            },
+            {
+              "kind": "headless-variants-folder",
+              "description": "Headless Variants folder for Experience Editor",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionLinkGridSection"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Default variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionLinkGridSection/Default.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Inversed variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionLinkGridSection/Inversed.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "ImageTop variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionLinkGridSection/ImageTop.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Animated variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionLinkGridSection/Animated.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Carousel variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionLinkGridSection/Carousel.yml"
+            },
+            {
+              "kind": "data-folder",
+              "description": "Datasource folder for authored content",
+              "pathPattern": "{siteContentPath}/Data/TitleDescriptionLinkGridSections"
+            },
+            {
+              "kind": "default-datasource",
+              "description": "Default datasource item with field values from design",
+              "pathPattern": "{siteContentPath}/Data/TitleDescriptionLinkGridSections/Default TitleDescriptionLinkGridSection.yml"
+            },
+            {
+              "kind": "placeholder-setting",
+              "description": "Placeholder setting for link-cards-{DynamicPlaceholderId}",
+              "pathPattern": "/sitecore/layout/Placeholder Settings/Project/{project}/link-cards",
+              "placeholderKey": "link-cards-{DynamicPlaceholderId}",
+              "allowedRenderings": [
+                "HorizontalLinkCard"
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "name": "Title",
+              "type": "Single-Line Text"
+            },
+            {
+              "name": "Body",
+              "type": "Multi-Line Text"
+            }
+          ]
+        },
+        "placeholderKey": "link-cards-{DynamicPlaceholderId}"
+      },
+      {
+        "role": "child",
+        "cmsName": "HorizontalLinkCard",
+        "componentType": "Card",
+        "description": "HorizontalLinkCard for grid placeholder.",
+        "confidence": "high",
+        "fields": [
+          {
+            "name": "Logo",
+            "type": "Image"
+          },
+          {
+            "name": "Title",
+            "type": "Single-Line Text"
+          },
+          {
+            "name": "Cta",
+            "type": "General Link"
+          }
+        ],
+        "placeholders": [],
+        "variants": [
+          "Default",
+          "Inversed",
+          "ImageTop",
+          "Animated"
+        ],
+        "parentComponents": [
+          "TitleDescriptionLinkGridSection"
+        ],
+        "tsx": {
+          "componentMapKey": "HorizontalLinkCard",
+          "directory": "src/components/horizontal-link-card/",
+          "mainFile": "src/components/horizontal-link-card/HorizontalLinkCard.tsx",
+          "variantExports": [
+            "Default",
+            "Inversed",
+            "ImageTop",
+            "Animated"
+          ],
+          "componentMapRegistration": ".sitecore/component-map.ts → 'HorizontalLinkCard': () => import('@/components/horizontal-link-card/HorizontalLinkCard')"
+        },
+        "yaml": {
+          "sitecoreProjectPath": "authoring/items/{ProjectName}/serialized-content/",
+          "artifacts": [
+            {
+              "kind": "template-branch",
+              "description": "Sitecore template branch (Template, Data section, field items)",
+              "pathPattern": "/sitecore/templates/Project/{project}/HorizontalLinkCard/"
+            },
+            {
+              "kind": "rendering",
+              "description": "Json rendering definition",
+              "pathPattern": "/sitecore/layout/Renderings/Project/{project}/HorizontalLinkCard"
+            },
+            {
+              "kind": "headless-variants-folder",
+              "description": "Headless Variants folder for Experience Editor",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/HorizontalLinkCard"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Default variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/HorizontalLinkCard/Default.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Inversed variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/HorizontalLinkCard/Inversed.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "ImageTop variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/HorizontalLinkCard/ImageTop.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Animated variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/HorizontalLinkCard/Animated.yml"
+            },
+            {
+              "kind": "data-folder",
+              "description": "Datasource folder for authored content",
+              "pathPattern": "{siteContentPath}/Data/HorizontalLinkCards"
+            },
+            {
+              "kind": "default-datasource",
+              "description": "Default datasource item with field values from design",
+              "pathPattern": "{siteContentPath}/Data/HorizontalLinkCards/Default HorizontalLinkCard.yml"
+            }
+          ],
+          "fields": [
+            {
+              "name": "Logo",
+              "type": "Image"
+            },
+            {
+              "name": "Title",
+              "type": "Single-Line Text"
+            },
+            {
+              "name": "Cta",
+              "type": "General Link"
+            }
+          ]
+        },
+        "inPlaceholder": "link-cards-{DynamicPlaceholderId}",
+        "repeatCount": 2
+      }
+    ]
+  }
+}

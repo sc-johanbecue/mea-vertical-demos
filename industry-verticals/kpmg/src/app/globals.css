@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-kpmg-bg: #070221;
+  --color-kpmg-accent: #b569ff;
+  --color-kpmg-purple: #4832cb;
+  --color-kpmg-label: #6ce5e5;
+  --color-kpmg-card: #211a38;
+  --color-kpmg-elevated: #120c2a;
+  --color-kpmg-chip-active: #342b45;
+  --color-kpmg-tab-active: #1d1834;
+  --color-kpmg-date: #321db5;
+  --font-kpmg: "Open Sans", Arial, sans-serif;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  color: #ffffff;
+  font-family: var(--font-kpmg);
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: var(--color-kpmg-bg);
+}
+
+@media (min-width: 1280px) {
+  body {
+    font-size: 1.25rem;
+  }
+}
+
+/*
+ * Main column: below fixed top bar, right of fixed left nav (KpmgBeyondChrome).
+ * Applied on Layout <main> so all headless-main renderings align even without MainWrapper.
+ */
+.kpmg-beyond-main-area {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  margin-top: 4rem;
+  padding-bottom: 85px;
+  background-color: var(--color-kpmg-bg);
+}
+
+@media (min-width: 1280px) {
+  .kpmg-beyond-main-area {
+    margin-top: 100px;
+    margin-left: 247px;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1536px) {
+  .kpmg-beyond-main-area {
+    margin-left: 318px;
+  }
+}
+
+body.kpmg-beyond-marketing-layout .kpmg-beyond-main-area {
+  margin-top: 0;
+  margin-left: 0;
+  padding-bottom: 0;
+}
+
+/* Hide app chrome (sidebar + top bar) on marketing pages; keep Generic Header visible. */
+body.kpmg-beyond-marketing-layout .kpmg-beyond-sidebar,
+body.kpmg-beyond-marketing-layout header[data-cy='topBar'] {
+  display: none !important;
+}
+
+/* Beat Sitecore theme / link styles on dark Beyond surfaces */
+.kpmg-beyond-communities,
+.kpmg-beyond-community-tile {
+  color: #ffffff;
+}
+
+.kpmg-beyond-communities :is(h1, h2, h3, h4, p, span, a),
+.kpmg-beyond-community-tile :is(span, a, p) {
+  color: inherit;
+}
+
+.kpmg-beyond-event-card__article {
+  color: #ffffff;
+}
+
+.kpmg-beyond-event-card__article :is(span, p, a) {
+  color: inherit;
+}
+
+.kpmg-beyond-event-card__article .text-kpmg-label {
+  color: var(--color-kpmg-label);
+}
+
+.kpmg-beyond-event-card__image {
+  display: block;
+}
+
+.kpmg-beyond-article-richtext :is(h2, h3, h4) {
+  margin: 1.5rem 0 0.75rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.kpmg-beyond-article-richtext :is(p, li) {
+  margin: 0 0 1rem;
+  color: #ffffff;
+}
+
+.kpmg-beyond-article-richtext a {
+  color: var(--color-kpmg-label);
+  text-decoration: underline;
+}
+
+.kpmg-beyond-article-richtext :is(ul, ol) {
+  margin: 0 0 1rem 1.25rem;
+  padding: 0;
+}

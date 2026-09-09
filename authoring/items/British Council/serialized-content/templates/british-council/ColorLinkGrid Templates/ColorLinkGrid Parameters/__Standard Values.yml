@@ -1,0 +1,17 @@
+---
+ID: "bb2e7b40-21e1-493a-97a4-01a6d9c74dae"
+Parent: "f639982a-064c-4ec1-811d-e8055ffd233d"
+Template: "f639982a-064c-4ec1-811d-e8055ffd233d"
+Path: "/sitecore/templates/Project/british-council/ColorLinkGrid Templates/ColorLinkGrid Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

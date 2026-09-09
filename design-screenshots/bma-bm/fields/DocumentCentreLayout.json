@@ -1,0 +1,1 @@
+{"fields":[{"name":"SidebarTitle","type":"Single-Line Text","sort":100},{"name":"ResultsHeading","type":"Single-Line Text","sort":200},{"name":"ResultsIntro","type":"Single-Line Text","sort":300},{"name":"ArchiveLink","type":"General Link","sort":400},{"name":"ResultsCountLabel","type":"Single-Line Text","sort":500}]}

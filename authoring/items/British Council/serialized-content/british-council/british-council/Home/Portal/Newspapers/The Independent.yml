@@ -1,0 +1,300 @@
+﻿---
+ID: "c5b2449b-e07e-445c-ae7a-e3aa0d04c6a1"
+Parent: "d11bfc1b-0a8d-4006-8836-f56d0ec071ac"
+Template: "b11e2500-0001-4001-8500-000000000001"
+Path: "/sitecore/content/british-council/british-council/Home/Portal/Newspapers/The Independent"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C5ACD129-1F6B-4D44-9758-FE58F21B2057}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ac6af06b-1e37-4b91-84f3-22c97752370b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: The Independent
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: The Independent
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link text="The Independent" linktype="internal" id="{c5b2449b-e07e-445c-ae7a-e3aa0d04c6a1}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1b595c6e-dcce-4f64-939b-737765ef7615"
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Editorial team
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Press
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2025
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-6767870"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Newspaper
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: English
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 318
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Discover The Independent from the British Council Digital Library. This Newspaper title brings together engaging material for learners and curious readers alike.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "The Independent begins with a carefully paced introduction that draws you into its world. The opening chapters establish character, place and purpose with clarity. As the narrative unfolds, themes of culture, learning and curiosity weave through everyday detail. Observations land lightly, then deepen. By the middle stretch of this sample, the tone settles into a confident rhythm. Scenes are sketched with economy, leaving room for the reader to linger. The later sample pages look ahead: questions are raised, threads are gathered, and the closing lines of this preview invite you to continue beyond the first twenty pages."
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="0c891675-e0af-4932-ab5b-c73f0ea3b9ac" />
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: The Independent
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: L'Indépendant
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: L'Indépendant
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{c5b2449b-e07e-445c-ae7a-e3aa0d04c6a1}" linktype="internal" text="L'Indépendant" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1f148025-1cb9-42ac-aaa3-486f9e632260"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Équipe éditoriale
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Press
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2025
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-6767870"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Journal
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: Anglais
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 318
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Découvrez L'Indépendant de la bibliothèque numérique du British Council. Ce titre de journal rassemble du contenu captivant pour les apprenants et les lecteurs curieux.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "L'Indépendant commence par une introduction soigneusement rythmée qui vous plonge dans son univers. Les premiers chapitres établissent les personnages, les lieux et les objectifs avec clarté. À mesure que le récit se déroule, des thèmes de culture, d'apprentissage et de curiosité se tissent dans les détails du quotidien. Les observations sont légères, puis s'approfondissent. Au milieu de cet échantillon, le ton s'installe dans un rythme confiant. Les scènes sont esquissées avec économie, laissant au lecteur le temps de s'attarder. Les dernières pages de cet aperçu se tournent vers l'avenir : des questions sont soulevées, des fils sont rassemblés, et les dernières lignes de cet extrait vous invitent à continuer au-delà des vingt premières pages."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="0c891675-e0af-4932-ab5b-c73f0ea3b9ac" alt="Promo de formation en entreprise" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T085105Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: L'Indépendant
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: द इंडिपेंडेंट
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: द इंडिपेंडेंट
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{c5b2449b-e07e-445c-ae7a-e3aa0d04c6a1}" linktype="internal" text="द इंडिपेंडेंट" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "da364e71-6dce-4a98-bac2-4713508c8bb6"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: संपादकीय टीम
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: ब्रिटिश काउंसिल प्रेस
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2025
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-6767870"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: समाचार पत्र
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: अंग्रेज़ी
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 318
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: ब्रिटिश काउंसिल डिजिटल लाइब्रेरी से द इंडिपेंडेंट की खोज करें। यह समाचार पत्र शीर्षक शिक्षार्थियों और जिज्ञासु पाठकों के लिए आकर्षक सामग्री प्रस्तुत करता है।
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "द इंडिपेंडेंट एक सावधानीपूर्वक गति से परिचय के साथ शुरू होता है जो आपको इसकी दुनिया में खींचता है। शुरुआती अध्याय चरित्र, स्थान और उद्देश्य को स्पष्टता के साथ स्थापित करते हैं। जैसे-जैसे कथा आगे बढ़ती है, संस्कृति, सीखने और जिज्ञासा के विषय रोजमर्रा के विवरणों के माध्यम से बुने जाते हैं। अवलोकन हल्के से उतरते हैं, फिर गहराई में जाते हैं। इस नमूने के मध्य खंड तक, स्वर एक आत्मविश्वासपूर्ण लय में बस जाता है। दृश्यों को अर्थव्यवस्था के साथ रेखांकित किया गया है, जिससे पाठक को ठहरने की जगह मिलती है। बाद के नमूना पृष्ठ आगे देखते हैं: प्रश्न उठाए जाते हैं, धागे एकत्र किए जाते हैं, और इस पूर्वावलोकन की समापन पंक्तियाँ आपको पहले बीस पृष्ठों से आगे जारी रखने के लिए आमंत्रित करती हैं।"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="0c891675-e0af-4932-ab5b-c73f0ea3b9ac" alt="कॉर्पोरेट प्रशिक्षण प्रोमो" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093724Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: द इंडिपेंडेंट
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: The Independent
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: The Independent
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link text="The Independent" linktype="internal" id="{c5b2449b-e07e-445c-ae7a-e3aa0d04c6a1}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "504f6adc-a7d0-4c91-a9be-2c6ac992539e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Redactieteam
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Press
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2025
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-6767870"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Krant
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: Engels
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 318
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Ontdek The Independent van de British Council Digitale Bibliotheek. Deze krantentitel brengt boeiend materiaal samen voor zowel leerlingen als nieuwsgierige lezers.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "The Independent begint met een zorgvuldig opgebouwd begin dat je in zijn wereld trekt. De openingshoofdstukken introduceren personages, plaats en doel met helderheid. Naarmate het verhaal zich ontvouwt, verweven thema's van cultuur, leren en nieuwsgierigheid zich door alledaagse details. Observaties landen licht, maar verdiepen zich vervolgens. Tegen het midden van dit voorbeeld krijgt de toon een zelfverzekerd ritme. Scènes worden met spaarzaamheid geschetst, waardoor er ruimte is voor de lezer om te blijven hangen. De latere voorbeeldpagina's kijken vooruit: vragen worden gesteld, draden worden verzameld, en de slotregels van deze preview nodigen je uit om verder te gaan dan de eerste twintig pagina's."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="0c891675-e0af-4932-ab5b-c73f0ea3b9ac" alt="Promotie voor bedrijfstrainingen" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T085108Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: The Independent

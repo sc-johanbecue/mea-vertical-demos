@@ -1,0 +1,335 @@
+﻿---
+ID: "37643dab-8587-4850-bb01-077676b95daa"
+Parent: "7cb976a4-3312-4cce-b769-d5fb7003ae00"
+Template: "51898b93-09df-4ad7-9ef8-9497898eb98c"
+Path: "/sitecore/content/british-council/british-council/Home/Portal/Movies"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D262B06B-E196-4843-96C9-E1111E22CBE1}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "12c3b6cc-667c-451a-bd42-5b28bbec6c71"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{7B1C8D58-BF7A-4930-AD21-F2CC16648FC7}"
+          p:before="*"
+          s:id="{D40394F5-2102-4703-A7BD-6D2F6E71F824}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{B9930AB6-443B-4073-BF37-818D3974CC3E}"
+          p:before="*"
+          s:ds="15dda3ee-7e6e-4529-b6d9-4ec74f999056"
+          s:id="{00061435-9527-4541-B3AA-B701ABE8C4B6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/portal-sidebar-1" />
+        <r
+          uid="{1769E91E-61BC-4343-906B-89B16C7D19C4}"
+          p:before="*"
+          s:ds="9e5e3053-9338-4f1c-840f-d587d3133f61"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=11"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{89AAE2D8-87BA-4806-8934-EE290E7AA3BA}"
+          p:before="*"
+          s:ds="0b7f608b-3171-4b17-9845-8b205aa57c23"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=12"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{7D02F11B-4C84-4AE1-90D6-0087B3D96228}"
+          p:before="*"
+          s:ds="123b7a80-81ec-4a97-bb4b-e2c3ba5e15d3"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=13"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{84A24230-E713-403B-8599-D5C20BF8DA47}"
+          p:before="*"
+          s:ds="8d2fd3b0-e54a-426b-bded-57dcb9cca333"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=20"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{A35E6CBB-D8E2-46E9-AB60-2AE7B901080E}"
+          p:before="*"
+          s:ds="a1c6999b-1df2-4293-99b9-589e4823ea44"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=21"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{B0F81512-36C2-4220-959F-C3C055E11783}"
+          p:before="*"
+          s:ds="ac9b6546-0126-46e2-8c41-31608e819cef"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=22"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{008B30B6-F7A0-493F-A690-81E85B9AF7A4}"
+          p:before="*"
+          s:ds="67bf7ae6-71aa-4fd5-9d5f-99a22821258f"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=23"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{4037D5FF-5B3F-461E-B2E4-E2DB95AA73D1}"
+          p:before="*"
+          s:ds="d20f0873-d7e9-4c2c-986c-1a1360acfbb9"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=24"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{B68CCAC1-09D1-448B-8D2B-BD96475A1793}"
+          p:before="*"
+          s:ds="766e1a78-ab3e-4d0f-a909-c1346893de67"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=25"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{F970C1FC-BEA1-4D49-8710-9A326B898657}"
+          p:before="*"
+          s:ds="e43a99dc-339d-4c7d-8af4-6b86f144c319"
+          s:id="{EE87D5C6-4BEE-449A-A066-F9E776839097}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/portal-main-1" />
+        <r
+          uid="{DE31B493-75F9-45C7-8837-5DF465542FC5}"
+          p:before="*"
+          s:ds="1dfd322d-4b17-4a79-99b3-471560a9ad14"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=40"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{5275383B-F481-4CF0-BE18-F3DA46728289}"
+          p:before="*"
+          s:ds="524720df-5e36-4da5-a2d7-c07ee45b0fd5"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=41"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{1DE44CB1-0590-4904-B04E-06B18A71F370}"
+          p:before="*"
+          s:ds="16dbd5ff-62bb-40bc-b6ca-f7691a62d32f"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=42"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{B333AB45-0FF3-4827-8759-02881886D794}"
+          p:before="*"
+          s:ds="652ef452-c621-4ad7-a9bb-9401eaf1dfc0"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=43"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{C55A40A2-843D-4E1C-B408-60E71B6E1267}"
+          p:before="*"
+          s:ds="0e95e336-0b4f-41c3-b0ea-3ea1905a964c"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=44"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{317213AE-814B-443F-A122-780ABF0F98ED}"
+          p:before="*"
+          s:ds="c473fa06-b989-4f7e-85d6-e1eb85511a18"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=45"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{CEA141AE-2F9F-4DCC-8C02-C916EF9ECF91}"
+          p:before="*"
+          s:ds="c949abe3-2675-41b0-b3d3-fcf0f1e13188"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=46"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{4FD01958-648E-447E-944B-160C9EF7D569}"
+          p:before="*"
+          s:ds="581e0263-aabc-428b-ad5a-25ef972b70e5"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=47"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{D7836778-E460-45E9-AE9D-9B0CA9E1C7B3}"
+          p:before="*"
+          s:ds="dd001792-4a16-4497-a594-b1955e08d409"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=48"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{93FA037E-51D3-4536-B7BC-B87868E6A2CA}"
+          p:before="*"
+          s:ds="1dfd322d-4b17-4a79-99b3-471560a9ad14"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=49"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Movies
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="d71a9034-9ad3-4393-aedf-7828ce7950f6" />
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Movies
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Movies
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Films
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="d71a9034-9ad3-4393-aedf-7828ce7950f6" alt="Sièges de cinéma et écran" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ec45886-131e-41e9-8df0-50c5b201b07c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Films
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084543Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Films
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: फ़िल्में
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="d71a9034-9ad3-4393-aedf-7828ce7950f6" alt="सिनेमा की सीटें और स्क्रीन" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "09b91981-d654-4a5b-ad28-6d250f458f4f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: फ़िल्में
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093312Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: फ़िल्में
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Films
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="d71a9034-9ad3-4393-aedf-7828ce7950f6" alt="Bioscoopstoelen en scherm" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "39b0ed92-f156-4e81-90ce-a16706b41b11"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Films
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084544Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Films

@@ -1,0 +1,95 @@
+﻿---
+ID: "8a5484e1-1620-45ce-ae2d-8c7edf78dc58"
+Parent: "9b577491-9b01-4fe5-a4a1-ba193bb3bf81"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/industry-verticals/skywings/Home/First-Time Buyer Boost Email"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F37C59B7-5910-4139-855E-71A3EB926E0D}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260527T133657Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "First-Time Buyer Boost Email"
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: "First-Time Buyer Boost Email"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "44a15f83-88a4-4bbc-bd9d-b2112ee57e1d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260527T133657Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260527T133704Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "First-Time Buyer Boost Email"
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: "First-Time Buyer Boost Email"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p><strong>Subject line options</strong><br />
+        A: First-time buyer boost for spring 2026<br />
+        B: Lower your monthly mortgage payment<br />
+        C: New home support at selected Miller developments</p>
+        <p><strong>Pre-header</strong><br />
+        Spring 2026 savings to help first-time buyers get moving.</p>
+        <p><strong>Opening</strong><br />
+        You’ve been looking for the right first home — and keeping the monthly payment in reach matters.</p>
+        <p><strong>Body</strong><br />
+        That’s why Miller Homes is launching First-Time Buyer Boost for Spring 2026, with a mortgage rate buy-down on selected developments to help make buying feel more manageable.</p>
+        <p>If you’re considering a move in Scotland, the North West, Yorkshire or the Midlands, this could be the extra support you need to take the next step.</p>
+        <p><strong>CTA</strong><br />
+        Button: Explore First-Time Buyer Boost<br />
+        Link: Insert campaign landing page URL</p>
+        <p>Best wishes,<br />The Miller Homes team</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4c7c5766-29cc-40cc-8f47-fc4e2129efc7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20260527T133704Z
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Launch email for First-Time Buyer Boost, written for warm first-time-buyer leads."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260527T133704Z

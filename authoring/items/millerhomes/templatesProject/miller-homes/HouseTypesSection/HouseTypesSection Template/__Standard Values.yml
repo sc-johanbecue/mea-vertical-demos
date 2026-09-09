@@ -1,0 +1,70 @@
+﻿---
+ID: "60fb010f-f1fe-47bc-bbd4-f227ab35a11e"
+Parent: "29e1f12b-b6f7-4707-acbb-8479eaf9cc13"
+Template: "29e1f12b-b6f7-4707-acbb-8479eaf9cc13"
+Path: "/sitecore/templates/Project/miller-homes/HouseTypesSection/HouseTypesSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f293338-079f-4c8d-8270-af9adef77e09"
+      Hint: MinPriceLabel
+      Value: "Min price:"
+    - ID: "196e7917-5e71-40fe-9db8-19fda489bb06"
+      Hint: ChooseHomeTypeText
+      Value: Choose a home type
+    - ID: "1e822f69-413c-4708-9c04-a678628af710"
+      Hint: NumBedroomsText
+      Value: "No. of bedrooms:"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031811Z
+    - ID: "45cf0c14-387f-45d9-8cea-5d9675ca9028"
+      Hint: ShowFiltersText
+      Value: Show Filters
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "589ba294-2b7e-4f8d-ae8b-887c42c3a575"
+      Hint: ShowAvailabilityText
+      Value: Show Availability
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6265475c-4d33-4576-a070-ef16ec3d716f"
+    - ID: "ae41b03d-612f-4329-9072-f875788079da"
+      Hint: ViewFullSelectionText
+      Value: View full selection
+    - ID: "ba76929a-a341-4e72-b02b-e2c91b30bc12"
+      Hint: Title
+      Value: Homes at Bramcote Hills Rise
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bbaa32a4-3d73-4616-80fd-f44e90f0fd32"
+      Hint: MaxPriceLabel
+      Value: "Max price:"
+    - ID: "cd06d15b-e26f-426f-a59f-c60900d1d38c"
+      Hint: Subtitle
+      Value: Explore our range of beautiful new homes
+    - ID: "d37432b8-506b-4d11-a3dc-75c1caaf8d6f"
+      Hint: MovingSoonText
+      Value: Moving Soon
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T031856Z
+    - ID: "ec4a190c-dd9d-4948-aceb-f56c373f2823"
+      Hint: HideFiltersText
+      Value: Hide Filters
+    - ID: "ece8de5f-2d1b-4164-ba07-91dc8341f8c2"
+      Hint: PartExchangeText
+      Value: Part Exchange
+    - ID: "f3d1e3f4-ec5f-4820-bf0f-d7b2e2939ef2"
+      Hint: ReadyNowText
+      Value: Ready Now

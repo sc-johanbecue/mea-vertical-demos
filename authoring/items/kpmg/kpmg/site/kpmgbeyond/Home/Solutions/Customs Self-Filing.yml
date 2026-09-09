@@ -1,0 +1,117 @@
+﻿---
+ID: "bdc07a62-c105-416e-9cde-0f388f573039"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: "/sitecore/content/kpmg/kpmgbeyond/Home/Solutions/Customs Self-Filing"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9A22EF2E-BCD6-4569-AF75-1A8F4542EF24}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{3792FE17-2EFD-4F41-ADA8-BDD637936CEA}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{D179E6E4-A770-4372-AD01-BA08CB6E185C}"
+          p:after="r[@uid='{3792FE17-2EFD-4F41-ADA8-BDD637936CEA}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{853E45BB-83F2-40F1-9DC9-96CE2968FA37}"
+          p:after="r[@uid='{D179E6E4-A770-4372-AD01-BA08CB6E185C}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{4A6FBAAF-3C70-4A57-9119-403CCE7BC11B}"
+          p:after="r[@uid='{853E45BB-83F2-40F1-9DC9-96CE2968FA37}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{68C8BBD3-6CCA-4FA4-80A5-F488DAEF3735}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: "Customs Self-Filing | Your in-house customs declarations solution"
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "In an increasing geopolitical world and with the uptick in customs audit activity in both the UK and EU, navigating the challenges of customs regulations can be a daunting task. Historically, businesses have outsourced their customs operations, but we are now seeing a significant trend towards self-filing (insourcing) driven by the recognition that there are large savings that can be leveraged, as well as the ability to improve compliance and fully automate and optimise data flows and processes."
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/Customs-Self-Filing" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: "Customs Self-Filing"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Customs Self-Filing"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: Automate your customs declarations to streamline compliance, reduce costs, and increase duty/tax savings.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "10e71180-f7b6-4870-8c97-85a359a413f5"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="d520bf04-7295-46aa-9a02-8091adfbd058" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Customs-Self-Filing.jpeg?rev=48d51e773b3345998bd2a63799c153cb&hash=2955450DEF5334BD1DBC963E5916C0D7" alt="View of neon shipping crates in a dockyard" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        <p>In an increasing geopolitical world and with the uptick in customs audit activity in both the UK and EU, navigating the challenges of customs regulations can be a daunting task. <br /> <br /> Historically, businesses have outsourced their customs operations, but we are now seeing a significant trend towards self-filing (insourcing) driven by the recognition that there are large savings that can be leveraged, as well as the ability to improve compliance and fully automate and optimise data flows and processes. </p>
+        <p>In today&rsquo;s tough economic climate we understand that every penny counts and therefore identifying any cash savings is obviously crucial. Bringing the declaration process in-house means automating your operations to streamline compliance and reduce transactional costs, while increasing opportunities for further duty/tax savings.<br /> <br /> Whilst outsourcing relieves some of the administrative burden, it is you as the Importer and/or Exporter, that is still liable for any errors.</p> <h2>Here&rsquo;s how we can help: </h2> <ul> <li><strong>Compliance:</strong> Ensure your customs declarations are accurate and compliant, mitigating the risk of costly penalties and delays.</li> <li><strong>Cost optimisation:</strong> Reduce operational expenses by bringing the declaration process in-house and eliminating reliance on external customs brokers &ndash; we have seen savings of up to 80% compared to brokers.</li> <li><strong>Efficiency: </strong>Fully automate your customs processes, saving time and internal resources while enhancing overall efficiency.</li> <li><strong>Increased control:</strong> Gain complete visibility and control over all of your customs declarations and data in one platform, ensuring accuracy and compliance.</li> <li><strong>Unlock value: </strong>Access duty reliefs and procedures to potentially achieve significant tax savings.</li> </ul> <p>By combining the right technology partners (and we know the major players well) with our customs and trade compliance experience and our implementation expertise, we&rsquo;ll deliver a compelling alternative to an outsourced broker solution.<br /> <br /> This approach not only reduces costs but can also deliver a seamless customs process environment whilst helping you to maintain full control over your declarations, bringing greater accuracy and compliance every step of the way. </p> <p><img alt="Customs Self-Filing gif" src="https://cd-prod-horizon.azureedge.net/-/media/,-w-,June-July_2024/Untitled/Untitled-(1).gif?h=322&w=1050&rev=a68e73c4de784549ad2f6ad91bcf27ab&hash=052F21C2F54F366693421914C83C40EC" style="height: 322px; width: 1050px;" /></p> <h2>Ask yourself: </h2> <ul> <li> Could you cut costs by reducing the need for customs brokers?</li> <li>Are you overpaying on duties and is a reclaim possible?</li> <li>Are you confident that your export controls and licensing requirements are robust? </li> <li>Are you accurately declaring preferential claims? </li> <li>Are you confident with the customs value build-up and methodology you are applying?  </li> <li>Are you prepared for a customs audit? </li> <li>How automated is the document and data flow for your import and export customs clearance process? </li> </ul> <h2>Automated for accuracy</h2> <p>Our approach connects customs clearance and duty management technology with KPMG know-how to generate accurate and compliant customs declarations and Special Procedures management. <br /> <br /> The full end-to-end customs clearance process can be handled in one user-friendly and intuitive platform. By automating the process, you&rsquo;ll reduce your administration burden, minimise the risk of errors and penalties, and leverage a smoother and speedier process at the border and beyond. </p> <h2>Cost-effective</h2> <p>By bringing the declaration process in-house, you can significantly reduce operational costs associated with external customs brokers. </p> <h2>Enhanced efficiency </h2> <p>Streamline your customs processes with automated data interfaces and eliminate the need for manual interventions.</p> <h2>Greater control</h2> <p>Gain complete control over your customs declarations, ensuring accuracy and compliance while maximising visibility into your operations. Our implementation services ensure that the software, the law, the data, and the day-to-day processes all align to provide a compliant and cost-effective import, export and duty management process.<br /> <br /> <em><sub>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities.</sub></em></p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T012050Z

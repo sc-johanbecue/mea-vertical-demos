@@ -1,0 +1,23 @@
+---
+ID: "91a95695-ca54-4d40-b9e2-1505cef99588"
+Parent: "bafd3153-1615-4c7e-8eba-0ff936e67e92"
+Template: "bafd3153-1615-4c7e-8eba-0ff936e67e92"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/HeroSlide Templates/HeroSlide Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {7BAD0098-ECFB-4959-BDF2-BC8CD92F9025}
+    {BAFD3153-1615-4C7E-8EBA-0FF936E67E92}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

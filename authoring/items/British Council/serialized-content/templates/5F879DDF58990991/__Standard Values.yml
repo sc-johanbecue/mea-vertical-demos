@@ -1,0 +1,23 @@
+---
+ID: "9b0cfc1c-83e5-4c46-a26e-06fd487062c5"
+Parent: "fb2a13e8-5f2e-4240-997c-743152c2aca5"
+Template: "fb2a13e8-5f2e-4240-997c-743152c2aca5"
+Path: "/sitecore/templates/Project/british-council/VerticalTeaserGrid Templates/VerticalTeaserGrid Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {3CA163E0-D237-47FF-9477-1BCEB42C983A}
+    {FB2A13E8-5F2E-4240-997C-743152C2ACA5}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

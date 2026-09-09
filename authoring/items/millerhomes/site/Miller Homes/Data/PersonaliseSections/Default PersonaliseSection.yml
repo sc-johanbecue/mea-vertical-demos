@@ -1,0 +1,23 @@
+﻿---
+ID: "5028a685-27ac-4b8f-9c22-c337ea45465e"
+Parent: "7fd68be5-2bb2-4ff1-a038-347f3c311a6c"
+Template: "a22b1e89-2835-4afb-9d3c-0b974626019e"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/PersonaliseSections/Default PersonaliseSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T030348Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bb32510a-8bd6-4ee6-934a-a7098be0ae5b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T030348Z

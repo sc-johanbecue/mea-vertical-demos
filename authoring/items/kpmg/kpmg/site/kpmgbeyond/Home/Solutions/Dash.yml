@@ -1,0 +1,117 @@
+﻿---
+ID: "baa63bf1-272a-45cd-9785-336ca8d3a945"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/Dash
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5FBA21C5-2C78-4547-B030-D439C55BB6D3}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{5C246E6D-9807-437E-9C4F-9A0A728D34A4}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{19DAFF86-D056-4612-8740-D12F540596B6}"
+          p:after="r[@uid='{5C246E6D-9807-437E-9C4F-9A0A728D34A4}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{D53DAA1F-CC90-4102-9724-E94548838505}"
+          p:after="r[@uid='{19DAFF86-D056-4612-8740-D12F540596B6}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{158FE13D-57D4-46A4-B9BE-88B46FCB3C90}"
+          p:after="r[@uid='{D53DAA1F-CC90-4102-9724-E94548838505}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{B4C3B682-DD58-46CC-B394-7A11A98B298C}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: Dash | Retail Data Analytics Platform
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "Make data-backed decisions, speed up critical decision-making, get a better understanding of your customers and grow your business with confidence."
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/Dash" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Dash
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Dash
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: "Increase revenue and reduce costs with powerful AI-driven insights"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e62c087f-d5be-4ff2-a124-3383a8208076"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="48300bf5-a00f-46f5-9a14-5429fec8ca7e" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Dash/V6-Dash-main-image.jpg?rev=88e5cfb375ee47c9bc96ba752896d9c7&hash=CFDCA2CDB958E4D78E1DFC720C4BC02D" alt="Dash main image" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        <p>Make data-backed decisions, speed up critical decision-making, get a better understanding of your customers and grow your business with confidence. </p>
+        <p>Developed by experts specifically for retailers, Dash brings together data and technology to analyse past performance and predict future growth. Accessible to businesses of all sizes through tiered monthly subscription fees.</p> <h2>Use AI to grow your business with confidence</h2> Dash will generate accurate predictions and scenario modelling based on your business&rsquo; past performance, your customers, your product category, and external market data.<br /> <li>Cut costs by reducing wastage. </li> <li>Improve cash flow with better buying decisions. </li> <li>Visualise the revenue impact of changes you make today, on your business&rsquo; future performance.  </li> <li>See your data in once place, through user-friendly dashboards. </li> <p> </p> <h2>Gain a deeper understanding of your customers </h2> <p>Understand what your customers want and evolve your product offering to meet their needs. </p> <li>Analyse the current buying habits of your customers and predict future trends. </li> <li>See how well each store serves its current and potential customers.  </li> <li>Track footfall in your current and future locations.  </li> <li>Understand where you should open your next site using external data such as demographics, high street health, market size and competition. <br /> <br /> <img alt="dash product shot" style="height:675px; width:1200px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Dash/Dash-product-shots-gif-1.png?h=675&w=1200&rev=c60a19a31d454a5f80cbaf89ace9f62d&hash=8949B13FCF03EE328B24FD5063A3DC0D" /> <br /> <h2>Make confident and informed decisions </h2> <p>We'll deliver data-driven analysis so you can be sure that the decisions you make today, are delivering profitability now and into the future. </p> </li> <li>Apply the latest market intelligence and machine learning to make informed and intelligent decisions. </li> <li>Use real-time data to understand why a store is under or over-performing in the current marketplace.  </li> <li>Benchmark your business&rsquo; performance against your competitors. </li> <li>Get an early sight of problems and mitigate them before they emerge.  </li> <li>Replicate what your best stores are doing across your portfolio. </li> <div> </div> <div> </div> <h2>Why wait? </h2> <p>Dash doesn't have long lead times, nor does it require significant development and integration. We&rsquo;ve done the hard work up front so that you can focus on making better decisions immediately. </p> <li>Upload your data and get access to insights in as little as 48 hours.  </li> <li>Get a bespoke Dash plan that best fits your business needs.  </li> <li>Receive on-going support with a monthly subscription fee. <br /> <br /> </li> <p> <img alt="Dash stats: 3 billion industry and customer data points, +70% weekly UK sales data informing our insight, 48 hours to get your programme started. " style="height:600px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Dash/V3-dash-stats.gif?rev=180f90b7474d4d5d978cc1ececeabe5f&hash=E264450871BB60DD693EF13AB7CD1E5F" /> <img alt="" style="height:500px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Dash/V6-Dash-quote.png?rev=a1054b0a3d2f4c7c97184f77405a7db8&hash=5EEDA15ADC2E29932F87B210CBF96801" /></p> <p> </p> <p><sub><sup><em>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities.</em></sup></sub></p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T013109Z

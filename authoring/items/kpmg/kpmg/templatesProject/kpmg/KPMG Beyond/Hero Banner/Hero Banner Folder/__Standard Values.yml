@@ -1,0 +1,40 @@
+﻿---
+ID: "c1551d0e-3fb1-412d-979e-cebf3e86953c"
+Parent: "b542672c-3fe5-4f48-90c6-e8abf94d2b6f"
+Template: "b542672c-3fe5-4f48-90c6-e8abf94d2b6f"
+Path: /sitecore/templates/Project/kpmg/KPMG Beyond/Hero Banner/Hero Banner Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {AA563A84-F0C5-4D7A-81F0-BCAF4670E279}
+    {B542672C-3FE5-4F48-90C6-E8ABF94D2B6F}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "17a0821b-b2f3-4375-82e0-9be9bf40d130"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260528T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f6cc9f5-c81a-40b1-b75c-1b853834b751"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260529T094521Z

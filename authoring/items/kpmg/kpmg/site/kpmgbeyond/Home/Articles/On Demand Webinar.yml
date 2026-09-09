@@ -1,0 +1,58 @@
+﻿---
+ID: "f47e958a-25fa-4d9f-8b7a-d686ad033eb2"
+Parent: "31ed7662-82c7-402c-85c0-cc041b93c9bc"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Articles/On Demand Webinar
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{49B82212-85E0-4D0F-A692-13E285189462}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260528T140000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: CYBER SECURITY
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "Watch our on-demand session on building resilient security programmes."
+    - ID: "4113907f-276a-49c5-85e8-119d7066aa6d"
+      Hint: IsOnDemandEvent
+      Value: 1
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="#" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Cyber resilience in 2026
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: ArticleTitle
+      Value: Cyber resilience in 2026
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "6ef5115a-93f5-415e-8c4c-57c676c3d2d5"
+      Hint: DateLabel
+      Value: On demand
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "15e469ca-c210-48d3-a510-a648fe326a6c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T041710Z

@@ -1,0 +1,240 @@
+{
+  "url": "https://www.britishcouncil.org/english/learn-online",
+  "slug": "britishcouncil-org--english-learn-online",
+  "sectionOrder": [
+    "CookieBanner",
+    "Header",
+    "LearnEnglishOnlineRichTextImageBlock",
+    "AdultsRichTextSection",
+    "Footer"
+  ],
+  "components": [
+    {
+      "cmsName": "LearnEnglishOnlineRichTextImageBlock",
+      "folderName": "learn-english-online-rich-text-image-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(1)",
+      "reason": "LearnEnglishOnlineRichTextImageBlock: editorial content block",
+      "order": 0,
+      "heading": "Learn English online – with the world's English experts",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "AdultsRichTextSection",
+      "folderName": "adults-rich-text-section",
+      "type": "content-section",
+      "scope": "page",
+      "selector": "div.view-landing-page-al.view",
+      "reason": "Editorial: \"Adults\"",
+      "order": 1,
+      "heading": "Adults",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "type": "footer",
+      "scope": "site",
+      "selector": "footer.bc-footer",
+      "reason": "Site footer with links and legal",
+      "order": 2,
+      "heading": null,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    }
+  ],
+  "stickyOverlays": {
+    "components": [
+      {
+        "cmsName": "CookieBanner",
+        "captured": false,
+        "skipped": true
+      },
+      {
+        "cmsName": "Header",
+        "captured": true,
+        "recaptured": true
+      }
+    ],
+    "hideMethod": "css",
+    "found": true
+  },
+  "fullPageShots": {
+    "overlay": {
+      "desktop": "desktop.png",
+      "tablet": "tablet.png",
+      "mobile": "mobile.png"
+    },
+    "clean": {
+      "desktop": "desktop-clean.png",
+      "tablet": "tablet-clean.png",
+      "mobile": "mobile-clean.png"
+    }
+  },
+  "design": {
+    "fonts": [
+      {
+        "family": "BCSans",
+        "count": 26,
+        "sources": [
+          "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Bd.woff2",
+          "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Lt.woff2",
+          "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Rg.woff2",
+          "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Bd.woff",
+          "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Lt.woff",
+          "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Rg.woff"
+        ]
+      },
+      {
+        "family": "BCSansHeading",
+        "count": 7,
+        "sources": [
+          "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW05-Headline.woff2",
+          "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW05-Headline.woff"
+        ]
+      },
+      {
+        "family": "a",
+        "count": 7,
+        "sources": []
+      },
+      {
+        "family": "Zawgyi-One",
+        "count": 6,
+        "sources": [
+          "https://sui.britishcouncil.org/3.0.1/fonts/zawgyi-one.woff"
+        ]
+      },
+      {
+        "family": "nazaninregular",
+        "count": 6,
+        "sources": [
+          "https://sui.britishcouncil.org/3.0.1/fonts/nazaninregular.woff"
+        ]
+      },
+      {
+        "family": "nyala",
+        "count": 6,
+        "sources": [
+          "https://sui.britishcouncil.org/3.0.1/fonts/Nyala-Regular.woff"
+        ]
+      },
+      {
+        "family": "Open Sans",
+        "count": 3,
+        "sources": [
+          "https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTRsxEYwM7FgeyaSgU71cLG0.woff",
+          "https://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNShsxEYwM7FgeyaSgU71cLG0.woff",
+          "https://themes.googleusercontent.com/static/fonts/opensans/v6/uYKcPVoh6c5R0NpdEY5A-Q.woff"
+        ]
+      }
+    ],
+    "colors": {
+      "primary": {
+        "hex": [
+          "#920061",
+          "#e600b4"
+        ],
+        "gradients": [
+          "linear-gradient(#000, #000)",
+          "linear-gradient(#002e9e, #002e9e)"
+        ]
+      },
+      "secondary": {
+        "hex": [
+          "#23085a",
+          "#2c681b"
+        ],
+        "gradients": []
+      },
+      "accent": {
+        "hex": [],
+        "gradients": []
+      },
+      "neutrals": {
+        "hex": [
+          "#333333",
+          "#54565a",
+          "#ebeff0"
+        ],
+        "gradients": []
+      },
+      "semantic": {
+        "success": "#ffffff",
+        "error": null,
+        "warning": null,
+        "info": null
+      }
+    },
+    "css": {
+      "directory": "css",
+      "files": [
+        {
+          "file": "css/bc-theme.css",
+          "href": "https://sui.britishcouncil.org/3.0.1/css/bc-theme.css",
+          "score": 105
+        },
+        {
+          "file": "css/bc-theme-subthemes.css",
+          "href": "https://sui.britishcouncil.org/3.0.1/css/bc-theme-subthemes.css",
+          "score": 105
+        },
+        {
+          "file": "css/css__gUwrWmDSCYDpNT-ZgT90lg3qnBO5bhMRTuszI3FZdGE__NddIO3YqwbFuLJ1SpObv95pgccLJqWX0xe4khRt6KhE__M2cnM5jQnWyRcJCHUqaGgWKgJvzi-_Y7NvIovFJI568.css",
+          "href": "https://www.britishcouncil.org/sites/default/files/advagg_css/css__gUwrWmDSCYDpNT-ZgT90lg3qnBO5bhMRTuszI3FZdGE__NddIO3YqwbFuLJ1SpObv95pgccLJqWX0xe4khRt6KhE__M2cnM5jQnWyRcJCHUqaGgWKgJvzi-_Y7NvIovFJI568.css",
+          "score": 35
+        },
+        {
+          "file": "css/css__v1EIclSjdZunjxpJtP0GhGwkYPROGscKxg-D1cyzWD4__gJjhCWcWNl8JCtMMsp1uUUHkmsOTYQdexJAnLMVGERM__M2cnM5jQnWyRcJCHUqaGgWKgJvzi-_Y7NvIovFJI568.css",
+          "href": "https://www.britishcouncil.org/sites/default/files/advagg_css/css__v1EIclSjdZunjxpJtP0GhGwkYPROGscKxg-D1cyzWD4__gJjhCWcWNl8JCtMMsp1uUUHkmsOTYQdexJAnLMVGERM__M2cnM5jQnWyRcJCHUqaGgWKgJvzi-_Y7NvIovFJI568.css",
+          "score": 35
+        }
+      ]
+    }
+  },
+  "newSections": {
+    "pageSlug": "britishcouncil-org--english-learn-online",
+    "pageDir": "britishcouncil-org--english-learn-online",
+    "pageSectionsRoot": "britishcouncil-org--english-learn-online/sections",
+    "domainSectionsRoot": "sections",
+    "mergedAt": "2026-07-29T12:43:46.529Z",
+    "sections": [
+      {
+        "action": "promoted",
+        "cmsName": "LearnEnglishOnlineRichTextImageBlock",
+        "sourceCmsName": "LearnEnglishOnlineRichTextImageBlock",
+        "domainFolder": "learn-english-online-rich-text-image-block",
+        "pageSectionFolder": "britishcouncil-org--english-learn-online/sections/learn-english-online-rich-text-image-block",
+        "fingerprint": "0257e95c599434e2",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      },
+      {
+        "action": "promoted",
+        "cmsName": "AdultsRichTextSection",
+        "sourceCmsName": "AdultsRichTextSection",
+        "domainFolder": "adults-rich-text-section",
+        "pageSectionFolder": "britishcouncil-org--english-learn-online/sections/adults-rich-text-section",
+        "fingerprint": "471def10f8d68859",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      }
+    ],
+    "componentsToBuild": [
+      "LearnEnglishOnlineRichTextImageBlock",
+      "AdultsRichTextSection"
+    ]
+  }
+}

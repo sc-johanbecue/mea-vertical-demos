@@ -1,0 +1,300 @@
+﻿---
+ID: "6557dafd-82ea-43fe-9155-aa53be0ba6f2"
+Parent: "1068e96b-e8a3-4257-ae0a-1feb423195fc"
+Template: "b11e2500-0001-4001-8500-000000000001"
+Path: "/sitecore/content/british-council/british-council/Home/Portal/Audiobooks/Learn with Podcasts"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9EB8B0BC-5D6D-4887-9835-7496CC96F568}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d593da5e-7b64-4a64-ad3f-581ff8f5ceca"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: Learn with Podcasts
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Learn with Podcasts
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link text="Learn with Podcasts" linktype="internal" id="{6557dafd-82ea-43fe-9155-aa53be0ba6f2}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "83294c14-075b-4399-86a1-9952935f0e02"
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Narrated collection
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Audio
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2019
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-7694172"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Audiobook
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: English
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 157
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Discover Learn with Podcasts from the British Council Digital Library. This Audiobook title brings together engaging material for learners and curious readers alike.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Learn with Podcasts begins with a carefully paced introduction that draws you into its world. The opening chapters establish character, place and purpose with clarity. As the narrative unfolds, themes of culture, learning and curiosity weave through everyday detail. Observations land lightly, then deepen. By the middle stretch of this sample, the tone settles into a confident rhythm. Scenes are sketched with economy, leaving room for the reader to linger. The later sample pages look ahead: questions are raised, threads are gathered, and the closing lines of this preview invite you to continue beyond the first twenty pages."
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="a72f234c-c372-4d82-89af-75612376fe5d" />
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Learn with Podcasts
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: Apprenez avec des podcasts
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Apprenez avec des podcasts
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{6557dafd-82ea-43fe-9155-aa53be0ba6f2}" linktype="internal" text="Apprenez avec des podcasts" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c07837c-c40e-4390-87f2-7612b034d06a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Collection narrée
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Audio
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2019
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-7694172"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Livre audio
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: Anglais
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 157
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Découvrez Apprenez avec des podcasts de la bibliothèque numérique du British Council. Ce titre audio rassemble du contenu captivant pour les apprenants et les lecteurs curieux.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Apprenez avec des podcasts commence par une introduction soigneusement rythmée qui vous plonge dans son univers. Les premiers chapitres établissent les personnages, les lieux et les objectifs avec clarté. Au fil du récit, des thèmes tels que la culture, l'apprentissage et la curiosité se mêlent aux détails du quotidien. Les observations sont légères au début, puis s'approfondissent. À mi-parcours de cet échantillon, le ton s'installe dans un rythme confiant. Les scènes sont esquissées avec économie, laissant au lecteur le temps de s'attarder. Les dernières pages de cet aperçu se projettent vers l'avenir : des questions sont soulevées, des fils sont rassemblés, et les dernières lignes de cet extrait vous invitent à continuer au-delà des vingt premières pages."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="a72f234c-c372-4d82-89af-75612376fe5d" alt="Promo EnglishScore" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084811Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Apprenez avec des podcasts
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: पॉडकास्ट के साथ सीखें
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: पॉडकास्ट के साथ सीखें
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{6557dafd-82ea-43fe-9155-aa53be0ba6f2}" linktype="internal" text="पॉडकास्ट के साथ सीखें" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "10708c1a-c3c1-4209-8d1d-92404e9d88f1"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: वर्णित संग्रह
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: ब्रिटिश काउंसिल ऑडियो
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2019
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-7694172"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: ऑडियोबुक
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: अंग्रेज़ी
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 157
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: ब्रिटिश काउंसिल डिजिटल लाइब्रेरी से पॉडकास्ट के साथ सीखें खोजें। यह ऑडियोबुक शीर्षक शिक्षार्थियों और जिज्ञासु पाठकों के लिए आकर्षक सामग्री प्रस्तुत करता है।
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "पॉडकास्ट के साथ सीखें एक सावधानीपूर्वक गति वाले परिचय के साथ शुरू होता है जो आपको इसकी दुनिया में खींचता है। शुरुआती अध्याय चरित्र, स्थान और उद्देश्य को स्पष्टता के साथ स्थापित करते हैं। जैसे-जैसे कथा आगे बढ़ती है, संस्कृति, सीखने और जिज्ञासा के विषय रोजमर्रा के विवरणों के माध्यम से बुने जाते हैं। अवलोकन हल्के से उतरते हैं, फिर गहराई में जाते हैं। इस नमूने के मध्य खंड तक, स्वर एक आत्मविश्वासपूर्ण लय में बस जाता है। दृश्यों को अर्थव्यवस्था के साथ रेखांकित किया गया है, जिससे पाठक को ठहरने की जगह मिलती है। बाद के नमूना पृष्ठ आगे देखते हैं: प्रश्न उठाए जाते हैं, धागे एकत्र किए जाते हैं, और इस पूर्वावलोकन की समापन पंक्तियाँ आपको पहले बीस पृष्ठों से आगे जारी रखने के लिए आमंत्रित करती हैं।"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="a72f234c-c372-4d82-89af-75612376fe5d" alt="EnglishScore प्रोमो" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093457Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: पॉडकास्ट के साथ सीखें
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: Leer met Podcasts
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Leer met Podcasts
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{6557dafd-82ea-43fe-9155-aa53be0ba6f2}" linktype="internal" text="Leer met Podcasts" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "28cf44fb-3030-4388-8f13-5044d6e24ebb"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Vertelde collectie
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Audio
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2019
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-7694172"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Audioboek
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: Engels
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 157
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Ontdek Leer met Podcasts van de British Council Digitale Bibliotheek. Deze Audioboektitel brengt boeiend materiaal samen voor zowel leerlingen als nieuwsgierige lezers.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Leer met Podcasts begint met een zorgvuldig opgebouwd introductie die je in zijn wereld trekt. De openingshoofdstukken stellen personages, plaats en doel duidelijk vast. Terwijl het verhaal zich ontvouwt, verweven thema's zoals cultuur, leren en nieuwsgierigheid zich door alledaagse details. Observaties landen licht, maar verdiepen zich daarna. Tegen het midden van dit voorbeeldsettelt de toon zich in een zelfverzekerd ritme. Scènes worden met zuinigheid geschetst, waardoor er ruimte is voor de lezer om te blijven hangen. De latere voorbeeldpagina's kijken vooruit: vragen worden gesteld, draden worden verzameld, en de slotregels van deze preview nodigen je uit om verder te gaan dan de eerste twintig pagina's."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="a72f234c-c372-4d82-89af-75612376fe5d" alt="EnglishScore promo" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084811Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Leer met Podcasts

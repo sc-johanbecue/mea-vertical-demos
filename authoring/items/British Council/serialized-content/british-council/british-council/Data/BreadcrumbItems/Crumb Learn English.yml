@@ -1,0 +1,129 @@
+﻿---
+ID: "c5f88022-b6f6-4e89-8644-a513668bb5d3"
+Parent: "c49a7274-eaf6-4106-ad23-527514bc7931"
+Template: "24aeaefd-be05-4f17-b570-4f50f2249b09"
+Path: "/sitecore/content/british-council/british-council/Data/BreadcrumbItems/Crumb Learn English"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c7218b55-ddfc-4d7f-852d-5a2f90476e4d"
+      Hint: Title
+      Value: Learn English
+    - ID: "e4f14d09-4433-4cc7-9cc1-d53e4be83ae8"
+      Hint: Link
+      Value: |
+        <link text="Learn English" linktype="external" url="/english" anchor="" target="" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00a26b43-6f5a-441e-962e-806d7008d22c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7218b55-ddfc-4d7f-852d-5a2f90476e4d"
+      Hint: Title
+      Value: Apprenez l'anglais
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084624Z
+    - ID: "e4f14d09-4433-4cc7-9cc1-d53e4be83ae8"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Apprenez l'anglais" url="/english" />
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "059ac953-cfe2-48c4-a3af-ebb98967c011"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7218b55-ddfc-4d7f-852d-5a2f90476e4d"
+      Hint: Title
+      Value: अंग्रेज़ी सीखें
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093326Z
+    - ID: "e4f14d09-4433-4cc7-9cc1-d53e4be83ae8"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" title="अंग्रेज़ी सीखें" linktype="external" text="अंग्रेज़ी सीखें" url="/english" />
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "60238b72-29a0-44e6-85d3-c8b6b2d1f50e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7218b55-ddfc-4d7f-852d-5a2f90476e4d"
+      Hint: Title
+      Value: Leer Engels
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084627Z
+    - ID: "e4f14d09-4433-4cc7-9cc1-d53e4be83ae8"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Leer Engels" url="/english" />

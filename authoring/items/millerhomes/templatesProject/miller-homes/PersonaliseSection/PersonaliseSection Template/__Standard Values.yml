@@ -1,0 +1,42 @@
+﻿---
+ID: "65146a84-b7a7-4388-8df1-6f079eb678dc"
+Parent: "a22b1e89-2835-4afb-9d3c-0b974626019e"
+Template: "a22b1e89-2835-4afb-9d3c-0b974626019e"
+Path: "/sitecore/templates/Project/miller-homes/PersonaliseSection/PersonaliseSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0aa1e7c4-785f-4b7b-a856-83218c678262"
+      Hint: PrimaryLink
+      Value: |
+        <link linktype=\"internal\" id=\"6c5f4b85-bf87-4b75-bfa5-5734302b0e77\" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T030308Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c36d9fdb-4718-4797-be9f-e68b4e74c4ef"
+    - ID: "a96885ab-6c2a-4e0c-a4c7-cf759f4613ea"
+      Hint: Title
+      Value: Personalise your brand new home
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c68302aa-c22b-4618-9d16-d2d6d22acc03"
+      Hint: SecondaryLink
+      Value: |
+        <link linktype=\"internal\" id=\"6c5f4b85-bf87-4b75-bfa5-5734302b0e77\" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T030317Z

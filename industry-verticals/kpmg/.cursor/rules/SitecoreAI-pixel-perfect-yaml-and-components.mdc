@@ -1,0 +1,542 @@
+---
+description: KPMG Beyond (Next.js + Content SDK) — pixel-perfect UI from screenshots + correct Sitecore serialized YAML and TSX wiring
+globs:
+  - "**/kpmg/src/**/*.tsx"
+  - "**/kpmg/src/**/*.ts"
+  - "**/kpmg/.sitecore/**"
+  - "**/authoring/items/kpmg/**/*.yml"
+alwaysApply: false
+author: Johan Becue
+---
+
+# KPMG Beyond: screenshots → TSX + YAML (do this every time)
+
+Use this when building **pixel-faithful** KPMG Beyond components or **full-page** layouts from screenshots, and when adding **serialized Sitecore items** under `authoring/items/kpmg`. It merges UI discipline with **Sitecore CLI serialization** constraints so pushes do not fail.
+
+---
+
+## 0) Workflow — component by component (required)
+
+| Do | Don't |
+|----|--------|
+| One component per Cursor task (chrome → nav → hero → sections → cards) | “Build the whole homepage” in one prompt |
+| `validate --fix` then `push -n production` after YAML changes | Push without validation |
+| After YAML generation, run **`dotnet sitecore serialization validate --fix -i kpmgProject`** (or use `authoring/scripts/New-KpmgSitecoreFieldItems.ps1` / skills **sitecore-new-collection-yaml** / **sitecore-new-rendering-yaml**) | Hand-write field YAML under `Data/` and guess hash folders |
+| Reference **KPMG / kpmgbeyond** paths in prompts and rules | Reference **Greeneking**, **Bupa**, or wrong vertical paths |
+| Follow the **KPMG Beyond template folder structure** (§3.1) for every new component | Create flat templates like `KpmgBeyondXxx Template.yml` at `templatesProject/kpmg/` root |
+| When creating a template, **always create its `__Standard Values` child and wire `__Standard values` on the parent in the same step** (§3.1) | Create `__Standard Values.yml` and forget the parent link — or add the link only after a CM pull |
+| Use **exact Sitecore system template IDs** for `Data` sections and field items (§3.1.2) | Invent or typo system template GUIDs (causes push error: *Template ID … did not exist*) |
+| Deliver **all layers in one task**: templates + rendering + placeholders + site Data + Home layout (§3.3) | Stop after templates/TSX — leaving out site Data or `__Final Renderings` wiring |
+| Add rendering GUID to **Available Renderings/Beyond.yml** | Register TSX only in component map |
+| Match existing **KpmgBeyond*** renderings for datasource wiring | Use GUID datasource templates or `@@name='KpmgBeyondXxxSections'` folder queries |
+
+After each component push, verify insert options on a **Data** folder in CM, confirm the rendering resolves its datasource, confirm each new template’s **`__Standard values`** field points at its std-values child (§3.1.1), and confirm **sample datasource items** exist and **Home layout** references them (§3.3).
+
+---
+
+## 1) Clarify the design source (before coding)
+
+- **Scope:** Single component vs whole page. A page may need **multiple components**, placeholders, and **separate mobile/desktop** treatments.
+- **Breakpoints:** Note where layout changes (e.g. `xl` = 1280px for chrome offset). Match Tailwind to the design.
+- **States:** Active nav, tabs, hover — list them; implement the critical path first.
+- **Content:** Editable via Sitecore fields vs static markup — prefer fields + sensible defaults in TSX.
+- **Brand tokens:** Use `kpmg-beyond-tokens.ts` and theme classes in `globals.css` rather than inventing new palettes.
+
+---
+
+## 2) React / TSX components (`industry-verticals/kpmg/src`)
+
+### Structure
+
+- Prefer **`'use client'`** when using hooks, `useState`, `useSitecore`, or browser-only APIs.
+- Keep **`ComponentProps`** from `@/lib/component-props` and mirror **fields** to authoring templates.
+- **Styling:** Tailwind in TSX; use `kpmg-beyond-*` theme tokens. Fixed chrome lives in `KpmgBeyondChrome`; main content uses `.kpmg-beyond-main-area` offsets from `Layout.tsx`.
+
+### Pixel fidelity
+
+- Reproduce **spacing, typography, border-radius, shadows** from the reference literally.
+- **Images:** Respect aspect ratio / thumbnail vs hero rules from the design.
+
+### Sitecore integration
+
+- **`Placeholder`:** Dynamic names must match YAML placeholder settings — use `DynamicPlaceholderId` from params: `` `kpmg-beyond-main-${DynamicPlaceholderId ?? '1'}` ``.
+- **Chrome layout:** `KpmgBeyondChrome` is fixed sidebar + header; `KpmgBeyondMainWrapper` only groups the main placeholder — do not duplicate layout offsets in both.
+
+### Registration
+
+- Add the component to **`industry-verticals/kpmg/.sitecore/component-map.ts`** with the exact **Sitecore Component Name** as the map key (e.g. `KpmgBeyondHeroBanner`).
+- Set **`componentType: 'client'`** for client components.
+
+---
+
+## 3) Serialized YAML (`authoring/items/kpmg/kpmg`)
+
+### Paths and repo layout
+
+- KPMG Beyond site content: **`/sitecore/content/kpmg/kpmgbeyond/...`**
+- Module: **`authoring/items/kpmg/kpmgbeyond.module.json`**
+- Project-specific items:
+  - Templates: `authoring/items/kpmg/kpmg/templatesProject/kpmg/`
+  - Renderings: `authoring/items/kpmg/kpmg/projectRenderings/kpmg/`
+  - Placeholder settings: `authoring/items/kpmg/kpmg/projectPlaceholderSettings/kpmg/`
+  - Site data: `authoring/items/kpmg/kpmg/site/kpmgbeyond/`
+
+---
+
+### 3.1) KPMG Beyond template folder structure (mandatory)
+
+Every KPMG Beyond component **must** live under the **`KPMG Beyond`** template branch — **one component per branch folder**. Do **not** create flat items at `templatesProject/kpmg/` root (e.g. ~~`KpmgBeyondTopPicksSection Template.yml`~~).
+
+**Canonical examples:** `Chrome`, `Communities Section`, `Hero Banner`, `Top Picks Section`, `Top Pick Tab`, `Upcoming Events Section`, `Top Pick Card`, `Event Card`, `Nav Link`, `Main Wrapper`, `Community Tile`.
+
+#### Create templates in this order (every new component)
+
+For each branch, create **all items below in one pass**. Do not push partial template sets.
+
+1. **Branch root** — `KPMG Beyond/{Display Name}.yml` (Template: Branch).
+2. **Datasource template** — `{Display Name}/{Short Name}.yml`
+3. **`{Short Name}/__Standard Values.yml`** — create the child item first; note its **ID** (generate a stable GUID).
+4. **Back-link on parent** — add **`__Standard values`** on `{Short Name}.yml` pointing to that ID (see §3.1.1).
+5. **`{Short Name}/Data.yml`** and field items under `Data/` — **`Data.yml` must use the Template Section ID** (§3.1.2); each field uses the Template Field ID.
+6. **Folder template** — `{Short Name} Folder.yml`
+7. **`{Short Name} Folder/__Standard Values.yml`** — with **`__Masters`** (datasource + folder GUIDs); note its **ID**.
+8. **Back-link on parent** — add **`__Standard values`** on `{Short Name} Folder.yml` pointing to that ID.
+9. **Rendering parameters** — `{Short Name} Rendering Parameters.yml`
+10. **`… Rendering Parameters/__Standard Values.yml`** — note its **ID**.
+11. **Back-link on parent** — add **`__Standard values`** on the rendering-parameters template.
+
+**Rule:** Every time you add a `__Standard Values.yml` file, **immediately** add the matching `__Standard values` field on its **parent template** in the same edit. Never leave this for CM or a later fix pass.
+
+Reference: `KPMG Beyond/Event Card/Event Card Folder.yml` + `Event Card Folder/__Standard Values.yml`.
+
+#### On disk (`authoring/items/kpmg/kpmg/templatesProject/kpmg/KPMG Beyond/`)
+
+```
+KPMG Beyond/
+├── Chrome.yml                          ← branch root (Template: Branch)
+├── …
+├── Chrome/
+│   ├── Chrome.yml                      ← datasource template (+ __Standard values → child below)
+│   ├── Chrome Folder.yml               ← folder template (+ __Standard values → child below)
+│   ├── Chrome Rendering Parameters.yml (+ __Standard values → child below)
+│   ├── Chrome/
+│   │   ├── Data.yml
+│   │   ├── Data/{Field}.yml
+│   │   └── __Standard Values.yml       ← child; parent Chrome.yml links here via __Standard values
+│   ├── Chrome Folder/
+│   │   └── __Standard Values.yml       ← child; parent Folder.yml links here + __Masters
+│   └── Chrome Rendering Parameters/
+│       └── __Standard Values.yml       ← child; parent Rendering Parameters.yml links here
+```
+
+Each **`__Standard Values.yml`** is a **child item** of its template. The **parent template YAML** must declare that link in **`SharedFields`** — this is not optional and not CM-only metadata.
+
+Some `__Standard Values` items may serialize into **hash folders** at `templatesProject/` root after `validate --fix` (e.g. `CB6DE1B9F7015A66/__Standard Values.yml`). That is expected — the **Path** field in YAML must still point to the logical Sitecore path under `KPMG Beyond/…`. The **parent template YAML** (e.g. `Communities Section Folder.yml`) still holds the **`__Standard values`** link regardless of where the child file lands on disk.
+
+#### 3.1.1) `__Standard values` on parent ↔ `__Standard Values` child (create together)
+
+**Every** datasource template, folder template, and rendering-parameters template that has a std-values child **must** include this on the **parent** item:
+
+```yaml
+SharedFields:
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{STD-VALUES-ITEM-GUID}"
+```
+
+- **`Value`** = the **`ID`** from the child `__Standard Values.yml` (uppercase GUID in braces).
+- Create the **child first** (or assign GUID upfront), then set **`__Standard values`** on the parent before moving on.
+
+**Complete pair — Event Card Folder (copy this pattern):**
+
+Parent `Event Card Folder.yml`:
+```yaml
+ID: "97acf665-1d92-48b4-a1fc-c87838718ab3"
+Path: /sitecore/templates/Project/kpmg/KPMG Beyond/Event Card/Event Card Folder
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{EF5EFF57-A2EF-4A2B-B11A-B67D363ACE1D}"
+```
+
+Child `Event Card Folder/__Standard Values.yml`:
+```yaml
+ID: "ef5eff57-a2ef-4a2b-b11a-b67d363ace1d"
+Parent: "97acf665-1d92-48b4-a1fc-c87838718ab3"
+Template: "97acf665-1d92-48b4-a1fc-c87838718ab3"
+Path: /sitecore/templates/Project/kpmg/KPMG Beyond/Event Card/Event Card Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {08185EEF-CACB-44B4-81CB-231122A7B3B5}
+    {97ACF665-1D92-48B4-A1FC-C87838718AB3}
+```
+
+**On the child item:**
+- Set **`Parent`** and **`Template`** to the parent template ID.
+- For **folder** std values: add **`__Masters`** (datasource template GUID + folder template GUID).
+- For **datasource** and **rendering-parameters** std values: usually no extra shared fields beyond metadata.
+- **Never** add `__Standard values` on the std-values item itself.
+
+**Applies to all three template types per branch:** `{Short Name}.yml`, `{Short Name} Folder.yml`, `{Short Name} Rendering Parameters.yml` — **three** parent↔child pairs when all three exist.
+
+#### 3.1.2) System template IDs — `Data` section, fields, and branch items (mandatory)
+
+When serializing template **structure items** (not datasource content), each item’s **`Template`** field must reference a **real Sitecore system template** that already exists in CM. **Never invent or “derive” GUIDs** — a single wrong character causes push failures such as:
+
+`Template ID e269fbb5-a1d6-4586-b0ab-8792a3161594 did not exist`
+
+Copy these IDs **verbatim** from existing KPMG Beyond YAML or from `authoring/scripts/Generate-KpmgBeyondYaml.ps1` (`$T_*` constants).
+
+| Item you create | YAML path | **`Template` value** | Sitecore name | Notes |
+|-----------------|-----------|----------------------|---------------|-------|
+| Branch root | `KPMG Beyond/{Display Name}.yml` | `0437fee2-44c9-46a6-abe9-28858d9fee8c` | Branch | Parent = KPMG Beyond folder (`0b63eb74-c589-47c2-b3ba-9a10a3deb16f`) |
+| Datasource template | `…/{Short Name}.yml` | `ab86861a-6030-46c5-b394-e8f99e8b87db` | Template | `$T_TEMPLATE` |
+| Folder template | `…/{Short Name} Folder.yml` | `ab86861a-6030-46c5-b394-e8f99e8b87db` | Template | Same as datasource template |
+| Rendering parameters template | `…/{Short Name} Rendering Parameters.yml` | `ab86861a-6030-46c5-b394-e8f99e8b87db` | Template | Same as datasource template |
+| **Field section** | `…/{Short Name}/Data.yml` | **`e269fbb5-3750-427a-9149-7aa950b49301`** | **Template Section** | **`$T_SECTION` — required for every `Data` folder** |
+| Field definition | `…/Data/{FieldName}.yml` | `455a3e98-a627-4b40-8035-e683a0331ac7` | Template field | `$T_FIELD` |
+| JSON rendering item | `projectRenderings/kpmg/KpmgBeyond*.yml` | `04646a89-996f-4ee7-878a-ffdbf1f0ef0d` | Json Rendering | `$T_RENDERING` |
+| Placeholder setting | `projectPlaceholderSettings/kpmg/*.yml` | `5c547d4e-7111-4995-95b0-6b561751bf2e` | Placeholder | `$T_PLACEHOLDER` |
+
+**`Data.yml` — correct example** (same pattern as Top Picks Section, Event Card, Top Pick Tab):
+
+```yaml
+ID: "5a819213-2435-4031-d362-8192a3b4c5d6"
+Parent: "9a3b4c5d-8e7f-4a6b-9c0d-2b3c4d5e6f7a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/kpmg/KPMG Beyond/Top Pick Tab/Top Pick Tab/Data
+```
+
+- **`Parent`** = the **datasource template** item ID (`{Short Name}.yml`), not the branch root.
+- **`Template`** = **`e269fbb5-3750-427a-9149-7aa950b49301`** always — not another `e269fbb5-…` GUID.
+
+**Field item — correct example:**
+
+```yaml
+ID: "6b829324-3546-4142-e473-92a3b4c5d6e7"
+Parent: "5a819213-2435-4031-d362-8192a3b4c5d6"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/kpmg/KPMG Beyond/Top Pick Tab/Top Pick Tab/Data/TabLabel
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+```
+
+**Std-values child items** are different: their **`Template`** is the **parent template’s ID** (the datasource/folder/rendering-params template you just created), **not** a system template ID. See §3.1.1.
+
+**Before push:** grep new YAML for `Template:` and confirm every `Data.yml` line matches `e269fbb5-3750-427a-9149-7aa950b49301`. Reference siblings: `KPMG Beyond/Top Picks Section/Top Picks Section/Data.yml`, `KPMG Beyond/Event Card/Event Card/Data.yml`.
+
+#### In Sitecore (Path field in each YAML)
+
+| Item | Path pattern |
+|------|----------------|
+| Branch root | `/sitecore/templates/Project/kpmg/KPMG Beyond/{Display Name}` |
+| Datasource template | `/sitecore/templates/Project/kpmg/KPMG Beyond/{Display Name}/{Short Name}` |
+| Folder template | `/sitecore/templates/Project/kpmg/KPMG Beyond/{Display Name}/{Short Name} Folder` |
+| Rendering parameters | `/sitecore/templates/Project/kpmg/KPMG Beyond/{Display Name}/{Short Name} Rendering Parameters` |
+| Field section | `…/{Short Name}/Data` |
+| Field | `…/{Short Name}/Data/{FieldName}` |
+
+- **Branch root** parent: `KPMG Beyond` folder (`0b63eb74-c589-47c2-b3ba-9a10a3deb16f`), template **`0437fee2-44c9-46a6-abe9-28858d9fee8c`** (Branch).
+- **All child templates** parent: the branch root item ID — **not** the generic `kpmg` project folder.
+- **Short Name** matches the human-readable component name (`Chrome`, `Top Picks Section`, `Community Tile`, …) — not the React/export prefix `KpmgBeyond`.
+
+#### Folder template — insert options (`__Masters` on std-values child)
+
+Every **`{Short Name} Folder/__Standard Values`** item **must** define **`__Masters`** (in addition to being linked from the parent folder template via **`__Standard values`**):
+
+```yaml
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {DATASOURCE-TEMPLATE-GUID}
+    {FOLDER-TEMPLATE-GUID}
+```
+
+- First GUID: the **datasource template** (e.g. `{Short Name}`).
+- Second GUID: the **folder template** itself (allows nested folders).
+- Reference: `KPMG Beyond/Chrome/Chrome Folder/__Standard Values.yml`, `Communities Section/Communities Section Folder/__Standard Values.yml`.
+
+Card-level folders (Top Pick Card, Event Card, Community Tile, Nav Link) follow the same pattern under their own branch.
+
+#### Naming anti-patterns (never do this)
+
+| Wrong | Right |
+|-------|-------|
+| `KpmgBeyondTopPicksSection Template.yml` at `kpmg/` root | `KPMG Beyond/Top Picks Section/Top Picks Section.yml` |
+| Path `/sitecore/templates/Project/kpmg/KpmgBeyondTopPicksSection Template` | Path `/sitecore/templates/Project/kpmg/KPMG Beyond/Top Picks Section/Top Picks Section` |
+| Parent = generic kpmg project folder | Parent = branch root under `KPMG Beyond` |
+| Folder std values without `__Masters` | `__Masters` with datasource + folder template IDs |
+| Template with `__Standard Values` child but no `__Standard values` on parent | Parent `SharedFields` links to std-values item GUID |
+| **`Data.yml` with wrong `Template` GUID** (e.g. `e269fbb5-a1d6-…`) | **`Template: "e269fbb5-3750-427a-9149-7aa950b49301"`** on every field section (§3.1.2) |
+| Field item with invented template ID | **`Template: "455a3e98-a627-4b40-8035-e683a0331ac7"`** on every `Data/{Field}.yml` |
+
+---
+
+### 3.2) Rendering items (JSON rendering)
+
+Reference implementations: `KpmgBeyondChrome.yml`, `KpmgBeyondCommunitiesSection.yml`, `KpmgBeyondHeroBanner.yml`, `KpmgBeyondTopPicksSection.yml`, `KpmgBeyondTopPickTab.yml`.
+
+- **File name:** `KpmgBeyond{Component}.yml` under `projectRenderings/kpmg/`.
+- **`componentName`:** must match **`component-map.ts`** (e.g. `KpmgBeyondChrome`).
+- **`Placeholders`:** shared field with placeholder-setting item IDs when the component exposes placeholders.
+
+#### Datasource Template — use path strings, not GUIDs
+
+```yaml
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Project/kpmg/KPMG Beyond/Chrome/Chrome
+```
+
+#### Datasource Location — query by folder **template name**, not content folder item name
+
+```yaml
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Chrome Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Chrome Folder']"
+```
+
+| Wrong | Right |
+|-------|-------|
+| `Value: {01739FEC-A4AC-4617-B218-DB735ED68002}` | `Value: /sitecore/templates/Project/kpmg/KPMG Beyond/Top Picks Section/Top Picks Section` |
+| `*[@@[@@name='KpmgBeyondTopPicksSections']` | `*[@@[@@templatename='Top Picks Section Folder']` |
+
+- **`Parameters Template`:** GUID of `{Short Name} Rendering Parameters` is fine.
+- Site **Data** folders may keep legacy folder **item names** (e.g. `KpmgBeyondTopPicksSections`); the rendering query targets the **folder template**, so names need not match.
+
+### Placeholder settings
+
+- Create under `projectPlaceholderSettings/kpmg/`.
+- **Placeholder Key:** use `{*}` for dynamic segments (e.g. `kpmg-beyond-main-{*}`).
+- **Allowed Controls:** reference rendering IDs allowed in that placeholder.
+
+### Available renderings
+
+- Append new rendering item **IDs** to **`Presentation/Available Renderings/Beyond.yml`**.
+
+### Site Data folders and sample content (§3.3)
+
+- Data folder items under `site/kpmgbeyond/Data/` use the **`{Short Name} Folder`** template (by GUID).
+- Verify folder template GUID matches the YAML under `KPMG Beyond/{Component}/{Short Name} Folder.yml`.
+- **Always** add at least one sample datasource item under the Data folder in the same task.
+
+### 3.3) Full component delivery — templates + project items + site data + layout (mandatory)
+
+When adding **any** new KPMG Beyond component, deliver **all layers below in the same task**. Do not consider the component done until every row is checked. Stopping after templates + TSX (without site Data and page layout) is the most common cause of “rendering exists but nothing shows on the page”.
+
+#### Delivery checklist (every new component)
+
+| # | Layer | On-disk location | Required when |
+|---|--------|------------------|---------------|
+| 1 | **Template branch** | `templatesProject/kpmg/KPMG Beyond/{Display Name}/` | Always (§3.1) |
+| 2 | **JSON rendering** | `projectRenderings/kpmg/KpmgBeyond{ExportName}.yml` | Always (§3.2) |
+| 3 | **Placeholder settings** | `projectPlaceholderSettings/kpmg/kpmg-beyond-*.yml` | Component uses `<Placeholder>` in TSX |
+| 4 | **Available renderings** | `site/kpmgbeyond/Presentation/Available Renderings/Beyond.yml` | Always — append rendering item GUID |
+| 5 | **TSX + component map** | `src/components/kpmg/` + `.sitecore/component-map.ts` | Always (§2) |
+| 6 | **Site Data folder** | `site/kpmgbeyond/Data/KpmgBeyond{DataFolder}.yml` | Datasource-backed components |
+| 7 | **Sample datasource item(s)** | `site/kpmgbeyond/Data/KpmgBeyond{DataFolder}/{Sample}.yml` | Always ≥1 sample per datasource type |
+| 8 | **Home page layout** | `site/kpmgbeyond/Home.yml` → `__Final Renderings` | Component appears on Home (or target page) |
+
+**Rule:** If the component has **child placeholders** (section → tab → card), also create site Data + sample items + layout wiring for **each child component type** — not just the parent section.
+
+#### Site Data folder (step 6)
+
+Content folder under `/sitecore/content/kpmg/kpmgbeyond/Data/`. Naming follows existing convention: **`KpmgBeyond` + plural export name** (e.g. `KpmgBeyondTopPickTabs`, `KpmgBeyondEventCards`, `KpmgBeyondTopPicksSections`).
+
+```yaml
+ID: "{STABLE-GUID}"
+Parent: "5ffbaddc-e2df-4ddf-b264-4fd8c60a42c7"
+Template: "{SHORT-NAME-FOLDER-TEMPLATE-GUID}"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondTopPickTabs
+```
+
+- **`Template`** = the **`{Short Name} Folder`** template GUID from `KPMG Beyond/{Display Name}/{Short Name} Folder.yml` — **not** a generic Sitecore folder template.
+- **`Parent`** = site Data root (`5ffbaddc-e2df-4ddf-b264-4fd8c60a42c7`).
+
+Reference: `Data/KpmgBeyondTopPickCards.yml` (template `92b4ebea-…` = Top Pick Card Folder), `Data/KpmgBeyondTopPickTabs.yml` (template `0b4c5d6e-…` = Top Pick Tab Folder).
+
+#### Sample datasource items (step 7)
+
+Create at least one YAML item per datasource template so authors (and Home layout) have content to bind:
+
+```yaml
+ID: "{STABLE-GUID}"
+Parent: "{DATA-FOLDER-GUID}"
+Template: "{DATASOURCE-TEMPLATE-GUID}"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondTopPickTabs/Recommended
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "{FIELD-GUID}"
+      Hint: TabLabel
+      Value: Recommended
+    # … all meaningful fields populated with realistic defaults
+```
+
+- **`Template`** = datasource template GUID (`{Short Name}.yml` under the branch).
+- Populate **every field** the TSX reads (plus Link/Image with valid serialized values).
+- For **card/tile** components: add multiple sample items when useful (see `KpmgBeyondTopPickCards/`, `KpmgBeyondEventCards/`).
+
+Reference: `Data/KpmgBeyondTopPickTabs/Recommended.yml`, `Data/KpmgBeyondTopPickTabs/Discover.yml`, `Data/KpmgBeyondTopPicksSections/Home Top Picks.yml`.
+
+#### Home page layout — `__Final Renderings` (step 8)
+
+Wire the component on **`site/kpmgbeyond/Home.yml`** (or the target page) in the **`__Final Renderings`** field. Match placeholder keys and `DynamicPlaceholderId` values to TSX.
+
+**Section on main placeholder:**
+
+```xml
+<r
+  uid="{UNIQUE-UID}"
+  s:ds="{SECTION-DATASOURCE-GUID}"
+  s:id="{SECTION-RENDERING-GUID}"
+  s:par="…&amp;DynamicPlaceholderId=4"
+  s:ph="headless-main" />
+```
+
+**Child in section placeholder** (placeholder key from TSX: `` `kpmg-beyond-top-pick-tabs-${DynamicPlaceholderId}` `` → `kpmg-beyond-top-pick-tabs-4`):
+
+```xml
+<r
+  uid="{UNIQUE-UID}"
+  s:ds="{TAB-DATASOURCE-GUID}"
+  s:id="{TAB-RENDERING-GUID}"
+  s:par="…&amp;DynamicPlaceholderId=1"
+  s:ph="/headless-main/kpmg-beyond-top-pick-tabs-4" />
+```
+
+**Grandchild in nested placeholder** (tab cards: `` `kpmg-beyond-top-pick-cards-${DynamicPlaceholderId}` ``):
+
+```xml
+<r
+  uid="{UNIQUE-UID}"
+  s:ds="{CARD-DATASOURCE-GUID}"
+  s:id="{CARD-RENDERING-GUID}"
+  s:par="…&amp;DynamicPlaceholderId=1"
+  s:ph="/headless-main/kpmg-beyond-top-pick-tabs-4/kpmg-beyond-top-pick-cards-1" />
+```
+
+- **`s:ds`** = site **content item** GUID (sample datasource), not the rendering GUID.
+- **`s:id`** = JSON **rendering** item GUID from `projectRenderings/kpmg/`.
+- **`s:ph`** = full placeholder path: `/headless-main/{parent-ph}/{child-ph}` for nested placeholders.
+- **`DynamicPlaceholderId`** on parent and children must match the suffix in each placeholder key (`-4`, `-1`, `-2`, …).
+- Maintain **`p:after`** ordering so the rendering chain is valid XML.
+
+**Reference layout — Top Picks (section → tabs → cards):**
+
+```
+Home __Final Renderings
+└─ KpmgBeyondTopPicksSection (ds: Home Top Picks, DynamicPlaceholderId=4)
+     └─ kpmg-beyond-top-pick-tabs-4
+          ├─ KpmgBeyondTopPickTab Recommended (DynamicPlaceholderId=1)
+          │    └─ kpmg-beyond-top-pick-cards-1 → KpmgBeyondTopPickCard × n
+          └─ KpmgBeyondTopPickTab Discover (DynamicPlaceholderId=2)
+               └─ kpmg-beyond-top-pick-cards-2 → KpmgBeyondTopPickCard × n
+```
+
+**Simpler pattern — Communities (section → tile):**
+
+```
+KpmgBeyondCommunitiesSection (DynamicPlaceholderId=1)
+└─ kpmg-beyond-communities-1 → KpmgBeyondCommunityTile
+```
+
+**Simpler pattern — Events (section → cards):**
+
+```
+KpmgBeyondUpcomingEventsSection (DynamicPlaceholderId=5)
+└─ kpmg-beyond-events-5 → KpmgBeyondEventCard × n
+```
+
+#### Nested / multi-component tasks
+
+When a feature spans **multiple components** (e.g. Top Pick Tab inside Top Picks Section):
+
+1. Create template branches for **each** component type.
+2. Create renderings + placeholder settings for **each** placeholder key.
+3. Create **separate** site Data folders: `KpmgBeyondTopPicksSections`, `KpmgBeyondTopPickTabs`, `KpmgBeyondTopPickCards`.
+4. Add sample items to **each** folder.
+5. Wire **full hierarchy** in `Home.yml` — parent section, then tabs, then cards.
+
+#### Anti-patterns (§3.3)
+
+| Wrong | Right |
+|-------|-------|
+| Templates + `KpmgBeyondXxx.yml` rendering only | Also `Data/KpmgBeyondXxxs.yml` + sample datasource + Home layout |
+| Site Data folder with generic folder template (`35bf2b90-…`) | **`{Short Name} Folder`** template GUID from the branch |
+| Rendering on page with no `s:ds` sample item | Create datasource YAML; reference its GUID in layout |
+| Tab/card renderings missing from `__Final Renderings` | Add all levels: section → child → grandchild |
+| Placeholder path `kpmg-beyond-top-pick-cards-1` without parent prefix | `/headless-main/kpmg-beyond-top-pick-tabs-4/kpmg-beyond-top-pick-cards-1` |
+| GUIDs in rendering YAML with spaces `{ GUID }` | `{GUID}` — no spaces inside braces |
+
+---
+
+## 4) Sitecore CLI — mandatory after YAML churn
+
+Run from **`authoring/`** (where `sitecore.json` lives).
+
+```bash
+dotnet sitecore serialization validate --fix
+dotnet sitecore serialization push -n production
+```
+
+- **`validate --fix`** moves serialized files to **expected on-disk paths** (hash folders for some std values) and removes empty folders. Without this, push may fail with `INCORRECT FILE PATH`.
+- Re-run **`validate`** (without `--fix`) after fixes for a clean report.
+
+When adding a **new KPMG Beyond component**, always:
+
+1. Create the full **branch folder structure** (§3.1) — including all **`__Standard Values`** children **and** parent **`__Standard values`** links in the same pass; use **system template IDs** from §3.1.2 for `Data.yml` and field items.
+2. Wire the **rendering** with path-based datasource + templatename query (§3.2).
+3. Add **placeholder settings** and **Available Renderings** if needed.
+4. Create **site Data folder + sample datasource item(s)** and wire **Home layout** (§3.3).
+5. Run **`validate --fix`** before push.
+6. Optionally verify std-values links: `authoring/scripts/Audit-KpmgBeyondStandardValues.ps1` (should report 3 pairs per branch with folder + datasource + rendering params).
+
+---
+
+## 5) “Pixel perfect from screenshot” checklist
+
+1. Crop or label **desktop vs mobile** screenshots.
+2. List **every distinct region** and map each to a **component or placeholder**.
+3. Match **exact visual hierarchy** (chrome vs main vs section vs card).
+4. Specify **breakpoints** for each layout change.
+5. Use **kpmg-beyond tokens** from existing TSX where possible.
+6. Wire **Sitecore** using the **KPMG Beyond folder structure** (§3.1) — **each `__Standard Values` child paired with `__Standard values` on its parent** — **rendering datasource pattern** (§3.2), **site Data + Home layout** (§3.3).
+7. **`dotnet sitecore serialization validate --fix`** then **push**.
+
+---
+
+## 6) Related rules in this repo
+
+- **`sitecore.mdc`** — App Router + Sitecore component patterns.
+- **`general.mdc`**, **`javascript.mdc`** — coding conventions.
+
+---
+
+## 7) Anti-patterns (avoid)
+
+- Flat **`KpmgBeyondXxx Template/Folder/Rendering Parameters`** YAML at `templatesProject/kpmg/` root instead of under **`KPMG Beyond/{Name}/`**.
+- **Datasource Template** as a GUID when all other KPMG Beyond renderings use **path strings**.
+- **Datasource Location** querying **`@@name='KpmgBeyondXxxSections'`** instead of **`@@templatename='Xxx Section Folder'`**.
+- **Folder template** without **`__Masters`** on standard values — authors cannot insert datasource items.
+- Creating **`__Standard Values.yml`** without **`__Standard values`** on the parent template in the **same creation step**.
+- Adding the parent link **only after a CM pull** — wire it in serialized YAML from the start (see §3.1.1 / Event Card Folder).
+- Empty or self-referential **`__Standard values`** on the std-values item itself.
+- Child templates parented to the **kpmg project folder** instead of the **branch root**.
+- Registering the component in **`component-map.ts`** but forgetting **Available Renderings** or **placeholder settings**.
+- **Templates + rendering only** — no site Data folder, sample datasource, or **`Home.yml` layout wiring** (§3.3).
+- Site Data folder using **generic folder template** instead of **`{Short Name} Folder`** GUID.
+- Child/grandchild renderings (tabs, cards, tiles) **not added** to `__Final Renderings` under the correct nested `s:ph` path.
+- Skipping **`serialization validate --fix`** after moving or renaming template YAML.
+- Wrong **folder template GUID** on site Data folder items (causes push/insert-option failures).
+- **`Data.yml` using a non-existent Template Section GUID** — always `e269fbb5-3750-427a-9149-7aa950b49301` (§3.1.2); never guess a similar-looking `e269fbb5-…` ID.

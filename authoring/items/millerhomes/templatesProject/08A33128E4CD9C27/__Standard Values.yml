@@ -1,0 +1,41 @@
+﻿---
+ID: "caf4cf08-0c69-40b9-95c5-5679c135b6df"
+Parent: "cdb4fc9c-9d48-4c39-83cb-aa82e75c623d"
+Template: "cdb4fc9c-9d48-4c39-83cb-aa82e75c623d"
+Path: "/sitecore/templates/Project/miller-homes/VirtualTourBannerSection/VirtualTourBannerSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260201T233839Z
+    - ID: "3124ea97-5483-4b93-b5d7-f359a8963982"
+      Hint: CTAText
+      Value: Have a look at this home
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "66463131-fbe5-44a9-b566-18607634a4ff"
+      Hint: CTALink
+      Value: |
+        <link text="Have a look at this home" linktype="anchor" url="#virtual-tour" anchor="#virtual-tour" title="" class="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b6cde09a-a401-4759-a5d5-25276a2fe37e"
+    - ID: "94381108-2405-4c5f-9093-b79b9fbb5b34"
+      Hint: Text
+      Value: Step inside the Hampton using our 3D virtual tour.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260201T234747Z

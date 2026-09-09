@@ -1,0 +1,48 @@
+﻿---
+ID: "b03d7ac0-d430-4312-87fc-a0dc1abc5ecb"
+Parent: "4b665d79-09bb-4a94-8857-97d4521b84b9"
+Template: "4b665d79-09bb-4a94-8857-97d4521b84b9"
+Path: "/sitecore/templates/Project/miller-homes/HeroCarouselSection/HeroSlide/__Standard Values"
+SharedFields:
+- ID: "1850942e-2f58-462b-9ac8-a2edcca7bca2"
+  Hint: CTALink
+  Value: |
+    <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "07855e24-e499-45e2-af2d-4ce19cc4f2d5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0cc2111a-cd08-4411-8c5c-02a7c211e7d7"
+      Hint: Description
+      Value: We have a dedicated email alert and promotion service just for you. Sign up today to receive exclusive offers and more.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T100844Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8b93af92-87f5-484b-be53-425afbd218e0"
+      Hint: CTAText
+      Value: Learn more
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "719c8107-7389-4d48-b17f-817100c5d0ab"
+    - ID: "b574c058-1c92-4432-8748-66b266146730"
+      Hint: Title
+      Value: Be the first to know when we release new homes for sale
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T100919Z

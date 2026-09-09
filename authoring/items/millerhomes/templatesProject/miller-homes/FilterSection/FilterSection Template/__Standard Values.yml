@@ -1,0 +1,61 @@
+﻿---
+ID: "c1cca2e3-77b9-4158-88bc-e33aa5420d60"
+Parent: "a4e0dc63-b159-4971-b01b-19333a5bc04e"
+Template: "a4e0dc63-b159-4971-b01b-19333a5bc04e"
+Path: "/sitecore/templates/Project/miller-homes/FilterSection/FilterSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11c4da78-acea-4a70-8a2a-92d6d1225c61"
+      Hint: MapViewText
+      Value: Map View
+    - ID: "219624cd-c8cf-415f-bf0e-0ae4b563f4a6"
+      Hint: LocationLabel
+      Value: Location
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T024532Z
+    - ID: "264ab1be-5159-493b-b281-1cd1efd46469"
+      Hint: PriceToText
+      Value: to
+    - ID: "355b9137-d7f2-4af1-84c0-7cde5e788cdc"
+      Hint: CompletionLabel
+      Value: Completion Date
+    - ID: "49c05bf1-8232-4db1-b2a7-b03a72c8a7a5"
+      Hint: ListViewText
+      Value: List View
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5d11c8b5-3909-4a1c-9e44-a131f220249c"
+      Hint: SearchShowhomeText
+      Value: Search for a showhome
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "68ca5662-8c89-48c8-a883-9866444caf69"
+      Hint: GridViewText
+      Value: Grid View
+    - ID: "81812964-ddc1-4a2b-bee8-d42b94fd9efa"
+      Hint: PriceLabel
+      Value: Price
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "843c1da8-a2c2-41a8-84bd-6fa0405bbb7b"
+    - ID: "962cd8a6-f1f5-4bbf-bd11-0c1e9ba951d7"
+      Hint: PriceAnyText
+      Value: Any
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T024541Z
+    - ID: "f36ab1b5-a8c2-452e-bac6-209550185320"
+      Hint: BedroomsLabel
+      Value: Bedrooms

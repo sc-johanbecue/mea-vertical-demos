@@ -1,0 +1,161 @@
+﻿---
+ID: "15dda3ee-7e6e-4529-b6d9-4ec74f999056"
+Parent: "e9d0a56f-9539-475f-a07f-6c3e2bdf3d80"
+Template: "d8af0adb-cca2-4c88-9edf-9c247b565868"
+Path: "/sitecore/content/british-council/british-council/Data/PortalLeftNavs/Digital Library Nav"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "832ff403-fa31-41cd-bbad-9b1b4fb12204"
+      Hint: MyLoftLogo
+      Value: |
+        <image mediaid="1b437fa1-88b5-49dd-9e6f-284ab81b34d7" />
+    - ID: "b6eb4512-c0c4-4007-9268-009b96a4bbef"
+      Hint: LogoLink
+      Value: |
+        <link text="British Council" linktype="external" url="/portal" anchor="" target="" />
+    - ID: "c8297e8e-36df-43e1-83aa-53be45722e89"
+      Hint: Logo
+      Value: |
+        <image mediaid="1b437fa1-88b5-49dd-9e6f-284ab81b34d7" />
+    - ID: "f6461bb4-7011-47cb-90b4-bc41af95dd69"
+      Hint: PortalTitle
+      Value: Digital Library
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "832ff403-fa31-41cd-bbad-9b1b4fb12204"
+      Hint: MyLoftLogo
+      Value: |
+        <image mediaid="1b437fa1-88b5-49dd-9e6f-284ab81b34d7" alt="British Council" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1539ac8-dcd4-42b6-807b-c7efa4d1c17a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b6eb4512-c0c4-4007-9268-009b96a4bbef"
+      Hint: LogoLink
+      Value: |
+        <link text="British Council" linktype="external" url="/portal" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c8297e8e-36df-43e1-83aa-53be45722e89"
+      Hint: Logo
+      Value: |
+        <image mediaid="1b437fa1-88b5-49dd-9e6f-284ab81b34d7" alt="British Council" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084717Z
+    - ID: "f6461bb4-7011-47cb-90b4-bc41af95dd69"
+      Hint: PortalTitle
+      Value: Bibliothèque numérique
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "832ff403-fa31-41cd-bbad-9b1b4fb12204"
+      Hint: MyLoftLogo
+      Value: |
+        <image mediaid="1b437fa1-88b5-49dd-9e6f-284ab81b34d7" alt="ब्रिटिश काउंसिल" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "10d1fdbc-c1f3-4dea-b8e3-14dffb100921"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b6eb4512-c0c4-4007-9268-009b96a4bbef"
+      Hint: LogoLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="ब्रिटिश काउंसिल" url="/portal" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c8297e8e-36df-43e1-83aa-53be45722e89"
+      Hint: Logo
+      Value: |
+        <image mediaid="1b437fa1-88b5-49dd-9e6f-284ab81b34d7" alt="ब्रिटिश काउंसिल" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093407Z
+    - ID: "f6461bb4-7011-47cb-90b4-bc41af95dd69"
+      Hint: PortalTitle
+      Value: डिजिटल लाइब्रेरी
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "832ff403-fa31-41cd-bbad-9b1b4fb12204"
+      Hint: MyLoftLogo
+      Value: |
+        <image mediaid="1b437fa1-88b5-49dd-9e6f-284ab81b34d7" alt="British Council" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd01276f-4ec5-4569-8c60-4ebe7ab3a871"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b6eb4512-c0c4-4007-9268-009b96a4bbef"
+      Hint: LogoLink
+      Value: |
+        <link text="British Council" linktype="external" url="/portal" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c8297e8e-36df-43e1-83aa-53be45722e89"
+      Hint: Logo
+      Value: |
+        <image mediaid="1b437fa1-88b5-49dd-9e6f-284ab81b34d7" alt="British Council" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084718Z
+    - ID: "f6461bb4-7011-47cb-90b4-bc41af95dd69"
+      Hint: PortalTitle
+      Value: Digitale Bibliotheek

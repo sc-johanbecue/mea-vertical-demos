@@ -1,0 +1,42 @@
+﻿---
+ID: "a8274180-82db-4b70-a638-c905b7ab0aa6"
+Parent: "0d83f085-da25-4255-921c-2253712a4fe4"
+Template: "31b96108-eeee-43e2-bd72-6069e1e33296"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/NearbyDevelopmentCards/Bramcote Hills Rise"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "00c39652-e7ca-4b7e-a77b-3cc9c4644606"
+      Hint: Description
+      Value: <p>Designed with both style and sustainability in mind, these elegant 2–5 bedroom homes bring modern convenience to the heart of one of Nottingham's most desirable suburbs.</p>
+    - ID: "18799fd4-2872-4939-a836-9d24ed350568"
+      Hint: Name
+      Value: Bramcote Hills Rise
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T144748Z
+    - ID: "66fc2a02-021e-45dc-bf01-5de16b80b020"
+      Hint: Location
+      Value: Bramcote, NG9 3GJ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "375d6f68-dc3a-423f-874c-f1a1aff2f0b9"
+    - ID: "ab020c47-b341-4bc5-8e6d-17d48fb4667e"
+      Hint: Image
+      Value: |
+        <image mediaid="6253a383-0ae7-4c86-90c0-3172867a4499" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T150750Z
+    - ID: "e4006d27-e7c5-418c-b4e2-db642d52f1cd"
+      Hint: CTAText
+      Value: Discover Bramcote Hills Rise

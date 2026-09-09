@@ -1,0 +1,43 @@
+﻿---
+ID: "e38ccaa8-f4f2-4105-850b-7d3190a65306"
+Parent: "0d257446-e02c-4f28-ab1e-8ea09cef5f59"
+Template: "0d257446-e02c-4f28-ab1e-8ea09cef5f59"
+Path: "/sitecore/templates/Project/miller-homes/PopupSection/PopupSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1746fe-ca4d-4e7d-b565-dd31aafa1c2e"
+      Hint: CloseButtonText
+      Value: Close
+    - ID: "1dea7ae4-c853-4d1e-ac62-cba23e865019"
+      Hint: LogoHighlight
+      Value: home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T003413Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "58348f6a-b337-4528-9b20-444f60f16eed"
+      Hint: LogoPrefix
+      Value: my
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "029644c9-bb74-4d33-926b-e2ffcea99763"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T003501Z
+    - ID: "dc3c1163-857e-4cd4-95f1-a250e3da50b5"
+      Hint: LogoText
+      Value: miller

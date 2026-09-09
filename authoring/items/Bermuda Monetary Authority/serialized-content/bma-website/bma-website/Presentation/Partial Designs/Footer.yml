@@ -1,0 +1,82 @@
+﻿---
+ID: "70ad9f50-554b-4158-8ce3-a096200e1a05"
+Parent: "3e3dc3fb-a72d-42ac-987c-423d3478a3df"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Presentation/Partial Designs/Footer"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B0A10004-0001-4001-8001-000000000001}"
+          p:before="*"
+          s:ds="81a7d331-6662-4262-83d8-d457b5e72029"
+          s:id="{01BC34F1-A77E-43B9-94A0-E4F757F39DDD}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{B0A10004-0001-4001-8001-000000000005}"
+          p:after="r[@uid='{B0A10004-0001-4001-8001-000000000001}']"
+          s:ds="c3e8a91f-2b47-4d6e-8f15-9a0c1d2e3f40"
+          s:id="{6AC93A5C-A7F1-4309-8405-E74BB3D8D9C3}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-social-links-1" />
+        <r
+          uid="{B0A10004-0001-4001-8001-000000000006}"
+          p:after="r[@uid='{B0A10004-0001-4001-8001-000000000005}']"
+          s:ds="d4f9b02a-3c58-4e7f-9016-0b1d2e3f4a51"
+          s:id="{6AC93A5C-A7F1-4309-8405-E74BB3D8D9C3}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-social-links-1" />
+        <r
+          uid="{B0A10004-0001-4001-8001-000000000003}"
+          p:after="r[@uid='{B0A10004-0001-4001-8001-000000000006}']"
+          s:ds="f5113b78-d732-4897-85fc-4378df0accef"
+          s:id="{6AC93A5C-A7F1-4309-8405-E74BB3D8D9C3}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-social-links-1" />
+        <r
+          uid="{B0A10004-0001-4001-8001-000000000002}"
+          p:after="r[@uid='{B0A10004-0001-4001-8001-000000000003}']"
+          s:ds="4a96bfec-4550-41bb-8f90-c7baa44e1169"
+          s:id="{6AC93A5C-A7F1-4309-8405-E74BB3D8D9C3}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-social-links-1" />
+        <r
+          uid="{B0A10004-0001-4001-8001-000000000004}"
+          p:after="r[@uid='{B0A10004-0001-4001-8001-000000000002}']"
+          s:ds="f8609f04-7e05-4612-8a2a-d557a488fcde"
+          s:id="{6AC93A5C-A7F1-4309-8405-E74BB3D8D9C3}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-social-links-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260901T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "70ad9f50-554b-4158-8ce3-a096200e1a05"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260902T120000Z

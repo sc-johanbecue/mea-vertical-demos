@@ -1,0 +1,329 @@
+﻿---
+ID: "de570dc5-9c82-4039-82e4-3b54947b7290"
+Parent: "ec8782a2-d976-4f8e-af48-de83c671cb2b"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/british-council/british-council/Presentation/Partial Designs/Footer"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F49B653C-7A34-46DD-AA9D-23596D634F5D}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{BA21B766-A6D1-4C93-846D-587272F94FE2}"
+          p:before="*"
+          s:ds="202bb01c-929b-4ed0-a318-bdee50cb27d8"
+          s:id="{E5A05C46-6BE9-49C3-8386-E1B012F200E7}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{4C89D971-2D49-409C-BFEC-3DEF946CF509}"
+          p:after="r[@uid='{BA21B766-A6D1-4C93-846D-587272F94FE2}']"
+          s:ds="c11e2300-0001-4001-8300-000000000010"
+          s:id="{C11E2201-0001-4001-8201-000000000001}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-footer/footer-columns-1" />
+        <r
+          uid="{E49139AD-76A6-4931-ABC5-68E170FE8B88}"
+          p:after="r[@uid='{4C89D971-2D49-409C-BFEC-3DEF946CF509}']"
+          s:ds="c11e2300-0001-4001-8300-000000000011"
+          s:id="{C11E2201-0001-4001-8201-000000000001}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-footer/footer-columns-1" />
+        <r
+          uid="{90A7C6D9-5FCF-4FDF-A9C1-03D399D444ED}"
+          p:after="r[@uid='{E49139AD-76A6-4931-ABC5-68E170FE8B88}']"
+          s:ds="c11e2300-0001-4001-8300-000000000012"
+          s:id="{C11E2201-0001-4001-8201-000000000001}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="/headless-footer/footer-columns-1" />
+        <r
+          uid="{B5067B33-0DD6-4CEB-AE96-ACE56ADBB80C}"
+          p:after="r[@uid='{90A7C6D9-5FCF-4FDF-A9C1-03D399D444ED}']"
+          s:ds="c11e2300-0001-4001-8300-000000000013"
+          s:id="{C11E2201-0001-4001-8201-000000000001}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="/headless-footer/footer-columns-1" />
+        <r
+          uid="{B77AD549-DF95-426A-9DEE-E3DDD93C2202}"
+          p:after="r[@uid='{B5067B33-0DD6-4CEB-AE96-ACE56ADBB80C}']"
+          s:ds="a11e1008-0008-4008-8008-000000000001"
+          s:id="{BA2BAA74-1AB8-447B-8E72-DD60D83C214F}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-social-1" />
+        <r
+          uid="{7A28DD22-B889-40A3-AAB6-A0C4788E7DE2}"
+          p:after="r[@uid='{B77AD549-DF95-426A-9DEE-E3DDD93C2202}']"
+          s:ds="7bf855f4-e5b9-4d26-acac-3daa1c66f83a"
+          s:id="{BA2BAA74-1AB8-447B-8E72-DD60D83C214F}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-social-1" />
+        <r
+          uid="{7A28DD22-B889-40A3-AAB6-A0C4788E7DE3}"
+          p:after="r[@uid='{7A28DD22-B889-40A3-AAB6-A0C4788E7DE2}']"
+          s:ds="ba941811-ba3f-444d-a82b-483981646af8"
+          s:id="{BA2BAA74-1AB8-447B-8E72-DD60D83C214F}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-social-1" />
+        <r
+          uid="{7A28DD22-B889-40A3-AAB6-A0C4788E7DE4}"
+          p:after="r[@uid='{7A28DD22-B889-40A3-AAB6-A0C4788E7DE3}']"
+          s:ds="a11e1008-0008-4008-8008-000000000002"
+          s:id="{BA2BAA74-1AB8-447B-8E72-DD60D83C214F}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-social-1" />
+        <r
+          uid="{7A28DD22-B889-40A3-AAB6-A0C4788E7DE5}"
+          p:after="r[@uid='{7A28DD22-B889-40A3-AAB6-A0C4788E7DE4}']"
+          s:ds="a11e1008-0008-4008-8008-000000000003"
+          s:id="{BA2BAA74-1AB8-447B-8E72-DD60D83C214F}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-social-1" />
+        <r
+          uid="{7A28DD22-B889-40A3-AAB6-A0C4788E7DE6}"
+          p:after="r[@uid='{7A28DD22-B889-40A3-AAB6-A0C4788E7DE5}']"
+          s:ds="c11e2310-0001-4001-8310-000000000050"
+          s:id="{BA2BAA74-1AB8-447B-8E72-DD60D83C214F}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-social-1" />
+        <r
+          uid="{6003D1DD-DDEC-49F0-AD25-2003624FE201}"
+          p:after="r[@uid='{7A28DD22-B889-40A3-AAB6-A0C4788E7DE6}']"
+          s:ds="a11e1007-0007-4007-8007-000000000004"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-legal-1" />
+        <r
+          uid="{6003D1DD-DDEC-49F0-AD25-2003624FE202}"
+          p:after="r[@uid='{6003D1DD-DDEC-49F0-AD25-2003624FE201}']"
+          s:ds="c11e2310-0001-4001-8310-000000000040"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-legal-1" />
+        <r
+          uid="{6003D1DD-DDEC-49F0-AD25-2003624FE203}"
+          p:after="r[@uid='{6003D1DD-DDEC-49F0-AD25-2003624FE202}']"
+          s:ds="c11e2310-0001-4001-8310-000000000041"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-legal-1" />
+        <r
+          uid="{6003D1DD-DDEC-49F0-AD25-2003624FE204}"
+          p:after="r[@uid='{6003D1DD-DDEC-49F0-AD25-2003624FE203}']"
+          s:ds="c11e2310-0001-4001-8310-000000000042"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-legal-1" />
+        <r
+          uid="{6003D1DD-DDEC-49F0-AD25-2003624FE205}"
+          p:after="r[@uid='{6003D1DD-DDEC-49F0-AD25-2003624FE204}']"
+          s:ds="c11e2310-0001-4001-8310-000000000043"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-legal-1" />
+        <r
+          uid="{6003D1DD-DDEC-49F0-AD25-2003624FE206}"
+          p:after="r[@uid='{6003D1DD-DDEC-49F0-AD25-2003624FE205}']"
+          s:ds="c11e2310-0001-4001-8310-000000000044"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-legal-1" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000001}"
+          p:after="r[@uid='{6003D1DD-DDEC-49F0-AD25-2003624FE206}']"
+          s:ds="c11e2310-0001-4001-8310-000000000001"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-2" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000002}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000001}']"
+          s:ds="c11e2310-0001-4001-8310-000000000002"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-2" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000003}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000002}']"
+          s:ds="c11e2310-0001-4001-8310-000000000003"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-2" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000004}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000003}']"
+          s:ds="a11e1007-0007-4007-8007-000000000001"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-2" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000005}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000004}']"
+          s:ds="c11e2310-0001-4001-8310-000000000004"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-2" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000010}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000005}']"
+          s:ds="c11e2310-0001-4001-8310-000000000010"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-3" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000011}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000010}']"
+          s:ds="c11e2310-0001-4001-8310-000000000011"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-3" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000012}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000011}']"
+          s:ds="c11e2310-0001-4001-8310-000000000012"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-3" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000013}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000012}']"
+          s:ds="c11e2310-0001-4001-8310-000000000013"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-3" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000020}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000013}']"
+          s:ds="c11e2310-0001-4001-8310-000000000020"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-4" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000030}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000020}']"
+          s:ds="c11e2310-0001-4001-8310-000000000030"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-5" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000031}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000030}']"
+          s:ds="c11e2310-0001-4001-8310-000000000031"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-5" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000032}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000031}']"
+          s:ds="c11e2310-0001-4001-8310-000000000032"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-5" />
+        <r
+          uid="{F0010001-0001-4001-8001-000000000033}"
+          p:after="r[@uid='{F0010001-0001-4001-8001-000000000032}']"
+          s:ds="c11e2310-0001-4001-8310-000000000033"
+          s:id="{8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/footer-columns-1/footer-links-5" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "de570dc5-9c82-4039-82e4-3b54947b7290"
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96141616-1b0f-4d18-8bbe-111ee47b775e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084741Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a0fe756-402e-4cbe-ba34-c30148287a05"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093432Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "274b2f99-4e19-4d51-bc24-cf658f7dd239"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084740Z

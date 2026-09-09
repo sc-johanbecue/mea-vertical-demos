@@ -1,0 +1,37 @@
+﻿---
+ID: "5f901442-e02d-4d12-9a69-2e95dc2e02f6"
+Parent: "2560e172-d7ec-465e-9a15-ba8e20dce652"
+Template: "807d3a78-9dbb-44ae-baba-f43c90a9c274"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/StatCards/5 Star"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260201T021527Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "846f94fd-9d5d-43b2-abd5-923dd00c9943"
+      Hint: Value
+      Value: 5 Star
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf2bcdd3-1f27-48ad-b50a-347f77660166"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T155810Z
+    - ID: "ebbc6c0b-1aeb-491b-9306-3404c98da239"
+      Hint: Label
+      Value: customer satisfaction rating from the HBF

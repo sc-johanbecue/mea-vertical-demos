@@ -1,0 +1,23 @@
+---
+ID: "098cabc6-d375-4288-b702-bead8344ddb5"
+Parent: "53194410-9627-4de9-97c4-350895a45814"
+Template: "53194410-9627-4de9-97c4-350895a45814"
+Path: "/sitecore/templates/Project/british-council/SidebarNavItem Templates/SidebarNavItem Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C7A67518-9E90-4884-BED3-10591BFBAB4C}
+    {53194410-9627-4DE9-97C4-350895A45814}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

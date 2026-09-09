@@ -1,0 +1,52 @@
+﻿---
+ID: "76e94996-0ad4-408e-b03a-7698ba82aece"
+Parent: "2d130ba0-aeca-4e26-bea9-ac359ff8a906"
+Template: "2d130ba0-aeca-4e26-bea9-ac359ff8a906"
+Path: "/sitecore/templates/Project/miller-homes/PlotAvailabilitySection/PlotAvailabilitySection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "206a1d62-745d-43cf-8e8a-8545be260026"
+      Hint: PriceLowToHighText
+      Value: Price (Low to High)
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T025541Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "6334afd3-fd22-4125-aac2-f17ffc6a5a14"
+      Hint: AvailabilityText
+      Value: Availability
+    - ID: "6874c076-3829-46e1-a089-6418d0a0bcd3"
+      Hint: Subtitle
+      Value: Browse our available plots and find your perfect home.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ff2a2f96-79df-48e4-85a9-05b16c76a324"
+    - ID: "8f8aaf8b-892f-46d2-a3f2-09ec4a7b039d"
+      Hint: SortByLabel
+      Value: "Sort by:"
+    - ID: "a031cbc4-0ef9-41a8-a1a9-24eb37ff0aea"
+      Hint: Title
+      Value: Available Plots
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d65a6958-c87d-4859-a680-38d996d6e5f9"
+      Hint: PlotNumberText
+      Value: Plot Number
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T025549Z
+    - ID: "e48a9b2f-f1fc-422b-b812-126541a83f39"
+      Hint: PriceHighToLowText
+      Value: Price (High to Low)

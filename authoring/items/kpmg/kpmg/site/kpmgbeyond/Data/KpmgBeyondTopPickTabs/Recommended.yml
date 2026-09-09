@@ -1,0 +1,53 @@
+﻿---
+ID: "d9a0b1c2-3e4f-4567-b890-123456789abc"
+Parent: "c8f9a0b1-2d3e-4f56-a789-0123456789ab"
+Template: "9a3b4c5d-8e7f-4a6b-9c0d-2b3c4d5e6f7a"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondTopPickTabs/Recommended
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260530T150000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "6b829324-3546-4142-e473-92a3b4c5d6e7"
+      Hint: TabLabel
+      Value: Recommended
+    - ID: "6c929425-4567-4243-f584-b3c4d5d6e7f8"
+      Hint: ViewMoreLink
+      Value: |
+        <link linktype="external" url="#" text="View more" anchor="" target="" class="" />
+    - ID: "7c839435-4657-4253-f584-a3b4c5d6e7f8"
+      Hint: CategoryFilter1
+      Value: Leadership and Personal Development
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "442301dd-6e45-4956-a958-fe2dc01073ac"
+    - ID: "8d849546-5768-4364-0695-b4c5d6e7f809"
+      Hint: CategoryFilter2
+      Value: Leadership
+    - ID: "9e859657-6879-4475-17a6-c5d6e7f8091a"
+      Hint: CategoryFilter3
+      Value: Personal Development
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260601T123156Z
+    - ID: "f1a2b3c4-d5e6-4789-f012-3456789abcde"
+      Hint: CardsFolder
+      Value: "{31ED7662-82C7-402C-85C0-CC041B93C9BC}"
+    - ID: "f2a3b4c5-d6e7-4890-f123-456789abcdef"
+      Hint: ShowRecommended
+      Value: 1

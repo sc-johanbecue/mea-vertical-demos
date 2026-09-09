@@ -1,0 +1,151 @@
+﻿---
+ID: "a11e1004-0004-4004-8004-000000000004"
+Parent: "56906560-2731-4e1d-8591-fea44e83edbb"
+Template: "b0a73e98-b130-4e8d-9fd8-c3db50cd09bb"
+Path: "/sitecore/content/british-council/british-council/Data/ColorLinkCards/Education"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "55c345a8-9205-4b04-b90b-c4392fa5eaaa"
+      Hint: Link
+      Value: |
+        <link text="Education" linktype="external" url="/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cac774e7-0a4f-4b95-9e2a-8cdf4fbade73"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c5b52410-48a1-4e55-9885-075ead8e9181"
+      Hint: BackgroundColor
+      Value: #005eb8
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T130941Z
+    - ID: "dd584ffa-40f2-4fde-af40-52aaeb0c2416"
+      Hint: Title
+      Value: Education
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "55c345a8-9205-4b04-b90b-c4392fa5eaaa"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Éducation" url="/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b68848bf-7316-4f6f-86d2-a1841329db49"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c5b52410-48a1-4e55-9885-075ead8e9181"
+      Hint: BackgroundColor
+      Value: #005eb8
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084634Z
+    - ID: "dd584ffa-40f2-4fde-af40-52aaeb0c2416"
+      Hint: Title
+      Value: Éducation
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "55c345a8-9205-4b04-b90b-c4392fa5eaaa"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="शिक्षा" url="/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "deb500f4-3280-4fa2-9878-6f75f6819020"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c5b52410-48a1-4e55-9885-075ead8e9181"
+      Hint: BackgroundColor
+      Value: #005eb8
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093330Z
+    - ID: "dd584ffa-40f2-4fde-af40-52aaeb0c2416"
+      Hint: Title
+      Value: शिक्षा
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "55c345a8-9205-4b04-b90b-c4392fa5eaaa"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Onderwijs" url="/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "be0af5a3-e0d3-418d-b370-810df6fad966"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c5b52410-48a1-4e55-9885-075ead8e9181"
+      Hint: BackgroundColor
+      Value: #005eb8
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084636Z
+    - ID: "dd584ffa-40f2-4fde-af40-52aaeb0c2416"
+      Hint: Title
+      Value: Onderwijs

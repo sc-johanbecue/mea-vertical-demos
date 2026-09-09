@@ -1,0 +1,147 @@
+﻿---
+ID: "0b74d596-f674-4159-8650-6c6cf7ca7e8f"
+Parent: "33f4fec9-13ae-41d6-8739-b586f6b520d2"
+Template: "cb421cd0-3a77-4619-b348-fde0101d0d6c"
+Path: "/sitecore/content/british-council/british-council/Data/StatsItems/People Reached"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17553e1f-104f-46bf-bb2e-1314257bfb18"
+      Hint: Label
+      Value: "People we reached in 2024-25"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3ccbef8d-ecaf-46ab-9e37-68953e9f26be"
+      Hint: Value
+      Value: 600 million
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "83fce4f5-d091-4b42-a4e7-feadf13b8c85"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9bff38a-8eb5-42a2-b131-280992a51d12"
+      Hint: BackgroundColor
+      Value: #00a9a5
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T084748Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17553e1f-104f-46bf-bb2e-1314257bfb18"
+      Hint: Label
+      Value: "Personnes que nous avons atteintes en 2024-25"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3ccbef8d-ecaf-46ab-9e37-68953e9f26be"
+      Hint: Value
+      Value: 600 millions
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "03d447fb-0f84-4436-9674-21bf2b028b41"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9bff38a-8eb5-42a2-b131-280992a51d12"
+      Hint: BackgroundColor
+      Value: #00a9a5
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084733Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17553e1f-104f-46bf-bb2e-1314257bfb18"
+      Hint: Label
+      Value: "2024-25 में हमने जिन लोगों तक पहुंच बनाई"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3ccbef8d-ecaf-46ab-9e37-68953e9f26be"
+      Hint: Value
+      Value: 600 मिलियन
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00c7756d-37f5-4481-a6b7-a3d37a855393"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9bff38a-8eb5-42a2-b131-280992a51d12"
+      Hint: BackgroundColor
+      Value: #00a9a5
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093425Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17553e1f-104f-46bf-bb2e-1314257bfb18"
+      Hint: Label
+      Value: "Mensen die we bereikten in 2024-25"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3ccbef8d-ecaf-46ab-9e37-68953e9f26be"
+      Hint: Value
+      Value: 600 miljoen
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3672aff9-0e44-4184-9d9c-87512b510e7d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9bff38a-8eb5-42a2-b131-280992a51d12"
+      Hint: BackgroundColor
+      Value: #00a9a5
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084734Z

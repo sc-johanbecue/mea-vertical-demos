@@ -1,0 +1,151 @@
+﻿---
+ID: "a11e1004-0004-4004-8004-000000000003"
+Parent: "56906560-2731-4e1d-8591-fea44e83edbb"
+Template: "b0a73e98-b130-4e8d-9fd8-c3db50cd09bb"
+Path: "/sitecore/content/british-council/british-council/Data/ColorLinkCards/Arts"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "55c345a8-9205-4b04-b90b-c4392fa5eaaa"
+      Hint: Link
+      Value: |
+        <link text="Arts" linktype="external" url="/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "126b3d78-48bd-4bb0-89be-c2812be5699b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c5b52410-48a1-4e55-9885-075ead8e9181"
+      Hint: BackgroundColor
+      Value: #9b2d70
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T130941Z
+    - ID: "dd584ffa-40f2-4fde-af40-52aaeb0c2416"
+      Hint: Title
+      Value: Arts
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "55c345a8-9205-4b04-b90b-c4392fa5eaaa"
+      Hint: Link
+      Value: |
+        <link text="Arts" linktype="external" url="/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38e877e2-e642-4342-a988-86e55b687e39"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c5b52410-48a1-4e55-9885-075ead8e9181"
+      Hint: BackgroundColor
+      Value: #9b2d70
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084633Z
+    - ID: "dd584ffa-40f2-4fde-af40-52aaeb0c2416"
+      Hint: Title
+      Value: Arts
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "55c345a8-9205-4b04-b90b-c4392fa5eaaa"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="कला" url="/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9b184e20-a366-42b6-a3eb-07de0ae09d31"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c5b52410-48a1-4e55-9885-075ead8e9181"
+      Hint: BackgroundColor
+      Value: #9b2d70
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093330Z
+    - ID: "dd584ffa-40f2-4fde-af40-52aaeb0c2416"
+      Hint: Title
+      Value: कला
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "55c345a8-9205-4b04-b90b-c4392fa5eaaa"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Kunst" url="/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b433a367-6c94-42e2-b44e-558717e06c84"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c5b52410-48a1-4e55-9885-075ead8e9181"
+      Hint: BackgroundColor
+      Value: #9b2d70
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084635Z
+    - ID: "dd584ffa-40f2-4fde-af40-52aaeb0c2416"
+      Hint: Title
+      Value: Kunst

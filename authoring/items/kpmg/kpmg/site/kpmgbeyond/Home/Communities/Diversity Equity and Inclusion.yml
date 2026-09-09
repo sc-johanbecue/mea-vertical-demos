@@ -1,0 +1,136 @@
+﻿---
+ID: "584f52b5-23fe-4137-9495-9ef435e04ada"
+Parent: "db00b75b-fd7a-4a2c-85f1-c86e1bd69b2f"
+Template: "d5000001-0001-4000-8000-000000000002"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Communities/Diversity Equity and Inclusion
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{215ACDD4-1D67-4DE6-83B5-5BEF5C58ECA6}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a67c21a1-1793-487d-9d35-73854d92dfe1"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0ACB8FA4-6A19-4B75-9551-C4D223AA01F6}"
+          p:before="*"
+          s:id="{D5000001-0001-4000-8000-000000000031}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{7A8B9C0D-1E2F-3456-7890-ABCDEF654321}"
+          p:after="r[@uid='{0ACB8FA4-6A19-4B75-9551-C4D223AA01F6}']"
+          s:id="{D5000004-0001-4000-8000-000000000020}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{8C6E7985-8B45-4CFD-878C-A5874FF38FED}"
+          p:after="r[@uid='{7A8B9C0D-1E2F-3456-7890-ABCDEF654321}']"
+          s:id="{D5000001-0001-4000-8000-000000000032}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="headless-main" />
+        <r
+          uid="{C2D3E4F5-A6B7-4890-1234-567890ABCDEF}"
+          p:after="r[@uid='{8C6E7985-8B45-4CFD-878C-A5874FF38FED}']"
+          s:id="{D5000002-0001-4000-8000-000000000021}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main" />
+        <r
+          uid="{58014D55-DEAD-4EA5-9B91-88FF7635003B}"
+          p:after="r[@uid='{C2D3E4F5-A6B7-4890-1234-567890ABCDEF}']"
+          s:id="{D5000001-0001-4000-8000-000000000033}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260606T120000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Diversity, Equity & Inclusion
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6332a915-2d48-4e5a-af0d-52ce3dad85c5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5000001-0001-4000-8000-000000000010"
+      Hint: CategoryLabel
+      Value: PRIVATE
+    - ID: "d5000001-0001-4000-8000-000000000011"
+      Hint: Title
+      Value: Diversity, Equity & Inclusion
+    - ID: "d5000001-0001-4000-8000-000000000012"
+      Hint: Summary
+      Value: Share experiences and best practices for building inclusive teams and equitable workplaces.
+    - ID: "d5000001-0001-4000-8000-000000000013"
+      Hint: Image
+      Value: |
+        <image mediaid="8ad53411-d44f-4476-a53c-b236c74db547" />
+    - ID: "d5000001-0001-4000-8000-000000000014"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/communities/Diversity-Equity-and-Inclusion" anchor="" target="" class="" />
+    - ID: "d5000001-0001-4000-8000-000000000015"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="8ad53411-d44f-4476-a53c-b236c74db547" />
+    - ID: "d5000001-0001-4000-8000-000000000016"
+      Hint: About
+      Value: |
+        <div class="ck-content"><p>Share experiences and best practices for building inclusive teams and equitable workplaces.</p><p>Join this community to connect with peers, ask questions, and share practical insights from your experience.</p></div>
+    - ID: "d5000001-0001-4000-8000-000000000017"
+      Hint: PrivacyStatus
+      Value: Public
+    - ID: "d5000001-0001-4000-8000-000000000018"
+      Hint: MemberCount
+      Value: 143
+    - ID: "d5000001-0001-4000-8000-000000000019"
+      Hint: SupportText
+      Value: |
+        <div class="ck-content"><p>Need help with this community? Contact the hosts or email support during UK business hours.</p></div>
+    - ID: "d5000001-0001-4000-8000-000000000020"
+      Hint: SupportEmail
+      Value: "diversity-equity-and-inclusion@kpmg.com"
+    - ID: "d5000001-0001-4000-8000-000000000021"
+      Hint: Guidelines
+      Value: |
+        <div class="ck-content"><ul><li>Be helpful but respectful.</li><li>Speak up and share your expertise.</li><li>Do not post confidential client information.</li></ul></div>
+    - ID: "d5000001-0001-4000-8000-000000000022"
+      Hint: JoinRequests
+      Value: |
+        [{"userId":"auth0|69a0de482dcc1575e1e13be9","email":"aster@lellehof.be","name":"aster@lellehof.be","requestedAt":"2026-06-07T16:06:29.601Z"}]
+    - ID: "d5000001-0001-4000-8000-000000000024"
+      Hint: ClosedLabel
+      Value: Closed
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260608T103703Z

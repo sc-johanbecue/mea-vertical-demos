@@ -1,0 +1,70 @@
+﻿---
+ID: "a710ef3a-4297-42fc-b38c-b6bb864b55ec"
+Parent: "2326bf45-f437-4f27-8f00-5775126cf71e"
+Template: "2326bf45-f437-4f27-8f00-5775126cf71e"
+Path: "/sitecore/templates/Project/miller-homes/HeaderSection/HeaderSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13f7deaa-78df-49e3-a50c-101c30aeca3a"
+      Hint: LogoText
+      Value: miller
+    - ID: "14624da4-e861-43cf-b9a5-7aacd39595c0"
+      Hint: MyMillerHomeLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "1ad340ce-8865-461d-acc2-08f320439508"
+      Hint: CorporateLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "22caca82-a763-4b9d-b5d5-1ef7274f3afc"
+      Hint: LogoLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031156Z
+    - ID: "2d80b951-eba9-44d5-b25c-9f2950b23365"
+      Hint: OpenMenuText
+      Value: Open menu
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "557cf6c0-73e2-4585-92a2-02b17f358184"
+      Hint: CloseMenuText
+      Value: Close menu
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "7e5fc7dc-93db-4942-b402-0c7317b5e189"
+      Hint: LogoTextHighlight
+      Value: homes
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "770ebe1e-438f-4dd2-9c0a-51200f8e46fc"
+    - ID: "971aa41a-6eba-483d-a586-9c1ff24c4a30"
+      Hint: Logo
+      Value: |
+        <image mediaid="{733C8AFA-EAD5-4019-81AD-9770ED746F97}" />
+    - ID: "bab787d5-db48-42ae-83a6-86ee0f262641"
+      Hint: FindHomeButtonLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T221904Z
+    - ID: "f7e20c5d-4690-4b41-b108-df3bd24b4a79"
+      Hint: FindHomeButtonText
+      Value: Find My New Home
+    - ID: "fa011623-a1f0-4922-927f-01dd11722d7a"
+      Hint: LoginLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />

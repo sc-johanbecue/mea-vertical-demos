@@ -1,0 +1,764 @@
+{
+  "props": {
+    "pageProps": {
+      "page": {
+        "locale": "en",
+        "layout": {
+          "sitecore": {
+            "context": {
+              "pageEditing": true,
+              "site": {
+                "name": "axa2"
+              },
+              "pageState": "edit",
+              "editMode": "metadata",
+              "clientData": {
+                "hrz-canvas-state": {
+                  "itemId": "f72cad1f-b9fc-438c-bc67-276de60a7420",
+                  "itemVersion": 1,
+                  "siteName": "axa2",
+                  "language": "en",
+                  "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+                  "pageMode": "NORMAL",
+                  "variant": null
+                },
+                "hrz-canvas-verification-token": ""
+              },
+              "clientScripts": [
+                "https://xmc-sitecoresaa9553-jbedmdemos1741-productionf120.sitecorecloud.io/sitecore modules/Shell/SXA/xa-inline-editor.js?v=40.2.1305.11255",
+                "https://feaasstatic.blob.core.windows.net/packages/page-extension/latest/page.js",
+                "https://pages.sitecorecloud.io/horizon/canvas/horizon.canvas.orchestrator.js?v=4AB6D60DFCF2D14387548158C4130BB4"
+              ],
+              "language": "en",
+              "itemPath": "/",
+              "variantId": "_default"
+            },
+            "route": {
+              "name": "Home",
+              "displayName": "Home",
+              "fields": {
+                "Content": {
+                  "metadata": {
+                    "datasource": {
+                      "id": "{F72CAD1F-B9FC-438C-BC67-276DE60A7420}",
+                      "language": "en",
+                      "revision": "3f64752e-0647-435b-8af5-729612cfc3a2",
+                      "version": 1
+                    },
+                    "title": "Content",
+                    "fieldId": "{B3E44BAB-4CDF-4A77-A93B-0D7987DC4443}",
+                    "fieldType": "Rich Text",
+                    "rawValue": ""
+                  },
+                  "value": ""
+                },
+                "Title": {
+                  "metadata": {
+                    "datasource": {
+                      "id": "{F72CAD1F-B9FC-438C-BC67-276DE60A7420}",
+                      "language": "en",
+                      "revision": "3f64752e-0647-435b-8af5-729612cfc3a2",
+                      "version": 1
+                    },
+                    "title": "Title",
+                    "fieldId": "{FDEB0807-997D-46FD-A644-3FECE84EB119}",
+                    "fieldType": "Single-Line Text",
+                    "rawValue": "$name"
+                  },
+                  "value": "$name"
+                },
+                "NavigationFilter": [],
+                "NavigationTitle": {
+                  "metadata": {
+                    "datasource": {
+                      "id": "{F72CAD1F-B9FC-438C-BC67-276DE60A7420}",
+                      "language": "en",
+                      "revision": "3f64752e-0647-435b-8af5-729612cfc3a2",
+                      "version": 1
+                    },
+                    "title": "Link caption in navigation",
+                    "fieldId": "{4E0720E9-9D50-4DDC-87CF-ECD65E8E94C8}",
+                    "fieldType": "Single-Line Text",
+                    "rawValue": "Home"
+                  },
+                  "value": "Home"
+                },
+                "NavigationClass": null,
+                "SxaTags": [],
+                "Page Design": null
+              },
+              "databaseName": "master",
+              "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+              "itemId": "f72cad1f-b9fc-438c-bc67-276de60a7420",
+              "itemLanguage": "en",
+              "itemVersion": 1,
+              "layoutId": "96e5f4ba-a2cf-4a4c-a4e7-64da88226362",
+              "templateId": "22660e87-8d5f-4dd0-8474-64150718f429",
+              "templateName": "Page",
+              "placeholders": {
+                "headless-header": [
+                  {
+                    "uid": "0d03409f-0a4a-4741-8ebe-4b0ae822c0d0",
+                    "componentName": "PartialDesignDynamicPlaceholder",
+                    "dataSource": "",
+                    "params": {
+                      "sid": "{0D03409F-0A4A-4741-8EBE-4B0AE822C0D0}",
+                      "ph": "headless-header",
+                      "sig": "sxa-header"
+                    },
+                    "placeholders": {
+                      "sxa-header": [
+                        {
+                          "uid": "ff49bc4b-bca2-40d5-ae67-7b0eb2946cbd",
+                          "componentName": "Header",
+                          "dataSource": "a285e09a-5182-4cfc-b5f0-e683706053bf",
+                          "params": {
+                            "DynamicPlaceholderId": "1"
+                          },
+                          "fields": {
+                            "Logo": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{A285E09A-5182-4CFC-B5F0-E683706053BF}",
+                                  "language": "en",
+                                  "revision": "a285e09a-5182-4cfc-b5f0-e683706053bf",
+                                  "version": 1
+                                },
+                                "title": "Logo",
+                                "fieldId": "{693EE7A7-5238-4F9B-8DB0-6AD22EDAAF3D}",
+                                "fieldType": "Image",
+                                "rawValue": "<image mediaid=\"9EC098B5-B142-4D64-9BE0-C077FE301F71\" />"
+                              },
+                              "value": {
+                                "src": "https://xmc-sitecoresaa9553-jbedmdemos1741-productionf120.sitecorecloud.io/-/media/Project/axa-insurance2/axa2/shared/logos/axa-logo-solid-rgb.svg?h=48&iar=0&w=48&ttc=63917121907&tt=EB819F3800A44147050B02AEA4631166&hash=2D5A60FA118BC8692D70FC18D9F4748F",
+                                "alt": "AXA logo",
+                                "width": "48",
+                                "height": "48"
+                              }
+                            },
+                            "LogoLink": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{A285E09A-5182-4CFC-B5F0-E683706053BF}",
+                                  "language": "en",
+                                  "revision": "a285e09a-5182-4cfc-b5f0-e683706053bf",
+                                  "version": 1
+                                },
+                                "title": "LogoLink",
+                                "fieldId": "{B659B0AA-C85B-471F-9010-CBFB9F9AE406}",
+                                "fieldType": "General Link",
+                                "rawValue": "<link linktype=\"external\" url=\"https://matthey.com\" />"
+                              },
+                              "value": {
+                                "href": "https://matthey.com",
+                                "linktype": "external",
+                                "url": "https://matthey.com"
+                              }
+                            },
+                            "LogoText": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{A285E09A-5182-4CFC-B5F0-E683706053BF}",
+                                  "language": "en",
+                                  "revision": "a285e09a-5182-4cfc-b5f0-e683706053bf",
+                                  "version": 1
+                                },
+                                "title": "LogoText",
+                                "fieldId": "{A9C2F7A5-262F-47F5-A92D-AF76CB58E324}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "Johnson Matthey"
+                              },
+                              "value": "Johnson Matthey"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "headless-main": [
+                  {
+                    "uid": "0940e9b1-6f50-4691-800a-5212bfe35cf0",
+                    "componentName": "CookieBanner",
+                    "dataSource": "d729abc4-87f1-4c35-a42e-0fa488d1c50f",
+                    "fields": {
+                      "AcceptLabel": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{D729ABC4-87F1-4C35-A42E-0FA488D1C50F}",
+                            "language": "en",
+                            "revision": "d729abc4-87f1-4c35-a42e-0fa488d1c50f",
+                            "version": 1
+                          },
+                          "title": "AcceptLabel",
+                          "fieldId": "{A68F1D40-DF3E-43C5-816B-5F2D2F17B8EB}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Accept all cookies"
+                        },
+                        "value": "Accept all cookies"
+                      },
+                      "Message": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{D729ABC4-87F1-4C35-A42E-0FA488D1C50F}",
+                            "language": "en",
+                            "revision": "d729abc4-87f1-4c35-a42e-0fa488d1c50f",
+                            "version": 1
+                          },
+                          "title": "Message",
+                          "fieldId": "{B9403BD0-2759-4D16-8F3D-D207CD175BFD}",
+                          "fieldType": "Multi-Line Text",
+                          "rawValue": "We use cookies to improve your experience on our site."
+                        },
+                        "value": "We use cookies to improve your experience on our site."
+                      },
+                      "PrivacyLink": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{D729ABC4-87F1-4C35-A42E-0FA488D1C50F}",
+                            "language": "en",
+                            "revision": "d729abc4-87f1-4c35-a42e-0fa488d1c50f",
+                            "version": 1
+                          },
+                          "title": "PrivacyLink",
+                          "fieldId": "{B5E5BB94-FD82-48A4-8DAB-377886930BB4}",
+                          "fieldType": "General Link",
+                          "rawValue": "<link linktype=\"external\" url=\"https://matthey.com/privacy\" />"
+                        },
+                        "value": {
+                          "href": "https://matthey.com/privacy",
+                          "linktype": "external",
+                          "url": "https://matthey.com/privacy"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "uid": "b78343f2-1b86-40d1-8519-2ae7ad26f885",
+                    "componentName": "FullBleedHeroBannerSection",
+                    "dataSource": "6dcacff2-84ff-4b95-98cd-168a0cec52fc",
+                    "fields": {
+                      "BackgroundImage": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{6DCACFF2-84FF-4B95-98CD-168A0CEC52FC}",
+                            "language": "en",
+                            "revision": "30a9522d-1ddc-4d2d-99ce-7333528c24cf",
+                            "version": 1
+                          },
+                          "title": "BackgroundImage",
+                          "fieldId": "{18185070-E2A2-43C9-A360-569CBAB61A02}",
+                          "fieldType": "Image",
+                          "rawValue": "<image mediaid=\"F0369AFA-05F0-4BF7-9F53-3FFC44E8368F\" />"
+                        },
+                        "value": {
+                          "src": "https://xmc-sitecoresaa9553-jbedmdemos1741-productionf120.sitecorecloud.io/-/media/Project/axa-insurance2/axa2/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?h=400&iar=0&w=1920&ttc=63917121907&tt=9E8ABC8650DE670BF389449660D66157&hash=D0A7A610030A40132033EF00A7FC0B51",
+                          "alt": "Insured online and your broker always by your side",
+                          "width": "1920",
+                          "height": "400"
+                        }
+                      },
+                      "Body": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{6DCACFF2-84FF-4B95-98CD-168A0CEC52FC}",
+                            "language": "en",
+                            "revision": "30a9522d-1ddc-4d2d-99ce-7333528c24cf",
+                            "version": 1
+                          },
+                          "title": "Body",
+                          "fieldId": "{CF6F20F4-0AB1-43DB-87BC-4E191DB80933}",
+                          "fieldType": "Multi-Line Text",
+                          "rawValue": ""
+                        },
+                        "value": ""
+                      },
+                      "Cta": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{6DCACFF2-84FF-4B95-98CD-168A0CEC52FC}",
+                            "language": "en",
+                            "revision": "30a9522d-1ddc-4d2d-99ce-7333528c24cf",
+                            "version": 1
+                          },
+                          "title": "Cta",
+                          "fieldId": "{3A6CECCB-C2D8-4485-8D2E-264A5DAAD3E6}",
+                          "fieldType": "General Link",
+                          "rawValue": ""
+                        },
+                        "value": {
+                          "href": ""
+                        }
+                      },
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{6DCACFF2-84FF-4B95-98CD-168A0CEC52FC}",
+                            "language": "en",
+                            "revision": "30a9522d-1ddc-4d2d-99ce-7333528c24cf",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{E5750A0F-228E-4D7E-9F52-D2A2899F03CC}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Insured online and your broker always by your side"
+                        },
+                        "value": "Insured online and your broker always by your side"
+                      }
+                    }
+                  },
+                  {
+                    "uid": "502693dd-d202-4267-807c-ccd7a4852e0a",
+                    "componentName": "TitleDescriptionTeaserGridSection",
+                    "dataSource": "0a49e2c7-b87a-447b-95dd-971304d3b739",
+                    "params": {
+                      "DynamicPlaceholderId": "2"
+                    },
+                    "fields": {
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{0A49E2C7-B87A-447B-95DD-971304D3B739}",
+                            "language": "en",
+                            "revision": "e95177c9-1338-42fe-97f1-70643f6388a0",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{5905B8D9-6006-48EC-8E24-42E25335BB93}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Why choose AXA Belgium?"
+                        },
+                        "value": "Why choose AXA Belgium?"
+                      }
+                    }
+                  },
+                  {
+                    "uid": "3a493529-8386-4888-a035-32207541d846",
+                    "componentName": "ImageRichTextSection",
+                    "dataSource": "d08f0c64-cb26-4759-b474-0358fb693f14",
+                    "fields": {
+                      "Body": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{D08F0C64-CB26-4759-B474-0358FB693F14}",
+                            "language": "en",
+                            "revision": "20df13e8-542b-4b37-8153-56ea526951bf",
+                            "version": 1
+                          },
+                          "title": "Body",
+                          "fieldId": "{770C0646-1B3F-43AD-A6BB-2C0CD5668671}",
+                          "fieldType": "Multi-Line Text",
+                          "rawValue": "Wat te doen bij een ongeval of botsing? Home Home insurance Blokpolis Schuldsaldoverzekering Beschikbare diensten en voordelen Homebijstand Klusjes en herstellingen (AXA Homecare) AXA staat aan je zijde\r\n\r\nWat te doen bij een storm? Family Familiale Ongevallen privéleven Reis Students Travel Dieren Boot Evenementen Beschikbare diensten en voordelen Reisbijstand AXA staat aan je zijde\r\n\r\nReisverzekering in België of in het buitenland Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Beschikbare diensten en voordelen Online consultatie bij een dokter (Doctors Online) Tweede medisch advies Doktersafspraak (Doctena) Analyseer je symptomen online (SymptomZoom) AXA staat aan je zijde\r\n\r\nWat te doen bij een zwangerschap? Pension Pensionverzekeringen Pensionsparen Langetermijnsparen Vrij Aanvullend Pension voor Werknemers Groepsverzekering Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde\r\n\r\n6 manieren om een aanvullend pensioen op te bouwen Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde\r\n\r\nHoe successierechten beperken of vermijden? Aangifte en opvolging Belangrijke maatregelen Al onze verzekeringen Individuals Ondernemers & kmo's Grote ondernemingen Publieke sector Hoofdmenu Verzekeringen Mobility Home Family Health Pension Investments Al onze verzekeringen Schadegevallen Aangifte en opvolging Belangrijke maatregelen Meld je aan Site-overzicht Hulp en contact Emergency assistance Français Mobility Auto Motor (e)Fiets, e-Step & Co Bestelwagen Reis Students Travel Boot Beschikbare diensten en voordelen Autobijstand Fietsbijstand Partnergarages Herstelling voertuig indien niet gedekt (Fixico) AXA staat aan je zijde Wat te doen bij een ongeval of botsing? Home Home insurance Blokpolis Schuldsaldoverzekering Beschikbare diensten en voordelen Homebijstand Klusjes en herstellingen (AXA Homecare) AXA staat aan je zijde Wat te doen bij een storm? Family Familiale Ongevallen privéleven Reis Students Travel Dieren Boot Evenementen Beschikbare diensten en voordelen Reisbijstand AXA staat aan je zijde Reisverzekering in België of in het buitenland Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Beschikbare diensten en voordelen Online consultatie bij een dokter (Doctors Online) Tweede medisch advies Doktersafspraak (Doctena) Analyseer je symptomen online (SymptomZoom) AXA staat aan je zijde Wat te doen bij een zwangerschap? Pension Pensionverzekeringen Pensionsparen Langetermijnsparen Vrij Aanvullend Pension voor Werknemers Groepsverzekering Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde 6 manieren om een aanvullend pensioen op te bouwen Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde Hoe successierechten beperken of vermijden? .bg-url-anonymous { background-image: url(https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/photos/main-nav/temp%20bg%20login%20modal.jpg?savif=1&swebp=1&cx=0.5&cy=0.5&cw=1&ch=1&hash=0F44F201B4916A4C92F025F847D42950); } Meld je aan MyAXA klantenzone\r\n\r\nAlles over je verzekeringen als particulier\r\n\r\nMyAXA Healthcare\r\n\r\nBeheer je gezondheidsverzekering eenvoudig en snel\r\n\r\nWat kan je allemaal doen in je MyAXA klantenzone?\r\n\r\nMyAXA klantenzone\r\n\r\nAlles over je verzekeringen als particulier\r\n\r\nMyAXA Healthcare\r\n\r\nBeheer je gezondheidsverzekering eenvoudig en snel\r\n\r\n.u-unique-04f5bbf74627479ca6138813d2de7a0e { width: 33%;} @media screen and (max-width: 768px) {.u-unique-04f5bbf74627479ca6138813d2de7a0e { width: 40%;}} Insured online and your broker always by your side Home\r\n\r\nDiscover our discount\r\n\r\nDiscover our discount\r\n\r\nDiscover our discounten\r\n\r\nDiscover our discounten\r\n\r\nDiscover our discount\r\n\r\nDiscover our discount\r\n\r\n(e-)Fietsen, e-steps en co\r\n\r\nBekijk al onze producten\r\n\r\nHeb je dringende hulp nodig voor je voertuig, je woning of je reis? We staan aan jouw zijde.\r\n\r\nEnkele goede redenen\r\n\r\nBrokers by your side\r\n\r\nDedicated employees\r\n\r\nOnze inspanningen komen tot uiting in deze 3 pijlers\r\n\r\nKlimaatverandering en mobiliteit Gebruik maken van onze kernactiviteiten - investeringen en verzekeringen - om de wereld te helpen het hoofd te bieden aan de klimaatverandering en milieu-uitdagingen.\r\n\r\nHealths- en ziektepreventie Een betrouwbare gezondheidspartner voor onze klanten en de maatschappij worden door middel van gezondheidsbevordering en ziektepreventie.\r\n\r\nSociale inclusie Sociale inclusie aanmoedigen om kwetsbare bevolkingsgroepen te beschermen. Bevorderen van vrijwilligerswerk via AXA Hearts in Action.\r\n\r\nEnkele cijfers waarop we best trots zijn\r\n\r\nCustomers worldwide\r\n\r\ndie op ons vertrouwen\r\n\r\nwaar we onze producten verdelen en diensten leveren\r\n\r\nzetten zich dagelijks in voor onze klanten\r\n\r\nAXA traint 1.250 verzekeringsmakelaars in klimaatadaptatie\r\n\r\nGemiddelde van 196 beoordelingen\r\n\r\nHome insurance - Afsluiten\r\n\r\nOm de authenticiteit van de klantenbeoordelingen te garanderen, worden ze verzameld door eKomi, een onafhankelijk en gespecialiseerd bedrijf, en in alle transparantie gepubliceerd.\r\n\r\nMyAXA Fidelity , aangeboden door je makelaar en AXA, beloont, beschermt en adviseert je elke dag dankzij een heel pak voordelen. Je kan lid worden als je 3 smileys hebt. Meer weten? Contacteer snel je makelaar.\r\n\r\nAll insurance products Mobility Mobility Autoverzekering Motorverzekering Fietsverzekering Bestelwagen Reisverzekering Students Travel Bootverzekering Home Home Home insurance Blokpolis Schuldsaldoverzekering Family Family Familiale verzekering Ongevallen privéleven Reisverzekering Students Travel Dierenverzekering Bootverzekering Evenementenverzekering Health Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Pension Pension Pensionverzekering Pensionsparen Langetermijnsparen Vrij aanvullend pensioen voor werknemers Groepsverzekering Investments Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 AXA AXA\r\n\r\nBelangrijke info Belangrijke info\r\n\r\nContacteer ons Contacteer ons\r\n\r\nCopyright AXA 2026 ©\r\n\r\nOnze website maakt gebruik van cookies. Bepaalde cookies zijn noodzakelijk voor de goede werking van de website of kunnen gebruikt worden voor analyses. Dankzij andere cookies kunnen wij onder andere gepersonaliseerde inhoud of publiciteit tonen, die dus beter aansluit bij je profiel en je interesses. Je kan deze cookies aanvaarden of weigeren en je beslissing steeds aanpassen via de ‘cookies voorkeuren’. Weet dat door ze te aanvaarden, je surfervaring heel wat zal verbeteren. Ons cookiebeleid"
+                        },
+                        "value": "Wat te doen bij een ongeval of botsing? Home Home insurance Blokpolis Schuldsaldoverzekering Beschikbare diensten en voordelen Homebijstand Klusjes en herstellingen (AXA Homecare) AXA staat aan je zijde\r\n\r\nWat te doen bij een storm? Family Familiale Ongevallen privéleven Reis Students Travel Dieren Boot Evenementen Beschikbare diensten en voordelen Reisbijstand AXA staat aan je zijde\r\n\r\nReisverzekering in België of in het buitenland Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Beschikbare diensten en voordelen Online consultatie bij een dokter (Doctors Online) Tweede medisch advies Doktersafspraak (Doctena) Analyseer je symptomen online (SymptomZoom) AXA staat aan je zijde\r\n\r\nWat te doen bij een zwangerschap? Pension Pensionverzekeringen Pensionsparen Langetermijnsparen Vrij Aanvullend Pension voor Werknemers Groepsverzekering Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde\r\n\r\n6 manieren om een aanvullend pensioen op te bouwen Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde\r\n\r\nHoe successierechten beperken of vermijden? Aangifte en opvolging Belangrijke maatregelen Al onze verzekeringen Individuals Ondernemers & kmo's Grote ondernemingen Publieke sector Hoofdmenu Verzekeringen Mobility Home Family Health Pension Investments Al onze verzekeringen Schadegevallen Aangifte en opvolging Belangrijke maatregelen Meld je aan Site-overzicht Hulp en contact Emergency assistance Français Mobility Auto Motor (e)Fiets, e-Step & Co Bestelwagen Reis Students Travel Boot Beschikbare diensten en voordelen Autobijstand Fietsbijstand Partnergarages Herstelling voertuig indien niet gedekt (Fixico) AXA staat aan je zijde Wat te doen bij een ongeval of botsing? Home Home insurance Blokpolis Schuldsaldoverzekering Beschikbare diensten en voordelen Homebijstand Klusjes en herstellingen (AXA Homecare) AXA staat aan je zijde Wat te doen bij een storm? Family Familiale Ongevallen privéleven Reis Students Travel Dieren Boot Evenementen Beschikbare diensten en voordelen Reisbijstand AXA staat aan je zijde Reisverzekering in België of in het buitenland Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Beschikbare diensten en voordelen Online consultatie bij een dokter (Doctors Online) Tweede medisch advies Doktersafspraak (Doctena) Analyseer je symptomen online (SymptomZoom) AXA staat aan je zijde Wat te doen bij een zwangerschap? Pension Pensionverzekeringen Pensionsparen Langetermijnsparen Vrij Aanvullend Pension voor Werknemers Groepsverzekering Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde 6 manieren om een aanvullend pensioen op te bouwen Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde Hoe successierechten beperken of vermijden? .bg-url-anonymous { background-image: url(https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/photos/main-nav/temp%20bg%20login%20modal.jpg?savif=1&swebp=1&cx=0.5&cy=0.5&cw=1&ch=1&hash=0F44F201B4916A4C92F025F847D42950); } Meld je aan MyAXA klantenzone\r\n\r\nAlles over je verzekeringen als particulier\r\n\r\nMyAXA Healthcare\r\n\r\nBeheer je gezondheidsverzekering eenvoudig en snel\r\n\r\nWat kan je allemaal doen in je MyAXA klantenzone?\r\n\r\nMyAXA klantenzone\r\n\r\nAlles over je verzekeringen als particulier\r\n\r\nMyAXA Healthcare\r\n\r\nBeheer je gezondheidsverzekering eenvoudig en snel\r\n\r\n.u-unique-04f5bbf74627479ca6138813d2de7a0e { width: 33%;} @media screen and (max-width: 768px) {.u-unique-04f5bbf74627479ca6138813d2de7a0e { width: 40%;}} Insured online and your broker always by your side Home\r\n\r\nDiscover our discount\r\n\r\nDiscover our discount\r\n\r\nDiscover our discounten\r\n\r\nDiscover our discounten\r\n\r\nDiscover our discount\r\n\r\nDiscover our discount\r\n\r\n(e-)Fietsen, e-steps en co\r\n\r\nBekijk al onze producten\r\n\r\nHeb je dringende hulp nodig voor je voertuig, je woning of je reis? We staan aan jouw zijde.\r\n\r\nEnkele goede redenen\r\n\r\nBrokers by your side\r\n\r\nDedicated employees\r\n\r\nOnze inspanningen komen tot uiting in deze 3 pijlers\r\n\r\nKlimaatverandering en mobiliteit Gebruik maken van onze kernactiviteiten - investeringen en verzekeringen - om de wereld te helpen het hoofd te bieden aan de klimaatverandering en milieu-uitdagingen.\r\n\r\nHealths- en ziektepreventie Een betrouwbare gezondheidspartner voor onze klanten en de maatschappij worden door middel van gezondheidsbevordering en ziektepreventie.\r\n\r\nSociale inclusie Sociale inclusie aanmoedigen om kwetsbare bevolkingsgroepen te beschermen. Bevorderen van vrijwilligerswerk via AXA Hearts in Action.\r\n\r\nEnkele cijfers waarop we best trots zijn\r\n\r\nCustomers worldwide\r\n\r\ndie op ons vertrouwen\r\n\r\nwaar we onze producten verdelen en diensten leveren\r\n\r\nzetten zich dagelijks in voor onze klanten\r\n\r\nAXA traint 1.250 verzekeringsmakelaars in klimaatadaptatie\r\n\r\nGemiddelde van 196 beoordelingen\r\n\r\nHome insurance - Afsluiten\r\n\r\nOm de authenticiteit van de klantenbeoordelingen te garanderen, worden ze verzameld door eKomi, een onafhankelijk en gespecialiseerd bedrijf, en in alle transparantie gepubliceerd.\r\n\r\nMyAXA Fidelity , aangeboden door je makelaar en AXA, beloont, beschermt en adviseert je elke dag dankzij een heel pak voordelen. Je kan lid worden als je 3 smileys hebt. Meer weten? Contacteer snel je makelaar.\r\n\r\nAll insurance products Mobility Mobility Autoverzekering Motorverzekering Fietsverzekering Bestelwagen Reisverzekering Students Travel Bootverzekering Home Home Home insurance Blokpolis Schuldsaldoverzekering Family Family Familiale verzekering Ongevallen privéleven Reisverzekering Students Travel Dierenverzekering Bootverzekering Evenementenverzekering Health Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Pension Pension Pensionverzekering Pensionsparen Langetermijnsparen Vrij aanvullend pensioen voor werknemers Groepsverzekering Investments Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 AXA AXA\r\n\r\nBelangrijke info Belangrijke info\r\n\r\nContacteer ons Contacteer ons\r\n\r\nCopyright AXA 2026 ©\r\n\r\nOnze website maakt gebruik van cookies. Bepaalde cookies zijn noodzakelijk voor de goede werking van de website of kunnen gebruikt worden voor analyses. Dankzij andere cookies kunnen wij onder andere gepersonaliseerde inhoud of publiciteit tonen, die dus beter aansluit bij je profiel en je interesses. Je kan deze cookies aanvaarden of weigeren en je beslissing steeds aanpassen via de ‘cookies voorkeuren’. Weet dat door ze te aanvaarden, je surfervaring heel wat zal verbeteren. Ons cookiebeleid"
+                      },
+                      "Cta": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{D08F0C64-CB26-4759-B474-0358FB693F14}",
+                            "language": "en",
+                            "revision": "20df13e8-542b-4b37-8153-56ea526951bf",
+                            "version": 1
+                          },
+                          "title": "Cta",
+                          "fieldId": "{D9EA01BE-CCA6-4281-80C8-80A8081789F0}",
+                          "fieldType": "General Link",
+                          "rawValue": "<link text=\"Discover your assistance\" linktype=\"external\" url=\"https://www.axa.be/nl/particulieren/services/bijstand/bijstand-auto\" />"
+                        },
+                        "value": {
+                          "href": "https://www.axa.be/nl/particulieren/services/bijstand/bijstand-auto",
+                          "text": "Discover your assistance",
+                          "linktype": "external",
+                          "url": "https://www.axa.be/nl/particulieren/services/bijstand/bijstand-auto"
+                        }
+                      },
+                      "Image": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{D08F0C64-CB26-4759-B474-0358FB693F14}",
+                            "language": "en",
+                            "revision": "20df13e8-542b-4b37-8153-56ea526951bf",
+                            "version": 1
+                          },
+                          "title": "Image",
+                          "fieldId": "{F3ADD2BF-DE7C-4659-9491-EC096B9A98F0}",
+                          "fieldType": "Image",
+                          "rawValue": "<image mediaid=\"2D991069-2A96-4D4E-B077-CE4C400D6904\" />"
+                        },
+                        "value": {
+                          "src": "https://xmc-sitecoresaa9553-jbedmdemos1741-productionf120.sitecorecloud.io/-/media/Project/axa-insurance2/axa2/projects/axabe/axabeweb/illustrations/assistance-homepage-illu.svg?h=190&iar=0&w=330&ttc=63917121907&tt=9B0EA3258C0D4D1ED07E23138F554FF0&hash=204A0A7D4C93A6A3AA14B894C3A98FD9",
+                          "alt": "Emergency assistance",
+                          "width": "330",
+                          "height": "190"
+                        }
+                      },
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{D08F0C64-CB26-4759-B474-0358FB693F14}",
+                            "language": "en",
+                            "revision": "20df13e8-542b-4b37-8153-56ea526951bf",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{534C056C-BBF9-4767-ADB4-E61C0D6FEC7D}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Why choose AXA Belgium?"
+                        },
+                        "value": "Why choose AXA Belgium?"
+                      }
+                    }
+                  },
+                  {
+                    "uid": "c3a3fb92-78a3-4a57-ace3-f2f097bb74ca",
+                    "componentName": "TitleStatsBarSection",
+                    "dataSource": "abe7aefc-de21-45e0-bfa7-b0a51bf0f75f",
+                    "params": {
+                      "DynamicPlaceholderId": "4"
+                    },
+                    "fields": {
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{ABE7AEFC-DE21-45E0-BFA7-B0A51BF0F75F}",
+                            "language": "en",
+                            "revision": "2c43485e-601b-4ab2-b9af-7fdafaae0f65",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{6FAE8D18-6D86-473D-B742-D56C731E2E1E}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Loyal customers"
+                        },
+                        "value": "Loyal customers"
+                      }
+                    }
+                  },
+                  {
+                    "uid": "1d6666e9-73eb-44fa-be7b-7c9048839aa1",
+                    "componentName": "TitleDescriptionTeaserGridSection",
+                    "dataSource": "b32a1ddc-1b96-47a3-b2bc-165b35a30041",
+                    "params": {
+                      "DynamicPlaceholderId": "5"
+                    },
+                    "fields": {
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{B32A1DDC-1B96-47A3-B2BC-165B35A30041}",
+                            "language": "en",
+                            "revision": "87a2d07d-f2b2-4751-8a4c-3c212a22e0d9",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{5905B8D9-6006-48EC-8E24-42E25335BB93}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Why choose AXA Belgium?"
+                        },
+                        "value": "Why choose AXA Belgium?"
+                      }
+                    }
+                  },
+                  {
+                    "uid": "c26846ea-0349-474b-8097-4d0cd3e152d7",
+                    "componentName": "TitleStatsBarSection",
+                    "dataSource": "39e34044-6f5b-4398-904f-65b8d0816945",
+                    "params": {
+                      "DynamicPlaceholderId": "6"
+                    },
+                    "fields": {
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{39E34044-6F5B-4398-904F-65B8D0816945}",
+                            "language": "en",
+                            "revision": "f208a310-b6d3-404f-8eda-2ed45a82115e",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{6FAE8D18-6D86-473D-B742-D56C731E2E1E}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Loyal customers"
+                        },
+                        "value": "Loyal customers"
+                      }
+                    }
+                  },
+                  {
+                    "uid": "36636588-bd51-463a-8445-fb649ca991c3",
+                    "componentName": "TitleDescriptionCtaSection",
+                    "dataSource": "1f3ccf20-1026-49a0-a8a1-83e39678815b",
+                    "fields": {
+                      "Cta": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{1F3CCF20-1026-49A0-A8A1-83E39678815B}",
+                            "language": "en",
+                            "revision": "0b028f5f-e2a1-4a38-8aa4-4bbfb9d70ed6",
+                            "version": 1
+                          },
+                          "title": "Cta",
+                          "fieldId": "{7C528C09-377D-4783-B9B8-9A828B54F9D3}",
+                          "fieldType": "General Link",
+                          "rawValue": "<link text=\"Discover your assistance\" linktype=\"external\" url=\"https://www.axa.be/nl/particulieren/services/bijstand/bijstand-auto\" />"
+                        },
+                        "value": {
+                          "href": "https://www.axa.be/nl/particulieren/services/bijstand/bijstand-auto",
+                          "text": "Discover your assistance",
+                          "linktype": "external",
+                          "url": "https://www.axa.be/nl/particulieren/services/bijstand/bijstand-auto"
+                        }
+                      },
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{1F3CCF20-1026-49A0-A8A1-83E39678815B}",
+                            "language": "en",
+                            "revision": "0b028f5f-e2a1-4a38-8aa4-4bbfb9d70ed6",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{6B6FAEDA-C550-4FC0-B320-96CD6EE609FB}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Why choose AXA Belgium?"
+                        },
+                        "value": "Why choose AXA Belgium?"
+                      },
+                      "Body": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{1F3CCF20-1026-49A0-A8A1-83E39678815B}",
+                            "language": "en",
+                            "revision": "0b028f5f-e2a1-4a38-8aa4-4bbfb9d70ed6",
+                            "version": 1
+                          },
+                          "title": "Body",
+                          "fieldId": "{94D3EE45-2F2D-421F-B4D1-C81D1CD5963B}",
+                          "fieldType": "Multi-Line Text",
+                          "rawValue": "Wat te doen bij een ongeval of botsing? Home Home insurance Blokpolis Schuldsaldoverzekering Beschikbare diensten en voordelen Homebijstand Klusjes en herstellingen (AXA Homecare) AXA staat aan je zijde\r\n\r\nWat te doen bij een storm? Family Familiale Ongevallen privéleven Reis Students Travel Dieren Boot Evenementen Beschikbare diensten en voordelen Reisbijstand AXA staat aan je zijde\r\n\r\nReisverzekering in België of in het buitenland Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Beschikbare diensten en voordelen Online consultatie bij een dokter (Doctors Online) Tweede medisch advies Doktersafspraak (Doctena) Analyseer je symptomen online (SymptomZoom) AXA staat aan je zijde\r\n\r\nWat te doen bij een zwangerschap? Pension Pensionverzekeringen Pensionsparen Langetermijnsparen Vrij Aanvullend Pension voor Werknemers Groepsverzekering Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde\r\n\r\n6 manieren om een aanvullend pensioen op te bouwen Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde\r\n\r\nHoe successierechten beperken of vermijden? Aangifte en opvolging Belangrijke maatregelen Al onze verzekeringen Individuals Ondernemers & kmo's Grote ondernemingen Publieke sector Hoofdmenu Verzekeringen Mobility Home Family Health Pension Investments Al onze verzekeringen Schadegevallen Aangifte en opvolging Belangrijke maatregelen Meld je aan Site-overzicht Hulp en contact Emergency assistance Français Mobility Auto Motor (e)Fiets, e-Step & Co Bestelwagen Reis Students Travel Boot Beschikbare diensten en voordelen Autobijstand Fietsbijstand Partnergarages Herstelling voertuig indien niet gedekt (Fixico) AXA staat aan je zijde Wat te doen bij een ongeval of botsing? Home Home insurance Blokpolis Schuldsaldoverzekering Beschikbare diensten en voordelen Homebijstand Klusjes en herstellingen (AXA Homecare) AXA staat aan je zijde Wat te doen bij een storm? Family Familiale Ongevallen privéleven Reis Students Travel Dieren Boot Evenementen Beschikbare diensten en voordelen Reisbijstand AXA staat aan je zijde Reisverzekering in België of in het buitenland Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Beschikbare diensten en voordelen Online consultatie bij een dokter (Doctors Online) Tweede medisch advies Doktersafspraak (Doctena) Analyseer je symptomen online (SymptomZoom) AXA staat aan je zijde Wat te doen bij een zwangerschap? Pension Pensionverzekeringen Pensionsparen Langetermijnsparen Vrij Aanvullend Pension voor Werknemers Groepsverzekering Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde 6 manieren om een aanvullend pensioen op te bouwen Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde Hoe successierechten beperken of vermijden? .bg-url-anonymous { background-image: url(https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/photos/main-nav/temp%20bg%20login%20modal.jpg?savif=1&swebp=1&cx=0.5&cy=0.5&cw=1&ch=1&hash=0F44F201B4916A4C92F025F847D42950); } Meld je aan MyAXA klantenzone\r\n\r\nAlles over je verzekeringen als particulier\r\n\r\nMyAXA Healthcare\r\n\r\nBeheer je gezondheidsverzekering eenvoudig en snel\r\n\r\nWat kan je allemaal doen in je MyAXA klantenzone?\r\n\r\nMyAXA klantenzone\r\n\r\nAlles over je verzekeringen als particulier\r\n\r\nMyAXA Healthcare\r\n\r\nBeheer je gezondheidsverzekering eenvoudig en snel\r\n\r\n.u-unique-04f5bbf74627479ca6138813d2de7a0e { width: 33%;} @media screen and (max-width: 768px) {.u-unique-04f5bbf74627479ca6138813d2de7a0e { width: 40%;}} Insured online and your broker always by your side Home\r\n\r\nDiscover our discount\r\n\r\nDiscover our discount\r\n\r\nDiscover our discounten\r\n\r\nDiscover our discounten\r\n\r\nDiscover our discount\r\n\r\nDiscover our discount\r\n\r\n(e-)Fietsen, e-steps en co\r\n\r\nBekijk al onze producten\r\n\r\nHeb je dringende hulp nodig voor je voertuig, je woning of je reis? We staan aan jouw zijde.\r\n\r\nEnkele goede redenen\r\n\r\nBrokers by your side\r\n\r\nDedicated employees\r\n\r\nOnze inspanningen komen tot uiting in deze 3 pijlers\r\n\r\nKlimaatverandering en mobiliteit Gebruik maken van onze kernactiviteiten - investeringen en verzekeringen - om de wereld te helpen het hoofd te bieden aan de klimaatverandering en milieu-uitdagingen.\r\n\r\nHealths- en ziektepreventie Een betrouwbare gezondheidspartner voor onze klanten en de maatschappij worden door middel van gezondheidsbevordering en ziektepreventie.\r\n\r\nSociale inclusie Sociale inclusie aanmoedigen om kwetsbare bevolkingsgroepen te beschermen. Bevorderen van vrijwilligerswerk via AXA Hearts in Action.\r\n\r\nEnkele cijfers waarop we best trots zijn\r\n\r\nCustomers worldwide\r\n\r\ndie op ons vertrouwen\r\n\r\nwaar we onze producten verdelen en diensten leveren\r\n\r\nzetten zich dagelijks in voor onze klanten\r\n\r\nAXA traint 1.250 verzekeringsmakelaars in klimaatadaptatie\r\n\r\nGemiddelde van 196 beoordelingen\r\n\r\nHome insurance - Afsluiten\r\n\r\nOm de authenticiteit van de klantenbeoordelingen te garanderen, worden ze verzameld door eKomi, een onafhankelijk en gespecialiseerd bedrijf, en in alle transparantie gepubliceerd.\r\n\r\nMyAXA Fidelity , aangeboden door je makelaar en AXA, beloont, beschermt en adviseert je elke dag dankzij een heel pak voordelen. Je kan lid worden als je 3 smileys hebt. Meer weten? Contacteer snel je makelaar.\r\n\r\nAll insurance products Mobility Mobility Autoverzekering Motorverzekering Fietsverzekering Bestelwagen Reisverzekering Students Travel Bootverzekering Home Home Home insurance Blokpolis Schuldsaldoverzekering Family Family Familiale verzekering Ongevallen privéleven Reisverzekering Students Travel Dierenverzekering Bootverzekering Evenementenverzekering Health Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Pension Pension Pensionverzekering Pensionsparen Langetermijnsparen Vrij aanvullend pensioen voor werknemers Groepsverzekering Investments Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 AXA AXA\r\n\r\nBelangrijke info Belangrijke info\r\n\r\nContacteer ons Contacteer ons\r\n\r\nCopyright AXA 2026 ©\r\n\r\nOnze website maakt gebruik van cookies. Bepaalde cookies zijn noodzakelijk voor de goede werking van de website of kunnen gebruikt worden voor analyses. Dankzij andere cookies kunnen wij onder andere gepersonaliseerde inhoud of publiciteit tonen, die dus beter aansluit bij je profiel en je interesses. Je kan deze cookies aanvaarden of weigeren en je beslissing steeds aanpassen via de ‘cookies voorkeuren’. Weet dat door ze te aanvaarden, je surfervaring heel wat zal verbeteren. Ons cookiebeleid"
+                        },
+                        "value": "Wat te doen bij een ongeval of botsing? Home Home insurance Blokpolis Schuldsaldoverzekering Beschikbare diensten en voordelen Homebijstand Klusjes en herstellingen (AXA Homecare) AXA staat aan je zijde\r\n\r\nWat te doen bij een storm? Family Familiale Ongevallen privéleven Reis Students Travel Dieren Boot Evenementen Beschikbare diensten en voordelen Reisbijstand AXA staat aan je zijde\r\n\r\nReisverzekering in België of in het buitenland Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Beschikbare diensten en voordelen Online consultatie bij een dokter (Doctors Online) Tweede medisch advies Doktersafspraak (Doctena) Analyseer je symptomen online (SymptomZoom) AXA staat aan je zijde\r\n\r\nWat te doen bij een zwangerschap? Pension Pensionverzekeringen Pensionsparen Langetermijnsparen Vrij Aanvullend Pension voor Werknemers Groepsverzekering Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde\r\n\r\n6 manieren om een aanvullend pensioen op te bouwen Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde\r\n\r\nHoe successierechten beperken of vermijden? Aangifte en opvolging Belangrijke maatregelen Al onze verzekeringen Individuals Ondernemers & kmo's Grote ondernemingen Publieke sector Hoofdmenu Verzekeringen Mobility Home Family Health Pension Investments Al onze verzekeringen Schadegevallen Aangifte en opvolging Belangrijke maatregelen Meld je aan Site-overzicht Hulp en contact Emergency assistance Français Mobility Auto Motor (e)Fiets, e-Step & Co Bestelwagen Reis Students Travel Boot Beschikbare diensten en voordelen Autobijstand Fietsbijstand Partnergarages Herstelling voertuig indien niet gedekt (Fixico) AXA staat aan je zijde Wat te doen bij een ongeval of botsing? Home Home insurance Blokpolis Schuldsaldoverzekering Beschikbare diensten en voordelen Homebijstand Klusjes en herstellingen (AXA Homecare) AXA staat aan je zijde Wat te doen bij een storm? Family Familiale Ongevallen privéleven Reis Students Travel Dieren Boot Evenementen Beschikbare diensten en voordelen Reisbijstand AXA staat aan je zijde Reisverzekering in België of in het buitenland Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Beschikbare diensten en voordelen Online consultatie bij een dokter (Doctors Online) Tweede medisch advies Doktersafspraak (Doctena) Analyseer je symptomen online (SymptomZoom) AXA staat aan je zijde Wat te doen bij een zwangerschap? Pension Pensionverzekeringen Pensionsparen Langetermijnsparen Vrij Aanvullend Pension voor Werknemers Groepsverzekering Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde 6 manieren om een aanvullend pensioen op te bouwen Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 Beschikbare diensten en voordelen Fondsenoverzicht (Fundfinder) AXA staat aan je zijde Hoe successierechten beperken of vermijden? .bg-url-anonymous { background-image: url(https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/photos/main-nav/temp%20bg%20login%20modal.jpg?savif=1&swebp=1&cx=0.5&cy=0.5&cw=1&ch=1&hash=0F44F201B4916A4C92F025F847D42950); } Meld je aan MyAXA klantenzone\r\n\r\nAlles over je verzekeringen als particulier\r\n\r\nMyAXA Healthcare\r\n\r\nBeheer je gezondheidsverzekering eenvoudig en snel\r\n\r\nWat kan je allemaal doen in je MyAXA klantenzone?\r\n\r\nMyAXA klantenzone\r\n\r\nAlles over je verzekeringen als particulier\r\n\r\nMyAXA Healthcare\r\n\r\nBeheer je gezondheidsverzekering eenvoudig en snel\r\n\r\n.u-unique-04f5bbf74627479ca6138813d2de7a0e { width: 33%;} @media screen and (max-width: 768px) {.u-unique-04f5bbf74627479ca6138813d2de7a0e { width: 40%;}} Insured online and your broker always by your side Home\r\n\r\nDiscover our discount\r\n\r\nDiscover our discount\r\n\r\nDiscover our discounten\r\n\r\nDiscover our discounten\r\n\r\nDiscover our discount\r\n\r\nDiscover our discount\r\n\r\n(e-)Fietsen, e-steps en co\r\n\r\nBekijk al onze producten\r\n\r\nHeb je dringende hulp nodig voor je voertuig, je woning of je reis? We staan aan jouw zijde.\r\n\r\nEnkele goede redenen\r\n\r\nBrokers by your side\r\n\r\nDedicated employees\r\n\r\nOnze inspanningen komen tot uiting in deze 3 pijlers\r\n\r\nKlimaatverandering en mobiliteit Gebruik maken van onze kernactiviteiten - investeringen en verzekeringen - om de wereld te helpen het hoofd te bieden aan de klimaatverandering en milieu-uitdagingen.\r\n\r\nHealths- en ziektepreventie Een betrouwbare gezondheidspartner voor onze klanten en de maatschappij worden door middel van gezondheidsbevordering en ziektepreventie.\r\n\r\nSociale inclusie Sociale inclusie aanmoedigen om kwetsbare bevolkingsgroepen te beschermen. Bevorderen van vrijwilligerswerk via AXA Hearts in Action.\r\n\r\nEnkele cijfers waarop we best trots zijn\r\n\r\nCustomers worldwide\r\n\r\ndie op ons vertrouwen\r\n\r\nwaar we onze producten verdelen en diensten leveren\r\n\r\nzetten zich dagelijks in voor onze klanten\r\n\r\nAXA traint 1.250 verzekeringsmakelaars in klimaatadaptatie\r\n\r\nGemiddelde van 196 beoordelingen\r\n\r\nHome insurance - Afsluiten\r\n\r\nOm de authenticiteit van de klantenbeoordelingen te garanderen, worden ze verzameld door eKomi, een onafhankelijk en gespecialiseerd bedrijf, en in alle transparantie gepubliceerd.\r\n\r\nMyAXA Fidelity , aangeboden door je makelaar en AXA, beloont, beschermt en adviseert je elke dag dankzij een heel pak voordelen. Je kan lid worden als je 3 smileys hebt. Meer weten? Contacteer snel je makelaar.\r\n\r\nAll insurance products Mobility Mobility Autoverzekering Motorverzekering Fietsverzekering Bestelwagen Reisverzekering Students Travel Bootverzekering Home Home Home insurance Blokpolis Schuldsaldoverzekering Family Family Familiale verzekering Ongevallen privéleven Reisverzekering Students Travel Dierenverzekering Bootverzekering Evenementenverzekering Health Health Healthsverzekering Arbeidsongevallen Arbeidsongeschiktheid Pension Pension Pensionverzekering Pensionsparen Langetermijnsparen Vrij aanvullend pensioen voor werknemers Groepsverzekering Investments Investments Spaar- en/of beleggingsverzekering Beleggingsverzekering tak 23 AXA AXA\r\n\r\nBelangrijke info Belangrijke info\r\n\r\nContacteer ons Contacteer ons\r\n\r\nCopyright AXA 2026 ©\r\n\r\nOnze website maakt gebruik van cookies. Bepaalde cookies zijn noodzakelijk voor de goede werking van de website of kunnen gebruikt worden voor analyses. Dankzij andere cookies kunnen wij onder andere gepersonaliseerde inhoud of publiciteit tonen, die dus beter aansluit bij je profiel en je interesses. Je kan deze cookies aanvaarden of weigeren en je beslissing steeds aanpassen via de ‘cookies voorkeuren’. Weet dat door ze te aanvaarden, je surfervaring heel wat zal verbeteren. Ons cookiebeleid"
+                      }
+                    }
+                  },
+                  {
+                    "uid": "26ebf2b9-6fdb-4d9c-9645-08af4004d61a",
+                    "componentName": "TitleDescriptionTeaserGridSection",
+                    "dataSource": "6897a452-3537-48a6-95f1-198028420a3a",
+                    "params": {
+                      "DynamicPlaceholderId": "8"
+                    },
+                    "fields": {
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{6897A452-3537-48A6-95F1-198028420A3A}",
+                            "language": "en",
+                            "revision": "462494ad-651f-4494-9bb4-21ef6997bdfd",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{5905B8D9-6006-48EC-8E24-42E25335BB93}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Interesting for you"
+                        },
+                        "value": "Interesting for you"
+                      }
+                    }
+                  },
+                  {
+                    "uid": "8157cc7c-5bce-4623-afed-7ab96c250b16",
+                    "componentName": "ImageRichTextSection",
+                    "dataSource": "3b1be2d5-6561-4ad4-8644-c040056a0a2d",
+                    "fields": {
+                      "Body": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{3B1BE2D5-6561-4AD4-8644-C040056A0A2D}",
+                            "language": "en",
+                            "revision": "4e648066-4fff-4dc1-9f62-824afbfa5622",
+                            "version": 1
+                          },
+                          "title": "Body",
+                          "fieldId": "{770C0646-1B3F-43AD-A6BB-2C0CD5668671}",
+                          "fieldType": "Multi-Line Text",
+                          "rawValue": ""
+                        },
+                        "value": ""
+                      },
+                      "Cta": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{3B1BE2D5-6561-4AD4-8644-C040056A0A2D}",
+                            "language": "en",
+                            "revision": "4e648066-4fff-4dc1-9f62-824afbfa5622",
+                            "version": 1
+                          },
+                          "title": "Cta",
+                          "fieldId": "{D9EA01BE-CCA6-4281-80C8-80A8081789F0}",
+                          "fieldType": "General Link",
+                          "rawValue": ""
+                        },
+                        "value": {
+                          "href": ""
+                        }
+                      },
+                      "Image": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{3B1BE2D5-6561-4AD4-8644-C040056A0A2D}",
+                            "language": "en",
+                            "revision": "4e648066-4fff-4dc1-9f62-824afbfa5622",
+                            "version": 1
+                          },
+                          "title": "Image",
+                          "fieldId": "{F3ADD2BF-DE7C-4659-9491-EC096B9A98F0}",
+                          "fieldType": "Image",
+                          "rawValue": "<image mediaid=\"74B23BC3-D95C-45F0-825C-D2792D077BC9\" />"
+                        },
+                        "value": {
+                          "src": "https://xmc-sitecoresaa9553-jbedmdemos1741-productionf120.sitecorecloud.io/-/media/Project/axa-insurance2/axa2/projects/axabe/axabeweb/photos/broker-woman.jpg?h=964&iar=0&w=1264&ttc=63917121907&tt=8FCFB74C4174CD5F53A4C96CE187B263&hash=9A0AFA91831978BD8B8B5A9132E7EF75",
+                          "alt": "Je makelaar staat altijd aan je zijde",
+                          "width": "1264",
+                          "height": "964"
+                        }
+                      },
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{3B1BE2D5-6561-4AD4-8644-C040056A0A2D}",
+                            "language": "en",
+                            "revision": "4e648066-4fff-4dc1-9f62-824afbfa5622",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{534C056C-BBF9-4767-ADB4-E61C0D6FEC7D}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "Your broker is always by your side"
+                        },
+                        "value": "Your broker is always by your side"
+                      }
+                    }
+                  },
+                  {
+                    "uid": "ed5c3cac-60b7-40ef-a6bc-301ed385f4d6",
+                    "componentName": "TitleDescriptionLinkGridSection",
+                    "dataSource": "0cdd537f-cf57-4344-a856-13e3459b28f0",
+                    "params": {
+                      "DynamicPlaceholderId": "10"
+                    },
+                    "fields": {
+                      "Title": {
+                        "metadata": {
+                          "datasource": {
+                            "id": "{0CDD537F-CF57-4344-A856-13E3459B28F0}",
+                            "language": "en",
+                            "revision": "084d299b-87fd-4add-97f6-f25a72b1e549",
+                            "version": 1
+                          },
+                          "title": "Title",
+                          "fieldId": "{2B235334-01FB-4152-BA91-C0E35DBAF266}",
+                          "fieldType": "Single-Line Text",
+                          "rawValue": "All Insurance Products"
+                        },
+                        "value": "All Insurance Products"
+                      }
+                    }
+                  }
+                ],
+                "headless-footer": [
+                  {
+                    "uid": "e1d2681b-eae5-479c-b73c-a3b16dfe97f4",
+                    "componentName": "PartialDesignDynamicPlaceholder",
+                    "dataSource": "",
+                    "params": {
+                      "sid": "{E1D2681B-EAE5-479C-B73C-A3B16DFE97F4}",
+                      "ph": "headless-footer",
+                      "sig": "sxa-footer"
+                    },
+                    "placeholders": {
+                      "sxa-footer": [
+                        {
+                          "uid": "f19add2b-8f34-4893-852a-ce2fb409e257",
+                          "componentName": "Footer",
+                          "dataSource": "41a849da-ec50-47a1-885b-0d8b53965f8f",
+                          "params": {
+                            "DynamicPlaceholderId": "1"
+                          },
+                          "fields": {
+                            "CopyrightText": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{41A849DA-EC50-47A1-885B-0D8B53965F8F}",
+                                  "language": "en",
+                                  "revision": "41a849da-ec50-47a1-885b-0d8b53965f8f",
+                                  "version": 1
+                                },
+                                "title": "CopyrightText",
+                                "fieldId": "{2A574C0E-9CFC-466D-8A43-9B42AF7B9712}",
+                                "fieldType": "Single-Line Text",
+                                "rawValue": "© Johnson Matthey plc"
+                              },
+                              "value": "© Johnson Matthey plc"
+                            },
+                            "Logo": {
+                              "metadata": {
+                                "datasource": {
+                                  "id": "{41A849DA-EC50-47A1-885B-0D8B53965F8F}",
+                                  "language": "en",
+                                  "revision": "41a849da-ec50-47a1-885b-0d8b53965f8f",
+                                  "version": 1
+                                },
+                                "title": "Logo",
+                                "fieldId": "{51F0F3B3-65CB-4000-8F67-418ED0EAF46C}",
+                                "fieldType": "Image",
+                                "rawValue": "<image mediaid=\"9EC098B5-B142-4D64-9BE0-C077FE301F71\" />"
+                              },
+                              "value": {
+                                "src": "https://xmc-sitecoresaa9553-jbedmdemos1741-productionf120.sitecorecloud.io/-/media/Project/axa-insurance2/axa2/shared/logos/axa-logo-solid-rgb.svg?h=48&iar=0&w=48&ttc=63917121907&tt=EB819F3800A44147050B02AEA4631166&hash=2D5A60FA118BC8692D70FC18D9F4748F",
+                                "alt": "AXA logo",
+                                "width": "48",
+                                "height": "48"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "siteName": "axa2",
+        "mode": {
+          "name": "edit",
+          "isNormal": false,
+          "isPreview": false,
+          "isEditing": true,
+          "isDesignLibrary": false,
+          "designLibrary": {
+            "isVariantGeneration": false
+          }
+        }
+      },
+      "dictionary": {},
+      "componentProps": {}
+    },
+    "__N_PREVIEW": true,
+    "__N_SSP": true
+  },
+  "page": "/[[...path]]",
+  "query": {},
+  "buildId": "development",
+  "isFallback": false,
+  "gsp": true,
+  "locale": "en",
+  "locales": [
+    "en"
+  ],
+  "defaultLocale": "en",
+  "isPreview": true,
+  "scriptLoader": []
+}

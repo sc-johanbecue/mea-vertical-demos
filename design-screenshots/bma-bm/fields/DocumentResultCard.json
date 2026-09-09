@@ -1,0 +1,1 @@
+{"fields":[{"name":"Title","type":"Single-Line Text","sort":100},{"name":"PublishedDate","type":"Single-Line Text","sort":200},{"name":"ViewLink","type":"General Link","sort":300},{"name":"DownloadLink","type":"General Link","sort":400},{"name":"RelatedLink","type":"General Link","sort":500}]}

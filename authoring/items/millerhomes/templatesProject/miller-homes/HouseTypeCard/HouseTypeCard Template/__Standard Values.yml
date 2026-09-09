@@ -1,0 +1,71 @@
+﻿---
+ID: "fa98bc66-58f7-4d8f-b05f-a7bf0441dc86"
+Parent: "2fc23311-c198-4827-af8a-2974efc21712"
+Template: "2fc23311-c198-4827-af8a-2974efc21712"
+Path: "/sitecore/templates/Project/miller-homes/HouseTypeCard/HouseTypeCard Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ac5d1a5-c38f-4b00-8863-36f73fa39f89"
+      Hint: Parking
+      Value: 2
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031811Z
+    - ID: "2a827e73-ef66-4bc1-b726-53461820f6c4"
+      Hint: Status
+      Value: Coming Soon
+    - ID: "2ac2160a-669b-4e2b-9dda-1d3d77642cba"
+      Hint: Garden
+      Value: Private Garden
+    - ID: "438f3d38-8599-4d41-961a-3d4692cb5f48"
+      Hint: Bedrooms
+      Value: 3
+    - ID: "52229104-3acf-4423-b984-60423848ee7d"
+      Hint: SaveLabel
+      Value: Save
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "874fd756-e338-4a6a-980d-48548f97be5c"
+      Hint: CTALink
+      Value: |
+        <link linktype=\"internal\" id=\"6c5f4b85-bf87-4b75-bfa5-5734302b0e77\" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d3a90c6-a543-4b40-9e11-9b6ac93837a1"
+    - ID: "b9656382-0f10-4bdb-b9ce-c5924a9c162a"
+      Hint: ParkingLabel
+      Value: Parking
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c5f236b9-c0c6-43e5-afd1-1f1abba597af"
+      Hint: Name
+      Value: Hampton
+    - ID: "c87469f2-a6ba-418d-8a2f-0dcbc91fd8af"
+      Hint: PricesFromLabel
+      Value: Prices from
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T031843Z
+    - ID: "e1fb1348-59ea-48ad-ba33-545cef6c92d4"
+      Hint: FindOutMoreText
+      Value: Find out more
+    - ID: "e7ae2193-5e82-41c7-ba1f-046df2cecb55"
+      Hint: BedroomsLabel
+      Value: Bedrooms
+    - ID: "fada1489-287a-4de7-9c53-3d6a4bb51f5a"
+      Hint: HouseType
+      Value: Detached
+    - ID: "fcf992cf-ac08-4c0a-a0ad-781ecec353f7"
+      Hint: Price
+      Value: £TBA

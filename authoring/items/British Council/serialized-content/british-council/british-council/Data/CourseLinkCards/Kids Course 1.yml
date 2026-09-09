@@ -1,0 +1,151 @@
+﻿---
+ID: "a11e1005-0005-4005-8005-000000000002"
+Parent: "c49f9f26-f493-4476-9bd1-8eeadb033a87"
+Template: "48781aa6-4047-487f-b415-c7b488ce58fa"
+Path: "/sitecore/content/british-council/british-council/Data/CourseLinkCards/Kids Course 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: Fun lessons for young learners.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32fb7eea-4c90-46d9-a7a2-b82f85388beb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: English for kids
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link text="Find out more" linktype="external" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T130942Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: Leçons amusantes pour les jeunes apprenants.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d9147fd-8a98-47eb-b60a-7218e1066a5d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: Anglais pour les enfants
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="En savoir plus" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084642Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: छोटे बच्चों के लिए मज़ेदार पाठ।
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "47a24f84-9845-4c8c-aaf4-5d1d97e9c43a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: बच्चों के लिए अंग्रेज़ी
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="और अधिक जानें" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093335Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: Leuke lessen voor jonge leerlingen.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f551128f-edc5-4cfd-850f-1ddb26cda858"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: Engels voor kinderen
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Ontdek meer" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084644Z

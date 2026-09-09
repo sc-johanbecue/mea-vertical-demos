@@ -1,0 +1,40 @@
+﻿---
+ID: "57c5fb9d-9288-4535-9891-464cc5137b26"
+Parent: "43b2686e-5c34-4137-8cbb-62b1527dce2b"
+Template: "43b2686e-5c34-4137-8cbb-62b1527dce2b"
+Path: "/sitecore/templates/Project/miller-homes/VirtualTourBannerSection/VirtualTourBannerSection Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {CDB4FC9C-9D48-4C39-83CB-AA82E75C623D}
+    {43B2686E-5C34-4137-8CBB-62B1527DCE2B}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1f7d62f9-e051-45e2-bc65-ef25e7b9d6bd"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260213T021813Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f6b0a99-be6a-4734-9b61-435fad47337e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260213T021836Z

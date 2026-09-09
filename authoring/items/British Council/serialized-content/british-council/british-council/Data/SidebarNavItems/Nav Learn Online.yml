@@ -1,0 +1,129 @@
+﻿---
+ID: "7a2875e9-3888-4142-9dc7-9366587af246"
+Parent: "09c66b23-5661-488c-add7-a4d49cd5f303"
+Template: "c7a67518-9e90-4884-bed3-10591bfbab4c"
+Path: "/sitecore/content/british-council/british-council/Data/SidebarNavItems/Nav Learn Online"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "41efee63-f7fa-422b-8c90-19eaac2ab493"
+      Hint: IsActive
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "f83e42e0-4798-4592-aee2-5c58bb84ab95"
+      Hint: Link
+      Value: |
+        <link text="Learn English Online" linktype="external" url="/english/learn-online" anchor="" target="" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "41efee63-f7fa-422b-8c90-19eaac2ab493"
+      Hint: IsActive
+      Value: 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1085c9cb-ea60-4839-a974-f2273900b6eb"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084728Z
+    - ID: "f83e42e0-4798-4592-aee2-5c58bb84ab95"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Apprenez l'anglais en ligne" url="/english/learn-online" />
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "41efee63-f7fa-422b-8c90-19eaac2ab493"
+      Hint: IsActive
+      Value: 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "70a89d73-dc88-44fd-8abb-1b84c16326da"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093420Z
+    - ID: "f83e42e0-4798-4592-aee2-5c58bb84ab95"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" title="अंग्रेज़ी ऑनलाइन सीखें" linktype="external" text="अंग्रेज़ी ऑनलाइन सीखें" url="/english/learn-online" />
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "41efee63-f7fa-422b-8c90-19eaac2ab493"
+      Hint: IsActive
+      Value: 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8c0e32f8-6b3a-4dcd-a754-65ab4a13cd71"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084730Z
+    - ID: "f83e42e0-4798-4592-aee2-5c58bb84ab95"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Leer Engels Online" url="/english/learn-online" />

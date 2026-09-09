@@ -1,0 +1,51 @@
+﻿---
+ID: "00fb2795-85c9-44f2-b555-67df2fb8f80b"
+Parent: "65bfa3cc-dd85-4469-a688-72942dbacc78"
+Template: "65bfa3cc-dd85-4469-a688-72942dbacc78"
+Path: "/sitecore/templates/Project/miller-homes/FeatureSection/FeatureSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0044c409-dc29-437a-adc3-0decaed4f907"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{AB93CE54-921B-4BAE-B9F3-B858889CB41F}" />
+    - ID: "0c6e8ef7-9f04-4a07-82f5-275cb6f5f753"
+      Hint: TitlePart2
+      Value: step of the way
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T005752Z
+    - ID: "3ef3ed6f-58ad-41f7-a8f0-d6cbe1ffeac6"
+      Hint: TitlePart1
+      Value: With you every
+    - ID: "4e9302f7-d84b-4448-9d0f-c7884cde9eb3"
+      Hint: CTALink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8ad85ce9-fde0-4c52-9e2d-14335ad436c8"
+      Hint: Description
+      Value: <p>We continue caring long after your dream home has been built, you've got the keys and have settled in. We're there when you need us because it's important to us that you're not just satisfied but are delighted living in your new Miller home. We have 90 years worth of customers that we have learned from and we are still listening.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d1d64a9-9efe-403a-9415-d335d8b7ff96"
+    - ID: "9275cdc8-6d46-485a-b051-4f559f84db20"
+      Hint: CTAText
+      Value: Find out more
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T163649Z

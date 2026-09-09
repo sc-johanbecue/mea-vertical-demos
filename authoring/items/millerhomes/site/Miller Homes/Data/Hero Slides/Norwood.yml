@@ -1,0 +1,49 @@
+﻿---
+ID: "ac0be2ed-123c-4bbf-9075-5c3e2f4e242f"
+Parent: "a4789005-aa4a-4c22-b89d-92f2bd25ec17"
+Template: "4b665d79-09bb-4a94-8857-97d4521b84b9"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/Hero Slides/Norwood"
+SharedFields:
+- ID: "1850942e-2f58-462b-9ac8-a2edcca7bca2"
+  Hint: CTALink
+  Value: 
+- ID: "d2f4d982-2e47-43db-94ad-b16bd4a9708c"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{D8C7FB55-2AB1-4805-9DC0-5D8D8DBC6D7F}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a044726d-dd41-450b-a434-3781d1d1d667"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0cc2111a-cd08-4411-8c5c-02a7c211e7d7"
+      Hint: Description
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260203T015130Z
+    - ID: "8b93af92-87f5-484b-be53-425afbd218e0"
+      Hint: CTAText
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "618b92b1-a057-4675-ae40-415386486885"
+    - ID: "b574c058-1c92-4432-8748-66b266146730"
+      Hint: Title
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c23f3a12-81b1-4c55-b1c3-aef310e4d5a6"
+      Hint: SubTitle
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260203T160153Z

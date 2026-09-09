@@ -1,0 +1,102 @@
+{
+  "url": "https://www.bma.bm/about-us",
+  "slug": "bma-bm--about-us",
+  "sectionOrder": [
+    "Header",
+    "Footer"
+  ],
+  "components": [
+    {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "type": "footer",
+      "scope": "site",
+      "selector": "#wrapper > footer",
+      "reason": "Site footer with links and legal",
+      "order": 0,
+      "heading": "Address",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    }
+  ],
+  "stickyOverlays": {
+    "components": [
+      {
+        "cmsName": "Header",
+        "captured": false,
+        "skipped": true
+      }
+    ],
+    "hideMethod": "css",
+    "found": true
+  },
+  "fullPageShots": {
+    "overlay": {
+      "desktop": "desktop.png",
+      "tablet": "tablet.png",
+      "mobile": "mobile.png"
+    },
+    "clean": {
+      "desktop": "desktop-clean.png",
+      "tablet": "tablet-clean.png",
+      "mobile": "mobile-clean.png"
+    }
+  },
+  "design": {
+    "fonts": [
+      {
+        "family": "Franklin Gothic Book",
+        "count": 52,
+        "sources": []
+      }
+    ],
+    "colors": {
+      "primary": {
+        "hex": [
+          "#007bff"
+        ],
+        "gradients": []
+      },
+      "secondary": {
+        "hex": [
+          "#002b5c",
+          "#6c757d"
+        ],
+        "gradients": []
+      },
+      "accent": {
+        "hex": [],
+        "gradients": []
+      },
+      "neutrals": {
+        "hex": [
+          "#000000",
+          "#ffffff"
+        ],
+        "gradients": []
+      },
+      "semantic": {
+        "success": null,
+        "error": null,
+        "warning": null,
+        "info": "#133649"
+      }
+    },
+    "css": {
+      "directory": "css",
+      "files": []
+    }
+  },
+  "newSections": {
+    "pageSlug": "bma-bm--about-us",
+    "pageDir": "../../design-screenshots/bma-bm/bma-bm--about-us",
+    "pageSectionsRoot": "../../design-screenshots/bma-bm/bma-bm--about-us/sections",
+    "domainSectionsRoot": "sections",
+    "mergedAt": "2026-09-01T09:09:50.341Z",
+    "sections": [],
+    "componentsToBuild": []
+  }
+}

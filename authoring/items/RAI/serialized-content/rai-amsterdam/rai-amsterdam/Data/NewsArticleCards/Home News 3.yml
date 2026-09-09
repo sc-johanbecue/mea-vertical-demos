@@ -1,0 +1,48 @@
+---
+ID: "9a30d3e5-203a-4e3d-b70d-62ffcff22e01"
+Parent: "fdebd007-a95a-4ade-93b8-6759127528d2"
+Template: "6db5797e-b8ca-40c4-8f06-df5a8f3d5168"
+Path: "/sitecore/content/rai/rai-amsterdam/Data/NewsArticleCards/Home News 3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "852e6787-46f1-49b2-bc37-b99f1051af57"
+      Hint: Title
+      Value: Strong year driven by growth in exhibitions
+    - ID: "c190a75e-3270-4e4d-aae9-1977c0945617"
+      Hint: Date
+      Value: 15/05/2026
+    - ID: "6dda9cac-78ca-483a-85f0-884bc38890bc"
+      Hint: Category
+      Value: Corporate news
+    - ID: "a7c9c52f-e174-481f-b86a-31b06462b50e"
+      Hint: Image
+      Value: |
+        <image mediaid="18DD505D-AC13-495D-90FB-B979DEB8696C" />
+    - ID: "d3d2d5a1-1806-4a94-a334-2d13b1e6ca70"
+      Hint: Link
+      Value: |
+        <link text="Read article" linktype="external" url="https://www.rai.nl/en/news/annual-report" anchor="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f7535970-960f-4245-b8d6-94567cb88ecf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

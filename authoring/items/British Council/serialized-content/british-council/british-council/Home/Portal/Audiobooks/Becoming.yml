@@ -1,0 +1,300 @@
+﻿---
+ID: "acfbbe8d-9905-4ffb-867a-f7815c93f0e9"
+Parent: "1068e96b-e8a3-4257-ae0a-1feb423195fc"
+Template: "b11e2500-0001-4001-8500-000000000001"
+Path: "/sitecore/content/british-council/british-council/Home/Portal/Audiobooks/Becoming"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{86232687-A33F-4AB0-8D54-0F9D7744ED39}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "0491a9d6-c842-41d3-8abe-21aa61ba508a"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T160000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: Becoming
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Becoming
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link text="Becoming" linktype="internal" id="{acfbbe8d-9905-4ffb-867a-f7815c93f0e9}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "acfbbe8d-9905-4ffb-867a-f7815c93f0e9"
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Narrated collection
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Audio
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2022
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-3562245"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Audiobook
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: English
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 292
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Discover Becoming from the British Council Digital Library. This Audiobook title brings together engaging material for learners and curious readers alike.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Becoming begins with a carefully paced introduction that draws you into its world. The opening chapters establish character, place and purpose with clarity. As the narrative unfolds, themes of culture, learning and curiosity weave through everyday detail. Observations land lightly, then deepen. By the middle stretch of this sample, the tone settles into a confident rhythm. Scenes are sketched with economy, leaving room for the reader to linger. The later sample pages look ahead: questions are raised, threads are gathered, and the closing lines of this preview invite you to continue beyond the first twenty pages."
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="746d4bd1-6a4c-46db-b352-2ff364fef110" />
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Becoming
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T160000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: Devenir
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Devenir
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{acfbbe8d-9905-4ffb-867a-f7815c93f0e9}" linktype="internal" text="Devenir" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cedfc8ed-71fc-4798-8c7a-90f89ad5a2db"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Collection narrée
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: Audio du British Council
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2022
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-3562245"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Livre audio
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: Anglais
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 292
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Découvrez Devenir dans la bibliothèque numérique du British Council. Ce titre audio rassemble du contenu captivant pour les apprenants et les lecteurs curieux.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Devenir commence par une introduction soigneusement rythmée qui vous plonge dans son univers. Les premiers chapitres établissent les personnages, le lieu et l'objectif avec clarté. À mesure que le récit se déroule, des thèmes de culture, d'apprentissage et de curiosité se tissent dans les détails du quotidien. Les observations sont légères, puis s'approfondissent. Au milieu de cet extrait, le ton s'installe dans un rythme confiant. Les scènes sont esquissées avec économie, laissant au lecteur le temps de s'attarder. Les dernières pages de cet extrait se projettent vers l'avenir : des questions sont soulevées, des fils sont rassemblés, et les dernières lignes de cet aperçu vous invitent à continuer au-delà des vingt premières pages."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="746d4bd1-6a4c-46db-b352-2ff364fef110" alt="Devenir par Michelle Obama" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084754Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Devenir
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T160000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: बीकमिंग
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: बीकमिंग
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link id="{acfbbe8d-9905-4ffb-867a-f7815c93f0e9}" linktype="internal" text="बीकमिंग" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c77839de-f63d-4000-a27e-e13e72ebecac"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: संग्रहित कथन
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: ब्रिटिश काउंसिल ऑडियो
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2022
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-3562245"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: ऑडियोबुक
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: अंग्रेज़ी
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 292
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: ब्रिटिश काउंसिल डिजिटल लाइब्रेरी से 'बीकमिंग' की खोज करें। यह ऑडियोबुक शीर्षक शिक्षार्थियों और जिज्ञासु पाठकों के लिए आकर्षक सामग्री प्रस्तुत करता है।
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "'बीकमिंग' एक सावधानीपूर्वक तैयार किए गए परिचय के साथ शुरू होता है जो आपको इसकी दुनिया में खींचता है। शुरुआती अध्याय चरित्र, स्थान और उद्देश्य को स्पष्टता के साथ स्थापित करते हैं। जैसे-जैसे कथा आगे बढ़ती है, संस्कृति, सीखने और जिज्ञासा के विषय रोजमर्रा के विवरणों के माध्यम से बुने जाते हैं। अवलोकन हल्के से उतरते हैं, फिर गहराई में जाते हैं। इस नमूने के मध्य भाग तक, स्वर एक आत्मविश्वासपूर्ण लय में बस जाता है। दृश्यों को संक्षेप में चित्रित किया गया है, जिससे पाठक को ठहरने का स्थान मिलता है। बाद के नमूना पृष्ठ आगे की ओर देखते हैं: प्रश्न उठाए जाते हैं, सूत्र एकत्र किए जाते हैं, और इस पूर्वावलोकन की अंतिम पंक्तियाँ आपको पहले बीस पृष्ठों से आगे बढ़ने के लिए आमंत्रित करती हैं।"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="746d4bd1-6a4c-46db-b352-2ff364fef110" alt="मिशेल ओबामा द्वारा लिखित 'बीकमिंग'" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093442Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: बीकमिंग
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T160000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: Becoming
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Becoming
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ca190ea-9781-4f8e-bcfc-14ee20a86fa6"
+      Hint: Link
+      Value: |
+        <link text="Becoming" linktype="internal" id="{acfbbe8d-9905-4ffb-867a-f7815c93f0e9}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "59f83953-109f-4e7c-a7b3-eec0fa30d25f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000011"
+      Hint: Author
+      Value: Vertelde collectie
+    - ID: "b11e2500-0001-4001-8500-000000000012"
+      Hint: Publisher
+      Value: British Council Audio
+    - ID: "b11e2500-0001-4001-8500-000000000013"
+      Hint: PublishedYear
+      Value: 2022
+    - ID: "b11e2500-0001-4001-8500-000000000014"
+      Hint: ISBN
+      Value: "978-1-3562245"
+    - ID: "b11e2500-0001-4001-8500-000000000015"
+      Hint: Genre
+      Value: Audioboek
+    - ID: "b11e2500-0001-4001-8500-000000000016"
+      Hint: Language
+      Value: Engels
+    - ID: "b11e2500-0001-4001-8500-000000000017"
+      Hint: PageCount
+      Value: 292
+    - ID: "b11e2500-0001-4001-8500-000000000018"
+      Hint: Synopsis
+      Value: Ontdek Becoming in de British Council Digitale Bibliotheek. Deze audioboektitel biedt boeiend materiaal voor zowel leerlingen als nieuwsgierige lezers.
+    - ID: "b11e2500-0001-4001-8500-000000000019"
+      Hint: SampleExcerpt
+      Value: "Becoming begint met een zorgvuldig opgebouwd begin dat je in zijn wereld trekt. De openingshoofdstukken introduceren personages, plaats en doel met helderheid. Naarmate het verhaal zich ontvouwt, verweven thema's van cultuur, leren en nieuwsgierigheid zich door alledaagse details. Observaties worden licht gebracht en verdiepen zich vervolgens. Halverwege krijgt de toon een zelfverzekerd ritme. Scènes worden met spaarzaamheid geschetst, waardoor er ruimte is voor de lezer om te blijven hangen. De latere voorbeeldpagina's kijken vooruit: vragen worden gesteld, draden worden verzameld en de slotregels van deze preview nodigen je uit om verder te gaan dan de eerste twintig pagina's."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c7d49b5b-2d4b-4fae-a6d0-2c881037d540"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="746d4bd1-6a4c-46db-b352-2ff364fef110" alt="Becoming van Michelle Obama" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084754Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Becoming

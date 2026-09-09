@@ -1,0 +1,135 @@
+﻿---
+ID: "61c11a6e-9df6-448b-8894-10caa2868c56"
+Parent: "c56b48aa-a057-4dd0-a45a-e5a16da4cf32"
+Template: "f31551a8-4dc7-4d5b-90c3-01a3b38ab80f"
+Path: "/sitecore/content/british-council/british-council/Data/StatsBars/We Are Global"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0fdc0e34-cd7f-435e-8cd5-bd3d37f3a6ae"
+      Hint: Intro
+      Value: We bring the best the UK has to offer, to the world.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "2fa26b77-cdbf-40ad-a7d5-3c41a0f168ee"
+      Hint: Title
+      Value: We are global
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "be6b6331-c531-47c3-a2a5-3c34e1dcb9ee"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T084748Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0fdc0e34-cd7f-435e-8cd5-bd3d37f3a6ae"
+      Hint: Intro
+      Value: "Nous apportons le meilleur de ce que le Royaume-Uni a à offrir, au monde."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "2fa26b77-cdbf-40ad-a7d5-3c41a0f168ee"
+      Hint: Title
+      Value: Nous sommes mondiaux
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13e3dbe9-c195-4f94-80cb-5892ae04ae92"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084729Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0fdc0e34-cd7f-435e-8cd5-bd3d37f3a6ae"
+      Hint: Intro
+      Value: हम दुनिया को यूके की सबसे बेहतरीन चीज़ें प्रदान करते हैं।
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "2fa26b77-cdbf-40ad-a7d5-3c41a0f168ee"
+      Hint: Title
+      Value: हम वैश्विक हैं।
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f02567d-3856-4084-bece-fa0da4ac0dd0"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093421Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0fdc0e34-cd7f-435e-8cd5-bd3d37f3a6ae"
+      Hint: Intro
+      Value: We brengen het beste dat het Verenigd Koninkrijk te bieden heeft, naar de wereld.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "2fa26b77-cdbf-40ad-a7d5-3c41a0f168ee"
+      Hint: Title
+      Value: We zijn wereldwijd actief
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ffc17625-be42-456a-9154-ce1b3f13c5fc"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084730Z

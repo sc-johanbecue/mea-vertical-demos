@@ -1,0 +1,32 @@
+﻿---
+ID: "4c6168f2-6978-4fa4-aaac-a3a6cb87d299"
+Parent: "00a22796-7476-4206-a0c5-c01ad40e063a"
+Template: "ca4d587a-92a2-4b79-bbc2-4f8546e0e9a4"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/NearbyDevelopmentsSections/Developments"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0451a9c0-8571-4c9b-988d-19a01095111e"
+      Hint: TitleHighlight
+      Value: developments
+    - ID: "0eb70b6f-5404-4eed-a2d6-4e049b97c9e5"
+      Hint: TitlePart1
+      Value: East midlands
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260203T163041Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e5bdd8a-1bc6-46d7-9fb3-e17f7af0987d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260203T163140Z

@@ -1,0 +1,40 @@
+﻿---
+ID: "32c24227-4ad1-4973-acf3-8f1739f4c991"
+Parent: "289ab153-bb3a-4827-a91d-bb0c1386f779"
+Template: "289ab153-bb3a-4827-a91d-bb0c1386f779"
+Path: "/sitecore/templates/Project/miller-homes/PageTitleSection/PageTitleSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T002938Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8630a1ed-730e-46ea-9f13-314b03712806"
+      Hint: Description
+      Value: <p>Discover our range of new build homes in the East Midlands region. From modern apartments to spacious family homes, we have something for everyone.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6685a637-b286-4a0b-baef-76edeb5e2453"
+    - ID: "b712f738-6b84-46c4-bf8d-1ce516ae673f"
+      Hint: Subtitle
+      Value: Find your perfect new home
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T003155Z
+    - ID: "fa5dd7de-55b5-4452-9a79-7287cba3d6fa"
+      Hint: Title
+      Value: New homes in East Midlands

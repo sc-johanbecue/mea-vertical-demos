@@ -1,0 +1,128 @@
+﻿---
+ID: "768fb77a-5cf1-4775-b8b6-3a3bea645ce3"
+Parent: "40d2b773-e76d-4a26-bd51-0b6e1451c4d9"
+Template: "9e26a1fe-a630-47d7-909d-87c0312f6050"
+Path: "/sitecore/content/rai/rai-amsterdam/Home"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="ACA688D2-CE90-46B8-9FD1-4EA31E1E24DC"
+          p:before="*"
+          s:ds="841dfc21-d5cd-47d2-b7c5-2395766a4c66"
+          s:id="{7249D15D-88DE-41DF-ABBF-A72D77385743}"
+          s:par="CSSStyles&amp;FieldNames=%7BAAA80744-203B-4813-BA35-A599D08AC465%7D"
+          s:ph="headless-main" />
+        <r
+          uid="43714EF0-051F-47AA-BA9C-4F482D0D5623"
+          p:after="r[@uid='ACA688D2-CE90-46B8-9FD1-4EA31E1E24DC']"
+          s:ds="cd4216c5-52ec-4c2b-b133-37e24daf53a9"
+          s:id="{D2E990CF-E7B4-4704-B74D-4469001928DC}"
+          s:par="CSSStyles&amp;FieldNames=%7B16582480-401B-417A-80A4-548A7573D7D0%7D&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="48F63E42-94D8-4DCB-8EBF-4B37A051ABE6"
+          p:after="r[@uid='43714EF0-051F-47AA-BA9C-4F482D0D5623']"
+          s:ds="8d202e7b-2813-4cae-baac-4738c9bb4bb3"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles&amp;FieldNames=%7B8745C3E4-9091-4923-B889-7733BEE8A412%7D"
+          s:ph="/headless-main/event-cards-1" />
+        <r
+          uid="DAC14371-2EA9-42FB-A760-D8EDDA088BE6"
+          p:after="r[@uid='48F63E42-94D8-4DCB-8EBF-4B37A051ABE6']"
+          s:ds="21a68bd0-d417-4edc-89ff-9bd4ae46c3bf"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles&amp;FieldNames=%7B8745C3E4-9091-4923-B889-7733BEE8A412%7D"
+          s:ph="/headless-main/event-cards-1" />
+        <r
+          uid="2BD1AC85-1790-43E7-8FE4-63A4B675F7A6"
+          p:after="r[@uid='DAC14371-2EA9-42FB-A760-D8EDDA088BE6']"
+          s:ds="3ebbe64b-ff4b-4487-be82-bea3ac57dbdd"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles&amp;FieldNames=%7B8745C3E4-9091-4923-B889-7733BEE8A412%7D"
+          s:ph="/headless-main/event-cards-1" />
+        <r
+          uid="119E426D-2638-4A8F-988E-D003668BF9CB"
+          p:after="r[@uid='2BD1AC85-1790-43E7-8FE4-63A4B675F7A6']"
+          s:ds="0b0fc5fa-b053-4b61-ad8e-f62d029baf37"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles&amp;FieldNames=%7B8745C3E4-9091-4923-B889-7733BEE8A412%7D"
+          s:ph="/headless-main/event-cards-1" />
+        <r
+          uid="38F3EBD1-7AF4-43D8-8585-45EB868943E1"
+          p:after="r[@uid='119E426D-2638-4A8F-988E-D003668BF9CB']"
+          s:ds="d3acbde4-e2ea-4740-8c23-3fcd7f232d6d"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles&amp;FieldNames=%7B8745C3E4-9091-4923-B889-7733BEE8A412%7D"
+          s:ph="/headless-main/event-cards-1" />
+        <r
+          uid="77CAC98D-38CB-4928-82C3-F3384CB3F5C6"
+          p:after="r[@uid='38F3EBD1-7AF4-43D8-8585-45EB868943E1']"
+          s:ds="5e9471cf-964c-4fd8-9760-3c0dc4356f16"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles&amp;FieldNames=%7B8745C3E4-9091-4923-B889-7733BEE8A412%7D"
+          s:ph="/headless-main/event-cards-1" />
+        <r
+          uid="829F3E8D-CCFF-4891-9EC1-A73C1A7A783F"
+          p:after="r[@uid='77CAC98D-38CB-4928-82C3-F3384CB3F5C6']"
+          s:ds="be4750f4-f412-477d-97a7-07e0b9b2130e"
+          s:id="{7148EE2F-E506-4B7B-A143-81B820B221E1}"
+          s:par="CSSStyles&amp;FieldNames=%7B22E3A75A-6476-4F40-A190-56F27787A4CB%7D&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="1737AFA5-FC41-429E-8F6D-B5BFA4E01078"
+          p:after="r[@uid='829F3E8D-CCFF-4891-9EC1-A73C1A7A783F']"
+          s:ds="b6b46132-15d2-40e5-ba62-fea45e8d588c"
+          s:id="{E7005BE0-63B0-4358-AA1A-0C7450FB3BF3}"
+          s:par="CSSStyles&amp;FieldNames=%7BFFC39D20-8664-442F-9F1F-31CE8790BE7B%7D"
+          s:ph="/headless-main/news-cards-2" />
+        <r
+          uid="83ADE53D-9B69-47A9-9C77-FDD009B043A6"
+          p:after="r[@uid='1737AFA5-FC41-429E-8F6D-B5BFA4E01078']"
+          s:ds="562dd9c3-5900-41b3-b2d4-fb829aac0f8e"
+          s:id="{E7005BE0-63B0-4358-AA1A-0C7450FB3BF3}"
+          s:par="CSSStyles&amp;FieldNames=%7BFFC39D20-8664-442F-9F1F-31CE8790BE7B%7D"
+          s:ph="/headless-main/news-cards-2" />
+        <r
+          uid="CB9AF4EA-9097-459C-9510-B65166514305"
+          p:after="r[@uid='83ADE53D-9B69-47A9-9C77-FDD009B043A6']"
+          s:ds="9a30d3e5-203a-4e3d-b70d-62ffcff22e01"
+          s:id="{E7005BE0-63B0-4358-AA1A-0C7450FB3BF3}"
+          s:par="CSSStyles&amp;FieldNames=%7BFFC39D20-8664-442F-9F1F-31CE8790BE7B%7D"
+          s:ph="/headless-main/news-cards-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3007d0e5-59c0-4969-9aaa-1dd6194ad755"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

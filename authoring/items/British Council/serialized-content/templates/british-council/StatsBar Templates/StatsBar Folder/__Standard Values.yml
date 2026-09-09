@@ -1,0 +1,23 @@
+---
+ID: "1e98bfe9-07f2-4bcc-b696-5b16f3c5135a"
+Parent: "19d50190-992b-410a-bfc1-488b89ba74d7"
+Template: "19d50190-992b-410a-bfc1-488b89ba74d7"
+Path: "/sitecore/templates/Project/british-council/StatsBar Templates/StatsBar Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {F31551A8-4DC7-4D5B-90C3-01A3B38AB80F}
+    {19D50190-992B-410A-BFC1-488B89BA74D7}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,54 @@
+﻿---
+ID: "00bc8aa5-4264-46fa-911c-f1f137425abb"
+Parent: "d8099f60-0631-42a3-a738-1115a536a776"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/DACB/FromWebsite/icn-carousel-arrow-left"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/00BC8AA5426446FA911CF1F137425ABB.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "4c49366a-fd52-453a-8420-3197421de086"
+  Value: PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA2MCA2MCI+CiAgPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDMwLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDIuMS4xIEJ1aWxkIDEyMykgIC0tPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuc3QwIHsKICAgICAgICBzdHJva2U6ICNmZmY7CiAgICAgICAgc3Ryb2tlLWxpbmVjYXA6IHNxdWFyZTsKICAgICAgICBzdHJva2Utd2lkdGg6IDEuNXB4OwogICAgICB9CgogICAgICAuc3QwLCAuc3QxIHsKICAgICAgICBmaWxsOiAjZDAyNzFkOwogICAgICAgIHN0cm9rZS1taXRlcmxpbWl0OiAxMDsKICAgICAgfQoKICAgICAgLnN0MiB7CiAgICAgICAgZmlsbDogI2ZmZjsKICAgICAgICBmaWxsLXJ1bGU6IGV2ZW5vZGQ7CiAgICAgIH0KCiAgICAgIC5zdDEgewogICAgICAgIHN0cm9rZTogI2QwMjcxZDsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPHBhdGggY2xhc3M9InN0MSIgZD0iTTMwLC43QzEzLjguNy43LDEzLjguNywzMHMxMy4xLDI5LjMsMjkuMywyOS4zLDI5LjMtMTMuMSwyOS4zLTI5LjNTNDYuMi43LDMwLC43WiIvPgogIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0zMCw1LjJjMTMuNywwLDI0LjgsMTEuMSwyNC44LDI0LjhzLTExLjEsMjQuOC0yNC44LDI0LjhTNS4yLDQzLjcsNS4yLDMwLDE2LjMsNS4yLDMwLDUuMk0zMCw0LjNDMTUuOCw0LjMsNC4zLDE1LjgsNC4zLDMwczExLjUsMjUuOCwyNS43LDI1LjgsMjUuOC0xMS41LDI1LjgtMjUuN1M0NC4yLDQuMywzMCw0LjNoMFoiLz4KICA8cGF0aCBjbGFzcz0ic3QyIiBkPSJNMjMuNSwzMC41bDkuMSw5LDEuOS0xLjktNy4yLTcuMSw3LjItNy4xLTEuOS0xLjlzLTkuMSw5LTkuMSw5WiIvPgo8L3N2Zz4=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 980
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 3400
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d7b7f489-25e4-4695-a719-09b8a0f0f962"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260207T193559Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f8a1769-6817-4346-809f-976276232993"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260207T214926Z

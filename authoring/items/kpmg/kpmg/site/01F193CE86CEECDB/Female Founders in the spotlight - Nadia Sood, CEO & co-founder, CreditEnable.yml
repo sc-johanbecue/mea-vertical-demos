@@ -1,0 +1,59 @@
+﻿---
+ID: "a30cf7a0-35b4-8f4e-90b2-aad9904c6f37"
+Parent: "31ed7662-82c7-402c-85c0-cc041b93c9bc"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: "/sitecore/content/kpmg/kpmgbeyond/Home/Articles/Female Founders in the spotlight - Nadia Sood, CEO & co-founder, CreditEnable"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{253562B3-C142-4F42-AD86-2217D913E516}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260530T140000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: Leadership
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "“In everything I’ve been building as an entrepreneur I've tried to surround myself with people who are substantially smarter than me but also somewhat emotionally detached from what I’m doing to advise me in that moment. I draw on them to help us find the path forward.” - Nadia Soo, CEO & CO-founder, CreditEnable"
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/videos/Female-Founders-in-the-spotlight-Nadia-Sood-CEO-CreditEnable" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: "Female Founders in the spotlight: Nadia Sood, CEO & co-founder, CreditEnable"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: ArticleTitle
+      Value: "Female Founders in the spotlight: Nadia Sood, CEO & co-founder, CreditEnable"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "6ef5115a-93f5-415e-8c4c-57c676c3d2d5"
+      Hint: DateLabel
+      Value: 6th March, 2024
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d86396be-695c-4a22-9325-6111f8f4052c"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="{FC6A0BF3-AE5A-43A1-8641-E8043B98F683}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T050935Z

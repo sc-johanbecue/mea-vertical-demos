@@ -1,0 +1,117 @@
+﻿---
+ID: "0a450b59-0213-4d9a-955a-3b01aed9117f"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/KPMG Pay Equity Tool
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2448079C-5524-4F6D-8B68-C5E204767FBC}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2762B4A8-5931-476F-A40F-5B69B9B2E3F8}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{C9FAD60F-DDF5-43D3-9100-E34B5A2AC15C}"
+          p:after="r[@uid='{2762B4A8-5931-476F-A40F-5B69B9B2E3F8}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{F6D556F8-BAF1-491F-BE84-0CAA56808C5D}"
+          p:after="r[@uid='{C9FAD60F-DDF5-43D3-9100-E34B5A2AC15C}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{44B80AAC-D055-4373-B210-0F24617CCE56}"
+          p:after="r[@uid='{F6D556F8-BAF1-491F-BE84-0CAA56808C5D}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{DF3D4280-8867-4F85-8945-F394DFB113C6}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: KPMG Pay Equity Tool | Insights & Compliance
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: Ensuring employees are paid fairly is critical in today's competitive talent landscape. KPMG's Pay Equity Tool is your partner to getting fair pay right. Navigate challenges and compliance with confidence, while building a culture of trust and transparency.
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/Pay-Equity-Tool" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: KPMG Pay Equity Tool
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: KPMG Pay Equity Tool
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: Take proactive measures towards getting fair pay right, boost compliance, and build a culture of trust and transparency
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fa3a5a3c-496c-40f2-b581-f13938236c0e"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="b6973dd6-97a9-4f9e-b45c-74cf7a98a47d" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Pay-Gap-Tool/Pay-Gap-tool-main-image-2.jpg?rev=ee34a0a52d8d4530945550972526388d&hash=CCF41FE32AD647F79EF430C33319DA9C" alt="pay gap tool header image - abstract scales" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        <p>Ensuring employees are paid fairly is critical in today's competitive talent landscape. KPMG's Pay Equity Tool is your partner to getting fair pay right. Navigate challenges and compliance with confidence, while building a culture of trust and transparency.</p>
+        <h2>Here&rsquo;s how we can help:  </h2> <ul> <li><strong>Disparity identification:</strong> Analyse your workforce data to identify potential pay gaps between male and female employees performing equal work.</li> <li><strong>Risk assessment:</strong> Identify risk areas within your business and gain data-driven insight into how disparities have arisen, which can help you develop targeted remediation plans.</li> <li><strong>Compliance support</strong>: Ensure alignment with both the UK Equal Pay legislation and the EU Pay Transparency Directive.</li> <li><strong>Customisation:</strong> Tailor the tool to your specific workforce and rewards structures to draw out meaningful analysis.  </li> </ul> <h2>Future-proof your business </h2> <p>The risk of equal pay litigation is a growing concern, with significant financial and reputational consequences for non-compliance. With the EU Pay Transparency Directive coming into effect in 2026, now is the time for proactive measures. KPMG's Pay Equity Tool is designed to help you navigate these challenges with confidence.</p> <h2>Your trusted partner </h2> <p>Our experienced employment lawyers lead a team of reward, legal, data, and tech specialists who are ready to help you meet your obligations. </p> <h2>An end-to-end solution  </h2> <p>Beyond compliance, you&rsquo;ll also benefit from: </p> <ul> <li><strong>Improved employee engagement</strong>: Establish a culture of trust and transparency, boosting employee satisfaction.</li> <li><strong>Reduced legal and financial risks</strong>: Mitigate the potential for costly litigation and fines.</li> <li><strong>ESG alignment</strong>: Contribute to your organisation's Environmental, Social, and Governance goals.</li> <li><strong>Cost effective:</strong> We&rsquo;ll tailor our offering to suit your risk profile and workforce size.  </li> </ul> <p><sub><em>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities.  <br /> KPMG Law is part of KPMG LLP, a multi-disciplinary practice authorised and regulated by the Solicitors Regulation Authority. SRA ID: 615423. For full details of our professional regulation please refer to 'Regulatory information' under 'About' at kpmg.com/uk </em></sub><br /> <br />  </p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T013740Z

@@ -1,0 +1,117 @@
+﻿---
+ID: "17ba9da7-8629-4afa-9ad4-a2fb545e0911"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/Data Analytics for Customs
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F311A89F-15B6-4D00-8F8A-E67424CC6A38}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0B40D6CD-9876-47E4-AFAC-370507855A3E}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{33CBFFFD-0902-4709-9155-2DF82DF270C6}"
+          p:after="r[@uid='{0B40D6CD-9876-47E4-AFAC-370507855A3E}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{641E49AB-6BC0-438E-8C9B-E49AFE9E3AA2}"
+          p:after="r[@uid='{33CBFFFD-0902-4709-9155-2DF82DF270C6}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{EA38A0B5-0555-4752-8793-3CEA7E95B927}"
+          p:after="r[@uid='{641E49AB-6BC0-438E-8C9B-E49AFE9E3AA2}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{19C61E49-FBDC-42FC-8826-3078707A2C91}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: Data Analytics for Customs | Insights & Compliance Tool
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: Even the smallest error in your customs declaration to HMRC can increase the tax you owe, expose your business to penalties, and cast a shadow over your compliance profile. KPMG Data Analytics for Customs enables the interrogation of high volumes of your customs and trade data, to support compliance and unlock potential cash opportunities within your business.
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/DataAnalyticsForCustoms" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Data Analytics for Customs
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Data Analytics for Customs
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: Turn your customs data into valuable insights, maximise savings, and have confidence in your compliance
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80ef10c8-f401-4992-b9ca-7335aac1fac4"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="7d864508-5a40-49f4-9b58-32ae60eec31d" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Customs-Data-Analytics/customs_mainimage.jpg?rev=c81f9886793d42b99acaa638b73b297c&hash=9AB99C4AD2773FB2B939D3160739D1BB" alt="Data Analytics for Customs - header image" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        Even the smallest error in your customs declaration to HMRC can increase the tax you owe, expose your business to penalties, and cast a shadow over your compliance profile.<br /> <br /> KPMG Data Analytics for Customs enables the interrogation of high volumes of your customs and trade data, to support compliance and unlock potential cash opportunities within your business.<br />
+        <p>With the significant increase in declarations and the focus on compliance since Brexit, coupled with the introduction of the Customs Declaration Service (CDS), easily accessing and mining your customs and trade data is vital.</p> <p>Our Customs data analytics platform helps you to identify trends within your supply chain, potential duty savings and business process gaps.   </p> <p> </p> <img alt="Speak to our experts - book a demo" style="height:400px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Customs-Data-Analytics/Customs-data-analytics---banner-(2).png?rev=59402d68e8a941af931fa2f711efdcc5&hash=6D6D6F635F5FBB6FCBC1BAF2BBBC0FC7" />  <h2>Compliance support </h2> <p>Check 100% of import and export entries against a standard repository of common risk parameters included with the tool. Our technology will conduct over 30 opportunity and exception checks based on 100+ years of customs and IT experience. </p> <h2>Customised for your business </h2> <p>You&rsquo;ll have the option to tailor risk parameters to your business&rsquo; customs profile, and new checks and visuals can be added as needed. </p> <p>Our standard model is based on HMRC Management Support System (MSS) data and Customs Declaration Service data (CDS). </p> <h2>Process efficiency </h2> <p>Increase the efficiency of post-declaration entry reviews with automated data analysis. You&rsquo;ll be able to quickly access the insights you need with interactive summary dashboards and key metrics held together in one portal.  </p> <p>Once up and running, new data can be added to refresh your dashboards on a regular basis. </p> <h2>Save valuable time and resource  </h2> <p>Free up your employees to focus on investigating the potential exceptions and opportunities identified. </p> <h2>Easily accessible </h2> <p>Our solution is web-based, housed on a secure platform for client collaboration. </p> <p>It uses multi-factor authentication for security and each user will be given their own login.  </p> <p><img alt="Are you overpaying duties? Are you prepared for your next customs audit? Are your processes optimal and fit for purpose? " style="height:250px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Customs-Data-Analytics/Customs-Data-Analytics---GIF.gif?rev=3bea222874d14c1fa6c58d54e6d5a0e4&hash=E7BB2597A253F26699C3DD94D6726889" /></p> <p><em><sub><sup>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities</sup></sub></em></p> <div> </div>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T013300Z

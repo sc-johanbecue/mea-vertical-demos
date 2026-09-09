@@ -1,0 +1,33 @@
+﻿---
+ID: "9d0b138c-ac18-4f7f-920a-21d1e582f5de"
+Parent: "dc137793-eecd-48d3-b0fd-b62ac148c675"
+Template: "188c8c27-f7b4-474b-ab41-d378a5180d10"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/HeroCarouselSections/Bramcote Hills Rise"
+SharedFields:
+- ID: "40b34348-2b5f-4e15-b783-d1f0d43b8f0e"
+  Hint: Slides
+  Value: |
+    {D27E38CB-E19C-4B11-B959-0540864E7D08}
+    {DC7A45B7-BB70-4B94-B3C6-CDF519665773}
+    {F09ABAE2-28B3-402C-9223-168F8673A6E0}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e5699d9e-dfdc-47e6-998a-dd69a4e5762f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260203T014420Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc1d8be0-716b-4353-84ab-2398f62683e3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260203T020350Z

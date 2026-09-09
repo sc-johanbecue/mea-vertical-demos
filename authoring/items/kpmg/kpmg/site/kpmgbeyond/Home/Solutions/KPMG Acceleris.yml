@@ -1,0 +1,117 @@
+﻿---
+ID: "e145ec0b-5059-4721-aef5-081c925a3ddb"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/KPMG Acceleris
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C7DE515D-A736-40F3-B9DA-5E21A174494A}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{EB6DE07E-51FD-4B14-BD68-7060936E8D1A}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{B605CBD6-F0A1-472E-81D3-E942A8E7DB80}"
+          p:after="r[@uid='{EB6DE07E-51FD-4B14-BD68-7060936E8D1A}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{1DD13051-2614-4191-95B3-B755FCAA92D9}"
+          p:after="r[@uid='{B605CBD6-F0A1-472E-81D3-E942A8E7DB80}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{0378749C-2411-402F-9A16-4A61B37A7002}"
+          p:after="r[@uid='{1DD13051-2614-4191-95B3-B755FCAA92D9}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{4B474D17-76BD-4D9B-888E-D7A8AE9CE180}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: KPMG Acceleris | Venture Capital Fundraising for Founders
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "Venture Capital (VC) fundraising should not be a full-time job. Our expert team will connect you with the advice, support and world-class investors you need to scale your business."
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/Acceleris" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: KPMG Acceleris
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: KPMG Acceleris
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: "Access the capital you need to scale your business, with expert mentorship and world-class investors"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ab68ed7d-88c3-494f-82ab-5bf95c2198f5"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="632b8dcb-2957-4373-9a9e-7657c6961dd2" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Acceleris/acceleris3.jpg?rev=c004337b7e6743e882a6a6049a357ee6&hash=BE2D33035AA8CE1B966D26780B6A91E9" alt="KPMG Acceleris - header image" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        Venture Capital (VC) fundraising should not be a full-time job. Our expert team will connect you with the advice, support and world-class investors you need to scale your business.
+        <h2>We'll help you:   </h2> <ul> <li>Craft a compelling pitch that resonates with investors </li> <li>Connect with experienced investors who are excited about your vision </li> <li>Close deals quickly and more efficiently </li> </ul> <h2>What sets us apart:  </h2> <ul> <li>FCA authorised and regulated professional advice </li> <li>Specialist team with a proven track record across 400+ early-stage deals </li> <li>Global reach, local expertise </li> <li>An international network of over 750 active investors </li> <li>Exclusive access to events, insights, and network </li> </ul> <img alt="£600m - the amount of capital introduced by our team into companies from Seed through to Growth Transactions ; 400+ - Transactions completed including Seed, Series-A, secondaries, cash out, IPO and sell side ; >750 - Active network of investors across angel investors, VC firms, Family Office and Private Equity " style="height:600px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Acceleris/Acceleris---stats-V2.gif?rev=ddc3c693c4ee4388aeae4d3ba68a3293&hash=7768BC9C3644104FD2D44797D2AF3F12" />  <h2>Expert guidance</h2> <p>Take our steer on a market-relevant fundraising strategy and deal preparation. We&rsquo;ll manage the time-consuming tasks of market research, investor outreach, and deal negotiation so that you can focus on what you do best.</p> <h2>Accelerate the process </h2> <p>Our proven process helps you get noticed by investors, drive momentum, and close deals quickly. Access our deep understanding of the VC landscape and our global network of investors.  </p> <h2>Find the right partner </h2> <p>We&rsquo;ll help you find the right long-term investor for your company, one who aligns with your vision and can support your goals.  </p> <h2>Global reach, local expertise  </h2> <p>We offer global resources and expertise, tailored to your needs. We&rsquo;ll bring the best of KPMG to your business across M&A, commercial and financial due diligence, consultancy and tax advice.  </p> <h2>Flexible engagement  </h2> <p>We advise on transactions of all sizes, from seed to scale. We&rsquo;ll work with you to develop a customised approach that fits your unique situation. </p> <h2>Exclusive access  </h2> <p>Gain access to exclusive events, industry insights, and a network of successful founders. We&rsquo;re committed to opening our network for the benefit of busy and underrepresented founders.  </p> <p><em><sub>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities.</sub></em><br />  </p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T013639Z

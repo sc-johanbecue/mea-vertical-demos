@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-15T01:14:17.354Z",
+  "reviewStatus": "pending",
+  "sectionFolder": "interessant-voor-jou-hero-carousel",
+  "review": {
+    "narrativeSummary": "We will create 2 components: TitleDescriptionCarouselSection (section wrapper) and FeatureCarouselCard (repeatable child). TitleDescriptionCarouselSection datasource fields: Title, Description. Sitecore placeholder \"carousel-slides\" on TitleDescriptionCarouselSection accepts ~6 FeatureCarouselCard item(s). Each FeatureCarouselCard is authored with: Eyebrow, Title, Body. Layout: horizontal-carousel.",
+    "notes": [
+      "Detection: Carousel / hero slider",
+      "Placeholder \"carousel-slides\" → FeatureCarouselCard (horizontal-carousel).",
+      "Carousel pattern on all viewports (or layout could not be split from HTML)."
+    ],
+    "contentGuidance": null,
+    "nextSteps": [
+      "Review the narrative summary and responsive layout notes against the section PNGs.",
+      "Edit component names or fields in this file if the plan looks wrong, then set reviewStatus to \"approved\".",
+      "Run sitecore-component-from-design for each component under implementationPlan.components.",
+      "Create YAML artifacts listed under each component.yaml.artifacts.",
+      "Wire renderings into page YAML via sitecore-page-from-design."
+    ]
+  },
+  "responsiveLayout": {
+    "pattern": "content-carousel",
+    "differsByViewport": false,
+    "cardCount": 6,
+    "cardPattern": "content-card",
+    "desktop": {
+      "layout": "carousel",
+      "controls": "prev-next",
+      "description": "Content carousel with image/title/body cards."
+    },
+    "tablet": {
+      "layout": "carousel",
+      "controls": "prev-next",
+      "description": "Content carousel with image/title/body cards."
+    },
+    "mobile": {
+      "layout": "carousel",
+      "controls": "prev-next",
+      "description": "Content carousel with image/title/body cards."
+    }
+  },
+  "detection": {
+    "cmsName": "InteressantVoorJouHeroCarousel",
+    "folderName": "interessant-voor-jou-hero-carousel",
+    "type": "carousel",
+    "componentType": "Carousel",
+    "scope": "page",
+    "selector": "section:has([data-webid=\"swiper-a18801679ed7401593d316c555d96838\"])",
+    "anchorWebid": "section-title",
+    "heading": null,
+    "reason": "Carousel / hero slider",
+    "captureMode": "clean",
+    "isStickyOverlay": false,
+    "order": 14,
+    "repeatCount": 6,
+    "placeholderFor": null,
+    "parentSection": null,
+    "includesSectionTitle": false,
+    "detectedFields": [],
+    "source": "visual-dom"
+  },
+  "assets": {
+    "screenshots": {
+      "desktop": "interessant-voor-jou-hero-carousel-desktop.png",
+      "tablet": "interessant-voor-jou-hero-carousel-tablet.png",
+      "mobile": "interessant-voor-jou-hero-carousel-mobile.png"
+    },
+    "sectionHtml": "section.html",
+    "outputDir": "interessant-voor-jou-hero-carousel"
+  },
+  "implementationPlan": {
+    "confidence": "high",
+    "summary": "Build 2 Sitecore components: TitleDescriptionCarouselSection + FeatureCarouselCard (parent/child placeholder pattern).",
+    "placeholderKey": "carousel-slides-{DynamicPlaceholderId}",
+    "repeatCount": 6,
+    "components": [
+      {
+        "role": "parent",
+        "cmsName": "TitleDescriptionCarouselSection",
+        "componentType": "Section",
+        "description": "Section with title, description, and content carousel placeholder.",
+        "confidence": "high",
+        "fields": [
+          {
+            "name": "Title",
+            "type": "Single-Line Text"
+          },
+          {
+            "name": "Description",
+            "type": "Multi-Line Text"
+          }
+        ],
+        "placeholders": [
+          {
+            "key": "carousel-slides-{DynamicPlaceholderId}",
+            "allowedRenderings": [
+              "FeatureCarouselCard"
+            ],
+            "layout": "horizontal-carousel"
+          }
+        ],
+        "variants": [
+          "Default",
+          "Inversed",
+          "ImageTop",
+          "Animated",
+          "Carousel"
+        ],
+        "parentComponents": [],
+        "tsx": {
+          "componentMapKey": "TitleDescriptionCarouselSection",
+          "directory": "src/components/title-description-carousel-section/",
+          "mainFile": "src/components/title-description-carousel-section/TitleDescriptionCarouselSection.tsx",
+          "variantExports": [
+            "Default",
+            "Inversed",
+            "ImageTop",
+            "Animated",
+            "Carousel"
+          ],
+          "componentMapRegistration": ".sitecore/component-map.ts → 'TitleDescriptionCarouselSection': () => import('@/components/title-description-carousel-section/TitleDescriptionCarouselSection')"
+        },
+        "yaml": {
+          "sitecoreProjectPath": "authoring/items/{ProjectName}/serialized-content/",
+          "artifacts": [
+            {
+              "kind": "template-branch",
+              "description": "Sitecore template branch (Template, Data section, field items)",
+              "pathPattern": "/sitecore/templates/Project/{project}/TitleDescriptionCarouselSection/"
+            },
+            {
+              "kind": "rendering",
+              "description": "Json rendering definition",
+              "pathPattern": "/sitecore/layout/Renderings/Project/{project}/TitleDescriptionCarouselSection"
+            },
+            {
+              "kind": "headless-variants-folder",
+              "description": "Headless Variants folder for Experience Editor",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionCarouselSection"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Default variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionCarouselSection/Default.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Inversed variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionCarouselSection/Inversed.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "ImageTop variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionCarouselSection/ImageTop.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Animated variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionCarouselSection/Animated.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Carousel variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/TitleDescriptionCarouselSection/Carousel.yml"
+            },
+            {
+              "kind": "data-folder",
+              "description": "Datasource folder for authored content",
+              "pathPattern": "{siteContentPath}/Data/TitleDescriptionCarouselSections"
+            },
+            {
+              "kind": "default-datasource",
+              "description": "Default datasource item with field values from design",
+              "pathPattern": "{siteContentPath}/Data/TitleDescriptionCarouselSections/Default TitleDescriptionCarouselSection.yml"
+            },
+            {
+              "kind": "placeholder-setting",
+              "description": "Placeholder setting for carousel-slides-{DynamicPlaceholderId}",
+              "pathPattern": "/sitecore/layout/Placeholder Settings/Project/{project}/carousel-slides",
+              "placeholderKey": "carousel-slides-{DynamicPlaceholderId}",
+              "allowedRenderings": [
+                "FeatureCarouselCard"
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "name": "Title",
+              "type": "Single-Line Text"
+            },
+            {
+              "name": "Description",
+              "type": "Multi-Line Text"
+            }
+          ]
+        },
+        "placeholderKey": "carousel-slides-{DynamicPlaceholderId}"
+      },
+      {
+        "role": "child",
+        "cmsName": "FeatureCarouselCard",
+        "componentType": "Card",
+        "description": "Carousel slide card with image, title, and body.",
+        "confidence": "high",
+        "fields": [
+          {
+            "name": "Eyebrow",
+            "type": "Single-Line Text"
+          },
+          {
+            "name": "Title",
+            "type": "Single-Line Text"
+          },
+          {
+            "name": "Body",
+            "type": "Multi-Line Text"
+          }
+        ],
+        "placeholders": [],
+        "variants": [
+          "Default",
+          "Inversed",
+          "ImageTop",
+          "Animated"
+        ],
+        "parentComponents": [
+          "TitleDescriptionCarouselSection"
+        ],
+        "tsx": {
+          "componentMapKey": "FeatureCarouselCard",
+          "directory": "src/components/feature-carousel-card/",
+          "mainFile": "src/components/feature-carousel-card/FeatureCarouselCard.tsx",
+          "variantExports": [
+            "Default",
+            "Inversed",
+            "ImageTop",
+            "Animated"
+          ],
+          "componentMapRegistration": ".sitecore/component-map.ts → 'FeatureCarouselCard': () => import('@/components/feature-carousel-card/FeatureCarouselCard')"
+        },
+        "yaml": {
+          "sitecoreProjectPath": "authoring/items/{ProjectName}/serialized-content/",
+          "artifacts": [
+            {
+              "kind": "template-branch",
+              "description": "Sitecore template branch (Template, Data section, field items)",
+              "pathPattern": "/sitecore/templates/Project/{project}/FeatureCarouselCard/"
+            },
+            {
+              "kind": "rendering",
+              "description": "Json rendering definition",
+              "pathPattern": "/sitecore/layout/Renderings/Project/{project}/FeatureCarouselCard"
+            },
+            {
+              "kind": "headless-variants-folder",
+              "description": "Headless Variants folder for Experience Editor",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/FeatureCarouselCard"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Default variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/FeatureCarouselCard/Default.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Inversed variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/FeatureCarouselCard/Inversed.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "ImageTop variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/FeatureCarouselCard/ImageTop.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Animated variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/FeatureCarouselCard/Animated.yml"
+            },
+            {
+              "kind": "data-folder",
+              "description": "Datasource folder for authored content",
+              "pathPattern": "{siteContentPath}/Data/FeatureCarouselCards"
+            },
+            {
+              "kind": "default-datasource",
+              "description": "Default datasource item with field values from design",
+              "pathPattern": "{siteContentPath}/Data/FeatureCarouselCards/Default FeatureCarouselCard.yml"
+            }
+          ],
+          "fields": [
+            {
+              "name": "Eyebrow",
+              "type": "Single-Line Text"
+            },
+            {
+              "name": "Title",
+              "type": "Single-Line Text"
+            },
+            {
+              "name": "Body",
+              "type": "Multi-Line Text"
+            }
+          ]
+        },
+        "inPlaceholder": "carousel-slides-{DynamicPlaceholderId}",
+        "repeatCount": 6
+      }
+    ]
+  }
+}

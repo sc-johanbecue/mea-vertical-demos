@@ -1,0 +1,270 @@
+{
+  "projectRoot": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\rai-nl",
+  "updatedAt": "2026-06-16T22:34:14.382Z",
+  "components": {
+    "Header": {
+      "cmsName": "Header",
+      "componentType": "Navigation",
+      "description": "Site header with logo and navigation placeholder.",
+      "fields": [
+        {
+          "name": "Logo",
+          "type": "Image"
+        },
+        {
+          "name": "LogoLink",
+          "type": "General Link"
+        },
+        {
+          "name": "LogoText",
+          "type": "Single-Line Text"
+        }
+      ],
+      "placeholders": [
+        {
+          "key": "header-nav-{DynamicPlaceholderId}",
+          "allowedRenderings": [
+            "Navigation"
+          ],
+          "layout": "nav"
+        }
+      ],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated"
+      ],
+      "confidence": "high",
+      "sourceSectionFolders": [
+        "header"
+      ]
+    },
+    "Footer": {
+      "cmsName": "Footer",
+      "componentType": "Footer",
+      "description": "Site footer with link columns and legal.",
+      "fields": [
+        {
+          "name": "CopyrightText",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "Logo",
+          "type": "Image"
+        }
+      ],
+      "placeholders": [
+        {
+          "key": "footer-links-{DynamicPlaceholderId}",
+          "allowedRenderings": [
+            "LinkList"
+          ],
+          "layout": "columns"
+        }
+      ],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated"
+      ],
+      "confidence": "high",
+      "sourceSectionFolders": [
+        "footer"
+      ]
+    },
+    "CookieBanner": {
+      "cmsName": "CookieBanner",
+      "componentType": "Layout",
+      "description": "Cookie consent banner.",
+      "fields": [
+        {
+          "name": "Message",
+          "type": "Multi-Line Text"
+        },
+        {
+          "name": "AcceptLabel",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "PrivacyLink",
+          "type": "General Link"
+        }
+      ],
+      "placeholders": [],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated"
+      ],
+      "confidence": "high",
+      "sourceSectionFolders": [
+        "cookie-banner"
+      ]
+    },
+    "FullBleedHeroBannerSection": {
+      "cmsName": "FullBleedHeroBannerSection",
+      "componentType": "Hero",
+      "description": "Full-bleed hero banner with title and CTA.",
+      "fields": [
+        {
+          "name": "Title",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "Image",
+          "type": "Image"
+        },
+        {
+          "name": "BackgroundImage",
+          "type": "Image"
+        },
+        {
+          "name": "Cta",
+          "type": "General Link"
+        }
+      ],
+      "placeholders": [],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated"
+      ],
+      "confidence": "medium",
+      "sourceSectionFolders": [
+        "hero-banner",
+        "event-detail-hero-section"
+      ]
+    },
+    "TitleDescriptionTeaserGridSection": {
+      "cmsName": "TitleDescriptionTeaserGridSection",
+      "componentType": "Section",
+      "description": "Grid section with section title and repeating card placeholder.",
+      "fields": [
+        {
+          "name": "Title",
+          "type": "Single-Line Text"
+        }
+      ],
+      "placeholders": [
+        {
+          "key": "teaser-cards-{DynamicPlaceholderId}",
+          "allowedRenderings": [
+            "EventListCard"
+          ],
+          "layout": "grid"
+        }
+      ],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated",
+        "Carousel"
+      ],
+      "confidence": "high",
+      "sourceSectionFolders": [
+        "these-events-will-be-teaser-grid",
+        "the-latest-news-articles-section",
+        "calendar-listing-section"
+      ]
+    },
+    "EventListCard": {
+      "cmsName": "EventListCard",
+      "componentType": "Card",
+      "description": "EventListCard for grid placeholder.",
+      "fields": [
+        {
+          "name": "Title",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "Body",
+          "type": "Multi-Line Text"
+        },
+        {
+          "name": "Cta",
+          "type": "General Link"
+        }
+      ],
+      "placeholders": [],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated"
+      ],
+      "parentComponents": [
+        "TitleDescriptionTeaserGridSection"
+      ],
+      "confidence": "high",
+      "sourceSectionFolders": [
+        "these-events-will-be-teaser-grid",
+        "calendar-listing-section"
+      ]
+    },
+    "NewsArticleCard": {
+      "cmsName": "NewsArticleCard",
+      "componentType": "Card",
+      "description": "NewsArticleCard for grid placeholder.",
+      "fields": [
+        {
+          "name": "Title",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "Body",
+          "type": "Multi-Line Text"
+        },
+        {
+          "name": "Cta",
+          "type": "General Link"
+        }
+      ],
+      "placeholders": [],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated"
+      ],
+      "parentComponents": [
+        "TitleDescriptionTeaserGridSection"
+      ],
+      "confidence": "high",
+      "sourceSectionFolders": [
+        "the-latest-news-articles-section"
+      ]
+    },
+    "TitleDescriptionCtaSection": {
+      "cmsName": "TitleDescriptionCtaSection",
+      "componentType": "Section",
+      "description": "Editorial content section inferred from screenshot band.",
+      "fields": [
+        {
+          "name": "Title",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "Body",
+          "type": "Multi-Line Text"
+        }
+      ],
+      "placeholders": [],
+      "variants": [
+        "Default",
+        "Inversed",
+        "ImageTop",
+        "Animated"
+      ],
+      "confidence": "medium",
+      "sourceSectionFolders": [
+        "breadcrumb",
+        "event-detail-info-section"
+      ]
+    }
+  }
+}

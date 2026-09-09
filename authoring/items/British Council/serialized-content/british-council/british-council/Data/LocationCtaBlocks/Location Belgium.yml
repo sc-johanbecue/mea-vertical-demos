@@ -1,0 +1,155 @@
+﻿---
+ID: "9203cf18-8e60-4cfe-9169-b901491bb425"
+Parent: "9463bbfd-65b0-4d57-9c11-fa15733595bb"
+Template: "a42434b5-f52d-486d-b129-d5e8bcdffa98"
+Path: "/sitecore/content/british-council/british-council/Data/LocationCtaBlocks/Location Belgium"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "36a46014-d34b-416f-850e-b0984a9273a0"
+      Hint: Title
+      Value: We think you are in Belgium
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "31543b8d-aa9d-4465-8fa9-59a62c438c10"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T084748Z
+    - ID: "f75a3bca-fe95-4de3-aae4-769c69a5cdf0"
+      Hint: SecondaryLink
+      Value: |
+        <link text="Not in Belgium?" linktype="external" url="/" />
+    - ID: "ff471994-4cce-484a-abbc-0b7d4fc3265f"
+      Hint: PrimaryLink
+      Value: |
+        <link text="Visit our Belgium website" linktype="external" url="/" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "36a46014-d34b-416f-850e-b0984a9273a0"
+      Hint: Title
+      Value: Nous pensons que vous êtes en Belgique
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ac741ec-7d85-4162-aaa8-4eb7abf95c34"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084708Z
+    - ID: "f75a3bca-fe95-4de3-aae4-769c69a5cdf0"
+      Hint: SecondaryLink
+      Value: |
+        <link linktype="external" text="Pas en Belgique ?" url="/" />
+    - ID: "ff471994-4cce-484a-abbc-0b7d4fc3265f"
+      Hint: PrimaryLink
+      Value: |
+        <link linktype="external" text="Visitez notre site web belge" url="/" />
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "36a46014-d34b-416f-850e-b0984a9273a0"
+      Hint: Title
+      Value: हमें लगता है कि आप बेल्जियम में हैं
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ac9bc99-ef6b-4e09-ab4f-8603afabed37"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093359Z
+    - ID: "f75a3bca-fe95-4de3-aae4-769c69a5cdf0"
+      Hint: SecondaryLink
+      Value: |
+        <link linktype="external" text="क्या आप बेल्जियम में नहीं हैं?" url="/" />
+    - ID: "ff471994-4cce-484a-abbc-0b7d4fc3265f"
+      Hint: PrimaryLink
+      Value: |
+        <link linktype="external" text="हमारी बेल्जियम वेबसाइट पर जाएं" url="/" />
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "36a46014-d34b-416f-850e-b0984a9273a0"
+      Hint: Title
+      Value: We denken dat u in België bent
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "874deb9e-a7ae-4e0d-80d2-0d0442268910"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084708Z
+    - ID: "f75a3bca-fe95-4de3-aae4-769c69a5cdf0"
+      Hint: SecondaryLink
+      Value: |
+        <link linktype="external" text="Niet in België?" url="/" />
+    - ID: "ff471994-4cce-484a-abbc-0b7d4fc3265f"
+      Hint: PrimaryLink
+      Value: |
+        <link linktype="external" text="Bezoek onze Belgische website" url="/" />

@@ -1,0 +1,145 @@
+﻿---
+ID: "edf763ea-bf97-47f2-91a0-eb3028568bb1"
+Parent: "2eda842d-4c32-40d4-8df0-24e3ad1a3b02"
+Template: "780d8d31-4274-4a98-98d6-1b94a9102a1b"
+Path: "/sitecore/content/british-council/british-council/Data/BookCards/To Kill a Mockingbird"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="3d0b8f21-e847-44b2-8c30-4f2123206f1e" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: To Kill a Mockingbird
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link text="To Kill a Mockingbird" linktype="external" url="/portal/fiction" anchor="" target="" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "464787bd-c61e-46b5-a4a4-925d789b7e94"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="3d0b8f21-e847-44b2-8c30-4f2123206f1e" alt="Ne tirez pas sur l'oiseau moqueur par Harper Lee" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: Ne tirez pas sur l'oiseau moqueur
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Ne tirez pas sur l'oiseau moqueur" url="/portal/fiction" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084623Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96077d2f-f441-4c2e-86e6-d9a3a1ed959f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="3d0b8f21-e847-44b2-8c30-4f2123206f1e" alt="हार्पर ली द्वारा लिखित 'टू किल अ मॉकिंगबर्ड'" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: टू किल अ मॉकिंगबर्ड
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="टू किल अ मॉकिंगबर्ड" url="/portal/fiction" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093325Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "903b7de0-645e-4ee3-81b6-dbca9d79fd2e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="3d0b8f21-e847-44b2-8c30-4f2123206f1e" alt="Spaar de Spotvogel van Harper Lee" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: Spaar de Spotvogel
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Spaar de Spotvogel" url="/portal/fiction" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084626Z

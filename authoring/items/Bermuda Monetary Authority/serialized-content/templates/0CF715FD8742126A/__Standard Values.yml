@@ -1,0 +1,23 @@
+---
+ID: "bd31a2fc-a04d-40a7-a639-84bba0a5ef08"
+Parent: "1db785fe-6080-4c75-bedb-d5f3f34406ab"
+Template: "1db785fe-6080-4c75-bedb-d5f3f34406ab"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/DocumentResultCard Templates/DocumentResultCard Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {3E78DA21-3DCD-40B0-92CF-DD0CE17D5BA0}
+    {1DB785FE-6080-4C75-BEDB-D5F3F34406AB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

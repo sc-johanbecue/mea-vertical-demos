@@ -1,0 +1,17 @@
+---
+ID: "21f5c70f-6a24-4e5f-9fe7-f4736936c3c8"
+Parent: "dbae0afc-db3f-4af9-ac34-bd6b7e50d638"
+Template: "dbae0afc-db3f-4af9-ac34-bd6b7e50d638"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/LinkColumnGrid Templates/LinkColumnGrid/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

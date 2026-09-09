@@ -1,0 +1,42 @@
+---
+ID: "ca0b83e2-39dd-4a51-bfca-400ef2e2a3c3"
+Parent: "325a9b85-0dd3-4018-a3e0-7fab30e3fb28"
+Template: "3b61df4a-b5ef-463b-a0d6-939282e58007"
+Path: "/sitecore/content/rai/rai-amsterdam/Data/CookieBanners/Site Cookie Banner"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "a0e23e46-8b68-4121-911d-76219cc6859e"
+      Hint: Message
+      Value: |
+        Consent Selection Statistical cookies
+    - ID: "6430c3c4-446f-405b-ac10-7f62787b3923"
+      Hint: AcceptLabel
+      Value: Consent Selection Statistical cookies Social media cookies Personalization cookies Marketing (targeting) cookies Show details Details Statistical cookies 79
+    - ID: "29eec0c8-beab-46f4-ad52-ea6eae6152ba"
+      Hint: PrivacyLink
+      Value: |
+        <link class="" id="e678c7d9-9986-4b43-9aa2-4efa13eda71a" querystring="" anchor="" target="" title="" linktype="internal" text="Cookie Notice" url="/rai/rai-amsterdam/Home/Privacy Statement" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1affd4c4-d8fe-496e-881c-0f8222e00845"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

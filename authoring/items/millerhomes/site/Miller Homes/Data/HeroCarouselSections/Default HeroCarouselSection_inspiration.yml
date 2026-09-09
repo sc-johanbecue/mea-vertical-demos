@@ -1,0 +1,35 @@
+﻿---
+ID: "5e766e86-3840-44a9-b9f9-c2678d1ca1ca"
+Parent: "dc137793-eecd-48d3-b0fd-b62ac148c675"
+Template: "188c8c27-f7b4-474b-ab41-d378a5180d10"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/HeroCarouselSections/Default HeroCarouselSection_inspiration"
+SharedFields:
+- ID: "40b34348-2b5f-4e15-b783-d1f0d43b8f0e"
+  Hint: Slides
+  Value: |
+    {E35AE7A8-D458-4CEE-BFBF-716DA3833F8C}
+    {DC7A45B7-BB70-4B94-B3C6-CDF519665773}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c34844b6-3344-46bc-928e-119940344436"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031322Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "87189cfa-c410-4448-8210-f339d04a9715"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260526T140352Z

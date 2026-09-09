@@ -1,0 +1,117 @@
+﻿---
+ID: "90053d8f-da4a-44e7-9f09-310b48c75273"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/Indirect Tax Data Analytics
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A2DD1D3E-5C7B-4CEA-82C1-3C98445D7D51}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{61B8ECBE-E055-43E4-B486-5F398B23223D}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{FC3B970A-C840-4650-BADB-625F3389F5DC}"
+          p:after="r[@uid='{61B8ECBE-E055-43E4-B486-5F398B23223D}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{4F96C5DA-35E0-41E1-B9D4-0CABD2D11F6E}"
+          p:after="r[@uid='{FC3B970A-C840-4650-BADB-625F3389F5DC}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{D2959633-B649-4C27-A121-D5D15DAD732F}"
+          p:after="r[@uid='{4F96C5DA-35E0-41E1-B9D4-0CABD2D11F6E}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{8FC99C16-D245-40AE-8343-DC8A482EC7A6}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: Indirect Tax Data Analytics
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "Take a data-led approach to your indirect tax management to unlock hidden cash potential within your business."
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/IndirectTaxDataAnalytics" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Indirect Tax Data Analytics
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Indirect Tax Data Analytics
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: Use your tax data to identify cash opportunities and risks within your business
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f361d51-10eb-42d4-b728-14e27e99c3ce"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="1cf8e677-f6a9-433d-8321-ac1c9962ce2f" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Indirect-Tax-Data-Analytics/IndirectTaxDataAnalytics_mainimage.jpg?rev=8d0ec5ebc87e4bf49585bc9f0f158e89&hash=EEEFE5B52E5B85E739AE984085F3C5FB" alt="Indirect Tax Data Analytics main image" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        <p>Take a data-led approach to your indirect tax management to unlock hidden cash potential within your business.</p>
+        <p>Our Indirect Tax Data Analytics engine is advanced data platform that combines analytical insight with technical tax expertise. We'll overlay this with with practical industry knowledge to analyse your tax data for free, to unlock financial opportunities within your business. </p> <h2>Identify and quantify potential savings </h2> <p>Our Indirect Tax Data Analytics tool quickly processes large volumes of your indirect tax data to help to:  </p> <li>Automatically determine the tax treatment for your business transactions. <br /> <br /> </li> <li>Identify tax efficiencies across VAT, customs duties, grants and incentives, and capital allowances. </li> <br /> <li>Get a holistic overview of potential tax opportunities which you can use to quantify future savings.  <br /> <br /> </li> <li>Mitigate costly errors in your tax reporting. <br /> <br /> <br /> </li> <img alt="Book a call" style="height:550px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/banners/TaxDataAnalytics_solutionpage.png?h=550&w=1920&rev=0c657c2d1c8a46e39470b602ce4147a9&hash=DDB9BB9699976DE7D08F90EF1DE991D0" /><br /> <h2>Take a strategic approach</h2> <p>We'll help to identify actionable improvements you can make to strengthen the cash position of your business. This insight will enable you to: </p> <li>Make the benefits of tax savings permanent by embedding better tax management processes into the business.<br /> <br /> </li> <li>Identify priority areas within your tax management for targeted investment of time and resource.<br /> <br /> </li> <li>Realise cash-saving opportunities within your business. Once we've identified areas of tax savings within your business, we'll work with you on an agreed basis to release the benefits of them. </li> <br /> <br /> <h2>Consistent compliance</h2> <p>Feel more confident in your compliance with an auditable trail from transaction data to final tax classification. </p> <li>Review your internal tax management processes to help ensure that tax effectiveness is maintained on an ongoing basis.</li> <br /> <div> </div> <li>Stay-up-to-date with changes to tax policy and legislation. </li> <br /> <br /> <img alt="Our data analytics has identified over £100m of VAT that our clients may have overpaid or under recovered." style="height:600px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Indirect-Tax-Data-Analytics/TaxData_GifV5.gif?rev=0dd6f474d39e4aa8a8836863ec97fbc2&hash=D0C99DC853ED4B2E634B789090DB059D" /> <p><img alt=""The client was seeking a cash injection so we applied Indirect Tax Data Analytics to review their VAT reporting. The findings indicated a series of potential opportunities including VAT that had not been recovered on UK supplier invoices, as well as overseas suppliers that had incorrectly charged UK VAT. The retrospective savings of these findings alone provided a six figure cash saving and we were able to correct the VAT reporting going forward." Andy Bradford, Partner KPMG, Indirect Tax" style="height:750px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Indirect-Tax-Data-Analytics/IDTA_quoteV5.png?h=750&w=1920&rev=6f243a52547c4d99b31e88e8dfbf97a9&hash=875DC36C5751D8AB474F7FE41949B03F" /></p> <p> </p> <p> </p> <p><em><sub><sup>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities</sup></sub></em></p> <p> </p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T013512Z

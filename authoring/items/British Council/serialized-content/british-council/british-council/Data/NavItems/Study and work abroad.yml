@@ -1,0 +1,133 @@
+﻿---
+ID: "a11e1006-0006-4006-8006-000000000001"
+Parent: "019767c3-328f-489c-8b98-79fae9677f26"
+Template: "48dd7ba2-bd00-480b-9c46-21d4df0450c5"
+Path: "/sitecore/content/british-council/british-council/Data/NavItems/Study and work abroad"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "3bdcd809-5d15-4f44-b63c-5fcc824643d7"
+      Hint: Link
+      Value: |
+        <link text="Study and work abroad" linktype="external" url="/study-work-abroad" anchor="" target="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7eb0924e-ec48-4766-a225-210894da708b"
+      Hint: IsActive
+      Value: |
+        ""
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "3bdcd809-5d15-4f44-b63c-5fcc824643d7"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Étudier et travailler à l'étranger" url="/study-work-abroad" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7eb0924e-ec48-4766-a225-210894da708b"
+      Hint: IsActive
+      Value: |
+        ""
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "45ea6f4a-908a-4584-a7e4-166a9ee12592"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084712Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "3bdcd809-5d15-4f44-b63c-5fcc824643d7"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" title="अध्ययन और काम विदेश में" linktype="external" text="अध्ययन और काम विदेश में" url="/study-work-abroad" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7eb0924e-ec48-4766-a225-210894da708b"
+      Hint: IsActive
+      Value: |
+        ""
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aacd28bb-a51c-4b2e-a0c0-3595e62040f9"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093402Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "3bdcd809-5d15-4f44-b63c-5fcc824643d7"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Studeren en werken in het buitenland" url="/study-work-abroad" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7eb0924e-ec48-4766-a225-210894da708b"
+      Hint: IsActive
+      Value: |
+        ""
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b916d5ae-2c6f-4691-a264-7471e0e79633"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084712Z

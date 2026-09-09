@@ -1,0 +1,51 @@
+---
+ID: "7e77599e-9d0a-4d30-99ca-8e466029da70"
+Parent: "47dc7414-2a65-4fda-9485-eb841660d831"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/rai/rai-amsterdam/Presentation/Partial Designs/Cookie"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: cookie
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="45E4183D-7D46-4C64-8FF3-D81CA520E6DC"
+          p:before="*"
+          s:ds="ca0b83e2-39dd-4a51-bfca-400ef2e2a3c3"
+          s:id="{5297E16B-F860-4798-8C92-84A98AC27848}"
+          s:par="CSSStyles&amp;FieldNames=%7B5E727861-0937-4D4F-918B-42EB7F535EEB%7D"
+          s:ph="headless-cookie" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e77599e-9d0a-4d30-99ca-8e466029da70"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

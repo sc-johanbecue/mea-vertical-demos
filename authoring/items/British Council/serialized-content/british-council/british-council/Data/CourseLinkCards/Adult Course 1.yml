@@ -1,0 +1,163 @@
+﻿---
+ID: "a387a65e-4e24-4a6b-a6c8-10bcdf58808b"
+Parent: "c49f9f26-f493-4476-9bd1-8eeadb033a87"
+Template: "48781aa6-4047-487f-b415-c7b488ce58fa"
+Path: "/sitecore/content/british-council/british-council/Data/CourseLinkCards/Adult Course 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: Live online classes with expert teachers.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9e32021-c303-4c9b-bf70-ac4c949a3516"
+    - ID: "b887b4f6-2948-400d-9b5e-3e4ff927ec7f"
+      Hint: AccentColor
+      Value: #23085a
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: British Council English online course
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link text="Find out more" linktype="external" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260729T145919Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: Cours en ligne en direct avec des enseignants experts.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c85f0756-39de-402e-a65a-99f1e17b4daf"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b887b4f6-2948-400d-9b5e-3e4ff927ec7f"
+      Hint: AccentColor
+      Value: #23085a
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: Cours d'anglais en ligne du British Council
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="En savoir plus" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084641Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: विशेषज्ञ शिक्षकों के साथ लाइव ऑनलाइन कक्षाएं।
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27976218-d6d7-45a8-b6fe-0a93a3d6d683"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b887b4f6-2948-400d-9b5e-3e4ff927ec7f"
+      Hint: AccentColor
+      Value: #23085a
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: ब्रिटिश काउंसिल इंग्लिश ऑनलाइन कोर्स
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="और अधिक जानें" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093335Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: Live online lessen met deskundige leerkrachten.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad914fe3-a3fc-4151-a4de-7c01ebc6f93d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b887b4f6-2948-400d-9b5e-3e4ff927ec7f"
+      Hint: AccentColor
+      Value: #23085a
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: British Council Engels online cursus
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Ontdek meer" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084644Z

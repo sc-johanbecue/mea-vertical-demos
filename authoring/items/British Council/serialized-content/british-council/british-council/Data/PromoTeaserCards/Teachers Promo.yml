@@ -1,0 +1,167 @@
+﻿---
+ID: "2004972a-01f2-41eb-b66a-6b77b75966d1"
+Parent: "3a793f06-2e93-4d71-a936-cde32494ff15"
+Template: "5c621097-5532-4081-beee-2df087f71ea8"
+Path: "/sitecore/content/british-council/british-council/Data/PromoTeaserCards/Teachers Promo"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link text="Website for teachers" linktype="external" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: Website for teachers
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3f7858b3-7158-4aba-b4ab-570b9e0472ee"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T083258Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="27defe04-9318-44c7-999e-2a7fca0ed441" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Site web pour enseignants" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: Site web pour enseignants
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c5d03b15-129c-4588-a195-354faff48b79"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084725Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="27defe04-9318-44c7-999e-2a7fca0ed441" alt="imgi_27_20_korea_2012_823" />
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="शिक्षकों के लिए वेबसाइट" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: शिक्षकों के लिए वेबसाइट
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "177c70bf-f7e9-4a9c-b3ad-2d19c72d6c18"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093417Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="27defe04-9318-44c7-999e-2a7fca0ed441" alt="imgi_27_20_korea_2012_823" />
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Website voor leerkrachten" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: Website voor leerkrachten
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "33f23bf4-62a7-4ca3-880e-7b86c4bf3d1f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084727Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="27defe04-9318-44c7-999e-2a7fca0ed441" alt="imgi_27_20_korea_2012_823" />

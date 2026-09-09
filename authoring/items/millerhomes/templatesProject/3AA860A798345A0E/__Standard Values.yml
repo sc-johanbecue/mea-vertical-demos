@@ -1,0 +1,73 @@
+﻿---
+ID: "d40fb30d-48a4-418c-a423-950332d1a446"
+Parent: "2ab1598d-b753-475b-bbdb-5fce67a307db"
+Template: "2ab1598d-b753-475b-bbdb-5fce67a307db"
+Path: "/sitecore/templates/Project/miller-homes/MortgageCalculatorSection/MortgageCalculatorSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ab89ca0-f04a-4e38-bfd8-3ead7bfa689e"
+      Hint: MortgageTabText
+      Value: Mortgage Calculator
+    - ID: "1b91f573-700b-4490-85e3-e67deb61f3c6"
+      Hint: MonthlyPaymentLabel
+      Value: Your monthly mortgage payment
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031811Z
+    - ID: "35cae595-15ba-419f-a6af-3fba153e5a46"
+      Hint: PerWeekText
+      Value: per week
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "590ffa6a-5097-47fb-9dfb-d75b8e3d0c0c"
+      Hint: DepositLabel
+      Value: Deposit
+    - ID: "5be18b39-4b85-4d56-9ac5-c05e8a581a32"
+      Hint: Title
+      Value: "How much will it cost?"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "7a56ecad-f808-4022-b3d2-1042b6eb4c9c"
+      Hint: StampDutyTabText
+      Value: Stamp Duty Calculator
+    - ID: "7d9a863c-7e24-40c6-95a2-1cb14ea70246"
+      Hint: BasedOnMortgageText
+      Value: Based on a mortgage of
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4e7b1ca0-1f99-4398-80b6-f9dd5faccba1"
+    - ID: "93ab0fa1-80ec-4868-aec9-4c2a527827ea"
+      Hint: TitlePart1
+      Value: How much
+    - ID: "a0d68651-1a3f-4a77-b6e1-8b4f78d1db66"
+      Hint: YearsText
+      Value: years
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cb2e8e38-fd59-420a-bfda-fd0f8cdcfdd9"
+      Hint: AffordabilityTabText
+      Value: Price a Mortgage
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T031900Z
+    - ID: "e19a5d99-1dc5-4d14-8ea6-589222cc07c3"
+      Hint: TitlePart2
+      Value: "will it cost?"
+    - ID: "e2c7865c-f0c5-44c8-89be-111e4e2604fe"
+      Hint: TermLabel
+      Value: "Term:"
+    - ID: "ec580262-be00-4c10-8017-bc75cda3b8d7"
+      Hint: PropertyPriceLabel
+      Value: Property Price
+    - ID: "f4a1bfa3-f812-4cd4-8fad-fb2d108087d0"
+      Hint: InterestRateLabel
+      Value: Interest Rate

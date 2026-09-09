@@ -1,0 +1,191 @@
+﻿---
+ID: "a11e1002-0002-4002-8002-000000000002"
+Parent: "de8c9bbb-e3f6-451a-b5d6-2b5b5b0f3f98"
+Template: "d76b94f4-229b-4ef0-95e2-35547ec86c6f"
+Path: "/sitecore/content/british-council/british-council/Data/VerticalTeaserCards/Research Report 3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="fd32c944-b472-42f0-90eb-c68826341785" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link text="Read more" linktype="external" url="/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c40ffa6c-e24b-4ede-aa56-ebf0d3185716"
+    - ID: "8e43b7b8-41fe-4c59-9d96-1b90523c82d3"
+      Hint: Body
+      Value: Part of the British Council’s Future of English research agenda, this new report explores English curriculum reform in three countries in East Asia.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cab5e530-9b85-49ed-a83b-f5989c8f86aa"
+      Hint: Eyebrow
+      Value: Research report
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T133505Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: Curriculum Comparison Part 1
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="fd32c944-b472-42f0-90eb-c68826341785" alt="for_schools" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="En savoir plus" url="/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95fc4d59-4ff2-46c2-a124-e81d6c21050b"
+    - ID: "8e43b7b8-41fe-4c59-9d96-1b90523c82d3"
+      Hint: Body
+      Value: Faisant partie de l’agenda de recherche Future of English du British Council, ce nouveau rapport explore la réforme des programmes d’anglais dans trois pays d’Asie de l’Est.
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cab5e530-9b85-49ed-a83b-f5989c8f86aa"
+      Hint: Eyebrow
+      Value: Rapport de recherche
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084734Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: Comparaison des programmes Partie 1
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="fd32c944-b472-42f0-90eb-c68826341785" alt="for_schools" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="और पढ़ें" url="/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "066daa47-e76e-4d36-96a1-8196c03fa5bf"
+    - ID: "8e43b7b8-41fe-4c59-9d96-1b90523c82d3"
+      Hint: Body
+      Value: ब्रिटिश काउंसिल के फ्यूचर ऑफ इंग्लिश रिसर्च एजेंडा का हिस्सा, यह नई रिपोर्ट पूर्वी एशिया के तीन देशों में अंग्रेजी पाठ्यक्रम सुधार का अन्वेषण करती है।
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cab5e530-9b85-49ed-a83b-f5989c8f86aa"
+      Hint: Eyebrow
+      Value: अनुसंधान रिपोर्ट
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093425Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: पाठ्यक्रम तुलना भाग 1
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="fd32c944-b472-42f0-90eb-c68826341785" alt="voor_scholen" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Lees meer" url="/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e45a82c2-7593-402d-a56d-a98dccaeb972"
+    - ID: "8e43b7b8-41fe-4c59-9d96-1b90523c82d3"
+      Hint: Body
+      Value: "Als onderdeel van de Future of English-onderzoeksagenda van de British Council verkent dit nieuwe rapport hervormingen van het Engelse curriculum in drie landen in Oost-Azië."
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cab5e530-9b85-49ed-a83b-f5989c8f86aa"
+      Hint: Eyebrow
+      Value: Onderzoeksrapport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084734Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: Curriculumvergelijking Deel 1

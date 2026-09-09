@@ -1,0 +1,17 @@
+---
+ID: "c56993c6-fdc0-48f8-b5ed-a251f9e2a2d5"
+Parent: "9301b696-de5e-4019-8834-95681d41c3df"
+Template: "9301b696-de5e-4019-8834-95681d41c3df"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/RichTextSection Templates/RichTextSection/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

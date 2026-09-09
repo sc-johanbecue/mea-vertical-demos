@@ -1,0 +1,23 @@
+---
+ID: "07ae3920-d2c5-4ef9-b21d-b2e91d784dc9"
+Parent: "b258ae14-892b-4037-aa45-df9fe1f6a62e"
+Template: "b258ae14-892b-4037-aa45-df9fe1f6a62e"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/NavItem Templates/NavItem Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {FC58484E-338A-426A-B341-61677134FD75}
+    {B258AE14-892B-4037-AA45-DF9FE1F6A62E}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

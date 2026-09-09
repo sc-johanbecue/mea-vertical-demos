@@ -1,0 +1,17 @@
+---
+ID: "233118c9-f267-4c9d-ba18-5fac4ef4a15e"
+Parent: "f43d609d-342e-47dd-baee-52523d40b0c7"
+Template: "f43d609d-342e-47dd-baee-52523d40b0c7"
+Path: "/sitecore/templates/Project/british-council/PortalCarouselSlide Templates/PortalCarouselSlide/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

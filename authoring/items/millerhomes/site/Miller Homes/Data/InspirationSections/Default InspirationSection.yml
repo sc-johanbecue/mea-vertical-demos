@@ -1,0 +1,34 @@
+﻿---
+ID: "36910994-ba8b-4237-9c06-8e72033e3e56"
+Parent: "c10011ff-fdc9-45b5-aabb-3b8d7fc73064"
+Template: "4c1819fe-711f-4e3c-a5d5-eb14110aacd4"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/InspirationSections/Default InspirationSection"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6929a9d7-8ae5-48c7-a261-02f72f0bfb13"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T010534Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc687146-f2d1-4056-8ced-e006cd68628b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260205T145655Z
+    - ID: "e6e7710c-f134-44bb-b6d4-0f2f6e92b3b7"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Our Inspiration Hub has everything you need to get planning for your new home. From interior design tips and house tours to buyer guides and financial calculators, the Inspiration Hub has all this and more to help you start your new adventure.</p></div>

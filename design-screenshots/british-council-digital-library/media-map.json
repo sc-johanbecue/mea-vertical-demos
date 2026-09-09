@@ -1,0 +1,383 @@
+{
+  "collectionMedia": {
+    "Newspapers": "b9a68be9-5ab9-487f-98aa-3a0ef093262a",
+    "Magazines": "a6171922-18a5-43f0-9d6b-9b192bb884ab",
+    "Audiobooks": "6ef7cca7-9508-415d-8983-04f46bf25432",
+    "Fiction": "a9cb768c-f05c-4b64-8137-671d597ee10f",
+    "Comics": "79cf108b-8968-4e4e-93f8-fc13d3715029",
+    "Movies": "d71a9034-9ad3-4393-aedf-7828ce7950f6"
+  },
+  "bookMediaByKey": {
+    "Newspapers|1": "3b0e296c-9186-43e2-b430-9799da60a511",
+    "Newspapers|2": "1cc6fe60-83b3-45ee-b66b-696b07cab7f9",
+    "Newspapers|3": "aedd8274-55c8-472f-8559-a907b4c960d3",
+    "Newspapers|4": "e2206efb-b083-4d5f-ab62-43220c040b19",
+    "Newspapers|5": "88d17cd8-64d9-4e6b-af8b-ff776d96f248",
+    "Newspapers|6": "d2716afc-ad73-43f3-b6d6-422ffa91e964",
+    "Newspapers|7": "62e1f6cc-efdc-4e09-b1fc-d9795df16ad0",
+    "Newspapers|8": "31a14684-4c07-43ea-8f19-3ffa82a059d7",
+    "Newspapers|9": "3b13d4c9-c77f-42c3-82fa-123ef3f6b37e",
+    "Magazines|0": "c73ced09-8917-4942-8182-2c24dc0b4b9e",
+    "Magazines|1": "b10df570-14ad-41a8-abeb-6fa872ab9458",
+    "Magazines|2": "1a7533e7-6215-4d9f-a990-3b8219fa9402",
+    "Magazines|3": "e5a5e1e5-2b48-472c-93df-45c16242a528",
+    "Magazines|4": "b215e6d4-2dc7-447a-b201-4f687e816117",
+    "Magazines|5": "75771edf-b0b3-4988-b442-d77e1a6756fb",
+    "Magazines|6": "4b53eea7-2f18-49b2-809d-6ae109ca8d2f",
+    "Magazines|8": "a4debfbd-901e-4140-90e2-60c9b5be656e",
+    "Magazines|9": "877e059d-9ce6-41a5-a59b-447ef9396972",
+    "Audiobooks|0": "746d4bd1-6a4c-46db-b352-2ff364fef110",
+    "Audiobooks|1": "0e84223d-fa72-4547-b7f2-57e1bb2ff2e2",
+    "Audiobooks|2": "e78013c8-8f20-496c-8b6c-7e9f11334403",
+    "Audiobooks|3": "2575e976-40d2-4f75-9796-9f262aac0ffc",
+    "Audiobooks|4": "9a92bd95-7bb5-42b7-913d-b93dcc85377b",
+    "Audiobooks|5": "65dbb11b-9ecb-4a96-8100-84f786bd20f5",
+    "Audiobooks|6": "d38a0b3d-5b72-4aa5-b521-bb0812036a00",
+    "Audiobooks|7": "2d9311f7-8bd4-40d0-a5e8-ff60c37a64df",
+    "Audiobooks|8": "f2787588-db4a-49ec-a195-0ac98ed06960",
+    "Audiobooks|9": "60c81a76-586d-40c9-bddd-12e22cde5545",
+    "Fiction|0": "4495957d-30a9-47cf-b0cd-c685ab8e210b",
+    "Fiction|1": "7782f0ca-8c35-44f6-8e2a-3541ea555547",
+    "Fiction|2": "3d0b8f21-e847-44b2-8c30-4f2123206f1e",
+    "Fiction|3": "eb7aafb2-9997-4500-bfed-2e8508a97dd3",
+    "Fiction|4": "9d660a54-1b57-448b-803e-40985239f06e",
+    "Fiction|5": "8754d9c6-33f2-40eb-92fc-1691e9c4f12f",
+    "Fiction|6": "d1f4aa9b-3582-467d-8b83-4726a06bd00d",
+    "Fiction|7": "3152991d-04fa-4ebe-b7b1-025c5f5782a2",
+    "Fiction|8": "53edcf3b-67ab-4169-affe-d4f37918a780",
+    "Fiction|9": "a339fbdb-e800-4de4-ae2c-f17130c586d7",
+    "Comics|0": "ea37bad6-5541-4cf4-8dfe-cea0d0b53acb",
+    "Comics|1": "ceeaf2a1-9fde-4d38-8e77-349912bd3de5",
+    "Comics|2": "dc4426a0-29f5-462f-9a5b-96381d31930c",
+    "Comics|3": "61f160fd-cc38-467d-865f-e25f1893526f",
+    "Comics|4": "38b3079f-3ba5-4fc0-9e1f-a220d575d827",
+    "Comics|5": "ef694647-967b-4d3d-ae2d-f40a3b8e9abb",
+    "Comics|6": "9fb4c85d-85fe-4679-8337-1dee93c6fae3",
+    "Comics|7": "2d488c35-3382-4b9b-abaa-dcc478801a59",
+    "Comics|8": "4065f4fb-ea39-4b91-96c1-e4ace4b5de7a",
+    "Comics|9": "a15190b6-7dce-4595-8329-fbed75389275",
+    "Movies|0": "590fe6d5-8716-45ab-8c93-3f550d795559",
+    "Movies|1": "12f731db-e401-4fe8-a5cd-bb907d5242a2",
+    "Movies|2": "66f6c88d-2f5e-4c60-9fb5-a7bdca7d526f",
+    "Movies|3": "9be8d370-ca63-4933-8d00-5095da365386",
+    "Movies|4": "362064e4-d85f-422b-b0c3-a6dd904975e5",
+    "Movies|5": "3e1e317a-a9aa-4bef-9e4f-9572e245af01",
+    "Movies|6": "24a56e63-5901-4890-bb2a-c25022cea6ad",
+    "Movies|8": "1eea518a-47d2-4c78-b138-148f0f0af22d",
+    "Movies|9": "93326dc5-9201-4ade-b6d6-4968b65a4cbd"
+  },
+  "BOOKS": {
+    "Newspapers": [
+      {
+        "title": "All the President's Men",
+        "isbn": "9781416291570",
+        "author": "Bernstein & Woodward"
+      },
+      {
+        "title": "Manufacturing Consent",
+        "isbn": "9780375714498",
+        "author": "Herman & Chomsky"
+      },
+      {
+        "title": "The Journalist and the Murderer",
+        "isbn": "9780679731832",
+        "author": "Janet Malcolm"
+      },
+      {
+        "title": "Homage to Catalonia",
+        "isbn": "9780156421171",
+        "author": "George Orwell"
+      },
+      {
+        "title": "In Cold Blood",
+        "isbn": "9780679745587",
+        "author": "Truman Capote"
+      },
+      {
+        "title": "The Soft City",
+        "isbn": "9781784700706",
+        "author": "Jonathan Raban"
+      },
+      {
+        "title": "Everybody Loves a Good Drought",
+        "isbn": "9780140259841",
+        "author": "P. Sainath"
+      },
+      {
+        "title": "Bad Blood",
+        "isbn": "9781524731656",
+        "author": "John Carreyrou"
+      },
+      {
+        "title": "Empire of Pain",
+        "isbn": "9780385545686",
+        "author": "Patrick Radden Keefe"
+      },
+      {
+        "title": "Say Nothing",
+        "isbn": "9780385521314",
+        "author": "Patrick Radden Keefe"
+      }
+    ],
+    "Magazines": [
+      {
+        "title": "The Economist Style Guide",
+        "isbn": "9781861970466",
+        "author": "The Economist"
+      },
+      {
+        "title": "On Writing Well",
+        "isbn": "9780060891541",
+        "author": "William Zinsser"
+      },
+      {
+        "title": "Bird by Bird",
+        "isbn": "9780385480017",
+        "author": "Anne Lamott"
+      },
+      {
+        "title": "The Elements of Style",
+        "isbn": "9780205309023",
+        "author": "Strunk & White"
+      },
+      {
+        "title": "Thinking, Fast and Slow",
+        "isbn": "9780374533557",
+        "author": "Daniel Kahneman"
+      },
+      {
+        "title": "Sapiens",
+        "isbn": "9780062316097",
+        "author": "Yuval Noah Harari"
+      },
+      {
+        "title": "Factfulness",
+        "isbn": "9781250107817",
+        "author": "Hans Rosling"
+      },
+      {
+        "title": "The Tipping Point",
+        "isbn": "9780316346625",
+        "author": "Malcolm Gladwell"
+      },
+      {
+        "title": "Outliers",
+        "isbn": "9780316017930",
+        "author": "Malcolm Gladwell"
+      },
+      {
+        "title": "Freakonomics",
+        "isbn": "9780060731335",
+        "author": "Levitt & Dubner"
+      }
+    ],
+    "Audiobooks": [
+      {
+        "title": "Becoming",
+        "isbn": "9781524763138",
+        "author": "Michelle Obama"
+      },
+      {
+        "title": "Educated",
+        "isbn": "9780399590504",
+        "author": "Tara Westover"
+      },
+      {
+        "title": "Born a Crime",
+        "isbn": "9780399588198",
+        "author": "Trevor Noah"
+      },
+      {
+        "title": "Atomic Habits",
+        "isbn": "9780735211292",
+        "author": "James Clear"
+      },
+      {
+        "title": "The Power of Habit",
+        "isbn": "9780812981605",
+        "author": "Charles Duhigg"
+      },
+      {
+        "title": "Quiet",
+        "isbn": "9780307352156",
+        "author": "Susan Cain"
+      },
+      {
+        "title": "Grit",
+        "isbn": "9781501111105",
+        "author": "Angela Duckworth"
+      },
+      {
+        "title": "Daring Greatly",
+        "isbn": "9781592408412",
+        "author": "Brené Brown"
+      },
+      {
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "isbn": "9780062457714",
+        "author": "Mark Manson"
+      },
+      {
+        "title": "Maybe You Should Talk to Someone",
+        "isbn": "9781328662057",
+        "author": "Lori Gottlieb"
+      }
+    ],
+    "Fiction": [
+      {
+        "title": "Pride and Prejudice",
+        "isbn": "9780141439518",
+        "author": "Jane Austen"
+      },
+      {
+        "title": "1984",
+        "isbn": "9780451524935",
+        "author": "George Orwell"
+      },
+      {
+        "title": "To Kill a Mockingbird",
+        "isbn": "9780061120084",
+        "author": "Harper Lee"
+      },
+      {
+        "title": "The Great Gatsby",
+        "isbn": "9780743273565",
+        "author": "F. Scott Fitzgerald"
+      },
+      {
+        "title": "Jane Eyre",
+        "isbn": "9780141441146",
+        "author": "Charlotte Brontë"
+      },
+      {
+        "title": "Wuthering Heights",
+        "isbn": "9780141439556",
+        "author": "Emily Brontë"
+      },
+      {
+        "title": "Brave New World",
+        "isbn": "9780060850524",
+        "author": "Aldous Huxley"
+      },
+      {
+        "title": "Animal Farm",
+        "isbn": "9780451526342",
+        "author": "George Orwell"
+      },
+      {
+        "title": "Frankenstein",
+        "isbn": "9780486282114",
+        "author": "Mary Shelley"
+      },
+      {
+        "title": "Dracula",
+        "isbn": "9780486411095",
+        "author": "Bram Stoker"
+      }
+    ],
+    "Comics": [
+      {
+        "title": "Watchmen",
+        "isbn": "9780930289232",
+        "author": "Alan Moore"
+      },
+      {
+        "title": "V for Vendetta",
+        "isbn": "9781401208417",
+        "author": "Alan Moore"
+      },
+      {
+        "title": "Maus I",
+        "isbn": "9780394747231",
+        "author": "Art Spiegelman"
+      },
+      {
+        "title": "Persepolis",
+        "isbn": "9780375714573",
+        "author": "Marjane Satrapi"
+      },
+      {
+        "title": "Sandman Vol. 1",
+        "isbn": "9781401225759",
+        "author": "Neil Gaiman"
+      },
+      {
+        "title": "Saga Vol. 1",
+        "isbn": "9781607066019",
+        "author": "Vaughn & Staples"
+      },
+      {
+        "title": "Bone: Out from Boneville",
+        "isbn": "9780439706407",
+        "author": "Jeff Smith"
+      },
+      {
+        "title": "Understanding Comics",
+        "isbn": "9780060976255",
+        "author": "Scott McCloud"
+      },
+      {
+        "title": "Blankets",
+        "isbn": "9781891830433",
+        "author": "Craig Thompson"
+      },
+      {
+        "title": "Fun Home",
+        "isbn": "9780618871711",
+        "author": "Alison Bechdel"
+      }
+    ],
+    "Movies": [
+      {
+        "title": "Adventures in the Screen Trade",
+        "isbn": "9780446391177",
+        "author": "William Goldman"
+      },
+      {
+        "title": "Story",
+        "isbn": "9780060391683",
+        "author": "Robert McKee"
+      },
+      {
+        "title": "Save the Cat!",
+        "isbn": "9781932907001",
+        "author": "Blake Snyder"
+      },
+      {
+        "title": "Making Movies",
+        "isbn": "9780679756606",
+        "author": "Sidney Lumet"
+      },
+      {
+        "title": "Rebel Without a Crew",
+        "isbn": "9780571193783",
+        "author": "Robert Rodriguez"
+      },
+      {
+        "title": "In the Blink of an Eye",
+        "isbn": "9781879505629",
+        "author": "Walter Murch"
+      },
+      {
+        "title": "The Filmmaker's Handbook",
+        "isbn": "9780452297289",
+        "author": "Ascher & Pincus"
+      },
+      {
+        "title": "Directing: Film Techniques and Aesthetics",
+        "isbn": "9780240818450",
+        "author": "Michael Rabiger"
+      },
+      {
+        "title": "The Visual Story",
+        "isbn": "9780240807799",
+        "author": "Bruce Block"
+      },
+      {
+        "title": "Cinematic Storytelling",
+        "isbn": "9781932907056",
+        "author": "Jennifer Van Sijll"
+      }
+    ]
+  }
+}

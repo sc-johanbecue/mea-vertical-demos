@@ -1,0 +1,51 @@
+﻿---
+ID: "12711ced-0dbd-4f0e-b032-675369b85196"
+Parent: "94ac09f4-48d1-45be-a5ca-c9aa32414549"
+Template: "a5344580-5b34-4dd7-bfa0-1f3fd3716297"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/ChoiceCards/Default ChoiceCard_var2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "2229c3a3-96e5-41de-9d5e-7f9cb913303b"
+      Hint: CTAText
+      Value: I want to find my new home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T004305Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "587855ae-1538-462a-bd73-a7ec2c728fbd"
+      Hint: Heading
+      Value: " Looking for a  new home? "
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0cf5a614-21e0-4c79-9e2d-28abbd42e2c2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "bb83fe50-c14f-485c-bff7-bb1c262fb2ae"
+      Hint: Image
+      Value: |
+        <image mediaid="ef3c419e-ed04-463a-b1bd-516055a1f606" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260205T123241Z
+    - ID: "dab4623e-fe4b-43e7-85e2-717aee86894d"
+      Hint: Description
+      Value:  Buying a new home is an exciting adventure and we are here to offer you all the support you need. Start searching for your new home today. 
+    - ID: "ed61057a-05c5-4827-8b20-30cd2a0dfe5b"
+      Hint: CTALink
+      Value: |
+        <link linktype="internal" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" anchor="" querystring="utm_campaign=newHome" target="_blank" class="" text="" title=""/>

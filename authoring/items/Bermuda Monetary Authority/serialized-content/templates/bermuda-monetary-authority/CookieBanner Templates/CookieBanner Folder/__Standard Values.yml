@@ -1,0 +1,23 @@
+---
+ID: "cbbda2a3-e333-4615-8101-41c1add90af8"
+Parent: "facaf4a9-1159-4523-b69e-ef2622a32129"
+Template: "facaf4a9-1159-4523-b69e-ef2622a32129"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/CookieBanner Templates/CookieBanner Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {56B1D309-1FEB-4C8D-998F-2B617FB69B72}
+    {FACAF4A9-1159-4523-B69E-EF2622A32129}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

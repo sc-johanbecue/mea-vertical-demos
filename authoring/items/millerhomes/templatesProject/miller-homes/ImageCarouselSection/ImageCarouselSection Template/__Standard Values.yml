@@ -1,0 +1,49 @@
+﻿---
+ID: "39e4fcf5-952f-4157-a814-87dac2520e6c"
+Parent: "da3a8b1a-d5c2-4202-a06e-9172d6a5f75f"
+Template: "da3a8b1a-d5c2-4202-a06e-9172d6a5f75f"
+Path: "/sitecore/templates/Project/miller-homes/ImageCarouselSection/ImageCarouselSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0fb5c4-1b1b-4f6a-94c9-736b444bd2ab"
+      Hint: Description
+      Value: <p>Take a closer look at our beautiful development and discover what makes it special.</p>
+    - ID: "1b76e44c-c34e-4df2-9f37-56377f20567c"
+      Hint: Title
+      Value: Bramcote Hills Rise
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T000604Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "569ab811-aa27-44ef-81e1-90c400dc759c"
+      Hint: GoToSlideLabel
+      Value: Go to slide
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "7e2c0428-d974-4a0b-bec9-c1ef88926b64"
+      Hint: PreviousSlideLabel
+      Value: Previous slide
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a56c178-c87c-4a10-bcbf-2e6d9965b22b"
+    - ID: "ae1797a7-0dc4-43d5-a4e5-3ece5fe22c1b"
+      Hint: TitlePrefix
+      Value: Explore
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c3ab4646-283e-4cb2-beee-a4aa0491d62a"
+      Hint: NextSlideLabel
+      Value: Next slide
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T000653Z

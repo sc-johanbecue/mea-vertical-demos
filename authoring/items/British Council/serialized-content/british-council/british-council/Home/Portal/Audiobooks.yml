@@ -1,0 +1,351 @@
+﻿---
+ID: "1068e96b-e8a3-4257-ae0a-1feb423195fc"
+Parent: "7cb976a4-3312-4cce-b769-d5fb7003ae00"
+Template: "51898b93-09df-4ad7-9ef8-9497898eb98c"
+Path: "/sitecore/content/british-council/british-council/Home/Portal/Audiobooks"
+SharedFields:
+- ID: "0257e7f4-ca18-4237-86f2-4c8fde3ba474"
+  Hint: Roles
+  Value: "{1CA6B531-B095-4897-AAB8-E268E8FF15B0}"
+- ID: "3a78f749-3ca7-42fd-9d73-0e35ab5c289f"
+  Hint: Entitlements
+  Value: "{41D5F52D-BB50-4A51-B45C-57626062986C}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FE77F76A-921B-4A03-A9BF-777D4FCCA784}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f989faf4-d413-4a72-8caa-24536f31bc87"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{67D009A7-DFF5-45AE-8D26-188B6F7348C2}"
+          p:before="*"
+          s:id="{D40394F5-2102-4703-A7BD-6D2F6E71F824}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{265F2F79-6A38-4B51-A8A9-2C646AF73DA7}"
+          p:before="*"
+          s:ds="15dda3ee-7e6e-4529-b6d9-4ec74f999056"
+          s:id="{00061435-9527-4541-B3AA-B701ABE8C4B6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/portal-sidebar-1" />
+        <r
+          uid="{A50C06E6-A0E7-4910-B3A4-8D1AEEB8D9A6}"
+          p:before="*"
+          s:ds="9e5e3053-9338-4f1c-840f-d587d3133f61"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=11"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{CCF4DF75-ECC8-4826-9C10-1AFE305FC69B}"
+          p:before="*"
+          s:ds="0b7f608b-3171-4b17-9845-8b205aa57c23"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=12"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{1A04A0FF-DDDB-40F5-B82E-3B6978E6F9CF}"
+          p:before="*"
+          s:ds="123b7a80-81ec-4a97-bb4b-e2c3ba5e15d3"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=13"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{F4D33FA7-5DB7-4213-9EC4-CDA729B7F892}"
+          p:before="*"
+          s:ds="8d2fd3b0-e54a-426b-bded-57dcb9cca333"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=20"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{EE167F8C-A901-4A63-A0F0-75D2BAA77C4A}"
+          p:before="*"
+          s:ds="a1c6999b-1df2-4293-99b9-589e4823ea44"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=21"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{B62F34B0-5EF6-4A5E-84BE-6CBF87FEB7FF}"
+          p:before="*"
+          s:ds="ac9b6546-0126-46e2-8c41-31608e819cef"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=22"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{AE4319D6-262A-49AB-A54B-CC01E4D1D88A}"
+          p:before="*"
+          s:ds="67bf7ae6-71aa-4fd5-9d5f-99a22821258f"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=23"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{2B4F4482-D411-4797-ADF1-8914FC00971F}"
+          p:before="*"
+          s:ds="d20f0873-d7e9-4c2c-986c-1a1360acfbb9"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=24"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{EB99E686-4810-491F-BC44-E9518A969FC8}"
+          p:before="*"
+          s:ds="766e1a78-ab3e-4d0f-a909-c1346893de67"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=25"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{94B8A82C-0593-44A9-9BE3-99ABBF55E850}"
+          p:before="*"
+          s:ds="e43a99dc-339d-4c7d-8af4-6b86f144c319"
+          s:id="{EE87D5C6-4BEE-449A-A066-F9E776839097}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/portal-main-1" />
+        <r
+          uid="{28883C86-53D8-4496-8AF0-818B5FCDEB8C}"
+          p:before="*"
+          s:ds="acfbbe8d-9905-4ffb-867a-f7815c93f0e9"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=40"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{62AC852D-D681-4EBF-BD31-3712348269E0}"
+          p:before="*"
+          s:ds="fd85bedb-e473-4693-b706-47fd4c9a4d76"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=41"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{FEF0E728-1EC5-40E7-9AD0-480F5BB106E2}"
+          p:before="*"
+          s:ds="8b1b16a2-3f35-4716-9e79-6adcdd026ef0"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=42"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{E4E90BF3-5252-409E-80CE-2B3559811721}"
+          p:before="*"
+          s:ds="602e94f4-e7f0-4710-980d-8781c27bd6b5"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=43"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{B5BB4EDE-AC77-4634-B9E5-5980E8E2649E}"
+          p:before="*"
+          s:ds="42d64006-08a7-4d50-bc4c-749960b69112"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=44"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{558ECB9C-4906-4C3E-917E-5AB3DC9D93D7}"
+          p:before="*"
+          s:ds="5124b200-205c-4203-afff-d141b8d95199"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=45"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{9071E620-B53B-4AC5-8113-A73A2FCA921A}"
+          p:before="*"
+          s:ds="bfa3239d-9906-4419-a1ad-d5096745c94c"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=46"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{B48858BB-CB97-48CA-A444-37042A7A5794}"
+          p:before="*"
+          s:ds="0e7d4116-ad44-4051-bc08-ac603bf52338"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=47"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{461D1770-5592-42A1-A4DC-0449BCDA233C}"
+          p:before="*"
+          s:ds="28abe016-3861-45c1-a747-a8d007b3e8ec"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=48"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{184B0F81-C141-43BF-A4FD-E27876C23E2E}"
+          p:before="*"
+          s:ds="5c6cba90-ad6a-4b02-8f54-c4866ec0236e"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=49"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Audiobooks
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="6ef7cca7-9508-415d-8983-04f46bf25432" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8522ce98-6d89-4159-98ae-635d77c40c83"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iN91ppG30dXsZmWmMO9pqN6O0T2jMHFV
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Audiobooks
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260804T100647Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Audiobooks
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Livres audio
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="6ef7cca7-9508-415d-8983-04f46bf25432" alt="Casque pour écouter" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5064c895-ad7f-4e6e-99ff-9ae8d83af75b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Livres audio
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084524Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Livres audio
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: ऑडियोबुक्स
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="6ef7cca7-9508-415d-8983-04f46bf25432" alt="सुनने के लिए हेडफ़ोन" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "586685b0-1868-47f0-9216-c20d0b64c04c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: ऑडियोबुक्स
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093307Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: ऑडियोबुक्स
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Luisterboeken
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="6ef7cca7-9508-415d-8983-04f46bf25432" alt="Koptelefoons om naar te luisteren" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "178243c3-ed5f-427e-a645-90fb898f82b9"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Luisterboeken
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084526Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Luisterboeken

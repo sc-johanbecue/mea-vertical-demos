@@ -1,0 +1,69 @@
+---
+description: Self-contained layout rules for Sitecore Placeholder + child renderings (section flex-wrap + card widths)
+globs:
+  - "**/bupa/src/components/bupa/**/*.tsx"
+alwaysApply: false
+---
+
+# Section + Placeholder + child cards (portable checklist)
+
+Use this whenever a **section** component renders a Sitecore **`Placeholder`** (or equivalent) for **child renderings** (cards, tiles, etc.), especially with **Next.js** + **`@sitecore-content-sdk/nextjs`**.
+
+**After copying this file to another repo:** update the `globs` in the frontmatter so they match your app’s paths (for example `src/components/**/*.tsx` or `apps/web/**/*.tsx`). The rules below do not depend on any specific file names in this repository.
+
+---
+
+## Why `flex` + `flex-wrap` on the section (not CSS Grid on the placeholder)
+
+- The SDK **`Placeholder`** injects its own wrapper nodes around child renderings. Those wrappers are usually **not** valid CSS Grid **items** in the same way as your own `div`s.
+- Wrapping **`Placeholder`** in **`display: flex; flex-wrap: wrap`** keeps layout predictable: each resolved child becomes a **flex item**; wrapping and gaps behave consistently without `display: contents` workarounds on internal markup you do not control.
+- Prefer this pattern **by default** for “band of cards” sections. Only use Grid + placeholder hacks if you document an explicit exception.
+
+---
+
+## 1) Section component: wrapper around `Placeholder`
+
+Wrap **only** the placeholder in a container **div** (sibling to titles, CTAs, etc. as needed):
+
+- **Required classes (Tailwind-style):** `flex flex-wrap` plus a **horizontal gap** between children (e.g. `gap-6` and optionally `lg:gap-8` if the design tightens on small screens and widens on large).
+- **Structure:**
+
+```tsx
+<div className="… flex flex-wrap gap-6 lg:gap-8">
+  <Placeholder name={placeholderName} rendering={rendering} />
+</div>
+```
+
+- **`placeholderName`** must match your dynamic key, e.g. `` `cards-${DynamicPlaceholderId}` `` if you use Experience Accelerator–style dynamic placeholders.
+
+---
+
+## 2) Child “card” components: width so three fit per row
+
+Children dropped into that placeholder should define **width at the root DOM node** of the card component (the same node that gets `key={…}` from the rendering), not only on an inner `<article>`.
+
+**Three columns from the `md` breakpoint upward** (adjust breakpoint name if your design system differs):
+
+- **Recommended root classes on the card wrapper:**
+
+  `flex flex-col h-full min-h-0 w-full min-w-0 shrink-0 md:w-[calc((100%-VAR)/3)]`
+
+- **`VAR` must match the section’s flex gap** (same unit as `gap-*`):
+  - Three columns ⇒ **two gutters** between them ⇒ `VAR = 2 × (gap in one dimension)`.
+  - Examples (Tailwind `gap-*` uses **rem** in the default theme):
+    - Section uses **`gap-8`** (2rem) ⇒ two gutters = **4rem** ⇒ `md:w-[calc((100%-4rem)/3)]`.
+    - Section uses **`gap-6`** (1.5rem) everywhere ⇒ **3rem** ⇒ `md:w-[calc((100%-3rem)/3)]`.
+  - If the section uses **responsive gap** (e.g. `gap-6 lg:gap-8`), either:
+    - align the card with **`md:`** to the gap used from `md` up (often `gap-6` ⇒ `3rem`), and add **`lg:w-[calc((100%-4rem)/3)]`** when `lg:gap-8` applies, **or**
+    - keep a single conservative calc that matches the **largest** gap you use in that row (may leave slightly extra space at smaller gaps).
+
+**Equal row heights:** keep **`h-full min-h-0`** on the card root and on flex children that should shrink inside the column; use **`flex flex-col`** on the card root (or inner shell) so content stacks vertically and **`mt-auto`** (or similar) can pin a footer link to the bottom when needed.
+
+---
+
+## 3) Quick verification
+
+- [ ] Section: **`flex flex-wrap`** + gap on the **direct parent** of **`Placeholder`**.
+- [ ] Card: **`w-full`** below `md`, **`md:w-[calc((100%-VAR)/3)]`** (and optional `lg:` override) with **`VAR = 2 × row-gap`** for a 3-column row.
+- [ ] Card: **`min-w-0 shrink-0`** to avoid overflow / flex bugs in narrow columns.
+- [ ] No reliance on **`display: contents`** on Placeholder internals unless explicitly justified.

@@ -1,0 +1,53 @@
+---
+ID: "7b24d70d-0144-4ccf-b6f0-a1531b1d6b0e"
+Parent: "f17b481f-8ad1-4b37-b334-ebb738168072"
+Template: "82604605-7d25-4147-bd78-e63f9aa2d10f"
+Path: "/sitecore/content/rai/rai-amsterdam/Data/EventDetailHeroSections/HLTH 2026 Hero"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "5607b99c-9ff5-431f-85b2-2e461f63c8ff"
+      Hint: Title
+      Value: HLTH Europe 2026
+    - ID: "4df04ef6-33cf-4664-aed4-f6b83b5e80da"
+      Hint: DateRange
+      Value: 15 - 18 June 2026
+    - ID: "e09fc5b7-0c5b-4eb5-94b5-3b3f295862ce"
+      Hint: Description
+      Value: |
+        <p>HLTH Europe is where global expertise meets local insight to address Europe's unique healthcare challenges and opportunities. From digital health breakthroughs to policy innovations, HLTH Europe offers an immersive experience shaping the future of European healthcare. Join us at the epicentre of transformation, where healthcare providers, policymakers, and pioneers unite to create a healthier Europe for all.<br></p>
+    - ID: "8a436096-4fac-40aa-8f48-08ba4cb30381"
+      Hint: PrimaryCta
+      Value: |
+        <link text="Buy your tickets" linktype="external" url="https://hlth.com/events/europe/register/" anchor="" />
+    - ID: "9fb6adbf-d43c-466a-80bf-ecce0a7b3dbd"
+      Hint: SecondaryCta
+      Value: |
+        <link text="Hotel Services" linktype="external" url="https://hotelmap.com/MA67N" anchor="" />
+    - ID: "47918269-36fa-49db-aa63-7909a6ed4aaa"
+      Hint: Image
+      Value: |
+        <image mediaid="7345B3A7-EE6F-4C36-9261-5E10544FB240" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f036280-eabc-4f4a-8e1e-696fb5dd663f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

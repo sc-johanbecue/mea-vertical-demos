@@ -1,0 +1,48 @@
+﻿---
+ID: "a1bd5f09-a60e-4bb9-9ca2-7675e9f1dd7e"
+Parent: "0d83f085-da25-4255-921c-2253712a4fe4"
+Template: "31b96108-eeee-43e2-bd72-6069e1e33296"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/NearbyDevelopmentCards/Bridgewood Green"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "00c39652-e7ca-4b7e-a77b-3cc9c4644606"
+      Hint: Description
+      Value: <p>Conveniently close to the A58, sheltered by the mature trees lining the banks of Collingham Beck, this selection of energy efficient two, three, four and five bedroom homes at Bridgewood Green combines its strategic location with a secluded, peaceful ambience. Ten minutes' walk from the village shops of Collingham, just two miles from Wetherby and within half an hour's drive of Leeds, it brings an attractive new neighbourhood into a welcoming, lively community.</p>
+    - ID: "18799fd4-2872-4939-a836-9d24ed350568"
+      Hint: Name
+      Value: Bridgewood Green
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T144746Z
+    - ID: "39558fb7-42a1-40a3-a1f6-9b0b2f4e5b96"
+      Hint: PriceMin
+      Value: £499,995
+    - ID: "66fc2a02-021e-45dc-bf01-5de16b80b020"
+      Hint: Location
+      Value: Collingham, LS22 5AA
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0986519b-2380-48da-854e-94e3c027e3df"
+    - ID: "a4d3696d-1fc1-410c-a9a7-b22a581ca05c"
+      Hint: PriceMax
+      Value: £839,995
+    - ID: "ab020c47-b341-4bc5-8e6d-17d48fb4667e"
+      Hint: Image
+      Value: |
+        <image mediaid="cf425c33-66d9-4138-99c9-74fb0608202d" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T150845Z
+    - ID: "e4006d27-e7c5-418c-b4e2-db642d52f1cd"
+      Hint: CTAText
+      Value: Discover Bridgewood Green

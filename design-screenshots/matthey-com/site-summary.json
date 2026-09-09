@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-19T13:28:15.756Z",
+  "project": "matthey-com",
+  "urls": [
+    "https://matthey.com/",
+    "https://matthey.com/products-and-markets/chemicals/methanol",
+    "https://matthey.com/science-and-innovation"
+  ],
+  "sections": {
+    "site": [
+      "CookieBanner",
+      "Footer",
+      "Header"
+    ],
+    "content": [
+      "CollaborativeInnovationForTheRichTextImageBlock",
+      "CoreTechnicalCapabilitiesUnderpinningTeaserGrid",
+      "EventDetailHeroSection",
+      "ExploreMoreTeaserGrid",
+      "FaqSection",
+      "GetInTouchCtaBlock",
+      "HighPerformanceMethanolCatalystsLinkGrid",
+      "MethanolEventDetailHeroSection",
+      "ReadMoreLinkGrid",
+      "RichTextImageBlock",
+      "ThePotentialOfMethanolLinkGrid",
+      "UnlockThePossibilitiesWithRichTextSection"
+    ]
+  },
+  "fonts": [
+    {
+      "family": "JMSansRegular",
+      "weight": 161,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansRegular.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansRegular.woff",
+        "https://media-s3-us-east-1.ceros.com/gardet/fonts/2022/02/14/a39f9411-3271-438f-a384-dd7c9fd21bdb/jmsans-regular.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansRegular.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSans-Regular.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansRegular.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansRegular.svg#JMSansRegular"
+      ]
+    },
+    {
+      "family": "JMSansMedium",
+      "weight": 97,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansMedium.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansMedium.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansMedium.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSans-Medium.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansMedium.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansMedium.svg#JMSansMedium"
+      ]
+    },
+    {
+      "family": "JMSansBlack",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBlack.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBlack.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBlack.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSans-Black.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBlack.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBlack.svg#JMSansBlack"
+      ]
+    },
+    {
+      "family": "JMSansBlackItalic",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBlackItalic.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBlackItalic.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBlackItalic.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSans-BlackItalic.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBlackItalic.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBlackItalic.svg#JMSansBlackItalic"
+      ]
+    },
+    {
+      "family": "JMSansBold",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBold.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBold.woff",
+        "https://media-s3-us-east-1.ceros.com/gardet/fonts/2022/02/14/72b2831e-e5bb-4a53-ba91-9124383a555c/jmsans-bold.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBold.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSans-Bold.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBold.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBold.svg#JMSansBold"
+      ]
+    },
+    {
+      "family": "JMSansBoldItalic",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBoldItalic.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBoldItalic.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBoldItalic.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSans-BoldItalic.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBoldItalic.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansBoldItalic.svg#JMSansBoldItalic"
+      ]
+    },
+    {
+      "family": "JMSansItalic",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansItalic.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansItalic.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansItalic.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSans-Italic.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansItalic.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansItalic.svg#JMSansItalic"
+      ]
+    },
+    {
+      "family": "JMSansLight",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansLight.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansLight.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansLight.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSans-Light.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansLight.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansLight.svg#JMSansLight"
+      ]
+    },
+    {
+      "family": "JMSansLightItalic",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansLightItalic.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansLightItalic.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansLightItalic.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSans-LightItalic.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansLightItalic.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansLightItalic.svg#JMSansLightItalic"
+      ]
+    },
+    {
+      "family": "JMSansMediumItalic",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansMediumItalic.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansMediumItalic.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansMediumItalic.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSans-MediumItalic.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansMediumItalic.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansMediumItalic.svg#JMSansMediumItalic"
+      ]
+    },
+    {
+      "family": "JMSansExtBlack",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBlack.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBlack.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBlack.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBlack.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBlack.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBlack.svg#JMSansExtBlack"
+      ]
+    },
+    {
+      "family": "JMSansExtBold",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBold.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBold.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBold.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBold.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBold.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtBold.svg#JMSansExtBold"
+      ]
+    },
+    {
+      "family": "JMSansExtLight",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtLight.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtLight.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtLight.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtLight.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtLight.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtLight.svg#JMSansExtLight"
+      ]
+    },
+    {
+      "family": "JMSansExtMedium",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtMedium.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtMedium.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtMedium.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtMedium.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtMedium.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtMedium.svg#JMSansExtMedium"
+      ]
+    },
+    {
+      "family": "JMSansExtRegular",
+      "weight": 9,
+      "sources": [
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtRegular.woff2",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtRegular.woff",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtRegular.ttf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtRegular.otf",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtRegular.eot",
+        "https://matthey.com/o/jm-platinum-theme/fonts/JMSansExtRegular.svg#JMSansExtRegular"
+      ]
+    }
+  ],
+  "colors": {
+    "primary": {
+      "hex": [
+        "#007bff",
+        "#1e22aa"
+      ],
+      "gradients": []
+    },
+    "secondary": {
+      "hex": [
+        "#6c757d"
+      ],
+      "gradients": []
+    },
+    "accent": {
+      "hex": [],
+      "gradients": []
+    },
+    "neutrals": {
+      "hex": [
+        "#212529",
+        "#333333",
+        "#384047",
+        "#ffffff"
+      ],
+      "gradients": []
+    },
+    "semantic": {
+      "success": "#28a745",
+      "error": "#dc3545",
+      "warning": "#fd7e14",
+      "info": "#17a2b8"
+    }
+  },
+  "stylesheets": [
+    "3-main.css",
+    "5-main.css",
+    "clay.css",
+    "combo.css",
+    "main.css",
+    "owl.carousel.min.css",
+    "owl.theme.default.min.css"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "fields": [
+    {
+      "name": "Title",
+      "title": "Title",
+      "type": "Single-Line Text",
+      "sort": 100
+    },
+    {
+      "name": "Intro",
+      "title": "Intro",
+      "type": "Multi-Line Text",
+      "sort": 200
+    },
+    {
+      "name": "ExploreLink",
+      "title": "ExploreLink",
+      "type": "General Link",
+      "sort": 300
+    },
+    {
+      "name": "FeaturedEyebrow",
+      "title": "FeaturedEyebrow",
+      "type": "Single-Line Text",
+      "sort": 400
+    },
+    {
+      "name": "FeaturedTitle",
+      "title": "FeaturedTitle",
+      "type": "Single-Line Text",
+      "sort": 500
+    },
+    {
+      "name": "FeaturedBody",
+      "title": "FeaturedBody",
+      "type": "Multi-Line Text",
+      "sort": 600
+    },
+    {
+      "name": "FeaturedLink",
+      "title": "FeaturedLink",
+      "type": "General Link",
+      "sort": 700
+    },
+    {
+      "name": "FeaturedImage",
+      "title": "FeaturedImage",
+      "type": "Image",
+      "sort": 800
+    }
+  ]
+}

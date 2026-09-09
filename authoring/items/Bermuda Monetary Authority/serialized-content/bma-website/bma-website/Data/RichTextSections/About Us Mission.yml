@@ -1,0 +1,40 @@
+---
+ID: "ed809d3c-d79c-4850-857f-beb91d78187d"
+Parent: "a91f301c-c071-48a3-88be-e501c23c373c"
+Template: "9301b696-de5e-4019-8834-95681d41c3df"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/RichTextSections/About Us Mission"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "9ddf3249-06f8-4e90-8ff6-ed2cf084e553"
+      Hint: Body
+      Value: |
+        <p>The Bermuda Monetary Authority (Authority or BMA) regulates Bermuda's financial services sector.</p>
+        <p>The Authority was established by statute in 1969. Its role has evolved over the years to meet changing needs in the financial services sector. Today it supervises, regulates and inspects financial institutions operating in the jurisdiction. It also issues Bermuda's national currency, manages exchange control transactions, assists other authorities with the detection and prevention of financial crime, and advises Government on banking and other financial and monetary matters.</p>
+        <p>The Authority develops risk-based financial regulations that it applies to the supervision of Bermuda's banks, trust companies, investment businesses, investment funds, fund administrators, digital asset businesses, money service businesses, corporate service providers and insurance companies. It also regulates the Bermuda Stock Exchange and Bermuda Credit Union.</p>
+        <h4>MISSION STATEMENT</h4>
+        <p>We contribute to Bermuda's financial stability, protect customers of financial services and protect Bermuda's currency through:</p>
+        <ul>
+        <li>Maintaining effective and proactive regulatory frameworks through our highly skilled and engaged workforce,</li>
+        <li>Delivering efficient operations and sustainable business practices, and</li>
+        <li>Supporting responsible innovation locally and in global markets</li>
+        </ul>
+        <h4>OUR VISION</h4>
+        <p>A globally respected and trusted financial services regulator enabling solutions for customer needs.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed809d3c-d79c-4850-857f-beb91d78187d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260902T110000Z"

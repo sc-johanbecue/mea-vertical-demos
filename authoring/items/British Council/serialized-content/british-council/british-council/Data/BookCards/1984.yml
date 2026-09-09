@@ -1,0 +1,145 @@
+﻿---
+ID: "bcaf5ebe-470e-4f57-8395-d3f70792bb24"
+Parent: "2eda842d-4c32-40d4-8df0-24e3ad1a3b02"
+Template: "780d8d31-4274-4a98-98d6-1b94a9102a1b"
+Path: "/sitecore/content/british-council/british-council/Data/BookCards/1984"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="7782f0ca-8c35-44f6-8e2a-3541ea555547" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: 1984
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link text="1984" linktype="external" url="/portal/fiction" anchor="" target="" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0583cdd0-e657-4d99-9198-b8545bf1d872"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="7782f0ca-8c35-44f6-8e2a-3541ea555547" alt="1984 par George Orwell" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: 1984
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link text="1984" linktype="external" url="/portal/fiction" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084623Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5186a24d-96a7-45f7-a999-fb3ba8678830"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="7782f0ca-8c35-44f6-8e2a-3541ea555547" alt="1984 बाय जॉर्ज ऑरवेल" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: 1984
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link text="1984" linktype="external" url="/portal/fiction" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093325Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c7f295bc-0930-4a26-b20d-51e09d0da187"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="7782f0ca-8c35-44f6-8e2a-3541ea555547" alt="1984 door George Orwell" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: 1984
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link text="1984" linktype="external" url="/portal/fiction" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084625Z

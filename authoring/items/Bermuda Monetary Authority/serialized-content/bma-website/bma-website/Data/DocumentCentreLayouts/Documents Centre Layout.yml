@@ -1,0 +1,59 @@
+---
+ID: "1d86a8a4-fe98-4dfd-8538-9c3cd7c23981"
+Parent: "311a1a37-fa1a-4f95-865b-26d188f754c0"
+Template: "ced671c7-ac33-42e8-8ede-ef1e66af78ef"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/DocumentCentreLayouts/Documents Centre Layout"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "9eb923c5-4742-457c-8d08-17e3188907b8"
+      Hint: SidebarTitle
+      Value: "Filter documents"
+    - ID: "92707e8b-b367-4cba-85d1-f37e522b96a4"
+      Hint: ResultsHeading
+      Value: "Discussion & Consultation Papers"
+    - ID: "1876bd58-6c59-4137-84c1-c790d17f56f5"
+      Hint: ResultsIntro
+      Value: "Browse open and closed consultation papers."
+    - ID: "ae863d06-60c1-46aa-961f-49f47c348f12"
+      Hint: ResultsCountLabel
+      Value: "results"
+    - ID: "48682c54-4f68-4221-8497-96d6e6e116b4"
+      Hint: ArchiveLink
+      Value: |
+        <link text="View archive" linktype="external" url="/Documents Centre" anchor="" target="" />
+    - ID: "ea3d9ce4-2b06-4a2b-b5c6-5a3fd47044d6"
+      Hint: ShowSearch
+      Value: "1"
+    - ID: "c4cbaa41-d7ee-43d4-aa5c-105f70e7e82e"
+      Hint: ShowViewableFilter
+      Value: "1"
+    - ID: "12f0ed12-cced-424c-91d6-2683338e26d4"
+      Hint: ShowDocTypeFilter
+      Value: "1"
+    - ID: "85103cfd-4810-4bf6-b193-1f8c6f24ce3b"
+      Hint: ShowCategoryFilter
+      Value: "1"
+    - ID: "bc66a30c-1294-48f1-8a0d-f2c3819f9998"
+      Hint: ShowTopicFilter
+      Value: "1"
+    - ID: "25d0ecd8-f603-4069-8f4d-f92420ddcc94"
+      Hint: ShowMediaFilter
+      Value: "1"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d86a8a4-fe98-4dfd-8538-9c3cd7c23981"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

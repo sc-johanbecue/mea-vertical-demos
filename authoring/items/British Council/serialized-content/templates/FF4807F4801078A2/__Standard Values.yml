@@ -1,0 +1,17 @@
+---
+ID: "8731cf0b-810d-4ee7-aba1-895cb20e80dd"
+Parent: "551144c9-c419-4eba-b699-42fa3c66e622"
+Template: "551144c9-c419-4eba-b699-42fa3c66e622"
+Path: "/sitecore/templates/Project/british-council/VerticalTeaserCard Templates/VerticalTeaserCard Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

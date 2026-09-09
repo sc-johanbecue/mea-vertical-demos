@@ -1,0 +1,37 @@
+---
+ID: "a9b1f822-1b68-416b-a758-0d0a44495634"
+Parent: "e8bab077-bb9e-4a3d-97d2-bcd298d66d81"
+Template: "7486686d-eacc-4c48-a520-8d534800b1f5"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondCommunityTiles/Explore Communities
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260528T140000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "ae0033e4-e342-431e-8a80-6390722a45ce"
+      Hint: Label
+      Value: Explore Communities
+    - ID: "2ca346b9-eee3-43bd-9a29-357cd47c0437"
+      Hint: Link
+      Value: <link linktype="external" url="/communities/explore" text="Explore Communities" anchor="" target="" class="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d046383a-afdd-4651-93df-3958844aca2e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260528T140000Z

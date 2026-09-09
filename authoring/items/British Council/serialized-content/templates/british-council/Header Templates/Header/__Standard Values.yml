@@ -1,0 +1,17 @@
+---
+ID: "51c1561f-7134-4d4b-b002-10aebd63bec3"
+Parent: "6311d2a0-d066-41fb-bf34-da0ded0a0b25"
+Template: "6311d2a0-d066-41fb-bf34-da0ded0a0b25"
+Path: "/sitecore/templates/Project/british-council/Header Templates/Header/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,179 @@
+﻿---
+ID: "7a934fe2-5e9f-4388-9c60-d31e7e185801"
+Parent: "e1d6e650-4dd8-4d86-b0cd-4aa91782880a"
+Template: "6311d2a0-d066-41fb-bf34-da0ded0a0b25"
+Path: "/sitecore/content/british-council/british-council/Data/Headers/Site Header"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "5b710790-5a4c-4817-8866-a392f7259911"
+      Hint: SearchLink
+      Value: |
+        <link text="Search" linktype="external" url="/search" anchor="" target="" />
+    - ID: "b11e2600-0001-4001-8500-000000000080"
+      Hint: LoginLink
+      Value: |
+        <link text="Login" linktype="external" url="/auth/login" anchor="" target="" />
+    - ID: "b11e2600-0001-4001-8500-000000000081"
+      Hint: RegisterLink
+      Value: |
+        <link text="Register" linktype="external" url="/register" anchor="" target="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22b0ec56-3217-42e1-b4c5-ef6602384810"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bf844626-515f-46d6-94d9-405c5b784a5d"
+      Hint: Logo
+      Value: |
+        <image mediaid="6166d789-7bd9-4e7b-97f7-bf84f1aa55d7" />
+    - ID: "d82a718c-b8f3-4678-a38e-5e3f6e189111"
+      Hint: LogoLink
+      Value: |
+        <link text="British Council" linktype="external" url="/" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T044745Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5b710790-5a4c-4817-8866-a392f7259911"
+      Hint: SearchLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Rechercher" url="/search" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2789bd09-3e6e-4f7f-abb9-1a34279ad92c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bf844626-515f-46d6-94d9-405c5b784a5d"
+      Hint: Logo
+      Value: |
+        <image mediaid="6166d789-7bd9-4e7b-97f7-bf84f1aa55d7" alt="imgi_185_bc-logo-white" />
+    - ID: "d82a718c-b8f3-4678-a38e-5e3f6e189111"
+      Hint: LogoLink
+      Value: |
+        <link text="British Council" linktype="external" url="/" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084704Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5b710790-5a4c-4817-8866-a392f7259911"
+      Hint: SearchLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="खोजें" url="/search" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9dd3d318-a774-479f-bfc2-4ea712a2176e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bf844626-515f-46d6-94d9-405c5b784a5d"
+      Hint: Logo
+      Value: |
+        <image mediaid="6166d789-7bd9-4e7b-97f7-bf84f1aa55d7" alt="imgi_185_bc-logo-white" />
+    - ID: "d82a718c-b8f3-4678-a38e-5e3f6e189111"
+      Hint: LogoLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="ब्रिटिश काउंसिल" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093355Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5b710790-5a4c-4817-8866-a392f7259911"
+      Hint: SearchLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Zoeken" url="/search" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a18a2883-4a27-4dee-86f7-b71e37fa47e3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bf844626-515f-46d6-94d9-405c5b784a5d"
+      Hint: Logo
+      Value: |
+        <image mediaid="6166d789-7bd9-4e7b-97f7-bf84f1aa55d7" alt="imgi_185_bc-logo-white" />
+    - ID: "d82a718c-b8f3-4678-a38e-5e3f6e189111"
+      Hint: LogoLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Brits Raad" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084704Z

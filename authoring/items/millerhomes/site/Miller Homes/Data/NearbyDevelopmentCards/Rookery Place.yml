@@ -1,0 +1,51 @@
+﻿---
+ID: "3e39a32c-d293-4a49-9c53-ea7a901b417b"
+Parent: "0d83f085-da25-4255-921c-2253712a4fe4"
+Template: "31b96108-eeee-43e2-bd72-6069e1e33296"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/NearbyDevelopmentCards/Rookery Place"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "00c39652-e7ca-4b7e-a77b-3cc9c4644606"
+      Hint: Description
+      Value: <p>Situated in the picturesque village of Rainford, Merseyside, Rookery Place provides the perfect blend of modern living and rural tranquility. With its scenic countryside views, vibrant local community, and excellent transport connections, Rainford is the ideal location to call home.</p>
+    - ID: "18799fd4-2872-4939-a836-9d24ed350568"
+      Hint: Name
+      Value: Rookery Place
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T144745Z
+    - ID: "39558fb7-42a1-40a3-a1f6-9b0b2f4e5b96"
+      Hint: PriceMin
+      Value: £248,995
+    - ID: "5a082bcf-01ae-4fd1-bfb8-39b2f2005bcf"
+      Hint: PromoBanner
+      Value: Showhome available to view
+    - ID: "66fc2a02-021e-45dc-bf01-5de16b80b020"
+      Hint: Location
+      Value: Rainford, WA11 8EQ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "03bb5d62-238d-4055-86ea-35220dc503a7"
+    - ID: "a4d3696d-1fc1-410c-a9a7-b22a581ca05c"
+      Hint: PriceMax
+      Value: £465,995
+    - ID: "ab020c47-b341-4bc5-8e6d-17d48fb4667e"
+      Hint: Image
+      Value: |
+        <image mediaid="345182dc-e772-4cd0-8e75-148b22342923" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T151909Z
+    - ID: "e4006d27-e7c5-418c-b4e2-db642d52f1cd"
+      Hint: CTAText
+      Value: Discover Rookery Place

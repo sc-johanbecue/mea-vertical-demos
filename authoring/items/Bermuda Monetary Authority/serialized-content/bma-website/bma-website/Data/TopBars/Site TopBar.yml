@@ -1,0 +1,33 @@
+---
+ID: "16384d41-bf0b-4db9-82c9-66d9f35cf658"
+Parent: "38e04ddc-b196-49c3-869b-27d1696baf62"
+Template: "02d049fb-5bba-4aad-9ac1-5753ed1aa098"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/TopBars/Site TopBar"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "142e8cc6-8459-4658-a09b-64b5b2395d07"
+      Hint: PrimaryLink
+      Value: |
+        <link text="Commemorative Coins" linktype="external" url="https://www.bma.bm/coin-catalogues/commemorative-coins" anchor="" target="" />
+    - ID: "d4aa7741-51e2-47e7-8a18-e03561bba354"
+      Hint: SecondaryLink
+      Value: |
+        <link text="Regulated Entities" linktype="external" url="https://www.bma.bm/regulated-entities" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "16384d41-bf0b-4db9-82c9-66d9f35cf658"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260902T120000Z"

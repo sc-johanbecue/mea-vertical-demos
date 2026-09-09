@@ -1,0 +1,36 @@
+---
+ID: "ba1b9279-40ba-8049-ae85-aff8131c2144"
+Parent: "aeb2911c-34f6-4439-84ec-c30c14ec3a60"
+Template: "3202e7a7-c4fd-4ecf-8b30-d52ccc4165a0"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/Navigations/AML ATF"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "365f6247-8ecf-4257-85fb-5e2ea6c080bc"
+      Hint: Link
+      Value: |
+        <link text="AML/ATF" linktype="external" url="/Documents Centre/Discussion Consultation Papers/AML ATF" anchor="" target="" />
+    - ID: "bd02c3c0-a5e7-451c-ae82-30f15e3e6263"
+      Hint: Description
+      Value: "Understand anti-money laundering (AML) and anti-terrorist financing (ATF) regulations and standards in Bermuda."
+    - ID: "15f0905f-0143-44a0-a5c6-89d9faf807d2"
+      Hint: Image
+      Value: |
+        <image mediaid="{B0442BAD-C2A6-3F43-97F1-EA94155D13D5}" alt="AML/ATF" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260902T100000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba1b9279-40ba-8049-ae85-aff8131c2144"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260902T100000Z"

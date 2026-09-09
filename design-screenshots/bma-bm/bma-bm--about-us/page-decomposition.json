@@ -1,0 +1,14 @@
+{
+  "slug": "bma-bm--about-us",
+  "url": "https://www.bma.bm/about-us",
+  "layoutChrome": [
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    }
+  ],
+  "sections": [],
+  "confidence": "high",
+  "notes": []
+}

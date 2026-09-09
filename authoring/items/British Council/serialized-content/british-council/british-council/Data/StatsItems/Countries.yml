@@ -1,0 +1,147 @@
+﻿---
+ID: "d42474eb-e152-45ab-88f7-ab8268ebda9a"
+Parent: "33f4fec9-13ae-41d6-8739-b586f6b520d2"
+Template: "cb421cd0-3a77-4619-b348-fde0101d0d6c"
+Path: "/sitecore/content/british-council/british-council/Data/StatsItems/Countries"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17553e1f-104f-46bf-bb2e-1314257bfb18"
+      Hint: Label
+      Value: We are present on the ground
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3ccbef8d-ecaf-46ab-9e37-68953e9f26be"
+      Hint: Value
+      Value: 100 countries
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "833f9c35-d0b9-487e-881d-b8b7b4b8d94e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9bff38a-8eb5-42a2-b131-280992a51d12"
+      Hint: BackgroundColor
+      Value: #00a9a5
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T084748Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17553e1f-104f-46bf-bb2e-1314257bfb18"
+      Hint: Label
+      Value: Nous sommes présents sur le terrain
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3ccbef8d-ecaf-46ab-9e37-68953e9f26be"
+      Hint: Value
+      Value: 100 pays
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7bc1e871-eee7-47e3-a084-9277841ec80c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9bff38a-8eb5-42a2-b131-280992a51d12"
+      Hint: BackgroundColor
+      Value: #00a9a5
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084729Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17553e1f-104f-46bf-bb2e-1314257bfb18"
+      Hint: Label
+      Value: हम ज़मीन पर मौजूद हैं
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3ccbef8d-ecaf-46ab-9e37-68953e9f26be"
+      Hint: Value
+      Value: 100 देशों
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d36dcc30-626e-4b3d-8a50-813a6163209d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9bff38a-8eb5-42a2-b131-280992a51d12"
+      Hint: BackgroundColor
+      Value: #00a9a5
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093421Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17553e1f-104f-46bf-bb2e-1314257bfb18"
+      Hint: Label
+      Value: We zijn aanwezig op het terrein
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3ccbef8d-ecaf-46ab-9e37-68953e9f26be"
+      Hint: Value
+      Value: 100 landen
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c786dc96-a326-42a4-ba0d-5fe0eafdc9f7"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9bff38a-8eb5-42a2-b131-280992a51d12"
+      Hint: BackgroundColor
+      Value: #00a9a5
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084730Z

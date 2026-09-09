@@ -1,0 +1,51 @@
+﻿---
+ID: "b76b931e-05d9-4d1a-a89b-8c72cf06873d"
+Parent: "97e18ed0-f832-488b-aba4-de170e6ff5e2"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/Miller Homes/Original website/image (5)"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/B76B931E05D94D1AA89B8C72CF06873D.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "ae00c7af-c6a1-4fda-9502-0e07db4da82d"
+  Value: PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9InBvc2l0aW9uOiBhYnNvbHV0ZTsgaGVpZ2h0OiAxMDAlOyB3aWR0aDogMTAwJTsgbGVmdDogMDsgdG9wOiAwOyI+CiAgICAgIDxjaXJjbGUgY2xhc3M9ImFycm93LXNsaWRlci1jaXJjbGUiIGN4PSIxMiIgY3k9IjEyIiByPSIxMS41IiBmaWxsPSJub25lIiBzdHJva2U9IiM4QzhDOEMiPjwvY2lyY2xlPgogICAgICA8cGF0aCBjbGFzcz0iYXJyb3ctc2xpZGVyLXNoYXBlIiBmaWxsPSIjOEM4QzhDIiBkPSJNMTAuNTA4ODgzNSAxMmwzLjMwODA1ODItMy4wMjQ1MTA0MWMuMjQ0MDc3Ny0uMjIzMTU2NzQuMjQ0MDc3Ny0uNTg0OTY1MyAwLS44MDgxMjIwNC0uMjQ0MDc3Ni0uMjIzMTU2NzMtLjYzOTgwNTgtLjIyMzE1NjczLS44ODM4ODM0IDBMOS4xODMwNTgyNiAxMS41OTU5MzljLS4yNDQwNzc2OC4yMjMxNTY3LS4yNDQwNzc2OC41ODQ5NjUzIDAgLjgwODEyMmwzLjc1MDAwMDA0IDMuNDI4NTcxNGMuMjQ0MDc3Ni4yMjMxNTY4LjYzOTgwNTguMjIzMTU2OC44ODM4ODM0IDAgLjI0NDA3NzctLjIyMzE1NjcuMjQ0MDc3Ny0uNTg0OTY1MyAwLS44MDgxMjJMMTAuNTA4ODgzNSAxMnoiPjwvcGF0aD4KICA8L3N2Zz4=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 638
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b7b256ae-f161-44fd-a3e8-5a7a11bfb877"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T101630Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ab8a013c-130d-4048-9113-b9db99755125"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T101631Z

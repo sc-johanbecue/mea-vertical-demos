@@ -1,0 +1,23 @@
+---
+ID: "19d821b7-7298-4bd0-984a-5c8f2b1f7fd2"
+Parent: "277bc1f2-36e8-45c4-970f-89ac00890e6e"
+Template: "277bc1f2-36e8-45c4-970f-89ac00890e6e"
+Path: "/sitecore/templates/Project/british-council/LocationCtaBlock Templates/LocationCtaBlock Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {A42434B5-F52D-486D-B129-D5E8BCDFFA98}
+    {277BC1F2-36E8-45C4-970F-89AC00890E6E}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

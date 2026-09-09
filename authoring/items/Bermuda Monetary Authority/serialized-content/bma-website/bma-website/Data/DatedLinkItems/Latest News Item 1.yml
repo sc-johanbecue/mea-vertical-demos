@@ -1,0 +1,32 @@
+---
+ID: "a42f3b5c-2d10-4f1f-8959-1fa3250d2f92"
+Parent: "8ba9cb31-76ee-4745-8a4e-fa008e357c2b"
+Template: "c9dc236a-621a-4817-a9ce-9f7c1a368f6e"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/DatedLinkItems/Latest News Item 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "f18f6df0-c012-428d-a38f-cfe49fbb4d3f"
+      Hint: DateLabel
+      Value: "14 July 2026"
+    - ID: "aa1a5666-cd05-454d-806a-3e0b14ddedb9"
+      Hint: Link
+      Value: |
+        <link text="Financial Sanctions Update - Russia - 14 July 2026" linktype="external" url="https://www.bma.bm/viewPDF/documents/2026-07-23-12-54-41-Financial-Sanctions-Update.-Russia.-14-July-2026.pdf" anchor="" target="_blank" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a42f3b5c-2d10-4f1f-8959-1fa3250d2f92"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

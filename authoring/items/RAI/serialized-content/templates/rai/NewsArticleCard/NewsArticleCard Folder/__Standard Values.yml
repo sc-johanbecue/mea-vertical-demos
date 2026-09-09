@@ -1,0 +1,37 @@
+---
+ID: "c7a7f3c1-85f4-45d9-9b0c-d38d10fb601d"
+Parent: "74126ab7-bb30-420d-b67b-47922694b988"
+Template: "74126ab7-bb30-420d-b67b-47922694b988"
+Path: "/sitecore/templates/Project/rai/NewsArticleCard/NewsArticleCard Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {3DD4387F-75F3-4DEA-87CC-3E2A2F55C646}
+    {74126AB7-BB30-420D-B67B-47922694B988}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c7a7f3c1-85f4-45d9-9b0c-d38d10fb601d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260612T120000Z

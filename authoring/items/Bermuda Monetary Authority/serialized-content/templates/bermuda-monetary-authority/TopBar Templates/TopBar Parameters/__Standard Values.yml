@@ -1,0 +1,17 @@
+---
+ID: "f42ffb05-cc31-4c2b-8e7e-5092e2f01b82"
+Parent: "bb28e0de-851a-4797-9ae7-9b4dbc2bd85b"
+Template: "bb28e0de-851a-4797-9ae7-9b4dbc2bd85b"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/TopBar Templates/TopBar Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

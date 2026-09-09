@@ -1,0 +1,335 @@
+﻿---
+ID: "d11bfc1b-0a8d-4006-8836-f56d0ec071ac"
+Parent: "7cb976a4-3312-4cce-b769-d5fb7003ae00"
+Template: "51898b93-09df-4ad7-9ef8-9497898eb98c"
+Path: "/sitecore/content/british-council/british-council/Home/Portal/Newspapers"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{19DF31A9-7E95-4FE4-B286-5399721A49DF}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "12223655-7dbd-4675-a5f8-334886351681"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{244120E6-1355-4120-BA65-6D3C819E3A59}"
+          p:before="*"
+          s:id="{D40394F5-2102-4703-A7BD-6D2F6E71F824}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{5D7EEF93-5C67-4EDE-B256-34AD40E442A7}"
+          p:before="*"
+          s:ds="15dda3ee-7e6e-4529-b6d9-4ec74f999056"
+          s:id="{00061435-9527-4541-B3AA-B701ABE8C4B6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/portal-sidebar-1" />
+        <r
+          uid="{63541F4F-2D6F-49B0-9B41-1C27178BD586}"
+          p:before="*"
+          s:ds="9e5e3053-9338-4f1c-840f-d587d3133f61"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=11"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{630D6A7C-0233-4B7E-92C5-F34E4035AF15}"
+          p:before="*"
+          s:ds="0b7f608b-3171-4b17-9845-8b205aa57c23"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=12"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{A3444335-4414-4D7C-8923-163C29AD3BCE}"
+          p:before="*"
+          s:ds="123b7a80-81ec-4a97-bb4b-e2c3ba5e15d3"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=13"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{9A9F7FBD-84FA-4792-A343-3A55DB51168A}"
+          p:before="*"
+          s:ds="8d2fd3b0-e54a-426b-bded-57dcb9cca333"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=20"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{3A77B241-9610-4F4C-8C92-C3747010F353}"
+          p:before="*"
+          s:ds="a1c6999b-1df2-4293-99b9-589e4823ea44"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=21"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{28E5CBB4-F23B-4955-BF4C-CCC871ACDBEF}"
+          p:before="*"
+          s:ds="ac9b6546-0126-46e2-8c41-31608e819cef"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=22"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{B247DA61-7E56-438B-82A1-F1BB73ABFB78}"
+          p:before="*"
+          s:ds="67bf7ae6-71aa-4fd5-9d5f-99a22821258f"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=23"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{413D30F6-D917-4AC6-BFDF-DAE7DB53D4E0}"
+          p:before="*"
+          s:ds="d20f0873-d7e9-4c2c-986c-1a1360acfbb9"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=24"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{3B352748-A2C1-4E5B-8E66-51397C0C3DF6}"
+          p:before="*"
+          s:ds="766e1a78-ab3e-4d0f-a909-c1346893de67"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=25"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{683BB122-78C5-4B56-A496-43E9D1E897CC}"
+          p:before="*"
+          s:ds="e43a99dc-339d-4c7d-8af4-6b86f144c319"
+          s:id="{EE87D5C6-4BEE-449A-A066-F9E776839097}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/portal-main-1" />
+        <r
+          uid="{113D8788-767D-49CE-836D-3D0B3C515E5F}"
+          p:before="*"
+          s:ds="062a2c50-7aa8-4892-a5d3-b03c6592d777"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=40"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{EB347CD5-4839-48DA-8454-19A4FDB65293}"
+          p:before="*"
+          s:ds="314444a0-18e8-4839-a8f9-94771bb4ab63"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=41"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{F5C0F443-8BB1-4ACA-A9A4-B4C311F59C0C}"
+          p:before="*"
+          s:ds="10edb1f2-9d3e-4abb-8ed6-ebf1f57a2329"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=42"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{11A72D0C-AA11-4AED-999F-D1C25BE75FEE}"
+          p:before="*"
+          s:ds="fce1663a-90c9-4dca-ad26-af3dda512f1d"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=43"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{458F83DD-750F-4DCC-8E26-CB170DBB3977}"
+          p:before="*"
+          s:ds="179c1d45-874e-420f-978c-db2069c11022"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=44"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{D03A102F-37B5-4CA1-8141-4DF4F8484BD7}"
+          p:before="*"
+          s:ds="bf171ce2-9fc7-4f06-be8d-62ab76e3e691"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=45"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{67FF07C2-B1FE-4262-A2DD-6F2D61CCF683}"
+          p:before="*"
+          s:ds="dcd72b5f-264c-4b1c-b269-d59187b47aa5"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=46"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{014553AA-ABF6-4933-8577-027DBF31746C}"
+          p:before="*"
+          s:ds="6786b99b-7599-4e8b-8e82-405a2761f83f"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=47"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{3E5AC8E7-91D1-4D90-9D53-413ADE761D2A}"
+          p:before="*"
+          s:ds="246b3472-a0b9-4808-bc2e-5bd4d8db1887"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=48"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{0EC61A58-CD56-4F20-904B-AA838C53C1A3}"
+          p:before="*"
+          s:ds="062a2c50-7aa8-4892-a5d3-b03c6592d777"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=49"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Newspapers
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="b9a68be9-5ab9-487f-98aa-3a0ef093262a" />
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Newspapers
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Newspapers
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Journaux
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="b9a68be9-5ab9-487f-98aa-3a0ef093262a" alt="Pile de journaux" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dcd4580f-48f3-4a0c-aa4c-4b4edf167052"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Journaux
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084543Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Journaux
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: अखबार
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="b9a68be9-5ab9-487f-98aa-3a0ef093262a" alt="अखबारों का ढेर" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aeed1ab5-6d10-4446-a153-26bb696a2718"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: अखबार
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093312Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: अखबार
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Kranten
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="b9a68be9-5ab9-487f-98aa-3a0ef093262a" alt="Stapel kranten" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6be49e25-9da6-4a84-b38d-4756e994319f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Kranten
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084544Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Kranten

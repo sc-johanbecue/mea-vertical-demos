@@ -1,0 +1,119 @@
+﻿---
+ID: "b11e2500-0001-4001-8500-000000000002"
+Parent: "b11e2500-0001-4001-8500-000000000001"
+Template: "b11e2500-0001-4001-8500-000000000001"
+Path: "/sitecore/templates/Project/british-council/BookPage/__Standard Values"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ac043f6d-dab2-4331-b1f2-28b64d87d9b8"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+        <r
+          id="{D40394F5-2102-4703-A7BD-6D2F6E71F824}"
+          par="CSSStyles&amp;DynamicPlaceholderId=1"
+          ph="headless-main"
+          uid="{67D009A7-DFF5-45AE-8D26-188B6F7348C2}" />
+        <r
+          ds="766e1a78-ab3e-4d0f-a909-c1346893de67"
+          id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          par="CSSStyles&amp;DynamicPlaceholderId=25"
+          ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13"
+          uid="{EB99E686-4810-491F-BC44-E9518A969FC8}" />
+        <r
+          ds="d20f0873-d7e9-4c2c-986c-1a1360acfbb9"
+          id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          par="CSSStyles&amp;DynamicPlaceholderId=24"
+          ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13"
+          uid="{2B4F4482-D411-4797-ADF1-8914FC00971F}" />
+        <r
+          ds="67bf7ae6-71aa-4fd5-9d5f-99a22821258f"
+          id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          par="CSSStyles&amp;DynamicPlaceholderId=23"
+          ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13"
+          uid="{AE4319D6-262A-49AB-A54B-CC01E4D1D88A}" />
+        <r
+          ds="ac9b6546-0126-46e2-8c41-31608e819cef"
+          id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          par="CSSStyles&amp;DynamicPlaceholderId=22"
+          ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13"
+          uid="{B62F34B0-5EF6-4A5E-84BE-6CBF87FEB7FF}" />
+        <r
+          ds="a1c6999b-1df2-4293-99b9-589e4823ea44"
+          id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          par="CSSStyles&amp;DynamicPlaceholderId=21"
+          ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13"
+          uid="{EE167F8C-A901-4A63-A0F0-75D2BAA77C4A}" />
+        <r
+          ds="8d2fd3b0-e54a-426b-bded-57dcb9cca333"
+          id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          par="CSSStyles&amp;DynamicPlaceholderId=20"
+          ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13"
+          uid="{F4D33FA7-5DB7-4213-9EC4-CDA729B7F892}" />
+        <r
+          ds="123b7a80-81ec-4a97-bb4b-e2c3ba5e15d3"
+          id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          par="CSSStyles&amp;DynamicPlaceholderId=13"
+          ph="/headless-main/portal-sidebar-1/portal-nav-items-2"
+          uid="{1A04A0FF-DDDB-40F5-B82E-3B6978E6F9CF}" />
+        <r
+          ds="0b7f608b-3171-4b17-9845-8b205aa57c23"
+          id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          par="CSSStyles&amp;DynamicPlaceholderId=12"
+          ph="/headless-main/portal-sidebar-1/portal-nav-items-2"
+          uid="{CCF4DF75-ECC8-4826-9C10-1AFE305FC69B}" />
+        <r
+          ds="9e5e3053-9338-4f1c-840f-d587d3133f61"
+          id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          par="CSSStyles&amp;DynamicPlaceholderId=11"
+          ph="/headless-main/portal-sidebar-1/portal-nav-items-2"
+          uid="{A50C06E6-A0E7-4910-B3A4-8D1AEEB8D9A6}" />
+        <r
+          ds="15dda3ee-7e6e-4529-b6d9-4ec74f999056"
+          id="{00061435-9527-4541-B3AA-B701ABE8C4B6}"
+          par="CSSStyles&amp;DynamicPlaceholderId=2"
+          ph="/headless-main/portal-sidebar-1"
+          uid="{265F2F79-6A38-4B51-A8A9-2C646AF73DA7}" />
+        <r
+          uid="{70A89DB0-F9D1-4D4A-8FAA-3ACA4EC41879}"
+          id="{B11E2500-0001-4001-8500-000000000020}"
+          par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          ph="/headless-main/portal-main-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T080000Z
+    - ID: "290ad408-f96e-4f8c-85cc-8b28ca84ac0e"
+      Hint: Title
+      Value: $name
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c5e36281-6217-4a62-aa16-9c771ceaa4aa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T094652Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: $name

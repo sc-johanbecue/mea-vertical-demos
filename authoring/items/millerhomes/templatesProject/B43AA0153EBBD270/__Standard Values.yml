@@ -1,0 +1,43 @@
+﻿---
+ID: "1b7d9a7a-7520-4561-ade5-5096949701cd"
+Parent: "ad15c3b4-0ce0-4b2d-a1ad-8be000c2836d"
+Template: "ad15c3b4-0ce0-4b2d-a1ad-8be000c2836d"
+Path: "/sitecore/templates/Project/miller-homes/AvailableHomesSection/AvailableHomesSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T022228Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5e87b1c5-6428-4b0f-8eef-3fc4d7b64a1a"
+      Hint: TitlePart1
+      Value: Available
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "704bbcf9-f726-406e-b5ca-1f4b4d220733"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d61fc700-86cb-4920-a6e2-c53ab428f523"
+      Hint: CTAText
+      Value: View full listings
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T022237Z
+    - ID: "e3b9f405-6059-4d44-85f0-7a4be2ab4075"
+      Hint: TitlePart2
+      Value: Homes
+    - ID: "f1ffbcb4-97b7-4ea5-b1a4-ebd6aea45ab9"
+      Hint: Title
+      Value: Available Homes

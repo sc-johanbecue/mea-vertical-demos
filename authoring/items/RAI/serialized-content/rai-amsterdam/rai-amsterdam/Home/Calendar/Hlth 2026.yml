@@ -1,0 +1,65 @@
+﻿---
+ID: "e1199620-eefd-4c23-a90b-0f60d6640e83"
+Parent: "f879c880-30ad-42af-954a-33cf10a8da3d"
+Template: "9e26a1fe-a630-47d7-909d-87c0312f6050"
+Path: "/sitecore/content/rai/rai-amsterdam/Home/Calendar/Hlth 2026"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="DA15CAAC-0E90-4D60-B166-6F87F1C28C2B"
+          p:before="*"
+          s:ds="db86bc70-bf3f-46cb-b2f0-8a41bf87a877"
+          s:id="{DD4C9FB6-D1B2-422C-AD55-2EE8AFFB3813}"
+          s:par="CSSStyles&amp;FieldNames=%7BECC701EF-4BE6-4977-AE2D-A5ED90A3C9C7%7D"
+          s:ph="headless-main" />
+        <r
+          uid="7693E3C8-160F-4042-B60A-C9B394EF1346"
+          p:after="r[@uid='DA15CAAC-0E90-4D60-B166-6F87F1C28C2B']"
+          s:ds="7b24d70d-0144-4ccf-b6f0-a1531b1d6b0e"
+          s:id="{82EA8D43-36F4-4C40-A7F2-58F40BEF94C0}"
+          s:par="CSSStyles&amp;FieldNames=%7B570AEC3B-C7DD-417C-AEFD-9BCC1719AA1D%7D"
+          s:ph="headless-main" />
+        <r
+          uid="68E61CD7-A075-4C31-A85E-E53DADA0A89E"
+          p:after="r[@uid='7693E3C8-160F-4042-B60A-C9B394EF1346']"
+          s:ds="62342bd1-7f7c-4496-8e68-511861fd86ac"
+          s:id="{099B6DAD-EF96-4F38-AB5C-F9E0764E0F02}"
+          s:par="CSSStyles&amp;FieldNames=%7B064BA9B4-F298-4561-B3FE-489AC4457040%7D"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: HLTH Europe 2026
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0cb77a45-37e6-4af7-982c-559d4a11e1aa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

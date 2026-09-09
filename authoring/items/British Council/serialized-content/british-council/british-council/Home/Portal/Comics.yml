@@ -1,0 +1,351 @@
+﻿---
+ID: "9bc9fda4-8254-4db6-94b6-701af578920d"
+Parent: "7cb976a4-3312-4cce-b769-d5fb7003ae00"
+Template: "51898b93-09df-4ad7-9ef8-9497898eb98c"
+Path: "/sitecore/content/british-council/british-council/Home/Portal/Comics"
+SharedFields:
+- ID: "0257e7f4-ca18-4237-86f2-4c8fde3ba474"
+  Hint: Roles
+  Value: 
+- ID: "3a78f749-3ca7-42fd-9d73-0e35ab5c289f"
+  Hint: Entitlements
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D3C6ABF5-D221-4367-966F-82176EF7F78A}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "117ff5c2-659a-4fd2-ab28-948c470c32fd"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{A1ED2F75-96B5-429E-B34B-A9E6EEBA2BD0}"
+          p:before="*"
+          s:id="{D40394F5-2102-4703-A7BD-6D2F6E71F824}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{B1C0F990-903A-4FAF-AB04-766922030232}"
+          p:before="*"
+          s:ds="15dda3ee-7e6e-4529-b6d9-4ec74f999056"
+          s:id="{00061435-9527-4541-B3AA-B701ABE8C4B6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/portal-sidebar-1" />
+        <r
+          uid="{95427073-7115-41AD-98DC-8452D78844EE}"
+          p:before="*"
+          s:ds="9e5e3053-9338-4f1c-840f-d587d3133f61"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=11"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{0542EFFE-ACDA-48FF-86FE-4EEFD5776C75}"
+          p:before="*"
+          s:ds="0b7f608b-3171-4b17-9845-8b205aa57c23"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=12"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{64E9DB4E-6DA9-4C7B-95D6-BA748B903D3F}"
+          p:before="*"
+          s:ds="123b7a80-81ec-4a97-bb4b-e2c3ba5e15d3"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=13"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{D64B2086-522C-4EA9-9849-1AD061980B06}"
+          p:before="*"
+          s:ds="8d2fd3b0-e54a-426b-bded-57dcb9cca333"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=20"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{04818321-14FE-4BA0-A9F5-303DB6118720}"
+          p:before="*"
+          s:ds="a1c6999b-1df2-4293-99b9-589e4823ea44"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=21"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{0BF19F22-7FEC-42A0-A873-BE4596E160FA}"
+          p:before="*"
+          s:ds="ac9b6546-0126-46e2-8c41-31608e819cef"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=22"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{4EECB241-BBBC-467B-95E6-832E0F9DA8B5}"
+          p:before="*"
+          s:ds="67bf7ae6-71aa-4fd5-9d5f-99a22821258f"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=23"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{9B15AACF-C0F3-4A03-A9E5-6333FF4F8104}"
+          p:before="*"
+          s:ds="d20f0873-d7e9-4c2c-986c-1a1360acfbb9"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=24"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{FFC3008E-0FFD-4CE8-A4F6-A8FB384B96C2}"
+          p:before="*"
+          s:ds="766e1a78-ab3e-4d0f-a909-c1346893de67"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=25"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{209C04ED-0045-43F9-8D9A-FE3BC3AFD7DA}"
+          p:before="*"
+          s:ds="e43a99dc-339d-4c7d-8af4-6b86f144c319"
+          s:id="{EE87D5C6-4BEE-449A-A066-F9E776839097}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/portal-main-1" />
+        <r
+          uid="{A408BD5E-9D9B-453F-AE3F-460ACBC056CD}"
+          p:before="*"
+          s:ds="e227b320-4efb-4acd-88c4-eb3a108d4a57"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=40"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{68BD722D-C1BE-4A16-9C2F-0FE576252134}"
+          p:before="*"
+          s:ds="2843eac8-409c-42c1-b8e8-0d1c510f90f8"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=41"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{34F5FAF7-F488-4347-8379-5D1C6A2BE33B}"
+          p:before="*"
+          s:ds="54bd3274-9517-429e-a9f1-ad3028b88de2"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=42"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{9134E58B-6BC4-4AB4-8655-7F7B3EED68A8}"
+          p:before="*"
+          s:ds="331e6c57-6602-45d3-96db-7edd5d758a45"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=43"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{120F320A-21EB-40D5-B344-AD9CD87E1129}"
+          p:before="*"
+          s:ds="c6f01638-406b-4fff-a5f1-10108aac2deb"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=44"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{D848F73B-20B7-466B-BE9E-BB9E9DDD026D}"
+          p:before="*"
+          s:ds="88f963ec-b398-4064-9768-cfcacffceb6b"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=45"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{D5231044-D618-492B-9F7F-A01D6834A55C}"
+          p:before="*"
+          s:ds="7c9f2ae8-63ae-4aa2-996f-33c2d1770a20"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=46"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{3A5CEBFA-B208-48DF-8A1D-EDE75219F3FE}"
+          p:before="*"
+          s:ds="93bf7f8b-8bd1-4077-a25b-4d08f7062a60"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=47"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{934BA170-6696-445B-92AC-7E617F33CCF5}"
+          p:before="*"
+          s:ds="a1d288a5-832b-4a45-84a8-aa2294556bfe"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=48"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{3D584B8B-D5CB-407B-B1BE-60D9E69DFCF7}"
+          p:before="*"
+          s:ds="bc1abf7c-7a85-4db1-ac2a-860002c6a8d7"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=49"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Comics
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="79cf108b-8968-4e4e-93f8-fc13d3715029" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "36a8efd4-9d9e-43d6-b982-c2fb409deb41"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iN91ppG30dXsZmWmMO9pqN6O0T2jMHFV
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Comics
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260804T100600Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Comics
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Bandes dessinées
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="79cf108b-8968-4e4e-93f8-fc13d3715029" alt="Bandes dessinées et romans graphiques" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6b850a53-2764-4450-aaea-4232d49bd48a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Bandes dessinées
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084542Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Bandes dessinées
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: कॉमिक्स
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="79cf108b-8968-4e4e-93f8-fc13d3715029" alt="कॉमिक पुस्तकें और ग्राफिक उपन्यास" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b39eee46-3f24-4ce9-a971-7f72b1dc8058"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: कॉमिक्स
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093311Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: कॉमिक्स
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Strips
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="79cf108b-8968-4e4e-93f8-fc13d3715029" alt="Stripboeken en graphic novels" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "287ba180-bc65-4c90-9027-ce6721d2dffa"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Strips
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084542Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Strips

@@ -1,0 +1,88 @@
+{
+  "pageSlug": "matthey-com--products-and-markets-chemicals-methanol",
+  "pageDir": "matthey-com--products-and-markets-chemicals-methanol",
+  "pageSectionsRoot": "matthey-com--products-and-markets-chemicals-methanol/sections",
+  "domainSectionsRoot": "sections",
+  "mergedAt": "2026-06-19T13:28:15.247Z",
+  "sections": [
+    {
+      "action": "variant",
+      "cmsName": "MethanolEventDetailHeroSection",
+      "sourceCmsName": "EventDetailHeroSection",
+      "domainFolder": "products-and-markets-chemicals-methanol-event-detail-hero-section",
+      "pageSectionFolder": "matthey-com--products-and-markets-chemicals-methanol/sections/event-detail-hero-section",
+      "fingerprint": "d19b1bd7eebc5c34",
+      "existingDomainCmsName": "EventDetailHeroSection",
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "ThePotentialOfMethanolLinkGrid",
+      "sourceCmsName": "ThePotentialOfMethanolLinkGrid",
+      "domainFolder": "the-potential-of-methanol-link-grid",
+      "pageSectionFolder": "matthey-com--products-and-markets-chemicals-methanol/sections/the-potential-of-methanol-link-grid",
+      "fingerprint": "91978e339acef733",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "UnlockThePossibilitiesWithRichTextSection",
+      "sourceCmsName": "UnlockThePossibilitiesWithRichTextSection",
+      "domainFolder": "unlock-the-possibilities-with-rich-text-section",
+      "pageSectionFolder": "matthey-com--products-and-markets-chemicals-methanol/sections/unlock-the-possibilities-with-rich-text-section",
+      "fingerprint": "0be63b59cbf19b97",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "FaqSection",
+      "sourceCmsName": "FaqSection",
+      "domainFolder": "faq-section",
+      "pageSectionFolder": "matthey-com--products-and-markets-chemicals-methanol/sections/faq-section",
+      "fingerprint": "95f8fada454d4e6f",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "HighPerformanceMethanolCatalystsLinkGrid",
+      "sourceCmsName": "HighPerformanceMethanolCatalystsLinkGrid",
+      "domainFolder": "high-performance-methanol-catalysts-link-grid",
+      "pageSectionFolder": "matthey-com--products-and-markets-chemicals-methanol/sections/high-performance-methanol-catalysts-link-grid",
+      "fingerprint": "d3dd711019c9c2c9",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "GetInTouchCtaBlock",
+      "sourceCmsName": "GetInTouchCtaBlock",
+      "domainFolder": "get-in-touch-cta-block",
+      "pageSectionFolder": "matthey-com--products-and-markets-chemicals-methanol/sections/get-in-touch-cta-block",
+      "fingerprint": "0d37b68e5681183f",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "ReadMoreLinkGrid",
+      "sourceCmsName": "ReadMoreLinkGrid",
+      "domainFolder": "read-more-link-grid",
+      "pageSectionFolder": "matthey-com--products-and-markets-chemicals-methanol/sections/read-more-link-grid",
+      "fingerprint": "add369cd6f1c0318",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    }
+  ],
+  "componentsToBuild": [
+    "MethanolEventDetailHeroSection",
+    "ThePotentialOfMethanolLinkGrid",
+    "UnlockThePossibilitiesWithRichTextSection",
+    "FaqSection",
+    "HighPerformanceMethanolCatalystsLinkGrid",
+    "GetInTouchCtaBlock",
+    "ReadMoreLinkGrid"
+  ]
+}

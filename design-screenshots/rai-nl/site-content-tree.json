@@ -1,0 +1,1447 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-16T23:37:38.150Z",
+  "project": "rai-nl",
+  "baseUrl": "https://www.rai.nl",
+  "siteContentPath": "/sitecore/content/rai/rai-amsterdam",
+  "languagePrefixes": [
+    "/en"
+  ],
+  "pages": [
+    {
+      "routePath": "/",
+      "pathnameVariants": [
+        "/",
+        "/en",
+        "/en/"
+      ],
+      "sitecoreSegments": [],
+      "itemName": "Home",
+      "parentSegments": [],
+      "yamlRelativePath": "Home.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home",
+      "title": "Home",
+      "navigationTitle": "Home",
+      "status": "mimicked",
+      "captureSlug": "rai-nl--en",
+      "sources": [
+        {
+          "href": "/",
+          "text": "Home",
+          "component": "SiteRoot",
+          "sourceFile": "implicit"
+        },
+        {
+          "href": "/en",
+          "text": null,
+          "component": "PageCapture",
+          "sourceFile": "page-manifest.json"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "Footer",
+          "sourceFile": "sections/footer/section.html"
+        },
+        {
+          "href": "/en/",
+          "text": "Home",
+          "component": "Breadcrumb",
+          "sourceFile": "sections/breadcrumb/section.html"
+        },
+        {
+          "href": "/",
+          "text": "www.rai.nl",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "English",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/",
+          "text": "Nederlands",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "English",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/",
+          "text": "Nederlands",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/",
+          "text": "www.rai.nl",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "Home",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/",
+          "text": "www.rai.nl",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "Home",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/en/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/agenda/",
+      "pathnameVariants": [
+        "/agenda/"
+      ],
+      "sitecoreSegments": [
+        "Agenda"
+      ],
+      "itemName": "Agenda",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Agenda.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Agenda",
+      "title": "Nederlands",
+      "navigationTitle": "Nederlands",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/agenda/",
+          "text": "Nederlands",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/agenda/",
+          "text": "Nederlands",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/agenda/",
+          "text": "Nederlands",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/agenda/",
+          "text": "Nederlands",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/agenda",
+      "pathnameVariants": [
+        "/agenda"
+      ],
+      "sitecoreSegments": [
+        "Agenda"
+      ],
+      "itemName": "Agenda",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Agenda.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Agenda",
+      "title": "Nederlands",
+      "navigationTitle": "Nederlands",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/agenda",
+          "text": "Nederlands",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/agenda",
+          "text": "Nederlands",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar",
+      "pathnameVariants": [
+        "/en/calendar"
+      ],
+      "sitecoreSegments": [
+        "Calendar"
+      ],
+      "itemName": "Calendar",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Calendar.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar",
+      "title": "Calendar",
+      "navigationTitle": "Calendar",
+      "status": "mimicked",
+      "captureSlug": "rai-nl--en-calendar",
+      "sources": [
+        {
+          "href": "/en/calendar",
+          "text": null,
+          "component": "PageCapture",
+          "sourceFile": "page-manifest.json"
+        },
+        {
+          "href": "/en/calendar",
+          "text": "Check out all events",
+          "component": "Footer",
+          "sourceFile": "sections/footer/section.html"
+        },
+        {
+          "href": "/en/calendar",
+          "text": "Calendar",
+          "component": "Breadcrumb",
+          "sourceFile": "sections/breadcrumb/section.html"
+        },
+        {
+          "href": "/en/calendar",
+          "text": "ALL EVENTS",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/calendar",
+          "text": "Check out all events",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/calendar",
+          "text": "English",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/calendar",
+          "text": "English",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/calendar",
+          "text": "Check out all events",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/calendar",
+          "text": "Calendar",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/en/calendar",
+          "text": "Check out all events",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar/",
+      "pathnameVariants": [
+        "/en/calendar/"
+      ],
+      "sitecoreSegments": [
+        "Calendar"
+      ],
+      "itemName": "Calendar",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Calendar.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar",
+      "title": "English",
+      "navigationTitle": "English",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/calendar/",
+          "text": "English",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/en/calendar/",
+          "text": "English",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/en/calendar/",
+          "text": "English",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/en/calendar/",
+          "text": "English",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar/advanced-maritime-technology-2026",
+      "pathnameVariants": [
+        "/en/calendar/advanced-maritime-technology-2026"
+      ],
+      "sitecoreSegments": [
+        "Calendar",
+        "Advanced Maritime Technology 2026"
+      ],
+      "itemName": "Advanced Maritime Technology 2026",
+      "parentSegments": [
+        "Calendar"
+      ],
+      "yamlRelativePath": "Home/Calendar/Advanced Maritime Technology 2026.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar/Advanced Maritime Technology 2026",
+      "title": "Advanced Maritime Technology Expo & Conference",
+      "navigationTitle": "Advanced Maritime Technology Expo & Conference",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/calendar/advanced-maritime-technology-2026",
+          "text": "Advanced Maritime Technology Expo & Conference",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/calendar/advanced-maritime-technology-2026",
+          "text": "Read more",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar/akaash-singh-2026",
+      "pathnameVariants": [
+        "/en/calendar/akaash-singh-2026"
+      ],
+      "sitecoreSegments": [
+        "Calendar",
+        "Akaash Singh 2026"
+      ],
+      "itemName": "Akaash Singh 2026",
+      "parentSegments": [
+        "Calendar"
+      ],
+      "yamlRelativePath": "Home/Calendar/Akaash Singh 2026.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar/Akaash Singh 2026",
+      "title": "Read more",
+      "navigationTitle": "Read more",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/calendar/akaash-singh-2026",
+          "text": "Read more",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar/aviation-week-mro-europe",
+      "pathnameVariants": [
+        "/en/calendar/aviation-week-mro-europe"
+      ],
+      "sitecoreSegments": [
+        "Calendar",
+        "Aviation Week Mro Europe"
+      ],
+      "itemName": "Aviation Week Mro Europe",
+      "parentSegments": [
+        "Calendar"
+      ],
+      "yamlRelativePath": "Home/Calendar/Aviation Week Mro Europe.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar/Aviation Week Mro Europe",
+      "title": "Read more",
+      "navigationTitle": "Read more",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/calendar/aviation-week-mro-europe",
+          "text": "Read more",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar/hlth-2026",
+      "pathnameVariants": [
+        "/en/calendar/hlth-2026"
+      ],
+      "sitecoreSegments": [
+        "Calendar",
+        "Hlth 2026"
+      ],
+      "itemName": "Hlth 2026",
+      "parentSegments": [
+        "Calendar"
+      ],
+      "yamlRelativePath": "Home/Calendar/Hlth 2026.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar/Hlth 2026",
+      "title": "Hlth 2026",
+      "navigationTitle": "Hlth 2026",
+      "status": "mimicked",
+      "captureSlug": "rai-nl--en-calendar-hlth-2026",
+      "sources": [
+        {
+          "href": "/en/calendar/hlth-2026",
+          "text": null,
+          "component": "PageCapture",
+          "sourceFile": "page-manifest.json"
+        },
+        {
+          "href": "/en/calendar/hlth-2026",
+          "text": "HLTH Europe 2026",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/calendar/hlth-2026",
+          "text": "Read more",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar/human-x-amsterdam2026",
+      "pathnameVariants": [
+        "/en/calendar/human-x-amsterdam2026"
+      ],
+      "sitecoreSegments": [
+        "Calendar",
+        "Human X Amsterdam2026"
+      ],
+      "itemName": "Human X Amsterdam2026",
+      "parentSegments": [
+        "Calendar"
+      ],
+      "yamlRelativePath": "Home/Calendar/Human X Amsterdam2026.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar/Human X Amsterdam2026",
+      "title": "HumanX Amsterdam",
+      "navigationTitle": "HumanX Amsterdam",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/calendar/human-x-amsterdam2026",
+          "text": "HumanX Amsterdam",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/calendar/human-x-amsterdam2026",
+          "text": "Read more",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar/ispo-2026",
+      "pathnameVariants": [
+        "/en/calendar/ispo-2026"
+      ],
+      "sitecoreSegments": [
+        "Calendar",
+        "Ispo 2026"
+      ],
+      "itemName": "Ispo 2026",
+      "parentSegments": [
+        "Calendar"
+      ],
+      "yamlRelativePath": "Home/Calendar/Ispo 2026.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar/Ispo 2026",
+      "title": "Read more",
+      "navigationTitle": "Read more",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/calendar/ispo-2026",
+          "text": "Read more",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar/marathon-expo-amsterdam-2026",
+      "pathnameVariants": [
+        "/en/calendar/marathon-expo-amsterdam-2026"
+      ],
+      "sitecoreSegments": [
+        "Calendar",
+        "Marathon Expo Amsterdam 2026"
+      ],
+      "itemName": "Marathon Expo Amsterdam 2026",
+      "parentSegments": [
+        "Calendar"
+      ],
+      "yamlRelativePath": "Home/Calendar/Marathon Expo Amsterdam 2026.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar/Marathon Expo Amsterdam 2026",
+      "title": "Marathon Expo Amsterdam",
+      "navigationTitle": "Marathon Expo Amsterdam",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/calendar/marathon-expo-amsterdam-2026",
+          "text": "Marathon Expo Amsterdam",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/calendar/marathon-expo-amsterdam-2026",
+          "text": "Read more",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar/pan-amsterdam-2026",
+      "pathnameVariants": [
+        "/en/calendar/pan-amsterdam-2026"
+      ],
+      "sitecoreSegments": [
+        "Calendar",
+        "Pan Amsterdam 2026"
+      ],
+      "itemName": "Pan Amsterdam 2026",
+      "parentSegments": [
+        "Calendar"
+      ],
+      "yamlRelativePath": "Home/Calendar/Pan Amsterdam 2026.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar/Pan Amsterdam 2026",
+      "title": "Read more",
+      "navigationTitle": "Read more",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/calendar/pan-amsterdam-2026",
+          "text": "Read more",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar/realize-live-2026",
+      "pathnameVariants": [
+        "/en/calendar/realize-live-2026"
+      ],
+      "sitecoreSegments": [
+        "Calendar",
+        "Realize Live 2026"
+      ],
+      "itemName": "Realize Live 2026",
+      "parentSegments": [
+        "Calendar"
+      ],
+      "yamlRelativePath": "Home/Calendar/Realize Live 2026.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar/Realize Live 2026",
+      "title": "Realize LIVE",
+      "navigationTitle": "Realize LIVE",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/calendar/realize-live-2026",
+          "text": "Realize LIVE",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/calendar/realize-live-2026",
+          "text": "Read more",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/calendar/tech-ex-2026",
+      "pathnameVariants": [
+        "/en/calendar/tech-ex-2026"
+      ],
+      "sitecoreSegments": [
+        "Calendar",
+        "Tech Ex 2026"
+      ],
+      "itemName": "Tech Ex 2026",
+      "parentSegments": [
+        "Calendar"
+      ],
+      "yamlRelativePath": "Home/Calendar/Tech Ex 2026.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Calendar/Tech Ex 2026",
+      "title": "TechEx Europe 2026",
+      "navigationTitle": "TechEx Europe 2026",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/calendar/tech-ex-2026",
+          "text": "TechEx Europe 2026",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/calendar/tech-ex-2026",
+          "text": "Read more",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/contact",
+      "pathnameVariants": [
+        "/en/contact"
+      ],
+      "sitecoreSegments": [
+        "Contact"
+      ],
+      "itemName": "Contact",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Contact.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Contact",
+      "title": "Contact",
+      "navigationTitle": "Contact",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "Footer",
+          "sourceFile": "sections/footer/section.html"
+        },
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/en/contact",
+          "text": "Contact",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/cookie-statement/",
+      "pathnameVariants": [
+        "/en/cookie-statement/"
+      ],
+      "sitecoreSegments": [
+        "Cookie Statement"
+      ],
+      "itemName": "Cookie Statement",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Cookie Statement.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Cookie Statement",
+      "title": "For more information, read our cookie statement",
+      "navigationTitle": "For more information, read our cookie statement",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/cookie-statement/",
+          "text": "For more information, read our cookie statement",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/cookie-statement/",
+          "text": "For more information, read our cookie statement",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/cookie-statement/",
+          "text": "For more information, read our cookie statement",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/exhibiting",
+      "pathnameVariants": [
+        "/en/exhibiting"
+      ],
+      "sitecoreSegments": [
+        "Exhibiting"
+      ],
+      "itemName": "Exhibiting",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Exhibiting.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Exhibiting",
+      "title": "Become an exhibitor",
+      "navigationTitle": "Become an exhibitor",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/exhibiting",
+          "text": "Become an exhibitor",
+          "component": "Footer",
+          "sourceFile": "sections/footer/section.html"
+        },
+        {
+          "href": "/en/exhibiting",
+          "text": "Become an exhibitor",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/exhibiting",
+          "text": "Become an exhibitor",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/exhibiting",
+          "text": "Become an exhibitor",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/frequently-asked-questions",
+      "pathnameVariants": [
+        "/en/frequently-asked-questions"
+      ],
+      "sitecoreSegments": [
+        "Frequently Asked Questions"
+      ],
+      "itemName": "Frequently Asked Questions",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Frequently Asked Questions.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Frequently Asked Questions",
+      "title": "FAQ",
+      "navigationTitle": "FAQ",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/frequently-asked-questions",
+          "text": "FAQ",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/en/frequently-asked-questions",
+          "text": "FAQ",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/en/frequently-asked-questions",
+          "text": "FAQ",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/frequently-asked-questions",
+          "text": "FAQ",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/frequently-asked-questions",
+          "text": "FAQ",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/frequently-asked-questions",
+          "text": "FAQ",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/frequently-asked-questions",
+          "text": "FAQ",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/en/frequently-asked-questions",
+          "text": "FAQ",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/news/building",
+      "pathnameVariants": [
+        "/en/news/building"
+      ],
+      "sitecoreSegments": [
+        "News",
+        "Building"
+      ],
+      "itemName": "Building",
+      "parentSegments": [
+        "News"
+      ],
+      "yamlRelativePath": "Home/News/Building.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/News/Building",
+      "title": "Building",
+      "navigationTitle": "Building",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/news/building",
+          "text": "Building",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/news/events",
+      "pathnameVariants": [
+        "/en/news/events"
+      ],
+      "sitecoreSegments": [
+        "News",
+        "Events"
+      ],
+      "itemName": "Events",
+      "parentSegments": [
+        "News"
+      ],
+      "yamlRelativePath": "Home/News/Events.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/News/Events",
+      "title": "Events",
+      "navigationTitle": "Events",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/news/events",
+          "text": "Events",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/news/future",
+      "pathnameVariants": [
+        "/en/news/future"
+      ],
+      "sitecoreSegments": [
+        "News",
+        "Future"
+      ],
+      "itemName": "Future",
+      "parentSegments": [
+        "News"
+      ],
+      "yamlRelativePath": "Home/News/Future.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/News/Future",
+      "title": "Future",
+      "navigationTitle": "Future",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/news/future",
+          "text": "Future",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/news/rai-amsterdam-welcomes-the-zuidas-sustainability-award-2026",
+      "pathnameVariants": [
+        "/en/news/rai-amsterdam-welcomes-the-zuidas-sustainability-award-2026"
+      ],
+      "sitecoreSegments": [
+        "News",
+        "Rai Amsterdam Welcomes The Zuidas Sustainability Award 2026"
+      ],
+      "itemName": "Rai Amsterdam Welcomes The Zuidas Sustainability Award 2026",
+      "parentSegments": [
+        "News"
+      ],
+      "yamlRelativePath": "Home/News/Rai Amsterdam Welcomes The Zuidas Sustainability Award 2026.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/News/Rai Amsterdam Welcomes The Zuidas Sustainability Award 2026",
+      "title": "RAI Amsterdam welcomes the Zuidas Sustainability Award 2026 Award",
+      "navigationTitle": "RAI Amsterdam welcomes the Zuidas Sustainability Award 2026 Award",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/news/rai-amsterdam-welcomes-the-zuidas-sustainability-award-2026",
+          "text": "RAI Amsterdam welcomes the Zuidas Sustainability Award 2026 Award",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/news/strong-year-driven-by-growth-in-exhibitions",
+      "pathnameVariants": [
+        "/en/news/strong-year-driven-by-growth-in-exhibitions"
+      ],
+      "sitecoreSegments": [
+        "News",
+        "Strong Year Driven By Growth In Exhibitions"
+      ],
+      "itemName": "Strong Year Driven By Growth In Exhibitions",
+      "parentSegments": [
+        "News"
+      ],
+      "yamlRelativePath": "Home/News/Strong Year Driven By Growth In Exhibitions.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/News/Strong Year Driven By Growth In Exhibitions",
+      "title": "Strong year driven by growth in exhibitions Annual report",
+      "navigationTitle": "Strong year driven by growth in exhibitions Annual report",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/news/strong-year-driven-by-growth-in-exhibitions",
+          "text": "Strong year driven by growth in exhibitions Annual report",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/news/work-on-rai-kwartier-temporarily-paused",
+      "pathnameVariants": [
+        "/en/news/work-on-rai-kwartier-temporarily-paused"
+      ],
+      "sitecoreSegments": [
+        "News",
+        "Work On Rai Kwartier Temporarily Paused"
+      ],
+      "itemName": "Work On Rai Kwartier Temporarily Paused",
+      "parentSegments": [
+        "News"
+      ],
+      "yamlRelativePath": "Home/News/Work On Rai Kwartier Temporarily Paused.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/News/Work On Rai Kwartier Temporarily Paused",
+      "title": "Work on RAI Kwartier temporarily paused Neighbourhood-news",
+      "navigationTitle": "Work on RAI Kwartier temporarily paused Neighbourhood-news",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/news/work-on-rai-kwartier-temporarily-paused",
+          "text": "Work on RAI Kwartier temporarily paused Neighbourhood-news",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/newsletter",
+      "pathnameVariants": [
+        "/en/newsletter"
+      ],
+      "sitecoreSegments": [
+        "Newsletter"
+      ],
+      "itemName": "Newsletter",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Newsletter.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Newsletter",
+      "title": "Subscribe",
+      "navigationTitle": "Subscribe",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/newsletter",
+          "text": "Subscribe",
+          "component": "Footer",
+          "sourceFile": "sections/footer/section.html"
+        },
+        {
+          "href": "/en/newsletter",
+          "text": "Subscribe",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/newsletter",
+          "text": "Subscribe",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/newsletter",
+          "text": "Subscribe",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/organising",
+      "pathnameVariants": [
+        "/en/organising"
+      ],
+      "sitecoreSegments": [
+        "Organising"
+      ],
+      "itemName": "Organising",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Organising.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Organising",
+      "title": "Organise your event",
+      "navigationTitle": "Organise your event",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/organising",
+          "text": "Organise your event",
+          "component": "Footer",
+          "sourceFile": "sections/footer/section.html"
+        },
+        {
+          "href": "/en/organising",
+          "text": "Organise your event",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/organising",
+          "text": "Organise your event",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/organising",
+          "text": "Organise your event",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/privacy-statement",
+      "pathnameVariants": [
+        "/en/privacy-statement"
+      ],
+      "sitecoreSegments": [
+        "Privacy Statement"
+      ],
+      "itemName": "Privacy Statement",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Privacy Statement.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Privacy Statement",
+      "title": "Privacyverklaring",
+      "navigationTitle": "Privacyverklaring",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/privacy-statement",
+          "text": "Privacyverklaring",
+          "component": "Footer",
+          "sourceFile": "sections/footer/section.html"
+        },
+        {
+          "href": "/en/privacy-statement",
+          "text": "Privacyverklaring",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/privacy-statement",
+          "text": "Privacyverklaring",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/privacy-statement",
+          "text": "Privacyverklaring",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/privacy-statement/",
+      "pathnameVariants": [
+        "/en/privacy-statement/"
+      ],
+      "sitecoreSegments": [
+        "Privacy Statement"
+      ],
+      "itemName": "Privacy Statement",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Privacy Statement.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Privacy Statement",
+      "title": "Read more about the use of your personal data",
+      "navigationTitle": "Read more about the use of your personal data",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/privacy-statement/",
+          "text": "Read more about the use of your personal data",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/privacy-statement/",
+          "text": "Read more about the use of your personal data",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/privacy-statement/",
+          "text": "Read more about the use of your personal data",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/route",
+      "pathnameVariants": [
+        "/en/route"
+      ],
+      "sitecoreSegments": [
+        "Route"
+      ],
+      "itemName": "Route",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Route.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Route",
+      "title": "Get directions",
+      "navigationTitle": "Get directions",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/route",
+          "text": "Get directions",
+          "component": "Footer",
+          "sourceFile": "sections/footer/section.html"
+        },
+        {
+          "href": "/en/route",
+          "text": "Get directions",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/route",
+          "text": "Get directions",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/route",
+          "text": "Get directions",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/search",
+      "pathnameVariants": [
+        "/en/search"
+      ],
+      "sitecoreSegments": [
+        "Search"
+      ],
+      "itemName": "Search",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Search.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Search",
+      "title": "Search",
+      "navigationTitle": "Search",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/search",
+          "text": "Search",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/en/search",
+          "text": "Search",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/en/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        },
+        {
+          "href": "/en/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/terms-of-use",
+      "pathnameVariants": [
+        "/en/terms-of-use"
+      ],
+      "sitecoreSegments": [
+        "Terms Of Use"
+      ],
+      "itemName": "Terms Of Use",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Terms Of Use.yml",
+      "sitecorePath": "/sitecore/content/rai/rai-amsterdam/Home/Terms Of Use",
+      "title": "Terms of use",
+      "navigationTitle": "Terms of use",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/en/terms-of-use",
+          "text": "Terms of use",
+          "component": "Footer",
+          "sourceFile": "sections/footer/section.html"
+        },
+        {
+          "href": "/en/terms-of-use",
+          "text": "Terms of use",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en/page.html"
+        },
+        {
+          "href": "/en/terms-of-use",
+          "text": "Terms of use",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar/page.html"
+        },
+        {
+          "href": "/en/terms-of-use",
+          "text": "Terms of use",
+          "component": "PageCapture",
+          "sourceFile": "rai-nl--en-calendar-hlth-2026/page.html"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total": 32,
+    "mimicked": 3,
+    "stub": 29
+  }
+}

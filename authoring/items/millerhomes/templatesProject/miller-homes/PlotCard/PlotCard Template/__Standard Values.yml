@@ -1,0 +1,62 @@
+﻿---
+ID: "0ccc367d-ecf3-4894-b2f0-e4d089d9225f"
+Parent: "41eeeccc-e919-4a69-8ba2-e6faeb0f369b"
+Template: "41eeeccc-e919-4a69-8ba2-e6faeb0f369b"
+Path: "/sitecore/templates/Project/miller-homes/PlotCard/PlotCard Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T000724Z
+    - ID: "275d32b8-2c57-4c30-a023-dfed6ec0c651"
+      Hint: CompletionDate
+      Value: Q2 2026
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "614fcc0f-3607-4b15-b920-16c9d85a60df"
+      Hint: ViewDetailsText
+      Value: View plot details
+    - ID: "61bcd5d7-2ff3-41c2-9a70-05ffba1be03a"
+      Hint: Orientation
+      Value: "South-facing garden"
+    - ID: "7b5d1b77-3b53-4384-86b7-48889de14df2"
+      Hint: PlotNumber
+      Value: £TBA
+    - ID: "817eb785-c86f-410f-a498-8342550c24cc"
+      Hint: PlotPrefix
+      Value: Plot
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "330e8e42-6306-439d-89ef-0655673882fd"
+    - ID: "94ceeee8-72be-4d42-a05e-d139252c4251"
+      Hint: HouseTypeName
+      Value: Hampton
+    - ID: "a3d60eca-60d3-49c0-a67e-75dd76f03453"
+      Hint: Status
+      Value: Available
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d573e6a2-84f7-4ebd-a1ef-a968e5b0a048"
+      Hint: Position
+      Value: Corner plot
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T000922Z
+    - ID: "e028bd50-b05d-4ca3-a713-ca7602e95ed8"
+      Hint: CTALink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "f4143579-b218-4cf0-95ef-a4bbf9272d16"
+      Hint: Price
+      Value: £TBA

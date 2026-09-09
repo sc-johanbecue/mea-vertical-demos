@@ -1,0 +1,145 @@
+﻿---
+ID: "f7407a78-6e7e-44e4-ae96-8a2ae2a4c3a3"
+Parent: "c854d6b4-dc59-496d-a563-505080130990"
+Template: "fd0fa6c7-c631-49d7-927d-c31b9c74b5fc"
+Path: "/sitecore/content/british-council/british-council/Data/CollectionCards/Fiction Card"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "43627c22-b3e1-4a01-be63-e17ce71b8cbb"
+      Hint: Link
+      Value: |
+        <link text="Fiction" linktype="external" url="/portal/fiction" anchor="" target="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a6fbe6ae-dec5-4a86-83cb-d3fcb4f6e1ad"
+      Hint: Image
+      Value: |
+        <image mediaid="a9cb768c-f05c-4b64-8137-671d597ee10f" />
+    - ID: "e0c0556e-f526-463c-868e-8e83c20379e2"
+      Hint: Title
+      Value: Fiction
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "43627c22-b3e1-4a01-be63-e17ce71b8cbb"
+      Hint: Link
+      Value: |
+        <link text="Fiction" linktype="external" url="/portal/fiction" anchor="" target="" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8d50e930-222b-4cd5-b624-a38ca119d914"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "a6fbe6ae-dec5-4a86-83cb-d3fcb4f6e1ad"
+      Hint: Image
+      Value: |
+        <image mediaid="a9cb768c-f05c-4b64-8137-671d597ee10f" alt="Pile de livres de fiction" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084633Z
+    - ID: "e0c0556e-f526-463c-868e-8e83c20379e2"
+      Hint: Title
+      Value: Fiction
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "43627c22-b3e1-4a01-be63-e17ce71b8cbb"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="फिक्शन" url="/portal/fiction" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e80b57d-d7f0-42d8-bafb-5b9457787ada"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "a6fbe6ae-dec5-4a86-83cb-d3fcb4f6e1ad"
+      Hint: Image
+      Value: |
+        <image mediaid="a9cb768c-f05c-4b64-8137-671d597ee10f" alt="फिक्शन किताबों का ढेर" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093330Z
+    - ID: "e0c0556e-f526-463c-868e-8e83c20379e2"
+      Hint: Title
+      Value: फिक्शन
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "43627c22-b3e1-4a01-be63-e17ce71b8cbb"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Fictie" url="/portal/fiction" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d69a5eb4-3043-4e04-8898-9353a377d0d6"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "a6fbe6ae-dec5-4a86-83cb-d3fcb4f6e1ad"
+      Hint: Image
+      Value: |
+        <image mediaid="a9cb768c-f05c-4b64-8137-671d597ee10f" alt="Stapel fictieboeken" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084634Z
+    - ID: "e0c0556e-f526-463c-868e-8e83c20379e2"
+      Hint: Title
+      Value: Fictie

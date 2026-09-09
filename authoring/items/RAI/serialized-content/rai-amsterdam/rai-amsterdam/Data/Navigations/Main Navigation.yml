@@ -1,0 +1,47 @@
+---
+ID: "bd8593cb-c026-4fa9-80fc-bb32a8d6d50e"
+Parent: "ecb77a18-e43d-4760-ab8b-51a5fcc0e3d5"
+Template: "1983f52b-7029-4ae6-a537-90077bfb96ad"
+Path: "/sitecore/content/rai/rai-amsterdam/Data/Navigations/Main Navigation"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "fd5b35ba-0b6f-4c74-ac6e-f3cf0edd767e"
+      Hint: NavLink1
+      Value: |
+        <link text="Visiting" linktype="external" url="https://www.rai.nl/en/visiting" anchor="" />
+    - ID: "d45fd546-e540-4b36-8458-3fcfe006f2de"
+      Hint: NavLink2
+      Value: |
+        <link class="" id="13e2d65d-13f4-4636-b235-f2d627178c37" querystring="" anchor="" target="" title="" linktype="internal" text="Exhibiting" url="/rai/rai-amsterdam/Home/Exhibiting" />
+    - ID: "256a9744-8dc5-491a-85ad-269ee6367506"
+      Hint: NavLink3
+      Value: |
+        <link class="" id="3cc66307-cd18-4865-a0f9-97dde1553bbe" querystring="" anchor="" target="" title="" linktype="internal" text="Organising" url="/rai/rai-amsterdam/Home/Organising" />
+    - ID: "7d28d554-e821-4f38-b066-bbf5b9eb996b"
+      Hint: NavLink4
+      Value: |
+        <link text="About us" linktype="external" url="https://www.rai.nl/en/about-us" anchor="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d27f32c-d3b1-46e3-b8f7-c3ccf9d3688f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

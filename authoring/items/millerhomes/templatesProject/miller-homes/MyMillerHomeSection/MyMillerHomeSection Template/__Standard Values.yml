@@ -1,0 +1,56 @@
+﻿---
+ID: "2cadc6d5-a4c9-4b46-8908-c53906edf1f0"
+Parent: "af2cdb8a-f500-4dfc-9412-74f8a9391ba1"
+Template: "af2cdb8a-f500-4dfc-9412-74f8a9391ba1"
+Path: "/sitecore/templates/Project/miller-homes/MyMillerHomeSection/MyMillerHomeSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031812Z
+    - ID: "34d3834e-9cf0-4f61-8cdd-b725b6693183"
+      Hint: LogoMiller
+      Value: Miller
+    - ID: "39b36163-0a37-4409-a726-dd898f8afb4f"
+      Hint: Title
+      Value: My Miller Home
+    - ID: "480eec1d-ad5f-405c-a6f6-f3e6eb923722"
+      Hint: CTAText
+      Value: Find Out More
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "55b7b39d-06c0-4be2-9d7b-f930d611eb6e"
+      Hint: WelcomeToText
+      Value: Welcome To
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "7830daed-94e5-4a3d-9974-50eb072041d6"
+      Hint: CTALink
+      Value: |
+        <link linktype=\"internal\" id=\"6c5f4b85-bf87-4b75-bfa5-5734302b0e77\" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe421d8a-7e8b-4e9c-902e-471e5c3a659b"
+    - ID: "93e86f77-62d0-4579-bf5f-bb9c45b05682"
+      Hint: PhoneMockupText
+      Value: Phone mockup
+    - ID: "b64c6ddd-03b5-4cb6-a7dd-bd355d55bd4e"
+      Hint: LogoHome
+      Value: Home
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T031845Z
+    - ID: "f5bcd5f3-67b3-4ae8-a234-0f6b154f51a1"
+      Hint: LogoPrefix
+      Value: My

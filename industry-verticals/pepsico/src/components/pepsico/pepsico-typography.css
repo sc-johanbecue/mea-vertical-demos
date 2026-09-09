@@ -1,0 +1,806 @@
+/* Montserrat for all PepsiCo-branded / pepsico-folder components */
+.component.link-box-section,
+.component.link-box-card,
+.component.box-section,
+.component.box-card,
+.component.image-link-box-section,
+.component.image-link-box-card,
+.component.pepsico-header,
+.component.pepsico-footer,
+.component.pepsico-corporate-footer,
+.component.content-block,
+.component.image-content-block,
+.component.services-section,
+.component.service-card,
+.component.pricing-section,
+.component.pricing-card,
+.component.testimonial-carousel-section,
+.component.testimonial-card,
+.component.pepsico-image-carousel,
+.component.pepsico-image-carousel-slide,
+.component.pepsico-product-list-section,
+.component.pepsico-product-list-card {
+  font-family: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Image carousel: placeholder wrappers often ship col-6/col-12 — one slide per viewport */
+.component.pepsico-image-carousel .pepsico-image-carousel__track {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.component.pepsico-image-carousel .pepsico-image-carousel__track > * {
+  flex: 0 0 100%;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.component.pepsico-image-carousel [data-pepsico-carousel-slide],
+.component.pepsico-image-carousel .pepsico-image-carousel__track > a {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Placeholder cards ship with col-12 from Sitecore grid params — reset for product list layouts */
+.component.pepsico-product-list-section .pepsico-product-list-section__track > .pepsico-product-list-card {
+  grid-column: auto;
+  flex: 0 0 auto;
+  width: min(100%, 280px);
+  max-width: 280px;
+}
+
+/* Standard LinkList inside PepsiCo footer (datasources: Data/Link Lists/Footer) */
+.component.pepsico-footer .component.link-list {
+  --footer-link-fg: #fff;
+  color: var(--footer-link-fg);
+}
+
+.component.pepsico-footer .component.link-list:not(.link-list--footer-link-list) .component-content h3 {
+  margin: 0;
+  border-bottom: 1px solid rgb(255 255 255 / 0.15);
+  padding-bottom: 1rem;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--footer-link-fg);
+}
+
+@media (min-width: 768px) {
+  .component.pepsico-footer .component.link-list:not(.link-list--footer-link-list) .component-content h3 {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+.component.pepsico-footer
+  .component.link-list:not(.link-list--utility-footer):not(.link-list--footer-link-list)
+  .component-content
+  ul {
+  margin: 1rem 0 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0.125rem 0;
+  list-style: none;
+  padding: 0;
+}
+
+.component.pepsico-footer
+  .component.link-list:not(.link-list--utility-footer):not(.link-list--footer-link-list)
+  .component-content
+  a {
+  display: block;
+  border-radius: 0.125rem;
+  padding: 0.375rem 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.375;
+  color: var(--footer-link-fg);
+  text-decoration: none;
+}
+
+.component.pepsico-footer
+  .component.link-list:not(.link-list--utility-footer):not(.link-list--footer-link-list)
+  .component-content
+  a:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+.component.pepsico-footer
+  .component.link-list:not(.link-list--utility-footer):not(.link-list--footer-link-list)
+  + .component.link-list:not(.link-list--utility-footer):not(.link-list--footer-link-list) {
+  margin-top: 0;
+  border-top: 1px solid rgb(255 255 255 / 0.15);
+  padding-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .component.pepsico-footer
+    .component.link-list:not(.link-list--utility-footer):not(.link-list--footer-link-list)
+    + .component.link-list:not(.link-list--utility-footer):not(.link-list--footer-link-list) {
+    border-top: none;
+    padding-top: 0;
+  }
+}
+
+/* Footer nav: phone accordion (details + “+”), tablet+ column title + list */
+.component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-details {
+  margin: 0;
+  padding: 0.5rem 0 0;
+  border: 0;
+}
+
+.component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  list-style: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0.375rem 0 1rem;
+  border-bottom: 1px solid rgb(255 255 255 / 0.15);
+  font-family: inherit;
+}
+
+.component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-summary::-webkit-details-marker {
+  display: none;
+}
+
+.component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-summary::marker {
+  content: '';
+}
+
+.component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-summary-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-chevron {
+  flex-shrink: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+}
+
+.component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-chevron::after {
+  content: '+';
+}
+
+.component.pepsico-footer
+  .component.link-list.link-list--footer-link-list
+  .link-list__footer-link-list-details[open]
+  > .link-list__footer-link-list-summary
+  .link-list__footer-link-list-chevron::after {
+  content: '\2212';
+}
+
+.component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-links {
+  margin: 0.75rem 0 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0.125rem 0;
+  list-style: none;
+  padding: 0 0 0.5rem;
+}
+
+.component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-links a {
+  display: block;
+  border-radius: 0.125rem;
+  padding: 0.375rem 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.375;
+  color: var(--footer-link-fg);
+  text-decoration: none;
+}
+
+.component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-title {
+    margin: 0 0 1rem;
+    padding: 0 0 0.25rem;
+    border-bottom: none;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fff;
+  }
+
+  .component.pepsico-footer .component.link-list.link-list--footer-link-list .link-list__footer-link-list-links {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.component.pepsico-footer .component.link-list.link-list--footer-link-list + .component.link-list.link-list--footer-link-list {
+  margin-top: 0;
+  border-top: none;
+  padding-top: 0;
+}
+
+@media (max-width: 767.98px) {
+  .component.pepsico-footer .component.link-list.link-list--footer-link-list + .component.link-list.link-list--footer-link-list {
+    padding-top: 0.75rem;
+  }
+}
+
+/*
+ * UtilityFooter: full-width slot + flex-wrap list so sm/md show every link on multiple lines.
+ * Each <li> is one “link |” pair (nowrap) so a new line never begins with “|” alone.
+ * Copyright + pipe follow the link block (same row when room; otherwise below).
+ */
+.component.pepsico-footer .pepsico-footer__utility-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0;
+  row-gap: 0.25rem;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .component.pepsico-footer .pepsico-footer__utility-row {
+    justify-content: flex-end;
+    text-align: right;
+  }
+}
+
+.component.pepsico-footer .pepsico-footer__utility-row .pepsico-footer__utility-slot {
+  display: block;
+  flex: 1 1 100%;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.component.pepsico-footer .pepsico-footer__utility-row .pepsico-footer__utility-slot .component.link-list {
+  display: block;
+  max-width: 100%;
+}
+
+.component.pepsico-footer .pepsico-footer__utility-row .pepsico-footer__utility-slot .component-content {
+  display: block;
+  max-width: 100%;
+}
+
+.component.pepsico-footer .component.link-list.link-list--utility-footer .component-content {
+  display: block;
+  max-width: 100%;
+}
+
+.component.pepsico-footer .component.link-list.link-list--utility-footer ul.link-list__utility-footer {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0;
+  row-gap: 0.25rem;
+  max-width: 100%;
+}
+
+.component.pepsico-footer
+  .component.link-list.link-list--utility-footer
+  ul.link-list__utility-footer
+  > li {
+  display: block;
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+
+.component.pepsico-footer .component.link-list.link-list--utility-footer .link-list__utility-footer-pair {
+  display: inline-flex;
+  max-width: 100%;
+  align-items: baseline;
+  white-space: nowrap;
+}
+
+.component.pepsico-footer .component.link-list.link-list--utility-footer .link-list__utility-footer-pipe {
+  margin-left: 0.375rem;
+  margin-right: 0.375rem;
+  flex-shrink: 0;
+  font-weight: 400;
+  color: rgb(255 255 255 / 0.4);
+}
+
+.component.pepsico-footer .component.link-list.link-list--utility-footer .field-link {
+  display: inline;
+}
+
+.component.pepsico-footer .component.link-list.link-list--utility-footer .component-content a {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.8125rem;
+  line-height: 1.375;
+  vertical-align: baseline;
+}
+
+.component.pepsico-footer .pepsico-footer__utility-meta {
+  display: inline-flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0;
+  min-width: 0;
+}
+
+/* Pipe before copyright — same tone as between-link pipes */
+.component.pepsico-footer .pepsico-footer__utility-copy-sep {
+  display: inline;
+  margin-left: 0.375rem;
+  margin-right: 0.375rem;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.375;
+  color: rgb(255 255 255 / 0.4);
+  vertical-align: baseline;
+}
+
+.component.pepsico-footer .pepsico-footer__utility-copy-text {
+  display: inline;
+  font-size: 0.8125rem;
+  line-height: 1.375;
+  color: rgb(255 255 255 / 0.9);
+  vertical-align: baseline;
+}
+
+@media (min-width: 768px) {
+  .component.pepsico-footer .pepsico-footer__utility-copy-text {
+    text-align: right;
+  }
+}
+
+/* SecondaryNavigation variant: horizontal utility links */
+.component.pepsico-footer .component.link-list .component-content ul.flex {
+  margin-top: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 0.375rem;
+  row-gap: 0.5rem;
+  font-size: 0.8125rem;
+  line-height: 1.375;
+}
+
+.component.pepsico-footer .component.link-list .component-content ul.flex a {
+  padding: 0.125rem 0;
+}
+
+.component.pepsico-footer .component.link-list .component-content ul.flex .field-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.component.pepsico-footer .component.link-list .component-content ul.flex li:not(:first-child)::before {
+  content: '|';
+  margin-right: 0.375rem;
+  margin-left: 0.375rem;
+  font-weight: 400;
+  color: rgb(255 255 255 / 0.4);
+}
+
+/* —— PepsiCo corporate footer: CorporateFooter (columns) + CorporateUtilityFooter (pipes) —— */
+.component.pepsico-corporate-footer .component.link-list {
+  --footer-link-fg: #fff;
+  color: var(--footer-link-fg);
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-footer
+  .link-list__corporate-footer-title {
+  margin: 0;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--footer-link-fg);
+}
+
+.component.pepsico-corporate-footer .pepsico-corporate-footer__follow-us-title {
+  margin: 0;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--footer-link-fg);
+}
+
+@media (min-width: 768px) {
+  .component.pepsico-corporate-footer
+    .component.link-list.link-list--corporate-footer
+    .link-list__corporate-footer-title {
+    padding-bottom: 0.25rem;
+  }
+
+  .component.pepsico-corporate-footer .pepsico-corporate-footer__follow-us-title {
+    padding-bottom: 0.25rem;
+  }
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-footer
+  .link-list__corporate-footer-links {
+  margin: 1rem 0 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0.125rem 0;
+  list-style: none;
+  padding: 0;
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-footer
+  .link-list__corporate-footer-links
+  a {
+  display: block;
+  border-radius: 0.125rem;
+  padding: 0.375rem 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.375;
+  color: var(--footer-link-fg);
+  text-decoration: none;
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-footer
+  .link-list__corporate-footer-links
+  a:hover {
+  text-decoration: none;
+  color: rgb(255 255 255 / 0.85);
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-footer
+  + .component.link-list.link-list--corporate-footer {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media (min-width: 768px) {
+  .component.pepsico-corporate-footer
+    .component.link-list.link-list--corporate-footer
+    + .component.link-list.link-list--corporate-footer {
+    padding-top: 0;
+  }
+}
+
+.component.pepsico-corporate-footer .pepsico-corporate-footer__utility .component.link-list {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-utility-footer
+  .component-content {
+  display: block;
+  max-width: 100%;
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-utility-footer
+  ul.link-list__utility-footer {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0;
+  row-gap: 0.25rem;
+  max-width: 100%;
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-utility-footer
+  ul.link-list__utility-footer
+  > li {
+  display: block;
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-utility-footer
+  .link-list__utility-footer-pair {
+  display: inline-flex;
+  max-width: 100%;
+  align-items: baseline;
+  white-space: nowrap;
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-utility-footer
+  .link-list__utility-footer-pipe {
+  margin-left: 0.375rem;
+  margin-right: 0.375rem;
+  flex-shrink: 0;
+  font-weight: 400;
+  color: rgb(255 255 255 / 0.4);
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-utility-footer
+  .field-link {
+  display: inline;
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-utility-footer
+  .component-content
+  a {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.8125rem;
+  line-height: 1.375;
+  vertical-align: baseline;
+  color: rgb(255 255 255 / 0.75);
+  text-decoration: none;
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-utility-footer
+  .component-content
+  a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.component.pepsico-corporate-footer
+  .component.link-list.link-list--corporate-utility-footer
+  .link-list__utility-footer-text {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.8125rem;
+  line-height: 1.375;
+  vertical-align: baseline;
+  color: rgb(255 255 255 / 0.75);
+}
+
+/* —— Brand footer (Walkers / Lays): centered LinkList in pepsico-footer-links placeholder —— */
+.component.pepsico-footer .pepsico-footer__links-slot .component.link-list .component-content > h3,
+.component.pepsico-footer
+  .pepsico-footer__links-slot
+  .component.link-list.link-list--brand-footer-links
+  .link-list__brand-footer-title {
+  display: none;
+}
+
+.component.pepsico-footer .pepsico-footer__links-slot .component.link-list ul,
+.component.pepsico-footer
+  .pepsico-footer__links-slot
+  .component.link-list.link-list--brand-footer-links
+  ul.link-list__brand-footer-links {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .component.pepsico-footer .pepsico-footer__links-slot .component.link-list ul,
+  .component.pepsico-footer
+    .pepsico-footer__links-slot
+    .component.link-list.link-list--brand-footer-links
+    ul.link-list__brand-footer-links {
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem 2.75rem;
+  }
+}
+
+.component.pepsico-footer .pepsico-footer__links-slot .component.link-list .component-content a,
+.component.pepsico-footer
+  .pepsico-footer__links-slot
+  .component.link-list.link-list--brand-footer-links
+  .link-list__brand-footer-links
+  a {
+  display: inline-block;
+  padding: 0.125rem 0;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #fff;
+  text-decoration: none;
+}
+
+.component.pepsico-footer .pepsico-footer__links-slot .component.link-list .component-content a:hover,
+.component.pepsico-footer
+  .pepsico-footer__links-slot
+  .component.link-list.link-list--brand-footer-links
+  .link-list__brand-footer-links
+  a:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+.component.pepsico-footer .pepsico-footer__links-slot .component.link-list li::before {
+  content: none;
+}
+
+/* —— Brand header (Walkers / Lays): Navigation in pepsico-header-nav placeholder —— */
+.component.pepsico-header .pepsico-header__nav-desktop .component.navigation nav ul,
+.component.pepsico-header .pepsico-header__nav-mobile .component.navigation nav ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.component.pepsico-header .pepsico-header__nav-desktop .component.navigation nav ul {
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.75rem 2.5rem;
+}
+
+/* Marketing nav: keep the link row centered in the header (override xl:justify-end on the slot) */
+.component.pepsico-header .pepsico-header__nav-desktop:has(.navigation--marketing) {
+  justify-content: center;
+}
+
+.component.pepsico-header .pepsico-header__nav-mobile .component.navigation nav ul {
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.component.pepsico-header .component.navigation nav ul a,
+.component.pepsico-header .component.navigation nav ul button {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.component.pepsico-header .pepsico-header__nav-desktop .component.navigation nav ul a,
+.component.pepsico-header .pepsico-header__nav-desktop .component.navigation nav ul button {
+  color: #fff;
+}
+
+.component.pepsico-header .pepsico-header__nav-desktop .component.navigation nav ul a:hover,
+.component.pepsico-header .pepsico-header__nav-desktop .component.navigation nav ul button:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+.component.pepsico-header .pepsico-header__nav-mobile .component.navigation nav ul a,
+.component.pepsico-header .pepsico-header__nav-mobile .component.navigation nav ul button {
+  color: #000;
+  font-size: 1.125rem;
+}
+
+.component.pepsico-header .pepsico-header__nav-mobile .component.navigation nav ul a:hover,
+.component.pepsico-header .pepsico-header__nav-mobile .component.navigation nav ul button:hover {
+  text-decoration: underline;
+}
+
+.component.pepsico-header .component.navigation .component-content > img {
+  display: none;
+}
+
+/* Lay's header — yellow bar, black nav, full-screen yellow mobile menu */
+.component.pepsico-header.pepsico-header--lays .pepsico-header__nav-desktop .component.navigation nav ul a,
+.component.pepsico-header.pepsico-header--lays .pepsico-header__nav-desktop .component.navigation nav ul button {
+  color: #000;
+}
+
+.component.pepsico-header.pepsico-header--lays
+  .pepsico-header__nav-desktop
+  .component.navigation
+  nav
+  ul
+  a:hover,
+.component.pepsico-header.pepsico-header--lays
+  .pepsico-header__nav-desktop
+  .component.navigation
+  nav
+  ul
+  button:hover {
+  text-decoration-color: #000;
+}
+
+.component.pepsico-header.pepsico-header--lays .pepsico-header__nav-mobile .component.navigation nav ul a,
+.component.pepsico-header.pepsico-header--lays .pepsico-header__nav-mobile .component.navigation nav ul button {
+  color: #000;
+  font-size: 1.125rem;
+}
+
+.component.pepsico-header.pepsico-header--lays
+  .pepsico-header__nav-mobile
+  .component.navigation
+  nav
+  ul
+  a:hover,
+.component.pepsico-header.pepsico-header--lays
+  .pepsico-header__nav-mobile
+  .component.navigation
+  nav
+  ul
+  button:hover {
+  text-decoration-color: #000;
+}
+
+.component.pepsico-header.pepsico-header--lays .pepsico-header__nav-desktop .component.navigation nav ul {
+  gap: 1.5rem 2.25rem;
+}
+
+/* PepsiCo product detail — nutrition tables */
+.component.pepsico-product-detail .pepsico-product-detail__table-richtext {
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: #2d2a26;
+}
+
+.component.pepsico-product-detail .pepsico-product-detail__table-richtext table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.component.pepsico-product-detail .pepsico-product-detail__table-richtext th,
+.component.pepsico-product-detail .pepsico-product-detail__table-richtext td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #3d3429;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.component.pepsico-product-detail .pepsico-product-detail__table-richtext th:first-child,
+.component.pepsico-product-detail .pepsico-product-detail__table-richtext td:first-child {
+  text-align: left;
+}
+
+.component.pepsico-product-detail .pepsico-product-detail__table-richtext thead th {
+  font-weight: 700;
+}
+
+.component.pepsico-product-detail .pepsico-product-detail__table-richtext tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.component.pepsico-product-detail .pepsico-product-detail__table-richtext p {
+  margin: 0.5rem 0 0;
+  padding: 0 0.75rem 0.75rem;
+  text-align: left;
+  font-size: 0.75rem;
+  line-height: 1.35;
+}
+
+.component.pepsico-product-detail .pepsico-product-detail__table-richtext p:last-child {
+  padding-bottom: 0.875rem;
+}

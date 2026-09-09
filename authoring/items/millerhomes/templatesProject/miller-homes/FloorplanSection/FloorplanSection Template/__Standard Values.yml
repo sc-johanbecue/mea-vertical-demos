@@ -1,0 +1,73 @@
+﻿---
+ID: "37ada8a6-b886-47e8-91b2-caa480496fbd"
+Parent: "2d73d434-e633-463c-8453-298fb3d175d1"
+Template: "2d73d434-e633-463c-8453-298fb3d175d1"
+Path: "/sitecore/templates/Project/miller-homes/FloorplanSection/FloorplanSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bff0ebe-b153-41a8-b5ab-b3f9e72838cc"
+      Hint: LinkOptionText
+      Value: Link
+    - ID: "220482f3-f3a7-49e8-84f5-7f8ff5ff0ae3"
+      Hint: ImagePlaceholderText
+      Value: Floorplan image
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T024717Z
+    - ID: "3a92eec7-977e-43b7-97cd-cf0333b14a6d"
+      Hint: FloorLabel
+      Value: "Floor:"
+    - ID: "4be258ad-aed7-485c-a432-69566a07743b"
+      Hint: PlanStyleLabel
+      Value: "Plan Style:"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "54cae38e-ac30-416d-b0bb-cea6ee2c59de"
+      Hint: MetricLabel
+      Value: Metric
+    - ID: "5b03a0bc-c828-41e8-b853-263f0f00983d"
+      Hint: TitleSuffix
+      Value: & dimensions
+    - ID: "5b0eb846-60aa-4a1d-a253-900793888531"
+      Hint: FirstFloorText
+      Value: First Floor
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "6ce8c8ab-bee1-4b5a-9619-70392092f125"
+      Hint: RoomLabel
+      Value: Room
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5e4029a1-37a6-46a6-a598-6bda9eeb5059"
+    - ID: "957c8a3a-bdfd-47cc-82ec-ddc2eb23d4be"
+      Hint: ViewFullFloorplanText
+      Value: View full floorplan
+    - ID: "a6012885-cb57-49dc-885f-be6e6a6fbe41"
+      Hint: ImperialLabel
+      Value: Imperial
+    - ID: "b3c7b081-b632-4075-bb6c-4f69ed4d0873"
+      Hint: DimensionsText
+      Value: Dimensions
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T024727Z
+    - ID: "e6747d37-1d7f-4663-940b-42d5b348fdc8"
+      Hint: Title
+      Value: Floor plans
+    - ID: "e81f7ae1-f028-4d1d-af20-3d8a78da1e8a"
+      Hint: MainOptionText
+      Value: Main
+    - ID: "f56a6fbc-6912-4a88-b9d3-ff71f56bc104"
+      Hint: GroundFloorText
+      Value: Ground Floor

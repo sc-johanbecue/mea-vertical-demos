@@ -1,0 +1,839 @@
+{
+  "components": {
+    "CookieBanner": {
+      "cmsName": "CookieBanner",
+      "folderName": "cookie-banner",
+      "name": "cookie-banner",
+      "selector": "#popin_tc_privacy",
+      "type": "cookie-banner",
+      "scope": "site",
+      "reason": "Sticky overlay (CookieBanner) — captured before hide",
+      "componentType": "CookieBanner",
+      "isStickyOverlay": true,
+      "captureMode": "overlay",
+      "capturedBeforeHide": true,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\cookie-banner",
+      "outputs": {
+        "desktop": "cookie-banner/cookie-banner-desktop.png",
+        "tablet": "cookie-banner/cookie-banner-tablet.png",
+        "mobile": "cookie-banner/cookie-banner-mobile.png"
+      },
+      "sectionHtml": "cookie-banner/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "TopBar": {
+      "cmsName": "TopBar",
+      "folderName": "top-bar",
+      "name": "top-bar",
+      "selector": "[class*=\"topbar\"]",
+      "type": "topbar",
+      "scope": "site",
+      "reason": "Sticky overlay (TopBar) — captured before hide",
+      "componentType": "TopBar",
+      "isStickyOverlay": true,
+      "captureMode": "overlay",
+      "capturedBeforeHide": true,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\top-bar",
+      "outputs": {
+        "desktop": "top-bar/top-bar-desktop.png",
+        "tablet": null,
+        "mobile": null
+      },
+      "sectionHtml": "top-bar/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "Header": {
+      "cmsName": "Header",
+      "folderName": "header",
+      "name": "header",
+      "selector": "header",
+      "type": "header",
+      "scope": "site",
+      "reason": "Sticky overlay (Header) — captured before hide",
+      "componentType": "Header",
+      "isStickyOverlay": true,
+      "captureMode": "overlay",
+      "capturedBeforeHide": true,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\header",
+      "outputs": {
+        "desktop": "header/header-desktop.png",
+        "tablet": "header/header-tablet.png",
+        "mobile": "header/header-mobile.png"
+      },
+      "sectionHtml": "header/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "WoonVerzekeringHeroBanner": {
+      "cmsName": "WoonVerzekeringHeroBanner",
+      "folderName": "woon-verzekering-hero-banner",
+      "name": "woon-verzekering-hero-banner",
+      "selector": "section:has([data-webid=\"div-image\"])",
+      "anchorWebid": "div-image",
+      "heading": "Woon­­verzekering",
+      "reason": "Primary hero with page title",
+      "type": "hero",
+      "componentType": "Hero",
+      "scope": "page",
+      "order": 0,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\woon-verzekering-hero-banner",
+      "outputs": {
+        "desktop": "woon-verzekering-hero-banner/woon-verzekering-hero-banner-desktop.png",
+        "tablet": "woon-verzekering-hero-banner/woon-verzekering-hero-banner-tablet.png",
+        "mobile": "woon-verzekering-hero-banner/woon-verzekering-hero-banner-mobile.png"
+      },
+      "sectionHtml": "woon-verzekering-hero-banner/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "StelDeBrandverzekeringSamenTeaserGrid": {
+      "cmsName": "StelDeBrandverzekeringSamenTeaserGrid",
+      "folderName": "stel-de-brandverzekering-samen-teaser-grid",
+      "name": "stel-de-brandverzekering-samen-teaser-grid",
+      "selector": "section:has([data-webid=\"habitation_mainpage_hometype\"])",
+      "anchorWebid": "section-title",
+      "heading": "Stel de brandverzekering samen die écht bij je past",
+      "reason": "VerticalTeaserGrid with section title + 3 repeated tiles",
+      "type": "grid",
+      "componentType": "Grid",
+      "scope": "page",
+      "order": 1,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "placeholderFor": "VerticalTeaserCard",
+      "repeatCount": 3,
+      "includesSectionTitle": true,
+      "fields": [
+        "sectionTitle",
+        "sectionIntro",
+        "cards"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\stel-de-brandverzekering-samen-teaser-grid",
+      "outputs": {
+        "desktop": "stel-de-brandverzekering-samen-teaser-grid/stel-de-brandverzekering-samen-teaser-grid-desktop.png",
+        "tablet": "stel-de-brandverzekering-samen-teaser-grid/stel-de-brandverzekering-samen-teaser-grid-tablet.png",
+        "mobile": "stel-de-brandverzekering-samen-teaser-grid/stel-de-brandverzekering-samen-teaser-grid-mobile.png"
+      },
+      "sectionHtml": "stel-de-brandverzekering-samen-teaser-grid/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "JeBrandverzekeringInEenRichTextSection": {
+      "cmsName": "JeBrandverzekeringInEenRichTextSection",
+      "folderName": "je-brandverzekering-in-een-rich-text-section",
+      "name": "je-brandverzekering-in-een-rich-text-section",
+      "selector": "section.section.u-padding-bottom-7",
+      "anchorWebid": "section-title",
+      "heading": "Je brandverzekering in een oogopslag",
+      "reason": "JeBrandverzekeringInEenRichTextSection: editorial content block",
+      "type": "feature-section",
+      "componentType": "RichText",
+      "scope": "page",
+      "order": 2,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "fields": [
+        "title",
+        "body",
+        "cta"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\je-brandverzekering-in-een-rich-text-section",
+      "outputs": {
+        "desktop": "je-brandverzekering-in-een-rich-text-section/je-brandverzekering-in-een-rich-text-section-desktop.png",
+        "tablet": "je-brandverzekering-in-een-rich-text-section/je-brandverzekering-in-een-rich-text-section-tablet.png",
+        "mobile": "je-brandverzekering-in-een-rich-text-section/je-brandverzekering-in-een-rich-text-section-mobile.png"
+      },
+      "sectionHtml": "je-brandverzekering-in-een-rich-text-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "WatIsGedektCtaBlock": {
+      "cmsName": "WatIsGedektCtaBlock",
+      "folderName": "wat-is-gedekt-cta-block",
+      "name": "wat-is-gedekt-cta-block",
+      "selector": "section:has([data-webid=\"habitation_mainpage_coverage\"])",
+      "anchorWebid": "habitation_mainpage_coverage",
+      "heading": "Wat is gedekt?",
+      "reason": "WatIsGedektCtaBlock: editorial content block",
+      "type": "feature-section",
+      "componentType": "RichText",
+      "scope": "page",
+      "order": 3,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "fields": [
+        "title",
+        "body",
+        "cta"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\wat-is-gedekt-cta-block",
+      "outputs": {
+        "desktop": "wat-is-gedekt-cta-block/wat-is-gedekt-cta-block-desktop.png",
+        "tablet": "wat-is-gedekt-cta-block/wat-is-gedekt-cta-block-tablet.png",
+        "mobile": "wat-is-gedekt-cta-block/wat-is-gedekt-cta-block-mobile.png"
+      },
+      "sectionHtml": "wat-is-gedekt-cta-block/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "RichTextImageBlock": {
+      "cmsName": "RichTextImageBlock",
+      "folderName": "rich-text-image-block",
+      "name": "rich-text-image-block",
+      "selector": "section:has([data-webid=\"_entrypoint_conditions_link\"])",
+      "anchorWebid": "_entrypoint_conditions_link",
+      "heading": null,
+      "reason": "RichTextImageBlock: editorial content block",
+      "type": "feature-section",
+      "componentType": "RichText",
+      "scope": "page",
+      "order": 4,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "fields": [
+        "title",
+        "body",
+        "image",
+        "cta"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\rich-text-image-block",
+      "outputs": {
+        "desktop": "rich-text-image-block/rich-text-image-block-desktop.png",
+        "tablet": "rich-text-image-block/rich-text-image-block-tablet.png",
+        "mobile": "rich-text-image-block/rich-text-image-block-mobile.png"
+      },
+      "sectionHtml": "rich-text-image-block/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "RichTextImageBlock2": {
+      "cmsName": "RichTextImageBlock2",
+      "folderName": "rich-text-image-block2",
+      "name": "rich-text-image-block2",
+      "selector": "[data-webid=\"axa-richtext-3460a281686247b4b36a6614d623487e\"]",
+      "anchorWebid": "axa-richtext-3460a281686247b4b36a6614d623487e",
+      "heading": null,
+      "reason": "RichTextImageBlock: editorial content block",
+      "type": "feature-section",
+      "componentType": "RichText",
+      "scope": "page",
+      "order": 5,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "fields": [
+        "title",
+        "body",
+        "image",
+        "cta"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\rich-text-image-block2",
+      "outputs": {
+        "desktop": "rich-text-image-block2/rich-text-image-block2-desktop.png",
+        "tablet": "rich-text-image-block2/rich-text-image-block2-tablet.png",
+        "mobile": "rich-text-image-block2/rich-text-image-block2-mobile.png"
+      },
+      "sectionHtml": "rich-text-image-block2/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "3EersteMaandenCadeauRichTextImageBlock": {
+      "cmsName": "3EersteMaandenCadeauRichTextImageBlock",
+      "folderName": "3-eerste-maanden-cadeau-rich-text-image-block",
+      "name": "3-eerste-maanden-cadeau-rich-text-image-block",
+      "selector": "#main-content > div:nth-of-type(4)",
+      "anchorWebid": "badge-promo-4819b659e0894d5f998bdf0c4128cb8c",
+      "heading": "3 eerste maanden cadeau op alle dekkingen die gelden tijdens deze eerste 3 maand",
+      "reason": "3EersteMaandenCadeauRichTextImageBlock: editorial content block",
+      "type": "feature-section",
+      "componentType": "RichText",
+      "scope": "page",
+      "order": 6,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "fields": [
+        "title",
+        "body",
+        "image",
+        "cta"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\3-eerste-maanden-cadeau-rich-text-image-block",
+      "outputs": {
+        "desktop": "3-eerste-maanden-cadeau-rich-text-image-block/3-eerste-maanden-cadeau-rich-text-image-block-desktop.png",
+        "tablet": "3-eerste-maanden-cadeau-rich-text-image-block/3-eerste-maanden-cadeau-rich-text-image-block-tablet.png",
+        "mobile": "3-eerste-maanden-cadeau-rich-text-image-block/3-eerste-maanden-cadeau-rich-text-image-block-mobile.png"
+      },
+      "sectionHtml": "3-eerste-maanden-cadeau-rich-text-image-block/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "AxaSteedsTotJeRichTextImageBlock": {
+      "cmsName": "AxaSteedsTotJeRichTextImageBlock",
+      "folderName": "axa-steeds-tot-je-rich-text-image-block",
+      "name": "axa-steeds-tot-je-rich-text-image-block",
+      "selector": "#main-content > section:nth-of-type(8)",
+      "anchorWebid": "section-title",
+      "heading": "AXA, steeds tot je dienst",
+      "reason": "AxaSteedsTotJeRichTextImageBlock: editorial content block",
+      "type": "feature-section",
+      "componentType": "RichText",
+      "scope": "page",
+      "order": 7,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "fields": [
+        "title",
+        "body",
+        "image",
+        "cta"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\axa-steeds-tot-je-rich-text-image-block",
+      "outputs": {
+        "desktop": "axa-steeds-tot-je-rich-text-image-block/axa-steeds-tot-je-rich-text-image-block-desktop.png",
+        "tablet": "axa-steeds-tot-je-rich-text-image-block/axa-steeds-tot-je-rich-text-image-block-tablet.png",
+        "mobile": "axa-steeds-tot-je-rich-text-image-block/axa-steeds-tot-je-rich-text-image-block-mobile.png"
+      },
+      "sectionHtml": "axa-steeds-tot-je-rich-text-image-block/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "HebJeEenVraagTeaserGrid": {
+      "cmsName": "HebJeEenVraagTeaserGrid",
+      "folderName": "heb-je-een-vraag-teaser-grid",
+      "name": "heb-je-een-vraag-teaser-grid",
+      "selector": "#main-content > section:nth-of-type(9)",
+      "anchorWebid": "section-title",
+      "heading": "Heb je een vraag?",
+      "reason": "VerticalTeaserGrid with section title + 2 repeated tiles",
+      "type": "grid",
+      "componentType": "Grid",
+      "scope": "page",
+      "order": 8,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "placeholderFor": "VerticalTeaserCard",
+      "repeatCount": 2,
+      "includesSectionTitle": true,
+      "fields": [
+        "sectionTitle",
+        "sectionIntro",
+        "cards"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\heb-je-een-vraag-teaser-grid",
+      "outputs": {
+        "desktop": "heb-je-een-vraag-teaser-grid/heb-je-een-vraag-teaser-grid-desktop.png",
+        "tablet": "heb-je-een-vraag-teaser-grid/heb-je-een-vraag-teaser-grid-tablet.png",
+        "mobile": "heb-je-een-vraag-teaser-grid/heb-je-een-vraag-teaser-grid-mobile.png"
+      },
+      "sectionHtml": "heb-je-een-vraag-teaser-grid/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "HoeJeBrandverzekeringOnlineCtaBlock": {
+      "cmsName": "HoeJeBrandverzekeringOnlineCtaBlock",
+      "folderName": "hoe-je-brandverzekering-online-cta-block",
+      "name": "hoe-je-brandverzekering-online-cta-block",
+      "selector": "[data-webid=\"habitation_mainpage_steps\"]",
+      "anchorWebid": "habitation_mainpage_steps",
+      "heading": "Hoe je brandverzekering online afsluiten?",
+      "reason": "HoeJeBrandverzekeringOnlineCtaBlock: editorial content block",
+      "type": "feature-section",
+      "componentType": "RichText",
+      "scope": "page",
+      "order": 9,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "fields": [
+        "title",
+        "body",
+        "cta"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\hoe-je-brandverzekering-online-cta-block",
+      "outputs": {
+        "desktop": "hoe-je-brandverzekering-online-cta-block/hoe-je-brandverzekering-online-cta-block-desktop.png",
+        "tablet": "hoe-je-brandverzekering-online-cta-block/hoe-je-brandverzekering-online-cta-block-tablet.png",
+        "mobile": "hoe-je-brandverzekering-online-cta-block/hoe-je-brandverzekering-online-cta-block-mobile.png"
+      },
+      "sectionHtml": "hoe-je-brandverzekering-online-cta-block/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "JeMakelaarStaatAltijdRichTextImageBlock": {
+      "cmsName": "JeMakelaarStaatAltijdRichTextImageBlock",
+      "folderName": "je-makelaar-staat-altijd-rich-text-image-block",
+      "name": "je-makelaar-staat-altijd-rich-text-image-block",
+      "selector": "section:has([data-webid=\"_broker_property_cta\"])",
+      "anchorWebid": "_broker_property_cta",
+      "heading": "Je makelaar staat altijd aan je zijde",
+      "reason": "JeMakelaarStaatAltijdRichTextImageBlock: editorial content block",
+      "type": "feature-section",
+      "componentType": "RichText",
+      "scope": "page",
+      "order": 10,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "fields": [
+        "title",
+        "body",
+        "image",
+        "cta"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\je-makelaar-staat-altijd-rich-text-image-block",
+      "outputs": {
+        "desktop": "je-makelaar-staat-altijd-rich-text-image-block/je-makelaar-staat-altijd-rich-text-image-block-desktop.png",
+        "tablet": "je-makelaar-staat-altijd-rich-text-image-block/je-makelaar-staat-altijd-rich-text-image-block-tablet.png",
+        "mobile": "je-makelaar-staat-altijd-rich-text-image-block/je-makelaar-staat-altijd-rich-text-image-block-mobile.png"
+      },
+      "sectionHtml": "je-makelaar-staat-altijd-rich-text-image-block/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "WatOnzeKlantenDenkenHeroCarousel": {
+      "cmsName": "WatOnzeKlantenDenkenHeroCarousel",
+      "folderName": "wat-onze-klanten-denken-hero-carousel",
+      "name": "wat-onze-klanten-denken-hero-carousel",
+      "selector": "section:has([data-webid=\"habitation_mainpage_ekomi_content_intro_link\"])",
+      "anchorWebid": "section-title",
+      "heading": null,
+      "reason": "Carousel / hero slider",
+      "type": "carousel",
+      "componentType": "Carousel",
+      "scope": "page",
+      "order": 11,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\wat-onze-klanten-denken-hero-carousel",
+      "outputs": {
+        "desktop": "wat-onze-klanten-denken-hero-carousel/wat-onze-klanten-denken-hero-carousel-desktop.png",
+        "tablet": "wat-onze-klanten-denken-hero-carousel/wat-onze-klanten-denken-hero-carousel-tablet.png",
+        "mobile": "wat-onze-klanten-denken-hero-carousel/wat-onze-klanten-denken-hero-carousel-mobile.png"
+      },
+      "sectionHtml": "wat-onze-klanten-denken-hero-carousel/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "OokVoorJeAutoRichTextImageBlock": {
+      "cmsName": "OokVoorJeAutoRichTextImageBlock",
+      "folderName": "ook-voor-je-auto-rich-text-image-block",
+      "name": "ook-voor-je-auto-rich-text-image-block",
+      "selector": "section:has([data-webid=\"xsell2carinsurance\"])",
+      "anchorWebid": "xsell2carinsurance",
+      "heading": "Ook voor je auto zit je goed bij ons",
+      "reason": "OokVoorJeAutoRichTextImageBlock: editorial content block",
+      "type": "feature-section",
+      "componentType": "RichText",
+      "scope": "page",
+      "order": 12,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "fields": [
+        "title",
+        "body",
+        "image",
+        "cta"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\ook-voor-je-auto-rich-text-image-block",
+      "outputs": {
+        "desktop": "ook-voor-je-auto-rich-text-image-block/ook-voor-je-auto-rich-text-image-block-desktop.png",
+        "tablet": "ook-voor-je-auto-rich-text-image-block/ook-voor-je-auto-rich-text-image-block-tablet.png",
+        "mobile": "ook-voor-je-auto-rich-text-image-block/ook-voor-je-auto-rich-text-image-block-mobile.png"
+      },
+      "sectionHtml": "ook-voor-je-auto-rich-text-image-block/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "NogVragenCtaBlock": {
+      "cmsName": "NogVragenCtaBlock",
+      "folderName": "nog-vragen-cta-block",
+      "name": "nog-vragen-cta-block",
+      "selector": "[data-webid=\"_sectionfaq_property\"]",
+      "anchorWebid": "_sectionfaq_property",
+      "heading": "Nog vragen?",
+      "reason": "NogVragenCtaBlock: editorial content block",
+      "type": "feature-section",
+      "componentType": "RichText",
+      "scope": "page",
+      "order": 13,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "fields": [
+        "title",
+        "body",
+        "cta"
+      ],
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\nog-vragen-cta-block",
+      "outputs": {
+        "desktop": "nog-vragen-cta-block/nog-vragen-cta-block-desktop.png",
+        "tablet": "nog-vragen-cta-block/nog-vragen-cta-block-tablet.png",
+        "mobile": "nog-vragen-cta-block/nog-vragen-cta-block-mobile.png"
+      },
+      "sectionHtml": "nog-vragen-cta-block/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "InteressantVoorJouHeroCarousel": {
+      "cmsName": "InteressantVoorJouHeroCarousel",
+      "folderName": "interessant-voor-jou-hero-carousel",
+      "name": "interessant-voor-jou-hero-carousel",
+      "selector": "section:has([data-webid=\"swiper-a18801679ed7401593d316c555d96838\"])",
+      "anchorWebid": "section-title",
+      "heading": null,
+      "reason": "Carousel / hero slider",
+      "type": "carousel",
+      "componentType": "Carousel",
+      "scope": "page",
+      "order": 14,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\interessant-voor-jou-hero-carousel",
+      "outputs": {
+        "desktop": "interessant-voor-jou-hero-carousel/interessant-voor-jou-hero-carousel-desktop.png",
+        "tablet": "interessant-voor-jou-hero-carousel/interessant-voor-jou-hero-carousel-tablet.png",
+        "mobile": "interessant-voor-jou-hero-carousel/interessant-voor-jou-hero-carousel-mobile.png"
+      },
+      "sectionHtml": "interessant-voor-jou-hero-carousel/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    },
+    "Footer": {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "name": "footer",
+      "selector": "footer.foot",
+      "anchorWebid": "brocom",
+      "heading": null,
+      "reason": "Site footer with links and legal",
+      "type": "footer",
+      "componentType": "Footer",
+      "scope": "site",
+      "order": 15,
+      "source": "visual-dom",
+      "bandSelectors": null,
+      "visualRole": "Site-wide footer",
+      "captureMode": "clean",
+      "isStickyOverlay": false,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections\\footer",
+      "outputs": {
+        "desktop": "footer/footer-desktop.png",
+        "tablet": "footer/footer-tablet.png",
+        "mobile": "footer/footer-mobile.png"
+      },
+      "sectionHtml": "footer/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering"
+      ]
+    }
+  },
+  "pages": [
+    {
+      "slug": "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering",
+      "url": "https://www.axa.be/nl/particulieren/woning/woonverzekering-brandverzekering",
+      "pageDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\axa-be--nl-particulieren-woning-woonverzekering-brandverzekering",
+      "capturedAt": "2026-06-15T01:14:16.019Z",
+      "sectionOrder": [
+        "CookieBanner",
+        "TopBar",
+        "Header",
+        "WoonVerzekeringHeroBanner",
+        "StelDeBrandverzekeringSamenTeaserGrid",
+        "JeBrandverzekeringInEenRichTextSection",
+        "WatIsGedektCtaBlock",
+        "RichTextImageBlock",
+        "RichTextImageBlock2",
+        "3EersteMaandenCadeauRichTextImageBlock",
+        "AxaSteedsTotJeRichTextImageBlock",
+        "HebJeEenVraagTeaserGrid",
+        "HoeJeBrandverzekeringOnlineCtaBlock",
+        "JeMakelaarStaatAltijdRichTextImageBlock",
+        "WatOnzeKlantenDenkenHeroCarousel",
+        "OokVoorJeAutoRichTextImageBlock",
+        "NogVragenCtaBlock",
+        "InteressantVoorJouHeroCarousel",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "WoonVerzekeringHeroBanner",
+          "folderName": "woon-verzekering-hero-banner",
+          "type": "hero",
+          "scope": "page",
+          "selector": "section:has([data-webid=\"div-image\"])",
+          "reason": "Primary hero with page title",
+          "order": 0,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "StelDeBrandverzekeringSamenTeaserGrid",
+          "folderName": "stel-de-brandverzekering-samen-teaser-grid",
+          "type": "grid",
+          "scope": "page",
+          "selector": "section:has([data-webid=\"habitation_mainpage_hometype\"])",
+          "reason": "VerticalTeaserGrid with section title + 3 repeated tiles",
+          "order": 1,
+          "placeholderFor": "VerticalTeaserCard",
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "JeBrandverzekeringInEenRichTextSection",
+          "folderName": "je-brandverzekering-in-een-rich-text-section",
+          "type": "feature-section",
+          "scope": "page",
+          "selector": "section.section.u-padding-bottom-7",
+          "reason": "JeBrandverzekeringInEenRichTextSection: editorial content block",
+          "order": 2,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "WatIsGedektCtaBlock",
+          "folderName": "wat-is-gedekt-cta-block",
+          "type": "feature-section",
+          "scope": "page",
+          "selector": "section:has([data-webid=\"habitation_mainpage_coverage\"])",
+          "reason": "WatIsGedektCtaBlock: editorial content block",
+          "order": 3,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "RichTextImageBlock",
+          "folderName": "rich-text-image-block",
+          "type": "feature-section",
+          "scope": "page",
+          "selector": "section:has([data-webid=\"_entrypoint_conditions_link\"])",
+          "reason": "RichTextImageBlock: editorial content block",
+          "order": 4,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "RichTextImageBlock2",
+          "folderName": "rich-text-image-block2",
+          "type": "feature-section",
+          "scope": "page",
+          "selector": "[data-webid=\"axa-richtext-3460a281686247b4b36a6614d623487e\"]",
+          "reason": "RichTextImageBlock: editorial content block",
+          "order": 5,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "3EersteMaandenCadeauRichTextImageBlock",
+          "folderName": "3-eerste-maanden-cadeau-rich-text-image-block",
+          "type": "feature-section",
+          "scope": "page",
+          "selector": "#main-content > div:nth-of-type(4)",
+          "reason": "3EersteMaandenCadeauRichTextImageBlock: editorial content block",
+          "order": 6,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "AxaSteedsTotJeRichTextImageBlock",
+          "folderName": "axa-steeds-tot-je-rich-text-image-block",
+          "type": "feature-section",
+          "scope": "page",
+          "selector": "#main-content > section:nth-of-type(8)",
+          "reason": "AxaSteedsTotJeRichTextImageBlock: editorial content block",
+          "order": 7,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "HebJeEenVraagTeaserGrid",
+          "folderName": "heb-je-een-vraag-teaser-grid",
+          "type": "grid",
+          "scope": "page",
+          "selector": "#main-content > section:nth-of-type(9)",
+          "reason": "VerticalTeaserGrid with section title + 2 repeated tiles",
+          "order": 8,
+          "placeholderFor": "VerticalTeaserCard",
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "HoeJeBrandverzekeringOnlineCtaBlock",
+          "folderName": "hoe-je-brandverzekering-online-cta-block",
+          "type": "feature-section",
+          "scope": "page",
+          "selector": "[data-webid=\"habitation_mainpage_steps\"]",
+          "reason": "HoeJeBrandverzekeringOnlineCtaBlock: editorial content block",
+          "order": 9,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "JeMakelaarStaatAltijdRichTextImageBlock",
+          "folderName": "je-makelaar-staat-altijd-rich-text-image-block",
+          "type": "feature-section",
+          "scope": "page",
+          "selector": "section:has([data-webid=\"_broker_property_cta\"])",
+          "reason": "JeMakelaarStaatAltijdRichTextImageBlock: editorial content block",
+          "order": 10,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "WatOnzeKlantenDenkenHeroCarousel",
+          "folderName": "wat-onze-klanten-denken-hero-carousel",
+          "type": "carousel",
+          "scope": "page",
+          "selector": "section:has([data-webid=\"habitation_mainpage_ekomi_content_intro_link\"])",
+          "reason": "Carousel / hero slider",
+          "order": 11,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "OokVoorJeAutoRichTextImageBlock",
+          "folderName": "ook-voor-je-auto-rich-text-image-block",
+          "type": "feature-section",
+          "scope": "page",
+          "selector": "section:has([data-webid=\"xsell2carinsurance\"])",
+          "reason": "OokVoorJeAutoRichTextImageBlock: editorial content block",
+          "order": 12,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "NogVragenCtaBlock",
+          "folderName": "nog-vragen-cta-block",
+          "type": "feature-section",
+          "scope": "page",
+          "selector": "[data-webid=\"_sectionfaq_property\"]",
+          "reason": "NogVragenCtaBlock: editorial content block",
+          "order": 13,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "InteressantVoorJouHeroCarousel",
+          "folderName": "interessant-voor-jou-hero-carousel",
+          "type": "carousel",
+          "scope": "page",
+          "selector": "section:has([data-webid=\"swiper-a18801679ed7401593d316c555d96838\"])",
+          "reason": "Carousel / hero slider",
+          "order": 14,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        },
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "footer.foot",
+          "reason": "Site footer with links and legal",
+          "order": 15,
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false
+        }
+      ]
+    }
+  ],
+  "projectRoot": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be",
+  "sectionsRoot": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\axa-be\\sections",
+  "updatedAt": "2026-06-15T01:14:17.252Z"
+}

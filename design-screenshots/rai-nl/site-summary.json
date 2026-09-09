@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-16T22:34:14.374Z",
+  "project": "rai-nl",
+  "urls": [
+    "https://www.rai.nl/en",
+    "https://www.rai.nl/en/calendar",
+    "https://www.rai.nl/en/calendar/hlth-2026"
+  ],
+  "sections": {
+    "site": [
+      "CookieBanner",
+      "Footer",
+      "Header"
+    ],
+    "content": [
+      "Breadcrumb",
+      "CalendarListingSection",
+      "EventDetailHeroSection",
+      "EventDetailInfoSection",
+      "HeroBanner",
+      "TheLatestNewsArticlesSection",
+      "TheseEventsWillBeTeaserGrid"
+    ]
+  },
+  "fonts": [
+    {
+      "family": "RobotoBold",
+      "weight": 30,
+      "sources": []
+    },
+    {
+      "family": "Font Awesome Kit",
+      "weight": 23,
+      "sources": []
+    }
+  ],
+  "colors": {
+    "primary": {
+      "hex": [
+        "#6d73b5",
+        "#e50040"
+      ],
+      "gradients": []
+    },
+    "secondary": {
+      "hex": [
+        "#128a00",
+        "#ffffff"
+      ],
+      "gradients": []
+    },
+    "accent": {
+      "hex": [],
+      "gradients": []
+    },
+    "neutrals": {
+      "hex": [
+        "#000000",
+        "#141414",
+        "#333333",
+        "#343a40",
+        "#747474",
+        "#7e808c",
+        "#cccccc",
+        "#d3dde480",
+        "#e2e8f0",
+        "#e6e6e6"
+      ],
+      "gradients": []
+    },
+    "semantic": {
+      "success": "#19692c",
+      "error": "#e71313",
+      "warning": "#fdfd77",
+      "info": "#00968f"
+    }
+  },
+  "stylesheets": [
+    "content-styles.css"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "name": "Title",
+      "title": "Title",
+      "type": "Single-Line Text",
+      "sort": 100
+    },
+    {
+      "name": "Body",
+      "title": "Body",
+      "type": "Multi-Line Text",
+      "sort": 200
+    },
+    {
+      "name": "Link",
+      "title": "Link",
+      "type": "General Link",
+      "sort": 300
+    },
+    {
+      "name": "AccentColor",
+      "title": "AccentColor",
+      "type": "Single-Line Text",
+      "sort": 400
+    }
+  ]
+}

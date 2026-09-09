@@ -1,0 +1,167 @@
+﻿---
+ID: "0939fc1f-63cb-4354-b050-f3234b26803a"
+Parent: "3a793f06-2e93-4d71-a936-cde32494ff15"
+Template: "5c621097-5532-4081-beee-2df087f71ea8"
+Path: "/sitecore/content/british-council/british-council/Data/PromoTeaserCards/Learners Promo"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link text="Websites for learners" linktype="external" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: Websites for learners
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "56425361-bc95-41c2-9763-3677b793d556"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T083341Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="b1e29b18-9191-4b57-99ac-d725500da0f1" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Sites web pour les apprenants" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: Sites web pour les apprenants
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c044483e-01c3-483a-9ce0-d5b0e05c5142"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084725Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="b1e29b18-9191-4b57-99ac-d725500da0f1" alt="imgi_28_spain_02197" />
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="सीखने वालों के लिए वेबसाइट्स" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: सीखने वालों के लिए वेबसाइट्स
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a641a32-2fbf-4096-9a22-7e8a774e05ef"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093417Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="b1e29b18-9191-4b57-99ac-d725500da0f1" alt="imgi_28_spain_02197" />
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Websites voor leerlingen" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: Websites voor leerlingen
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38bb85b6-a400-4c34-a969-62cd6005c52a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084727Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="b1e29b18-9191-4b57-99ac-d725500da0f1" alt="imgi_28_spain_02197" />

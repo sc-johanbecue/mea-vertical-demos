@@ -1,0 +1,95 @@
+﻿---
+ID: "55e0a973-dc25-4ab3-ad48-9656edae65f9"
+Parent: "44fc5219-5d8e-4fa8-af91-e9a81c174474"
+Template: "44fc5219-5d8e-4fa8-af91-e9a81c174474"
+Path: "/sitecore/templates/Project/miller-homes/DevelopmentInfoSection/DevelopmentInfoSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "09306a7e-3fcf-4729-8029-e616dd4578dd"
+      Hint: WeekdayHours
+      Value: 10.30am to 5.30pm
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T023425Z
+    - ID: "3148d3b5-2121-4f17-9fc3-a4d685c24480"
+      Hint: AppointmentLink
+      Value: |
+        <link text="Book an appointment" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "374379d5-2cd1-4b2a-826a-1e5fff378b91"
+      Hint: Description
+      Value: |
+        <p style="color: #002e5d; background-color: #f2f4f7; margin: 24px 0px 0px; padding-bottom: 4px; border: 0px solid;">We are excited to announce that our first release of homes at&nbsp;<span style="background: transparent; border: 0px solid;">Bramcote Hills Rise will be available from Thursday 5th February</span>&nbsp;through&nbsp;<span style="background: transparent; border: 0px solid;">Holden Copley Estate Agents</span>, located at 30 Market Place, Long Eaton, Nottingham, NG10 1LT.</p>
+        <p style="color: #002e5d; background-color: #f2f4f7; margin: 24px 0px 0px; padding-bottom: 4px; border: 0px solid;">Our first release of homes includes the 3-bedroom detached Braxton and Hampton homes, each offering an en-suite and parking, as well as the three-storey, 3-bedroom semi-detached Kipton with an en-suite and parking.</p>
+        <p style="color: #002e5d; background-color: #f2f4f7; margin: 24px 0px 0px; padding-bottom: 4px; border: 0px solid;">Pop in to&nbsp;<span style="background: transparent; border: 0px solid;">Holden Copley Estate Agents</span>&nbsp;anytime during our opening hours, no appointment needed. Or if you prefer, book a dedicated appointment by either calling or booking through our website.&nbsp;</p>
+        <p style="color: #002e5d; background-color: #f2f4f7; margin: 24px 0px 0px; padding-bottom: 4px; border: 0px solid;">Bramcote Hills Rise&nbsp;is our&nbsp;<span style="background: transparent; border: 0px solid;">latest development coming to Bramcote, Nottingham</span>. Designed with both style and sustainability in mind, these elegant 2&ndash;5 bedroom homes bring modern convenience to the heart of one of Nottingham&rsquo;s most desirable suburbs.</p>
+        <p style="color: #002e5d; background-color: #f2f4f7; margin: 24px 0px 0px; padding-bottom: 4px; border: 0px solid;">Final preparations are underway for this exciting new development, launching on&nbsp;5th February 2026. In the meantime, you don&rsquo;t have to wait to experience our homes - visit our showhomes&nbsp;<a href="https://www.millerhomes.co.uk/search/showhomes.aspx?location=East%20Midlands&amp;lat=53.118755&amp;long=-1.448822&amp;reg=1" style="color: #002e5d; border: 0px solid;">across East Midlands</a>&nbsp;to explore the stunning designs, high-quality finishes, and inviting spaces that will define this new community.</p>
+        <h3 style="color: #002e5d; background-color: #f2f4f7; margin: 36px 0px 0px; border: 0px solid; line-height: 1.75rem;"><span style="background: transparent; border: 0px solid;">Discover Life in Bramcote, Nottingham</span></h3>
+        <p style="color: #002e5d; background-color: #f2f4f7; margin: 24px 0px 0px; padding-bottom: 4px; border: 0px solid;">Set in the sought-after suburb of Bramcote, this vibrant community offers the perfect balance of tranquillity and convenience. Nestled among tree-lined streets and open green spaces, Bramcote provides a peaceful setting just minutes from the bustling heart of Nottingham.</p>
+        <h3 style="color: #002e5d; background-color: #f2f4f7; margin: 36px 0px 0px; border: 0px solid; line-height: 1.75rem;"><span style="background: transparent; border: 0px solid;">A Welcoming Community with a Village Feel</span></h3>
+        <p style="color: #002e5d; background-color: #f2f4f7; margin: 24px 0px 0px; padding-bottom: 4px; border: 0px solid;">Known for its friendly atmosphere and strong sense of community. Local amenities include highly regarded schools such as Bramcote College, leisure facilities, independent shops, caf&eacute;s, and a range of local pubs and eateries.</p>
+        <p style="color: #002e5d; background-color: #f2f4f7; margin: 24px 0px 0px; padding-bottom: 4px; border: 0px solid;">Bramcote is perfectly located for commuting and travel. The A52 and M1 (J25) are just minutes away, offering direct routes to Nottingham, Derby, Leicester, and beyond. Reliable public transport links connect Bramcote to Nottingham city centre via frequent bus services. For rail travel, nearby Beeston and Nottingham stations offer direct connections to London, Birmingham, Manchester, and more. East Midlands Airport is less than 30 minutes away for domestic and international flights.&nbsp;</p>
+        <p style="color: #002e5d; background-color: #f2f4f7; margin-top: 24px; margin-right: 0px; margin-left: 0px; padding-bottom: 4px; border: 0px solid;"><em style="border: 0px solid;">The information, development site plan, house plans including the room specifications shown on this page may vary from development to development and are provided for general guidance only. Images may not be house type specific.</em></p>
+    - ID: "39bf46e8-4949-4fc2-8904-3cca0596890d"
+      Hint: BrochureLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "3b5a6d49-2ace-4901-aebe-c6479e864bae"
+      Hint: RegisterHeading
+      Value: Register Your Interest Today
+    - ID: "4a505f8c-061e-4432-9efe-9b6a7415042c"
+      Hint: QuestionLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "4ce23848-6e8d-4f76-8dfc-1b3e6041a677"
+      Hint: PersonalisedBrochureLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5f460493-2031-459a-87d9-4354851901d4"
+      Hint: Name
+      Value: $name
+    - ID: "73477b2b-d0fe-4e86-b12c-4e314a189cca"
+      Hint: DirectionsLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "85394a43-7530-4a27-851a-b7ee8057185d"
+      Hint: ReleaseHeading
+      Value: First Homes Released Thursday 5th February
+    - ID: "89fa68b8-a250-4819-84c7-f7fb0ae30abb"
+      Hint: OpeningHoursHeading
+      Value: "Our opening hours are:"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "821c861f-3823-45ce-83dd-9a5ad1df984d"
+    - ID: "b3a1ed54-abe3-4c7e-9d41-38b6dfd828ea"
+      Hint: ReadMoreLink
+      Value: |
+        <link text="Read more" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "b5c8e68f-4e35-4edf-9fcf-4c14be1b7734"
+      Hint: Address
+      Value: Coventry Lane, Bramcote, Nottingham, Nottinghamshire, NG9 3GJ
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cafd182e-93da-4297-bb7d-fd5b45d709e5"
+      Hint: CallLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "d323abbc-4f8c-4a13-9935-cff3b1e37fc9"
+      Hint: WhatsAppLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260203T022030Z

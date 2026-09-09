@@ -1,0 +1,129 @@
+﻿---
+ID: "f6edeb16-bb90-42ec-82a1-ca9f62bce41e"
+Parent: "0c3e633a-d897-4f1e-b648-f9b0df0e40eb"
+Template: "33e23f7e-27bf-41d2-81da-fd8af504b628"
+Path: "/sitecore/content/british-council/british-council/Data/PortalCarouselPills/Pill Newspapers"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "3c60deca-5f70-475c-8fe8-b6699e930fd5"
+      Hint: Link
+      Value: |
+        <link text="Newspapers" linktype="external" url="/portal/newspapers" anchor="" target="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8319ddfc-fadd-4807-959a-5d349568d828"
+      Hint: Text
+      Value: Newspapers
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "3c60deca-5f70-475c-8fe8-b6699e930fd5"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" title="Journaux" linktype="external" text="Journaux" url="/portal/newspapers" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8319ddfc-fadd-4807-959a-5d349568d828"
+      Hint: Text
+      Value: Journaux
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "52a13d06-dc8c-40ac-a4e7-c2b4cdd1719c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084716Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "3c60deca-5f70-475c-8fe8-b6699e930fd5"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" title="समाचार पत्र" linktype="external" text="समाचार पत्र" url="/portal/newspapers" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8319ddfc-fadd-4807-959a-5d349568d828"
+      Hint: Text
+      Value: समाचार पत्र
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22b9fbe9-142e-4ab4-b1b1-00c85ba5acf3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093406Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "3c60deca-5f70-475c-8fe8-b6699e930fd5"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Kranten" url="/portal/newspapers" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8319ddfc-fadd-4807-959a-5d349568d828"
+      Hint: Text
+      Value: Kranten
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d6227246-7016-4833-8cfd-f55f7b250a16"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084717Z

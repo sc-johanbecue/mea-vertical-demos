@@ -1,0 +1,44 @@
+﻿---
+ID: "61bd35b3-02d1-404f-bed2-5da15edbaa0a"
+Parent: "d9d46863-fb72-4029-a0b6-b49a56707101"
+Template: "289ab153-bb3a-4827-a91d-bb0c1386f779"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/PageTitleSections/Default PageTitleSection_var2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T001828Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8630a1ed-730e-46ea-9f13-314b03712806"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><div class="space-y-md"><p><strong>About us</strong><br /><span>For more than 90 years, we've been building homes for people to make their own. To stamp their personality on, to grow in, thrive and build communities. Throughout that time we've been listening to our customers, understanding what they like and what they want, and using that knowledge to continually improve and enhance the homes we build. From the materials we use and the craftsmanship we insist on, to our meticulous quality control and the exceptional customer service we pride ourselves on, we always go the extra mile. That’s who we are.</span><br /><br /><strong>About our homes</strong><br /><span>Behind the obvious kerb appeal, every home we build is designed and constructed to the highest professional standards. Beautifully proportioned rooms, impeccably finished and decorated. Our commitment to skilled, professional workmanship has remained constant over the decades. But much has changed. Energy efficiency, which can almost halve heating bills, is now a major consideration and we are committed to ensuring the highest possible levels for the benefit of both our homeowners and the environment. We have always chosen the best locations, to bring a peaceful ambience to urban settings and maximise convenience in rural developments. And, more than ever, we are acutely aware of our responsibilities to nature and sustainability.</span><br /><br /><strong>About our standards</strong><br /><span>We have a five star rating for customer satisfaction – the best possible – from the Home Builders Federation. The comprehensive checking process our site managers undertake before any home is handed over to its new owner is reflected in the many quality awards they have won. Our site staff are actively rewarded for safe and careful practice. And our customer service people all know that their main task is to make your life easier and less stressful. We invite an independent research company to find out how our homebuyers, after they’ve moved in, assess their whole experience. In 2024, they found that 95% of our customers would recommend us. For us, that’s the measure that really matters.</span><br />&nbsp;</p><ul><li>East Midlands</li><li>North East</li><li>North West</li><li>Scotland</li><li>Yorkshire</li><li>South East</li><li>South West</li><li>West Midlands</li><li>Wales</li></ul><p>&nbsp;<span>That’s enough about us. Would you like to tell us a little about yourself?</span></p></div></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27bda4ad-54ac-4ae4-9def-d6e20a52315b"
+    - ID: "b712f738-6b84-46c4-bf8d-1ce516ae673f"
+      Hint: Subtitle
+      Value: Over the last 90 years we’ve built thousands of new homes and created communities for families to grow and thrive. Building on our vast experience, you can expect that and more from us in the future.  
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260203T172644Z
+    - ID: "fa5dd7de-55b5-4452-9a79-7287cba3d6fa"
+      Hint: Title
+      Value: Our Locations

@@ -1,0 +1,17 @@
+---
+ID: "868e35c2-fc9f-4918-9a92-74edd8058e40"
+Parent: "8395f68b-5c11-463b-a3e2-e16609327b51"
+Template: "8395f68b-5c11-463b-a3e2-e16609327b51"
+Path: "/sitecore/templates/Project/british-council/SocialLinkItem Templates/SocialLinkItem/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

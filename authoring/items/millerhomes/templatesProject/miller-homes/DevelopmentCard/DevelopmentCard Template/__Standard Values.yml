@@ -1,0 +1,59 @@
+﻿---
+ID: "b4b41346-ff7b-4eda-95dc-5a3ec9065cc6"
+Parent: "6e4162b0-1e11-4e1a-90df-8e839816c51b"
+Template: "6e4162b0-1e11-4e1a-90df-8e839816c51b"
+Path: "/sitecore/templates/Project/miller-homes/DevelopmentCard/DevelopmentCard Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06b076fd-1ce9-4d5c-9552-9f305289fe75"
+      Hint: Name
+      Value: Bramcote Hills Rise
+    - ID: "0e6533ee-5aff-40b1-b9f8-f748f57f964e"
+      Hint: MatchCount
+      Value: 31 Homes Matching Your Requirements
+    - ID: "14599b4c-0806-483d-a489-ba17c091bf6a"
+      Hint: Region
+      Value: Within region
+    - ID: "18005fc1-cafb-4a3e-9332-9945b23e3ee6"
+      Hint: Location
+      Value: Coventry Lane, Bramcote, Nottingham, NG9 3GJ
+    - ID: "1e0ac93a-74d6-4b4c-a781-626c93c5d245"
+      Hint: CTALink
+      Value: |
+        <link text=\"View Development\" linktype=\"internal\" id=\"{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}\" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T021724Z
+    - ID: "3151ba33-2a74-4884-b44b-5950a26f48da"
+      Hint: SaveLabel
+      Value: Save
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "76487b9e-5372-4b7a-b407-d24b71d055ad"
+      Hint: PriceRange
+      Value: "£299,995 - £549,995"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b4bc46a-4535-466c-b026-8eb80e672647"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "ce911986-8a56-4dd3-9852-0f8c608fd5d6"
+      Hint: Description
+      Value: <p>A stunning collection of new homes in a desirable location, offering contemporary living in the heart of Nottinghamshire.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T021740Z
+    - ID: "eafc5aa3-4427-4c7d-8664-41bef25f17c7"
+      Hint: NextImageLabel
+      Value: Next image

@@ -1,0 +1,145 @@
+﻿---
+ID: "7ad77c42-d29e-428c-98b6-86f48e074cae"
+Parent: "2eda842d-4c32-40d4-8df0-24e3ad1a3b02"
+Template: "780d8d31-4274-4a98-98d6-1b94a9102a1b"
+Path: "/sitecore/content/british-council/british-council/Data/BookCards/The Great Gatsby"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="eb7aafb2-9997-4500-bfed-2e8508a97dd3" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: The Great Gatsby
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link text="The Great Gatsby" linktype="external" url="/portal/fiction" anchor="" target="" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d37b48c-1cab-44f4-9bb0-1e4aec70d9ef"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="eb7aafb2-9997-4500-bfed-2e8508a97dd3" alt="Gatsby le Magnifique par F. Scott Fitzgerald" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: Gatsby le Magnifique
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Gatsby le Magnifique" url="/portal/fiction" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084623Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "34144d8b-4bc4-4f6c-92fc-f4bd02186402"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="eb7aafb2-9997-4500-bfed-2e8508a97dd3" alt="द ग्रेट गैट्सबी, एफ. स्कॉट फिट्ज़गेराल्ड द्वारा" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: द ग्रेट गैट्सबी
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="द ग्रेट गैट्सबी" url="/portal/fiction" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093325Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27de12d1-e205-4cdf-8f81-1fd1abb74628"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="eb7aafb2-9997-4500-bfed-2e8508a97dd3" alt="De Grote Gatsby van F. Scott Fitzgerald" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: De Grote Gatsby
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="De Grote Gatsby" url="/portal/fiction" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084626Z

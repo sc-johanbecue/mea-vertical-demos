@@ -1,0 +1,17 @@
+---
+ID: "bd027708-65ac-4721-89a9-825956cc301f"
+Parent: "0bbb521d-3691-4a9a-9471-c032109394d5"
+Template: "0bbb521d-3691-4a9a-9471-c032109394d5"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/SocialLinkItem Templates/SocialLinkItem/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

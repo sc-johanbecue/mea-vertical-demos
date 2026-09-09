@@ -1,0 +1,337 @@
+﻿---
+ID: "0331ae6f-4e70-470c-992f-c69e2f6bb106"
+Parent: "b3e54230-e6f0-44c1-ae06-c874f594e03f"
+Template: "260c909c-1442-4b41-a40c-3cad22fc98a9"
+Path: "/sitecore/content/british-council/british-council/Home/English/Learn Online"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D6BBABB9-F728-4C67-84F5-7CF84A3E5F0C}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2421d610-5bea-4dba-8d8b-cdb181c7b89d"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{00BE28C4-0CB2-4DD8-9C99-F5F508E4C0A4}"
+          p:before="*"
+          s:ds="8d1c95e6-111b-458b-8ee8-97bfcb0513a7"
+          s:id="{41D46BB5-56BB-44E6-B67A-F23E33716892}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{65A42B81-3FEC-4EF3-8055-CF671DDEC1AC}"
+          p:after="r[@uid='{00BE28C4-0CB2-4DD8-9C99-F5F508E4C0A4}']"
+          s:ds="7f38d9d1-3dc8-45ab-91d2-fda26657104f"
+          s:id="{E86E1959-634F-4DA4-A6D0-6B4A1D234322}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/main-1" />
+        <r
+          uid="{FB44C64A-CBBB-4B42-9D85-67BCBAF56358}"
+          p:after="r[@uid='{65A42B81-3FEC-4EF3-8055-CF671DDEC1AC}']"
+          s:ds="db6080fe-9274-4edf-8428-e4e3456d5fd6"
+          s:id="{39236F6A-F08A-4CD6-B51E-EFA3D7B8F00A}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/main-1" />
+        <r
+          uid="{1402CF37-CC3D-4F96-AB4E-F6A820653466}"
+          p:after="r[@uid='{FB44C64A-CBBB-4B42-9D85-67BCBAF56358}']"
+          s:ds="50c94be9-d2a8-4ecc-a213-9a49988a03b9"
+          s:id="{D6F2A514-3FF5-4C6E-B0CD-A36F2A275A24}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/main-1" />
+        <r
+          uid="{B72D6FE7-4620-4821-8C18-46C1FB6872DB}"
+          p:after="r[@uid='{1402CF37-CC3D-4F96-AB4E-F6A820653466}']"
+          s:ds="c000fb0b-ce97-4d75-a921-a0c88b0b8a1c"
+          s:id="{FCBA68B8-BA9D-42BB-A715-A7A5B28AD7D9}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/main-1" />
+        <r
+          uid="{C11E3001-0001-4001-8001-000000000001}"
+          p:after="r[@uid='{B72D6FE7-4620-4821-8C18-46C1FB6872DB}']"
+          s:ds="a387a65e-4e24-4a6b-a6c8-10bcdf58808b"
+          s:id="{D2FEEF80-BBC2-4C29-8237-D1F55C7975B7}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/main-1/course-cards-3" />
+        <r
+          uid="{C11E3001-0001-4001-8001-000000000002}"
+          p:after="r[@uid='{C11E3001-0001-4001-8001-000000000001}']"
+          s:ds="a11e1005-0005-4005-8005-000000000001"
+          s:id="{D2FEEF80-BBC2-4C29-8237-D1F55C7975B7}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/main-1/course-cards-3" />
+        <r
+          uid="{309D059A-FA37-4396-A9E3-59FC6BC415BC}"
+          p:after="r[@uid='{C11E3001-0001-4001-8001-000000000002}']"
+          s:ds="81fd23b8-6969-4a55-95e3-b2b995ae86b9"
+          s:id="{FCBA68B8-BA9D-42BB-A715-A7A5B28AD7D9}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="/headless-main/main-1" />
+        <r
+          uid="{C11E3001-0001-4001-8001-000000000003}"
+          p:after="r[@uid='{309D059A-FA37-4396-A9E3-59FC6BC415BC}']"
+          s:ds="a11e1005-0005-4005-8005-000000000002"
+          s:id="{D2FEEF80-BBC2-4C29-8237-D1F55C7975B7}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/main-1/course-cards-4" />
+        <r
+          uid="{C11E3001-0001-4001-8001-000000000004}"
+          p:after="r[@uid='{C11E3001-0001-4001-8001-000000000003}']"
+          s:ds="a11e1005-0005-4005-8005-000000000003"
+          s:id="{D2FEEF80-BBC2-4C29-8237-D1F55C7975B7}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/main-1/course-cards-4" />
+        <r
+          uid="{F9589686-4412-4EA0-AB2D-AF703D2BED32}"
+          p:after="r[@uid='{C11E3001-0001-4001-8001-000000000004}']"
+          s:ds="7f9313ef-48a6-4aa7-b3a6-2bbef4bb7afd"
+          s:id="{FCBA68B8-BA9D-42BB-A715-A7A5B28AD7D9}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="/headless-main/main-1" />
+        <r
+          uid="{C11E3001-0001-4001-8001-000000000005}"
+          p:after="r[@uid='{F9589686-4412-4EA0-AB2D-AF703D2BED32}']"
+          s:ds="a11e1005-0005-4005-8005-000000000004"
+          s:id="{D2FEEF80-BBC2-4C29-8237-D1F55C7975B7}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/main-1/course-cards-5" />
+        <r
+          uid="{C11E3001-0001-4001-8001-000000000006}"
+          p:after="r[@uid='{C11E3001-0001-4001-8001-000000000005}']"
+          s:ds="a11e1005-0005-4005-8005-000000000005"
+          s:id="{D2FEEF80-BBC2-4C29-8237-D1F55C7975B7}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/main-1/course-cards-5" />
+        <r
+          uid="{B712D0EE-4821-4671-A0FE-B8E942B9B387}"
+          p:after="r[@uid='{C11E3001-0001-4001-8001-000000000006}']"
+          s:ds="29d559ff-23ec-4b71-a517-e33d595f0c72"
+          s:id="{BA3D34AD-4E3B-4D5B-8DAE-9AC9E1BA9191}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=6"
+          s:ph="/headless-main/sidebar-1" />
+        <r
+          uid="{0E50847A-32E5-4D4D-99E3-74AA518BEA62}"
+          p:after="r[@uid='{B712D0EE-4821-4671-A0FE-B8E942B9B387}']"
+          s:ds="4fc4fb11-61f6-43bf-aef8-65a00ec92c65"
+          s:id="{63E78F37-FC2B-4030-813C-6F2193C07575}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/sidebar-1" />
+        <r
+          uid="{D5BEC9D9-A020-433D-9595-643ADF89E90E}"
+          p:after="r[@uid='{0E50847A-32E5-4D4D-99E3-74AA518BEA62}']"
+          s:ds="d0786603-fd09-43b5-b7c4-d7dde7373b16"
+          s:id="{63E78F37-FC2B-4030-813C-6F2193C07575}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/sidebar-1" />
+        <r
+          uid="{151EBB46-F33D-47D4-8316-3DAF55CE5143}"
+          p:after="r[@uid='{D5BEC9D9-A020-433D-9595-643ADF89E90E}']"
+          s:ds="2004972a-01f2-41eb-b66a-6b77b75966d1"
+          s:id="{63E78F37-FC2B-4030-813C-6F2193C07575}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/sidebar-1" />
+        <r
+          uid="{17EB84EC-3DF8-4C50-BF0A-C5DF6B19A928}"
+          p:after="r[@uid='{151EBB46-F33D-47D4-8316-3DAF55CE5143}']"
+          s:ds="0939fc1f-63cb-4354-b050-f3234b26803a"
+          s:id="{63E78F37-FC2B-4030-813C-6F2193C07575}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/sidebar-1" />
+        <r
+          uid="{62E3B904-CAE5-4072-9AB4-6645505007A7}"
+          p:after="r[@uid='{17EB84EC-3DF8-4C50-BF0A-C5DF6B19A928}']"
+          s:ds="053f8c70-17ce-497a-84f5-e2d7eb861d87"
+          s:id="{0A20363F-7202-440C-AA8F-0D061C8882D2}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/sidebar-1" />
+        <r
+          uid="{2790FA92-A5E8-4298-964D-CB2CA4FE7EB2}"
+          p:after="r[@uid='{62E3B904-CAE5-4072-9AB4-6645505007A7}']"
+          s:ds="fcb18a39-e1f1-40a2-bf36-31311f58f481"
+          s:id="{0A20363F-7202-440C-AA8F-0D061C8882D2}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/sidebar-1" />
+        <r
+          uid="{C71E2C17-7399-4435-B6CD-16A6697C2992}"
+          p:after="r[@uid='{2790FA92-A5E8-4298-964D-CB2CA4FE7EB2}']"
+          s:ds="7a2875e9-3888-4142-9dc7-9366587af246"
+          s:id="{D011975E-77DF-4EA7-9324-DEBD3451AC07}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
+          s:ph="/headless-main/sidebar-1/sidebar-links-6" />
+        <r
+          uid="{C1F6E55F-575A-49F5-9F85-50EACD3B701B}"
+          p:after="*[1=2]"
+          s:ds="c5f88022-b6f6-4e89-8644-a513668bb5d3"
+          s:id="{18963691-BCB9-4F1C-A4C4-C92CFF5DFC87}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+          s:ph="/headless-main/main-1/breadcrumb-items-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Learn English Online
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d70d296b-8687-47af-b8f5-3b5ff47d7ef4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T083528Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Learn English Online
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Apprenez l'anglais en ligne
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a4e0c8d-08b1-4aa8-bfb9-8da4d1d9f2f2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084523Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Apprenez l'anglais en ligne
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: ऑनलाइन अंग्रेजी सीखें
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e0a3c42f-85bd-4dd2-9f2c-e4b070232e66"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093306Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: ऑनलाइन अंग्रेजी सीखें
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Leer Engels Online
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2485de37-b54e-4177-801c-67d47c9f560f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084525Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Leer Engels Online

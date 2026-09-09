@@ -1,0 +1,37 @@
+﻿---
+ID: "c3000003-0001-4000-8000-000000000003"
+Parent: "afb31c0b-dc4f-4ad4-8990-fe0cab47634c"
+Template: "aa563a84-f0c5-4d7a-81f0-bcaf4670e279"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondHeroBanners/Solutions Hero
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "2b28a68d-3c9c-4b31-8356-45f948667014"
+      Hint: Heading
+      Value: Solutions
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9266568b-0fab-4a34-b37a-5f9d8f54818e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T120000Z
+    - ID: "fbcf7f1d-cb44-45a8-83f8-8327f814af21"
+      Hint: Subheading
+      Value: Products and services designed to move you to the next level

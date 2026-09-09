@@ -1,0 +1,17 @@
+---
+ID: "4447dda3-9633-4b42-ad4c-839518b9e8e1"
+Parent: "48dcc401-3767-4e0f-b1bc-b8a0d31084ee"
+Template: "48dcc401-3767-4e0f-b1bc-b8a0d31084ee"
+Path: "/sitecore/templates/Project/british-council/CollectionBookList Templates/CollectionBookList/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

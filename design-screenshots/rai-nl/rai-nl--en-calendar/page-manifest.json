@@ -1,0 +1,145 @@
+{
+  "url": "https://www.rai.nl/en/calendar",
+  "slug": "rai-nl--en-calendar",
+  "sectionOrder": [
+    "CookieBanner",
+    "Header",
+    "Breadcrumb",
+    "CalendarListingSection",
+    "Footer"
+  ],
+  "components": [
+    {
+      "cmsName": "Breadcrumb",
+      "folderName": "breadcrumb",
+      "type": "breadcrumb",
+      "scope": "page",
+      "selector": "#content > div:nth-of-type(2)",
+      "reason": "Breadcrumb navigation",
+      "order": 0,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "CalendarListingSection",
+      "folderName": "calendar-listing-section",
+      "type": "listing",
+      "scope": "page",
+      "selector": "#content > div:nth-of-type(3)",
+      "reason": "Calendar listing (10 event links)",
+      "order": 1,
+      "placeholderFor": "EventListCard",
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "type": "footer",
+      "scope": "site",
+      "selector": "footer.sticky.top-\\[100vh\\]",
+      "reason": "Site footer with links and legal",
+      "order": 2,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    }
+  ],
+  "stickyOverlays": {
+    "components": [
+      {
+        "cmsName": "CookieBanner",
+        "captured": false,
+        "skipped": true
+      },
+      {
+        "cmsName": "Header",
+        "captured": true,
+        "recaptured": true
+      }
+    ],
+    "hideMethod": "css",
+    "found": true
+  },
+  "fullPageShots": {
+    "overlay": {
+      "desktop": "desktop.png",
+      "tablet": "tablet.png",
+      "mobile": "mobile.png"
+    },
+    "clean": {
+      "desktop": "desktop-clean.png",
+      "tablet": "tablet-clean.png",
+      "mobile": "mobile-clean.png"
+    }
+  },
+  "design": {
+    "fonts": [
+      {
+        "family": "Font Awesome Kit",
+        "count": 20,
+        "sources": []
+      },
+      {
+        "family": "RobotoBold",
+        "count": 13,
+        "sources": []
+      }
+    ],
+    "colors": {
+      "primary": {
+        "hex": [
+          "#6d73b5",
+          "#e50040"
+        ],
+        "gradients": []
+      },
+      "secondary": {
+        "hex": [
+          "#128a00",
+          "#ffffff"
+        ],
+        "gradients": []
+      },
+      "accent": {
+        "hex": [],
+        "gradients": []
+      },
+      "neutrals": {
+        "hex": [
+          "#000000",
+          "#141414",
+          "#333333",
+          "#343a40",
+          "#747474",
+          "#7e808c",
+          "#cccccc",
+          "#d3dde480",
+          "#e2e8f0",
+          "#e6e6e6"
+        ],
+        "gradients": []
+      },
+      "semantic": {
+        "success": "#19692c",
+        "error": "#e71313",
+        "warning": "#fdfd77",
+        "info": "#00968f"
+      }
+    },
+    "css": {
+      "directory": "css",
+      "files": [
+        {
+          "file": "css/content-styles.css",
+          "href": "https://edge-platform.sitecorecloud.io/v1/files/pages/styles/content-styles.css?sitecoreContextId=4mnibCil6ANoCxNyic7Mu4",
+          "score": 35
+        }
+      ]
+    }
+  }
+}

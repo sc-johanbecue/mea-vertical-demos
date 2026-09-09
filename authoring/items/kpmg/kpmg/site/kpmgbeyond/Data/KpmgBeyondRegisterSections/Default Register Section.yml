@@ -1,0 +1,206 @@
+---
+ID: "a5000207-0001-4000-8000-000000000001"
+Parent: "a5000007-0001-4000-8000-000000000007"
+Template: "a5000007-0001-4000-8000-000000000002"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondRegisterSections/Default Register Section
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260606T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00000000-0000-0000-0000-000000000001"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260606T120000Z
+    - ID: "a5000007-0001-4000-8000-000000000010"
+      Hint: PageTitle
+      Value: Create an account
+    - ID: "a5000007-0001-4000-8000-000000000011"
+      Hint: PageIntro
+      Value: "Join Beyond for free access to expertise, events, and personalised content."
+    - ID: "a5000007-0001-4000-8000-000000000012"
+      Hint: LoginPrompt
+      Value: Already have an account?
+    - ID: "a5000007-0001-4000-8000-000000000013"
+      Hint: LoginLink
+      Value: |
+        <link linktype="external" url="/auth/login" text="Login" anchor="" target="" class="" />
+    - ID: "a5000007-0001-4000-8000-000000000014"
+      Hint: FirstNameLabel
+      Value: First name
+    - ID: "a5000007-0001-4000-8000-000000000015"
+      Hint: LastNameLabel
+      Value: Last name
+    - ID: "a5000007-0001-4000-8000-000000000016"
+      Hint: EmailLabel
+      Value: Business email address
+    - ID: "a5000007-0001-4000-8000-000000000017"
+      Hint: PasswordLabel
+      Value: Password
+    - ID: "a5000007-0001-4000-8000-000000000018"
+      Hint: ConfirmPasswordLabel
+      Value: Confirm password
+    - ID: "a5000007-0001-4000-8000-000000000019"
+      Hint: CompanyLabel
+      Value: Company
+    - ID: "a5000007-0001-4000-8000-00000000001a"
+      Hint: SectorLabel
+      Value: Sector
+    - ID: "a5000007-0001-4000-8000-00000000001b"
+      Hint: JobRoleLabel
+      Value: Role
+    - ID: "a5000007-0001-4000-8000-00000000001c"
+      Hint: BusinessPostcodeLabel
+      Value: Business postcode
+    - ID: "a5000007-0001-4000-8000-00000000001d"
+      Hint: AnnualTurnoverLabel
+      Value: Annual turnover
+    - ID: "a5000007-0001-4000-8000-00000000001e"
+      Hint: TopicsSectionTitle
+      Value: Topic preferences
+    - ID: "a5000007-0001-4000-8000-00000000001f"
+      Hint: TopicsIntro
+      Value: "Select three or more topics to personalise your Beyond experience."
+    - ID: "a5000007-0001-4000-8000-000000000020"
+      Hint: TopicOptions
+      Value: |
+        Cyber Security
+        Digital Transformation
+        Leadership and Personal Development
+        Legal
+        Operational Resilience
+        Public Service and Policy
+        Funding Investment and Acquisitions
+        Growth and Internationalisation
+        Strategy and Planning
+        Tax
+        Workforce
+        Sustainability
+    - ID: "a5000007-0001-4000-8000-000000000021"
+      Hint: TermsLabel
+      Value: "I agree to the Terms of Use and Privacy Policy."
+    - ID: "a5000007-0001-4000-8000-000000000022"
+      Hint: MarketingLabel
+      Value: "I would like to receive marketing communications from KPMG."
+    - ID: "a5000007-0001-4000-8000-000000000023"
+      Hint: CaptchaImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/captcha-placeholder.png" alt="Captcha placeholder" />
+    - ID: "a5000007-0001-4000-8000-000000000024"
+      Hint: SubmitButtonLabel
+      Value: Create an account
+    - ID: "a5000007-0001-4000-8000-000000000025"
+      Hint: SubmittingLabel
+      Value: Creating account…
+    - ID: "a5000007-0001-4000-8000-000000000026"
+      Hint: ErrorMessage
+      Value: "We could not create your account. Please check your details and try again."
+    - ID: "a5000007-0001-4000-8000-000000000027"
+      Hint: SuccessMessage
+      Value: "Your account has been created. You can now sign in."
+    - ID: "a5000007-0001-4000-8000-000000000028"
+      Hint: SectorOptions
+      Value: |
+        Accountancy Practice
+        Agriculture
+        Banking
+        Charity / Not for profit
+        Construction
+        Education
+        Energy and Natural Resources
+        Financial Services
+        Food and Beverage
+        Government and Public Sector
+        Healthcare
+        Insurance
+        Legal
+        Life Sciences
+        Manufacturing
+        Media
+        Professional Services
+        Real Estate
+        Retail
+        Technology
+        Telecommunications
+        Transport and Logistics
+        Travel and Leisure
+        Other
+    - ID: "a5000007-0001-4000-8000-000000000029"
+      Hint: JobRoleOptions
+      Value: |
+        Accountant
+        Accounts Director
+        Analyst
+        Assistant
+        Assistant Manager
+        Associate
+        Audit Manager
+        Auditor
+        Board Member
+        Business Analyst
+        Business Development Manager
+        Business Owner
+        CEO
+        CFO
+        Chair
+        Chief Executive
+        Chief Financial Officer
+        Chief Operating Officer
+        Chief Technology Officer
+        Consultant
+        Director
+        Engineer
+        Executive
+        Finance Director
+        Finance Manager
+        Founder
+        General Manager
+        Head of Department
+        HR Director
+        HR Manager
+        IT Director
+        IT Manager
+        Manager
+        Managing Director
+        Non-Executive Director
+        Operations Director
+        Operations Manager
+        Owner
+        Partner
+        President
+        Project Manager
+        Senior Manager
+        Solicitor
+        Supervisor
+        Team Leader
+        Trustee
+        Vice President
+        Other
+    - ID: "a5000007-0001-4000-8000-00000000002a"
+      Hint: AnnualTurnoverOptions
+      Value: |
+        Less than £1m
+        £1m - £5m
+        £5m - £10m
+        £10m - £50m
+        £50m - £100m
+        £100m - £500m
+        £500m - £1bn
+        More than £1bn

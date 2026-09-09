@@ -1,0 +1,44 @@
+﻿---
+ID: "052175fa-02e1-40b6-8a1b-ff28b56aaad0"
+Parent: "a49d1a27-b109-415a-83ac-e8e345581ac3"
+Template: "a9f790b5-633a-4d63-b8e6-51d5d60d191d"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/ContentCards/Miller Homes wins British Business Award"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T000150Z
+    - ID: "281692b6-ec6e-4153-a926-c9464303b3cf"
+      Hint: Image
+      Value: |
+        <image mediaid="{27983BA7-B327-4F18-9BE0-AE9F9A54DA3C}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11d83fff-fd06-4404-ac0e-628bd58cc3cd"
+    - ID: "a8a485dc-78e2-4c09-8ef7-072e33572704"
+      Hint: Title
+      Value:  Miller Homes wins British Business Award
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bebc194d-8431-4a36-87e5-c8467173b87a"
+      Hint: CTAText
+      Value: Find out more
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T114735Z
+    - ID: "f8692781-5ca1-4920-9d75-9056553e7f99"
+      Hint: Description
+      Value: Miller Homes wins Customer Satisfaction award at the 2025 British Business Awards.

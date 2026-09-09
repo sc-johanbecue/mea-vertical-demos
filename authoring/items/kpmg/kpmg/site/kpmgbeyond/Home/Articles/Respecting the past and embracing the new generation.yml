@@ -1,0 +1,62 @@
+﻿---
+ID: "9744c157-7917-3241-b0a2-f9c5a54d501a"
+Parent: "31ed7662-82c7-402c-85c0-cc041b93c9bc"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Articles/Respecting the past and embracing the new generation
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D0B937FE-65C9-46E8-8A9D-2091B628CA94}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7d79b551-8ce9-4bc8-a496-bbff9a1d0bf0"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260530T140000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: Leadership and Personal Development
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "For the leaders of today, there's a huge responsibility in supporting, enabling and empowering the next generation to realise their potential in a new world, but are they up to the challenge? Aimie Keki, Partner, KPE Audit, believes that the key for today's leaders is to be willing and able to embrace the very real change that's facing them."
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/videos/Respectingthepastembracingthenewgeneration" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Respecting the past and embracing the new generation
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: ArticleTitle
+      Value: Respecting the past and embracing the new generation
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "6ef5115a-93f5-415e-8c4c-57c676c3d2d5"
+      Hint: DateLabel
+      Value: 31st August, 2022
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9cf8cb8c-9dd7-42ab-9ccb-706987f19b27"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="{FC6A0BF3-AE5A-43A1-8641-E8043B98F683}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T051105Z

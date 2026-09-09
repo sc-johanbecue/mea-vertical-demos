@@ -1,0 +1,41 @@
+﻿---
+ID: "43955c4e-7cf0-4f91-b3ec-4bcae98369c2"
+Parent: "f24e3210-89ae-442d-a8f2-96cbc18bd281"
+Template: "f24e3210-89ae-442d-a8f2-96cbc18bd281"
+Path: "/sitecore/templates/Project/miller-homes/AnnouncementBannerSection/AnnouncementBannerSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260201T223859Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "88d61b14-5ef5-490e-8d2b-297e47d34ae6"
+      Hint: Description
+      Value: <p>We are excited to announce that our first release of homes at Bramcote Hills Rise will be available from Thursday 5th February through Holden Copley Estate Agents, located at 20 Wheeler Place, Long Eaton, Nottingham, NG10 1JN.</p><p>This first release showcases a selection of beautifully crafted homes designed to suit contemporary lifestyles, offering comfort, quality, and sustainable design.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "19c38dd9-053b-48c0-a141-f9c2494816fd"
+    - ID: "9647ce11-3fbe-4765-8467-2e76e7b24f38"
+      Hint: ReadMoreLink
+      Value: |
+        <link text="Read more" anchor="" linktype="internal" class="" title="Read more about the release" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d66b8f54-3124-40fc-9b82-bf9e17019a15"
+      Hint: Heading
+      Value: "The Wait is Almost Over - First Homes Available 5th February"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260201T224027Z

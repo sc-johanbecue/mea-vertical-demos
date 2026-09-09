@@ -1,0 +1,33 @@
+---
+ID: "84e47c05-9ea1-489c-81e8-30b504ec5e02"
+Parent: "7245e1b4-4eeb-4f9d-8d9e-9bc62157e362"
+Template: "d672fbc2-b039-4c75-a389-ab1a2ed3d614"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/Headers/Site Header"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "ed36bde4-dc62-4f10-8635-ab964b611122"
+      Hint: Logo
+      Value: |
+        <image mediaid="{735AE029-36CF-4ACE-8DA4-C09D7E721F66}" alt="Bermuda Monetary Authority" />
+    - ID: "94a86338-b0ef-4341-820b-332dfe562318"
+      Hint: LogoLink
+      Value: |
+        <link text="Bermuda Monetary Authority" linktype="internal" id="{F5AB8E88-9630-4D14-A33A-0387B06C1C4B}" url="/" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "84e47c05-9ea1-489c-81e8-30b504ec5e02"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-19T13:28:15.465Z",
+  "reviewStatus": "pending",
+  "sectionFolder": "footer",
+  "review": {
+    "narrativeSummary": "We will create one component: Footer. Footer datasource fields: CopyrightText, Logo. Sitecore placeholder \"footer-links\" on Footer accepts multiple LinkList item(s). Each LinkList is authored with: see allowed rendering fields. Layout: columns. LinkList goes inside the \"footer-links\" placeholder (nested rendering — build separately).",
+    "notes": [
+      "Detection: Site footer with links and legal",
+      "Placeholder \"footer-links\" → LinkList (columns)."
+    ],
+    "contentGuidance": null,
+    "nextSteps": [
+      "Review the narrative summary and responsive layout notes against the section PNGs.",
+      "Edit component names or fields in this file if the plan looks wrong, then set reviewStatus to \"approved\".",
+      "Run sitecore-component-from-design for each component under implementationPlan.components.",
+      "Create YAML artifacts listed under each component.yaml.artifacts.",
+      "Wire renderings into page YAML via sitecore-page-from-design."
+    ]
+  },
+  "responsiveLayout": null,
+  "detection": {
+    "cmsName": "Footer",
+    "folderName": "footer",
+    "type": "footer",
+    "componentType": "Footer",
+    "scope": "site",
+    "selector": "div.footer__container",
+    "anchorWebid": null,
+    "heading": "Quick access",
+    "reason": "Site footer with links and legal",
+    "captureMode": "clean",
+    "isStickyOverlay": false,
+    "order": 5,
+    "repeatCount": null,
+    "placeholderFor": null,
+    "parentSection": null,
+    "includesSectionTitle": false,
+    "detectedFields": [],
+    "source": "visual-dom"
+  },
+  "assets": {
+    "screenshots": {
+      "desktop": "footer-desktop.png",
+      "tablet": "footer-tablet.png",
+      "mobile": "footer-mobile.png"
+    },
+    "sectionHtml": "section.html",
+    "outputDir": "footer"
+  },
+  "implementationPlan": {
+    "confidence": "high",
+    "summary": "Build 1 Sitecore component: Footer.",
+    "placeholderKey": null,
+    "repeatCount": 0,
+    "components": [
+      {
+        "role": "standalone",
+        "cmsName": "Footer",
+        "componentType": "Footer",
+        "description": "Site footer with link columns and legal.",
+        "confidence": "high",
+        "fields": [
+          {
+            "name": "CopyrightText",
+            "type": "Single-Line Text"
+          },
+          {
+            "name": "Logo",
+            "type": "Image"
+          }
+        ],
+        "placeholders": [
+          {
+            "key": "footer-links-{DynamicPlaceholderId}",
+            "allowedRenderings": [
+              "LinkList"
+            ],
+            "layout": "columns"
+          }
+        ],
+        "variants": [
+          "Default",
+          "Inversed",
+          "ImageTop",
+          "Animated"
+        ],
+        "parentComponents": [],
+        "tsx": {
+          "componentMapKey": "Footer",
+          "directory": "src/components/footer/",
+          "mainFile": "src/components/footer/Footer.tsx",
+          "variantExports": [
+            "Default",
+            "Inversed",
+            "ImageTop",
+            "Animated"
+          ],
+          "componentMapRegistration": ".sitecore/component-map.ts → 'Footer': () => import('@/components/footer/Footer')"
+        },
+        "yaml": {
+          "sitecoreProjectPath": "authoring/items/{ProjectName}/serialized-content/",
+          "artifacts": [
+            {
+              "kind": "template-branch",
+              "description": "Sitecore template branch (Template, Data section, field items)",
+              "pathPattern": "/sitecore/templates/Project/{project}/Footer/"
+            },
+            {
+              "kind": "rendering",
+              "description": "Json rendering definition",
+              "pathPattern": "/sitecore/layout/Renderings/Project/{project}/Footer"
+            },
+            {
+              "kind": "headless-variants-folder",
+              "description": "Headless Variants folder for Experience Editor",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/Footer"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Default variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/Footer/Default.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Inversed variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/Footer/Inversed.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "ImageTop variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/Footer/ImageTop.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Animated variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/Footer/Animated.yml"
+            },
+            {
+              "kind": "data-folder",
+              "description": "Datasource folder for authored content",
+              "pathPattern": "{siteContentPath}/Data/Footers"
+            },
+            {
+              "kind": "default-datasource",
+              "description": "Default datasource item with field values from design",
+              "pathPattern": "{siteContentPath}/Data/Footers/Default Footer.yml"
+            },
+            {
+              "kind": "placeholder-setting",
+              "description": "Placeholder setting for footer-links-{DynamicPlaceholderId}",
+              "pathPattern": "/sitecore/layout/Placeholder Settings/Project/{project}/footer-links",
+              "placeholderKey": "footer-links-{DynamicPlaceholderId}",
+              "allowedRenderings": [
+                "LinkList"
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "name": "CopyrightText",
+              "type": "Single-Line Text"
+            },
+            {
+              "name": "Logo",
+              "type": "Image"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

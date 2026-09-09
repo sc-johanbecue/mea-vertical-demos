@@ -1,0 +1,16 @@
+{
+  "fields": [
+    {
+      "name": "Title",
+      "title": "Title",
+      "type": "Single-Line Text",
+      "sort": 100
+    },
+    {
+      "name": "Intro",
+      "title": "Intro",
+      "type": "Multi-Line Text",
+      "sort": 200
+    }
+  ]
+}

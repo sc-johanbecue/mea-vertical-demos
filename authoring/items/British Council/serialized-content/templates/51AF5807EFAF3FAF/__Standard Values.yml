@@ -1,0 +1,23 @@
+---
+ID: "01076c18-e9a6-4c19-a2d2-208915de3f20"
+Parent: "10383274-8a3c-467e-afee-bee27cbb83f2"
+Template: "10383274-8a3c-467e-afee-bee27cbb83f2"
+Path: "/sitecore/templates/Project/british-council/HighlightLinkItem Templates/HighlightLinkItem Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {AA1EEC4C-67E5-4066-8F7C-3FE5F9C72F50}
+    {10383274-8A3C-467E-AFEE-BEE27CBB83F2}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

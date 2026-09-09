@@ -1,0 +1,61 @@
+﻿---
+ID: "6c068158-5446-465c-827c-49d4d7ee01d6"
+Parent: "f5fd549c-18a5-4387-ab54-e144f6c5bd5c"
+Template: "f5fd549c-18a5-4387-ab54-e144f6c5bd5c"
+Path: "/sitecore/templates/Project/miller-homes/SearchSection/SearchSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T003202Z
+    - ID: "453b82f8-3059-4938-a709-235dad81c742"
+      Hint: PersonaliseButtonText
+      Value: Personalise your search
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "54d7bbb1-ba25-4db6-8912-0aa2b7501d3f"
+      Hint: SearchPlaceholder
+      Value: Search using a postcode, town, development name or region
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "832508bf-0fcf-4f81-83a6-97fad4fe7ef3"
+      Hint: SelectByLocationLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "85c7f100-f8f4-49f5-915e-bd01e8966be4"
+      Hint: PersonaliseButtonLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />
+    - ID: "891e1bb0-2d1d-4f98-a00e-52b603a719f3"
+      Hint: SearchButtonText
+      Value: Search
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f878d1c6-527b-419c-b71d-50c51aaa8fe7"
+    - ID: "a0c3fe8e-706a-4307-8a05-771b77bc6980"
+      Hint: Title
+      Value: Find your new home today
+    - ID: "aea50715-5769-4ec7-ac1c-0f939dc76b66"
+      Hint: ShowhomesText
+      Value: Showhomes near me
+    - ID: "b5cd0ca2-065f-4c79-956f-a7790fad3dc6"
+      Hint: SelectByLocationText
+      Value: Select by location
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T003356Z
+    - ID: "f04ac26a-03d2-437d-a382-884f4427c870"
+      Hint: ShowhomesLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />

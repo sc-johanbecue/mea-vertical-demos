@@ -1,0 +1,36 @@
+---
+ID: "2d1b1d9a-8dbf-4ae5-8d88-0e732964c12a"
+Parent: "0492b754-99a1-4361-8059-d8a4ae59a94e"
+Template: "7bad0098-ecfb-4959-bdf2-bc8cd92f9025"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/HeroSlides/Slide Regulatory"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "dd181db5-2089-45f1-8b5c-a24429a129d2"
+      Hint: Image
+      Value: |
+        <image mediaid="{64D74B81-82C9-4B7E-8D8F-B1BBDF3E86E6}" alt="Regulatory Update - Apr - Jun 2026" />
+    - ID: "7972fcaf-35e5-4884-a2cc-98cce03e028c"
+      Hint: AltText
+      Value: "Regulatory Update - Apr - Jun 2026"
+    - ID: "8b770599-02a2-4ecb-bbea-f70cc3527b2a"
+      Hint: Link
+      Value: |
+        <link text="Learn more" linktype="external" url="https://www.bma.bm/documents-centre/documents-regulatory-updates/general-all-sectors" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d1b1d9a-8dbf-4ae5-8d88-0e732964c12a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

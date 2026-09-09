@@ -1,0 +1,356 @@
+{
+  "url": "https://www.axa.be/nl/particulieren/woning/woonverzekering-brandverzekering",
+  "slug": "axa-be--nl-particulieren-woning-woonverzekering-brandverzekering",
+  "sectionOrder": [
+    "CookieBanner",
+    "TopBar",
+    "Header",
+    "WoonVerzekeringHeroBanner",
+    "StelDeBrandverzekeringSamenTeaserGrid",
+    "JeBrandverzekeringInEenRichTextSection",
+    "WatIsGedektCtaBlock",
+    "RichTextImageBlock",
+    "RichTextImageBlock2",
+    "3EersteMaandenCadeauRichTextImageBlock",
+    "AxaSteedsTotJeRichTextImageBlock",
+    "HebJeEenVraagTeaserGrid",
+    "HoeJeBrandverzekeringOnlineCtaBlock",
+    "JeMakelaarStaatAltijdRichTextImageBlock",
+    "WatOnzeKlantenDenkenHeroCarousel",
+    "OokVoorJeAutoRichTextImageBlock",
+    "NogVragenCtaBlock",
+    "InteressantVoorJouHeroCarousel",
+    "Footer"
+  ],
+  "components": [
+    {
+      "cmsName": "WoonVerzekeringHeroBanner",
+      "folderName": "woon-verzekering-hero-banner",
+      "type": "hero",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"div-image\"])",
+      "reason": "Primary hero with page title",
+      "order": 0,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "StelDeBrandverzekeringSamenTeaserGrid",
+      "folderName": "stel-de-brandverzekering-samen-teaser-grid",
+      "type": "grid",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"habitation_mainpage_hometype\"])",
+      "reason": "VerticalTeaserGrid with section title + 3 repeated tiles",
+      "order": 1,
+      "placeholderFor": "VerticalTeaserCard",
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "JeBrandverzekeringInEenRichTextSection",
+      "folderName": "je-brandverzekering-in-een-rich-text-section",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section.section.u-padding-bottom-7",
+      "reason": "JeBrandverzekeringInEenRichTextSection: editorial content block",
+      "order": 2,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "WatIsGedektCtaBlock",
+      "folderName": "wat-is-gedekt-cta-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"habitation_mainpage_coverage\"])",
+      "reason": "WatIsGedektCtaBlock: editorial content block",
+      "order": 3,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "RichTextImageBlock",
+      "folderName": "rich-text-image-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"_entrypoint_conditions_link\"])",
+      "reason": "RichTextImageBlock: editorial content block",
+      "order": 4,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "RichTextImageBlock2",
+      "folderName": "rich-text-image-block2",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "[data-webid=\"axa-richtext-3460a281686247b4b36a6614d623487e\"]",
+      "reason": "RichTextImageBlock: editorial content block",
+      "order": 5,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "3EersteMaandenCadeauRichTextImageBlock",
+      "folderName": "3-eerste-maanden-cadeau-rich-text-image-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "#main-content > div:nth-of-type(4)",
+      "reason": "3EersteMaandenCadeauRichTextImageBlock: editorial content block",
+      "order": 6,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "AxaSteedsTotJeRichTextImageBlock",
+      "folderName": "axa-steeds-tot-je-rich-text-image-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "#main-content > section:nth-of-type(8)",
+      "reason": "AxaSteedsTotJeRichTextImageBlock: editorial content block",
+      "order": 7,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "HebJeEenVraagTeaserGrid",
+      "folderName": "heb-je-een-vraag-teaser-grid",
+      "type": "grid",
+      "scope": "page",
+      "selector": "#main-content > section:nth-of-type(9)",
+      "reason": "VerticalTeaserGrid with section title + 2 repeated tiles",
+      "order": 8,
+      "placeholderFor": "VerticalTeaserCard",
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "HoeJeBrandverzekeringOnlineCtaBlock",
+      "folderName": "hoe-je-brandverzekering-online-cta-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "[data-webid=\"habitation_mainpage_steps\"]",
+      "reason": "HoeJeBrandverzekeringOnlineCtaBlock: editorial content block",
+      "order": 9,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "JeMakelaarStaatAltijdRichTextImageBlock",
+      "folderName": "je-makelaar-staat-altijd-rich-text-image-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"_broker_property_cta\"])",
+      "reason": "JeMakelaarStaatAltijdRichTextImageBlock: editorial content block",
+      "order": 10,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "WatOnzeKlantenDenkenHeroCarousel",
+      "folderName": "wat-onze-klanten-denken-hero-carousel",
+      "type": "carousel",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"habitation_mainpage_ekomi_content_intro_link\"])",
+      "reason": "Carousel / hero slider",
+      "order": 11,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "OokVoorJeAutoRichTextImageBlock",
+      "folderName": "ook-voor-je-auto-rich-text-image-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"xsell2carinsurance\"])",
+      "reason": "OokVoorJeAutoRichTextImageBlock: editorial content block",
+      "order": 12,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "NogVragenCtaBlock",
+      "folderName": "nog-vragen-cta-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "[data-webid=\"_sectionfaq_property\"]",
+      "reason": "NogVragenCtaBlock: editorial content block",
+      "order": 13,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "InteressantVoorJouHeroCarousel",
+      "folderName": "interessant-voor-jou-hero-carousel",
+      "type": "carousel",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"swiper-a18801679ed7401593d316c555d96838\"])",
+      "reason": "Carousel / hero slider",
+      "order": 14,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "type": "footer",
+      "scope": "site",
+      "selector": "footer.foot",
+      "reason": "Site footer with links and legal",
+      "order": 15,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    }
+  ],
+  "stickyOverlays": {
+    "components": [
+      {
+        "cmsName": "CookieBanner",
+        "captured": true,
+        "recaptured": false
+      },
+      {
+        "cmsName": "TopBar",
+        "captured": true
+      },
+      {
+        "cmsName": "Header",
+        "captured": true
+      }
+    ],
+    "hideMethod": "css",
+    "found": true
+  },
+  "fullPageShots": {
+    "overlay": {
+      "desktop": "desktop.png",
+      "tablet": "tablet.png",
+      "mobile": "mobile.png"
+    },
+    "clean": {
+      "desktop": "desktop-clean.png",
+      "tablet": "tablet-clean.png",
+      "mobile": "mobile-clean.png"
+    }
+  },
+  "design": {
+    "fonts": [
+      {
+        "family": "Source Sans Pro",
+        "count": 231,
+        "sources": [
+          "https://cdn.website.axa.be/fonts/sourcesanspro-bold-subset-latin.woff2",
+          "https://cdn.website.axa.be/fonts/sourcesanspro-regular-subset-latin.woff2",
+          "https://cdn.website.axa.be/fonts/sourcesanspro-semibold-subset-latin.woff2"
+        ]
+      },
+      {
+        "family": "Publico",
+        "count": 19,
+        "sources": [
+          "https://cdn.website.axa.be/fonts/publicoheadline-bold.woff2",
+          "https://cdn.website.axa.be/fonts/PublicoHeadline-Light-subset-latin.woff2"
+        ]
+      },
+      {
+        "family": "icomoon",
+        "count": 3,
+        "sources": [
+          "https://cdn.website.axa.be/fonts/icomoon/fonts/icomoon.woff?tznc38",
+          "https://cdn.website.axa.be/fonts/icomoon/fonts/icomoon.ttf?tznc38",
+          "https://cdn.website.axa.be/fonts/icomoon/fonts/icomoon.svg?tznc38#icomoon"
+        ]
+      }
+    ],
+    "colors": {
+      "primary": {
+        "hex": [
+          "#00008f",
+          "#0000d2",
+          "#0000f7",
+          "#4658fc"
+        ],
+        "gradients": [
+          "linear-gradient(#e2efff 0%, rgba(0, 0, 0, 0) 100%)"
+        ]
+      },
+      "secondary": {
+        "hex": [
+          "#0c0e45",
+          "#750707"
+        ],
+        "gradients": []
+      },
+      "accent": {
+        "hex": [],
+        "gradients": []
+      },
+      "neutrals": {
+        "hex": [
+          "#000000",
+          "#343c3d",
+          "#4a4c5a",
+          "#64677a",
+          "#9fa1b1",
+          "#f2f2f6",
+          "#f8faff",
+          "#fafafb",
+          "#ffeaea",
+          "#fff7f7"
+        ],
+        "gradients": []
+      },
+      "semantic": {
+        "success": null,
+        "error": "#ec000a",
+        "warning": null,
+        "info": "#e2efff"
+      }
+    },
+    "css": {
+      "directory": "css",
+      "files": [
+        {
+          "file": "css/style.css",
+          "href": "https://cdn.website.axa.be/fonts/icomoon/style.css?tznc38",
+          "score": 100
+        },
+        {
+          "file": "css/axa-fonts.css",
+          "href": "https://cdn.website.axa.be/fonts/axa-fonts.css?v=639148782000000000",
+          "score": 100
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,563 @@
+﻿---
+ID: "b11e2600-0001-4001-8500-000000000061"
+Parent: "b11e2600-0001-4001-8500-000000000060"
+Template: "b11e2600-0001-4001-8500-000000000002"
+Path: "/sitecore/content/british-council/british-council/Data/Register Sections/Default Register Section"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260804T000000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b11e2600-0001-4001-8500-000000000061"
+    - ID: "b11e2600-0001-4001-8500-000000000010"
+      Hint: PageTitle
+      Value: Create an account
+    - ID: "b11e2600-0001-4001-8500-000000000011"
+      Hint: PageIntro
+      Value: Register for free access to the British Council Digital Library and learning resources.
+    - ID: "b11e2600-0001-4001-8500-000000000012"
+      Hint: LoginPrompt
+      Value: "Already have an account?"
+    - ID: "b11e2600-0001-4001-8500-000000000013"
+      Hint: LoginLink
+      Value: |
+        <link text="Login" linktype="external" url="/auth/login" anchor="" target="" />
+    - ID: "b11e2600-0001-4001-8500-000000000014"
+      Hint: FirstNameLabel
+      Value: First name
+    - ID: "b11e2600-0001-4001-8500-000000000015"
+      Hint: LastNameLabel
+      Value: Last name
+    - ID: "b11e2600-0001-4001-8500-000000000016"
+      Hint: EmailLabel
+      Value: Email address
+    - ID: "b11e2600-0001-4001-8500-000000000017"
+      Hint: PasswordLabel
+      Value: Password
+    - ID: "b11e2600-0001-4001-8500-000000000018"
+      Hint: ConfirmPasswordLabel
+      Value: Confirm password
+    - ID: "b11e2600-0001-4001-8500-000000000019"
+      Hint: CompanyLabel
+      Value: Organisation
+    - ID: "b11e2600-0001-4001-8500-00000000001a"
+      Hint: SectorLabel
+      Value: Sector
+    - ID: "b11e2600-0001-4001-8500-00000000001b"
+      Hint: JobRoleLabel
+      Value: Role
+    - ID: "b11e2600-0001-4001-8500-00000000001c"
+      Hint: BusinessPostcodeLabel
+      Value: Postcode
+    - ID: "b11e2600-0001-4001-8500-00000000001d"
+      Hint: AnnualTurnoverLabel
+      Value: Organisation size
+    - ID: "b11e2600-0001-4001-8500-00000000001e"
+      Hint: TopicsSectionTitle
+      Value: Topic preferences
+    - ID: "b11e2600-0001-4001-8500-00000000001f"
+      Hint: TopicsIntro
+      Value: Select topics to personalise your library experience.
+    - ID: "b11e2600-0001-4001-8500-000000000020"
+      Hint: TopicOptions
+      Value: |
+        English learning
+        Audiobooks
+        Fiction
+        Magazines
+        Newspapers
+        Comics
+        Movies
+        Exams and assessment
+        Teaching resources
+        Arts and culture
+    - ID: "b11e2600-0001-4001-8500-000000000021"
+      Hint: TermsLabel
+      Value: I agree to the Terms of Use and Privacy Policy.
+    - ID: "b11e2600-0001-4001-8500-000000000022"
+      Hint: MarketingLabel
+      Value: I would like to receive communications from the British Council.
+    - ID: "b11e2600-0001-4001-8500-000000000024"
+      Hint: SubmitButtonLabel
+      Value: Create an account
+    - ID: "b11e2600-0001-4001-8500-000000000025"
+      Hint: SubmittingLabel
+      Value: Creating account…
+    - ID: "b11e2600-0001-4001-8500-000000000026"
+      Hint: ErrorMessage
+      Value: We could not create your account. Please check your details and try again.
+    - ID: "b11e2600-0001-4001-8500-000000000027"
+      Hint: SuccessMessage
+      Value: Your account has been created. You can now sign in.
+    - ID: "b11e2600-0001-4001-8500-000000000028"
+      Hint: SectorOptions
+      Value: |
+        Primary education
+        Secondary education
+        Higher education
+        English language learning
+        Arts and culture
+        Public sector
+        Not for profit
+        Corporate
+        Other
+    - ID: "b11e2600-0001-4001-8500-000000000029"
+      Hint: JobRoleOptions
+      Value: |
+        Teacher
+        Student
+        Librarian
+        Education manager
+        School administrator
+        Policy maker
+        Researcher
+        Partner organisation
+        Other
+    - ID: "b11e2600-0001-4001-8500-00000000002a"
+      Hint: AnnualTurnoverOptions
+      Value: |
+        Less than £5 million
+        £5 million - £25 million
+        £25 million - £50 million
+        £50 million - £100 million
+        More than £100 million
+        Not applicable
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260804T000000Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260804T000000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "07e4688e-045f-4178-896b-043fba7dfe95"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2600-0001-4001-8500-000000000010"
+      Hint: PageTitle
+      Value: Créer un compte
+    - ID: "b11e2600-0001-4001-8500-000000000011"
+      Hint: PageIntro
+      Value: "Inscrivez-vous pour un accès gratuit à la bibliothèque numérique et aux ressources d'apprentissage de la British Council."
+    - ID: "b11e2600-0001-4001-8500-000000000012"
+      Hint: LoginPrompt
+      Value: "Vous avez déjà un compte ?"
+    - ID: "b11e2600-0001-4001-8500-000000000013"
+      Hint: LoginLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Connexion" url="/auth/login" />
+    - ID: "b11e2600-0001-4001-8500-000000000014"
+      Hint: FirstNameLabel
+      Value: Prénom
+    - ID: "b11e2600-0001-4001-8500-000000000015"
+      Hint: LastNameLabel
+      Value: Nom de famille
+    - ID: "b11e2600-0001-4001-8500-000000000016"
+      Hint: EmailLabel
+      Value: "Adresse e-mail"
+    - ID: "b11e2600-0001-4001-8500-000000000017"
+      Hint: PasswordLabel
+      Value: Mot de passe
+    - ID: "b11e2600-0001-4001-8500-000000000018"
+      Hint: ConfirmPasswordLabel
+      Value: Confirmer le mot de passe
+    - ID: "b11e2600-0001-4001-8500-000000000019"
+      Hint: CompanyLabel
+      Value: Organisation
+    - ID: "b11e2600-0001-4001-8500-00000000001a"
+      Hint: SectorLabel
+      Value: Secteur
+    - ID: "b11e2600-0001-4001-8500-00000000001b"
+      Hint: JobRoleLabel
+      Value: Rôle
+    - ID: "b11e2600-0001-4001-8500-00000000001c"
+      Hint: BusinessPostcodeLabel
+      Value: Code postal
+    - ID: "b11e2600-0001-4001-8500-00000000001d"
+      Hint: AnnualTurnoverLabel
+      Value: Taille de l'organisation
+    - ID: "b11e2600-0001-4001-8500-00000000001e"
+      Hint: TopicsSectionTitle
+      Value: Préférences thématiques
+    - ID: "b11e2600-0001-4001-8500-00000000001f"
+      Hint: TopicsIntro
+      Value: Sélectionnez des sujets pour personnaliser votre expérience de bibliothèque.
+    - ID: "b11e2600-0001-4001-8500-000000000020"
+      Hint: TopicOptions
+      Value: |
+        Apprentissage de l'anglais
+        Livres audio
+        Romans
+        Magazines
+        Journaux
+        Bandes dessinées
+        Films
+        Examens et évaluations
+        Ressources pédagogiques
+        Arts et culture
+    - ID: "b11e2600-0001-4001-8500-000000000021"
+      Hint: TermsLabel
+      Value: J'accepte les Conditions d'utilisation et la Politique de confidentialité.
+    - ID: "b11e2600-0001-4001-8500-000000000022"
+      Hint: MarketingLabel
+      Value: Je souhaite recevoir des communications de la British Council.
+    - ID: "b11e2600-0001-4001-8500-000000000024"
+      Hint: SubmitButtonLabel
+      Value: Créer un compte
+    - ID: "b11e2600-0001-4001-8500-000000000025"
+      Hint: SubmittingLabel
+      Value: Création du compte…
+    - ID: "b11e2600-0001-4001-8500-000000000026"
+      Hint: ErrorMessage
+      Value: Nous n'avons pas pu créer votre compte. Veuillez vérifier vos informations et réessayer.
+    - ID: "b11e2600-0001-4001-8500-000000000027"
+      Hint: SuccessMessage
+      Value: Votre compte a été créé. Vous pouvez maintenant vous connecter.
+    - ID: "b11e2600-0001-4001-8500-000000000028"
+      Hint: SectorOptions
+      Value: |
+        Éducation primaire
+        Éducation secondaire
+        Enseignement supérieur
+        Apprentissage de la langue anglaise
+        Arts et culture
+        Secteur public
+        Organisme à but non lucratif
+        Entreprise
+        Autre
+    - ID: "b11e2600-0001-4001-8500-000000000029"
+      Hint: JobRoleOptions
+      Value: |
+        Enseignant
+        Étudiant
+        Bibliothécaire
+        Responsable de l'éducation
+        Administrateur scolaire
+        Décideur politique
+        Chercheur
+        Organisation partenaire
+        Autre
+    - ID: "b11e2600-0001-4001-8500-00000000002a"
+      Hint: AnnualTurnoverOptions
+      Value: |
+        Moins de 5 millions de livres sterling
+        5 millions - 25 millions de livres sterling
+        25 millions - 50 millions de livres sterling
+        50 millions - 100 millions de livres sterling
+        Plus de 100 millions de livres sterling
+        Non applicable
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260804T101946Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260804T000000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abf0b13d-bea9-4472-9128-ec7a487838f6"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2600-0001-4001-8500-000000000010"
+      Hint: PageTitle
+      Value: एक खाता बनाएं
+    - ID: "b11e2600-0001-4001-8500-000000000011"
+      Hint: PageIntro
+      Value: ब्रिटिश काउंसिल डिजिटल लाइब्रेरी और सीखने के संसाधनों तक मुफ्त पहुंच के लिए पंजीकरण करें।
+    - ID: "b11e2600-0001-4001-8500-000000000012"
+      Hint: LoginPrompt
+      Value: "पहले से ही एक खाता है?"
+    - ID: "b11e2600-0001-4001-8500-000000000013"
+      Hint: LoginLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="लॉगिन" url="/auth/login" />
+    - ID: "b11e2600-0001-4001-8500-000000000014"
+      Hint: FirstNameLabel
+      Value: पहला नाम
+    - ID: "b11e2600-0001-4001-8500-000000000015"
+      Hint: LastNameLabel
+      Value: अंतिम नाम
+    - ID: "b11e2600-0001-4001-8500-000000000016"
+      Hint: EmailLabel
+      Value: ईमेल पता
+    - ID: "b11e2600-0001-4001-8500-000000000017"
+      Hint: PasswordLabel
+      Value: पासवर्ड
+    - ID: "b11e2600-0001-4001-8500-000000000018"
+      Hint: ConfirmPasswordLabel
+      Value: पासवर्ड की पुष्टि करें
+    - ID: "b11e2600-0001-4001-8500-000000000019"
+      Hint: CompanyLabel
+      Value: संगठन
+    - ID: "b11e2600-0001-4001-8500-00000000001a"
+      Hint: SectorLabel
+      Value: क्षेत्र
+    - ID: "b11e2600-0001-4001-8500-00000000001b"
+      Hint: JobRoleLabel
+      Value: भूमिका
+    - ID: "b11e2600-0001-4001-8500-00000000001c"
+      Hint: BusinessPostcodeLabel
+      Value: पिन कोड
+    - ID: "b11e2600-0001-4001-8500-00000000001d"
+      Hint: AnnualTurnoverLabel
+      Value: संगठन का आकार
+    - ID: "b11e2600-0001-4001-8500-00000000001e"
+      Hint: TopicsSectionTitle
+      Value: विषय प्राथमिकताएं
+    - ID: "b11e2600-0001-4001-8500-00000000001f"
+      Hint: TopicsIntro
+      Value: अपना पुस्तकालय अनुभव व्यक्तिगत बनाने के लिए विषय चुनें।
+    - ID: "b11e2600-0001-4001-8500-000000000020"
+      Hint: TopicOptions
+      Value: |
+        अंग्रेजी सीखना
+        ऑडियोबुक
+        कथा
+        पत्रिकाएँ
+        समाचार पत्र
+        कॉमिक्स
+        फिल्में
+        परीक्षा और मूल्यांकन
+        शिक्षण संसाधन
+        कला और संस्कृति
+    - ID: "b11e2600-0001-4001-8500-000000000021"
+      Hint: TermsLabel
+      Value: मैं उपयोग की शर्तों और गोपनीयता नीति से सहमत हूं।
+    - ID: "b11e2600-0001-4001-8500-000000000022"
+      Hint: MarketingLabel
+      Value: मैं ब्रिटिश काउंसिल से संचार प्राप्त करना चाहता हूं।
+    - ID: "b11e2600-0001-4001-8500-000000000024"
+      Hint: SubmitButtonLabel
+      Value: एक खाता बनाएं
+    - ID: "b11e2600-0001-4001-8500-000000000025"
+      Hint: SubmittingLabel
+      Value: खाता बना रहा है...
+    - ID: "b11e2600-0001-4001-8500-000000000026"
+      Hint: ErrorMessage
+      Value: हम आपका खाता नहीं बना सके। कृपया अपने विवरण जांचें और पुनः प्रयास करें।
+    - ID: "b11e2600-0001-4001-8500-000000000027"
+      Hint: SuccessMessage
+      Value: आपका खाता बन गया है। अब आप साइन इन कर सकते हैं।
+    - ID: "b11e2600-0001-4001-8500-000000000028"
+      Hint: SectorOptions
+      Value: |
+        प्राथमिक शिक्षा
+        माध्यमिक शिक्षा
+        उच्च शिक्षा
+        अंग्रेजी भाषा सीखना
+        कला और संस्कृति
+        सार्वजनिक क्षेत्र
+        लाभ के लिए नहीं
+        कॉर्पोरेट
+        अन्य
+    - ID: "b11e2600-0001-4001-8500-000000000029"
+      Hint: JobRoleOptions
+      Value: |
+        शिक्षक
+        छात्र
+        पुस्तकालयाध्यक्ष
+        शिक्षा प्रबंधक
+        स्कूल प्रशासक
+        नीति निर्माता
+        शोधकर्ता
+        साझेदार संगठन
+        अन्य
+    - ID: "b11e2600-0001-4001-8500-00000000002a"
+      Hint: AnnualTurnoverOptions
+      Value: |
+        £5 मिलियन से कम
+        £5 मिलियन - £25 मिलियन
+        £25 मिलियन - £50 मिलियन
+        £50 मिलियन - £100 मिलियन
+        £100 मिलियन से अधिक
+        लागू नहीं
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260804T101955Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260804T000000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "03adaa4b-7f03-42ee-a2c8-a7adc7ae1397"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2600-0001-4001-8500-000000000010"
+      Hint: PageTitle
+      Value: Maak een account aan
+    - ID: "b11e2600-0001-4001-8500-000000000011"
+      Hint: PageIntro
+      Value: Registreer voor gratis toegang tot de British Council Digitale Bibliotheek en leermiddelen.
+    - ID: "b11e2600-0001-4001-8500-000000000012"
+      Hint: LoginPrompt
+      Value: "Heeft u al een account?"
+    - ID: "b11e2600-0001-4001-8500-000000000013"
+      Hint: LoginLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Inloggen" url="/auth/login" />
+    - ID: "b11e2600-0001-4001-8500-000000000014"
+      Hint: FirstNameLabel
+      Value: Voornaam
+    - ID: "b11e2600-0001-4001-8500-000000000015"
+      Hint: LastNameLabel
+      Value: Achternaam
+    - ID: "b11e2600-0001-4001-8500-000000000016"
+      Hint: EmailLabel
+      Value: "E-mailadres"
+    - ID: "b11e2600-0001-4001-8500-000000000017"
+      Hint: PasswordLabel
+      Value: Wachtwoord
+    - ID: "b11e2600-0001-4001-8500-000000000018"
+      Hint: ConfirmPasswordLabel
+      Value: Bevestig wachtwoord
+    - ID: "b11e2600-0001-4001-8500-000000000019"
+      Hint: CompanyLabel
+      Value: Organisatie
+    - ID: "b11e2600-0001-4001-8500-00000000001a"
+      Hint: SectorLabel
+      Value: Sector
+    - ID: "b11e2600-0001-4001-8500-00000000001b"
+      Hint: JobRoleLabel
+      Value: Rol
+    - ID: "b11e2600-0001-4001-8500-00000000001c"
+      Hint: BusinessPostcodeLabel
+      Value: Postcode
+    - ID: "b11e2600-0001-4001-8500-00000000001d"
+      Hint: AnnualTurnoverLabel
+      Value: Organisatiegrootte
+    - ID: "b11e2600-0001-4001-8500-00000000001e"
+      Hint: TopicsSectionTitle
+      Value: Voorkeuren voor onderwerpen
+    - ID: "b11e2600-0001-4001-8500-00000000001f"
+      Hint: TopicsIntro
+      Value: Selecteer onderwerpen om uw bibliotheekervaring te personaliseren.
+    - ID: "b11e2600-0001-4001-8500-000000000020"
+      Hint: TopicOptions
+      Value: |
+        Engels leren
+        Audioboeken
+        Fictie
+        Tijdschriften
+        Kranten
+        Strips
+        Films
+        Examens en beoordeling
+        Lesmateriaal
+        Kunst en cultuur
+    - ID: "b11e2600-0001-4001-8500-000000000021"
+      Hint: TermsLabel
+      Value: Ik ga akkoord met de Gebruiksvoorwaarden en Privacybeleid.
+    - ID: "b11e2600-0001-4001-8500-000000000022"
+      Hint: MarketingLabel
+      Value: Ik wil graag communicatie van de British Council ontvangen.
+    - ID: "b11e2600-0001-4001-8500-000000000024"
+      Hint: SubmitButtonLabel
+      Value: Maak een account aan
+    - ID: "b11e2600-0001-4001-8500-000000000025"
+      Hint: SubmittingLabel
+      Value: Account aanmaken...
+    - ID: "b11e2600-0001-4001-8500-000000000026"
+      Hint: ErrorMessage
+      Value: We konden uw account niet aanmaken. Controleer uw gegevens en probeer het opnieuw.
+    - ID: "b11e2600-0001-4001-8500-000000000027"
+      Hint: SuccessMessage
+      Value: Uw account is aangemaakt. U kunt nu inloggen.
+    - ID: "b11e2600-0001-4001-8500-000000000028"
+      Hint: SectorOptions
+      Value: |
+        Primair onderwijs
+        Secundair onderwijs
+        Hoger onderwijs
+        Engelse taal leren
+        Kunst en cultuur
+        Publieke sector
+        Non-profit
+        Bedrijfsleven
+        Andere
+    - ID: "b11e2600-0001-4001-8500-000000000029"
+      Hint: JobRoleOptions
+      Value: |
+        Leraar
+        Student
+        Bibliothecaris
+        Onderwijsmanager
+        Schoolbeheerder
+        Beleidsmaker
+        Onderzoeker
+        Partnerorganisatie
+        Andere
+    - ID: "b11e2600-0001-4001-8500-00000000002a"
+      Hint: AnnualTurnoverOptions
+      Value: |
+        Minder dan £5 miljoen
+        £5 miljoen - £25 miljoen
+        £25 miljoen - £50 miljoen
+        £50 miljoen - £100 miljoen
+        Meer dan £100 miljoen
+        Niet van toepassing
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260804T101942Z

@@ -1,0 +1,141 @@
+﻿---
+ID: "123b7a80-81ec-4a97-bb4b-e2c3ba5e15d3"
+Parent: "e44a72ac-4bb3-4b3f-817e-6d526576f2ec"
+Template: "ec10652d-3afd-49be-9b5d-66ee9cbfe063"
+Path: "/sitecore/content/british-council/british-council/Data/PortalNavItems/Nav Collections"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "97e6e0cd-122e-4c67-b1b0-5d5102fa1d33"
+      Hint: Icon
+      Value: collections
+    - ID: "ab7ce338-78a7-47d1-9cec-b323bb2f4006"
+      Hint: Link
+      Value: |
+        <link text="Collections" linktype="external" url="/portal" anchor="" target="" />
+    - ID: "f42b96ab-ccb6-4e7c-9a43-4a5098811007"
+      Hint: HasChildren
+      Value: 1
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb385e56-d4aa-402a-bbe3-7b2b5ce39f2a"
+    - ID: "97e6e0cd-122e-4c67-b1b0-5d5102fa1d33"
+      Hint: Icon
+      Value: collections
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "ab7ce338-78a7-47d1-9cec-b323bb2f4006"
+      Hint: Link
+      Value: |
+        <link text="Collections" linktype="external" url="/portal" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084721Z
+    - ID: "f42b96ab-ccb6-4e7c-9a43-4a5098811007"
+      Hint: HasChildren
+      Value: 1
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a8fc882e-f5e3-4504-8efa-f8f59ab22e20"
+    - ID: "97e6e0cd-122e-4c67-b1b0-5d5102fa1d33"
+      Hint: Icon
+      Value: collections
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "ab7ce338-78a7-47d1-9cec-b323bb2f4006"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" title="हमारे संग्रह" linktype="external" text="संग्रह" url="/portal" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093412Z
+    - ID: "f42b96ab-ccb6-4e7c-9a43-4a5098811007"
+      Hint: HasChildren
+      Value: 1
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9846263d-0c4d-4c0e-ace3-02538f06eb91"
+    - ID: "97e6e0cd-122e-4c67-b1b0-5d5102fa1d33"
+      Hint: Icon
+      Value: collecties
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "ab7ce338-78a7-47d1-9cec-b323bb2f4006"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Collecties" url="/portal" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084723Z
+    - ID: "f42b96ab-ccb6-4e7c-9a43-4a5098811007"
+      Hint: HasChildren
+      Value: 1

@@ -1,0 +1,50 @@
+﻿---
+ID: "12d0f3c3-8caf-4e3c-9c74-ad3398c71925"
+Parent: "89db907c-5ef7-408a-ac2c-1cc900d1c5fd"
+Template: "d5000003-0001-4000-8000-000000000002"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Communities/Beyond Lounge/More connected systems/Comment 1780911539408/Comment 1780913369990
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260608T100930Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\iMQYdf3C5EYoD7VyNdAjrZmQcNzQ2V7U
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\iMQYdf3C5EYoD7VyNdAjrZmQcNzQ2V7U
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5749954d-2b05-42af-9637-4a8097c2a90f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iMQYdf3C5EYoD7VyNdAjrZmQcNzQ2V7U
+    - ID: "d5000003-0001-4000-8000-000000000010"
+      Hint: Body
+      Value: |
+        <div class="ck-content"><p>hello to hello</p></div>
+    - ID: "d5000003-0001-4000-8000-000000000011"
+      Hint: AuthorName
+      Value: Emma Becue
+    - ID: "d5000003-0001-4000-8000-000000000012"
+      Hint: AuthorTitle
+      Value: Community member
+    - ID: "d5000003-0001-4000-8000-000000000013"
+      Hint: AuthorCompany
+      Value: emma@lellehof.be
+    - ID: "d5000003-0001-4000-8000-000000000015"
+      Hint: PublishedDate
+      Value: "8 June 2026 at 10:09"
+    - ID: "d5000003-0001-4000-8000-000000000016"
+      Hint: AdminApproved
+      Value: 0
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260608T100930Z

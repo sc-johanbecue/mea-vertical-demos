@@ -1,0 +1,54 @@
+﻿---
+ID: "b6b815bf-0f53-45c0-8d1d-c05efe5022fc"
+Parent: "fc98700f-ee11-4af1-9926-8a3d322830f6"
+Template: "fc98700f-ee11-4af1-9926-8a3d322830f6"
+Path: "/sitecore/templates/Project/miller-homes/EmailSignupCard/EmailSignupCard Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0c44dd73-568f-460a-bfd6-13fbe449b8f9"
+      Hint: Heading
+      Value: Stay up to date with your new home journey
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T024411Z
+    - ID: "35ab56e4-4334-438a-a577-b2a1846f8cbb"
+      Hint: BottomLink
+      Value: |
+        <link linktype=\"internal\" id=\"{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}\" />
+    - ID: "4b20481f-d266-46a0-99ec-c225192771e2"
+      Hint: InputPlaceholder
+      Value: Email address
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c505574-ccfc-420a-95c9-c70736faff82"
+      Hint: ButtonLink
+      Value: |
+        <link linktype=\"internal\" id=\"{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}\" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8647fb58-f807-45cc-9eee-b9349ed985d7"
+    - ID: "9afbbdd3-9d0a-44b9-9714-d5fc54f47e68"
+      Hint: ButtonText
+      Value: Register Now
+    - ID: "9b9fc1da-73ce-4cac-88a2-77cf351ade4b"
+      Hint: BottomLinkText
+      Value: "Already have an account? Sign in"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T024419Z
+    - ID: "ee89eadb-94ef-4aaf-b5f3-9b682dd63705"
+      Hint: EmailLabel
+      Value: Email address

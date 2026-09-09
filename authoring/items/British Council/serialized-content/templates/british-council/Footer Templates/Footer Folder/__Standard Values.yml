@@ -1,0 +1,23 @@
+---
+ID: "6d7ec38b-9116-4e40-a66b-de7889ed3f09"
+Parent: "9b54538c-b7ad-40cd-a8b8-d6295da0020f"
+Template: "9b54538c-b7ad-40cd-a8b8-d6295da0020f"
+Path: "/sitecore/templates/Project/british-council/Footer Templates/Footer Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {ABBE88B2-D061-4971-AEE5-872C65DF2770}
+    {9B54538C-B7AD-40CD-A8B8-D6295DA0020F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

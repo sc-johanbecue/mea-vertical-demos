@@ -1,0 +1,34 @@
+{
+  "fields": [
+    {
+      "name": "Image",
+      "title": "Image",
+      "type": "Image",
+      "sort": 100
+    },
+    {
+      "name": "Eyebrow",
+      "title": "Eyebrow",
+      "type": "Single-Line Text",
+      "sort": 200
+    },
+    {
+      "name": "Title",
+      "title": "Title",
+      "type": "Single-Line Text",
+      "sort": 300
+    },
+    {
+      "name": "Body",
+      "title": "Body",
+      "type": "Multi-Line Text",
+      "sort": 400
+    },
+    {
+      "name": "Link",
+      "title": "Link",
+      "type": "General Link",
+      "sort": 500
+    }
+  ]
+}

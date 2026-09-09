@@ -1,0 +1,107 @@
+---
+ID: "ad3fd214-5012-4212-8c1d-9d3b24d5b144"
+Parent: "f5ab8e88-9630-4d14-a33a-0387b06c1c4b"
+Template: "97a02f7a-b48e-4eca-a8bd-58c22054c373"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Home/About Us"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B0A20002-0001-4001-8001-000000000001}"
+          p:before="*"
+          s:ds="2cfacb45-b640-475a-8a00-d65050365cdf"
+          s:id="{C0308900-8ECC-47DA-95FD-F45F8B8DABB3}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{B0A20002-0001-4001-8001-000000000002}"
+          p:after="r[@uid='{B0A20002-0001-4001-8001-000000000001}']"
+          s:ds="ccbc05f2-0275-49e4-8f46-21a333d7468f"
+          s:id="{687DF383-4A5B-4AE7-AE3C-59D069BAB76C}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/breadcrumb-items-1" />
+        <r
+          uid="{B0A20002-0001-4001-8001-000000000003}"
+          p:after="r[@uid='{B0A20002-0001-4001-8001-000000000002}']"
+          s:ds="253f6e67-6cf4-41fa-851c-f988d29932a3"
+          s:id="{687DF383-4A5B-4AE7-AE3C-59D069BAB76C}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/breadcrumb-items-1" />
+        <r
+          uid="{B0A20002-0001-4001-8001-000000000004}"
+          p:after="r[@uid='{B0A20002-0001-4001-8001-000000000003}']"
+          s:ds="893cff89-3fe6-4de1-8fc6-87a4cd567051"
+          s:id="{BA55E1DA-A524-4E09-BD65-DE34947D2E12}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{B0A20002-0001-4001-8001-000000000005}"
+          p:after="r[@uid='{B0A20002-0001-4001-8001-000000000004}']"
+          s:ds="428b53d5-2442-4663-863f-2fffa4540d48"
+          s:id="{C4CA6330-20B2-4B94-AB33-9CE43059A919}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{B0A20002-0001-4001-8001-000000000006}"
+          p:after="r[@uid='{B0A20002-0001-4001-8001-000000000005}']"
+          s:ds="ed809d3c-d79c-4850-857f-beb91d78187d"
+          s:id="{6CBA3EEF-6CDE-4F14-8BD1-6A55B59EF6D5}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{B0A20002-0001-4001-8001-000000000007}"
+          p:after="r[@uid='{B0A20002-0001-4001-8001-000000000006}']"
+          s:ds="e378e781-6a85-449b-82e3-e552f3b806d4"
+          s:id="{53141565-7D72-47A4-94A5-16B48CF74A64}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{B0A20002-0001-4001-8001-000000000008}"
+          p:after="r[@uid='{B0A20002-0001-4001-8001-000000000007}']"
+          s:ds="010113a8-639e-49d5-83ee-9003ffb6056c"
+          s:id="{901A1F54-2997-489F-88D9-8B5F2B724FBD}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/video-items-2" />
+        <r
+          uid="{B0A20002-0001-4001-8001-000000000009}"
+          p:after="r[@uid='{B0A20002-0001-4001-8001-000000000008}']"
+          s:ds="524c8d45-51bd-4cdb-8c3b-1ad6a03a1310"
+          s:id="{901A1F54-2997-489F-88D9-8B5F2B724FBD}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/video-items-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260901T120000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: About Us
+    - ID: "a8c4e2f1-9b7d-4e6a-8c3f-1d5a7b9e0f24"
+      Hint: Image
+      Value: |
+        <image mediaid="{E273B7CC-EBC4-1D48-AD70-B83F9DCCD20A}" alt="About Us" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad3fd214-5012-4212-8c1d-9d3b24d5b144"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260901T120000Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "485dc276-afd9-42bc-891c-29ef93ec9f4f"
+Parent: "23807050-93fb-47dd-8fea-1297b68c49ed"
+Template: "ad15c3b4-0ce0-4b2d-a1ad-8be000c2836d"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/AvailableHomesSections/Default AvailableHomesSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T022256Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5b6f1d2f-14e4-4920-b9b1-cd64f2584c71"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T022256Z

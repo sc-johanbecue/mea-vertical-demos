@@ -1,0 +1,522 @@
+[
+  {
+    "key": "about-us",
+    "title": "About Us",
+    "url": "https://www.bma.bm/about-us",
+    "description": "Who we are, what we do and why we do it – Discover our corporate mission, leadership team and approach to community and culture.",
+    "introTitle": "About Us",
+    "children": [
+      {
+        "title": "What We Do",
+        "children": [
+          { "title": "Vision and Mission", "url": "https://www.bma.bm/about-us" },
+          { "title": "How We Regulate", "url": "https://www.bma.bm/standards-regulations" },
+          {
+            "title": "Our Notes and Coins Exhibit",
+            "children": [
+              { "title": "Introduction", "url": "https://www.bma.bm/introduction" },
+              {
+                "title": "Coin Catalogues",
+                "children": [
+                  { "title": "Commemorative Coins", "url": "https://www.bma.bm/coin-catalogues/commemorative-coins" }
+                ]
+              },
+              { "title": "$2 and $5 Polymer Banknotes", "url": "https://www.bma.bm/polymernotes" },
+              { "title": "Notes and Coins Policy", "url": "https://www.bma.bm/guidelines" },
+              { "title": "Legacy Banknotes FAQs", "url": "https://www.bma.bm/legacy-faq" },
+              { "title": "Education", "url": "https://www.bma.bm/education" }
+            ]
+          }
+        ]
+      },
+      { "title": "Fees", "url": "https://www.bma.bm/documents-centre/documents-fees/general-all-sectors" },
+      {
+        "title": "Who We Are",
+        "children": [
+          {
+            "title": "Board of Directors",
+            "children": [
+              { "title": "Our Board", "url": "https://www.bma.bm/board-of-directors" },
+              { "title": "Corporate Governance", "url": "https://www.bma.bm/corporate-governance-function" }
+            ]
+          },
+          { "title": "Executives", "url": "https://www.bma.bm/executives" },
+          { "title": "BMA Management Team", "url": "https://www.bma.bm/management-team" },
+          { "title": "Departments", "url": "https://www.bma.bm/departments" }
+        ]
+      },
+      { "title": "PIPA", "url": "https://www.bma.bm/about-pipa" },
+      { "title": "Community and Culture", "url": "https://www.bma.bm/community" },
+      { "title": "PATI", "url": "https://www.bma.bm/pati" },
+      { "title": "Contact Us", "url": "https://www.bma.bm/contact-us" }
+    ]
+  },
+  {
+    "key": "publications-and-news",
+    "title": "Publications and News",
+    "url": "https://www.bma.bm/documents-centre/documents-news-and-press-releases/general-all-sectors",
+    "description": "BMA's news and publications – Browse press releases, videos, webinars, podcasts, annual reports, papers and more.",
+    "introTitle": "Publications",
+    "children": [
+      {
+        "title": "Publications",
+        "children": [
+          { "title": "Annual Reports", "url": "https://www.bma.bm/documents-centre/document-annual-reports/general-all-sectors" },
+          { "title": "Business Plan", "url": "https://www.bma.bm/documents-centre/document-business-plan/general-all-sectors" },
+          { "title": "BMA Reports And Surveys", "url": "https://www.bma.bm/documents-centre/bma-reports-and-surveys" },
+          { "title": "Quarterly Banking Digest", "url": "https://www.bma.bm/documents-centre/documents-quarterly-banking-digest/documents-banking" },
+          { "title": "Regulatory Updates", "url": "https://www.bma.bm/documents-centre/documents-regulatory-updates/general-all-sectors" }
+        ]
+      },
+      {
+        "title": "News Room",
+        "children": [
+          { "title": "News and Press Releases", "url": "https://www.bma.bm/documents-centre/documents-news-and-press-releases/general-all-sectors" },
+          { "title": "Notices", "url": "https://www.bma.bm/documents-centre/notices-bma-bm" },
+          { "title": "Videos", "url": "https://www.bma.bm/video-resources" }
+        ]
+      },
+      {
+        "title": "Regulatory Documents",
+        "children": [
+          { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers" },
+          { "title": "Policy and Guidance Notes", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance" },
+          { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines" }
+        ]
+      },
+      {
+        "title": "Enforcement",
+        "children": [
+          { "title": "Enforcement Action", "url": "https://www.bma.bm/enforcement-action" },
+          { "title": "Memorandums of Understanding (MOUs)", "url": "https://www.bma.bm/international-agreements" },
+          { "title": "Warning List", "url": "https://www.bma.bm/warning-list" }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "regulated-sectors",
+    "title": "Regulated Sectors",
+    "url": "https://www.bma.bm/regulated-entities",
+    "description": "The BMA supervises all financial service businesses licensed in Bermuda – Access key regulatory legislative files and sector information.",
+    "introTitle": "Regulated Sectors",
+    "children": [
+      {
+        "title": "Legislation",
+        "children": [
+          { "title": "AML/ATF", "url": "https://www.bma.bm/documents-centre/documents-legislation/aml-atf" },
+          { "title": "Banking", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-banking" },
+          { "title": "BMA Act", "url": "https://www.bma.bm/documents-centre/documents-legislation/bma-act" },
+          { "title": "Credit Unions", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-credit-unions" },
+          { "title": "Companies", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-companies" },
+          { "title": "Corporate Service Provider", "url": "https://www.bma.bm/documents-centre/documents-legislation/corporate-service-provider" },
+          {
+            "title": "FinTech",
+            "children": [
+              { "title": "Digital Asset Business", "url": "https://www.bma.bm/documents-centre/documents-legislation/fintech/documents-digital-asset-business" },
+              { "title": "Digital Asset Issuance", "url": "https://www.bma.bm/documents-centre/documents-legislation/fintech/documents-digital-asset-issuance" }
+            ]
+          },
+          { "title": "Fund Administration", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-fund-administration" },
+          { "title": "Insurance", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-insurance" },
+          { "title": "Investment Business", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-investment-business" },
+          { "title": "Investment Funds", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-investment-funds" },
+          { "title": "Money Service Business", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-money-service-business" },
+          { "title": "Prudential Rules", "url": "https://www.bma.bm/documents-centre/documents-legislation/prudential-rules" },
+          { "title": "Prudential Rules Amendments", "url": "https://www.bma.bm/documents-centre/documents-legislation/prudential-rules-amendments" },
+          { "title": "Sanctions", "url": "https://www.bma.bm/documents-centre/documents-legislation/sanctions" },
+          { "title": "Trust Business", "url": "https://www.bma.bm/documents-centre/documents-legislation/trust-business" }
+        ]
+      },
+      {
+        "title": "Industry Information",
+        "children": [
+          {
+            "title": "Beneficial Ownership",
+            "children": [
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-beneficial-ownership" }
+            ]
+          },
+          {
+            "title": "Coordinate Portfolio Investment Survey",
+            "children": [
+              { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/coordinate-portfolio-investment-survey" }
+            ]
+          },
+          {
+            "title": "Conduct of Business",
+            "children": [
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/documents-conduct-of-business" },
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-conduct-of-business" }
+            ]
+          },
+          {
+            "title": "Digital Identity Service Provider",
+            "children": [
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-digital-identity-service-provider-business" }
+            ]
+          },
+          {
+            "title": "Enforcement",
+            "children": [
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-enforcement" },
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/documents-enforcement" }
+            ]
+          },
+          {
+            "title": "Fees",
+            "children": [
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-fee" }
+            ]
+          },
+          {
+            "title": "Outsourcing",
+            "children": [
+              { "title": "Discussion/ Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-outsourcing" },
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/documents-outsourcing" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Banking",
+        "children": [
+          { "title": "Licensing", "url": "https://www.bma.bm/bank-licensing-requirements" },
+          { "title": "Supervision and Regulation", "url": "https://www.bma.bm/banking-supervision-regulation" },
+          { "title": "Basel III", "url": "https://www.bma.bm/banking-basel-iii" },
+          {
+            "title": "Regulatory Legislative Documents",
+            "children": [
+              { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-banking" },
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-banking" },
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/documents-banking" },
+              { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-banking" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Insurance",
+        "children": [
+          {
+            "title": "General Information",
+            "children": [
+              {
+                "title": "Licensing",
+                "children": [
+                  { "title": "Licensing Information", "url": "https://www.bma.bm/insurance-licensing-requirements" },
+                  { "title": "How to Set Up an Insurer", "url": "https://www.bma.bm/insurance-licensing-how-to-set-up-an-insurance-company" }
+                ]
+              },
+              { "title": "Supervision and Regulation", "url": "https://www.bma.bm/insurance-supervision-regulation" },
+              { "title": "Statistics", "url": "https://www.bma.bm/documents-centre/statstics/documents-insurance" },
+              { "title": "Supervisory Bulletin", "url": "https://www.bma.bm/documents-centre/bulletins/documents-insurance" }
+            ]
+          },
+          { "title": "Group Supervision", "url": "https://www.bma.bm/insurance-group-supervision" },
+          { "title": "Innovation", "url": "https://www.bma.bm/innovative-insurance-sandbox" },
+          {
+            "title": "Public Filings",
+            "children": [
+              { "title": "Public Filing Overview", "url": "https://www.bma.bm/public-filing-overview" },
+              {
+                "title": "Financial Statements",
+                "url": "https://www.bma.bm/documents-centre/financial-statements",
+                "children": [
+                  { "title": "Group", "url": "https://www.bma.bm/documents-centre/financial-statements/group-supervision" },
+                  { "title": "Class 3A", "url": "https://www.bma.bm/documents-centre/financial-statements/class-3a" },
+                  { "title": "Class 3B", "url": "https://www.bma.bm/documents-centre/financial-statements/class-3b" },
+                  { "title": "Class 4", "url": "https://www.bma.bm/documents-centre/financial-statements/class-4" },
+                  { "title": "Class C", "url": "https://www.bma.bm/documents-centre/financial-statements/class-c" },
+                  { "title": "Class D", "url": "https://www.bma.bm/documents-centre/financial-statements/class-d" },
+                  { "title": "Class E", "url": "https://www.bma.bm/documents-centre/financial-statements/class-e" }
+                ]
+              },
+              {
+                "title": "Declaration of Compliance",
+                "url": "https://www.bma.bm/documents-centre/declaration-of-compliance",
+                "children": [
+                  { "title": "Class 3A", "url": "https://www.bma.bm/documents-centre/declaration-of-compliance/class-3a" },
+                  { "title": "Class 3B", "url": "https://www.bma.bm/documents-centre/declaration-of-compliance/class-3b" },
+                  { "title": "Class 4", "url": "https://www.bma.bm/documents-centre/declaration-of-compliance/class-4" },
+                  { "title": "Class C", "url": "https://www.bma.bm/documents-centre/declaration-of-compliance/class-c" },
+                  { "title": "Class D", "url": "https://www.bma.bm/documents-centre/declaration-of-compliance/class-d" },
+                  { "title": "Class E", "url": "https://www.bma.bm/documents-centre/declaration-of-compliance/class-e" }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Regulatory Legislative Documents",
+            "children": [
+              { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-insurance" },
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-insurance" },
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/documents-insurance" },
+              { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Corporate Service Providers",
+        "children": [
+          { "title": "Application Information", "url": "https://www.bma.bm/application-information" },
+          { "title": "How to Set up a Corporate Service Provider", "url": "https://www.bma.bm/csp-licensing" },
+          { "title": "Supervision and Regulation", "url": "https://www.bma.bm/csp-supervision-regulation" },
+          {
+            "title": "Regulatory Legislative Documents",
+            "children": [
+              { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/corporate-service-provider" },
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/corporate-service-provider" },
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/corporate-service-provider" },
+              { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/corporate-service-provider" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Investment Business",
+        "children": [
+          { "title": "How to Set up an Investment Business", "url": "https://www.bma.bm/investment-business-licensing" },
+          { "title": "Supervision and Regulation", "url": "https://www.bma.bm/investment-business-supervision-regulation" },
+          { "title": "Statement of Principles", "url": "https://www.bma.bm/statement-of-principles-investment-business" },
+          {
+            "title": "Regulatory Legislative Documents",
+            "children": [
+              { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-investment-business" },
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-investment-business" },
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/documents-investment-business" },
+              { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-investment-business" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Credit Unions",
+        "children": [
+          { "title": "Licensing", "url": "https://www.bma.bm/credit-union-licensing-requirements" },
+          { "title": "Supervision and Regulation", "url": "https://www.bma.bm/credit-unions-supervision-regulation" },
+          {
+            "title": "Regulatory Legislative Documents",
+            "children": [
+              { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-credit-unions" },
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-credit-unions" },
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/documents-credit-unions" },
+              { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-credit-unions" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Investment Funds",
+        "children": [
+          { "title": "How to Set up a Fund", "url": "https://www.bma.bm/investment-funds-licensing" },
+          { "title": "Supervision and Regulation", "url": "https://www.bma.bm/investment-funds-supervision-regulation" },
+          { "title": "Investment Funds List", "url": "https://www.bma.bm/investment-funds-list" },
+          { "title": "Investment Fund Statistics", "url": "https://www.bma.bm/documents-centre/statstics/documents-investment-funds" },
+          {
+            "title": "Regulatory Legislative Documents",
+            "children": [
+              { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-investment-funds" },
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-investment-funds" },
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/documents-investment-funds" },
+              { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-investment-funds" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Financial Technology",
+        "children": [
+          {
+            "title": "Digital Asset Business",
+            "url": "https://www.bma.bm/digital-asset-business",
+            "children": [
+              { "title": "Overview", "url": "https://www.bma.bm/digital-asset-business" },
+              { "title": "Forms and Questionnaires", "url": "https://www.bma.bm/digital-asset-business#accorddata_5" },
+              {
+                "title": "Regulatory Legislative Documents",
+                "children": [
+                  { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/fintech/documents-digital-asset-business" },
+                  { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/fintech/documents-digital-asset-business" },
+                  { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-digital-asset-business" }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Digital Asset Issuance",
+            "url": "https://www.bma.bm/digital-asset-issuance",
+            "children": [
+              {
+                "title": "Regulatory Legislative Documents",
+                "children": [
+                  { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/fintech/documents-digital-asset-issuance" },
+                  { "title": "Forms and Questionnaires", "url": "https://www.bma.bm/digital-asset-issuance#accorddata_3" },
+                  { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-digital-asset-issuance" }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Innovation",
+            "children": [
+              { "title": "Insurance Innovation", "url": "https://www.bma.bm/insurance-innovation" },
+              { "title": "Schedule a call", "url": "https://calendly.com/bmainsuranceinnovation" },
+              { "title": "GFIN", "url": "https://www.bma.bm/digital-asset-business#accorddata_4" }
+            ]
+          },
+          { "title": "Schedule a call with the Digital Assets team", "url": "https://www.bma.bm/digital-asset-business" },
+          { "title": "Schedule a call with the Insurance Innovation team", "url": "https://calendly.com/bmainsuranceinnovation" }
+        ]
+      },
+      {
+        "title": "Money Service Business",
+        "children": [
+          { "title": "Licensing", "url": "https://www.bma.bm/money-service-business-licensing" },
+          { "title": "Supervision and Regulation", "url": "https://www.bma.bm/money-service-business-supervision-regulation" },
+          { "title": "Statement of Principles", "url": "https://www.bma.bm/statement-of-principles-money-service-business" },
+          {
+            "title": "Regulatory Legislative Documents",
+            "children": [
+              { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-money-service-business" },
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-money-service-business" },
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/documents-money-service-business" },
+              { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-money-service-business" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Fund Administration",
+        "children": [
+          { "title": "How to Set up a Fund Administrator", "url": "https://www.bma.bm/fund-administration-licensing" },
+          { "title": "Supervision and Regulation", "url": "https://www.bma.bm/fund-administration-supervision-regulation" },
+          { "title": "Statement of Principles", "url": "https://www.bma.bm/statement-of-principles-fund-administration" },
+          {
+            "title": "Regulatory Legislative Documents",
+            "children": [
+              { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/documents-fund-administration" },
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/documents-fund-administration" },
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/fund-administration-policy-and-guidance" },
+              { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-fund-administration" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Trust Business",
+        "children": [
+          { "title": "How to Set up a Trust Business", "url": "https://www.bma.bm/trust-licensing" },
+          { "title": "Supervision and Regulation", "url": "https://www.bma.bm/trust-supervision-regulation" },
+          { "title": "Statement of Principles", "url": "https://www.bma.bm/statement-of-principles-trust" },
+          {
+            "title": "Regulatory Legislative Documents",
+            "children": [
+              { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/trust-business" },
+              { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/trust-business" },
+              { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/trust-business" },
+              { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/trust-business" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Applications",
+        "children": [
+          { "title": "SubmIT", "url": "https://submit.bma.bm/" },
+          { "title": "INTEGRA", "url": "https://integra.bma.bm/" },
+          { "title": "eSFR Electronic Statutory Financial Return Filing", "url": "https://esfr.bma.bm/" }
+        ]
+      },
+      {
+        "title": "Registration and Fees",
+        "children": [
+          { "title": "Fees", "url": "https://www.bma.bm/documents-centre/documents-fees/general-all-sectors" }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "external-cooperation",
+    "title": "External Cooperation / Assessments",
+    "url": "https://www.bma.bm/international-cooperation",
+    "description": "Learn about the domestic and international organisations the BMA engages with and our international regulatory framework standards.",
+    "introTitle": "External Cooperation / Assessments",
+    "children": [
+      {
+        "title": "International Cooperation",
+        "url": "https://www.bma.bm/international-cooperation",
+        "children": [
+          { "title": "International Agreements and MOUs", "url": "https://www.bma.bm/international-agreements" },
+          { "title": "International Sanctions", "url": "https://www.bma.bm/international-sanctions" }
+        ]
+      },
+      {
+        "title": "Domestic Cooperation",
+        "children": [
+          { "title": "Domestic Agreements", "url": "https://www.bma.bm/domestic-agreements" }
+        ]
+      },
+      {
+        "title": "International Standards",
+        "url": "https://www.bma.bm/international-standards",
+        "children": [
+          { "title": "Basel III", "url": "https://www.bma.bm/understanding-basel-iii-standards" },
+          { "title": "Solvency II", "url": "https://www.bma.bm/understanding-solvency-ii-equivalence" }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "aml-atf",
+    "title": "AML/ATF",
+    "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/aml-atf",
+    "description": "Understand anti-money laundering (AML) and anti-terrorist financing (ATF) regulations and standards in Bermuda.",
+    "introTitle": "AML/ATF",
+    "children": [
+      { "title": "Supervision and Regulation", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/aml-atf" },
+      { "title": "Non-Licensed Persons Registration", "url": "https://www.bma.bm/aml-atf-registration-for-non-licensed-persons" },
+      { "title": "Useful Links", "url": "https://www.bma.bm/useful-links" },
+      { "title": "Service Provider Training", "url": "https://www.bma.bm/service-provider-training" },
+      {
+        "title": "All Regulatory Legislative Documents",
+        "children": [
+          { "title": "Legislation", "url": "https://www.bma.bm/documents-centre/documents-legislation/aml-atf" },
+          { "title": "Discussion/Consultation Papers", "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers/aml-atf" },
+          { "title": "Policy and Guidance", "url": "https://www.bma.bm/documents-centre/documents-policy-and-guidance/aml-atf" },
+          { "title": "Reporting Forms and Guidelines", "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/aml-atf" }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "conduct-of-business",
+    "title": "Conduct of Business",
+    "url": "https://www.bma.bm/conduct-of-business"
+  },
+  {
+    "key": "careers",
+    "title": "Careers",
+    "url": "https://www.bma.bm/careers",
+    "description": "Join our vibrant, forward-thinking BMA team – Explore a range of opportunities, including current vacancies and our Graduate Training Programme (GTP).",
+    "introTitle": "Careers",
+    "children": [
+      {
+        "title": "Careers",
+        "children": [
+          { "title": "Careers at the BMA", "url": "https://www.bma.bm/careers" },
+          { "title": "Career Opportunities", "url": "https://www.bma.bm/vacancies" }
+        ]
+      },
+      {
+        "title": "Graduate Training Programme",
+        "children": [
+          { "title": "About the Programme", "url": "https://www.bma.bm/gtp" },
+          { "title": "How to Apply", "url": "https://www.bma.bm/gtp-faqs" },
+          { "title": "Graduate Profiles", "url": "https://www.bma.bm/gtp-profiles" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "components": {
+    "Header": {
+      "cmsName": "Header",
+      "folderName": "header",
+      "name": "header",
+      "selector": "header.header_text_trans",
+      "type": "header",
+      "scope": "site",
+      "reason": "Sticky overlay (Header) — captured before hide",
+      "componentType": "Header",
+      "isStickyOverlay": true,
+      "captureMode": "overlay",
+      "capturedBeforeHide": true,
+      "outputDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\sections\\header",
+      "outputs": {
+        "desktop": "header/header-desktop.png",
+        "tablet": "header/header-tablet.png",
+        "mobile": "header/header-mobile.png"
+      },
+      "sectionHtml": "header/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "bma-bm--home",
+        "bma-bm--about-us",
+        "bma-bm--documents-centre-discussion-consultation-papers"
+      ]
+    }
+  },
+  "pages": [
+    {
+      "slug": "bma-bm--home",
+      "url": "https://www.bma.bm/",
+      "pageDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\bma-bm\\bma-bm--home",
+      "capturedAt": "2026-09-01T09:09:19.780Z",
+      "sectionOrder": [
+        "Header",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "#wrapper > footer",
+          "reason": "Site footer with links and legal",
+          "order": 0,
+          "heading": "Address",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        }
+      ]
+    },
+    {
+      "slug": "bma-bm--about-us",
+      "url": "https://www.bma.bm/about-us",
+      "pageDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\bma-bm\\bma-bm--about-us",
+      "capturedAt": "2026-09-01T09:09:50.343Z",
+      "sectionOrder": [
+        "Header",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "#wrapper > footer",
+          "reason": "Site footer with links and legal",
+          "order": 0,
+          "heading": "Address",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        }
+      ]
+    },
+    {
+      "slug": "bma-bm--documents-centre-discussion-consultation-papers",
+      "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers",
+      "pageDir": "C:\\Projects\\SE12\\SE12-JBE-DM\\design-screenshots\\bma-bm\\bma-bm--documents-centre-discussion-consultation-papers",
+      "capturedAt": "2026-09-01T09:10:28.248Z",
+      "sectionOrder": [
+        "Header",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "#wrapper > footer",
+          "reason": "Site footer with links and legal",
+          "order": 0,
+          "heading": "Address",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        }
+      ]
+    }
+  ],
+  "projectRoot": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots",
+  "sectionsRoot": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\sections",
+  "updatedAt": "2026-09-01T09:10:28.428Z"
+}

@@ -1,0 +1,35 @@
+﻿---
+ID: "3f686fcd-dc52-46cc-84a5-af8257097690"
+Parent: "0d83f085-da25-4255-921c-2253712a4fe4"
+Template: "31b96108-eeee-43e2-bd72-6069e1e33296"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/NearbyDevelopmentCards/Woodsome View - Coming Soon"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00c39652-e7ca-4b7e-a77b-3cc9c4644606"
+      Hint: Description
+      Value: <p>We are thrilled to announce that this exciting new development is coming soon to Lepton. With a selection of beautiful brand new two, three, four and five bedroom homes available, we're sure you 'll find your perfect place at Woodsome View.</p>
+    - ID: "18799fd4-2872-4939-a836-9d24ed350568"
+      Hint: Name
+      Value: "Woodsome View - Coming Soon"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T144742Z
+    - ID: "66fc2a02-021e-45dc-bf01-5de16b80b020"
+      Hint: Location
+      Value: Lepton, HD8  0JU
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "317bd792-ea31-447a-939c-00162498e843"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T145024Z
+    - ID: "e4006d27-e7c5-418c-b4e2-db642d52f1cd"
+      Hint: CTAText
+      Value: "Discover Woodsome View - Coming Soon"

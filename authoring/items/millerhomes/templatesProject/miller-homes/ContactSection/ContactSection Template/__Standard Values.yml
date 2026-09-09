@@ -1,0 +1,88 @@
+﻿---
+ID: "ed8569e4-d0dc-47f7-9b1c-f601738d886f"
+Parent: "b1bc32b5-2c32-4997-8324-fe00a3330945"
+Template: "b1bc32b5-2c32-4997-8324-fe00a3330945"
+Path: "/sitecore/templates/Project/miller-homes/ContactSection/ContactSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "041f5131-b788-4740-bae9-5458088aa467"
+      Hint: OpeningHours
+      Value: "<p><strong>Monday - Friday:</strong> 10.30am to 5.30pm</p><p><strong>Saturday & Sunday:</strong> 10.30am to 5.30pm</p>"
+    - ID: "06008e39-e79d-4330-a959-bb3336b2f6fd"
+      Hint: BrochureLink
+      Value: |
+        <link linktype=\"internal\" id=\"{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}\" />
+    - ID: "22734372-2829-4851-bc83-70c3460e44e3"
+      Hint: Title
+      Value: Visit us anytime,
+    - ID: "25b40c8e-49e5-4d9d-9fe4-396c1a3470bf"
+      Hint: PhoneDisplayText
+      Value: 01234567890
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T022412Z
+    - ID: "3aa56dd7-6a89-478f-8967-8740e9e94251"
+      Hint: BookAppointmentText
+      Value: Book an appointment
+    - ID: "411fdf88-d669-47da-a6d1-797f9c34a181"
+      Hint: OpeningHoursHeading
+      Value: "Our opening hours are:"
+    - ID: "468fe242-1ef6-4de9-92ee-171a86bf3583"
+      Hint: DownloadBrochureText
+      Value: Download Brochure
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "719f5fc3-a87f-45cd-925d-3186c438445c"
+      Hint: PhoneLink
+      Value: |
+        <link linktype=\"internal\" id=\"{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}\" />
+    - ID: "7a08dc29-44a7-4f04-9973-79314bd0a7f4"
+      Hint: AskQuestionText
+      Value: Ask a Question
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "34206185-ef91-4a41-ae23-0a82535d0162"
+    - ID: "90ad194b-0a02-41a1-9c86-dc42ef0e3f2b"
+      Hint: GetDirectionsText
+      Value: Get Directions
+    - ID: "9616c5f5-14f8-4a0d-b9a7-1f1e3772134e"
+      Hint: CreatePersonalisedBrochureText
+      Value: Create Personalised Brochure
+    - ID: "9b768b28-005a-478a-a14f-d8bcd015c0ae"
+      Hint: Subtitle
+      Value: no appointment needed.
+    - ID: "a42d5cc9-6ab4-419c-b2a0-08f1d1358efe"
+      Hint: PersonalisedBrochureLink
+      Value: |
+        <link linktype=\"internal\" id=\"{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}\" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c1457162-b759-4445-86c6-f910cea1f0a0"
+      Hint: Address
+      Value: Coventry Lane, Bramcote, Nottingham, NG9 3GJ
+    - ID: "ca34cd59-c9ba-4390-bcd9-39ff3629fc12"
+      Hint: DirectionsLink
+      Value: |
+        <link linktype=\"internal\" id=\"{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}\" />
+    - ID: "d4561fe1-9900-401d-a306-bb2a4fa42428"
+      Hint: AppointmentLink
+      Value: |
+        <link linktype=\"internal\" id=\"{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}\" />
+    - ID: "d48beb9c-12b7-422c-9829-dcbc57515e2e"
+      Hint: QuestionLink
+      Value: |
+        <link linktype=\"internal\" id=\"{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}\" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T022428Z

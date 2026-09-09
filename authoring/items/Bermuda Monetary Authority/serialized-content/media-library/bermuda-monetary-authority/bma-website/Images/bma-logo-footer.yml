@@ -1,0 +1,53 @@
+---
+ID: "a1f8c2e4-7b39-4d6a-9e15-3c8f0a2d91b7"
+Parent: "96432d97-506e-4641-a9d8-e24436ec0762"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/bermuda-monetary-authority/bma-website/Images/bma-logo-footer"
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 189
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "e4b7a19c-6d52-4f8e-a1c3-9b0e5d7f2846"
+  Value: iVBORw0KGgoAAAANSUhEUgAAAL0AAABrCAMAAAFiaUOmAAADAFBMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+/LkhhAAAA/3RSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAhIiMkJSYnKCkqKywtLi8wMTIzNDU2Nzg5Ojs8PT4/QEFCQ0RFRkdISUpLTE1O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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 6026
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 189 x 107
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 107
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260902T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Bermuda Monetary Authority
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1f8c2e4-7b39-4d6a-9e15-3c8f0a2d91b7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260902T120000Z

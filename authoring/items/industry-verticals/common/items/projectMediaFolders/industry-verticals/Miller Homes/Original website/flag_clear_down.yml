@@ -1,0 +1,60 @@
+﻿---
+ID: "f53d6e68-ea1a-44b2-ad35-3dd1e5397f4c"
+Parent: "97e18ed0-f832-488b-aba4-de170e6ff5e2"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/Miller Homes/Original website/flag_clear_down"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/F53D6E68EA1A44B2AD353DD1E5397F4C.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 32
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "8a3fe828-903d-44cc-80f4-25ff44df71a1"
+  Value: iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAYAAADskT9PAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goPEAY2c/VOZwAAALJJREFUSMftljEKAjEQRV/EQ3gLy5S5iJfQQuzF2sIjWHiB7XOQ1F5AJLAEMjaD6CLYuBkFPwyEIfA/M5M/cSklLDEVkeakpRRbAeYVeMTEiNeNVoEY49s7IYQvaoGI8MlQdIC8iK6VgCXQD7h6zTcRkIDDgGuv+ednWGsdq71bYAHMgDOwazkDABdgo+c1cLUwoiMwB05WTliBVVMr9t7/xC5w6gs2AnLO1XoZ/f8Dd9wAhg84ZtjxbJ4AAAAASUVORK5CYII=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 293
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 32 x 20
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "733c87ae-86ae-4b90-8a99-d6d037005932"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 20
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T101634Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f44506e-e89d-41fa-8c55-fdfb9e309ebd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T101634Z

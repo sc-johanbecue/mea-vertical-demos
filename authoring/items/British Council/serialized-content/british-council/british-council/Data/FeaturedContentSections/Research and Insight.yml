@@ -1,0 +1,237 @@
+﻿---
+ID: "62dcae68-8373-4f8d-9c54-27bae0805a52"
+Parent: "72915e7c-4f44-473f-a941-b6a424198d97"
+Template: "fcc76945-a2b0-4887-9171-93718a069693"
+Path: "/sitecore/content/british-council/british-council/Data/FeaturedContentSections/Research and Insight"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3eb0d9d0-c494-4551-a74f-469a24ecb34e"
+      Hint: FeaturedLink
+      Value: |
+        <link text="Listen now" linktype="external" url="/" anchor="" target="" />
+    - ID: "44a6b9f0-b37d-4029-aba5-2d32eda9a308"
+      Hint: Title
+      Value: Research and insight
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6323973d-282b-4f50-bbcc-d80bc5aa1340"
+      Hint: FeaturedBody
+      Value: In the latest episode of Our World, Connected, we explore how football serves as a tool for soft power, developing competencies and breaking down barriers. Listen to the conversation with Dr. Lindsay Sarah Krasnoff, a leading sport diplomacy expert, and Nomonde Mashabane, an experienced football coach and educator.
+    - ID: "6ddd247f-de32-4080-acc2-a3ddb8776a12"
+      Hint: Intro
+      Value: |
+        Sharing fresh perspectives and innovative insights on international cultural connections through the arts, education, and the English language, tailored to resonate with India's rich and diverse cultural heritage.
+        
+    - ID: "80f11b59-0541-4e8e-ac35-394fc0b5938a"
+      Hint: FeaturedImage
+      Value: |
+        <image mediaid="386e0451-8dfc-4872-89a1-9e887e0050c9" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b2e3e24-b9be-4e9c-9c14-8f119b45f9ab"
+    - ID: "9f91b706-b124-4c86-a9ae-7be8e3735dc9"
+      Hint: FeaturedTitle
+      Value: "  The beautiful game: how football connects the grassroots and the global      "
+    - ID: "adc4e56e-d5aa-46fe-b0db-43fdf925247c"
+      Hint: FeaturedEyebrow
+      Value: Podcast episode
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gabriel.zamprogna@sitecore.com
+    - ID: "d717cb75-dd8f-4cd9-899a-0028c4697c3b"
+      Hint: ExploreLink
+      Value: |
+        <link text="Explore" linktype="external" url="/" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260805T125943Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3eb0d9d0-c494-4551-a74f-469a24ecb34e"
+      Hint: FeaturedLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Écoutez maintenant" url="/" />
+    - ID: "44a6b9f0-b37d-4029-aba5-2d32eda9a308"
+      Hint: Title
+      Value: Recherche et aperçu
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6323973d-282b-4f50-bbcc-d80bc5aa1340"
+      Hint: FeaturedBody
+      Value: Dans le dernier épisode de Notre Monde, Connecté, nous explorons comment le football sert d'outil de soft power, développant des compétences et brisant les barrières. Écoutez la conversation avec Dr Lindsay Sarah Krasnoff, une experte en diplomatie sportive, et Nomonde Mashabane, une entraîneuse de football et éducatrice expérimentée.
+    - ID: "6ddd247f-de32-4080-acc2-a3ddb8776a12"
+      Hint: Intro
+      Value: |
+        Partager de nouvelles connaissances et les dernières réflexions sur les relations culturelles internationales à travers les arts, l'éducation et la langue anglaise.
+        
+    - ID: "80f11b59-0541-4e8e-ac35-394fc0b5938a"
+      Hint: FeaturedImage
+      Value: |
+        <image mediaid="386e0451-8dfc-4872-89a1-9e887e0050c9" alt="s3_e10_-_landscape_episode_tile_no_logo" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e69056d8-a625-4d90-b687-bb014158761c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9f91b706-b124-4c86-a9ae-7be8e3735dc9"
+      Hint: FeaturedTitle
+      Value: "  Le beau jeu : comment le football connecte les bases et le global      "
+    - ID: "adc4e56e-d5aa-46fe-b0db-43fdf925247c"
+      Hint: FeaturedEyebrow
+      Value: Épisode de podcast
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d717cb75-dd8f-4cd9-899a-0028c4697c3b"
+      Hint: ExploreLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Explorer" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084650Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3eb0d9d0-c494-4551-a74f-469a24ecb34e"
+      Hint: FeaturedLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="अभी सुनें" url="/" />
+    - ID: "44a6b9f0-b37d-4029-aba5-2d32eda9a308"
+      Hint: Title
+      Value: अनुसंधान और अंतर्दृष्टि
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6323973d-282b-4f50-bbcc-d80bc5aa1340"
+      Hint: FeaturedBody
+      Value: हमारे नवीनतम एपिसोड 'Our World, Connected' में, हम यह खोजते हैं कि फुटबॉल कैसे सॉफ्ट पावर का एक उपकरण बनता है, कौशल विकसित करता है और बाधाओं को तोड़ता है। इस बातचीत को सुनें जिसमें डॉ. लिंडसे सारा क्रास्नॉफ, एक प्रमुख खेल कूटनीति विशेषज्ञ, और नोमोंडे मशाबाने, एक अनुभवी फुटबॉल कोच और शिक्षक शामिल हैं।
+    - ID: "6ddd247f-de32-4080-acc2-a3ddb8776a12"
+      Hint: Intro
+      Value: कला, शिक्षा और अंग्रेजी भाषा के माध्यम से अंतरराष्ट्रीय सांस्कृतिक संबंधों पर नए ज्ञान और नवीनतम सोच को साझा करना।
+    - ID: "80f11b59-0541-4e8e-ac35-394fc0b5938a"
+      Hint: FeaturedImage
+      Value: |
+        <image mediaid="386e0451-8dfc-4872-89a1-9e887e0050c9" alt="s3_e10_-_landscape_episode_tile_no_logo" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea6dcb27-9032-4b31-b898-bbe0739f4f7a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9f91b706-b124-4c86-a9ae-7be8e3735dc9"
+      Hint: FeaturedTitle
+      Value: "खूबसूरत खेल: कैसे फुटबॉल जमीनी स्तर और वैश्विक स्तर को जोड़ता है"
+    - ID: "adc4e56e-d5aa-46fe-b0db-43fdf925247c"
+      Hint: FeaturedEyebrow
+      Value: पॉडकास्ट एपिसोड
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d717cb75-dd8f-4cd9-899a-0028c4697c3b"
+      Hint: ExploreLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="अन्वेषण करें" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093342Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "3eb0d9d0-c494-4551-a74f-469a24ecb34e"
+      Hint: FeaturedLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Luister nu" url="/" />
+    - ID: "44a6b9f0-b37d-4029-aba5-2d32eda9a308"
+      Hint: Title
+      Value: Onderzoek en inzicht
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6323973d-282b-4f50-bbcc-d80bc5aa1340"
+      Hint: FeaturedBody
+      Value: In de nieuwste aflevering van Our World, Connected, verkennen we hoe voetbal dient als een instrument voor zachte macht, het ontwikkelen van competenties en het doorbreken van barrières. Luister naar het gesprek met Dr. Lindsay Sarah Krasnoff, een toonaangevende expert op het gebied van sportdiplomatie, en Nomonde Mashabane, een ervaren voetbalcoach en opvoeder.
+    - ID: "6ddd247f-de32-4080-acc2-a3ddb8776a12"
+      Hint: Intro
+      Value: |
+        Het delen van nieuwe kennis en de nieuwste inzichten over internationale culturele relaties via kunst, onderwijs en de Engelse taal.
+        
+    - ID: "80f11b59-0541-4e8e-ac35-394fc0b5938a"
+      Hint: FeaturedImage
+      Value: |
+        <image mediaid="386e0451-8dfc-4872-89a1-9e887e0050c9" alt="s3_e10_-_landscape_episode_tile_no_logo" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "55f88893-9b0d-433c-bfae-c798a5490ba3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9f91b706-b124-4c86-a9ae-7be8e3735dc9"
+      Hint: FeaturedTitle
+      Value: "Het prachtige spel: hoe voetbal de basis en het mondiale verbindt"
+    - ID: "adc4e56e-d5aa-46fe-b0db-43fdf925247c"
+      Hint: FeaturedEyebrow
+      Value: Podcastaflevering
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d717cb75-dd8f-4cd9-899a-0028c4697c3b"
+      Hint: ExploreLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Ontdek" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084652Z

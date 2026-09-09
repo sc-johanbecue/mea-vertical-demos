@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-19T13:28:15.445Z",
+  "reviewStatus": "pending",
+  "sectionFolder": "header",
+  "review": {
+    "narrativeSummary": "We will create one component: Header. Header datasource fields: Logo, LogoLink, LogoText. Sitecore placeholder \"header-nav\" on Header accepts multiple Navigation item(s). Each Navigation is authored with: see allowed rendering fields. Layout: nav. Navigation goes inside the \"header-nav\" placeholder (nested rendering — build separately).",
+    "notes": [
+      "Detection: Sticky overlay (Header) — captured before hide",
+      "Placeholder \"header-nav\" → Navigation (nav)."
+    ],
+    "contentGuidance": null,
+    "nextSteps": [
+      "Review the narrative summary and responsive layout notes against the section PNGs.",
+      "Edit component names or fields in this file if the plan looks wrong, then set reviewStatus to \"approved\".",
+      "Run sitecore-component-from-design for each component under implementationPlan.components.",
+      "Create YAML artifacts listed under each component.yaml.artifacts.",
+      "Wire renderings into page YAML via sitecore-page-from-design."
+    ]
+  },
+  "responsiveLayout": null,
+  "detection": {
+    "cmsName": "Header",
+    "folderName": "header",
+    "type": "header",
+    "componentType": "Header",
+    "scope": "site",
+    "selector": "#banner",
+    "anchorWebid": null,
+    "heading": null,
+    "reason": "Sticky overlay (Header) — captured before hide",
+    "captureMode": "overlay",
+    "isStickyOverlay": true,
+    "order": null,
+    "repeatCount": null,
+    "placeholderFor": null,
+    "parentSection": null,
+    "includesSectionTitle": false,
+    "detectedFields": [],
+    "source": "visual-dom"
+  },
+  "assets": {
+    "screenshots": {
+      "desktop": "header-desktop.png",
+      "tablet": "header-tablet.png",
+      "mobile": "header-mobile.png"
+    },
+    "sectionHtml": "section.html",
+    "outputDir": "header"
+  },
+  "implementationPlan": {
+    "confidence": "high",
+    "summary": "Build 1 Sitecore component: Header.",
+    "placeholderKey": null,
+    "repeatCount": 0,
+    "components": [
+      {
+        "role": "standalone",
+        "cmsName": "Header",
+        "componentType": "Navigation",
+        "description": "Site header with logo and navigation placeholder.",
+        "confidence": "high",
+        "fields": [
+          {
+            "name": "Logo",
+            "type": "Image"
+          },
+          {
+            "name": "LogoLink",
+            "type": "General Link"
+          },
+          {
+            "name": "LogoText",
+            "type": "Single-Line Text"
+          }
+        ],
+        "placeholders": [
+          {
+            "key": "header-nav-{DynamicPlaceholderId}",
+            "allowedRenderings": [
+              "Navigation"
+            ],
+            "layout": "nav"
+          }
+        ],
+        "variants": [
+          "Default",
+          "Inversed",
+          "ImageTop",
+          "Animated"
+        ],
+        "parentComponents": [],
+        "tsx": {
+          "componentMapKey": "Header",
+          "directory": "src/components/header/",
+          "mainFile": "src/components/header/Header.tsx",
+          "variantExports": [
+            "Default",
+            "Inversed",
+            "ImageTop",
+            "Animated"
+          ],
+          "componentMapRegistration": ".sitecore/component-map.ts → 'Header': () => import('@/components/header/Header')"
+        },
+        "yaml": {
+          "sitecoreProjectPath": "authoring/items/{ProjectName}/serialized-content/",
+          "artifacts": [
+            {
+              "kind": "template-branch",
+              "description": "Sitecore template branch (Template, Data section, field items)",
+              "pathPattern": "/sitecore/templates/Project/{project}/Header/"
+            },
+            {
+              "kind": "rendering",
+              "description": "Json rendering definition",
+              "pathPattern": "/sitecore/layout/Renderings/Project/{project}/Header"
+            },
+            {
+              "kind": "headless-variants-folder",
+              "description": "Headless Variants folder for Experience Editor",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/Header"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Default variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/Header/Default.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Inversed variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/Header/Inversed.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "ImageTop variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/Header/ImageTop.yml"
+            },
+            {
+              "kind": "headless-variant",
+              "description": "Animated variant definition",
+              "pathPattern": "{siteContentPath}/Presentation/Headless Variants/Header/Animated.yml"
+            },
+            {
+              "kind": "data-folder",
+              "description": "Datasource folder for authored content",
+              "pathPattern": "{siteContentPath}/Data/Headers"
+            },
+            {
+              "kind": "default-datasource",
+              "description": "Default datasource item with field values from design",
+              "pathPattern": "{siteContentPath}/Data/Headers/Default Header.yml"
+            },
+            {
+              "kind": "placeholder-setting",
+              "description": "Placeholder setting for header-nav-{DynamicPlaceholderId}",
+              "pathPattern": "/sitecore/layout/Placeholder Settings/Project/{project}/header-nav",
+              "placeholderKey": "header-nav-{DynamicPlaceholderId}",
+              "allowedRenderings": [
+                "Navigation"
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "name": "Logo",
+              "type": "Image"
+            },
+            {
+              "name": "LogoLink",
+              "type": "General Link"
+            },
+            {
+              "name": "LogoText",
+              "type": "Single-Line Text"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

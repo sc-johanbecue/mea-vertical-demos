@@ -1,0 +1,17 @@
+---
+ID: "9e4569b7-786c-4532-9fa7-c4a8f2853318"
+Parent: "19fe5c90-d650-4d56-9754-211ac1053e25"
+Template: "19fe5c90-d650-4d56-9754-211ac1053e25"
+Path: "/sitecore/templates/Project/british-council/FooterLinkColumn Templates/FooterLinkColumn Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

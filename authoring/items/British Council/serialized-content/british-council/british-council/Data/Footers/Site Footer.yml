@@ -1,0 +1,125 @@
+﻿---
+ID: "202bb01c-929b-4ed0-a318-bdee50cb27d8"
+Parent: "c93893fc-680c-4636-ad98-db60984318d6"
+Template: "abbe88b2-d061-4971-aee5-872c65df2770"
+Path: "/sitecore/content/british-council/british-council/Data/Footers/Site Footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "28676eb9-7714-41bf-a04a-472ae1ce7c6f"
+      Hint: Copyright
+      Value: © 2026 British Council
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "f719e569-349f-421f-b56a-ffbfb84396a4"
+      Hint: WorldwideTitle
+      Value: British Council Worldwide
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "28676eb9-7714-41bf-a04a-472ae1ce7c6f"
+      Hint: Copyright
+      Value: © 2026 British Council
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "585ccce8-34f7-4ff3-842a-001bf167995c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084704Z
+    - ID: "f719e569-349f-421f-b56a-ffbfb84396a4"
+      Hint: WorldwideTitle
+      Value: British Council dans le monde entier
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "28676eb9-7714-41bf-a04a-472ae1ce7c6f"
+      Hint: Copyright
+      Value: © 2026 ब्रिटिश काउंसिल
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "05c60c78-bae2-4e60-bb35-c16b981d4b46"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093355Z
+    - ID: "f719e569-349f-421f-b56a-ffbfb84396a4"
+      Hint: WorldwideTitle
+      Value: ब्रिटिश काउंसिल वर्ल्डवाइड
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "28676eb9-7714-41bf-a04a-472ae1ce7c6f"
+      Hint: Copyright
+      Value: © 2026 British Council
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "237eae63-8dde-4679-a721-e82e1bb94810"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084704Z
+    - ID: "f719e569-349f-421f-b56a-ffbfb84396a4"
+      Hint: WorldwideTitle
+      Value: British Council Wereldwijd

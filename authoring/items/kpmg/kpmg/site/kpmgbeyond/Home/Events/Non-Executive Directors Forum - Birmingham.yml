@@ -1,0 +1,138 @@
+﻿---
+ID: "ce706026-84d0-49aa-8dca-76c0401c7fee"
+Parent: "23e30bae-367c-48c4-87d6-ab86b55580d7"
+Template: "08185eef-cacb-44b4-81cb-231122a7b3b5"
+Path: "/sitecore/content/kpmg/kpmgbeyond/Home/Events/Non-Executive Directors Forum - Birmingham"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{03A59345-CABC-4FC1-9968-A278691CF7C9}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{5C246E6D-9807-437E-9C4F-9A0A728D34A4}"
+          p:before="*"
+          s:id="{A3000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{19DAFF86-D056-4612-8740-D12F540596B6}"
+          p:after="r[@uid='{5C246E6D-9807-437E-9C4F-9A0A728D34A4}']"
+          s:id="{A3000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{D53DAA1F-CC90-4102-9724-E94548838505}"
+          p:after="r[@uid='{19DAFF86-D056-4612-8740-D12F540596B6}']"
+          s:id="{A3000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{158FE13D-57D4-46A4-B9BE-88B46FCB3C90}"
+          p:after="r[@uid='{D53DAA1F-CC90-4102-9724-E94548838505}']"
+          s:id="{A3000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{B4C3B682-DD58-46CC-B394-7A11A98B298C}"
+          p:after="r[@uid='{158FE13D-57D4-46A4-B9BE-88B46FCB3C90}']"
+          s:id="{A3000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{C4D5E6F7-A8B9-4012-C456-789012345DEF}"
+          p:after="*[1=2]"
+          s:id="{A3000001-0006-4000-8000-000000000006}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260606T120000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Non-Executive Directors Forum (Birmingham)"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5ad8bac9-0735-40c4-b7eb-cc97b53ac9dc"
+      Hint: CategoryLabel
+      Value: Strategy and Planning
+    - ID: "5b6410ea-1c15-42da-9ee6-2cede6f972be"
+      Hint: Image
+      Value: |
+        <image mediaid="5f2d0b7a-788e-411a-8a57-f5bbbb90912d" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "89a5f0a6-05e6-4206-99ae-3dc22e4ccdb5"
+      Hint: EventMonth
+      Value: JUN
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1964ae41-5f11-4199-b4a5-ec8cbe5fafd9"
+    - ID: "a07c92d1-fc66-4639-8e07-74dd019527a6"
+      Hint: Time
+      Value: 9.00 AM
+    - ID: "a6113907-276a-49c5-85e8-119d7066aa7f"
+      Hint: Duration
+      Value: 2h
+    - ID: "a91f3d80-4fa2-4bab-9f01-d40ab9cc6890"
+      Hint: Title
+      Value: "Non-Executive Directors Forum (Birmingham)"
+    - ID: "abdf1a78-5a74-4c3f-bd07-982f87126c87"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/events/Non-Executive-Directors-Forum-Birmingham-June26" anchor="" target="" class="" />
+    - ID: "ad74afd6-ca80-4eb4-ad01-26ed711d6e7d"
+      Hint: Summary
+      Value: "We’re delighted to invite you to our upcoming NED forum at our Birmingham office on 16 June at 9:00 am."
+    - ID: "b6113907-276a-49c5-85e8-119d7066aa80"
+      Hint: Body
+      Value: |
+        <p>We’re delighted to invite you to our upcoming NED forum at our Birmingham office on 16 June at 9:00 am.</p>
+        <p>We’re inviting all aspiring, new and experienced NEDs to an exclusive event, a morning of insights and networking as we explore some of today’s pertinent issues.</p>
+        <p>We’ll be delving into the three topics noted below:<br />- Trusted AI: AI is increasingly shaping core business decisions and creates material risks relating to bias, data privacy, regulation and reputation. Boards remain accountable for how AI is governed, and ineffective oversight can expose organisations to legal, ethical and stakeholder trust issues. A trusted AI approach enables boards to balance innovation with control, supporting resilience, compliance and long term value creation.<br />- Board Inclusion Diversity and Equity: Building inclusive and resilient boards through socio-economic diversity. We will discuss practical and proportionate measures for embedding socio-economic insight into governance and appointments—an emerging area that strengthens Board resilience and future-readiness. Through effective challenge and accountability, boards can help embed inclusive practices that align workforce behaviour with the organisation’s values and long term objectives.<br />- Sustainability: Boards can play a key, proactive role in assessing the opportunities and risks which sustainability presents to long term value creation and organisational resilience. These issues influence strategy, regulatory compliance, investor confidence and reputation, and therefore require effective board level oversight and challenge. Through informed scrutiny, boards can help ensure sustainability is embedded in decision making and aligned with the organisation’s long term interests.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d8113907-276a-49c5-85e8-119d7066aa82"
+      Hint: JoinLink
+      Value: |
+        <link linktype="external" url="/events/Non-Executive-Directors-Forum-Birmingham-June26" text="Join now" anchor="" target="" class="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T073013Z
+    - ID: "e4946d4a-538c-4a84-bdfd-dc2626b93982"
+      Hint: EventDay
+      Value: 16
+    - ID: "e9113907-276a-49c5-85e8-119d7066aa83"
+      Hint: RegisteredMessage
+      Value: Thank you for registering. Please check your email for confirmation.
+    - ID: "f5113907-276a-49c5-85e8-119d7066aa7e"
+      Hint: Location
+      Value: KPMG Birmingham Office, 1 Snow Hill Queensway, Birmingham B4 6GH
+    - ID: "fa113907-276a-49c5-85e8-119d7066aa84"
+      Hint: DateDisplay
+      Value: June 16, 2026 at 9.00 AM
+    - ID: "fc113907-276a-49c5-85e8-119d7066aa86"
+      Hint: SpeakersBody
+      Value: <ul><li><strong>Leanne Allen</strong> — UK Head of AI, KPMG</li><li><strong>James Dennis</strong> — Climate Strategy Lead, KPMG</li><li><strong>Bharat Bhushan</strong> — Partner, KPMG UK</li></ul>

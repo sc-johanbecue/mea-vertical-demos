@@ -1,0 +1,22 @@
+{
+  "pageSlug": "britishcouncil-org--home",
+  "pageDir": "britishcouncil-org--home",
+  "pageSectionsRoot": "britishcouncil-org--home/sections",
+  "domainSectionsRoot": "sections",
+  "mergedAt": "2026-07-29T12:43:17.435Z",
+  "sections": [
+    {
+      "action": "promoted",
+      "cmsName": "EventDetailHeroSection",
+      "sourceCmsName": "EventDetailHeroSection",
+      "domainFolder": "event-detail-hero-section",
+      "pageSectionFolder": "britishcouncil-org--home/sections/event-detail-hero-section",
+      "fingerprint": "964df9e8a6133672",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    }
+  ],
+  "componentsToBuild": [
+    "EventDetailHeroSection"
+  ]
+}

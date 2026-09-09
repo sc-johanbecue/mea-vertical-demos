@@ -1,0 +1,31 @@
+---
+ID: "d85d3174-d23a-e94d-a692-ab9f27dd73bf"
+Parent: "5d208f1f-c358-6642-877d-8574afe6691e"
+Template: "97a02f7a-b48e-4eca-a8bd-58c22054c373"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Home/Publications and News/Regulatory Documents/Policy and Guidance Notes"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260902T110000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Policy and Guidance Notes
+
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d85d3174-d23a-e94d-a692-ab9f27dd73bf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260902T110000Z

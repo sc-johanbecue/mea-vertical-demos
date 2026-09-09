@@ -1,0 +1,154 @@
+﻿---
+ID: "5cc3cd9c-c2b6-4ba2-b250-d4bfa8752534"
+Parent: "4ea085f4-cdd3-4900-a339-1c4245a28bf7"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: "/sitecore/content/british-council/british-council/Presentation/Available Renderings/Page Content"
+BranchID: "209f458a-5f7c-4024-9bbb-c78ad6d21abc"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}
+    {2492BAC4-DA07-4C86-87F0-9873D40E2276}
+    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
+    {3836D951-BB14-43AC-9231-649B7F245DC5}
+    {E86E1959-634F-4DA4-A6D0-6B4A1D234322}
+    {18963691-BCB9-4F1C-A4C4-C92CFF5DFC87}
+    {0AFA1D9F-065F-428B-9437-1B4B548D4CC1}
+    {D648A7E5-689A-4E40-8667-CA5EF662E0D9}
+    {6FAAF5C8-F71F-4D40-AA60-24D6A7502039}
+    {D2FEEF80-BBC2-4C29-8237-D1F55C7975B7}
+    {FCBA68B8-BA9D-42BB-A715-A7A5B28AD7D9}
+    {ADA00B42-3F7E-4102-98E7-A1221CB4EAFE}
+    {E5A05C46-6BE9-49C3-8386-E1B012F200E7}
+    {6D6FE754-F888-460A-BBE6-8D5500F53718}
+    {8D78AA9C-9A00-48C7-9D15-5E5794BB6C9C}
+    {38740E84-8338-444F-89C4-187E05F4442F}
+    {1A7C9954-2B21-4BF5-9808-78309657A27C}
+    {6BCBC1B3-BC9C-41DA-8A61-CEAF0DEC499B}
+    {1729BFDE-3CCB-4772-8C8D-0622A0A266B1}
+    {D6F2A514-3FF5-4C6E-B0CD-A36F2A275A24}
+    {82DA1560-E150-4285-9DFE-248106FC6AEC}
+    {D9D47BCF-65EC-4B5F-AD5C-FB979915B16D}
+    {D306F5A8-699C-45F8-A027-EBD0CE931D0E}
+    {39236F6A-F08A-4CD6-B51E-EFA3D7B8F00A}
+    {63E78F37-FC2B-4030-813C-6F2193C07575}
+    {0A20363F-7202-440C-AA8F-0D061C8882D2}
+    {BA3D34AD-4E3B-4D5B-8DAE-9AC9E1BA9191}
+    {D011975E-77DF-4EA7-9324-DEBD3451AC07}
+    {BA2BAA74-1AB8-447B-8E72-DD60D83C214F}
+    {E27E9D60-2BED-4643-A62E-3BB5EACEC9E5}
+    {0E38DE5C-E390-4F9B-B69E-C3C60A40DABC}
+    {41D46BB5-56BB-44E6-B67A-F23E33716892}
+    {6DE661E8-F3B5-4614-959C-11BE4BB3AE93}
+    {D7EF6A99-9ABF-416F-A3AE-4FC918483F0C}
+    {F1CA944C-51F0-4B5F-9953-D77F51131993}
+    {B11E2600-0001-4001-8500-000000000050}
+    {B11E2600-0001-4001-8500-000000001050}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fe28e6ef-c100-42f1-9979-2a28d75abc4d"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDD5B21F-2BD2-4290-81A2-68428363D312}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T221341Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7489f9db-f93b-4a9a-b3b7-ac2cc74272ae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260612T221341Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T221341Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5df67c78-a1f5-42ab-8696-2d2bcc4938e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084738Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T221341Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0cf8d3fe-d1b4-4143-b538-700f16e3fcb0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093429Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T221341Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "517cdfaa-0567-4e48-a3c8-1d24043cc8d0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084737Z

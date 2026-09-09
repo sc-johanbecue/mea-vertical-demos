@@ -1,0 +1,33 @@
+---
+ID: "2253042e-1b29-430f-8fbc-2758e4add43e"
+Parent: "08f79ac3-df33-4387-8d2e-857990b9df40"
+Template: "56b1d309-1feb-4c8d-998f-2b617fb69b72"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/CookieBanners/Site Cookie Banner"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "fdc442e5-e51e-471e-a2fa-b1a2577326e4"
+      Hint: Body
+      Value: |
+        <p>We use cookies to improve your experience on the BMA website. By continuing, you agree to our cookie policy.</p>
+    - ID: "4e19cc87-9ae7-430e-9cbb-48e8140bec54"
+      Hint: PolicyLink
+      Value: |
+        <link text="Cookie Policy" linktype="external" url="https://www.bma.bm/cookie-policy" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2253042e-1b29-430f-8fbc-2758e4add43e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

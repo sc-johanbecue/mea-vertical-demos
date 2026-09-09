@@ -1,0 +1,40 @@
+﻿---
+ID: "32e5f2e9-cd71-47c1-8ec1-8edde5cd6be4"
+Parent: "fb9bd44f-4654-412e-986d-8ba5e2b5d060"
+Template: "44fc5219-5d8e-4fa8-af91-e9a81c174474"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/DevelopmentInfoSections/Bramcote Hills Rise"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T024156Z
+    - ID: "3148d3b5-2121-4f17-9fc3-a4d685c24480"
+      Hint: AppointmentLink
+      Value: |
+        <link linktype="internal" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" anchor="" querystring="" target="_blank" class="" text="Book an appointment" title=""/>
+    - ID: "374379d5-2cd1-4b2a-826a-1e5fff378b91"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>We are excited to announce that our first release of homes at&nbsp;<span>Bramcote Hills Rise will be available from Thursday 5th February</span>&nbsp;through&nbsp;<span>Holden Copley Estate Agents</span>, located at 30 Market Place, Long Eaton, Nottingham, NG10 1LT.</p><p>Our first release of homes includes the 3-bedroom detached Braxton and Hampton homes, each offering an en-suite and parking, as well as the three-storey, 3-bedroom semi-detached Kipton with an en-suite and parking.</p><p>Pop in to&nbsp;<span>Holden Copley Estate Agents</span>&nbsp;anytime during our opening hours, no appointment needed. Or if you prefer, book a dedicated appointment by either calling or booking through our website.&nbsp;</p><p>Bramcote Hills Rise&nbsp;is our&nbsp;<span>latest development coming to Bramcote, Nottingham</span>. Designed with both style and sustainability in mind, these elegant 2–5 bedroom homes bring modern convenience to the heart of one of Nottingham’s most desirable suburbs.</p><p>Final preparations are underway for this exciting new development, launching on&nbsp;5th February 2026. In the meantime, you don’t have to wait to experience our homes - visit our showhomes&nbsp;<a href="https://www.millerhomes.co.uk/search/showhomes.aspx?location=East%20Midlands&amp;lat=53.118755&amp;long=-1.448822&amp;reg=1">across East Midlands</a>&nbsp;to explore the stunning designs, high-quality finishes, and inviting spaces that will define this new community.</p><h3><span>Discover Life in Bramcote, Nottingham</span></h3><p>Set in the sought-after suburb of Bramcote, this vibrant community offers the perfect balance of tranquillity and convenience. Nestled among tree-lined streets and open green spaces, Bramcote provides a peaceful setting just minutes from the bustling heart of Nottingham.</p><h3><span>A Welcoming Community with a Village Feel</span></h3><p>Known for its friendly atmosphere and strong sense of community. Local amenities include highly regarded schools such as Bramcote College, leisure facilities, independent shops, cafés, and a range of local pubs and eateries.</p><p>Bramcote is perfectly located for commuting and travel. The A52 and M1 (J25) are just minutes away, offering direct routes to Nottingham, Derby, Leicester, and beyond. Reliable public transport links connect Bramcote to Nottingham city centre via frequent bus services. For rail travel, nearby Beeston and Nottingham stations offer direct connections to London, Birmingham, Manchester, and more. East Midlands Airport is less than 30 minutes away for domestic and international flights.&nbsp;</p><p><em>The information, development site plan, house plans including the room specifications shown on this page may vary from development to development and are provided for general guidance only. Images may not be house type specific.</em></p></div>
+    - ID: "5f460493-2031-459a-87d9-4354851901d4"
+      Hint: Name
+      Value: Bramcote Hills Rise 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "847a54af-7e44-4348-98f7-c3efbdd84bdd"
+    - ID: "b5c8e68f-4e35-4edf-9fcf-4c14be1b7734"
+      Hint: Address
+      Value: Coventry Lane, Bramcote, Nottingham, Nottinghamshire, NG9 3GJ  
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260203T142218Z

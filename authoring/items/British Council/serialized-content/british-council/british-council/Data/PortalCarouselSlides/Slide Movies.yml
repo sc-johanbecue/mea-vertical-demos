@@ -1,0 +1,155 @@
+﻿---
+ID: "531fb5e4-6c24-4774-a881-84ff9e29e250"
+Parent: "5f610f24-b87c-47a4-9d2c-3b84e6aa9cac"
+Template: "f43d609d-342e-47dd-baee-52523d40b0c7"
+Path: "/sitecore/content/british-council/british-council/Data/PortalCarouselSlides/Slide Movies"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Movies
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{D71A9034-9AD3-4393-AEDF-7828CE7950F6}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1a8c5a51-415e-49d9-9d43-04c62132d36e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link text="Browse Movies" linktype="external" url="/portal/movies" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T043009Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Films
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{D71A9034-9AD3-4393-AEDF-7828CE7950F6}" alt="Sièges de cinéma et écran" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "41ad6aa3-434a-4dd7-b49a-7b3c9ed591e1"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Parcourir les films" url="/portal/movies" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084717Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: फिल्में
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{D71A9034-9AD3-4393-AEDF-7828CE7950F6}" alt="सिनेमा की सीटें और स्क्रीन" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d7c456b2-27b5-4303-8cc6-942c2b59d157"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="फिल्में ब्राउज़ करें" url="/portal/movies" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093407Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2171a8e1-2f20-493d-ab84-ea47e2d473ce"
+      Hint: Title
+      Value: Films
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5c31b727-4b8b-4b5c-ba81-992e116055c2"
+      Hint: Image
+      Value: |
+        <image mediaid="{D71A9034-9AD3-4393-AEDF-7828CE7950F6}" alt="Bioscoopstoelen en scherm" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec1e9c41-b326-4335-b91f-31b7b3b21e86"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5fd90dd-30cb-46ff-8307-99b30481c9f1"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Blader door films" url="/portal/movies" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084718Z

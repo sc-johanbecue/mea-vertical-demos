@@ -1,0 +1,23 @@
+﻿---
+ID: "a30085b0-49ad-47ad-92f9-8a54c4caa0a8"
+Parent: "04c72657-16cf-4b0f-8763-e08a4217ee95"
+Template: "2d73d434-e633-463c-8453-298fb3d175d1"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/FloorplanSections/Default FloorplanSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T024734Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8ecc116a-52be-4d75-91b2-55355fe6db00"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T024734Z

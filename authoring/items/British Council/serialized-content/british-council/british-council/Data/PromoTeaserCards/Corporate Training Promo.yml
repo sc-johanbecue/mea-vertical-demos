@@ -1,0 +1,167 @@
+﻿---
+ID: "4fc4fb11-61f6-43bf-aef8-65a00ec92c65"
+Parent: "3a793f06-2e93-4d71-a936-cde32494ff15"
+Template: "5c621097-5532-4081-beee-2df087f71ea8"
+Path: "/sitecore/content/british-council/british-council/Data/PromoTeaserCards/Corporate Training Promo"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link text="Corporate training" linktype="external" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: Corporate training and assessment solutions
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a05a614-dc2e-4d27-b06b-802235ad02d0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T083137Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="df2e0eb3-568e-4002-a6cd-6d495be53a1a" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Formation en entreprise" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: Solutions de formation et d'évaluation en entreprise
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "efcaf337-0336-4d26-b326-f76d2b8713e4"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084724Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="df2e0eb3-568e-4002-a6cd-6d495be53a1a" alt="imgi_25_training_courses_0" />
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="कॉर्पोरेट प्रशिक्षण" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: कॉर्पोरेट प्रशिक्षण और मूल्यांकन समाधान
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9b83f1ba-ad2e-4b26-9f89-b7a657f6eb16"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093416Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="df2e0eb3-568e-4002-a6cd-6d495be53a1a" alt="imgi_25_training_courses_0" />
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1948a499-35cd-4eda-830a-52b4983dfb94"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Bedrijfstrainingen" url="/" />
+    - ID: "25295f10-29f9-4bcd-b18a-aa09bb7a325f"
+      Hint: Title
+      Value: Oplossingen voor bedrijfstrainingen en beoordelingen
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5b60bb9-b1e3-4ce3-81f7-b1fe1a92ca2d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084726Z
+    - ID: "fc8a3719-efd9-4b69-86e2-e2f2ab4853c0"
+      Hint: Image
+      Value: |
+        <image mediaid="df2e0eb3-568e-4002-a6cd-6d495be53a1a" alt="imgi_25_training_courses_0" />

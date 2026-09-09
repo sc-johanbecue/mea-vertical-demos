@@ -1,0 +1,62 @@
+﻿---
+ID: "9a94b307-c4c2-48af-bbfe-f641a4ecb424"
+Parent: "31b96108-eeee-43e2-bd72-6069e1e33296"
+Template: "31b96108-eeee-43e2-bd72-6069e1e33296"
+Path: "/sitecore/templates/Project/miller-homes/NearbyDevelopmentCard/NearbyDevelopmentCard Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00c39652-e7ca-4b7e-a77b-3cc9c4644606"
+      Hint: Description
+      Value: <p>In beautiful Yorkshire countryside, amidst the magnificent Pennine Hills, the picturesque village of Honley is a welcoming, traditional community where excellent independent local shops and services are complemented by good transport connections.</p>
+    - ID: "18799fd4-2872-4939-a836-9d24ed350568"
+      Hint: Name
+      Value: Holmebank Gardens
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T143918Z
+    - ID: "2afafa24-9928-4d96-b45f-a70049357cb5"
+      Hint: PriceToLabel
+      Value: to
+    - ID: "39558fb7-42a1-40a3-a1f6-9b0b2f4e5b96"
+      Hint: PriceMin
+      Value: £354,995
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5a082bcf-01ae-4fd1-bfb8-39b2f2005bcf"
+      Hint: PromoBanner
+      Value: Fantastic offers available for first time buyers and families alike.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "66fc2a02-021e-45dc-bf01-5de16b80b020"
+      Hint: Location
+      Value: Honley, HD9 6PR
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "18d3377c-627f-4162-aede-f11d58941271"
+    - ID: "a4d3696d-1fc1-410c-a9a7-b22a581ca05c"
+      Hint: PriceMax
+      Value: £549,995
+    - ID: "ba3eda65-d261-4504-9abe-76b98ff5f8a2"
+      Hint: PriceFromLabel
+      Value: Prices from
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T144838Z
+    - ID: "e4006d27-e7c5-418c-b4e2-db642d52f1cd"
+      Hint: CTAText
+      Value: Discover Holmebank Gardens
+    - ID: "e60e5eb4-5b6e-4fd1-bec4-aec0be470c88"
+      Hint: CTALink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}" />

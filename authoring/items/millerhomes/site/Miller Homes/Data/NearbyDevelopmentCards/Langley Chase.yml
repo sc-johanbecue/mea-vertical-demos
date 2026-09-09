@@ -1,0 +1,51 @@
+﻿---
+ID: "29d4fd79-35f3-4c29-ac3f-1a4ad375c1ef"
+Parent: "0d83f085-da25-4255-921c-2253712a4fe4"
+Template: "31b96108-eeee-43e2-bd72-6069e1e33296"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/NearbyDevelopmentCards/Langley Chase"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "00c39652-e7ca-4b7e-a77b-3cc9c4644606"
+      Hint: Description
+      Value: <p>Langley Chase is our latest development to launch in Derby, positioned next to our previous development Langley Country Park. This site offers 2, 3, 4 and 5 bedroom homes to the local area of Derby.</p>
+    - ID: "18799fd4-2872-4939-a836-9d24ed350568"
+      Hint: Name
+      Value: Langley Chase
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T144748Z
+    - ID: "39558fb7-42a1-40a3-a1f6-9b0b2f4e5b96"
+      Hint: PriceMin
+      Value: £255,000
+    - ID: "5a082bcf-01ae-4fd1-bfb8-39b2f2005bcf"
+      Hint: PromoBanner
+      Value: Show home now open, come and visit us
+    - ID: "66fc2a02-021e-45dc-bf01-5de16b80b020"
+      Hint: Location
+      Value: Radbourne Lane, DE22 4LW
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bf3d13c1-a018-447c-a224-f0b1fc2937d8"
+    - ID: "a4d3696d-1fc1-410c-a9a7-b22a581ca05c"
+      Hint: PriceMax
+      Value: £540,000
+    - ID: "ab020c47-b341-4bc5-8e6d-17d48fb4667e"
+      Hint: Image
+      Value: |
+        <image mediaid="0952d524-3df7-4c0d-9319-e52d1bc2bce6" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T151514Z
+    - ID: "e4006d27-e7c5-418c-b4e2-db642d52f1cd"
+      Hint: CTAText
+      Value: Discover Langley Chase

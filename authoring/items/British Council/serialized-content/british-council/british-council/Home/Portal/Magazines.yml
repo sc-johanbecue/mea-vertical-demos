@@ -1,0 +1,335 @@
+﻿---
+ID: "4c4a4077-bd6e-4f31-914e-7e73114e4c2a"
+Parent: "7cb976a4-3312-4cce-b769-d5fb7003ae00"
+Template: "51898b93-09df-4ad7-9ef8-9497898eb98c"
+Path: "/sitecore/content/british-council/british-council/Home/Portal/Magazines"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2892813F-9FA4-48AF-A6FC-2FD4B29E5984}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8de8cbb1-90ac-4cdc-a8a9-1fdfaa02e77e"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{077C276D-2D8D-4EA4-962D-43455FF81B3A}"
+          p:before="*"
+          s:id="{D40394F5-2102-4703-A7BD-6D2F6E71F824}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{DAF3BD6B-C566-4011-81D3-82FA28E197A5}"
+          p:before="*"
+          s:ds="15dda3ee-7e6e-4529-b6d9-4ec74f999056"
+          s:id="{00061435-9527-4541-B3AA-B701ABE8C4B6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/portal-sidebar-1" />
+        <r
+          uid="{AF87BD3B-DCFB-4949-B728-2E563856B972}"
+          p:before="*"
+          s:ds="9e5e3053-9338-4f1c-840f-d587d3133f61"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=11"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{F7FDD7BE-FD2E-46F9-A119-128F15D0F32C}"
+          p:before="*"
+          s:ds="0b7f608b-3171-4b17-9845-8b205aa57c23"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=12"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{870419D6-4061-483E-B96B-2463EE27FAC8}"
+          p:before="*"
+          s:ds="123b7a80-81ec-4a97-bb4b-e2c3ba5e15d3"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=13"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2" />
+        <r
+          uid="{54EEF4EA-8472-4DA3-9E01-10F5EE1A7DC6}"
+          p:before="*"
+          s:ds="8d2fd3b0-e54a-426b-bded-57dcb9cca333"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=20"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{DC23EAC4-A962-4BFF-9D93-03522E89672C}"
+          p:before="*"
+          s:ds="a1c6999b-1df2-4293-99b9-589e4823ea44"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=21"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{58DA9C67-BF4D-4D69-AA74-857DA1449E36}"
+          p:before="*"
+          s:ds="ac9b6546-0126-46e2-8c41-31608e819cef"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=22"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{6382DB1B-E443-4824-91AE-3D45E0A15928}"
+          p:before="*"
+          s:ds="67bf7ae6-71aa-4fd5-9d5f-99a22821258f"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=23"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{591FE163-07B4-49EE-94B3-5208F24DE4D4}"
+          p:before="*"
+          s:ds="d20f0873-d7e9-4c2c-986c-1a1360acfbb9"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=24"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{5B40349F-A7A8-455F-8AE3-1EAD0754D712}"
+          p:before="*"
+          s:ds="766e1a78-ab3e-4d0f-a909-c1346893de67"
+          s:id="{0E0036DA-34D2-4785-9F0D-BA0783763BB6}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=25"
+          s:ph="/headless-main/portal-sidebar-1/portal-nav-items-2/portal-nav-children-13" />
+        <r
+          uid="{CFDD7B58-3D31-4206-B42F-7F8D8FA55AE2}"
+          p:before="*"
+          s:ds="e43a99dc-339d-4c7d-8af4-6b86f144c319"
+          s:id="{EE87D5C6-4BEE-449A-A066-F9E776839097}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/portal-main-1" />
+        <r
+          uid="{E7DA761B-3AD0-44B3-B79C-D1709EF45806}"
+          p:before="*"
+          s:ds="511c04b6-5fd9-4f1c-aff3-d75d2c934604"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=40"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{013A8AAD-DC72-4BD0-85FA-8D3584C8AFD6}"
+          p:before="*"
+          s:ds="495bb7a5-767a-48f4-80f5-f5218e6bd2e5"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=41"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{0C83662A-E654-4E2E-ADCF-E689E9293FCC}"
+          p:before="*"
+          s:ds="b0fafc82-7d72-46d9-9941-76c6850e0b71"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=42"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{B42D1C3C-8C4B-46ED-B20B-AD1E1F86AA58}"
+          p:before="*"
+          s:ds="7e95b373-6f9b-4e4e-9e48-119ff9a57b91"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=43"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{316717C5-37CB-480A-BEAC-4E37CFBFC688}"
+          p:before="*"
+          s:ds="0d16de7e-206d-4d40-81b0-614ae5fbe4a3"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=44"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{F881EA21-7CC5-49F4-9F21-8FB071790649}"
+          p:before="*"
+          s:ds="1f016ca7-cb72-45e9-8096-46701e2649d5"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=45"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{B548E077-63C0-4C63-8DE7-4A7C7E0829F5}"
+          p:before="*"
+          s:ds="79f81e5e-7732-4d68-a82e-8e587d1e1f2d"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=46"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{32054157-84AC-425C-9905-4A2F6CF2F773}"
+          p:before="*"
+          s:ds="2f2402b5-e14d-45ff-942d-ea95ef61044d"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=47"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{E900F412-5581-4817-81BB-64DE298FA2C2}"
+          p:before="*"
+          s:ds="b6f4e899-6559-4040-abe7-f66153356ae2"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=48"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+        <r
+          uid="{CD462CEC-A445-4D1A-B4DE-E142513C0811}"
+          p:before="*"
+          s:ds="511c04b6-5fd9-4f1c-aff3-d75d2c934604"
+          s:id="{C81D5B00-A2BC-490F-9136-1F2FA5587EF5}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=49"
+          s:ph="/headless-main/portal-main-1/collection-books-3" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Magazines
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="a6171922-18a5-43f0-9d6b-9b192bb884ab" />
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Magazines
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Magazines
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Magazines
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="a6171922-18a5-43f0-9d6b-9b192bb884ab" alt="Livre ouvert et lecture" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8839edb2-70a7-4696-b73c-204a0b68582f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Magazines
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084542Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Magazines
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: पत्रिकाएँ
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="a6171922-18a5-43f0-9d6b-9b192bb884ab" alt="खुली किताब और पढ़ना" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9d6aa7ae-b6d4-4382-b76b-0b67f6e4dbd3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: पत्रिकाएँ
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093312Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: पत्रिकाएँ
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tijdschriften
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7"
+      Hint: Image
+      Value: |
+        <image mediaid="a6171922-18a5-43f0-9d6b-9b192bb884ab" alt="Open boek en lezen" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc91f239-d14b-42c1-881e-061d5cd626d9"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d1b0e898-f1e3-47bf-b209-8bd030f91a4f"
+      Hint: NavigationTitle
+      Value: Tijdschriften
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084543Z
+    - ID: "f79f80ba-3870-41f5-9527-a12d54644f69"
+      Hint: Title
+      Value: Tijdschriften

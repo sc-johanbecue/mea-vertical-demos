@@ -1,0 +1,35 @@
+﻿---
+ID: "cb62bc35-1a3d-4b4b-84dc-de8a58dbb29b"
+Parent: "16697006-bdd6-459d-9787-fe8601a3770d"
+Template: "a5f6dbcc-a900-418a-957d-86b6e605b38d"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/ContentCarouselSections/Default ContentCarouselSection_var2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "19efb060-9082-4ae8-9867-68bb55440fe8"
+      Hint: TitlePart1
+      Value: Norwood 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T022602Z
+    - ID: "60d703dd-1156-4bd1-8c60-e2dbd7a9a63e"
+      Hint: TitlePart2
+      Value:  news
+    - ID: "8aa1acee-4ffc-45d3-ba81-fb76f3324b05"
+      Hint: TitleHighlight
+      Value: Quarter
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c5d91f4-410f-4821-9b41-cfd05c1dd040"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260203T142812Z

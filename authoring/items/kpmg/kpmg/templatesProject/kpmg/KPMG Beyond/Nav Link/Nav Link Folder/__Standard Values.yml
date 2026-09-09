@@ -1,0 +1,40 @@
+﻿---
+ID: "78e86204-6181-4a62-9669-601dcdfd73ac"
+Parent: "32d7c6b9-adbf-40d7-a0cd-61224ebca706"
+Template: "32d7c6b9-adbf-40d7-a0cd-61224ebca706"
+Path: /sitecore/templates/Project/kpmg/KPMG Beyond/Nav Link/Nav Link Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {80EF0982-1C00-43A3-BBF0-03BCE535EE67}
+    {32D7C6B9-ADBF-40D7-A0CD-61224EBCA706}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2752e9f4-31b8-4045-b323-d87bedde77d6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260528T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "900aea4a-26fb-4681-a4e1-ea7cceb5dca5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260529T094846Z

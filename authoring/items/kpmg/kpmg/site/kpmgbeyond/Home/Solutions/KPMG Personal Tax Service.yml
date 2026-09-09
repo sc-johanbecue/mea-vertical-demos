@@ -1,0 +1,117 @@
+﻿---
+ID: "7d72d261-c89a-4a77-883b-f5f639e008fd"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/KPMG Personal Tax Service
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7C1DEDC9-D2FA-413E-B71C-F4FD77201A28}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{A002F4BF-A5E5-44F3-A1C9-E192E4F3A76D}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{3D8597AC-4C4F-49ED-82E5-A4E6E6562B1D}"
+          p:after="r[@uid='{A002F4BF-A5E5-44F3-A1C9-E192E4F3A76D}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{C20FD944-23D5-4BDC-8A4E-1EAF9E2072D4}"
+          p:after="r[@uid='{3D8597AC-4C4F-49ED-82E5-A4E6E6562B1D}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{380FF155-5F59-4D8B-8BE6-06A0BD01E75E}"
+          p:after="r[@uid='{C20FD944-23D5-4BDC-8A4E-1EAF9E2072D4}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{8D819094-5D2C-465C-83EB-DDCC8D71F650}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: KPMG Personal Tax Service | Compliance & Advice
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "Our personal tax offering is an efficient, accessible and affordable service that provides high-quality, tailored tax advice built around your personal needs."
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/PersonalTaxService" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: KPMG Personal Tax Service
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: KPMG Personal Tax Service
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: Take control of your financial future with tax advice you can trust
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bb937417-cb0e-4996-a75d-348d1d1f3244"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="94b8a571-af12-4469-88e6-1281715daa4a" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Personal-Tax-Service/PersonalTaxService_mainimage.jpg?rev=0c63bbcd18b04f2cad664f2d5bfebb3a&hash=77AB0908353EA74C8C39F3913AA9ECD5" alt="Personal Tax Service main image" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        <p>Our personal tax offering is an efficient, accessible and affordable service that provides high-quality, tailored tax advice built around your personal needs.</p>
+        <p>Success doesn&rsquo;t happen by accident. Having a goal, careful planning and making confident decisions will have contributed to your achievements. It&rsquo;s time those same principles were applied to your personal tax management. By overlaying leading technology with our tax practice expertise, a knowledgeable personal tax adviser can guide you through a review of your tax affairs, leaving you in control. </p> <h2>The highest calibre advice </h2> <p>Our Personal Tax Service is provided by KPMG&rsquo;s leading private client tax advisors. Relationships are at the heart of our business; you&rsquo;ll have a named contact in the UK who will head-up our relationship with you, backed up by the expertise of our tax practice. When appropriate, we can bring the right people from within the wider KPMG firm to you, at the right time. </p> <h2>Simple and pragmatic </h2> <p>Whether it&rsquo;s advice on significant lifestyle changes such as an international move, an inheritance receipt, or helping your children buy their first home, or you simply want to ensure that your tax affairs are properly managed, KPMG will offer clear advice that's tailored to your individual circumstances.</p> <h2>Efficient, accessible and affordable </h2> <p>Our personal tax service uses technology to help you access the high-quality, personal tax advice you need - at a price you can afford. Our easy-to-use client portal is designed to put you in control, and our prices (which are tailored to your needs) are cost-effective and transparent. </p> <p> <img alt="" style="height:140px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Personal-Tax-Service/Use_titleV2.png?h=140&w=1920&rev=c238f2d0f1514eb9a465adc5f3cabef9&hash=9DEA1D762F5B302A4C809F20B87184F0" />KPMG&rsquo;s dedicated team of tax professionals across the UK can help you with all aspects of business, personal and family tax issues &ndash; offering comprehensive personal tax advisory and compliance services. Now is the time to take professional advice and in doing so, help secure your financial future &ndash; and that of your family &ndash; for years to come.</p> <p><strong>Compliance Services</strong> | From &pound;2,000 +VAT</p> <ul> <li>Personal tax returns</li> <li>Advice on IHT, trust & estate</li> <li>ATED, NRL, and NRCGT</li> </ul> <p><strong>Inheritance Tax</strong> | From &pound;3,500 +VAT</p> <ul> <li>Explain & assess your exposure to IHT</li> <li>Statutory exemptions & reliefs</li> <li>Trust & estate compliance</li> </ul> <p><strong>Property Advice</strong> | From &pound;3,500 +VAT </p> <ul> <li>Buy-to-let & acquisition advice</li> <li>Family property matters</li> <li>Second home acquisition</li> <li>Property disposal advice</li> </ul> <p><strong>Entrepreneurs & OMBs </strong>| Dependent on circumstances </p> <ul> <li>Business exits & share disposal</li> <li>Entrepreneur/investor relief reviews</li> <li>Shareholder structuring</li> </ul> <p><strong>Family Matters </strong>| From &pound;3,500 +VAT </p> <ul> <li>Income Tax, IHT and CGT</li> <li>Asset transfers & separation</li> <li>Tax considerations for prenuptial agreements</li> </ul> <p><strong>Living & Working Overseas</strong> | From &pound;3,500 +VAT</p> <ul> <li>Compliance & reporting obligations</li> <li>Arrivals & departures</li> </ul> <p> </p> <p> </p> <p><img alt="As the UK tax system becomes ever more complex, it’s time to get confident about your tax affairs. Our dedicated team of tax professionals across the UK can help you with all aspects of business, personal and family tax issues. We’ll help you get a complete picture of your tax position and support you in managing it proactively. We give you the tools to understand, plan and grasp the challenges of the tax system to put you in control today and ready for tomorrow.” Nick Pheasey, KPMG UK, Head of Family Office & Private Client " style="height:500px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Personal-Tax-Service/PTS_quote_V3.png?rev=bebd087fff374179afd13e5c0922b64f&hash=743FA2E532D175CA04C416E870BA2469" /></p> <p> </p> <p><sub><sup><em>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities.</em></sup></sub></p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T013904Z

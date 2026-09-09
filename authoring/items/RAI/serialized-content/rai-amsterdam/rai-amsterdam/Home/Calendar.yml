@@ -1,0 +1,100 @@
+﻿---
+ID: "f879c880-30ad-42af-954a-33cf10a8da3d"
+Parent: "768fb77a-5cf1-4775-b8b6-3a3bea645ce3"
+Template: "9e26a1fe-a630-47d7-909d-87c0312f6050"
+Path: "/sitecore/content/rai/rai-amsterdam/Home/Calendar"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="723EDBC3-43B7-4B7E-B7A1-C89C2294E784"
+          p:before="*"
+          s:ds="a6adc2a9-45f9-46ce-ab1c-a3e32dfc2aff"
+          s:id="{DD4C9FB6-D1B2-422C-AD55-2EE8AFFB3813}"
+          s:par="CSSStyles&amp;FieldNames=%7BECC701EF-4BE6-4977-AE2D-A5ED90A3C9C7%7D"
+          s:ph="headless-main" />
+        <r
+          uid="B8E35C8B-A99F-420C-A482-299EF6E72B09"
+          p:after="r[@uid='723EDBC3-43B7-4B7E-B7A1-C89C2294E784']"
+          s:ds="43f17603-4b04-40ee-85f7-f0934532c85c"
+          s:id="{74BD0FF3-3EF5-4292-B02D-70F6FF861AC2}"
+          s:par="CSSStyles&amp;FieldNames=%7BB0F6430E-01CC-4CBC-A4FB-62EBB31B271E%7D&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="9DB5722D-11BF-4F23-A77C-1E66796257B3"
+          p:after="r[@uid='B8E35C8B-A99F-420C-A482-299EF6E72B09']"
+          s:ds="46dab111-a5db-4a6c-9387-d72b23da9c01"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/calendar-events-1" />
+        <r
+          uid="D4B2FC9B-9A69-4613-951A-8408AAEEE029"
+          p:after="r[@uid='9DB5722D-11BF-4F23-A77C-1E66796257B3']"
+          s:ds="2b08e77d-fcca-4fe8-9919-9ca508028281"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/calendar-events-1" />
+        <r
+          uid="80305ECD-47DF-496B-AE87-2B9550451AF5"
+          p:after="r[@uid='D4B2FC9B-9A69-4613-951A-8408AAEEE029']"
+          s:ds="458b3677-d78d-49c9-9595-d94f01d5d2d1"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/calendar-events-1" />
+        <r
+          uid="086DD967-1278-4B8A-9700-B79F6F64C919"
+          p:after="r[@uid='80305ECD-47DF-496B-AE87-2B9550451AF5']"
+          s:ds="2e6e0dab-c4fa-4669-80bf-8ab63d3be168"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/calendar-events-1" />
+        <r
+          uid="92EAC510-DA45-4F06-BEEC-9D6D2202E198"
+          p:after="r[@uid='086DD967-1278-4B8A-9700-B79F6F64C919']"
+          s:ds="dbafc179-b77d-4b80-8b66-48b03f5c9b33"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/calendar-events-1" />
+        <r
+          uid="00EFD67F-730E-4C83-8B91-BCD80F038F02"
+          p:after="r[@uid='92EAC510-DA45-4F06-BEEC-9D6D2202E198']"
+          s:ds="4547f8da-d344-4c25-8697-b1252b2b0526"
+          s:id="{6DEB7E6E-42ED-4DE1-8350-B3CC6B430CB2}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/calendar-events-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Calendar
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4b817527-8b46-4509-bc74-a96e882d67cc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

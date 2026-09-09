@@ -1,0 +1,49 @@
+---
+ID: "8c1317bf-4d54-40dd-8dc0-36b3b620ac94"
+Parent: "ba9aa3cf-22e5-4286-8d9f-5a0c510cddd6"
+Template: "ba9aa3cf-22e5-4286-8d9f-5a0c510cddd6"
+Path: "/sitecore/templates/Project/rai/LinkList/LinkList Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "a661aaa8-08de-4537-91bf-f39c6d8ded25"
+      Hint: Link1
+      Value: <link text="Events" linktype="external" url="https://www.rai.nl/en/events" />
+    - ID: "f7c66929-3efe-443d-86a6-725d0d2cee7e"
+      Hint: Link2
+      Value: <link text="Venues" linktype="external" url="https://www.rai.nl/en/venues" />
+    - ID: "6a83e27f-6b35-4e6c-8024-5dbab50f18b4"
+      Hint: Link3
+      Value: <link text="About RAI" linktype="external" url="https://www.rai.nl/en/about-rai" />
+    - ID: "f05aba93-dfa6-47db-985a-8adf760cdc74"
+      Hint: Link4
+      Value: <link text="Visit" linktype="external" url="https://www.rai.nl/en/visit" />
+    - ID: "b95185b3-7563-4556-aed0-1a64a1167a72"
+      Hint: Link5
+      Value: <link text="Contact" linktype="external" url="https://www.rai.nl/en/contact" />
+    - ID: "a80a1337-b42f-4340-97ad-0ae6a0c186b4"
+      Hint: Link6
+      Value: <link text="Careers" linktype="external" url="https://www.rai.nl/en/careers" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8c1317bf-4d54-40dd-8dc0-36b3b620ac94"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260612T120000Z

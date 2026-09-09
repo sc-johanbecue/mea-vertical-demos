@@ -1,0 +1,33 @@
+{
+  "pageSlug": "britishcouncil-org--english-learn-online",
+  "pageDir": "britishcouncil-org--english-learn-online",
+  "pageSectionsRoot": "britishcouncil-org--english-learn-online/sections",
+  "domainSectionsRoot": "sections",
+  "mergedAt": "2026-07-29T12:43:46.529Z",
+  "sections": [
+    {
+      "action": "promoted",
+      "cmsName": "LearnEnglishOnlineRichTextImageBlock",
+      "sourceCmsName": "LearnEnglishOnlineRichTextImageBlock",
+      "domainFolder": "learn-english-online-rich-text-image-block",
+      "pageSectionFolder": "britishcouncil-org--english-learn-online/sections/learn-english-online-rich-text-image-block",
+      "fingerprint": "0257e95c599434e2",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    },
+    {
+      "action": "promoted",
+      "cmsName": "AdultsRichTextSection",
+      "sourceCmsName": "AdultsRichTextSection",
+      "domainFolder": "adults-rich-text-section",
+      "pageSectionFolder": "britishcouncil-org--english-learn-online/sections/adults-rich-text-section",
+      "fingerprint": "471def10f8d68859",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    }
+  ],
+  "componentsToBuild": [
+    "LearnEnglishOnlineRichTextImageBlock",
+    "AdultsRichTextSection"
+  ]
+}

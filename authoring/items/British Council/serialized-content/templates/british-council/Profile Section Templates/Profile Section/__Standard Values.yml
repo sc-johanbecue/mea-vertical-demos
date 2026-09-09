@@ -1,0 +1,120 @@
+﻿---
+ID: "b11e2600-0001-4001-8500-000000001003"
+Parent: "b11e2600-0001-4001-8500-000000001002"
+Template: "b11e2600-0001-4001-8500-000000001002"
+Path: "/sitecore/templates/Project/british-council/Profile Section Templates/Profile Section/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260804T010000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b11e2600-0001-4001-8500-000000001010"
+      Hint: PageTitle
+      Value: My Account
+    - ID: "b11e2600-0001-4001-8500-000000001011"
+      Hint: PageIntro
+      Value: Update your organisation details and topic preferences for the Digital Library.
+    - ID: "b11e2600-0001-4001-8500-000000001012"
+      Hint: SignInPrompt
+      Value: Sign in to manage your account.
+    - ID: "b11e2600-0001-4001-8500-000000001013"
+      Hint: SignInButtonLabel
+      Value: Sign in
+    - ID: "b11e2600-0001-4001-8500-000000001014"
+      Hint: FirstNameLabel
+      Value: First name
+    - ID: "b11e2600-0001-4001-8500-000000001015"
+      Hint: LastNameLabel
+      Value: Last name
+    - ID: "b11e2600-0001-4001-8500-000000001016"
+      Hint: EmailLabel
+      Value: Email address
+    - ID: "b11e2600-0001-4001-8500-000000001017"
+      Hint: CompanyLabel
+      Value: Organisation
+    - ID: "b11e2600-0001-4001-8500-000000001018"
+      Hint: SectorLabel
+      Value: Sector
+    - ID: "b11e2600-0001-4001-8500-000000001019"
+      Hint: JobRoleLabel
+      Value: Role
+    - ID: "b11e2600-0001-4001-8500-00000000101a"
+      Hint: BusinessPostcodeLabel
+      Value: Postcode
+    - ID: "b11e2600-0001-4001-8500-00000000101b"
+      Hint: AnnualTurnoverLabel
+      Value: Organisation size
+    - ID: "b11e2600-0001-4001-8500-00000000101c"
+      Hint: TopicsSectionTitle
+      Value: Topic preferences
+    - ID: "b11e2600-0001-4001-8500-00000000101d"
+      Hint: TopicsIntro
+      Value: Select topics to personalise your library experience.
+    - ID: "b11e2600-0001-4001-8500-00000000101e"
+      Hint: TopicOptions
+      Value: |
+        English learning
+        Audiobooks
+        Fiction
+        Magazines
+        Newspapers
+        Comics
+        Movies
+        Exams and assessment
+        Teaching resources
+        Arts and culture
+    - ID: "b11e2600-0001-4001-8500-00000000101f"
+      Hint: MarketingLabel
+      Value: I would like to receive communications from the British Council.
+    - ID: "b11e2600-0001-4001-8500-000000001020"
+      Hint: SubmitButtonLabel
+      Value: Save changes
+    - ID: "b11e2600-0001-4001-8500-000000001021"
+      Hint: SubmittingLabel
+      Value: Saving…
+    - ID: "b11e2600-0001-4001-8500-000000001022"
+      Hint: ErrorMessage
+      Value: We could not save your changes. Please try again.
+    - ID: "b11e2600-0001-4001-8500-000000001023"
+      Hint: SuccessMessage
+      Value: Your account has been updated.
+    - ID: "b11e2600-0001-4001-8500-000000001024"
+      Hint: SectorOptions
+      Value: |
+        Primary education
+        Secondary education
+        Higher education
+        English language learning
+        Arts and culture
+        Public sector
+        Not for profit
+        Corporate
+        Other
+    - ID: "b11e2600-0001-4001-8500-000000001025"
+      Hint: JobRoleOptions
+      Value: |
+        Teacher
+        Student
+        Librarian
+        Education manager
+        School administrator
+        Policy maker
+        Researcher
+        Partner organisation
+        Other
+    - ID: "b11e2600-0001-4001-8500-000000001026"
+      Hint: AnnualTurnoverOptions
+      Value: |
+        Less than £5 million
+        £5 million - £25 million
+        £25 million - £50 million
+        £50 million - £100 million
+        More than £100 million
+        Not applicable

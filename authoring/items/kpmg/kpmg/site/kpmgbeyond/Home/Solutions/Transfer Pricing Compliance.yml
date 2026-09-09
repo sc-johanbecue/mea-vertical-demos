@@ -1,0 +1,117 @@
+﻿---
+ID: "d5f7f639-2fb9-48ff-ac2e-d2286e44584c"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/Transfer Pricing Compliance
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5027594E-E8E9-4A96-9D62-575F9DE2BDED}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B4350EAE-1FDF-4791-8AA8-3B5FA76B7D87}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{4F7A6CA8-8760-4D51-B4FE-177C3F29B208}"
+          p:after="r[@uid='{B4350EAE-1FDF-4791-8AA8-3B5FA76B7D87}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{225B09D3-EFC9-4B8E-B062-5061D1DAE3BD}"
+          p:after="r[@uid='{4F7A6CA8-8760-4D51-B4FE-177C3F29B208}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{FF283654-9F65-44FE-8150-7547C4F65532}"
+          p:after="r[@uid='{225B09D3-EFC9-4B8E-B062-5061D1DAE3BD}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{E45F2848-B47B-4E4F-A707-2DE630BBD5D9}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: Transfer Pricing Compliance | Bringing together tech, people & process
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "Combining cutting-edge technology, expert people, and a seamless process to take the risk out of your Transfer Pricing (TP) compliance."
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/TP-Compliance" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Transfer Pricing Compliance
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Transfer Pricing Compliance
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: "Simplify your Transfer Pricing compliance with an end-to-end, tech-enabled solution"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d4002d03-37b0-42da-86d5-750b0aadd8cc"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="a3cedd7a-d6d2-4e90-abae-ca82ec92c129" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/TP-Compliance/TP_compliance_Header.jpg?rev=8ab01d16c6a24f52a0734dc0f6ed56c5&hash=C1DBF001C5859BB716EE902CEB481689" alt="Transfer Pricing - header imager" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        Combining cutting-edge technology, expert people, and a seamless process to take the risk out of your Transfer Pricing (TP) compliance.<br />
+        <p>With recent updates to the UK TP documentation rules, are you confident that your business is fully compliant and prepared for the future? </p> <h2>Here's how we make it easy:  </h2> <ul> <li>Cutting-edge technology and automation to streamline the process, saving you time and resource</li> <li>Expert guidance and tailored advice</li> <li>Flexible delivery models; from fully outsourced to tech-enabled, in-house solutions</li> <li>Proactive risk management</li> </ul> <img alt="--" style="height:100px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/TP-Compliance/line_V2.png?rev=e362fcde88c04939a2dfa27cc1b4ff2d&hash=104F553C8BBF85A13C019974BA052335" /> <h2>Stay ahead of the curve </h2> <p>Recent changes to the Organisation for Economic Co-operation and Development (OECD) rules mean that HMRC will now have broader information requirements and inspection powers regarding TP compliance. Changes to the legislation will ensure that the relevant TP documents can be requested by HMRC outside of an enquiry.</p> <p>Are you certain that your business complies with these new regulations? </p> <h2>An end-to-end solution </h2> <p>Harness advanced automation to simplify and streamline your TP documentation process, set your business apart with the innovative use of our technology. </p> <h2>Tailored to you </h2> <p>Our experts collaborate with your team to deliver a tailored solution that aligns with your objectives and ensures optimal results. </p> <p>We&rsquo;ll begin with a global risk assessment, considering your jurisdictional presence and the relevant TP compliance laws as well as your strategy and budget.  </p> <h2>Flexible delivery models </h2> <p>Choose the option that best suits your business, from fully outsourced to tech-enabled, in-house solutions.</p> <h2>Strategic risk management </h2> <p>Combine technology with proven processes and specialist knowledge to proactively manage your risks with precision and efficiency. </p> <img alt="TP Compliance stats" style="height:600px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/CRT167612A_TP-Compliance---stats.gif?rev=da64a95849cd49f5947f5df009a6a6d7&hash=D3FA3F988EB07517482F0F8B9B63CA1B" />  <p><em><sub>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities.</sub></em></p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T012345Z

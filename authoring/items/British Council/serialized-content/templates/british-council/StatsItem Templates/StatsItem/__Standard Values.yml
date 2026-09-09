@@ -1,0 +1,17 @@
+---
+ID: "9bf0c546-0f10-499d-bd36-dcad43e9547a"
+Parent: "cb421cd0-3a77-4619-b348-fde0101d0d6c"
+Template: "cb421cd0-3a77-4619-b348-fde0101d0d6c"
+Path: "/sitecore/templates/Project/british-council/StatsItem Templates/StatsItem/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

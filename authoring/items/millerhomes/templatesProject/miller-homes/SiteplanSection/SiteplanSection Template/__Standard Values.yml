@@ -1,0 +1,49 @@
+﻿---
+ID: "196fc7e0-00d0-4419-824b-2d97dd4214c1"
+Parent: "efbd5b71-4d48-4e39-a9b9-b85681eb1fbb"
+Template: "efbd5b71-4d48-4e39-a9b9-b85681eb1fbb"
+Path: "/sitecore/templates/Project/miller-homes/SiteplanSection/SiteplanSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b254bb8-143d-4a0a-8e53-878b9f0c115f"
+      Hint: Description
+      Value: <p>Explore our interactive siteplan to find your perfect plot. Click on any plot to view availability and pricing.</p>
+    - ID: "126b977d-f818-4f79-9127-07da15ec42f1"
+      Hint: MapIntegrationText
+      Value: Map integration required
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T030440Z
+    - ID: "32e40aad-3ea2-4a8c-9877-1dedd18e9234"
+      Hint: MapPlaceholderText
+      Value: Interactive Siteplan
+    - ID: "516edd4f-4b94-4c7d-bb18-47d183d3cb24"
+      Hint: TitleSuffix
+      Value: Siteplan
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8191d705-dcd6-405e-ae65-b82dedf5e222"
+      Hint: Title
+      Value: Bramcote Hills Rise
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e31a8393-a865-4135-be19-87c3943b94c6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T030447Z
+    - ID: "dbb04ab9-7cb0-4447-9245-b127d235fda7"
+      Hint: WalkthroughButtonText
+      Value: Open 3D walkthrough

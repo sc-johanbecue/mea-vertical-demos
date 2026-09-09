@@ -1,0 +1,67 @@
+{
+  "slug": "rai-nl--en",
+  "url": "https://www.rai.nl/en",
+  "layoutChrome": [
+    {
+      "cmsName": "CookieBanner",
+      "scope": "site",
+      "sectionFolder": "cookie-banner"
+    },
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    },
+    {
+      "cmsName": "Footer",
+      "scope": "site",
+      "sectionFolder": "footer"
+    }
+  ],
+  "sections": [
+    {
+      "order": 1,
+      "sectionFolder": "hero-banner",
+      "sectionScreenshotName": "HeroBanner",
+      "parentComponent": {
+        "cmsName": "FullBleedHeroBannerSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 2,
+      "sectionFolder": "these-events-will-be-teaser-grid",
+      "sectionScreenshotName": "TheseEventsWillBeTeaserGrid",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionTeaserGridSection",
+        "placeholderKey": "teaser-cards-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "EventListCard",
+          "repeatCount": 6,
+          "inPlaceholder": "teaser-cards-{DynamicPlaceholderId}"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "sectionFolder": "the-latest-news-articles-section",
+      "sectionScreenshotName": "TheLatestNewsArticlesSection",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionTeaserGridSection",
+        "placeholderKey": "teaser-cards-{DynamicPlaceholderId}"
+      },
+      "placeholderChildren": [
+        {
+          "cmsName": "NewsArticleCard",
+          "repeatCount": 3,
+          "inPlaceholder": "teaser-cards-{DynamicPlaceholderId}"
+        }
+      ]
+    }
+  ],
+  "confidence": "high",
+  "notes": []
+}

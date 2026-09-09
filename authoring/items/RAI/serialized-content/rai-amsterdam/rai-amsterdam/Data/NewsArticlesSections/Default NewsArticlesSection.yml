@@ -1,0 +1,34 @@
+---
+ID: "ac7c8e0f-488c-47f5-b1e8-4c0821e25c50"
+Parent: "a645bcf5-9d4b-4591-95dd-2c76a4f6c12b"
+Template: "fad6baae-cad5-446a-b13e-2d71bfee032d"
+Path: "/sitecore/content/rai/rai-amsterdam/Data/NewsArticlesSections/Default NewsArticlesSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "bc437f97-0eb8-476c-a15c-1eddf09ba4cf"
+      Hint: Title
+      Value: Latest news
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260612T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ac7c8e0f-488c-47f5-b1e8-4c0821e25c50"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260612T120000Z

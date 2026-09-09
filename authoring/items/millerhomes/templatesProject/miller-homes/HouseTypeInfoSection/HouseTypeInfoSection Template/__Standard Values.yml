@@ -1,0 +1,77 @@
+﻿---
+ID: "939819ac-a709-475f-9b4d-7a393e2f0dfb"
+Parent: "5f2e66c2-0b1c-4858-bdd4-0d2f00ba622e"
+Template: "5f2e66c2-0b1c-4858-bdd4-0d2f00ba622e"
+Path: "/sitecore/templates/Project/miller-homes/HouseTypeInfoSection/HouseTypeInfoSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03409ba4-c562-4c23-9738-83136658033b"
+      Hint: Price
+      Value: TBA
+    - ID: "180bba16-b072-4a70-b08f-a80b66234338"
+      Hint: BookAppointmentText
+      Value: Book an appointment
+    - ID: "24f6b64d-15f4-4c33-afb4-898cb9e2489e"
+      Hint: Name
+      Value: Hampton
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031812Z
+    - ID: "39a851d8-5808-4960-9bd8-382fac7cd095"
+      Hint: DevelopmentName
+      Value: at Bramcote Hills Rise
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "54d3d3e6-08a1-46d3-8231-83aaf3698b3e"
+      Hint: Bedrooms
+      Value: 3
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "647dcf49-5d75-48df-ae8b-42b0e8b8a31e"
+      Hint: Bathrooms
+      Value: 3
+    - ID: "679aabdb-f124-4546-9fbf-3b8ff382f674"
+      Hint: ViewVirtualTourText
+      Value: View Virtual Tour
+    - ID: "73f27f0e-2a6d-4310-bbb9-44063614b766"
+      Hint: BedsLabel
+      Value: Beds
+    - ID: "7bd16d4a-10b7-4024-93af-b6dee2c0ff8f"
+      Hint: AddFavouritesText
+      Value: Add to favourites
+    - ID: "83d57470-5b38-40db-ad7d-8b85d306d125"
+      Hint: GetDirectionsText
+      Value: Get Directions
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4b82792f-0aa9-4b38-85f9-dbe267486b0b"
+    - ID: "98a3cb2f-e500-43b0-aa17-0862fe508bc8"
+      Hint: RegisterUpdatesText
+      Value: Register for updates
+    - ID: "99316515-8d1a-46b0-9e70-8a5f292f4ef1"
+      Hint: BathsLabel
+      Value: Baths
+    - ID: "9b618c45-0564-434f-9b9e-e4bc1f74d1a3"
+      Hint: PricePrefix
+      Value: Prices range from
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cd6e36dd-4653-472f-8282-02f7b5f0b759"
+      Hint: DevelopmentLink
+      Value: |
+        <link linktype=\"internal\" id=\"6c5f4b85-bf87-4b75-bfa5-5734302b0e77\" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T031859Z
+    - ID: "f66c12de-9e5b-4da8-b48a-73409823bf21"
+      Hint: KeyFeaturesHeading
+      Value: Key Features

@@ -1,0 +1,35 @@
+﻿---
+ID: "e7d4ec0f-e746-4414-a794-0093bd583e80"
+Parent: "0d83f085-da25-4255-921c-2253712a4fe4"
+Template: "31b96108-eeee-43e2-bd72-6069e1e33296"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/NearbyDevelopmentCards/The Woods at City Fields"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00c39652-e7ca-4b7e-a77b-3cc9c4644606"
+      Hint: Description
+      Value: <p>The Woods is part of the new City Fields neighbourhood, which is a sensitively planned, sustainable and enormously attractive addition to the community of Wakefield. Conceived to integrate a diversity of open natural areas with new social, educational and leisure amenities and outstanding residential opportunities, including this newly available selection of energy efficient three, four and five bedroom homes at The Woods, it combines a welcoming sense of place with excellent transport links that include extensive cycleways and footpaths</p>
+    - ID: "18799fd4-2872-4939-a836-9d24ed350568"
+      Hint: Name
+      Value: The Woods at City Fields
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T144743Z
+    - ID: "66fc2a02-021e-45dc-bf01-5de16b80b020"
+      Hint: Location
+      Value: Wakefield, WF3 4LS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "381f2205-990e-4298-8518-5d78891a13d7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T145005Z
+    - ID: "e4006d27-e7c5-418c-b4e2-db642d52f1cd"
+      Hint: CTAText
+      Value: Discover The Woods at City Fields

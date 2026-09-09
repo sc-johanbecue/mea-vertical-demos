@@ -1,0 +1,31 @@
+---
+ID: "92c719c6-0219-42a3-8fc2-48b200900e44"
+Parent: "d81ab71e-26d4-4396-8271-d7e975baca73"
+Template: "33d917e1-31a7-4988-8477-2fb32e075997"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/LinkColumns/Licensing"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "f94b5a8b-0746-4070-b925-be0556fdd57b"
+      Hint: Title
+      Value: "Licensing"
+    - ID: "3cea7e8c-2461-4316-8fa1-56f8dc2bc923"
+      Hint: Intro
+      Value: "Authorisations and licences"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92c719c6-0219-42a3-8fc2-48b200900e44"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

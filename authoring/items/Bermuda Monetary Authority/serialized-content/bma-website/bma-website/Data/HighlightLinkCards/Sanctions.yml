@@ -1,0 +1,38 @@
+---
+ID: "bbded7bc-4d5d-47a0-8442-ebd1fa1c69eb"
+Parent: "925ff283-a8a5-4ffe-842e-ac8efb0f3357"
+Template: "588756bc-5ffc-4b3c-ae03-4c43273b7d1b"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/HighlightLinkCards/Sanctions"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "fdb7d136-f910-422c-94d8-3cb0482c9cff"
+      Hint: Title
+      Value: "International Sanctions"
+    - ID: "552e746e-4976-449a-bc01-944ae3945379"
+      Hint: Subtitle
+      Value: "Subscription Service for Financial Sanctions Information"
+    - ID: "f9f75bdc-d2e7-4de4-a33e-6735c053e3f3"
+      Hint: AccentColor
+      Value: "yellow"
+    - ID: "f7e42dee-a85c-4d04-82c4-8f1928358693"
+      Hint: Link
+      Value: |
+        <link text="International Sanctions" linktype="external" url="https://www.bma.bm/international-sanctions" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bbded7bc-4d5d-47a0-8442-ebd1fa1c69eb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

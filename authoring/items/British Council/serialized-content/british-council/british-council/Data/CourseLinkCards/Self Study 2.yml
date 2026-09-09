@@ -1,0 +1,151 @@
+﻿---
+ID: "a11e1005-0005-4005-8005-000000000005"
+Parent: "c49f9f26-f493-4476-9bd1-8eeadb033a87"
+Template: "48781aa6-4047-487f-b415-c7b488ce58fa"
+Path: "/sitecore/content/british-council/british-council/Data/CourseLinkCards/Self Study 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: Test your level on your phone.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0aa4aba-07ca-4125-ab25-4d45818d9fb3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: EnglishScore
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link text="Find out more" linktype="external" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T130942Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: Testez votre niveau sur votre téléphone.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ed44bdc-66e4-49c4-b910-4c3ad2efa389"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: EnglishScore
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="En savoir plus" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084643Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: अपने फोन पर अपना स्तर जांचें।
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "752a20f1-5a53-4dc7-9b4d-9a5e9b744e95"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: EnglishScore
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="और अधिक जानें।" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093335Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "60b72d17-5e47-4109-b4e7-c058078f59c1"
+      Hint: Body
+      Value: Test uw niveau op uw telefoon.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd095fb2-d136-481a-bf38-a0bd99969a14"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bcc08804-19b4-42a2-a78c-70f2eb68d9b6"
+      Hint: Title
+      Value: EnglishScore
+    - ID: "c9122ed1-3447-485a-a7be-1153743a9fb2"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Ontdek meer" url="/" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084645Z

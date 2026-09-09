@@ -1,0 +1,45 @@
+---
+ID: "2e6e0dab-c4fa-4669-80bf-8ab63d3be168"
+Parent: "11fac09d-5802-47ea-ae07-929d509d939d"
+Template: "83f69b8f-bf4a-4b41-9318-f16d2a78d9dc"
+Path: "/sitecore/content/rai/rai-amsterdam/Data/EventListCards/Calendar Event 4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "915860a3-8c05-44f9-9b9a-6964486539ec"
+      Hint: Title
+      Value: HumanX Amsterdam
+    - ID: "9f017a34-dc15-4b6f-b244-3bb59b85846a"
+      Hint: DateRange
+      Value: 7 - 8 October 2026
+    - ID: "dc9f4359-fd2a-43b4-8d19-9b4a98ad3656"
+      Hint: Image
+      Value: |
+        <image mediaid="EE84DF5E-DCA5-4F01-9012-C0B01CD62B0A" />
+    - ID: "bee1051c-919c-4e77-a2dc-aa8978078859"
+      Hint: Link
+      Value: |
+        <link class="" id="80b69a6b-9443-4c79-bf25-40e7ca6a1352" querystring="" anchor="" target="" title="" linktype="internal" text="HumanX Amsterdam" url="/rai/rai-amsterdam/Home/Calendar/Human X Amsterdam2026" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dadab0e5-f681-4053-b9e2-5e2df1abfa05"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

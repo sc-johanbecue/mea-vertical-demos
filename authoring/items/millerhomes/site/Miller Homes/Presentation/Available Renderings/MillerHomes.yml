@@ -1,0 +1,158 @@
+﻿---
+ID: "c122e398-f58a-4577-a066-d18e62736a65"
+Parent: "5fb04126-c8fd-499a-adf5-85e553c9c1a7"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Presentation/Available Renderings/MillerHomes"
+BranchID: "80a19fb5-570d-4b16-94cf-6d294ddc78ec"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {890D695D-8E84-4BCC-B4E4-B21DD4230737}
+    {39425A54-38BB-4310-B78A-CE474C0207F0}
+    {3C40D48D-E261-48D7-976A-E826ED121C43}
+    {B016064F-CD66-498F-97F7-585D15B4B8E4}
+    {E4A5F5BA-D7E0-4E6F-9692-C3907711A061}
+    {548549DF-6308-4B99-A07A-96D219A24D5A}
+    {E9250F0F-7736-4EE8-81D4-814C65938CEB}
+    {80AE8635-29B8-4377-AB7C-BCC53C9CD134}
+    {915D411C-6889-4EE8-AF54-DE639D0FA193}
+    {2619CAF2-9C43-4AD3-9DDF-40F019359495}
+    {5B4D27F5-DE3E-47C1-BC7B-2B975F6014CF}
+    {A1BE14C2-8522-4AD1-81A9-B704C9FFDFD5}
+    {D821B688-08F6-4FDC-AA65-3C23E5F3C1F3}
+    {D7B1322E-EE9F-4A17-AAD6-C5EDC89A0B8A}
+    {142D7C73-1C04-45B3-8735-4711550E816C}
+    {0AC7C44D-1957-4E1C-A8A2-5115BC3474A5}
+    {F9BBA9E1-9A98-4677-8254-4302C00F628D}
+    {8F400147-5501-4602-A01E-21CA109097AE}
+    {AC9DF147-9849-4647-BADF-D7BC39565686}
+    {F380DBA9-FB73-420F-80C4-200B1A55FB33}
+    {9D3C4627-7E8C-41BA-BC0A-16009012FF48}
+    {91346267-06B0-4BB6-B1D1-3A15F7E105EA}
+    {715D72E5-BFFF-46AB-B1E6-E1A005D42DAB}
+    {E6772874-E3BB-4AEB-9A44-266FA4547014}
+    {BB5E47EB-F2EF-479A-8F98-7E288BC4171D}
+    {96EDDA45-8B27-4F90-9D53-1F8B277CDBDB}
+    {AE0C33FA-8B15-4652-BAD0-0C9F04155052}
+    {EBF2A39C-8B23-4917-B5C1-CCAA2B984192}
+    {85C215AB-4D5B-4B19-A252-4CFFCB8CDB99}
+    {7BF5B194-5794-43E5-8547-C88ADF05D433}
+    {C1E8F7A1-9CD7-458A-A41F-A64463AC4697}
+    {74F986A4-7075-4C5B-9A69-30D271B14134}
+    {4F257023-BE77-4AD4-8230-27061CC9706F}
+    {51923980-CEBD-4A5C-9F4A-F78B0E79488F}
+    {5498B8AA-E21F-466D-BC50-D79EA92103D5}
+    {A38E5CA2-F11D-417C-81EC-7C6C5CB18A79}
+    {4F815490-E184-4E50-A91A-FB97698EAE9F}
+    {F3196176-78E1-40ED-902A-9223880EFBB2}
+    {AC9D966B-9811-4812-A6A8-B26AB12D0471}
+    {68E1E057-FDE4-4C91-84DB-231977DA5E58}
+    {4487AC51-AC2F-48DF-B28C-6A2E2D0779FD}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9bbe3dd9-d853-48bb-8b9d-0212449b8774"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A2C2E7AD-2885-48FB-BE23-052C4C5F5CC4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250820T091645Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "df949985-c676-4f66-a11b-2a250c5d9040"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T152604Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251219T104229Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9a775fc7-b935-40eb-a77e-4926fa6ff851"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104229Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251217T110033Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "43751c33-bf1d-4f58-a223-305b194581f1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110033Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251217T103926Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "569d0ef7-cd13-46f2-9979-58a0690a0617"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T103926Z

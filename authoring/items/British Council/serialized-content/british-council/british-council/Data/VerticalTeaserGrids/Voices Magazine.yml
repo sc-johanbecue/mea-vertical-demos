@@ -1,0 +1,171 @@
+﻿---
+ID: "b4779f2d-2454-4cd7-bf30-b0b7c0807e14"
+Parent: "ccff62e3-e355-477e-861a-17f67adfc4ee"
+Template: "3ca163e0-d237-47ff-9477-1bceb42c983a"
+Path: "/sitecore/content/british-council/british-council/Data/VerticalTeaserGrids/Voices Magazine"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b3c599e-def0-447d-9304-bb79b4571bdb"
+      Hint: Intro
+      Value: |
+        Take a closer look at the people, communities, and ideas that ignite our world; one story at a time.
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "705a576f-5675-4bfc-ad6f-335ddd897dc5"
+      Hint: ViewAllLink
+      Value: |
+        <link text="View all" linktype="external" url="/" />
+    - ID: "77ff3842-6ec5-43a2-be8e-2efd80e683cd"
+      Hint: Title
+      Value: Voices Magazine
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0358e93-070f-4f8c-a99b-50063eaad8f9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T131443Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b3c599e-def0-447d-9304-bb79b4571bdb"
+      Hint: Intro
+      Value: |
+        Découvrez de plus près les personnes, les communautés et les idées qui inspirent notre monde ; une histoire à la fois.
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "705a576f-5675-4bfc-ad6f-335ddd897dc5"
+      Hint: ViewAllLink
+      Value: |
+        <link linktype="external" text="Voir tout" url="/" />
+    - ID: "77ff3842-6ec5-43a2-be8e-2efd80e683cd"
+      Hint: Title
+      Value: Voices Magazine
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e6018d4-207c-4585-a5f8-e8acb082f750"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084737Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b3c599e-def0-447d-9304-bb79b4571bdb"
+      Hint: Intro
+      Value: |
+        हमारे काम, हमारे समुदायों और उन विचारों पर करीब से नज़र डालें जो हमारी दुनिया को प्रेरित करते हैं; एक समय में एक कहानी।
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "705a576f-5675-4bfc-ad6f-335ddd897dc5"
+      Hint: ViewAllLink
+      Value: |
+        <link linktype="external" text="सभी देखें" url="/" />
+    - ID: "77ff3842-6ec5-43a2-be8e-2efd80e683cd"
+      Hint: Title
+      Value: वॉयसेस मैगज़ीन
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "04946604-2eba-4f3e-830b-cae5b70b78bd"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093428Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b3c599e-def0-447d-9304-bb79b4571bdb"
+      Hint: Intro
+      Value: |
+        Neem een ​​nadere blik op de mensen, gemeenschappen en ideeën die onze wereld inspireren; één verhaal tegelijk.
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "705a576f-5675-4bfc-ad6f-335ddd897dc5"
+      Hint: ViewAllLink
+      Value: |
+        <link linktype="external" text="Bekijk alles" url="/" />
+    - ID: "77ff3842-6ec5-43a2-be8e-2efd80e683cd"
+      Hint: Title
+      Value: Voices Magazine
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aeae8cb1-dfad-4158-a88b-9cffd75e20a7"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084737Z

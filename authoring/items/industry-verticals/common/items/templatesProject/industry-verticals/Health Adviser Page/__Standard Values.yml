@@ -1,0 +1,57 @@
+﻿---
+ID: "5da9f6a7-a289-49b2-8df2-be8bc40379ed"
+Parent: "af12594e-29fe-45a7-a85f-4180afe3deaf"
+Template: "af12594e-29fe-45a7-a85f-4180afe3deaf"
+Path: "/sitecore/templates/Project/industry-verticals/Health Adviser Page/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {412BF445-B1A6-4AFF-8054-0B21A1FEBC47}
+    {98E60957-0783-4A9A-85CC-77DAD30E9711}
+- ID: "33acd206-ca96-4308-ae01-7c9e836f6a8a"
+  Hint: ogImage
+  Value: |
+    <image mediaid="{DA088221-4921-4A2B-9ECC-12CEB4196F9F}" />
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c6852b4e-a01e-45e4-bc9e-2ebf4252e943"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250820T091612Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2193358c-b403-4a3e-974a-86b4f612bb78"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260322T222538Z
+    - ID: "db10d78b-9640-43f5-9e73-b53e365cd76e"
+      Hint: Title
+      Value: $name

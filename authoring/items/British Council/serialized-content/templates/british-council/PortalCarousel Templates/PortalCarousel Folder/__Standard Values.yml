@@ -1,0 +1,23 @@
+---
+ID: "160e0b3e-0037-47ba-b807-f9494546765a"
+Parent: "db068760-c961-4d80-a73e-6dd1e3864e79"
+Template: "db068760-c961-4d80-a73e-6dd1e3864e79"
+Path: "/sitecore/templates/Project/british-council/PortalCarousel Templates/PortalCarousel Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {5F82C48E-0CA8-4C79-AF52-1B0246E0C063}
+    {DB068760-C961-4D80-A73E-6DD1E3864E79}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,40 @@
+﻿---
+ID: "a8516475-3d4f-484e-8a53-fae7b0e0bfc3"
+Parent: "9a63ffa4-08a5-405f-8aab-52c4ac690f7b"
+Template: "b1a7e1b1-2ab5-4c15-8d7a-e59b18252763"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/HeroCarousels/Home Hero"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260901T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7450da88-d58d-48a3-9847-8259a49757a6"
+      Hint: SearchPlaceholder
+      Value: Search the BMA website
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3b6bbdff-a619-4465-94d3-c6c785f82a2e"
+    - ID: "92dc773e-dc36-4f60-b578-00d549244e1e"
+      Hint: SearchAction
+      Value: |
+        <link text="Search" linktype="external" url="/search" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260902T065114Z
+    - ID: "ee1ef844-48c9-4cf7-b619-bdc2b44e51e4"
+      Hint: Title
+      Value: Protecting Bermuda's financial system

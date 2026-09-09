@@ -1,0 +1,26 @@
+﻿---
+ID: "c1c98fd9-59ae-4374-9672-b83780b4040e"
+Parent: "43670440-169f-4ad0-8c24-b83887194d9b"
+Template: "6e4162b0-1e11-4e1a-90df-8e839816c51b"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/DevelopmentCards/Default DevelopmentCard"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T021857Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "35951010-7700-488f-974a-ceff4f155baf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T143545Z

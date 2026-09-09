@@ -1,0 +1,29 @@
+---
+ID: "df1be5db-e361-4f25-81cb-258b5c798c90"
+Parent: "f79662b1-350c-4191-8c08-abbdac14dc11"
+Template: "ee39cac2-efcd-4e99-8bb7-5a86d844d4ee"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/LinkListItems/Regulation - Digital Assets"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "a1b9e05e-aad6-4280-bee0-9fc728078d0d"
+      Hint: Link
+      Value: |
+        <link text="Digital Assets" linktype="external" url="/digital-assets" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "df1be5db-e361-4f25-81cb-258b5c798c90"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

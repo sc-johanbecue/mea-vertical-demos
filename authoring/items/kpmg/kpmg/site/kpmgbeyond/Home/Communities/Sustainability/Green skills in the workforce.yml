@@ -1,0 +1,83 @@
+---
+ID: "7a3fbc54-c262-4ce8-b564-05a34d51b0a4"
+Parent: "19cf9dc2-d540-4af7-a6e9-03de119bdff1"
+Template: "d5000002-0001-4000-8000-000000000002"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Communities/Sustainability/Green skills in the workforce
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+        <r
+          uid="{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}"
+          id="{D5000002-0001-4000-8000-000000000030}"
+          par="CSSStyles"
+          ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260606T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Green skills in the workforce
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Green skills in the workforce
+    - ID: "d5000002-0001-4000-8000-000000000010"
+      Hint: Title
+      Value: Green skills in the workforce
+    - ID: "d5000002-0001-4000-8000-000000000011"
+      Hint: Body
+      Value: |
+        <div class="ck-content"><p>Transition plans need green skills at scale. What training programmes are actually moving the needle in your organisation?</p></div>
+    - ID: "d5000002-0001-4000-8000-000000000012"
+      Hint: AuthorName
+      Value: Nina Patel
+    - ID: "d5000002-0001-4000-8000-000000000013"
+      Hint: AuthorTitle
+      Value: Learning & Development
+    - ID: "d5000002-0001-4000-8000-000000000014"
+      Hint: AuthorCompany
+      Value: KPMG
+    - ID: "d5000002-0001-4000-8000-000000000016"
+      Hint: PublishedDate
+      Value: 1 week ago
+    - ID: "d5000002-0001-4000-8000-000000000017"
+      Hint: LikeCount
+      Value: 8
+    - ID: "d5000002-0001-4000-8000-000000000018"
+      Hint: CommentCount
+      Value: 1
+    - ID: "d5000002-0001-4000-8000-000000000019"
+      Hint: ViewCount
+      Value: 89
+    - ID: "d5000002-0001-4000-8000-000000000020"
+      Hint: AdminApproved
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7a3fbc54-c262-4ce8-b564-05a34d51b0a4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260606T120000Z

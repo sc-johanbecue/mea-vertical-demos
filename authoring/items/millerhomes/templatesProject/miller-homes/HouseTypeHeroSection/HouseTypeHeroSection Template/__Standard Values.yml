@@ -1,0 +1,43 @@
+﻿---
+ID: "10135f09-81db-4e68-b492-0c2521ae2b6b"
+Parent: "941db6a8-465d-4dae-852a-340f39bf56eb"
+Template: "941db6a8-465d-4dae-852a-340f39bf56eb"
+Path: "/sitecore/templates/Project/miller-homes/HouseTypeHeroSection/HouseTypeHeroSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031811Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "7463afc3-53cd-47ef-a4ce-b222f8d61ae2"
+      Hint: ViewPlanText
+      Value: View Plan
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "79c19461-58cb-469b-aa8c-ae1bad3c57b0"
+    - ID: "a5d60699-8c92-4919-9c22-9e911c453045"
+      Hint: PreviousImageLabel
+      Value: Previous image
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c518d829-b999-4732-b8c2-abd2164b5d37"
+      Hint: ViewTourText
+      Value: View Tour
+    - ID: "c663b400-3e03-40c2-b029-ac2987438c4f"
+      Hint: NextImageLabel
+      Value: Next image
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T031844Z

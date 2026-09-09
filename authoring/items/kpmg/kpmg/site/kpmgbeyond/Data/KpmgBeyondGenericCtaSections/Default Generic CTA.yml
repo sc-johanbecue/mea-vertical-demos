@@ -1,0 +1,48 @@
+﻿---
+ID: "a5000208-0001-4000-8000-000000000001"
+Parent: "a5000008-0001-4000-8000-000000000007"
+Template: "a5000008-0001-4000-8000-000000000002"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondGenericCtaSections/Default Generic CTA
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260606T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f0cfe7a9-6eb7-4aa2-bb19-d78c128811ba"
+    - ID: "a5000008-0001-4000-8000-000000000010"
+      Hint: Title
+      Value: Beyond
+    - ID: "a5000008-0001-4000-8000-000000000011"
+      Hint: Description
+      Value: 24/7 access to free expertise, solutions, networking and personal growth at your fingertips. Welcome to Beyond, where leaders belong.
+    - ID: "a5000008-0001-4000-8000-000000000012"
+      Hint: PrimaryJoinLink
+      Value: |
+        <link linktype="internal" id="a5000100-0001-4000-8000-000000000002" anchor="" querystring="" target="" class="" text="" title=""/>
+    - ID: "a5000008-0001-4000-8000-000000000013"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="bca09eeb-81b3-42e3-a96f-8430cb7967a6" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T124702Z

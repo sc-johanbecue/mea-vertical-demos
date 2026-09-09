@@ -1,0 +1,117 @@
+﻿---
+ID: "f23194f9-d858-48df-aa95-3dbca9eff730"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/Corporate Tax Compliance
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5D81C211-A175-485B-BD0D-6390A54F7098}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B2853C20-04FC-4B7C-A7D2-6A9967806F8E}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{B72656B6-8E81-4C32-A54B-25AFC2965258}"
+          p:after="r[@uid='{B2853C20-04FC-4B7C-A7D2-6A9967806F8E}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{DE93734F-D7DB-4EDF-97E8-B27A3E3D2B74}"
+          p:after="r[@uid='{B72656B6-8E81-4C32-A54B-25AFC2965258}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{462FE287-0229-4314-9C04-569D47351680}"
+          p:after="r[@uid='{DE93734F-D7DB-4EDF-97E8-B27A3E3D2B74}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{F8382DE4-670D-49DE-B68C-7987FCA22CC6}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: Corporate Tax Compliance | Tech & advisory solution
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "We combine innovative technology with trusted expertise and high-quality client service to drive added value for your business from your corporate tax (CT) compliance process."
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/CT-Compliance" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Corporate Tax Compliance
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Corporate Tax Compliance
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: "Machine-learning technology combined with outstanding tax expertise and client service"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "981c4bde-a5bf-4d6c-bf05-1f49b773fc4e"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="b69bb958-2c0a-469a-848d-25043d74c754" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/CT-Compliance/CT-Compliance-main-image.jpg?rev=f135f3a8ba9e492a9ae80cff4a5d494a&hash=69922C03F612C5E5F4ABD5BFCDE56A53" alt="CT Compliance" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        We combine innovative technology with trusted expertise and high-quality client service to drive added value for your business from your corporate tax (CT) compliance process.
+        <p>With prices from &pound;5,000 plus VAT, our dedicated team of experienced and technical specialists will produce quality corporate tax returns in line with the latest HMRC requirements, and our advanced technology allows you to streamline the process, manage risk and save time and resource from your team. </p> <h2>A holistic approach</h2> <p>We&rsquo;ll undertake a technical review of your returns, highlighting tax savings and risk mitigation opportunities where possible. We&rsquo;ll communicate key issues and critical judgements through a tax return insights document. </p> <h2>Trusted relationships</h2> At the start of each compliance cycle, we&rsquo;ll discuss your business activity over the return period, as well as any relevant legislative changes. <p>You&rsquo;ll have regular touchpoints with your dedicated team who will deliver valuable insights to help you get the most out of your CT compliance. </p> <img alt="Start freeing up time and resource today; book a free call" style="height:400px; width:1069px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/CT-Compliance/CT-Compliance---banner_V3.png?rev=ad2ac40748bf42a38e9d39b5547246ee&hash=8E60D8913D0CCB200D096ECECF5462C9" />  <h2>Advanced technology </h2> <p>Our machine-learning platform, Tax Connect, is at the heart of our offering, enabling you to share tax-related information, track progress and approve your tax returns in one, centralised location. </p> <h2>Free up time and resource </h2> <p>Using your trial balance as the basis of your tax return, our technology extracts transactional-level information directly from your accounting systems.  </p> <p>We&rsquo;ll minimise the number of queries, focusing on your key risk areas to efficiently analyse tax sensitive accounts. </p> <p>Any questions we ask will be based on the actual data you provide, rather than a generic tax position.   </p> <h2>Reduce the risk of errors and penalties </h2> <p>We&rsquo;ll co-ordinate data extraction and timelines to avoid duplication of effort and to ensure all data is available well in advance of submission. You'll receive clear notifications and deadlines to upload missing data. </p> <h2>Tailored to your needs </h2> <p>We&rsquo;ll take the time to understand your specific needs and challenges, building you a bespoke service to suit your business.  </p> <p>You&rsquo;ll have access to a range of specialists who'll work closely to deliver a cohesive programme. This could include Corporate Interest Restriction (CIR), Research & Development (R&D) claims, capital allowances, transfer pricing (TP) and hybrid mismatch advice.</p> <h2>Future-proof your processes  </h2> <p>We use standard formats based on HMRC taxonomy so you&rsquo;ll be better prepared for Making Tax Digital and other technological developments, ahead of time. </p> <p>You&rsquo;ll also benefit from a higher quality of output due to accurate categorisation of your core data with a clear audit trail between the source data and final return. </p> <p>Our global footprint means we'll support you with your compliance requirements as you expand internationally, and it&rsquo;s easy for us to add additional services such as transfer pricing documentation and Value Added Tax (VAT) compliance to meet your needs.  </p> <p><img alt=" Ask yourself: How efficient is your current compliance process? Do you have a robust audit trail from your source data to the final tax return? Are you considering all risk areas and opportunities? What else would you prioritise if your team had more resource? " style="height:400px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/CT-Compliance/CT-Compliance---Gif_qus.gif?rev=ba8dcdedda1b48929c96881df2da8d9f&hash=0BE9FE804CF0FD1415FA7A498157162A" /></p> <p><em><sub>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities.</sub></em></p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T012646Z

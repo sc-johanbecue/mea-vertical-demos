@@ -1,0 +1,42 @@
+---
+ID: "3c252ffd-a6ac-4d44-ac24-42a796c08bc6"
+Parent: "db02dd5e-1eed-4005-b798-2664f11091fd"
+Template: "dcbbf590-8bfe-4018-b0b4-fdba2ea7c94b"
+Path: "/sitecore/content/rai/rai-amsterdam/Data/Headers/Site Header"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "5c24ec7c-c257-40ba-9078-97c642a20e57"
+      Hint: LogoText
+      Value: RAI Amsterdam
+    - ID: "287f5fc9-af69-4cb8-ac8e-928c72dc409d"
+      Hint: LogoLink
+      Value: |
+        <link class="" id="768fb77a-5cf1-4775-b8b6-3a3bea645ce3" querystring="" anchor="" target="" title="" linktype="internal" text="RAI Amsterdam" url="/rai/rai-amsterdam/Home" />
+    - ID: "2b0cac5c-c173-45de-be67-483f7a329ec8"
+      Hint: Logo
+      Value: |
+        <image mediaid="B3249B21-9F20-4754-BDDA-DD4057BDCA86" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "73539db1-e171-423b-80aa-6ff71df70f46"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

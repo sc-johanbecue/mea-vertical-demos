@@ -1,0 +1,60 @@
+﻿---
+ID: "0c427be9-de31-4a67-825d-50bac17ff2d9"
+Parent: "23e30bae-367c-48c4-87d6-ab86b55580d7"
+Template: "08185eef-cacb-44b4-81cb-231122a7b3b5"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Events/Tax Roundtable London
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260528T140000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5ad8bac9-0735-40c4-b7eb-cc97b53ac9dc"
+      Hint: CategoryLabel
+      Value: TAX
+    - ID: "5b6410ea-1c15-42da-9ee6-2cede6f972be"
+      Hint: Image
+      Value: |
+        <image mediaid="4b56cbb7-5fba-44ce-afdd-fc83be2e1588" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "89a5f0a6-05e6-4206-99ae-3dc22e4ccdb5"
+      Hint: EventMonth
+      Value: JUN
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c402334-89c4-43a8-ad7e-2c316c169957"
+    - ID: "a07c92d1-fc66-4639-8e07-74dd019527a6"
+      Hint: Time
+      Value: 10.00 AM
+    - ID: "a91f3d80-4fa2-4bab-9f01-d40ab9cc6890"
+      Hint: Title
+      Value: Higher Education Indirect Tax Roundtables 2026 (London)
+    - ID: "abdf1a78-5a74-4c3f-bd07-982f87126c87"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="#" anchor="" target="" class="" />
+    - ID: "ad74afd6-ca80-4eb4-ad01-26ed711d6e7d"
+      Hint: Summary
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260530T003316Z
+    - ID: "e4946d4a-538c-4a84-bdfd-dc2626b93982"
+      Hint: EventDay
+      Value: 3

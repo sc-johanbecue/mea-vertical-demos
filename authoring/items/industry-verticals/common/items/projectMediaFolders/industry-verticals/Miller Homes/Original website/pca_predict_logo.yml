@@ -1,0 +1,60 @@
+﻿---
+ID: "ac4b88ce-581a-4c43-9280-492f7f5ce891"
+Parent: "97e18ed0-f832-488b-aba4-de170e6ff5e2"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/Miller Homes/Original website/pca_predict_logo"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/AC4B88CE581A4C439280492F7F5CE891.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 68
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "8fe3fc28-35f8-4918-be73-dddada6398ba"
+  Value: iVBORw0KGgoAAAANSUhEUgAAAEQAAAAYCAYAAABDX1s+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA89JREFUeNrkWIuR2kAMNR4KcCoI7oCr4KCCQAOcqQCoAKgAqIBPA/gqgFSAO2BLcCpIJM8ToxHr2MdNAiE7s2O8lpfdt09PkhtBjbbb7Vp0mVLfDgaDY/DErVEBRAQgxmp4Q31OwLj/ChACYwwwIs/jnPqK+pKAyZ8aEAKiQ5c19ZZ5lFFvmzEHtmwqmMZzRmSXPjogodYJ6gf6eTBgMBBd2swLXblrDWG7Nb+HTZcx7eAB8yFbs0QnxC0m+vTpdwEOvdOj60IBx2B0aNynL9G9N4nDyrH+SoacPWDMqcdlrsDUpx7DTmtIQv1EC3gYNtBa1mBoVNdltGEKIGZ1xJLt2B6RRzMieiAvaN2kIbfSm4GjPvToyz/ZmqB8pLTgTDRbQgvyihxlDJZYfXEVSR7rT8/kNhP5P7jcAusRPUvhkkey6yrtS9T6NxDvNtk0yOan+g8W/gDjVgMv0bIJykvOIY3vE3qRjZaeTSWw5wlnVl8qQDypDTjMwfO16XlXFl9io9teAeZgb22OAChCtMwBxl5F0BzzcLQMQlBetCA17rMgo7OEVL4iNK8/6ptKdGVxMYQ5xobaeC42zmMTKAYJGH22of7FaBkfThf/FYCBXTCD25BTCYz1MTYNcdr8sqPOD/QkIkpMtxNOrmMSM8uCHtzC175JFJPQjOtcPa+yCZS7bQwjJx8Q2TfkT7ynkTwLQZWTsICLNyRhQxNS2yZHmUNIL6eGyfc12JNX3PvGXJXNJ8sIdq9jqDbLaO3ldJGDxOZkRLheJDSzLiDWnwx7fE2YNzLjcv9dbbzMRs+T6JwHWXFQ8zAKF1Ius+LfNsowFZnyc1W4zZCB8oLedflP4zOMRzVOPEBBmOA/ztCsHhiVKw1IkPmyzZbprVnHbkLPMnWQKdbQqwHICgHhgH39wPx8sAVDmAU2kkwRfrW+TAQM6MTZUw1LYpeV5CwOpyGRY4yrQ73kYCPu2lLRzM45xJhEFwn3rkYyucR7Yzt/w+QHaw/tM9Dr6MkPrmxK8o5i07rG0cVgyXuR0i1h8UHyEBNxIplH7tXhXcKu1hi1rkDXOZ8t/68KwD9coF0BUvGOgFEchgXPAFOAcusHIikA/9oHoo8CQvaSDWdg9BB6x8L9imuGw09hkzZ/42tLiI79NJCCFff6hJjXAEN0JcbpvyvGMzO+or8pTWObdlijcJuoipaFr38nMMQ9+zVsI7hADpa8qtKko1INyYg7uJ82gidtyKwdwvZU1TVzALHGIXeQ4RbpQxg8b+sCEN7oFkzPAM4ItcxEAVakBL8EGAAYBBTzoztl1gAAAABJRU5ErkJggg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1069
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 68 x 24
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "bcf4a128-8071-400b-af43-a7ae8602b8b8"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 24
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T101634Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0b1330ea-e473-4926-9c4f-2ed4217fc777"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T101635Z

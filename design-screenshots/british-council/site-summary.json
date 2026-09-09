@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-29T12:43:46.842Z",
+  "project": "british-council",
+  "urls": [
+    "https://www.britishcouncil.org/english/learn-online",
+    "https://www.britishcouncil.org/"
+  ],
+  "sections": {
+    "site": [
+      "CookieBanner",
+      "Header"
+    ],
+    "content": [
+      "AdultsRichTextSection",
+      "EventDetailHeroSection",
+      "LearnEnglishOnlineRichTextImageBlock"
+    ]
+  },
+  "fonts": [
+    {
+      "family": "BCSans",
+      "weight": 59,
+      "sources": [
+        "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Bd.woff2",
+        "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Lt.woff2",
+        "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Rg.woff2",
+        "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Bd.woff",
+        "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Lt.woff",
+        "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW08-Rg.woff"
+      ]
+    },
+    {
+      "family": "BCSansHeading",
+      "weight": 14,
+      "sources": [
+        "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW05-Headline.woff2",
+        "https://sui.britishcouncil.org/3.0.1/fonts/BritishCouncilSansW05-Headline.woff"
+      ]
+    },
+    {
+      "family": "a",
+      "weight": 14,
+      "sources": []
+    },
+    {
+      "family": "Zawgyi-One",
+      "weight": 12,
+      "sources": [
+        "https://sui.britishcouncil.org/3.0.1/fonts/zawgyi-one.woff"
+      ]
+    },
+    {
+      "family": "nazaninregular",
+      "weight": 12,
+      "sources": [
+        "https://sui.britishcouncil.org/3.0.1/fonts/nazaninregular.woff"
+      ]
+    },
+    {
+      "family": "nyala",
+      "weight": 12,
+      "sources": [
+        "https://sui.britishcouncil.org/3.0.1/fonts/Nyala-Regular.woff"
+      ]
+    },
+    {
+      "family": "Open Sans",
+      "weight": 6,
+      "sources": [
+        "https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTRsxEYwM7FgeyaSgU71cLG0.woff",
+        "https://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNShsxEYwM7FgeyaSgU71cLG0.woff",
+        "https://themes.googleusercontent.com/static/fonts/opensans/v6/uYKcPVoh6c5R0NpdEY5A-Q.woff"
+      ]
+    }
+  ],
+  "colors": {
+    "primary": {
+      "hex": [
+        "#920061",
+        "#e600b4"
+      ],
+      "gradients": [
+        "linear-gradient(#000, #000)",
+        "linear-gradient(#002e9e, #002e9e)"
+      ]
+    },
+    "secondary": {
+      "hex": [
+        "#23085a",
+        "#2c681b"
+      ],
+      "gradients": []
+    },
+    "accent": {
+      "hex": [],
+      "gradients": []
+    },
+    "neutrals": {
+      "hex": [
+        "#333333",
+        "#54565a",
+        "#ebeff0"
+      ],
+      "gradients": []
+    },
+    "semantic": {
+      "success": "#ffffff",
+      "error": null,
+      "warning": null,
+      "info": null
+    }
+  },
+  "stylesheets": [
+    "bc-theme-subthemes.css",
+    "bc-theme.css",
+    "css__HZ9l_je9BBUks5GAUfh3t3XyNqspD1U8hI8VjKJ8XBg__PYTnKthXP3fFPb8U19jaTCqrk9DJ6KI5SDexgOsMADs__M2cnM5jQnWyRcJCHUqaGgWKgJvzi-_Y7NvIovFJI568.css",
+    "css__gUwrWmDSCYDpNT-ZgT90lg3qnBO5bhMRTuszI3FZdGE__NddIO3YqwbFuLJ1SpObv95pgccLJqWX0xe4khRt6KhE__M2cnM5jQnWyRcJCHUqaGgWKgJvzi-_Y7NvIovFJI568.css",
+    "css__v1EIclSjdZunjxpJtP0GhGwkYPROGscKxg-D1cyzWD4__gJjhCWcWNl8JCtMMsp1uUUHkmsOTYQdexJAnLMVGERM__M2cnM5jQnWyRcJCHUqaGgWKgJvzi-_Y7NvIovFJI568.css"
+  ]
+}

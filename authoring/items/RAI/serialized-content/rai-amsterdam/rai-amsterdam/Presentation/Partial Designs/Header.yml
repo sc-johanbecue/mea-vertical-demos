@@ -1,0 +1,92 @@
+---
+ID: "74f53b6a-791e-45e8-ab53-3c11bf9f0ec4"
+Parent: "47dc7414-2a65-4fda-9485-eb841660d831"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/rai/rai-amsterdam/Presentation/Partial Designs/Header"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="4C447C3F-8BC3-4994-BA56-8CC81174D11C"
+          p:before="*"
+          s:ds="3c252ffd-a6ac-4d44-ac24-42a796c08bc6"
+          s:id="{87179119-CD89-4580-B630-22473C6EBC51}"
+          s:par="CSSStyles&amp;FieldNames=%7B646C1AFB-09BD-4D25-B454-C140D541AB7A%7D&amp;DynamicPlaceholderId=1"
+          s:ph="headless-header" />
+        <r
+          uid="7A68A3FD-8083-4722-B65A-345CDAC690B9"
+          p:after="r[@uid='4C447C3F-8BC3-4994-BA56-8CC81174D11C']"
+          s:id="{DB1F8FD7-4DD5-46DC-9D38-24DCBF3C990F}"
+          s:par="CSSStyles&amp;FieldNames=%7B873134B3-EBCC-4FBD-A3AD-804EE2DE62BE%7D&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-B8110-9D499715F3BE%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot=1&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-header/header-nav-1" />
+        <r
+          uid="4CF522E7-3477-4347-BC5C-3ECC748B4B47"
+          p:after="r[@uid='7A68A3FD-8083-4722-B65A-345CDAC690B9']"
+          s:ds="bf5f1eb9-3cb9-47bc-bc59-a73194a8af22"
+          s:id="{9F972706-7320-4EC4-9DE7-A2E5C66F093D}"
+          s:par="CSSStyles&amp;FieldNames=%7BB2A4D52B-97DD-439A-B563-9E228039BF98%7D"
+          s:ph="/headless-header/header-utility-1" />
+        <r
+          uid="CB4A8EAF-9E73-43C2-90C4-BF442C2253A4"
+          p:after="r[@uid='4CF522E7-3477-4347-BC5C-3ECC748B4B47']"
+          s:ds="3c2eb316-b7bf-46e3-8984-070b70f731a5"
+          s:id="{9F972706-7320-4EC4-9DE7-A2E5C66F093D}"
+          s:par="CSSStyles&amp;FieldNames=%7BB2A4D52B-97DD-439A-B563-9E228039BF98%7D"
+          s:ph="/headless-header/header-utility-1" />
+        <r
+          uid="96DE4988-4E8A-44AC-B89B-9EC2080810B7"
+          p:after="r[@uid='CB4A8EAF-9E73-43C2-90C4-BF442C2253A4']"
+          s:ds="b9eea755-1aa6-45a2-b9bf-a0a2935087b0"
+          s:id="{9F972706-7320-4EC4-9DE7-A2E5C66F093D}"
+          s:par="CSSStyles&amp;FieldNames=%7BB2A4D52B-97DD-439A-B563-9E228039BF98%7D"
+          s:ph="/headless-header/header-utility-1" />
+        <r
+          uid="0CD55797-A5F6-44BC-AE65-0D1F1BFBA173"
+          p:after="r[@uid='96DE4988-4E8A-44AC-B89B-9EC2080810B7']"
+          s:ds="a0a26bdb-db73-4fad-a901-4a7ecfa41222"
+          s:id="{9F972706-7320-4EC4-9DE7-A2E5C66F093D}"
+          s:par="CSSStyles&amp;FieldNames=%7BB2A4D52B-97DD-439A-B563-9E228039BF98%7D"
+          s:ph="/headless-header/header-utility-1" />
+        <r
+          uid="0456B989-1FD0-4073-8B00-FF9E3DF9040C"
+          p:after="r[@uid='0CD55797-A5F6-44BC-AE65-0D1F1BFBA173']"
+          s:ds="87d8c729-4f0c-45ca-969a-262e004d63b4"
+          s:id="{9F972706-7320-4EC4-9DE7-A2E5C66F093D}"
+          s:par="CSSStyles&amp;FieldNames=%7BB2A4D52B-97DD-439A-B563-9E228039BF98%7D"
+          s:ph="/headless-header/header-utility-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260616T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "74f53b6a-791e-45e8-ab53-3c11bf9f0ec4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260616T120000Z

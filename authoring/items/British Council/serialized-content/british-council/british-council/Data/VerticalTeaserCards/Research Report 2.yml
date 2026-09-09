@@ -1,0 +1,191 @@
+﻿---
+ID: "a11e1002-0002-4002-8002-000000000001"
+Parent: "de8c9bbb-e3f6-451a-b5d6-2b5b5b0f3f98"
+Template: "d76b94f4-229b-4ef0-95e2-35547ec86c6f"
+Path: "/sitecore/content/british-council/british-council/Data/VerticalTeaserCards/Research Report 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="022852d9-69a5-44b5-8417-b38c2ec9d642" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link text="Read more" linktype="external" url="/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d250cb51-12da-407c-bcc9-916bb5b04c8c"
+    - ID: "8e43b7b8-41fe-4c59-9d96-1b90523c82d3"
+      Hint: Body
+      Value: Longitudinal study on the experience and perceptions of international graduates of a UK education.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cab5e530-9b85-49ed-a83b-f5989c8f86aa"
+      Hint: Eyebrow
+      Value: Research report
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T133354Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: "Alumni Voices. Beyond graduation: The lifelong global impact of a UK education"
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="022852d9-69a5-44b5-8417-b38c2ec9d642" alt="website-studyuk_02839_1" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="En savoir plus" url="/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "55dc1a3e-af68-4599-baa4-34e919aeab44"
+    - ID: "8e43b7b8-41fe-4c59-9d96-1b90523c82d3"
+      Hint: Body
+      Value: "Étude longitudinale sur l'expérience et les perceptions des diplômés internationaux d'une éducation au Royaume-Uni."
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cab5e530-9b85-49ed-a83b-f5989c8f86aa"
+      Hint: Eyebrow
+      Value: Rapport de recherche
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084734Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: "Voix des anciens élèves. Au-delà de la remise des diplômes : L'impact mondial durable d'une éducation au Royaume-Uni"
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="022852d9-69a5-44b5-8417-b38c2ec9d642" alt="website-studyuk_02839_1" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="और पढ़ें" url="/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "367ab9bd-f556-4be8-ac10-f8e09b6e71cd"
+    - ID: "8e43b7b8-41fe-4c59-9d96-1b90523c82d3"
+      Hint: Body
+      Value: अंतर्राष्ट्रीय स्नातकों के यूके शिक्षा के अनुभव और धारणाओं पर अनुवर्ती अध्ययन।
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cab5e530-9b85-49ed-a83b-f5989c8f86aa"
+      Hint: Eyebrow
+      Value: अनुसंधान रिपोर्ट
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093425Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: "पूर्व छात्र आवाज़ें। स्नातक होने के बाद: यूके शिक्षा का आजीवन वैश्विक प्रभाव"
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="022852d9-69a5-44b5-8417-b38c2ec9d642" alt="website-studyuk_02839_1" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Lees meer" url="/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57845ffd-0fd9-4b53-b98b-eb9cbd2dd597"
+    - ID: "8e43b7b8-41fe-4c59-9d96-1b90523c82d3"
+      Hint: Body
+      Value: Longitudinaal onderzoek naar de ervaringen en percepties van internationale afgestudeerden van een Britse opleiding.
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cab5e530-9b85-49ed-a83b-f5989c8f86aa"
+      Hint: Eyebrow
+      Value: Onderzoeksrapport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084734Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: "Alumni Stemmen. Voorbij afstuderen: De levenslange wereldwijde impact van een Britse opleiding"

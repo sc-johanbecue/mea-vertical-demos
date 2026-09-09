@@ -1,0 +1,285 @@
+{
+  "url": "https://www.axa.be/nl/particulieren",
+  "slug": "axa-be--nl-particulieren",
+  "sectionOrder": [
+    "CookieBanner",
+    "TopBar",
+    "Header",
+    "VerzekerdOnlineEnJeHeroBanner",
+    "HeroCarousel",
+    "DringendeBijstandRichTextImageBlock",
+    "WaaromVoorAxaBelgiumLinkGrid",
+    "DuurzaamOndernemenStaatCentraalHeroCarousel",
+    "WeMakenDeelUitLinkGrid",
+    "NewsroomCtaBlock",
+    "InteressantVoorJouHeroCarousel",
+    "JeMakelaarStaatAltijdRichTextImageBlock",
+    "AlleVerzekeringenCtaBlock",
+    "Footer"
+  ],
+  "components": [
+    {
+      "cmsName": "VerzekerdOnlineEnJeHeroBanner",
+      "folderName": "verzekerd-online-en-je-hero-banner",
+      "type": "hero",
+      "scope": "page",
+      "selector": "section.hero.hero--title",
+      "reason": "Primary hero with page title",
+      "order": 0,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "HeroCarousel",
+      "folderName": "hero-carousel",
+      "type": "carousel",
+      "scope": "page",
+      "selector": "[data-webid=\"retail_homepage_cards\"]",
+      "reason": "Carousel / hero slider",
+      "order": 1,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "DringendeBijstandRichTextImageBlock",
+      "folderName": "dringende-bijstand-rich-text-image-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"_section_urgent\\ assistance\\ your\\ services_cta\"])",
+      "reason": "DringendeBijstandRichTextImageBlock: editorial content block",
+      "order": 2,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "WaaromVoorAxaBelgiumLinkGrid",
+      "folderName": "waarom-voor-axa-belgium-link-grid",
+      "type": "grid",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"service-5bb51d1ef94648d9aa97a711832692c9\"])",
+      "reason": "HorizontalLinkCardGrid with section title + 3 repeated tiles",
+      "order": 3,
+      "placeholderFor": "HorizontalLinkCard",
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "DuurzaamOndernemenStaatCentraalHeroCarousel",
+      "folderName": "duurzaam-ondernemen-staat-centraal-hero-carousel",
+      "type": "carousel",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"swiper-fed9b74298aa45e3a9e55c426c90b3f9\"])",
+      "reason": "Carousel / hero slider",
+      "order": 4,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "WeMakenDeelUitLinkGrid",
+      "folderName": "we-maken-deel-uit-link-grid",
+      "type": "grid",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"service-1b66ae028d0340eb961634fc61717d6d\"])",
+      "reason": "HorizontalLinkCardGrid with section title + 3 repeated tiles",
+      "order": 5,
+      "placeholderFor": "HorizontalLinkCard",
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "NewsroomCtaBlock",
+      "folderName": "newsroom-cta-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"_quote_quotearticles_cta\\ left\"])",
+      "reason": "NewsroomCtaBlock: editorial content block",
+      "order": 6,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "InteressantVoorJouHeroCarousel",
+      "folderName": "interessant-voor-jou-hero-carousel",
+      "type": "carousel",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"swiper-2e40e652400c41d6acb1a32a95d9a3d7\"])",
+      "reason": "Carousel / hero slider",
+      "order": 7,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "JeMakelaarStaatAltijdRichTextImageBlock",
+      "folderName": "je-makelaar-staat-altijd-rich-text-image-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "[data-webid=\"retail_homepage_broker\"]",
+      "reason": "JeMakelaarStaatAltijdRichTextImageBlock: editorial content block",
+      "order": 8,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "AlleVerzekeringenCtaBlock",
+      "folderName": "alle-verzekeringen-cta-block",
+      "type": "content-section",
+      "scope": "page",
+      "selector": "section:has([data-webid=\"retail_homepage_insurance_catalog\"])",
+      "reason": "Editorial: \"Alle verzekeringen\"",
+      "order": 9,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    },
+    {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "type": "footer",
+      "scope": "site",
+      "selector": "footer.foot",
+      "reason": "Site footer with links and legal",
+      "order": 10,
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false
+    }
+  ],
+  "stickyOverlays": {
+    "components": [
+      {
+        "cmsName": "CookieBanner",
+        "captured": true,
+        "recaptured": false
+      },
+      {
+        "cmsName": "TopBar",
+        "captured": true
+      },
+      {
+        "cmsName": "Header",
+        "captured": true
+      }
+    ],
+    "hideMethod": "css",
+    "found": true
+  },
+  "fullPageShots": {
+    "overlay": {
+      "desktop": "desktop.png",
+      "tablet": "tablet.png",
+      "mobile": "mobile.png"
+    },
+    "clean": {
+      "desktop": "desktop-clean.png",
+      "tablet": "tablet-clean.png",
+      "mobile": "mobile-clean.png"
+    }
+  },
+  "design": {
+    "fonts": [
+      {
+        "family": "Source Sans Pro",
+        "count": 195,
+        "sources": [
+          "https://cdn.website.axa.be/fonts/sourcesanspro-bold-subset-latin.woff2",
+          "https://cdn.website.axa.be/fonts/sourcesanspro-regular-subset-latin.woff2",
+          "https://cdn.website.axa.be/fonts/sourcesanspro-semibold-subset-latin.woff2"
+        ]
+      },
+      {
+        "family": "Publico",
+        "count": 19,
+        "sources": [
+          "https://cdn.website.axa.be/fonts/publicoheadline-bold.woff2",
+          "https://cdn.website.axa.be/fonts/PublicoHeadline-Light-subset-latin.woff2"
+        ]
+      },
+      {
+        "family": "icomoon",
+        "count": 3,
+        "sources": [
+          "https://cdn.website.axa.be/fonts/icomoon/fonts/icomoon.woff?tznc38",
+          "https://cdn.website.axa.be/fonts/icomoon/fonts/icomoon.ttf?tznc38",
+          "https://cdn.website.axa.be/fonts/icomoon/fonts/icomoon.svg?tznc38#icomoon"
+        ]
+      }
+    ],
+    "colors": {
+      "primary": {
+        "hex": [
+          "#00008f",
+          "#0000d2",
+          "#0000f7",
+          "#4658fc"
+        ],
+        "gradients": [
+          "linear-gradient(#e2efff 0%, rgba(0, 0, 0, 0) 100%)"
+        ]
+      },
+      "secondary": {
+        "hex": [
+          "#0c0e45",
+          "#750707"
+        ],
+        "gradients": []
+      },
+      "accent": {
+        "hex": [],
+        "gradients": []
+      },
+      "neutrals": {
+        "hex": [
+          "#000000",
+          "#343c3d",
+          "#4a4c5a",
+          "#64677a",
+          "#f2f2f6",
+          "#f8faff",
+          "#ffeaea",
+          "#fff7f7",
+          "#ffffff"
+        ],
+        "gradients": []
+      },
+      "semantic": {
+        "success": null,
+        "error": "#ec000a",
+        "warning": null,
+        "info": "#e2efff"
+      }
+    },
+    "css": {
+      "directory": "css",
+      "files": [
+        {
+          "file": "css/style.css",
+          "href": "https://cdn.website.axa.be/fonts/icomoon/style.css?tznc38",
+          "score": 100
+        },
+        {
+          "file": "css/axa-fonts.css",
+          "href": "https://cdn.website.axa.be/fonts/axa-fonts.css?v=639148782000000000",
+          "score": 100
+        }
+      ]
+    }
+  }
+}

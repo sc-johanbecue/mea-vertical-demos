@@ -1,0 +1,43 @@
+﻿---
+ID: "9dec9d82-ca7c-44ca-ad45-0dc1ba2c3344"
+Parent: "1d4dc09d-b568-4e01-a5fd-d4cf3c360a78"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/british-council/portal-main"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "portal-main-{*}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ae9d39c2-b7c3-4ea4-847e-60ef8f16eeec"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {CD833173-7937-4236-8C80-A47CF3936525}
+    {D6B81D9C-B6C5-42B4-BE55-AF98571E129E}
+    {48B2EE15-B240-495A-9267-2B72997C3F6B}
+    {C0E708B9-93F8-438A-91C0-56276D65CBC4}
+    {EE87D5C6-4BEE-449A-A066-F9E776839097}
+    {B11E2500-0001-4001-8500-000000000020}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "570f8943-ffd5-4e13-916c-f57c8abaa6f2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T091619Z

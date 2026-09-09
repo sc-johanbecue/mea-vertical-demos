@@ -1,0 +1,38 @@
+﻿---
+ID: "108d2d2a-2244-4052-8e8f-2d9d194d1d24"
+Parent: "bcdf7f02-6a54-4707-9053-cacf4f8df425"
+Template: "bcdf7f02-6a54-4707-9053-cacf4f8df425"
+Path: "/sitecore/templates/Project/british-council/Roles/Role Page Fields/__Standard Values"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "762c38b7-c27c-4d22-9839-d67902a74004"
+- ID: "fa5d1238-f757-4837-a645-f12c33703336"
+  Hint: RolesOperator
+  Value: "{63290F56-C8D3-4D06-9C64-4AB3DDE821A1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260306T105518Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9004494-7dc1-49bf-8065-7e44b656ae04"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T014909Z

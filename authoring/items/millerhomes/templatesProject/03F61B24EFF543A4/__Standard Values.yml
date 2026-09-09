@@ -1,0 +1,52 @@
+﻿---
+ID: "06a53154-90cf-4aa8-9ba9-f07babb5a460"
+Parent: "bad33c59-594a-4d11-a064-c5bc303ec91c"
+Template: "bad33c59-594a-4d11-a064-c5bc303ec91c"
+Path: "/sitecore/templates/Project/miller-homes/LocalAmenitiesSection/LocalAmenitiesSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2523a79c-db00-49f9-995f-4f56d749e149"
+      Hint: Title
+      Value: Bramcote Hills Rise
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T031811Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5462e114-8de1-4b6b-a642-b4b34997f19e"
+      Hint: InteractiveMapText
+      Value: Interactive Map
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4520241-add5-4c9d-8fcc-bc3c3d94c199"
+    - ID: "98ae3414-92e2-4797-9b86-a2d702b1a451"
+      Hint: TitlePart1
+      Value: Local
+    - ID: "ac93ac3e-6d31-4b3c-a720-3fb91276819f"
+      Hint: TitlePart2
+      Value: Amenities
+    - ID: "b2460259-19fe-44ef-89e3-78256bec6c65"
+      Hint: MapButtonText
+      Value: Map
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bc6ffdac-a131-4445-b52d-5123963897fe"
+      Hint: MapIntegrationText
+      Value: Map integration required
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T031845Z
+    - ID: "f33c0207-11ae-4399-bd01-b9ba1efdf1e3"
+      Hint: SatelliteButtonText
+      Value: Satellite

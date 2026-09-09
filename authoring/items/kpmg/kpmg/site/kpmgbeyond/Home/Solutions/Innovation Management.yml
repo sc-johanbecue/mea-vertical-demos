@@ -1,0 +1,117 @@
+﻿---
+ID: "d6e9d2f0-c31e-4b95-9f36-b804b0463ed8"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/Innovation Management
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9FBD1FE9-B511-4212-BB09-35CA3C0F3F9B}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{CEBB06A1-1162-4FCE-BD46-25E423C35790}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{68D63576-40E1-4070-996B-AC1E264665F4}"
+          p:after="r[@uid='{CEBB06A1-1162-4FCE-BD46-25E423C35790}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{BAF601DD-B29E-48F9-BE05-C58698D1915B}"
+          p:after="r[@uid='{68D63576-40E1-4070-996B-AC1E264665F4}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{1BCBE757-048B-42BB-BBBD-EB7CA9101E13}"
+          p:after="r[@uid='{BAF601DD-B29E-48F9-BE05-C58698D1915B}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{3DC539E5-185D-4E82-8711-DDC23EB811C0}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: Innovation Management | Risk Assessment
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: Innovative businesses tend to display higher revenues, faster growth, and more substantial profit margins. Our Innovation Management Risk Assessment is designed to help improve your innovation output, while reducing risk and cost inefficiencies.
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/InnovationManagement" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Innovation Management
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Innovation Management
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: Reduce the risk of your R&D investments, minimise costs, and optimise your innovation outputs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2eb63678-e8ab-4af6-b5a5-f76bef779230"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="17c6aec4-1817-4cce-8ee6-757eea4d1a89" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Innovation/Innovation1.jpg?rev=b3cb502471f04512b16486d211cd72b0&hash=BDF572399B97353720A6E80EC9771120" alt="Innovation header image" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        <p>Innovative businesses tend to display higher revenues, faster growth, and more substantial profit margins. Our Innovation Management Risk Assessment is designed to help improve your innovation output, while reducing risk and cost inefficiencies.</p>
+        <p>With prices from &pound;15,000, your assessment results will provide a clear and objective indication of how you can optimise your innovation portfolio to improve the return on investment from your R&D spend. <br /> <br /> We do this by conducting an in-depth evaluation of your innovation systems and processes, benchmarking activity against international best practice. From there, we&rsquo;ll provide insight into where and how you can develop your portfolio.    </p> <h2>Increase your ROI </h2> By pinpointing areas in need of attention, our solution enables you to channel resources more effectively, resulting in a higher return on innovation investments.  <h2>Unlock cash within your business </h2> The results from this assessment allow you to streamline your innovation processes and eliminate inefficiencies, which can lead to significant cost savings.  <h2>Improve your cash flow </h2> <p> By developing a greater understanding of your current activity and future ambitions, we&rsquo;ll identify public funding and grants that align with your innovation strategies. We&rsquo;ll advise on how you can strengthen your position in order to leverage what&rsquo;s available to you. </p> <h2>Enhance your R&D claims </h2> <p>Once you&rsquo;ve addressed deficiencies in your innovation framework, you&rsquo;ll be in a significantly stronger position to optimise cash tax incentives through more robust and compliant R&D claims. </p> <h2>Reduce risk  </h2> Aligned to seven pillars of innovation management, including teams, processes, portfolio, and KPIs, our assessment helps to de-risk your R&D investment by identifying challenges within your portfolio, as well as areas that need improvement.   <h2>Tailored to your needs </h2> <p>Our multi-disciplinary team will work together to deliver a cohesive programme, tailored to your business&rsquo;s needs. </p> <p><img alt="30 – 45% of all innovation projects are not completed; Over 50% of innovation projects overrun their budgets by up to 200%; ~50% of business R&D expenditure is spent on failed R&D projects" style="height:600px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Innovation/Innovation-stats.gif?rev=e746565ba3af4d0b8b9b43c3ef66c81a&hash=CFB221C56A5CD6176BD48E36FB2DB406" /></p> <p><img alt="“Our team helped a large defence client to solve design challenges across the Public Defence Digitisation Programme. This successfully accelerated the design and deployment of an innovation framework, resulting in a 230% increase in production speed.” Dan Burton, Senior Manager, KPMG Innovation Advisory " style="height:500px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Innovation/Pull-quote-4-(1).png?h=500&w=1920&rev=971503851a6c4462b981822738b3d388&hash=23744C811DBBDB1298B8FDDF3B6DA4DA" /></p> <p><em><sub><sup>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities</sup></sub></em></p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T013606Z

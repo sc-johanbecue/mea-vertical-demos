@@ -1,0 +1,56 @@
+﻿---
+ID: "2dea8abe-68ab-425a-9221-5d706bf2c23f"
+Parent: "fa923bdd-a29a-4a43-b599-be55fdfeaa70"
+Template: "fa923bdd-a29a-4a43-b599-be55fdfeaa70"
+Path: "/sitecore/templates/Project/miller-homes/TestimonialsSection/TestimonialsSection Template/__Standard Values"
+SharedFields:
+- ID: "144f721d-0267-4142-9113-1d77322d19e1"
+  Hint: TemplateId
+  Value: 53aa8912dec7e10d38f59f36
+- ID: "2d0867e6-3019-41e1-aebc-8b5fc9d42f4a"
+  Hint: Theme
+  Value: light
+- ID: "a2dfb798-6b22-46cb-ae12-d85ace498b67"
+  Hint: WidgetHeight
+  Value: 140px
+- ID: "bc9ce3d0-e62d-41a7-8117-6e88f66d3d18"
+  Hint: Stars
+  Value: 4,5
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2ad616b4-9917-45d8-8ff0-12f72a6ec1a9"
+- ID: "e6c71f99-f0df-4d5d-aa4e-5885a2e70bd0"
+  Hint: BusinessUnitId
+  Value: 5803fd7b0000ff0005962025
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1d454921-963a-40ad-8e79-96d1c454004d"
+      Hint: ReviewLanguages
+      Value: en
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T030657Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "311e8f8f-2568-44c1-8122-c9223f95faae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d4110b4b-6959-4ee4-a968-6cdeafed0c50"
+      Hint: Locale
+      Value: "en-GB"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T201026Z

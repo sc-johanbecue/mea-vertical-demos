@@ -1,0 +1,64 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Clip horizontal overflow on the root so body can stay overflow-x: visible;
+     position: sticky on the header depends on a non-clipping scroll ancestor. */
+  overflow-x: clip;
+}
+
+body {
+  position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.xa-variable {
+  border: 0px;
+  padding: 1px;
+  margin: 0px;
+  background-color: #ebebe4;
+  color: #545454;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Navigation Bar fix */
+#breadcrumbMenuSubcontrol_context_menu * {
+  box-sizing: initial;
+}
+/* End navigation bar fix */
+
+.menu-mobile-navigate {
+  display: none;
+}
+
+#header,
+#content,
+#footer,
+.sc-jss-empty-placeholder {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sc-content-sdk-placeholder-error {
+  background: #ff0000;
+  outline: 5px solid #e36565;
+  padding: 10px;
+  color: #fff;
+  max-width: 500px;
+}
+
+.tww-clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body .ck.ck-editor__editable_inline {
+  padding: 0;
+}
+
+.stop-transition * {
+  transition: none !important;
+}

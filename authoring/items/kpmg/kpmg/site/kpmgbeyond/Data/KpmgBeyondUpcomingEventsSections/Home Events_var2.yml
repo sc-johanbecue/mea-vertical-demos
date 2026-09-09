@@ -1,0 +1,37 @@
+﻿---
+ID: "a99d71e2-1364-4384-8556-ed2dd3780580"
+Parent: "23d8431c-f604-4d49-a64b-4637a8421cbd"
+Template: "835ca62c-cb68-471c-b221-4fa23583bff0"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondUpcomingEventsSections/Home Events_var2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260528T140000Z
+    - ID: "441d19e2-9164-4e54-863a-0a5c350b1d54"
+      Hint: Title
+      Value: Upcoming events
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8ec35e77-cbc7-49a5-9db4-83d323a32d90"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260608T085025Z

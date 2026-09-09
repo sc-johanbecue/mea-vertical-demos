@@ -1,0 +1,140 @@
+﻿---
+ID: "5f903433-d857-4e05-8f16-36e7a123e242"
+Parent: "23e30bae-367c-48c4-87d6-ab86b55580d7"
+Template: "08185eef-cacb-44b4-81cb-231122a7b3b5"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Events/Government Departments and Arms Length Bodies
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E15B3823-5AB2-4678-8E5F-E20849570A73}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{5C246E6D-9807-437E-9C4F-9A0A728D34A4}"
+          p:before="*"
+          s:id="{A3000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{19DAFF86-D056-4612-8740-D12F540596B6}"
+          p:after="r[@uid='{5C246E6D-9807-437E-9C4F-9A0A728D34A4}']"
+          s:id="{A3000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{D53DAA1F-CC90-4102-9724-E94548838505}"
+          p:after="r[@uid='{19DAFF86-D056-4612-8740-D12F540596B6}']"
+          s:id="{A3000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{158FE13D-57D4-46A4-B9BE-88B46FCB3C90}"
+          p:after="r[@uid='{D53DAA1F-CC90-4102-9724-E94548838505}']"
+          s:id="{A3000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{B4C3B682-DD58-46CC-B394-7A11A98B298C}"
+          p:after="r[@uid='{158FE13D-57D4-46A4-B9BE-88B46FCB3C90}']"
+          s:id="{A3000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{C4D5E6F7-A8B9-4012-C456-789012345DEF}"
+          p:after="*[1=2]"
+          s:id="{A3000001-0006-4000-8000-000000000006}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260606T120000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Government Departments and Arm’s Length Bodies – Tax and Legal Update
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5ad8bac9-0735-40c4-b7eb-cc97b53ac9dc"
+      Hint: CategoryLabel
+      Value: Tax
+    - ID: "5b6410ea-1c15-42da-9ee6-2cede6f972be"
+      Hint: Image
+      Value: |
+        <image mediaid="d7f745fe-e512-4569-b0a8-e3c3e7cb61c8" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "89a5f0a6-05e6-4206-99ae-3dc22e4ccdb5"
+      Hint: EventMonth
+      Value: JUN
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e2b0bfb8-1339-4b42-9c92-9b62dd894a8b"
+    - ID: "a07c92d1-fc66-4639-8e07-74dd019527a6"
+      Hint: Time
+      Value: 12.30 PM
+    - ID: "a6113907-276a-49c5-85e8-119d7066aa7f"
+      Hint: Duration
+      Value: 1h
+    - ID: "a91f3d80-4fa2-4bab-9f01-d40ab9cc6890"
+      Hint: Title
+      Value: Government Departments and Arm’s Length Bodies – Tax and Legal Update
+    - ID: "abdf1a78-5a74-4c3f-bd07-982f87126c87"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/events/Government-Departments-and-Arms-Length-Bodies-June26" anchor="" target="" class="" />
+    - ID: "ad74afd6-ca80-4eb4-ad01-26ed711d6e7d"
+      Hint: Summary
+      Value: Government Departments and their Arm’s Length Bodies are among the most complex organisations when it comes to tax and legal compliance.
+    - ID: "b6113907-276a-49c5-85e8-119d7066aa80"
+      Hint: Body
+      Value: |
+        <p>Government Departments and their Arm’s Length Bodies are among the most complex organisations when it comes to tax and legal compliance. The interaction of both business and non-business activities, ‘normal’ tax rules, and Government-specific tax rules, creates a landscape that requires careful management and up to date knowledge. This webinar provides a focused update for Government Departments and Arm’s Length Bodies on the latest tax and legal developments affecting the sector. The session will highlight key changes, areas of increasing scrutiny and practical considerations for managing compliance across complex organisational structures.</p>
+        <p>Our approach for each session has 3 key aims:<br />- Addressing specific topics requested by you.<br />- Providing updates across all areas of tax using HMRC guidance, case law and our experiences<br />- Discussing a number of selected topics where we see the greatest level or scrutiny or uncertainty</p>
+        <p>What we’ll cover:<br />- Latest tax developments, including updates to HMRC guidance and recent case law<br />- Treasury reform of VAT rules for Government Bodies<br />- HMRC’s evolving approach to compliance and what it means in practice<br />- National Minimum Wage: key tax and legal considerations<br />- Corporation Tax for Arm’s Length Bodies, including trading status and available exemptions</p>
+        <p>Who should attend?<br />Finance, tax, legal and compliance professionals working within Government Departments and ALBs, as well as those responsible for managing tax risk and oversight.</p>
+        <p>Submit Your Topics:<br />- Attendees are welcome to suggest additional areas of interest in advance, and we will incorporate them where possible. Please submit any queries to: suzannah.belk@kpmg.co.uk</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d8113907-276a-49c5-85e8-119d7066aa82"
+      Hint: JoinLink
+      Value: |
+        <link linktype="external" url="/events/Government-Departments-and-Arms-Length-Bodies-June26" text="Join now" anchor="" target="" class="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T073039Z
+    - ID: "e4946d4a-538c-4a84-bdfd-dc2626b93982"
+      Hint: EventDay
+      Value: 16
+    - ID: "e9113907-276a-49c5-85e8-119d7066aa83"
+      Hint: RegisteredMessage
+      Value: Thank you for registering. Please check your email for confirmation.
+    - ID: "f5113907-276a-49c5-85e8-119d7066aa7e"
+      Hint: Location
+      Value: Virtual
+    - ID: "fa113907-276a-49c5-85e8-119d7066aa84"
+      Hint: DateDisplay
+      Value: June 16, 2026 at 12.30 PM
+    - ID: "fc113907-276a-49c5-85e8-119d7066aa86"
+      Hint: SpeakersBody
+      Value: <ul><li><strong>Andrew Pick</strong> — Partner, Indirect Tax, KPMG UK</li><li><strong>Kathryn Saunders</strong> — Senior Manager, KPMG UK</li><li><strong>Suzannah Belk</strong> — Assistant Manager, KPMG UK</li></ul>

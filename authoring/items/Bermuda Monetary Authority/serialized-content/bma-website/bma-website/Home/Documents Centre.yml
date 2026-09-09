@@ -1,0 +1,152 @@
+﻿---
+ID: "2b950f71-b072-4154-8ae8-eec4573f03cf"
+Parent: "f5ab8e88-9630-4d14-a33a-0387b06c1c4b"
+Template: "97a02f7a-b48e-4eca-a8bd-58c22054c373"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Home/Documents Centre"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000001}"
+          p:before="*"
+          s:ds="1d86a8a4-fe98-4dfd-8538-9c3cd7c23981"
+          s:id="{54D13632-5322-44AC-BA04-71CF88645C96}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000002}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000001}']"
+          s:ds="ba480654-0732-4233-858b-962108cbade4"
+          s:id="{20B242C6-B4C2-415C-ABC2-4DF7F6549EFA}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/document-filters-1" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000003}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000002}']"
+          s:ds="403a5d55-8cac-426e-85fa-4711bc48755c"
+          s:id="{4AD0637E-E0AE-4329-8E97-1FF3433D083D}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-filters-1/filter-options-2" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000004}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000003}']"
+          s:ds="ec5f61c3-d4fc-4c5a-8e36-4200709e6947"
+          s:id="{4AD0637E-E0AE-4329-8E97-1FF3433D083D}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-filters-1/filter-options-2" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000005}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000004}']"
+          s:ds="e5aa1a32-e96e-4d76-8f5a-d64185053b56"
+          s:id="{20B242C6-B4C2-415C-ABC2-4DF7F6549EFA}"
+          s:par="CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/document-filters-1" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000006}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000005}']"
+          s:ds="4585f5cc-ddb2-4e29-8dd9-111529fdb802"
+          s:id="{4AD0637E-E0AE-4329-8E97-1FF3433D083D}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-filters-1/filter-options-3" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000007}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000006}']"
+          s:ds="88c0208c-ca6c-4697-80e8-24b0389612d6"
+          s:id="{4AD0637E-E0AE-4329-8E97-1FF3433D083D}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-filters-1/filter-options-3" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000008}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000007}']"
+          s:ds="f9dc0955-d5ff-4ec7-85cd-435b6e236413"
+          s:id="{4AD0637E-E0AE-4329-8E97-1FF3433D083D}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-filters-1/filter-options-3" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000009}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000008}']"
+          s:ds="6094c12c-db19-46bf-8b73-1718fb85bc88"
+          s:id="{F764B728-E24A-441D-9D55-9D1120B3CFF8}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-results-1" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000010}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000009}']"
+          s:ds="5ae08b30-a0a4-4cb4-8693-93b22c720870"
+          s:id="{F764B728-E24A-441D-9D55-9D1120B3CFF8}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-results-1" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000011}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000010}']"
+          s:ds="970af5d7-a813-4c02-844f-60f9c5e55d93"
+          s:id="{F764B728-E24A-441D-9D55-9D1120B3CFF8}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-results-1" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000012}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000011}']"
+          s:ds="6164fa07-42e9-42d3-8575-9879de950ed0"
+          s:id="{F764B728-E24A-441D-9D55-9D1120B3CFF8}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-results-1" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000013}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000012}']"
+          s:ds="05e35d91-1fa7-4408-826c-7cb6e1ca356b"
+          s:id="{F764B728-E24A-441D-9D55-9D1120B3CFF8}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-results-1" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000014}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000013}']"
+          s:ds="eefd8a4f-0809-4cd2-8a25-7abfab29d991"
+          s:id="{F764B728-E24A-441D-9D55-9D1120B3CFF8}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-results-1" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000015}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000014}']"
+          s:ds="fd4cc1be-9e88-4984-8a18-7d279a207b21"
+          s:id="{F764B728-E24A-441D-9D55-9D1120B3CFF8}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-results-1" />
+        <r
+          uid="{B0A20003-0001-4001-8001-000000000016}"
+          p:after="r[@uid='{B0A20003-0001-4001-8001-000000000015}']"
+          s:ds="59b277a7-0547-4bfc-8e42-8e09b3a61999"
+          s:id="{F764B728-E24A-441D-9D55-9D1120B3CFF8}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/document-results-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260901T120000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Documents Centre
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b950f71-b072-4154-8ae8-eec4573f03cf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260901T120000Z

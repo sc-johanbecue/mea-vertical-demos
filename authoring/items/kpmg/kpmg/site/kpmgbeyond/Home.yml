@@ -1,0 +1,103 @@
+﻿---
+ID: "ddd121d2-a119-4784-963b-f9394f31c24a"
+Parent: "07f2ac0b-ddab-4a51-9f20-3fb308d75a7a"
+Template: "4f7ca573-73d7-4185-a15c-c95958b5c395"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{077A59E4-40E6-40E7-B2A9-A277DDAB8441}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "be1c7e85-e094-46ab-8e86-fee2a0f2441e"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{BEF924B3-384B-4747-9532-5DE8F34CBA2B}"
+          p:before="*"
+          s:ds="a5000208-0001-4000-8000-000000000001"
+          s:id="{A5000017-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{DE8892F9-7FD8-4ADF-B143-EDD99874AE72}"
+          p:after="r[@uid='{BEF924B3-384B-4747-9532-5DE8F34CBA2B}']"
+          s:ds="a5000202-0001-4000-8000-000000000001"
+          s:id="{A5000011-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{90CA4519-B530-41B4-9F45-9A58A0412DFE}"
+          p:after="r[@uid='{DE8892F9-7FD8-4ADF-B143-EDD99874AE72}']"
+          s:ds="a5000203-0001-4000-8000-000000000001"
+          s:id="{A5000012-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{BE1D0A4A-6191-4B9A-899B-5EE361125DBD}"
+          p:after="r[@uid='{90CA4519-B530-41B4-9F45-9A58A0412DFE}']"
+          s:ds="a5000203-0001-4000-8000-000000000002"
+          s:id="{A5000012-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{775173E5-BF34-45EE-AF97-BE32ECC12B26}"
+          p:after="r[@uid='{BE1D0A4A-6191-4B9A-899B-5EE361125DBD}']"
+          s:ds="a5000203-0001-4000-8000-000000000003"
+          s:id="{A5000012-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{461B069B-65B5-46B6-8319-108A8173CB20}"
+          p:after="*[1=2]"
+          s:ds="a5000204-0001-4000-8000-000000000001"
+          s:id="{A5000013-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260529T081908Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: kpmgbeyond
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01950891-f900-4afb-9f46-8a1f9c8ff0fc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d178f90c-f7b0-48eb-847a-ef2a2dd2302f"
+      Hint: Title
+      Value: KPMGBeyond
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260607T180252Z

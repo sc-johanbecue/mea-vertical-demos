@@ -1,0 +1,117 @@
+﻿---
+ID: "64ca5b38-3319-4dd2-b200-3c3f6e6c3539"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/Domestic VAT Compliance
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FEE510A9-EDCD-417E-B5CB-730E1789E7F1}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4015C9A8-7B4D-4540-8461-DAFD6EFC717C}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{4D5D6E90-A4EB-40A8-8C4C-C26F422F102D}"
+          p:after="r[@uid='{4015C9A8-7B4D-4540-8461-DAFD6EFC717C}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{4B65565B-B373-445F-86E8-FC3BA9467FB6}"
+          p:after="r[@uid='{4D5D6E90-A4EB-40A8-8C4C-C26F422F102D}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{B3FDEB12-2583-43E2-BEFD-BC004D9408F1}"
+          p:after="r[@uid='{4B65565B-B373-445F-86E8-FC3BA9467FB6}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{0229014F-EBFB-4243-AAEB-51A68AEEFCD9}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: Domestic VAT Compliance | Digital Submission & Reporting
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "Our Domestic VAT Compliance solution is a simple, cost-effective tool providing greater confidence in the accuracy of your VAT return, prior to it being submitted to the UK tax authorities."
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/DomesticVATCompliance" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Domestic VAT Compliance
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Domestic VAT Compliance
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: Confidently prepare, monitor, analyse and submit your VAT return – in a single solution
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce269bd1-0210-46df-b116-a1d654c5d496"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="d6a805fb-6db9-4e44-9851-ec6b8fecabaa" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/VAT-Compliance/VAT-main-image.jpg?rev=5b73cf2187384205a59fc62ac1b67c59&hash=BA414AD2BEB69BE983A1B2F946ACC1A4" alt="Main image - domestic VAT compliance" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        Our Domestic VAT Compliance solution is a simple, cost-effective tool providing greater confidence in the accuracy of your VAT return, prior to it being submitted to the UK tax authorities.<br />
+        <p>Using advanced technology and data analytics to fully automate the VAT return process, our solution provides high quality compliance advice with prices from &pound;1,750 per VAT return, plus an initial set-up fee of &pound;5,000.  </p> <h2>An end-to-end solution  </h2> <p><strong></strong>Our Domestic VAT Compliance solution is fully automated and compliant with the Making Tax Digital (MTD) for VAT requirements, providing a digital audit trail from data acquisition through to VAT return submission. </p> <h2>User-friendly and easily accessible </h2> <p>You&rsquo;ll have access to a bespoke online dashboard that displays your end-to-end VAT cycle.  </p> <p>You&rsquo;ll be able to monitor the status of your VAT return preparation, analyse your VAT return data in real time, and track historical filings and payments &ndash; all in one place.  </p> <p>Our solution requires no changes to existing systems or input from IT teams and is quick to set-up.  </p> <h2>Safeguarding through automation </h2> <p>When you consider the quantity and complexity of data that feeds into your VAT return, the risk of error is high. Using advanced technology, we&rsquo;ll run a comprehensive suite of automated data integrity checks on each return, so that you can feel more confident in the accuracy of the VAT return prior to submission, reducing the risk of errors and penalties.  </p> <p>You&rsquo;ll also receive automated notifications and reminders to reduce the chance of missed filings or payment deadlines. </p> <h2>In-depth insight and analysis </h2> <p>With greater transparency and insight into the underlying transactional data used to produce the VAT return, you&rsquo;ll gain a better understanding of where errors can occur and how to address them.</p> <h2>Ongoing support from our experts</h2> <p>You&rsquo;ll receive one-to-one support from our team in relation to Government Gateway issues, as well as periodic (monthly, bi-monthly, or quarterly) meetings with a dedicated KPMG client service team to discuss any VAT compliance related issues and updates.  </p> <p>You&rsquo;ll also benefit from direct access to one of the UK&rsquo;s largest indirect tax practices and KPMG&rsquo;s network of indirect tax professionals. When required, we can provide global VAT compliance support though our global delivery centres. </p> <h2>Fees </h2> <p><strong>Per return fee</strong>: prices start from &pound;1,750 (exc. VAT) </p> <p><strong>One off set up fee:</strong> prices start from &pound;5,000 (exc. VAT) which includes:  </p> <ul> <li>Completion of all onboarding checks </li> <li>Reviewing and mapping source data</li> <li>Support with HMRC Digital Gateway registration and set-up if required</li> <li>Running a parallel run of a VAT return to ensure that our compliance process accurately captures all source data</li> <li>Guidance and training for users of the service </li> </ul> <p> </p> <p><img alt="Number of KPMG clients: 150+ , Number of returns submitted per annum: 400+, Number of late filing penalties: Zero " style="height:600px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/VAT-Compliance/VAT-stats.gif?rev=92f3097173244dcea9d405ca891e30c0&hash=9AC7C5174295E6F8E54538CBBF6DECC4" /></p> <p> </p> <p> </p> <p><img alt="Like many businesses, our client heavily relied on Excel worksheets to collate the data used to prepare and file the VAT return. It meant that they were performing limited and basic checks on the data before submitting the VAT return to HMRC. As a wholesale and retail business, the client manages a high volume of transaction data and files monthly VAT returns. The data analytics checks that we run as part of the VAT return preparation process has given the client greater confidence over the accuracy and completeness of the VAT return, and our automated end-to-end process has reduced the amount of time it takes to prepare the VAT return, freeing up valuable resource within the finance team.’ Neil Weedon, Partner, Indirect Tax (Retail & Consumer client) " style="height:850px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/VAT-Compliance/Solution-page-quote-template-3.png?rev=a3eaed24f2404a4f8906b9bf0eb2732d&hash=D83B627E9F4B1CE83E29B6E9747AB7E0" /></p> <p> </p> <p><em><sub><sup>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities</sup></sub></em></p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T013409Z

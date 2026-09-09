@@ -1,0 +1,145 @@
+﻿---
+ID: "760c0a48-15ea-4edd-a006-256c5a686a91"
+Parent: "2eda842d-4c32-40d4-8df0-24e3ad1a3b02"
+Template: "780d8d31-4274-4a98-98d6-1b94a9102a1b"
+Path: "/sitecore/content/british-council/british-council/Data/BookCards/Pride and Prejudice"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="4495957d-30a9-47cf-b0cd-c685ab8e210b" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: Pride and Prejudice
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link text="Pride and Prejudice" linktype="external" url="/portal/fiction" anchor="" target="" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "644308fa-eb04-4c25-b4cd-2e2299e44d4a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="4495957d-30a9-47cf-b0cd-c685ab8e210b" alt="Orgueil et Préjugés par Jane Austen" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: Orgueil et Préjugés
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Orgueil et Préjugés" url="/portal/fiction" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084623Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1402689b-c416-4227-9b70-9df090ca2509"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="4495957d-30a9-47cf-b0cd-c685ab8e210b" alt="प्राइड एंड प्रेजुडिस, जेन ऑस्टेन द्वारा" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: प्राइड एंड प्रेजुडिस
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="प्राइड एंड प्रेजुडिस" url="/portal/fiction" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093325Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abfe304f-694b-456b-8d0d-391ff428483c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b11e2500-0001-4001-8500-000000000041"
+      Hint: CoverImage
+      Value: |
+        <image mediaid="4495957d-30a9-47cf-b0cd-c685ab8e210b" alt="Trots en Vooroordeel door Jane Austen" />
+    - ID: "b11e2500-0001-4001-8500-000000000042"
+      Hint: Title
+      Value: Trots en Vooroordeel
+    - ID: "b11e2500-0001-4001-8500-000000000043"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Trots en Vooroordeel" url="/portal/fiction" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084626Z

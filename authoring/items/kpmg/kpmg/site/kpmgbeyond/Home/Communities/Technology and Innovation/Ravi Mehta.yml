@@ -1,0 +1,43 @@
+﻿---
+ID: "2c3eb57d-a486-4993-88d6-1918c1ac16f1"
+Parent: "23d5a760-5b58-4325-a9eb-a0c44d07597f"
+Template: "d5000004-0001-4000-8000-000000000002"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Communities/Technology and Innovation/Ravi Mehta
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260606T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e2f9615-730c-4960-85c7-71a6afabc550"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d5000004-0001-4000-8000-000000000010"
+      Hint: HostName
+      Value: Ravi Mehta
+    - ID: "d5000004-0001-4000-8000-000000000011"
+      Hint: HostRole
+      Value: "CO-HOST"
+    - ID: "d5000004-0001-4000-8000-000000000012"
+      Hint: HostCompany
+      Value: KPMG
+    - ID: "d5000004-0001-4000-8000-000000000014"
+      Hint: HostInitials
+      Value: RM
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260606T120000Z

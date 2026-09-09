@@ -1,0 +1,201 @@
+{
+  "CookieBanner": {
+    "renderingId": "1c71421b-e6a7-4965-83eb-8be15ca4de63",
+    "templateId": "dc1e1bac-c187-4bbb-aa88-7a84b7323c47",
+    "datasourceId": "1c4ed32d-6c1d-4b24-b90a-7814c18b64d7",
+    "fieldIds": {
+      "Message": "3399caca-60dc-450a-8a11-e1b9c7fffb33",
+      "AcceptLabel": "ff87f69a-6b2f-4445-b2fe-fb6970a0f175",
+      "PrivacyLink": "e9141248-5a6d-4f69-93b1-7a791679a30a"
+    }
+  },
+  "Header": {
+    "renderingId": "e4dfe1c5-0ccb-491a-a585-4ad084a43952",
+    "templateId": "2def5bd4-42e2-4941-b7c0-83e0e49e4c56",
+    "datasourceId": "edcab8e7-da5f-47ea-995b-6c666aee976a",
+    "fieldIds": {
+      "Logo": "84e710fa-9272-422b-ac16-dca49a6b2eb7",
+      "LogoLink": "b19565a7-30f9-4afc-9b30-fd41c2796174",
+      "LogoText": "0144c37d-e863-4222-879d-c293289baa04"
+    }
+  },
+  "Navigation": {
+    "renderingId": "bae3492c-c849-426a-9391-22e9ce53d462",
+    "templateId": "5d9d2964-7112-4cbc-aa2d-d2bab90bdb14",
+    "datasourceId": "381fccc5-2af7-4412-91a1-5d57f2634640",
+    "fieldIds": {
+      "SearchLabel": "7d693de3-c6ef-47b1-a5bf-e5e7c3f6c660",
+      "NavLink1": "5243edc7-ac22-4d05-8b85-2239838d5da0",
+      "NavLink2": "28cf2314-79f2-4e6c-bf12-89f56c45e107",
+      "NavLink3": "87e5a7b0-4dc2-4228-8660-28e1b321ac46",
+      "NavLink4": "4a62e22a-6036-41ef-b525-5711f02fa27b",
+      "NavLink5": "faa6398a-8bcd-40c1-9888-659679a79627",
+      "NavLink6": "2a89fd9e-6d5b-42be-aaf8-c7e46294f850"
+    }
+  },
+  "Footer": {
+    "renderingId": "cac19ce1-49ab-4f65-a452-2425519c70aa",
+    "templateId": "8344bd8b-6b5e-4781-a2b0-46c6869d0fb3",
+    "datasourceId": "dfdd8e79-a373-4f8c-a576-a6f0506b5673",
+    "fieldIds": {
+      "CopyrightText": "df9cddef-2f22-4832-8ffc-2cda708f47ea",
+      "Logo": "0fce4edd-642a-4204-a0f6-f67a9dd2e822"
+    }
+  },
+  "LinkList": {
+    "renderingId": "9b04fb0a-d30e-4f53-b16d-d0506ead322a",
+    "templateId": "633d9224-8674-4efa-93a2-40246622bed0",
+    "datasourceId": "05d915e0-c85e-4903-8e43-fd45dd17e86d",
+    "fieldIds": {
+      "Title": "0db1d422-ac5f-4aa4-8478-3e8052f559aa",
+      "Link1": "761c9726-5734-453c-9014-e4a49804c289",
+      "Link2": "78c75159-33de-45e7-8972-2bba668325bf",
+      "Link3": "46eea37b-f76f-4878-ba70-b59eecfb1eec",
+      "Link4": "3f770ae3-742b-47b2-a049-ee11b34c52ae",
+      "Link5": "630e70b8-1ac6-4d3f-9ed4-0c7a5c6f2b22",
+      "Link6": "942423dc-ec60-494d-b0ca-97e2a3d33fa5"
+    }
+  },
+  "FullBleedHeroBannerSection": {
+    "renderingId": "eccc1284-62ad-4315-ae8e-af5c84337cdf",
+    "templateId": "ec974d24-e36f-42dd-8fb0-826ba360bd9e",
+    "datasourceId": "b4ac3264-69d1-48ee-9f76-452169bac545",
+    "fieldIds": {
+      "Title": "aaf1a0bc-0632-4206-9aa2-77216164994f",
+      "Body": "438847b6-f9cf-4ec2-89a8-51452b1eec1c",
+      "BackgroundImage": "0362e91f-2c76-441d-9378-66e13eed0742",
+      "Cta": "d65f3833-92b2-4277-b3be-1933170d0cd6"
+    }
+  },
+  "CompositeHeroBandSection": {
+    "renderingId": "ab5061bf-d5b1-4030-9bdd-a581526b259a",
+    "templateId": "2dd3b96a-f5d3-4d22-898e-6f8c0d4367ec",
+    "datasourceId": "c987d497-1cba-4624-b9ba-265b4ffa031b",
+    "fieldIds": {}
+  },
+  "HeroSlideCard": {
+    "renderingId": "23cc7b19-0d04-4762-bc33-17be7ffc5f5a",
+    "templateId": "70a33990-f661-4e1c-943e-469fcc5decbc",
+    "datasourceId": "91d94a6c-cc00-41f1-82c6-34f43651b626",
+    "fieldIds": {
+      "Image": "6d680ea3-4bad-40a7-a95f-6d19fc8eef6f",
+      "Title": "38d566c9-f509-49b9-8456-e5d045efaf1e",
+      "Subtitle": "97e906c2-f11c-4c21-b639-d215aad9c7ab",
+      "Cta": "a0fa09e9-3177-482b-8899-084b1e09bcc2"
+    }
+  },
+  "HeroPanelCard": {
+    "renderingId": "f0d43956-7e4d-48e1-a0a3-188b37141374",
+    "templateId": "421075f4-9150-4025-8175-4b129099df68",
+    "datasourceId": "06abdd67-4f10-445d-9814-12d4a76c3143",
+    "fieldIds": {
+      "PanelTitle": "668f414e-958c-4802-a773-00803208d41a",
+      "Body": "37419fe6-79d5-46d8-97d4-9fa22389761e",
+      "Cta": "a636b31d-ca81-404e-8d1e-eba7e74e5642"
+    }
+  },
+  "HeroStatsPanel": {
+    "renderingId": "1955f1c8-a692-4f2a-a31b-c77b303f23e4",
+    "templateId": "7949aaf8-abab-4e25-86c4-3fd30e3d0c81",
+    "datasourceId": "0d206eed-0cd6-4fa4-b853-aa2c762a882a",
+    "fieldIds": {
+      "Title": "c67cd028-acd8-4657-b695-709ea455ae1c",
+      "Value": "f1a9d5a5-0d06-48fe-9794-1ff1e59f5f1e",
+      "Change": "efdc9589-033a-478b-a028-808383ee9e61",
+      "Date": "66a045de-7631-42b3-8d44-8093c5e65e23",
+      "Link": "833926d4-6b94-4c8d-9a17-247f70e08182"
+    }
+  },
+  "EyebrowTitleCarouselSection": {
+    "renderingId": "0e9eec5f-6ecf-4723-88f8-fdf3ef11ee49",
+    "templateId": "8a567524-ad73-4542-a642-20cf9f9affd1",
+    "datasourceId": "c76827e4-4988-4fcf-8c86-15ba5899983e",
+    "fieldIds": {}
+  },
+  "FeatureCarouselCard": {
+    "renderingId": "93cfe6b9-3bb7-4725-b74e-ba6ec522cb1d",
+    "templateId": "ea8101ae-f367-4715-8cd0-95ae00302e84",
+    "datasourceId": "b0a5120a-8279-446a-b13b-97e20ca4e651",
+    "fieldIds": {
+      "Eyebrow": "446876fb-e0ed-454b-b532-4f505558413f",
+      "Title": "02f862bb-b770-4c63-a6ab-4dfdbaf6722f",
+      "Body": "4ff8aec2-8023-4144-82d9-e8ddeccb3037"
+    }
+  },
+  "TitleDescriptionCtaSection": {
+    "renderingId": "25624984-3688-47e4-bdba-1cadda73c114",
+    "templateId": "ad6bb92a-bfbf-45f9-bd02-12431c410b49",
+    "datasourceId": "da1d1142-3341-48f6-a3a5-55bc40b9a228",
+    "fieldIds": {
+      "Title": "dbafca88-d36a-421d-99c6-6e00bacdeb43",
+      "Body": "45c22e83-7ab2-40e0-b26d-1a1752ebefd4",
+      "Cta": "33780e4a-07db-4c92-95ef-4b171b501986"
+    }
+  },
+  "ImageRichTextSection": {
+    "renderingId": "44214a15-f71a-41b4-a90c-a82a356e8c3f",
+    "templateId": "45b6dc62-dce2-4f44-b692-f179d7f9e8fd",
+    "datasourceId": "99f45947-9b33-4bf4-8683-518cb89eddd8",
+    "fieldIds": {
+      "Title": "949cb77e-cfdd-4ca4-85a1-4ed8bb9dfdfb",
+      "Body": "b4f5694f-6866-41f0-95da-dfa0d117db36",
+      "Image": "cd22b69c-3841-4480-9320-b42d28840966",
+      "Cta": "b64a7984-971b-41b4-815a-eebcb50fcfb5"
+    }
+  },
+  "TitleDescriptionLinkGridSection": {
+    "renderingId": "f81a5bb0-7f7b-4bef-a260-2ab2fddee55d",
+    "templateId": "6797299d-6b7a-4097-9d20-21908c5d89a8",
+    "datasourceId": "d1148c09-d1f5-490e-9002-8d78ebf5df5c",
+    "fieldIds": {
+      "Title": "2d3367dc-aff1-4eda-ab8c-e992db527f58"
+    }
+  },
+  "HorizontalLinkCard": {
+    "renderingId": "8423309f-60f5-4509-8387-0b1aefe2d0c2",
+    "templateId": "3a9819b1-ea75-4a8f-ba45-04c1ac1d66c6",
+    "datasourceId": "7d840e2a-7ef8-42b8-bae1-bda838411c04",
+    "fieldIds": {
+      "Logo": "734bdbec-c8a3-44e5-86e6-1480dc9463e8",
+      "Title": "2709161b-e960-4bb1-8678-39c4dcbe1ccb",
+      "Cta": "9d8541d3-fe5a-4610-aba2-e949f2c384d6"
+    }
+  },
+  "TitleDescriptionTeaserGridSection": {
+    "renderingId": "f1141639-fb23-4fde-bde4-d979435a2efa",
+    "templateId": "792fd4c6-b687-429f-b1b1-a77b2eef4f77",
+    "datasourceId": "2ecfe763-a1c9-4834-8f4c-5bfd0482c04f",
+    "fieldIds": {
+      "Title": "912f2e8d-2a8b-4218-8a1d-f324c7a85d87"
+    }
+  },
+  "VerticalTeaserCard": {
+    "renderingId": "ec0b9604-2485-4606-9400-31945ef7e8df",
+    "templateId": "5ad70774-6a78-4b4e-aa8c-8169ad0bf598",
+    "datasourceId": "41cf9cbe-d4b1-403d-8391-6524af71dc4c",
+    "fieldIds": {
+      "Image": "5310657f-0a90-438a-995f-0fa6a58b13a5",
+      "Title": "c736e03e-b590-4c3d-b413-109d955b1635",
+      "Description": "1838f68a-bf1e-49c8-a7ac-b5510a9371b8",
+      "Cta": "7b784bd3-fd39-486f-aaa9-c6e85095259c"
+    }
+  },
+  "TitleStatsBarSection": {
+    "renderingId": "8059833a-7a61-4cfa-b1e4-173ae9da5495",
+    "templateId": "0065d355-7055-44d4-a4ae-647e9684e2eb",
+    "datasourceId": "d379dda0-5525-44df-873b-8c220d9ebf1c",
+    "fieldIds": {
+      "Title": "785cecf3-2fc9-4ce5-828b-66e1a226f523"
+    }
+  },
+  "StatsItem": {
+    "renderingId": "745a4483-7b4c-4808-ace2-38f1beff0947",
+    "templateId": "0430299d-3de2-4a45-b472-2a1f7c62b3d4",
+    "datasourceId": "011915fa-6a78-4d5e-848e-b2911e012b53",
+    "fieldIds": {
+      "Value": "fd2c904a-7161-4079-be50-199add029aa1",
+      "Label": "3adf7111-09f6-4348-b225-24f8a6fd21ba",
+      "Link": "f7aa8536-ea76-4192-b5dc-b0f6ad848c15"
+    }
+  }
+}

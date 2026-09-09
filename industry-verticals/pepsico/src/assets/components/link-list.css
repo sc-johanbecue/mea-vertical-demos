@@ -1,0 +1,62 @@
+.link-list {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-accent mb-4.5 text-lg;
+  }
+
+  ul {
+    @apply flex flex-row flex-wrap gap-4;
+  }
+
+  a:hover {
+    @apply underline;
+  }
+}
+
+/* list vertical */
+.link-list.list-vertical {
+  ul {
+    @apply flex-col;
+  }
+}
+
+.link-list.hide-title {
+  h3 {
+    @apply hidden;
+  }
+}
+
+.social-follow.hide-title {
+  h5 {
+    @apply hidden;
+  }
+}
+
+/* UtilityFooter — flex-wrap list; pipes in markup per pair (nowrap inside pair) */
+.link-list.link-list--utility-footer .link-list__utility-footer {
+  @apply m-0 flex max-w-full list-none flex-row flex-wrap items-baseline gap-0 p-0 text-[0.8125rem] leading-snug;
+}
+
+.link-list.link-list--utility-footer .link-list__utility-footer > li {
+  @apply block max-w-full shrink-0;
+}
+
+.link-list.link-list--utility-footer .link-list__utility-footer-pair {
+  @apply inline-flex max-w-full items-baseline whitespace-nowrap;
+}
+
+.link-list.link-list--utility-footer .link-list__utility-footer-pipe {
+  @apply mx-1.5 shrink-0 font-normal opacity-40;
+}
+
+.link-list.link-list--utility-footer .link-list__utility-footer .field-link {
+  @apply inline;
+}
+
+.link-list.link-list--utility-footer .link-list__utility-footer a {
+  @apply text-inherit underline-offset-2 hover:underline;
+}

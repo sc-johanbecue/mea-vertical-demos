@@ -1,0 +1,141 @@
+﻿---
+ID: "50c94be9-d2a8-4ecc-a213-9a49988a03b9"
+Parent: "6ccd318f-3b29-47f4-9b29-cfd45e7b66a4"
+Template: "a3da157a-cd34-47d3-9dd7-24a730f95eaa"
+Path: "/sitecore/content/british-council/british-council/Data/ImageTextBlocks/Learn Online Intro"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "5414cbd3-6c2f-47bf-8aff-e19e89aae75b"
+      Hint: Title
+      Value: Learn English online – with the world's English experts
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c2d03cd7-ee38-4708-89ae-fe30c280d762"
+      Hint: Image
+      Value: |
+        <image mediaid="6a09e0ee-bc7c-45b3-bc13-d5d8cc27de06" />
+    - ID: "eb50bc53-dd90-408d-97f8-abd60cd07b33"
+      Hint: Body
+      Value: <p>Learn English online with the British Council.</p>
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5414cbd3-6c2f-47bf-8aff-e19e89aae75b"
+      Hint: Title
+      Value: Apprenez l'anglais en ligne – avec les experts mondiaux de l'anglais
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad0ed8d4-4acb-436c-aa69-057828a16ea9"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c2d03cd7-ee38-4708-89ae-fe30c280d762"
+      Hint: Image
+      Value: |
+        <image mediaid="6a09e0ee-bc7c-45b3-bc13-d5d8cc27de06" alt="Une personne étudiant en ligne avec le British Council" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084708Z
+    - ID: "eb50bc53-dd90-408d-97f8-abd60cd07b33"
+      Hint: Body
+      Value: <p>Apprenez l'anglais en ligne avec le British Council.</p>
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5414cbd3-6c2f-47bf-8aff-e19e89aae75b"
+      Hint: Title
+      Value: दुनिया के अंग्रेजी विशेषज्ञों के साथ ऑनलाइन अंग्रेजी सीखें
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2619e31c-2857-4b30-a897-4bedc53740b1"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c2d03cd7-ee38-4708-89ae-fe30c280d762"
+      Hint: Image
+      Value: |
+        <image mediaid="6a09e0ee-bc7c-45b3-bc13-d5d8cc27de06" alt="ब्रिटिश काउंसिल के साथ ऑनलाइन अध्ययन कर रहा एक व्यक्ति" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093358Z
+    - ID: "eb50bc53-dd90-408d-97f8-abd60cd07b33"
+      Hint: Body
+      Value: <p>ब्रिटिश काउंसिल के साथ ऑनलाइन अंग्रेजी सीखें।</p>
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260729T160000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5414cbd3-6c2f-47bf-8aff-e19e89aae75b"
+      Hint: Title
+      Value: Leer Engels online – met de Engelse experts van wereldklasse
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a8ffc690-c653-472b-acf1-33e84af7f17f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "c2d03cd7-ee38-4708-89ae-fe30c280d762"
+      Hint: Image
+      Value: |
+        <image mediaid="6a09e0ee-bc7c-45b3-bc13-d5d8cc27de06" alt="Een persoon die online studeert met de British Council" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084708Z
+    - ID: "eb50bc53-dd90-408d-97f8-abd60cd07b33"
+      Hint: Body
+      Value: <p>Leer Engels online met de British Council.</p>

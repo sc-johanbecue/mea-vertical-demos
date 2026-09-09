@@ -1,0 +1,42 @@
+﻿---
+ID: "cd68b4d7-0e62-44d8-bd95-0596f3d43964"
+Parent: "20502fdf-3d24-469f-9613-7a33d9c6318b"
+Template: "857405a9-3a71-4dfc-8e5f-318ffb2667de"
+Path: /sitecore/content/kpmg/kpmgbeyond/Presentation/Page Designs
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b393412D8-5A94-4581-B7C8-0EE2342617C2%7d%3d%257B4554B500-0F49-4F0A-8358-0EF2B736B841%257D%26%7b92B4EBEA-5D55-49AF-9DAD-78B49D769215%7d%3d%257B4554B500-0F49-4F0A-8358-0EF2B736B841%257D%26%7b97ACF665-1D92-48B4-A1FC-C87838718AB3%7d%3d%257B4554B500-0F49-4F0A-8358-0EF2B736B841%257D%26%7bFB232B69-5A2A-4B46-9ABF-DA31F4F774B8%7d%3d%257B4554B500-0F49-4F0A-8358-0EF2B736B841%257D%26%7b08185EEF-CACB-44B4-81CB-231122A7B3B5%7d%3d%257B4554B500-0F49-4F0A-8358-0EF2B736B841%257D%26%7b4F7CA573-73D7-4185-A15C-C95958B5C395%7d%3d%257B14395780-ABBA-4519-91AE-36C4CC97FD52%257D%26%7bD5000001-0001-4000-8000-000000000002%7d%3d%257B4554B500-0F49-4F0A-8358-0EF2B736B841%257D%26%7bD5000002-0001-4000-8000-000000000002%7d%3d%257B4554B500-0F49-4F0A-8358-0EF2B736B841%257D"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4314df5f-7f6e-4a51-9b19-758290188eb1"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260529T081909Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c0431d4-7ab0-486c-b94b-5aa5d0e194dc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260607T022148Z

@@ -1,0 +1,30 @@
+---
+ID: "c04c0119-b656-4ee0-8a79-64125d04b7e7"
+Parent: "3cddb497-18ff-456b-942a-d8d594d1e252"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Presentation/Page Designs/Default"
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: |
+    04177A38-1211-46F1-8803-45685EEBE2D9|DE9FE073-3C89-450A-8E9E-954AF20F27CB|20F2CD35-408B-463D-8763-A4B0E7FBC850|70AD9F50-554B-4158-8CE3-A096200E1A05
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c04c0119-b656-4ee0-8a79-64125d04b7e7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

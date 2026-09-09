@@ -1,0 +1,17 @@
+---
+ID: "7a6148c7-cd1b-436e-969e-157fbaec59fb"
+Parent: "588756bc-5ffc-4b3c-ae03-4c43273b7d1b"
+Template: "588756bc-5ffc-4b3c-ae03-4c43273b7d1b"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/HighlightLinkCard Templates/HighlightLinkCard/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

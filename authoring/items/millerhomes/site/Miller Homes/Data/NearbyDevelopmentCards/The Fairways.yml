@@ -1,0 +1,48 @@
+﻿---
+ID: "21a3b5a4-1a50-4928-9ad9-8e9f6927a775"
+Parent: "0d83f085-da25-4255-921c-2253712a4fe4"
+Template: "31b96108-eeee-43e2-bd72-6069e1e33296"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/NearbyDevelopmentCards/The Fairways"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "00c39652-e7ca-4b7e-a77b-3cc9c4644606"
+      Hint: Description
+      Value: <p>Beautifully landscaped with open green spaces and a play area, the peaceful setting of these attractive homes contrasts with their exceptionally convenient location. Just a short walk from the amenities of the town's traditional high street, ten minutes' drive from the M1 and less than five miles from Barnsley, this new neighbourhood of energy efficient two, three and four bedroom homes at The Fairways provides an ideal base for travel throughout the North.</p>
+    - ID: "18799fd4-2872-4939-a836-9d24ed350568"
+      Hint: Name
+      Value: The Fairways
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T144742Z
+    - ID: "39558fb7-42a1-40a3-a1f6-9b0b2f4e5b96"
+      Hint: PriceMin
+      Value: £239,995
+    - ID: "66fc2a02-021e-45dc-bf01-5de16b80b020"
+      Hint: Location
+      Value: Wombwell, S73 0FS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad0e52c1-1e36-4eae-b13b-7c23bbcde6d3"
+    - ID: "a4d3696d-1fc1-410c-a9a7-b22a581ca05c"
+      Hint: PriceMax
+      Value: £389,995
+    - ID: "ab020c47-b341-4bc5-8e6d-17d48fb4667e"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/47d520e8bcee4264aac3e3ff854d5a46?v=f9f3587e" dam-id="M3fegCz1Q5q-kdmK-WdkCQ" width="979" height="649" alt="Stocksy_txpe6201673zoY200_OriginalDelivery_2802361.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/39512/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260205T152810Z
+    - ID: "e4006d27-e7c5-418c-b4e2-db642d52f1cd"
+      Hint: CTAText
+      Value: Discover The Fairways

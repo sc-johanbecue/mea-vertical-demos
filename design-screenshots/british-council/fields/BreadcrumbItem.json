@@ -1,0 +1,16 @@
+{
+  "fields": [
+    {
+      "name": "Title",
+      "title": "Title",
+      "type": "Single-Line Text",
+      "sort": 100
+    },
+    {
+      "name": "Link",
+      "title": "Link",
+      "type": "General Link",
+      "sort": 200
+    }
+  ]
+}

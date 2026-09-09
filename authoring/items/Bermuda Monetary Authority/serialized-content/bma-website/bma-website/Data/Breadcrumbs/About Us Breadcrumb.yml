@@ -1,0 +1,25 @@
+---
+ID: "2cfacb45-b640-475a-8a00-d65050365cdf"
+Parent: "5d8b79fb-98a2-47f8-8923-0184ac77303e"
+Template: "da35c405-bc88-4217-a4b3-9bd264fc76c9"
+Path: "/sitecore/content/bermuda-monetary-authority/bma-website/Data/Breadcrumbs/About Us Breadcrumb"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20260901T120000Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: "sitecore\Admin"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2cfacb45-b640-475a-8a00-d65050365cdf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: "sitecore\Admin"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20260901T120000Z"

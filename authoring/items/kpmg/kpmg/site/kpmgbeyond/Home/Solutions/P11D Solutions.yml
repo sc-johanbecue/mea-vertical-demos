@@ -1,0 +1,117 @@
+﻿---
+ID: "0bcd4ac8-025a-4aef-9ef0-349c896d78e1"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/P11D Solutions
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A83ED34B-811A-4846-8119-EB6F28572670}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8E7352DB-6CFB-4111-B9FB-6C1D11F9C131}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{49409C6C-7FE6-4938-915B-30A5EC6365BD}"
+          p:after="r[@uid='{8E7352DB-6CFB-4111-B9FB-6C1D11F9C131}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{6D946640-0EC3-4D27-9874-B2ED9FFEA3BE}"
+          p:after="r[@uid='{49409C6C-7FE6-4938-915B-30A5EC6365BD}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{81930432-0D6C-44C1-B571-76FFB48B87D0}"
+          p:after="r[@uid='{6D946640-0EC3-4D27-9874-B2ED9FFEA3BE}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{0D193086-9482-4FE5-9314-8F7248011A58}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: P11D Solutions | Reporting & Submission Software
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: Our HMRC recognised software has been helping clients for over 12 years to automate the reporting of employee benefits to HMRC, calculate liability for HMRC, and produce Forms P11D for distribution to employees.
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/P11D" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: P11D Solutions
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: P11D Solutions
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: "Fully automate your employee benefits reporting - save time, reduce costs and mitigate errors"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22b748bd-846c-4754-980c-4bd648da9188"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="41b50bb2-8687-490f-a5f6-deb39548dabc" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/P11D/P11D-main-image.jpg?rev=4f0f9d0236aa4f65af4f55ba51d941ac&hash=C4CA71E8DC7308DD2E2D824E4AB8CB95" alt="P11D Main image" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        Our HMRC recognised software has been helping clients for over 12 years to automate the reporting of employee benefits to HMRC, calculate liability for HMRC, and produce Forms P11D for distribution to employees.<br />
+        <p>P11D reporting is a challenging and resource intensive process that has significant risk in terms of fines, reputation, and employee tax implications.  </p> <p>Whether you&rsquo;re looking to automate your P11D reporting, or you want to outsource the entire process, our employment services team of tax experts and technologists can help. </p> <p>We offer two types of P11D services, Licensing and Outsourcing, with prices starting from &pound;1,500 per 150 Forms.</p> <p> </p> <p><img alt="Get in touch banner" style="height:550px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/001_February2024/P11D---banner.png?h=550&w=1920&rev=b8da3307e4804ca986fe65606cc3ffb5&hash=77BC60A9FF15DE7CB308FC6E82189078" /></p> <h2>Streamline your governance & compliance</h2> <p>As a recognised HMRC supplier, our software enables direct filing to HMRC with instant feedback, as well as the ability to test and validate your data, before making a live submission. </p> <p>Updated with the latest tax legislation ahead of each reporting period, our software holds complex benefit computations, saves time and reduces the need for in-depth knowledge across your team. </p> <p>In line with the recent HMRC mandates to submit P11D and P11D(b) returns online, our tool streamlines your process as well as providing your submission status.</p> <h2>Create a positive employee experience</h2> <p>With our technology, quickly send customised emails to employees with their Forms P11D attached. You&rsquo;ll have the option to:  </p> <ul> <li>Password protect Forms with individual NI (default) or staff numbers (if NI is missing).</li> <li>Produce customisable cover letters, ideal for leavers where you need to send them by post.</li> <li>Reduce the number of P11D related HR queries by attaching an appendix of detailed explanations on the reported benefits.</li> <li>Submit unlimited quarterly Form P46(car) changes, ensuring your employee tax codes are as accurate as possible throughout the year.</li> </ul> <h2>Reduce manual errors </h2> <p>Mitigate the risk of human error and associated penalties with our built-in calculations and data validation tools. It also enables comprehensive reporting options such as Class 1A summary and reconciliation reports. </p> <h2>Save time and resource </h2> <p>Bulk import data via Excel and roll forward employee and benefit information to the following tax year to save valuable time and resource.  </p> <h2>Receive dedicated support from our experts </h2> <p>You&rsquo;ll have the option to join a bespoke Teams training session, and we&rsquo;ll provide a comprehensive step-by-step user guide to support you throughout the P11D process. </p> <p>You&rsquo;ll also have access to a dedicated mailbox and helpline for additional ongoing support.  </p> <h2>Service and pricing </h2> <p>We offer two types of P11D services, Licensing and Outsourcing. Pricing varies depending on the type of service you choose:  </p> <p><strong>P11D Licensing</strong> </p> <p>This includes the provision of KPMG&rsquo;s P11D Solutions software. </p> <p>Fees are typically determined by the number of Forms P11D you are intending to prepare. Our licenses are provided in tiers starting at 150 Forms for &pound;1,500 + VAT. Pricing works on an economies of scale basis, therefore the larger the license the cheaper per unit price. </p> <p><strong>P11D Outsourcing</strong> </p> <p>The outsourcing service is a comprehensive service which supports you throughout the entire Form P11D completion process, from data preparation to submission to HMRC.  </p> <p>Our HMRC compliant software will analyse and calculate your employee benefits data to ensure the computation is correct. If support is required for complex expense and benefit legislation, our experienced tax experts can help mitigate risk and fines. </p> <p>The fee is typically the license fee plus any support needed in preparing the P11Ds. We can provide a quote and scope of work upon request. Fees typically depend on the below factors:  </p> <ul> <li>Number of PAYE references</li> <li>Number of Forms P11D to be prepared </li> <li>Types of benefits provided (for example - company cars, private medical)</li> <li>The level of tax support required from our experts </li> </ul> <p><em><sub><sup>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities</sup></sub></em></p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Get in touch
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Get in touch" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T014054Z

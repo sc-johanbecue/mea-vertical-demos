@@ -1,0 +1,45 @@
+{
+  "fonts": [
+    {
+      "family": "Franklin Gothic Book",
+      "count": 52,
+      "sources": []
+    }
+  ],
+  "colors": {
+    "primary": {
+      "hex": [
+        "#007bff"
+      ],
+      "gradients": []
+    },
+    "secondary": {
+      "hex": [
+        "#002b5c",
+        "#6c757d"
+      ],
+      "gradients": []
+    },
+    "accent": {
+      "hex": [],
+      "gradients": []
+    },
+    "neutrals": {
+      "hex": [
+        "#000000",
+        "#ffffff"
+      ],
+      "gradients": []
+    },
+    "semantic": {
+      "success": null,
+      "error": null,
+      "warning": null,
+      "info": "#133649"
+    }
+  },
+  "css": {
+    "directory": "css",
+    "files": []
+  }
+}

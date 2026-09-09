@@ -1,0 +1,313 @@
+﻿---
+ID: "424b4ddc-3d2e-44f6-a3bc-0fd35a70d2f9"
+Parent: "ff9ad57a-afbd-4a4b-b91d-2d976c3b24c3"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Home/Our Locations/East Midlands and the surrounding areas/Langley Chase"
+SharedFields:
+- ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+  Hint: Tags
+  Value: |
+    {5E3E92D3-0679-464A-BAE8-DBEC760C2F02}
+    {47746169-D94B-4869-92C7-7039B0F3D99B}
+- ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+  Hint: SKU
+  Value: BED0004
+- ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+  Hint: Color
+  Value: "{6773782D-1E3B-4CFE-A7B5-35B0BCCD9BEA}"
+- ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+  Hint: Size
+  Value: |
+    {E2CE9E3E-439D-4185-8629-BE186E9AED3C}
+    {432CDF48-D344-4D8E-9738-AF2179AD1284}
+    {829038DC-89EE-4E15-A609-56F738D7527A}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 671
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="308d1ed6-6cf3-4b1d-8d27-76bda6795458" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{145B465C-2494-494F-9F8B-BCFD2490A920}" />
+- ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+  Hint: Category
+  Value: "{FF9AD57A-AFBD-4A4B-B91D-2D976C3B24C3}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "648c49af-ee59-4ac6-ad11-174b6bb74209"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{7AF96EA0-311A-4261-8991-CBD5CF2F41CC}"
+          s:ds="7D136664-6D84-4CB9-88DC-B7842E5586C9"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-productcontent/related-products-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "d37ebc9d-6258-4b81-862f-c7867e03fae7"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Langley Chase
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{19CCE96C-F575-497B-9BC4-A6D93B07E7EC}"
+              p:after="r[@uid='{7AF96EA0-311A-4261-8991-CBD5CF2F41CC}']"
+              s:ds="424bb96e-d461-41fb-a77d-42bfbdc359f5"
+              s:id="{E4A5F5BA-D7E0-4E6F-9692-C3907711A061}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main" />
+            <r
+              uid="{7EDFBF44-EB55-405D-A9DB-2A15E275A664}"
+              p:after="r[@uid='{19CCE96C-F575-497B-9BC4-A6D93B07E7EC}']"
+              s:ds="cab12ebc-7f3b-48e9-bc8b-2ba9669f347d"
+              s:id="{B016064F-CD66-498F-97F7-585D15B4B8E4}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-main/carouselCards-2" />
+            <r
+              uid="{DC1282ED-4814-4137-A468-1907BBA6F436}"
+              p:after="*[1=2]"
+              s:ds="45cf33c4-a180-48f4-a6a4-c6be63100df6"
+              s:id="{B016064F-CD66-498F-97F7-585D15B4B8E4}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="/headless-main/carouselCards-2" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130117Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: "Siena Platform Bed | Forma Lux – Minimalist Low-Profile Wooden Bed"
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "A minimalist platform bed with a low-profile design"
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: "Siena Platform Bed, minimalist bed, low-profile bed, solid wood frame, modern platform bed, slatted base bed, contemporary bedroom furniture, Forma Lux shop"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899.5
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Langley Chase
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Experience refined simplicity with the Siena Platform Bed by Forma Lux. Crafted from solid wood, its minimalist low-profile design and slatted base deliver timeless form and lasting support."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a94c6b0d-1a00-4b27-bcc0-d4d2889bb1a0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Langley Chase
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260322T175818Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: "<p>The Siena Platform Bed features clean lines and a solid wood frame, making it ideal for modern interiors. Its low-profile design eliminates the need for a box spring, while the slatted base provides excellent mattress support.</p>"
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Pure form, honest materials, and enduring comfort define the Siena Platform Bed. With its low silhouette and precise geometry, Siena reflects Forma Lux’s modern aesthetic—elevated simplicity rooted in craftsmanship. The solid wood frame offers structural integrity and elegance, while the slatted base ensures breathable support. Available in Black and in Small, Medium, or Large sizes, Siena transforms minimalist design into a daily ritual of calm and comfort.
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130117Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Cama Plataforma Siena | Forma Lux – Cama de Madera Minimalista de Perfil Bajo
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Una cama plataforma minimalista con un diseño de perfil bajo
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Cama Plataforma Siena, cama minimalista, cama de perfil bajo, marco de madera maciza, cama plataforma moderna, cama con base de listones, muebles de dormitorio contemporáneos, tienda Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899.5
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cama Plataforma Siena
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Experimenta la simplicidad refinada con la Cama Plataforma Siena de Forma Lux. Fabricada en madera maciza, su diseño minimalista de perfil bajo y base de listones ofrece una forma atemporal y un soporte duradero.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0240ec55-680c-4741-9fe0-697cff1c06cb"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Cama Plataforma Siena
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260322T175818Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>La Cama Plataforma Siena presenta líneas limpias y un marco de madera maciza, lo que la hace ideal para interiores modernos. Su diseño de perfil bajo elimina la necesidad de un somier, mientras que la base de listones proporciona un excelente soporte para el colchón.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "La forma pura, los materiales honestos y el confort duradero definen la Cama Plataforma Siena. Con su silueta baja y geometría precisa, Siena refleja la estética moderna de Forma Lux: simplicidad elevada arraigada en la artesanía. El marco de madera maciza ofrece integridad estructural y elegancia, mientras que la base de listones asegura un soporte transpirable. Disponible en negro y en tamaños pequeño, mediano o grande, Siena transforma el diseño minimalista en un ritual diario de calma y confort."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130117Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Lit Plateforme Siena | Forma Lux – Lit en bois minimaliste à profil bas
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un lit plateforme minimaliste avec un design à profil bas
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Lit Plateforme Siena, lit minimaliste, lit à profil bas, cadre en bois massif, lit plateforme moderne, lit à base à lattes, mobilier de chambre contemporain, boutique Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899.5
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lit Plateforme Siena
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Découvrez la simplicité raffinée avec le Lit Plateforme Siena de Forma Lux. Fabriqué en bois massif, son design minimaliste à profil bas et sa base à lattes offrent une forme intemporelle et un soutien durable.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "71de8611-6820-45ea-8624-3c201d0a20f0"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Lit Plateforme Siena
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260322T175818Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Le Lit Plateforme Siena présente des lignes épurées et un cadre en bois massif, ce qui le rend idéal pour les intérieurs modernes. Son design à profil bas élimine le besoin d'un sommier, tandis que la base à lattes offre un excellent soutien pour le matelas.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: La forme pure, les matériaux honnêtes et le confort durable définissent le Lit Plateforme Siena. Avec sa silhouette basse et sa géométrie précise, Siena reflète l'esthétique moderne de Forma Lux—une simplicité élevée ancrée dans l'artisanat. Le cadre en bois massif offre intégrité structurelle et élégance, tandis que la base à lattes assure un soutien respirant. Disponible en noir et en tailles petite, moyenne ou grande, Siena transforme le design minimaliste en un rituel quotidien de calme et de confort.
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130117Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: Lit Plateforme Siena | Forma Lux – Lit en Bois Minimaliste à Profil Bas
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un lit plateforme minimaliste avec un design à profil bas
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Lit Plateforme Siena, lit minimaliste, lit à profil bas, cadre en bois massif, lit plateforme moderne, lit à base à lattes, mobilier de chambre contemporain, boutique Forma Lux
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899.5
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lit Plateforme Siena
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Découvrez la simplicité raffinée avec le Lit Plateforme Siena de Forma Lux. Fabriqué en bois massif, son design minimaliste à profil bas et sa base à lattes offrent une forme intemporelle et un soutien durable.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2e62fa93-1526-4aea-a4b0-54c0b4b9fb30"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Lit Plateforme Siena
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260322T175818Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Le Lit Plateforme Siena présente des lignes épurées et un cadre en bois massif, ce qui le rend idéal pour les intérieurs modernes. Son design à profil bas élimine le besoin d'un sommier, tandis que la base à lattes offre un excellent soutien pour le matelas.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: La forme pure, les matériaux honnêtes et le confort durable définissent le Lit Plateforme Siena. Avec sa silhouette basse et sa géométrie précise, Siena reflète l'esthétique moderne de Forma Lux—une simplicité élevée ancrée dans l'artisanat. Le cadre en bois massif offre intégrité structurelle et élégance, tandis que la base à lattes assure un soutien respirant. Disponible en noir et en tailles petite, moyenne ou grande, Siena transforme le design minimaliste en un rituel quotidien de calme et de confort.

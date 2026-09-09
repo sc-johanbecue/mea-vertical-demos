@@ -1,0 +1,30 @@
+﻿---
+ID: "3638cbc6-61d5-4eb7-a0e6-4eb869a67e57"
+Parent: "4b226706-4447-44cb-93b0-2922a97b89ec"
+Template: "2fc23311-c198-4827-af8a-2974efc21712"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/HouseTypeCards/Default HouseTypeCard"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0977c8e8-f359-4203-b17e-f394b3ce4130"
+      Hint: Image
+      Value: |
+        <image mediaid="cad3f18d-87b4-431a-bab1-4be27e1becac" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T032130Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f167d8e3-7f96-4c1a-b1ed-5032af385778"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260203T174243Z

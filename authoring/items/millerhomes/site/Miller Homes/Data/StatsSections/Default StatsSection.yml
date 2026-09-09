@@ -1,0 +1,29 @@
+﻿---
+ID: "f96390d8-ad3f-4fa0-8f7c-da65f2e1956e"
+Parent: "2a2ad298-f77f-4062-a272-f5cad1a3130f"
+Template: "005a5510-120e-4263-b8d1-07fe9227f30a"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/StatsSections/Default StatsSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T030815Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d076acf5-136b-4433-9b4d-3ac74aba97ef"
+    - ID: "a73016a2-c230-497b-bec5-7067bedf251b"
+      Hint: Description
+      Value: |
+        Buying a new home is an exciting adventure and we're here to offer you all the support you need from our very first meeting through to moving day and beyond.
+        
+        Let us guide you on a journey through the exciting experience of buying a brand-new Miller home.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T160037Z

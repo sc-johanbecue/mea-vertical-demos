@@ -1,0 +1,145 @@
+﻿---
+ID: "d3801d8e-29e8-4be6-a654-e2eb925f132d"
+Parent: "c854d6b4-dc59-496d-a563-505080130990"
+Template: "fd0fa6c7-c631-49d7-927d-c31b9c74b5fc"
+Path: "/sitecore/content/british-council/british-council/Data/CollectionCards/Magazines Card"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "43627c22-b3e1-4a01-be63-e17ce71b8cbb"
+      Hint: Link
+      Value: |
+        <link text="Magazines" linktype="external" url="/portal/magazines" anchor="" target="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a6fbe6ae-dec5-4a86-83cb-d3fcb4f6e1ad"
+      Hint: Image
+      Value: |
+        <image mediaid="a6171922-18a5-43f0-9d6b-9b192bb884ab" />
+    - ID: "e0c0556e-f526-463c-868e-8e83c20379e2"
+      Hint: Title
+      Value: Magazines
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "43627c22-b3e1-4a01-be63-e17ce71b8cbb"
+      Hint: Link
+      Value: |
+        <link text="Magazines" linktype="external" url="/portal/magazines" anchor="" target="" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e0c2c911-f325-4b04-b584-7800158b5f99"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "a6fbe6ae-dec5-4a86-83cb-d3fcb4f6e1ad"
+      Hint: Image
+      Value: |
+        <image mediaid="a6171922-18a5-43f0-9d6b-9b192bb884ab" alt="Livre ouvert et lecture" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084633Z
+    - ID: "e0c0556e-f526-463c-868e-8e83c20379e2"
+      Hint: Title
+      Value: Magazines
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "43627c22-b3e1-4a01-be63-e17ce71b8cbb"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="पत्रिकाएँ" url="/portal/magazines" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a65d2d28-38d1-421b-8da0-08249193e84b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "a6fbe6ae-dec5-4a86-83cb-d3fcb4f6e1ad"
+      Hint: Image
+      Value: |
+        <image mediaid="a6171922-18a5-43f0-9d6b-9b192bb884ab" alt="खुली किताब और पढ़ाई" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093330Z
+    - ID: "e0c0556e-f526-463c-868e-8e83c20379e2"
+      Hint: Title
+      Value: पत्रिकाएँ
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "43627c22-b3e1-4a01-be63-e17ce71b8cbb"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="Tijdschriften" url="/portal/magazines" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c4fb8485-857b-4893-a146-e5a623865885"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "a6fbe6ae-dec5-4a86-83cb-d3fcb4f6e1ad"
+      Hint: Image
+      Value: |
+        <image mediaid="a6171922-18a5-43f0-9d6b-9b192bb884ab" alt="Open boek en lezen" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084634Z
+    - ID: "e0c0556e-f526-463c-868e-8e83c20379e2"
+      Hint: Title
+      Value: Tijdschriften

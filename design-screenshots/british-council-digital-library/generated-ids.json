@@ -1,0 +1,33 @@
+{
+  "collectionId": "51898b93-09df-4ad7-9ef8-9497898eb98c",
+  "bookTplId": "876431ec-ecf3-4f2c-91b4-ca59a3ab29f2",
+  "collectionImageId": "8962f6b3-cd82-46ae-85ab-5ab1eebc67c7",
+  "collectionNavTitleId": "d1b0e898-f1e3-47bf-b209-8bd030f91a4f",
+  "leftNavId": "15dda3ee-7e6e-4529-b6d9-4ec74f999056",
+  "dlId": "a1213246-1667-4fec-aca3-a15a2037fec6",
+  "placeholders": {
+    "portal-sidebar.yml": "51f2e669-1010-47f5-a35d-6e8642bd9f24",
+    "portal-main.yml": "9dec9d82-ca7c-44ca-ad45-0dc1ba2c3344",
+    "portal-nav-items.yml": "40f83629-46f8-43c1-9bf4-8970eb4fc5c7",
+    "portal-nav-children.yml": "a862e615-fe35-476f-931e-aff2e917e145",
+    "carousel-slides.yml": "f2dfb2e4-6895-4618-ac2b-97b3430e4c86",
+    "carousel-slide-pills.yml": "8c0ead5a-4675-42c3-bd84-3915d67dff5a",
+    "monthly-pick-books.yml": "8d7809a5-1ba7-44cd-906a-0f851dad0d30",
+    "explore-collections.yml": "861eef54-c2c1-49c0-8f40-a74baf932356",
+    "collection-books.yml": "3d555bc3-1cb1-40c1-813b-33f705b83eb0"
+  },
+  "RENDERINGS": {
+    "PortalShell": "d40394f5-2102-4703-a7bd-6d2f6e71f824",
+    "PortalLeftNav": "00061435-9527-4541-b3aa-b701abe8c4b6",
+    "PortalNavItem": "0e0036da-34d2-4785-9f0d-ba0783763bb6",
+    "PortalSearchHeader": "cd833173-7937-4236-8c80-a47cf3936525",
+    "PortalCarousel": "d6b81d9c-b6c5-42b4-be55-af98571e129e",
+    "PortalCarouselSlide": "bccdec30-e879-4d76-b26b-0ac32fa84799",
+    "PortalCarouselPill": "c3e45577-d4e6-4b5a-afca-46a6443ef844",
+    "MonthlyPicks": "48b2ee15-b240-495a-9267-2b72997c3f6b",
+    "ExploreSection": "c0e708b9-93f8-438a-91c0-56276d65cbc4",
+    "BookCard": "c81d5b00-a2bc-490f-9136-1f2fa5587ef5",
+    "CollectionCard": "c941a8ee-cb13-4342-980e-fb4e740dc45c",
+    "CollectionBookList": "ee87d5c6-4bee-449a-a066-f9e776839097"
+  }
+}

@@ -1,0 +1,62 @@
+---
+ID: "251e7d05-29e1-4e1f-aa84-330eb69e15ec"
+Parent: "9cb653fa-42f3-49e8-8dd0-0b6a413d6b49"
+Template: "219a81c2-6ebd-467d-a9c5-be155d85785b"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondChromes/Default Chrome
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260528T140000Z
+    - ID: "26bb3262-f806-475a-85c1-ebd45459e3f6"
+      Hint: Logo
+      Value: |
+        <image mediaid="79ae9979-439f-4e03-9142-13241d8e3185" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8c518c90-8f81-4dfe-8d4c-f95dd6f4c632"
+    - ID: "93076b9e-de88-461f-8acb-7da4b45f3bbd"
+      Hint: ProfileName
+      Value: Johan Becue
+    - ID: "314c6d7e-d456-4789-0123-35c5b6273748"
+      Hint: ProfilePath
+      Value: /profile
+    - ID: "7f4a2e91-3c58-4d1b-9e6f-2a8b4c5d6e7f"
+      Hint: MyAccountLabel
+      Value: My Account
+    - ID: "8a5b3f02-4d69-5e2c-0f70-3b9c5d6e7f80"
+      Hint: SupportLink
+      Value: |
+        <link linktype="external" url="/support" text="Support" anchor="" target="" class="" />
+    - ID: "9b6c4013-5e7a-6f3d-1f81-4c0d6e7f8091"
+      Hint: CookieSettingsLink
+      Value: |
+        <link linktype="external" url="/cookie-settings" text="Cookie Settings" anchor="" target="" class="" />
+    - ID: "ac7d5124-6f8b-704e-2082-5d1e7f809102"
+      Hint: TermsLink
+      Value: |
+        <link linktype="external" url="/terms" text="Terms &amp; Conditions" anchor="" target="" class="" />
+    - ID: "bd8e6235-709c-815f-3193-6e2f80921313"
+      Hint: LogoutLabel
+      Value: Logout
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260601T221637Z

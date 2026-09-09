@@ -1,0 +1,40 @@
+---
+ID: "cc8828e7-88e5-426e-8d02-b50a3d4a77da"
+Parent: "458da54d-98bc-4aaf-97f6-3ad59cd05a80"
+Template: "80ef0982-1c00-43a3-bbf0-03bce535ee67"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondNavLinks/Home
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260528T140000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "e9fab144-f37d-4948-a75f-fcfd354a0621"
+      Hint: Icon
+      Value: home
+    - ID: "b2e4902e-c3c2-44df-989c-9b00ec9b36f0"
+      Hint: Label
+      Value: Home
+    - ID: "c153ac5d-361d-4763-9dd1-a507f5a6f90a"
+      Hint: Link
+      Value: <link linktype="external" url="/" text="Home" anchor="" target="" class="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8e27f4c8-efde-43f4-a2ee-3b0a32523f84"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260528T140000Z

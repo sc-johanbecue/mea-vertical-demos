@@ -1,0 +1,10 @@
+{
+  "fields": [
+    {
+      "name": "HomeLink",
+      "title": "HomeLink",
+      "type": "General Link",
+      "sort": 100
+    }
+  ]
+}

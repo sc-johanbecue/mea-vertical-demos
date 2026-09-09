@@ -1,0 +1,23 @@
+---
+ID: "c47cce35-e675-4eaf-9cfa-52fdc82ea770"
+Parent: "49d62083-c1c2-4a6b-8c88-85adc8f64086"
+Template: "49d62083-c1c2-4a6b-8c88-85adc8f64086"
+Path: "/sitecore/templates/Project/british-council/HeroBanner Templates/HeroBanner Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {4168F979-1400-40C4-82A8-C83544A7CAD3}
+    {49D62083-C1C2-4A6B-8C88-85ADC8F64086}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

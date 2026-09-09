@@ -1,0 +1,32 @@
+{
+  "ExploreLink": {
+    "id": "d717cb75-dd8f-4cd9-899a-0028c4697c3b",
+    "type": "General Link",
+    "sort": 300
+  },
+  "FeaturedEyebrow": {
+    "id": "adc4e56e-d5aa-46fe-b0db-43fdf925247c",
+    "type": "Single-Line Text",
+    "sort": 400
+  },
+  "FeaturedTitle": {
+    "id": "9f91b706-b124-4c86-a9ae-7be8e3735dc9",
+    "type": "Single-Line Text",
+    "sort": 500
+  },
+  "FeaturedBody": {
+    "id": "6323973d-282b-4f50-bbcc-d80bc5aa1340",
+    "type": "Multi-Line Text",
+    "sort": 600
+  },
+  "FeaturedLink": {
+    "id": "3eb0d9d0-c494-4551-a74f-469a24ecb34e",
+    "type": "General Link",
+    "sort": 700
+  },
+  "FeaturedImage": {
+    "id": "80f11b59-0541-4e8e-ac35-394fc0b5938a",
+    "type": "Image",
+    "sort": 800
+  }
+}

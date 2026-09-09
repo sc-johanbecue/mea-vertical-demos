@@ -1,0 +1,43 @@
+﻿---
+ID: "da011493-287b-41cf-9749-6b00701dc359"
+Parent: "9e33049a-3045-45b6-aa11-7fb3a2a3ee94"
+Template: "9e33049a-3045-45b6-aa11-7fb3a2a3ee94"
+Path: "/sitecore/templates/Project/miller-homes/SearchAgainSection/SearchAgainSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03341c7f-029f-435b-ace3-6cca8824c43c"
+      Hint: AdvancedSearchText
+      Value: Advanced Search
+    - ID: "1dc18696-e421-4b28-bbc2-2af145373952"
+      Hint: Title
+      Value: "Not found what you were looking for? Search again"
+    - ID: "20111414-82c4-4ad5-a992-314e9b5dce64"
+      Hint: Placeholder
+      Value: Search using a postcode
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T024836Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "678e5dc4-7d60-455c-829a-6dba744449b0"
+    - ID: "a5b5f3ca-f59a-46d8-8d8d-9f29cf00bd90"
+      Hint: SearchButtonText
+      Value: Search
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T025420Z

@@ -1,0 +1,46 @@
+﻿---
+ID: "b30be078-9243-4f84-8815-ddca3fec477c"
+Parent: "ca4d587a-92a2-4b79-bbc2-4f8546e0e9a4"
+Template: "ca4d587a-92a2-4b79-bbc2-4f8546e0e9a4"
+Path: "/sitecore/templates/Project/miller-homes/NearbyDevelopmentsSection/NearbyDevelopmentsSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0451a9c0-8571-4c9b-988d-19a01095111e"
+      Hint: TitleHighlight
+      Value: Developments Nearby
+    - ID: "0eb70b6f-5404-4eed-a2d6-4e049b97c9e5"
+      Hint: TitlePart1
+      Value: Other
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T025944Z
+    - ID: "35335fd3-3618-4537-ba08-a28f3ee04fe9"
+      Hint: ChangeLocationText
+      Value: Change location
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54b0af00-6927-43af-8777-a6f40e1adab3"
+    - ID: "a309a9e5-88ce-44ab-acd1-bc56d049423a"
+      Hint: Subtitle
+      Value: You may also be interested in these nearby developments.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T140423Z
+    - ID: "e8e573c4-2a06-4a35-af88-84724d2d1dca"
+      Hint: LocationText
+      Value: You

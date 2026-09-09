@@ -1,0 +1,53 @@
+﻿---
+ID: "d4539118-9875-4246-8c17-d36304f3566c"
+Parent: "8d3406eb-eb30-48e7-acb3-771cf9eefdcf"
+Template: "8d3406eb-eb30-48e7-acb3-771cf9eefdcf"
+Path: "/sitecore/templates/Project/miller-homes/DevelopmentHeroSection/DevelopmentHeroSection Template/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "22836a3d-5746-43dd-a555-abefd828c55b"
+      Hint: VirtualTourLink
+      Value: |
+        <link text=\"Play video\" linktype=\"internal\" id=\"{6C5F4B85-BF87-4B75-BFA5-5734302B0E77}\" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T023209Z
+    - ID: "4bcfd523-e242-4ed5-a801-b3282aab1a1d"
+      Hint: VirtualTourSubheading
+      Value: Explore our homes with a virtual tour
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "6570b8ea-24ea-4c6f-bbff-134adff7c444"
+      Hint: PlayVideoText
+      Value: Play video
+    - ID: "81dbbc1e-bc4b-4295-954a-2b7587702acb"
+      Hint: PreviousSlideLabel
+      Value: Previous slide
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "47e6804b-1d5b-4103-8590-2f4794b52643"
+    - ID: "998fe1d9-02e8-4553-94a3-562d45a7f6ba"
+      Hint: NextSlideLabel
+      Value: Next slide
+    - ID: "b1c50d2c-ab59-4b1a-8afe-31bc2845c1d6"
+      Hint: MapButtonText
+      Value: Map
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260202T023220Z
+    - ID: "ddf247c0-129a-428f-8c4c-78f32386051a"
+      Hint: VirtualTourHeading
+      Value: View our homes from anywhere

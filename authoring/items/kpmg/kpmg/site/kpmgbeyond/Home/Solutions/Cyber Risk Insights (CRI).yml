@@ -1,0 +1,117 @@
+﻿---
+ID: "d30f6813-8439-4aa2-8aea-d12c26fc81d0"
+Parent: "c3000001-0001-4000-8000-000000000001"
+Template: "fb232b69-5a2a-4b46-9abf-da31f4f774b8"
+Path: /sitecore/content/kpmg/kpmgbeyond/Home/Solutions/Cyber Risk Insights (CRI)
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D0B9BF43-6EEB-4A67-86E1-CF7ACE438A5F}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{96CCBE2B-F5F8-42DC-AE65-12A2567466FA}"
+          p:before="*"
+          s:id="{A2000001-0001-4000-8000-000000000001}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{DDE16A1B-1B72-4757-A172-7AED9E50B581}"
+          p:after="r[@uid='{96CCBE2B-F5F8-42DC-AE65-12A2567466FA}']"
+          s:id="{A2000001-0002-4000-8000-000000000002}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{80CCF80A-38D4-4B06-9419-04101D520A1A}"
+          p:after="r[@uid='{DDE16A1B-1B72-4757-A172-7AED9E50B581}']"
+          s:id="{A2000001-0003-4000-8000-000000000003}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{5C95E013-CEE7-43FA-AC30-3ACED49B5EA8}"
+          p:after="r[@uid='{80CCF80A-38D4-4B06-9419-04101D520A1A}']"
+          s:id="{A2000001-0004-4000-8000-000000000004}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{A22D5FC4-D73B-4E9D-ACF2-01B38A0C41CD}"
+          p:after="*[1=2]"
+          s:id="{A2000001-0005-4000-8000-000000000005}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260605T120000Z
+    - ID: "265d56d2-da61-4ab1-9ee8-de3fbdb279df"
+      Hint: CategoryLabel
+      Value: Cyber Risk Insights (CRI) | Quantification Tool
+    - ID: "34926873-f0fc-429d-aa2f-c2c81d411558"
+      Hint: Summary
+      Value: "Cyber Risk Insights (CRI) is a market leading SaaS platform. It takes a scenario-driven approach to help you measure the likelihood and impact of cyber-attacks more accurately on your organisation."
+    - ID: "4ab530f0-b9ab-4056-bf08-89ff4cee322e"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/solutions/CRI" anchor="" target="" class="" />
+    - ID: "4dd74161-877f-4099-8553-e20e3a72a783"
+      Hint: Title
+      Value: Cyber Risk Insights (CRI)
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cyber Risk Insights (CRI)
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5af373ff-c1a7-4edd-bb88-afe9d09df286"
+      Hint: Title
+      Value: Empowering you to make smarter cyber risk decisions
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "69d79353-4f68-4511-9949-218f72539861"
+    - ID: "a5b3c0e5-681b-4d64-a914-defb6ab289d1"
+      Hint: Image
+      Value: |
+        <image mediaid="8274a3c2-17e9-41ab-a9ce-41f06ecf472b" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000001"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Cyber-Risk-Insights/Cyber-Risk-Insights-(1)/Cyber-Risk-Insights-(1)/Cyber-Risk-Insights-(2)/Cyber-Risk-Insights-(4).png?rev=33d85bcc41d94821900a1e2b23eb0aa0&hash=310AAFCEB45DC434F92CCB438B6E5BAB" alt="Cyber Risk Insights header image" />
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000003"
+      Hint: Body
+      Value: |
+        <p>Cyber Risk Insights (CRI) is a market leading SaaS platform. It takes a scenario-driven approach to help you measure the likelihood and impact of cyber-attacks more accurately on your organisation. </p>
+        <h2>Want to understand your weaknesses?</h2> <p>See exactly where your defences are holding firm and where they&rsquo;re leaving you exposed. CRI pinpoints the weakest controls at every stage of the attack path, so you know what matters most. </p> <ul> <li>Prioritise your cyber investments using clear &ldquo;What if&rdquo; scenario planning and attack path modelling. </li> <li>Refresh assessments as often as needed to understand your live risk position.  </li> <li>Track how your defences have improved over time with on-going, repeatable assessments.  </li> </ul> <h2>Need to express risk quantitatively? </h2> <p>CRI brings simplicity and rigour to quantitative cyber risk analysis. No guesswork, just consistent, data‑driven results that give you clarity at a glance.  </p> <ul> <li>Instantly see the average expected loss for every scenario.  </li> <li>Understand risk at both assessment, organisation and aggregate levels &ndash; ideal for managing a portfolio of risks across your enterprise.  </li> </ul> <img alt="CRI Book a Demo" style="height:550px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Cyber-Risk-Insights/Cyber-Risk-Insights-(1)/Cyber-Risk-Insights-(1)/Cyber-Risk-Insights-(2)/Cyber-Risk-Insights-(4)/CRI-Book-a-Demo.png?rev=485e7bf66fb748ea85a4ba4af0bc8b80&hash=9322800EBA8654FBB8EE3E84608F1FA6" />  <h2>Want to speak in a language your stakeholder understands? </h2> <p>CRI turns cyber risk into business language. It&rsquo;s logical and transparent approach helps you communicate clearly with senior stakeholders, demonstrate the business benefits of cyber capabilities and make compelling investment cases. </p> <ul> <li>Get an overview of your planned investments and how they impact your risk position. </li> <li>Demonstrate to senior stakeholders the cost-benefit of your cyber investments. </li> <li>Target investment in the right areas and where it delivers the greatest impact. </li> </ul>   <h2>Optimise your investments </h2> <p>Make every pound count. CRI helps you shape an optimal cyber investment strategy, ensuring you get bang-for-your-buck when it comes to risk reduction. </p> <ul> <li>Input the cost of your improvements to understand the benefit in terms of reduced expected cyber losses. </li> <li>Measure cyber risk against your organisation&rsquo;s risk appetite.  </li> <li>Build your ideal investment strategy through scenario planning and analysis.  </li> <li>Use year-on-year loss modelling to ensure you have the proportionate cyber insurance and capital reserves in the event of an attack. </li> </ul> <p> <br /> <img alt="CRI We've Supported Banner" style="height:400px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Cyber-Risk-Insights/Cyber-Risk-Insights-(1)/Cyber-Risk-Insights-(1)/Cyber-Risk-Insights-(2)/Cyber-Risk-Insights-(4)/CRI-Weve-Supported-Banner.gif?rev=f83e6871475d4d5da0d9cb5b844cae3a&hash=3A891ACB2943D6D62102EFEA5155E457" /></p>    <p> </p>  <img alt="CRI Quote" style="height:500px; width:1920px;" src="https://cd-prod-horizon.azureedge.net/-/media/Solution-pages/Cyber-Risk-Insights/Cyber-Risk-Insights-(1)/Cyber-Risk-Insights-(1)/Cyber-Risk-Insights-(2)/Cyber-Risk-Insights-(4)/CRI-Quote.png?rev=6739600516804664a4254fd5b084fc1c&hash=A7FEDB0B677DA26521340DE4AC94BD4B" /> <p> </p> <p><em><sub>Some or all of the services described herein may not be permissible for KPMG audited entities and their affiliates or related entities</sub></em></p>
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000004"
+      Hint: CtaText
+      Value: Book your free assessment today
+    - ID: "b1a2c3d4-e5f6-7890-abcd-ef1000000005"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="/contact" text="Book your free assessment today" anchor="" target="" class="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T013044Z

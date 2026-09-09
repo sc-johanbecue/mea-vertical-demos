@@ -1,0 +1,17 @@
+---
+ID: "83d409f4-48fb-4549-918e-14fbb832469e"
+Parent: "fc58484e-338a-426a-b341-61677134fd75"
+Template: "fc58484e-338a-426a-b341-61677134fd75"
+Path: "/sitecore/templates/Project/bermuda-monetary-authority/NavItem Templates/NavItem/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

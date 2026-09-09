@@ -1,0 +1,191 @@
+﻿---
+ID: "1aef5a6e-4606-4e35-bcd0-39bd750b373a"
+Parent: "322f8f63-2273-4920-a6bd-94044c086feb"
+Template: "4168f979-1400-40c4-82a8-c83544a7cad3"
+Path: "/sitecore/content/british-council/british-council/Data/HeroBanners/Home Hero"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "029d60e7-3e8f-48af-ace4-0cbe987345c5"
+      Hint: Body
+      Value: <p>We support peace and prosperity by building connections, understanding and trust between people in the UK and countries worldwide.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7538fbdb-5dac-4ed9-88b7-f37f830f95ca"
+    - ID: "9727159e-a10b-4f22-863c-60d060550f3c"
+      Hint: AccentColor
+      Value: #00a9e0
+    - ID: "b3ee4c69-68dd-4b2d-857b-fe5ccc906612"
+      Hint: Title
+      Value: We connect. We inspire.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bc5e91cc-7325-4735-9df3-fdee19fc7c62"
+      Hint: PrimaryLink
+      Value: |
+        <link text="Watch the video" linktype="external" url="/" />
+    - ID: "cf4af20a-9a49-4b1d-865a-4aafd4872ec4"
+      Hint: Image
+      Value: |
+        <image mediaid="cdeb4ebf-b844-4068-bc9a-d55a00a2abe2" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T131356Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "029d60e7-3e8f-48af-ace4-0cbe987345c5"
+      Hint: Body
+      Value: "<p>Nous soutenons la paix et la prospérité en établissant des liens, en favorisant la compréhension et en renforçant la confiance entre les habitants du Royaume-Uni et des pays du monde entier.</p>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "34131206-1233-4677-9f05-650cfd0eb142"
+    - ID: "9727159e-a10b-4f22-863c-60d060550f3c"
+      Hint: AccentColor
+      Value: #00a9e0
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b3ee4c69-68dd-4b2d-857b-fe5ccc906612"
+      Hint: Title
+      Value: Nous connectons. Nous inspirons.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bc5e91cc-7325-4735-9df3-fdee19fc7c62"
+      Hint: PrimaryLink
+      Value: |
+        <link linktype="external" text="Regardez la vidéo" url="/" />
+    - ID: "cf4af20a-9a49-4b1d-865a-4aafd4872ec4"
+      Hint: Image
+      Value: |
+        <image mediaid="cdeb4ebf-b844-4068-bc9a-d55a00a2abe2" alt="medium_resolution-getty_1222312516-hpc" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084704Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "029d60e7-3e8f-48af-ace4-0cbe987345c5"
+      Hint: Body
+      Value: <p>हम शांति और समृद्धि का समर्थन करते हैं, लोगों के बीच संबंध, समझ और विश्वास को बढ़ाकर, यूके और दुनिया भर के देशों में।</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a5d74370-14c9-438b-aaec-4c9fcf34c0b5"
+    - ID: "9727159e-a10b-4f22-863c-60d060550f3c"
+      Hint: AccentColor
+      Value: #00a9e0
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b3ee4c69-68dd-4b2d-857b-fe5ccc906612"
+      Hint: Title
+      Value: हम जोड़ते हैं। हम प्रेरित करते हैं।
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bc5e91cc-7325-4735-9df3-fdee19fc7c62"
+      Hint: PrimaryLink
+      Value: |
+        <link linktype="external" text="वीडियो देखें" url="/" />
+    - ID: "cf4af20a-9a49-4b1d-865a-4aafd4872ec4"
+      Hint: Image
+      Value: |
+        <image mediaid="cdeb4ebf-b844-4068-bc9a-d55a00a2abe2" alt="medium_resolution-getty_1222312516-hpc" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093355Z
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "029d60e7-3e8f-48af-ace4-0cbe987345c5"
+      Hint: Body
+      Value: <p>We ondersteunen vrede en welvaart door verbindingen, begrip en vertrouwen op te bouwen tussen mensen in het Verenigd Koninkrijk en landen wereldwijd.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T080000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "46a21d3c-82f6-4698-baec-6a7decc3612a"
+    - ID: "9727159e-a10b-4f22-863c-60d060550f3c"
+      Hint: AccentColor
+      Value: #00a9e0
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b3ee4c69-68dd-4b2d-857b-fe5ccc906612"
+      Hint: Title
+      Value: We verbinden. We inspireren.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "bc5e91cc-7325-4735-9df3-fdee19fc7c62"
+      Hint: PrimaryLink
+      Value: |
+        <link linktype="external" text="Bekijk de video" url="/" />
+    - ID: "cf4af20a-9a49-4b1d-865a-4aafd4872ec4"
+      Hint: Image
+      Value: |
+        <image mediaid="cdeb4ebf-b844-4068-bc9a-d55a00a2abe2" alt="medium_resolution-getty_1222312516-hpc" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084704Z

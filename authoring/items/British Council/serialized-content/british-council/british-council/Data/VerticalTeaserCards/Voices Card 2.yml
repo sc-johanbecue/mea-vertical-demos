@@ -1,0 +1,173 @@
+﻿---
+ID: "a11e1002-0002-4002-8002-000000000003"
+Parent: "de8c9bbb-e3f6-451a-b5d6-2b5b5b0f3f98"
+Template: "d76b94f4-229b-4ef0-95e2-35547ec86c6f"
+Path: "/sitecore/content/british-council/british-council/Data/VerticalTeaserCards/Voices Card 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="10dd5b7f-97d0-41c0-aed6-5521c1d2b15b" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link text="Read more" linktype="external" url="/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "717794be-4e4f-46b3-af7a-068d653340d5"
+    - ID: "8e43b7b8-41fe-4c59-9d96-1b90523c82d3"
+      Hint: Body
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cab5e530-9b85-49ed-a83b-f5989c8f86aa"
+      Hint: Eyebrow
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260730T132227Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: How English shapes opportunity
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="10dd5b7f-97d0-41c0-aed6-5521c1d2b15b" alt="cropped-youth-connect_study-trip_189 (1)" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Lire la suite" url="/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "765f131d-b954-4258-89ee-3c828e3b3ca7"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084737Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: Comment l'anglais façonne les opportunités
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="10dd5b7f-97d0-41c0-aed6-5521c1d2b15b" alt="cropped-youth-connect_study-trip_189 (1)" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="और पढ़ें" url="/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f244218-dc78-4ee9-88c1-d44da3f5a234"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093428Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: कैसे अंग्रेज़ी अवसरों को आकार देती है
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "106dd7cc-06ac-4aa2-89c9-801aeec66255"
+      Hint: Image
+      Value: |
+        <image mediaid="10dd5b7f-97d0-41c0-aed6-5521c1d2b15b" alt="cropped-youth-connect_study-trip_189 (1)" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260730T120000Z
+    - ID: "4674f4c1-9774-4cc5-9d67-8677a39e551c"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Lees meer" url="/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "77f7b645-726c-4380-885b-b766baac20aa"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084736Z
+    - ID: "ffeb24bd-9780-42ed-87bd-9291162e6d3f"
+      Hint: Title
+      Value: Hoe Engels kansen vormt

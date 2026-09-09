@@ -1,0 +1,157 @@
+﻿---
+ID: "e83c20d5-b42b-415b-aa05-403bbe47aeef"
+Parent: "ef6cec55-40c3-49d0-b3e3-e0346b5cf763"
+Template: "b50fc809-5fb4-4ae3-a7d7-db4a6052300e"
+Path: "/sitecore/content/british-council/british-council/Data/PortalSearchHeaders/Discover Header"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "31a9a7a4-37d0-4503-b9dd-1d82489f3b49"
+      Hint: Title
+      Value: Discover
+    - ID: "36c72a5d-59f7-432e-ab34-d4690e3c8837"
+      Hint: ProfileLink
+      Value: |
+        <link text="Profile" linktype="external" url="/portal#profile" anchor="" target="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7db689d2-1f41-4c71-a0b6-21e6a8e8caf5"
+      Hint: SearchPlaceholder
+      Value: Search titles, authors, topics…
+    - ID: "f92d90b9-a442-473a-a2f8-146a0e0198e8"
+      Hint: NotificationLink
+      Value: |
+        <link text="Notifications" linktype="external" url="/portal#notifications" anchor="" target="" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "31a9a7a4-37d0-4503-b9dd-1d82489f3b49"
+      Hint: Title
+      Value: Découvrir
+    - ID: "36c72a5d-59f7-432e-ab34-d4690e3c8837"
+      Hint: ProfileLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Profil" url="/portal#profile" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7db689d2-1f41-4c71-a0b6-21e6a8e8caf5"
+      Hint: SearchPlaceholder
+      Value: Rechercher des titres, des auteurs, des sujets…
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "51b6405d-580e-4af4-927f-d43219f6f043"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084721Z
+    - ID: "f92d90b9-a442-473a-a2f8-146a0e0198e8"
+      Hint: NotificationLink
+      Value: |
+        <link text="Notifications" linktype="external" url="/portal#notifications" anchor="" target="" />
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "31a9a7a4-37d0-4503-b9dd-1d82489f3b49"
+      Hint: Title
+      Value: खोजें
+    - ID: "36c72a5d-59f7-432e-ab34-d4690e3c8837"
+      Hint: ProfileLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="प्रोफ़ाइल" url="/portal#profile" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7db689d2-1f41-4c71-a0b6-21e6a8e8caf5"
+      Hint: SearchPlaceholder
+      Value: शीर्षक, लेखक, विषय खोजें…
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ddbad2de-60d7-412f-9011-10aba7fddb53"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T093412Z
+    - ID: "f92d90b9-a442-473a-a2f8-146a0e0198e8"
+      Hint: NotificationLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="सूचनाएं" url="/portal#notifications" />
+- Language: "nl-BE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260803T120000Z
+    - ID: "31a9a7a4-37d0-4503-b9dd-1d82489f3b49"
+      Hint: Title
+      Value: Ontdek
+    - ID: "36c72a5d-59f7-432e-ab34-d4690e3c8837"
+      Hint: ProfileLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Profiel" url="/portal#profile" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7db689d2-1f41-4c71-a0b6-21e6a8e8caf5"
+      Hint: SearchPlaceholder
+      Value: Zoek titels, auteurs, onderwerpen…
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8de55d55-abde-464a-944a-b692279036ab"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260803T084723Z
+    - ID: "f92d90b9-a442-473a-a2f8-146a0e0198e8"
+      Hint: NotificationLink
+      Value: |
+        <link anchor="" target="" linktype="external" text="Meldingen" url="/portal#notifications" />

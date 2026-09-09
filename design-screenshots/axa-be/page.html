@@ -1,0 +1,2288 @@
+<!DOCTYPE html><html lang="nl-BE" data-scrolldir="undefined"><head>
+<link rel="dns-prefetch" href="https://c.contentsquare.net/">
+<link rel="dns-prefetch" href="https://cdn.trustcommander.net/">
+<link rel="dns-prefetch" href="https://cdn.website.axa.be/">
+<link rel="dns-prefetch" href="https://connect.facebook.net/">
+<link rel="dns-prefetch" href="https://data.kameleoon.io/">
+<link rel="dns-prefetch" href="https://dc.services.visualstudio.com/">
+<link rel="dns-prefetch" href="https://g0gl15f1u4.kameleoon.eu/">
+<link rel="dns-prefetch" href="https://js.monitor.azure.com/">
+<link rel="dns-prefetch" href="https://googleads.g.doubleclick.net/">
+<link rel="dns-prefetch" href="https://k-aeu1.contentsquare.net/">
+<link rel="dns-prefetch" href="https://www.facebook.com/">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+    
+        <script async="" src="https://load.sst.fo.axa.be/eikoixnm.js?st=NMFK7NR"></script><script nonce="">
+        window.AxaBe = window.AxaBe || {};
+        window.AxaBe.pageSegmentId = "832cc9a3806a4d25bb26fd0c0679e3c0";
+        window.AxaBe.pageSegmentName = "homepage retail";
+    </script>
+
+
+
+
+
+
+<style>
+    html:not([data-is-authenticated="true"]) [data-auth-condition="show-when-authenticated"] {
+        display: none !important;
+    }
+
+    html[data-is-authenticated="true"] [data-auth-condition="hide-when-authenticated"] {
+        display: none !important;
+    }
+</style>
+<script nonce="">
+ 
+    window.MyAxaAuthConfig = {"prefixUrlHelper":{},"domain":"login.axa.be","clientId":"CqF6D7Fu0u8a4MSn8kYLIL557gMFmomE","scope":"openid email profile","audience":null,"requireAuth":false,"loginRedirectUri":"https://www.axa.be/auth/callback","logoutRedirectUri":"https://www.axa.be/myaxa/logout-redirect","idleTimeoutSeconds":580,"auth0UiLocale":"nl","auth0LibraryUrl":"https://cdn.website.axa.be/scripts/@auth0/auth0-spa-js.production.js?v=639148797560000000","kameleoonEnableCustomDataInitialisation":false,"claimMappings":{"firstname":"given_name","lastname":"family_name","user_id":"https://axa.be/customerid"}};
+
+    var linkPreloadElement = document.getElementById("auth0_preload_script");
+    var auth0_preload_script = linkPreloadElement instanceof HTMLLinkElement ? linkPreloadElement : null;
+    if (!!auth0_preload_script && !!auth0_preload_script.href)
+    {
+        window.MyAxaAuthConfig.auth0LibraryUrl = auth0_preload_script.href;
+    }
+
+</script>    <script src="https://cdn.website.axa.be/bundles/js/AxaBe-AxaBeWeb-early-loaded.js?v=NZjCCHEksFJQPCd8xkBUTcpf5xPXJnVbPbfL882rURI1"></script><style>
+                /* Hide segment-specific elements that don't have current segment class */
+                .segment-specific:not([class*="axabe-segment-832cc9a3806a4d25bb26fd0c0679e3c0"]) {
+                    display: none !important;
+                }
+                .segment-specific-hide.axabe-segment-832cc9a3806a4d25bb26fd0c0679e3c0 {
+                    display: none !important;
+                }
+            </style>
+
+
+
+<script nonce="">
+    window.kameleoonQueue = window.kameleoonQueue || [];
+</script>
+
+
+<script nonce="">
+    // Change the value of this URL to point to your own URL, where the iFrame is hosted
+    window.kameleoonIframeURL = "https://www.axa.be/-/media/scripts/kameleoon/kameleoon%20iframe.html?rev=72976c71babc444bb2ef4d09d0f41b73";
+
+    window.kameleoonLightIframe = false;
+    var kameleoonIframeOriginElement = document.createElement("a");
+    kameleoonIframeOriginElement.href = kameleoonIframeURL;
+    window.kameleoonIframeOrigin = kameleoonIframeOriginElement.origin || (kameleoonIframeOriginElement.protocol + "//" + kameleoonIframeOriginElement.hostname);
+    if (location.href.indexOf(window.kameleoonIframeOrigin) != 0) {
+        window.kameleoonLightIframe = true;
+        var kameleoonProcessMessageEvent = function (event) {
+            if (window.kameleoonIframeOrigin == event.origin && event.data.slice && event.data.slice(0, 9) == "Kameleoon") {
+                window.removeEventListener("message", kameleoonProcessMessageEvent);
+                window.kameleoonExternalIFrameLoaded = true;
+                if (window.Kameleoon) {
+                    Kameleoon.Utils.runProtectedScript(event.data);
+                    Kameleoon.Analyst.load();
+                } else {
+                    window.kameleoonExternalIFrameLoadedData = event.data;
+                }
+            }
+        };
+        if (window.addEventListener) {
+            window.addEventListener("message", kameleoonProcessMessageEvent, false);
+        }
+        var iframeNode = document.createElement("iframe");
+        iframeNode.src = kameleoonIframeURL;
+        iframeNode.id = "kameleoonExternalIframe";
+        iframeNode.style = "float: left !important; opacity: 0.0 !important; width: 0px !important; height: 0px !important;";
+        document.head.appendChild(iframeNode);
+    }
+</script>
+
+<script nonce="" src="//g0gl15f1u4.kameleoon.eu/engine.js" fetchpriority="high" async=""></script>
+
+
+<script nonce="">
+    window.caReady = window.caReady || [];
+    window.cact = function () { window.caReady.push(arguments); };
+
+    var CONFORT_COOKIES_CAT = 11;
+
+    window.kameleoonQueue = window.kameleoonQueue || [];
+
+    function hasConsent(result) {
+        var category = result.consent.categories[CONFORT_COOKIES_CAT] || {};
+        return category.status === 'on';
+    }
+
+    window.cact('consent.get', function (result) {
+        console.log('User has already selected a consent for cookies', result);
+        if (hasConsent(result)) {
+            console.log('Request kameleoon to enable legal consent...');
+            kameleoonQueue.push(function () {
+                Kameleoon.API.Core.enableLegalConsent()
+            });
+        } else {
+            console.log('Request kameleoon to disable legal consent...');
+            kameleoonQueue.push(function () {
+                Kameleoon.API.Core.disableLegalConsent()
+            });
+        }
+    });
+
+    window.cact('consent.onUpdate', function (result) {
+        console.log('User changed the consent for cookies', result);
+        if (hasConsent(result)) {
+            console.log('Request kameleoon to enable legal consent...');
+            kameleoonQueue.push(function () {
+                Kameleoon.API.Core.enableLegalConsent()
+            });
+        } else {
+            console.log('Request kameleoon to disable legal consent...');
+            kameleoonQueue.push(function () {
+                Kameleoon.API.Core.disableLegalConsent()
+            });
+        }
+    });
+
+</script>    
+
+<script type="text/javascript" nonce="">
+    var tCPrivacyTagManager = "gtm";
+</script>
+<script type="text/javascript" src="https://cdn.trustcommander.net/privacy/5134/privacy_v2_9.js" nonce=""></script>    
+    <title>Alle verzekeringen voor particulieren | AXA Verzekeringen</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta itemprop="site" content="AxaBe-AxaBeWeb">
+    <meta itemprop="server-info" content="aw0mdwk0000E5">
+    <meta itemprop="instance-info" content="PRD">
+    <meta itemprop="product-version" content="2.0 be.axa.support.technology.sitecore-CD-XP10_2026-2.1_2026052001">
+    <meta itemprop="source-version" content="1e0bf42e39eee2e3715bc4d146d8652bf9d18898">
+    <meta itemprop="access-channel" content="Unknown">
+    <meta itemprop="page-id" content="832cc9a3806a4d25bb26fd0c0679e3c0">
+    <meta itemprop="page-template" content="Segment page">
+    <meta itemprop="page-templateid" content="e36f8799605e4737a05e3e91bd8272b9">
+    <meta itemprop="request-x-forwarded-host" content="www.axa.be">
+    <meta itemprop="request-forwarded" content="www.axa.be">
+    <meta itemprop="server-http-x-forwarded-host" content="www.axa.be">
+    <meta itemprop="server-host" content="www.axa.be">
+    <meta name="description" content="Bescherm jezelf door op tijd de juiste verzekering te nemen: ontdek ons aanbod, van autoverzekering over brandverzekering tot reis- en pensioenverzekering.">
+    <link rel="icon" href="https://cdn.website.axa.be/-/media/shared/logos/favicon.ico?savif=1&amp;swebp=1" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/logo/favicon.ico?rev=9496e726bee24803811b264ea1b75e62&amp;savif=1&amp;swebp=1" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/logo/favicon.ico?rev=9496e726bee24803811b264ea1b75e62&amp;savif=1&amp;swebp=1" type="image/png">
+<link rel="canonical" href="https://www.axa.be/nl/particulieren">
+        <link rel="alternate" hreflang="fr-BE" href="https://www.axa.be/fr/particuliers">
+        <link rel="alternate" hreflang="nl-BE" href="https://www.axa.be/nl/particulieren">
+        <link rel="alternate" hreflang="x-default" href="https://www.axa.be/nl/particulieren">
+
+<script data-webid="datalayer" nonce="">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({"page":{"id":"832cc9a3-806a-4d25-bb26-fd0c0679e3c0","path":"/homepage retail","name":"homepage retail","type":["Segment page"],"title":"alle verzekeringen voor particulieren | axa verzekeringen","language":"nl","segment":["retail"],"category":["undefined"],"platform":"sitecore","inoverlay":false,"firstPublicationDate":"2022-08-19","lastPublicationDate":"2026-06-08","canonicalUrl":"https://www.axa.be/nl/particulieren","alternateUrl":"https://www.axa.be/fr/particuliers"}});
+</script>
+
+<!-- Google Tag Manager -->
+<script nonce="">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://load.sst.fo.axa.be/eikoixnm.js?st='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','NMFK7NR');</script>
+<!-- End Google Tag Manager -->
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:title" content="Alle verzekeringen voor particulieren | AXA Verzekeringen">
+    <meta property="og:description" content="Bescherm jezelf door op tijd de juiste verzekering te nemen: ontdek ons aanbod, van autoverzekering over brandverzekering tot reis- en pensioenverzekering.">
+    <meta property="og:image" content="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/logo/Facebook%20axa_logo_solid_rgb.jpg?rev=0657f998c84b48a8881949c8bdd58474&amp;savif=1&amp;swebp=1&amp;cx=0.5&amp;cy=0.5&amp;cw=1200&amp;ch=627&amp;hash=F15A409A7CF2EA708C0F595277553E54">
+    <meta name="twitter:image:alt" content="AXA logo">
+    <meta property="og:image:alt" content="AXA logo">
+    <meta property="og:url" content="https://www.axa.be/nl/particulieren">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:site_name" content="AXA Verzekeringen">
+    <meta name="twitter:site" content="AXA Verzekeringen">
+
+    
+
+    
+    <link rel="preload" href="https://cdn.website.axa.be/fonts/sourcesanspro-bold-subset-latin.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="https://cdn.website.axa.be/fonts/sourcesanspro-regular-subset-latin.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="https://cdn.website.axa.be/fonts/sourcesanspro-semibold-subset-latin.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="https://cdn.website.axa.be/fonts/publicoheadline-bold.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="https://cdn.website.axa.be/fonts/icomoon/fonts/icomoon.ttf?tznc38" as="font" crossorigin="anonymous">
+    <link rel="preload" href="https://cdn.website.axa.be/fonts/icomoon/style.css?tznc38" as="style">
+    <link rel="stylesheet" href="https://cdn.website.axa.be/fonts/icomoon/style.css?tznc38">
+    <link rel="preload" href="https://cdn.website.axa.be/fonts/axa-fonts.css?v=639148782000000000" as="style">
+    <link rel="stylesheet" href="https://cdn.website.axa.be/fonts/axa-fonts.css?v=639148782000000000">
+    <link rel="preload" href="https://cdn.website.axa.be/modules/projects/axabe/axabeweb/components/_shared/views/styles/axabe2026.css?v=639150541448344690" as="style">
+    <link rel="stylesheet" href="https://cdn.website.axa.be/modules/projects/axabe/axabeweb/components/_shared/views/styles/axabe2026.css?v=639150541448344690">
+        <style nonce="">/*Banner with title - Mobile adjustments */
+  
+@media screen and (max-width: 768px){
+    .hero__title .h3{
+        font-size: 18px;
+    }
+}</style>
+        <link href="https://cdn.website.axa.be/-/media/smoke-tests/css/SmokeTest_eauto_v2.css" rel="stylesheet">
+
+
+    
+
+<!-- Application Insights -->
+<script type="text/javascript" nonce="">
+        
+</script>
+<!-- End Application Insights -->        
+
+    
+    <!-- Dynatrace placeholder - do not remove --><script type="text/javascript" src="/abedt/ruxitagentjs_ICA15789NPRTUVXfhqrux_10339260603164134.js" data-dtconfig="rid=RID_-1969969560|rpid=-400629275|domain=axa.be|reportUrl=https://bf06096vli.bf.dynatrace.com/bf|app=f01cd7b96838caa2|cors=1|owasp=1|featureHash=ICA15789NPRTUVXfhqrux|xb=.*^bs.trc^bs.taboola.*^p.*^bseu-data^bs.kameleoon^bs.eu.*^p.*noembed^bs.com.*^p.*taboola^bs.com.*^p.*kameleoon^bs.eu.*|rdnt=0|uxrgce=1|cuc=joai8erz|mel=100000|dpvc=1|md=mdcc1=bdataLayer[0].user.isemployee,mdcc2=cbe.AXA.sp-ip,mdcc3=ameta[itemprop^e^dqpage-template^dq]@content,mdcc4=dutm_content,mdcc5=dutm_term,mdcc6=dutm_campaign,mdcc7=dutm_medium,mdcc8=dutm_source,mdcc9=bnavigator.userAgent,mdcc10=bdocument.referrer|lastModification=1781258362478|tp=500,50,0|srbbv=2|agentUri=/abedt/ruxitagentjs_ICA15789NPRTUVXfhqrux_10339260603164134.js" data-config="{&quot;revision&quot;:1781258362478,&quot;beaconUri&quot;:&quot;https://bf06096vli.bf.dynatrace.com/bf&quot;,&quot;agentUri&quot;:&quot;/abedt/ruxitagentjs_ICA15789NPRTUVXfhqrux_10339260603164134.js&quot;,&quot;environmentId&quot;:&quot;joai8erz&quot;,&quot;modules&quot;:&quot;ICA15789NPRTUVXfhqrux&quot;}" data-envconfig="{&quot;tracestateKeyPrefix&quot;:&quot;f02475fb-d4acb8e8&quot;}" data-appconfig="{&quot;app&quot;:&quot;f01cd7b96838caa2&quot;,&quot;enableMetadataCapturing&quot;:false,&quot;requestExclusions&quot;:&quot;.*\\.trc\\.taboola.*|.*\\eu-data\\.kameleoon\\.eu.*|.*noembed\\.com.*|.*taboola\\.com.*|.*kameleoon\\.eu.*&quot;}"></script>
+    
+
+<style type="text/css">.tc-reset-css { border: none; background: none;}.tc-privacy-wrapper .tc-privacy-banner { width: 100%; left: 0px; text-align: left; font-size: 16px; z-index: 999998; position: fixed;}.tc-privacy-wrapper .tc-privacy-accessible-banner { font-size: 1rem;}.tc_div_preview .tc-privacy-wrapper .tc-privacy-banner { position: absolute;}.tc-privacy-wrapper .tc-privacy-footer { bottom: 0px;}.tc-privacy-wrapper .tc-privacy-header { top: 0px;}.tc-privacy-wrapper .tc-privacy-block-text { display: inline-block;}.tc-privacy-wrapper .tc-privacy-text, .tc-privacy-wrapper .tc-iab-purposes-automatic-text { padding: 10px; font-size: 0.75em; text-align: left;}.tc-privacy-wrapper .tc-privacy-block-button, .tc-privacy-wrapper .tc-privacy-block-text { vertical-align: middle;}.tc-privacy-wrapper .tc-privacy-block-button { right: 10px;}.tc-privacy-wrapper .tc-privacy-accessible-banner .tc-privacy-button { float: left;}.tc-privacy-wrapper .tc-privacy-accessible-popin .tc-privacy-button { float: none;}.tc-privacy-wrapper .tc-privacy-button:last-child { margin: 10px 0px;}.tc-privacy-wrapper .tc-privacy-button-close { position: absolute; right: 5px; top: 5px; cursor: pointer; z-index: 1;}.tc-privacy-wrapper .tc-privacy-block-button > button:focus { outline: black 1px dotted; box-shadow: 0 0 0 1px white; -webkit-box-shadow: 0 0 0 1px white; -moz-box-shadow: 0 0 0 1px white;}.tc-privacy-wrapper .tc-privacy-accessible-banner .tc-privacy-block-button > button:focus { outline: black 2px dotted;}.tc-privacy-overlay { background: rgba(0, 0, 0, 0.5); position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; display: block; z-index: 999997;}body.tc-modal-open { bottom: 0; left: 0; position: fixed; right: 0; top: 0; overflow: hidden;}.tc-privacy-wrapper .tc-privacy-banner { background: #5f5f5f;}.tc-privacy-wrapper .tc-privacy-text, .tc-privacy-wrapper .tc-iab-purposes-automatic-text { color: #ffffff;}#tc_privacy_button, #footer_tc_privacy_button, #header_tc_privacy_button, #popin_tc_privacy_button { background: #20b075; color: #ffffff;}#tc_privacy_button_2, #footer_tc_privacy_button_2, #header_tc_privacy_button_2, #popin_tc_privacy_button_2 { background: #6faae5; color: #FFFFFF;}#tc_privacy_button_3, #footer_tc_privacy_button_3, #header_tc_privacy_button_3, #popin_tc_privacy_button_3 { background: #6faae5; color: #FFFFFF;}.tc-privacy-wrapper .tc-privacy-banner { width: 60%; border-radius: 5px; max-width: 600px;}.tc-privacy-wrapper .tc-privacy-iab-banner { width: 100%; max-width: 770px; min-width: 320px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: inherit; margin: auto; max-height: 100%; overflow: auto;}.tc-privacy-wrapper .tc-privacy-text { font-size: 0.875em;}.tc-privacy-wrapper .tc-privacy-iab-banner .tc-privacy-text, .tc-privacy-wrapper .tc-iab-purposes-automatic-text { font-size: 100%;}.tc-privacy-wrapper .tc-privacy-block-button { display: block; text-align: center;}.tc-privacy-wrapper .tc-privacy-button { margin: 0px auto 10px 10px; display: inline-block; cursor: pointer; font-size: 0.875em; padding: 5px 20px;}.tc-privacy-wrapper .tc-privacy-iab-banner .tc-privacy-button { font-size: 100%;}.tc-privacy-wrapper .tc-privacy-button:last-child { margin: 0 auto 10px 10px;}.tc-privacy-wrapper .tc-privacy-button-close { right: -10px; top: -5px;}.tc-privacy-wrapper .tc-privacy-button.tc-privacy-button-top { top: 0; right: 0; width: auto; position: absolute; margin: 10px;}.tc-privacy-padding-top { padding-top: 1rem;}#popin_tc_privacy_text p { font-size:15px; line-height: 18px; letter-spacing: 0.23px; font-family: "Source Sans Pro", Arial, sans-serif; margin: auto; } .tc-privacy-wrapper .tc-privacy-block-text { width: auto; } .tc-privacy-wrapper .tc-privacy-banner { padding: 20px; opacity: 1; } .tc-privacy-wrapper .tc-privacy-text { padding: 0; } #popin_tc_privacy_button { display: -ms-inline-flexbox; display: inline-flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: relative; overflow: hidden; padding-left: 20px; padding-right: 20px; min-height: 30px; text-decoration: none; text-align: center; text-transform: uppercase; letter-spacing: 0.05em; cursor: pointer; outline: none; border-style: solid; user-select: none; } #popin_tc_privacy_button { background-color: transparent; border-color: #fff; color: #fff; } #popin_tc_privacy_button { margin: auto; height: 30px; width: auto; min-width: 200px; padding: 15px 30px; border-width: 1px; font: normal 400 12px/12px 'Source Sans Pro'; } #popin_tc_privacy_button:hover, #popin_tc_privacy_button:active { background-color: #fff; color: #00008f; } #popin_tc_privacy_container_text a.link, #popin_tc_privacy_container_text a.link:visited { color: #fff; text-decoration: none; text-transform: uppercase; display: block; margin-top: 6px; font-size: 13px; } #popin_tc_privacy_container_text .title { font-size: 16px; line-height: 18px; letter-spacing: 0.25px; margin-bottom: 6px; } #popin_tc_privacy_container_text.link { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #fff; fill: #fff; text-decoration: none!important; font-weight: 700; -webkit-transition: all .25s ease; transition: all .25s ease; line-height: 14px; letter-spacing: .08em; } #popin_tc_privacy_container_text svg.icon.right { fill: #fff; position: relative; top: 2px; } .tc-privacy-wrapper .tc-privacy-banner { padding: 20px; opacity: 1; width: 100%; height: auto; } #popin_tc-privacy-wrapper { height: inherit; max-height: auto; display: flex; justify-content: center; align-items: flex-end; }  div#popin_tc_privacy_container_text { display: flex; flex-direction: column; } div#popin_tc_privacy_text { max-width: 1110px; margin-left: auto; margin-right: auto; width: 100%; } div#popin_tc_privacy_container_button { display: flex; width: 100%; padding-left: 0; max-width: 1110px; margin-left: auto; margin-right: auto; margin-top: 30px; } div#popin_tc_privacy { padding-top: 15px; padding-bottom: 25px; border-radius: 0; } #popin_tc_privacy_button_2 { order: 2; } #popin_tc_privacy_text h2 { font-size: 24px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 1.17; letter-spacing: 1px; color: #ffffff; margin-bottom: 20px; } #popin_tc_privacy_text p { font-size: 16px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 1.5; letter-spacing: 0.2px; color: #ffffff; font-family: "Source Sans Pro", sans-serif; } #popin_tc_privacy_container_button button#popin_tc_privacy_button { display: inline-block; display: -ms-inline-flexbox; display: inline-flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; min-width: 150px; text-align: center; text-transform: uppercase; letter-spacing: 1px; font-family: "Source Sans Pro", sans-serif; font-weight: 600; line-height: 1.29; border: none; border-radius: 0; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; appearance: none; position: relative; overflow: hidden; white-space: nowrap; box-shadow: inset 0px 0px 0px 2px #FFFFFF; background-color: transparent; min-height: 46px; } #popin_tc_privacy_container_button #popin_tc_privacy_button::before { font-family: "icomoon" !important; speak: never; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: "\E900"; position: relative; left: 0px; margin-right: 12px;  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23ffffff'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/%3E%3C/svg%3E"); height: 15px; background-repeat: no-repeat; background-size: contain; color: transparent; background-position: unset; width: 15px; }  #popin_tc_privacy_container_button #popin_tc_privacy_button:hover::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%2300008f'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/%3E%3C/svg%3E"); } #popin_tc_privacy_container_button button#popin_tc_privacy_button:hover::after, #popin_tc_privacy_container_button button#popin_tc_privacy_button:focus::after { height: 800%; } #popin_tc_privacy_container_button button#popin_tc_privacy_button::after { width: 100%; height: 0; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%) rotate(-45deg); backface-visibility: hidden; position: absolute; content: ''; z-index: 0; transition: height 0.29s cubic-bezier(0.455, 0.03, 0.515, 0.955); background-color: rgba(255, 255, 255, 0.1); color: #00008f !important; } #popin_tc_privacy_container_button button#popin_tc_privacy_button:hover, #popin_tc_privacy_container_button button#popin_tc_privacy_button:focus { color: #00008f !important; background-color: rgba(255, 255, 255, 1); } #popin_tc_privacy_container_button #popin_tc_privacy_button_2::before { font-family: "icomoon" !important; speak: never; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: "\E90f"; position: relative; left: 0px; margin-right: 12px; top: 1.5px; color: transparent; } #popin_tc_privacy_container_button #popin_tc_privacy_button_2 { font-weight: 600; font-stretch: normal; font-style: normal; line-height: 1.29; letter-spacing: 1px; color: #ffffff; font-family: "Source Sans Pro", sans-serif; text-transform: uppercase; background: transparent; margin: 0; padding: 0; padding-left: 0px; height: 40px; margin: auto; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='36px' viewBox='0 0 24 24' width='36px' fill='%23ffffff'%3E%3Cg%3E%3Cpath d='M0,0h24v24H0V0z' fill='none'/%3E%3Cpath d='M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z'/%3E%3C/g%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: left center; background-size: 20px; } @media only screen and (max-width: 768px){ #popin_tc_privacy_container_button #popin_tc_privacy_button_2 { height: 20px; background-position: left top 3px; background-size: 15px; } } #popin_tc_privacy_text a { text-decoration: underline; } button#popin_tc_privacy_button { margin-left: 0; } #popin_tc_privacy_btn_close { display: none; } @media only screen and (max-width: 992px) { body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } body, html {-webkit-text-size-adjust: none;} .tc-privacy-wrapper .tc-privacy-block-text { width: 100%; margin-bottom: 20px; } .tc-privacy-wrapper .tc-privacy-text { padding: 0; } .tc-privacy-wrapper .tc-privacy-block-button { width: 100%; display: inline-flex; } .tc-privacy-wrapper .tc-privacy-banner { position: fixed; left: 0;  } #popin_tc_privacy_container_button button#popin_tc_privacy_button_2 { padding-left: 0 !important; } #popin_tc_privacy_text h2 { font-size: 20px !important; line-height: 1.5 !important; letter-spacing: -0.1px !important; margin-bottom: 10px !important; } #popin_tc_privacy_text p { -webkit-text-size-adjust: 100%;  margin-bottom: -5px; font-size: 14px !important; } #popin_tc_privacy_container_button { flex-direction: row; } #popin_tc_privacy_button_2 { font: normal 400 12px/12px 'Source Sans Pro'; } } @media only screen and (max-width: 767px){ #popin_tc_privacy_container_button { flex-direction: column; } #popin_tc_privacy_container_button button#popin_tc_privacy_button { margin-bottom: 20px; width: 100%; min-height: 46px; } } #popin_tc_privacy_textfocus { height: 0; width: 0; display: block; overflow: hidden; } #popin_tc_privacy_text a:focus-visible, #popin_tc_privacy_text a:focus-within, #popin_tc_privacy_text a:focus, #popin_tc_privacy_text a:active, #popin_tc_privacy_text a:hover, #popin_tc_privacy_text a:target, #popin_tc_privacy_text a:visited, #popin_tc_privacy_text a, #popin_tc_privacy_textfocus a:focus-visible, #popin_tc_privacy_textfocus a:focus-within, #popin_tc_privacy_textfocus a:focus, #popin_tc_privacy_textfocus a:active, #popin_tc_privacy_textfocus a:hover, #popin_tc_privacy_textfocus a:target, #popin_tc_privacy_textfocus a:visited, #popin_tc_privacy_textfocus a {  -webkit-appearance: none; -moz-appearance: none; appearance: none; } #popin_tc_privacy_text a:focus{ outline: 2px solid #fff; outline-offset: 3px; } button#popin_tc_privacy_button_2:focus{ outline: 2px solid #fff; outline-offset: 3px; box-shadow: none; }</style></head>
+
+
+    <body data-overlay-close="Sluiten" class="tc-modal-open" data-i18n-previous="Vorige" data-i18n-next="Volgende" data-modal-close="Sluiten" data-goal-tracking-url="/services/AxaBe-AxaBeWeb/nl-BE/GoalTracking">
+
+
+        
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://load.sst.fo.axa.be/ns.html?id=GTM-NMFK7NR" height="0" width="0" style="display:none;visibility:hidden" nonce="02d85c454195462ab15b68aad4fda3e4"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <input name="__RequestVerificationToken" type="hidden" value="TPHwNc58xscgt2aZShN3qP3l7QyXSpAI9xTXSWl22DaAEC3W-lq7CtsqKRWm-SolZ-3hREDicw3DjFs2RlYnVzbOWE01">
+        <!--BEGIN NOINDEX-->
+        <header class="head">
+            <a href="#main-content" id="skip-to-main" class="btn btn--secondary"><span>Ga naar de hoofdinhoud</span></a>
+            <a href="#main-nav" id="skip-to-nav" class="btn btn--secondary u-hide-mobile"><span>Ga naar het hoofdmenu</span></a>
+            <a href="#main-nav-mobile" id="skip-to-nav-mobile" class="btn btn--secondary u-hide-desktop"><span>Ga naar het hoofdmenu</span></a>
+            <div id="head-top" class="head__top">
+
+<header class="header-grad" data-component-class="Dlw.ScBase.Website.Modules.Projects.AxaBe.AxaBeHeaderComponent" data-component-parm="{&quot;currentLanguage&quot;:&quot;nl&quot;}" data-webid="Dlw.ScBase.Website.Modules.Projects.AxaBe.AxaBeHeaderComponent">    <div class="header-wrap">
+
+<section class="topbar26">
+    <div class="topbar26__ctn">
+
+    <nav>
+        <ul class="topbar__links">
+                <li><a href="/nl/particulieren" class="topbar__link active" data-webid="header-segment-retail">Particulieren</a></li>
+                <li><a href="/nl/ondernemers-kmo" class="topbar__link" data-webid="header-segment-ivse">Ondernemers &amp; kmo's</a></li>
+                <li><a href="/nl/grote-ondernemingen" class="topbar__link" data-webid="header-segment-le">Grote ondernemingen</a></li>
+                <li><a href="/nl/publieke-sector" class="topbar__link" data-webid="header-segment-public sector">Publieke sector</a></li>
+        </ul>
+    </nav>
+
+        <div class="flexspacer"></div>
+
+        <ul class="topbar26__links">
+                        <li><a href="/nl/site-overzicht" class="sr-only sr-only-focusable topbar26__link" data-webid="header-utility-sitemap"><span>Site-overzicht</span></a></li>
+                        <li><a href="/nl/particulieren/services/bijstand/bijstand-auto" class="urgent  topbar26__link" data-webid="header-utility-urgent assistance"><i aria-hidden="true" class="icon-buoy"></i><span>Dringende bijstand</span></a></li>
+                        <li><a href="/nl/particulieren/contact" class="topbar26__link" data-webid="header-utility-help and contact"><span>Hulp en contact</span></a></li>
+
+            <li><a id="desktopLanguage" class="topbar26__link" href="/fr/particuliers" title="Français" data-webid="header-lang-FR">Français</a></li>
+        </ul>
+
+    </div>
+</section>
+
+
+        <section class="header26 " data-component="searchbox">
+            <div class="header26__ctn">
+                <a class="header26__homeurl" data-webid="header-logo axa" href="/">
+                    <img alt="Axa Verzekeringen, homepagina" data-webid="img-logo-e062926652294b878ea0c470b11383d2" height="48" src="https://cdn.website.axa.be/-/media/shared/logos/axa%20logo%20solid%20rgb.svg?rev=4f6cb760a2cd42329840b9b2bc216240&amp;savif=1&amp;swebp=1&amp;mh=0&amp;la=nl-BE&amp;h=48&amp;mw=0&amp;w=48&amp;hash=AC1288D9BFFA11B7B02724420516B50B" width="48">
+                </a>
+
+                <nav>
+
+
+<ul class="header26__links" data-role="topmenu">
+        <li class="header26__links__li">
+                <button data-role="menubtn" aria-controls="inlinemenu-197e6087cd264bc3970262521983bc0b" class="unbtn header26__link  active" data-webid="header-main-insurances" kameleoonlistener-lfuw="true">
+                    Verzekeringen
+                </button>
+        </li>
+        <li class="header26__links__li">
+                <button data-role="menubtn" aria-controls="inlinemenu-0e2906cd82824711947b41a01aa3a9d0" class="unbtn header26__link " data-webid="header-main-claims" kameleoonlistener-kutd="true">
+                    Schadegevallen
+                </button>
+        </li>
+</ul>                </nav>
+
+                <div class="flexspacer"></div>
+
+    <button id="header-search" class="btn btn--white btn--sm btn--sq btn--gh" aria-label="Zoekopdracht openen" data-role="showsearch"><i class="icon-search u-flip-y" aria-hidden="true"></i></button>
+    <div class="searchbox" data-role="searchbox">
+        <!-- Coveo searchbox -->
+        <div class="autocpl" data-role="autocpl">
+            <input class="searchbox__input" type="search" data-role="input" data-search-hub="axabeweb-ai" data-search-context="{&quot;sc_lang&quot;:&quot;nl-BE&quot;}" data-search-page-url="/nl/zoekresultaten" data-suggestions-url="https://axabelgiumproductionqy9xtxur.org.coveo.com/rest/search/v2/querySuggest?organizationId=axabelgiumproductionqy9xtxur" data-number-of-suggestions="5" data-locale="nl" data-search-input-mandatory="true" placeholder="Ik zoek..." title="Ik zoek...">
+            <div class="autocpl__list" data-role="list"></div>
+        </div>
+        <button class="searchbox__btn btn btn--primary btn--sm btn--sq" aria-label="Zoeken" data-role="searchbtn" disabled="">
+                <span class="icon-search u-flip-y" aria-hidden="true"></span>
+        </button>
+        <!-- Common -->
+        <div class="searchbox__sep"></div>
+        <button class="searchbox__close btn btn--white btn--sq btn--gh btn--sm" aria-label="Zoekopdracht sluiten" title="Zoekopdracht sluiten" name="Zoekopdracht sluiten" data-role="closesearch">
+            <i class="icon-round-close" aria-hidden="true"></i>
+        </button>
+    </div>
+                    <a href="#dialog-user-menu-anonymous-" data-webid="header-login-cta" target="dialog" class="btn btn--primary btn--sm btn--solid header26__user " data-auth-condition="hide-when-authenticated" data-init="true">
+        <i class="icon-user" aria-hidden="true"></i>
+        <span>Meld je aan</span>
+    </a>
+    <a href="#dialog-user-menu-authenticated-" data-webid="header-logout-cta" target="dialog" class="btn btn--primary--o btn--sm btn--solid header26__user " data-auth-condition="show-when-authenticated" data-init="true">
+        <i class="icon-loggedin"></i> <span data-user-firstname=""></span>
+    </a>
+
+
+
+                
+                <button class="header26__burger burger" type="button" data-open-menu-v3="" aria-label="Menu">
+                    <i class="icon-menu" aria-hidden="true"></i>
+                    <i class="icon-round-close" aria-hidden="true"></i>
+                </button>
+
+            </div>
+
+            <div class="header26__ctn">
+
+                <nav>
+                    
+    <!-- Display the links from active main link of current segment only, no segment-specific classes required -->
+            <ul id="inlinemenu-197e6087cd264bc3970262521983bc0b" data-role="submenu" class="header26__links m-thin">
+                    <li class="header26__links__li" data-component="toggle-open" data-autoclose="" aria-haspopup="true">
+        <button class="unbtn header26__link active" data-webid="header-sub-mobility" data-toggler="" aria-expanded="false" tabindex="0">
+            Mobiliteit
+            <i class="icon-angle-down" aria-hidden="true"></i>
+        </button>
+
+        <div class="navpane26">
+        <div class="navlist26">
+            <ul>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/mobiliteit/auto" class="" data-webid="header-products-car"><span>Auto</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/mobiliteit/motor" class="" data-webid="header-products-moto"><span>Motor</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/mobiliteit/fiets" class="" data-webid="header-products-bike"><span>(e)Fiets, e-Step &amp; Co</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/mobiliteit/bestelwagen" class="" data-webid="header-products-van"><span>Bestelwagen</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezin/reisverzekering" class="" data-webid="header-products-travel mobility"><span>Reis</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezin/students-travel" class="" data-webid="header-products-students travel mobility"><span>Students Travel</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezin/bootverzekering" class="" data-webid="header-products-boat mobility"><span>Boot</span></a>
+                    </li>
+            </ul>
+        </div>
+
+    
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">Beschikbare diensten en voordelen</div>
+<ul class="u-margin-top-3">
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/services/bijstand/bijstand-auto" class="" data-webid="header-services-car assistance"><span>Autobijstand</span></a>
+        </li>
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/services/bijstand/bijstand-fiets" class="" data-webid="header-services-bike assistance"><span>Fietsbijstand</span></a>
+        </li>
+        <li class="navlist26__item">
+            <a href="/nl/netwerk/erkende-garages" class="" data-webid="header-services-partner garages"><span>Partnergarages</span></a>
+        </li>
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/services/fixico" class="" data-webid="header-services-fixico"><span>Herstelling voertuig indien niet gedekt (Fixico)</span></a>
+        </li>
+</ul>
+            </div>
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">AXA staat aan je zijde</div>
+<p class="body-2 c-grey-700 u-margin-top-3"></p>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><img alt="" height="240" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/mainnav/all-insurances/img_inform/inform_mobility.svg?savif=1&amp;swebp=1&amp;mh=240&amp;la=nl-BE&amp;h=240&amp;mw=600&amp;w=360&amp;hash=24AD37083717D98759EA3CC09264ED64" style="object-position: 51% 21%" width="360"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/particulieren/services/schadegeval-auto/auto-ongeval" class="" data-webid="header-inform-mobility-img"><span>Wat te doen bij een ongeval of botsing?</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+</div>
+    </li>
+    <li class="header26__links__li" data-component="toggle-open" data-autoclose="" aria-haspopup="true">
+        <button class="unbtn header26__link active" data-webid="header-sub-property" data-toggler="" aria-expanded="false" tabindex="0">
+            Woning
+            <i class="icon-angle-down" aria-hidden="true"></i>
+        </button>
+
+        <div class="navpane26">
+        <div class="navlist26">
+            <ul>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/woning/woonverzekering-brandverzekering" class="" data-webid="header-products-property"><span>Woonverzekering</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/woning/blokpolis" class="" data-webid="header-products-building"><span>Blokpolis</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/woning/schuldsaldoverzekering" class="" data-webid="header-products-credit life"><span>Schuldsaldoverzekering</span></a>
+                    </li>
+            </ul>
+        </div>
+
+    
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">Beschikbare diensten en voordelen</div>
+<ul class="u-margin-top-3">
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/services/bijstand/bijstand-woning" class="" data-webid="header-services-home assistance"><span>Woningbijstand</span></a>
+        </li>
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/services/axa-homecare" class="" data-webid="header-services-axa homecare"><span>Klusjes en herstellingen (AXA Homecare)</span></a>
+        </li>
+</ul>
+            </div>
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">AXA staat aan je zijde</div>
+<p class="body-2 c-grey-700 u-margin-top-3"></p>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><img alt="" height="240" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/mainnav/all-insurances/img_inform/Banner%20card.svg?savif=1&amp;swebp=1&amp;mh=240&amp;la=nl-BE&amp;h=240&amp;mw=600&amp;w=360&amp;hash=7DEDE9CCA60558F5A45F43C1786181BD" style="object-position: 49% 29%" width="360"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/particulieren/services/schadegeval-woning/storm" class="" data-webid="header-inform-property-img"><span>Wat te doen bij een storm?</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+</div>
+    </li>
+    <li class="header26__links__li" data-component="toggle-open" data-autoclose="" aria-haspopup="true">
+        <button class="unbtn header26__link active" data-webid="header-sub-family" data-toggler="" aria-expanded="false" tabindex="0">
+            Gezin
+            <i class="icon-angle-down" aria-hidden="true"></i>
+        </button>
+
+        <div class="navpane26">
+        <div class="navlist26">
+            <ul>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezin/familiale-verzekering" class="" data-webid="header-products-familial"><span>Familiale</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezin/ongevallenverzekering-priveleven" class="" data-webid="header-products-privacy life"><span>Ongevallen privéleven</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezin/reisverzekering" class="" data-webid="header-products-travel family"><span>Reis</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezin/students-travel" class="" data-webid="header-products-students travel family"><span>Students Travel</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezin/dierenverzekering" class="" data-webid="header-products-animals"><span>Dieren</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezin/bootverzekering" class="" data-webid="header-products-boat family"><span>Boot</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezin/evenementenverzekering" class="" data-webid="header-products-events"><span>Evenementen</span></a>
+                    </li>
+            </ul>
+        </div>
+
+    
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">Beschikbare diensten en voordelen</div>
+<ul class="u-margin-top-3">
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/services/bijstand/bijstand-reis" class="" data-webid="header-services-travel assistance"><span>Reisbijstand</span></a>
+        </li>
+</ul>
+            </div>
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">AXA staat aan je zijde</div>
+<p class="body-2 c-grey-700 u-margin-top-3"></p>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><source height="240" media="(max-width: 420px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=420&amp;hash=245CCA0455C22538C095EDA180C4829F, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=630&amp;hash=4C2BD52EC6F1B29FE6E9DFDC5838AE52 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=1260&amp;hash=1C90EE68EF32E5DFE773CD5DF4EF5F3B 3x" width="420"><img alt="Dankzij een gepaste reisverzekering speelt een man ontspannen met zijn kind op het strand. " height="240" loading="lazy" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=600&amp;hash=B6C0A53A15D04CABF0D55BECC1A01D68, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=900&amp;hash=5E06D1D74F556213BB288273C58BA289 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=1800&amp;hash=D22EA4527FB766D6546211BD2C659295 3x" style="object-position: 32% 46%" width="600"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/blog/gezin/reisverzekering-belgie-en-buitenland" class="" data-webid="header-inform-family-img"><span>Reisverzekering in België of in het buitenland</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+</div>
+    </li>
+    <li class="header26__links__li" data-component="toggle-open" data-autoclose="" aria-haspopup="true">
+        <button class="unbtn header26__link active" data-webid="header-sub-health" data-toggler="" aria-expanded="false" tabindex="0">
+            Gezondheid
+            <i class="icon-angle-down" aria-hidden="true"></i>
+        </button>
+
+        <div class="navpane26">
+        <div class="navlist26">
+            <ul>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezondheid/gezondheidsverzekering" class="" data-webid="header-products-health group"><span>Gezondheidsverzekering</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezondheid/arbeidsongevallen" class="" data-webid="header-products-work accident"><span>Arbeidsongevallen</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/gezondheid/arbeidsongeschiktheid" class="" data-webid="header-products-work incapacity"><span>Arbeidsongeschiktheid</span></a>
+                    </li>
+            </ul>
+        </div>
+
+    
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">Beschikbare diensten en voordelen</div>
+<ul class="u-margin-top-3">
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/gezondheid/gezondheidsverzekering/doctors-online" class="" data-webid="header-services-doctors online"><span>Online consultatie bij een dokter (Doctors Online)</span></a>
+        </li>
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/gezondheid/gezondheidsverzekering/tweede-medisch-advies" class="" data-webid="header-services-smo"><span>Tweede medisch advies</span></a>
+        </li>
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/gezondheid/gezondheidsverzekering/doctena" class="" data-webid="header-services-doctena"><span>Doktersafspraak (Doctena)</span></a>
+        </li>
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/gezondheid/gezondheidsverzekering/symptomzoom" class="" data-webid="header-services-symptomzoom"><span>Analyseer je symptomen online (SymptomZoom)</span></a>
+        </li>
+</ul>
+            </div>
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">AXA staat aan je zijde</div>
+<p class="body-2 c-grey-700 u-margin-top-3"></p>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><img alt="" height="240" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/mainnav/all-insurances/img_inform/Pregnancy.svg?savif=1&amp;swebp=1&amp;mh=240&amp;la=nl-BE&amp;h=240&amp;mw=600&amp;w=360&amp;hash=891E5235451B12106032FB9018595E5B" style="object-position: 55% 37%" width="360"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/particulieren/gezondheid/gezondheidsverzekering/zwangerschap" class="" data-webid="header-inform-health-img"><span>Wat te doen bij een zwangerschap?</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+</div>
+    </li>
+    <li class="header26__links__li" data-component="toggle-open" data-autoclose="" aria-haspopup="true">
+        <button class="unbtn header26__link active" data-webid="header-sub-pension" data-toggler="" aria-expanded="false" tabindex="0">
+            Pensioen
+            <i class="icon-angle-down" aria-hidden="true"></i>
+        </button>
+
+        <div class="navpane26">
+        <div class="navlist26">
+            <ul>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/pensioen" class="" data-webid="header-products-pension"><span>Pensioenverzekeringen</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/pensioen/pensioensparen" class="" data-webid="header-products-pension savings"><span>Pensioensparen</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/pensioen/langetermijnsparen" class="" data-webid="header-products-pension savings long term"><span>Langetermijnsparen</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/pensioen/vrij-aanvullend-pensioen-werknemers" class="" data-webid="header-products-pension complementary"><span>Vrij Aanvullend Pensioen voor Werknemers</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/pensioen/groepsverzekering-medewerkers" class="" data-webid="header-products-group insurance"><span>Groepsverzekering</span></a>
+                    </li>
+            </ul>
+        </div>
+
+    
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">Beschikbare diensten en voordelen</div>
+<ul class="u-margin-top-3">
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/pensioen/fundfinder" class="" data-webid="header-services-fundfinder pension"><span>Fondsenoverzicht (Fundfinder)</span></a>
+        </li>
+</ul>
+            </div>
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">AXA staat aan je zijde</div>
+<p class="body-2 c-grey-700 u-margin-top-3"></p>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><source height="240" media="(max-width: 420px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=420&amp;hash=DBFE78D4040862C09114ADCA54F15824, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=630&amp;hash=1AA770055FD69F5ECF203105E4709227 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=1260&amp;hash=4958DA37D11A4C8B978E6A996EA3C1CE 3x" width="420"><img alt="Oudere dame geniet van haar aanvullend pensioen en kijkt naar appartementen vanop haar balkon." height="240" loading="lazy" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=600&amp;hash=BE5DFA344A2992D1F05C0AA10324C81C, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=900&amp;hash=0FFC02BD4881D49FD2DEAC7FA5EEBE7A 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=1800&amp;hash=0B004EC1FADE0C60E0AAD676D796B007 3x" style="object-position: 20% 46%" width="600"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/blog/pensioen/6-manieren-om-aanvullend-pensioen-op-te-bouwen" class="" data-webid="header-inform-pension-img"><span>6 manieren om een aanvullend pensioen op te bouwen</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+</div>
+    </li>
+    <li class="header26__links__li" data-component="toggle-open" data-autoclose="" aria-haspopup="true">
+        <button class="unbtn header26__link active" data-webid="header-sub-invest" data-toggler="" aria-expanded="false" tabindex="0">
+            Beleggingen
+            <i class="icon-angle-down" aria-hidden="true"></i>
+        </button>
+
+        <div class="navpane26">
+        <div class="navlist26">
+            <ul>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/beleggingen/spaar-en-of-beleggingsverzekering" class="" data-webid="header-products-invest 4p"><span>Spaar- en/of beleggingsverzekering</span></a>
+                    </li>
+                    <li class="navlist26__item">
+                        <a href="/nl/particulieren/beleggingen/beleggingsverzekering-tak-23" class="" data-webid="header-products-index 4p"><span>Beleggingsverzekering tak 23</span></a>
+                    </li>
+            </ul>
+        </div>
+
+    
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">Beschikbare diensten en voordelen</div>
+<ul class="u-margin-top-3">
+        <li class="navlist26__item">
+            <a href="/nl/particulieren/pensioen/fundfinder" class="" data-webid="header-services-fundfinder invest"><span>Fondsenoverzicht (Fundfinder)</span></a>
+        </li>
+</ul>
+            </div>
+            <div class="m-related__column">
+
+                <div class="h6 u-publico u-light">AXA staat aan je zijde</div>
+<p class="body-2 c-grey-700 u-margin-top-3"></p>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><source height="240" media="(max-width: 420px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=420&amp;hash=AECDC761A9BE2584A4F37F4CCC7FE01D, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=630&amp;hash=ACDDAA1D7918462FB72B4EC01B8A4958 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=1260&amp;hash=6A61AC26A1256C806FCE8816E873BB61 3x" width="420"><img alt="Een oudere vrouw speelt met haar kleindochter, die dankzij generation skipping kan profiteren van lagere successierechten. " height="240" loading="lazy" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=600&amp;hash=FA282EAC67FD8E919A7EE2FA1F41BD01, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=900&amp;hash=43F54AAE614C9659B669B76AED1755A5 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=1800&amp;hash=072BF0EA32BB924B20867E3D0F3DABD4 3x" style="object-position: 47% 41%" width="600"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/blog/beleggingen/successierechten-vermijden-met-levensverzekering" class="" data-webid="header-inform-invest-img"><span>Hoe successierechten beperken of vermijden?</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+</div>
+    </li>
+
+            </ul>
+            <ul id="inlinemenu-0e2906cd82824711947b41a01aa3a9d0" data-role="submenu" class="header26__links m-thin" style="display:none;">
+                    <li class="header26__links__li">
+        <a href="/nl/particulieren/schadegevallen/aangifte-en-opvolging" class="unbtn header26__link " data-webid="header-sub-declaration">
+            Aangifte en opvolging
+        </a>
+    </li>
+    <li class="header26__links__li">
+        <a href="/nl/particulieren/schadegevallen/belangrijke-maatregelen" class="unbtn header26__link " data-webid="header-sub-best practices">
+            Belangrijke maatregelen
+        </a>
+    </li>
+
+            </ul>
+
+
+                </nav>
+                <div class="flexspacer"></div>
+<a href="/nl/particulieren/verzekeringen/al-onze-verzekeringen" class="link link--primary link--sm" data-webid="header-overview-retail"><span>Al onze verzekeringen</span><i aria-hidden="true" class="icon-arrow-right"></i></a>            </div>
+        </section>
+    </div>
+<section class="nmm nav-menu-mob26" data-component="mobmenu3">
+    <div class="nmm__head" data-component="searchbox">
+        
+<div class="segz" data-component="toggle-open" data-autoclose="" data-selector="" aria-haspopup="true">
+    <button class="btn btn--white btn--sm" data-toggler="" aria-expanded="false" tabindex="0">
+        <span>Particulieren</span>
+        <i class="icon-angle-down" aria-hidden="true"></i>
+    </button>
+    <div class="segz__modal">
+                <a href="/nl/ondernemers-kmo" class="seg" data-webid="header-segment-ivse">Ondernemers &amp; kmo's</a>
+                <a href="/nl/grote-ondernemingen" class="seg" data-webid="header-segment-le">Grote ondernemingen</a>
+                <a href="/nl/publieke-sector" class="seg" data-webid="header-segment-public sector">Publieke sector</a>
+    </div>
+</div>        <button class="unbtn link link--primary" data-webid="header-mobile-back" data-menu-back="" style="display: none;">
+            <i class="icon-arrow-left" aria-hidden="true"></i>
+            <span>Hoofdmenu</span>
+        </button>
+        <div class="flexspacer"></div>
+
+    <button id="header-search" class="btn btn--white btn--sm btn--sq btn--gh" aria-label="Zoekopdracht openen" data-role="showsearch"><i class="icon-search u-flip-y" aria-hidden="true"></i></button>
+    <div class="searchbox" data-role="searchbox">
+        <!-- Coveo searchbox -->
+        <div class="autocpl" data-role="autocpl">
+            <input class="searchbox__input" type="search" data-role="input" data-search-hub="axabeweb-ai" data-search-context="{&quot;sc_lang&quot;:&quot;nl-BE&quot;}" data-search-page-url="/nl/zoekresultaten" data-suggestions-url="https://axabelgiumproductionqy9xtxur.org.coveo.com/rest/search/v2/querySuggest?organizationId=axabelgiumproductionqy9xtxur" data-number-of-suggestions="5" data-locale="nl" data-search-input-mandatory="true" placeholder="Ik zoek..." title="Ik zoek...">
+            <div class="autocpl__list" data-role="list"></div>
+        </div>
+        <button class="searchbox__btn btn btn--primary btn--sm btn--sq" aria-label="Zoeken" data-role="searchbtn" disabled="">
+                <span class="icon-search u-flip-y" aria-hidden="true"></span>
+        </button>
+        <!-- Common -->
+        <div class="searchbox__sep"></div>
+        <button class="searchbox__close btn btn--white btn--sq btn--gh btn--sm" aria-label="Zoekopdracht sluiten" title="Zoekopdracht sluiten" name="Zoekopdracht sluiten" data-role="closesearch">
+            <i class="icon-round-close" aria-hidden="true"></i>
+        </button>
+    </div>
+
+        <button class="header26__btn unbtn u-margin-left-4" aria-label="Sluiten" data-webid="header-mobile-close" data-close-menu="">
+            <i class="icon-round-close" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <div class="nmm__body">
+
+            <!-- Main menu -->
+    <nav class="mobmenu26 container">
+    <div class="h6 u-publico u-margin-top-4">Verzekeringen</div>
+    <ul class="nmm__menu unlist">
+    <li>
+        <button class="mobmenu26__itm unbtn" data-role="opener" data-menu="slided-884f22feb7c940ebba98bb156fa41adc" data-webid="header-sub-mobility">
+            <span class="mobmenu26__itm__ttl">Mobiliteit</span>
+            <i class="icon-angle-right" aria-hidden="true"></i>
+        </button>
+    </li>
+    <li>
+        <button class="mobmenu26__itm unbtn" data-role="opener" data-menu="slided-a60a86cf003d476b99b80e1216c00579" data-webid="header-sub-property">
+            <span class="mobmenu26__itm__ttl">Woning</span>
+            <i class="icon-angle-right" aria-hidden="true"></i>
+        </button>
+    </li>
+    <li>
+        <button class="mobmenu26__itm unbtn" data-role="opener" data-menu="slided-333231274e7d4a198bb5ce39c342efe3" data-webid="header-sub-family">
+            <span class="mobmenu26__itm__ttl">Gezin</span>
+            <i class="icon-angle-right" aria-hidden="true"></i>
+        </button>
+    </li>
+    <li>
+        <button class="mobmenu26__itm unbtn" data-role="opener" data-menu="slided-a3ff1534b34e4dcf9adcbeee39ce523a" data-webid="header-sub-health">
+            <span class="mobmenu26__itm__ttl">Gezondheid</span>
+            <i class="icon-angle-right" aria-hidden="true"></i>
+        </button>
+    </li>
+    <li>
+        <button class="mobmenu26__itm unbtn" data-role="opener" data-menu="slided-f8592024df6242e1be06e1766278cddd" data-webid="header-sub-pension">
+            <span class="mobmenu26__itm__ttl">Pensioen</span>
+            <i class="icon-angle-right" aria-hidden="true"></i>
+        </button>
+    </li>
+    <li>
+        <button class="mobmenu26__itm unbtn" data-role="opener" data-menu="slided-e553bc5cf999431585362ecef1d830c4" data-webid="header-sub-invest">
+            <span class="mobmenu26__itm__ttl">Beleggingen</span>
+            <i class="icon-angle-right" aria-hidden="true"></i>
+        </button>
+    </li>
+    </ul>
+        <ul class="nmm__menu unlist">
+            <li>
+                <a class="mobmenu26__itm" target="" href="/nl/particulieren/verzekeringen/al-onze-verzekeringen" data-webid="header-overview-retail">
+                    <span class="mobmenu26__itm__ttl">Al onze verzekeringen</span>
+                </a>
+            </li>
+        </ul>
+    <div class="h6 u-publico u-margin-top-4">Schadegevallen</div>
+    <ul class="nmm__menu unlist">
+    <li>
+        <a class="mobmenu26__itm" target="" href="/nl/particulieren/schadegevallen/aangifte-en-opvolging" data-webid="header-sub-declaration">
+            <span class="mobmenu26__itm__ttl">Aangifte en opvolging</span>
+        </a>
+    </li>
+    <li>
+        <a class="mobmenu26__itm" target="" href="/nl/particulieren/schadegevallen/belangrijke-maatregelen" data-webid="header-sub-best practices">
+            <span class="mobmenu26__itm__ttl">Belangrijke maatregelen</span>
+        </a>
+    </li>
+    </ul>
+
+        
+            <a href="#dialog-user-menu-anonymous-" target="dialog" class="btn btn--primary btn--sm u-margin-top-8 " data-webid="header-login-cta" data-auth-condition="hide-when-authenticated" data-init="true">
+        <i class="icon-user" aria-hidden="true"></i>
+        <span>Meld je aan</span>
+    </a>
+    <a href="#dialog-user-menu-authenticated-" target="dialog" class="btn btn--primary btn--sm u-margin-top-8 " data-webid="header-logout-cta" data-auth-condition="show-when-authenticated" data-init="true">
+        <i class="icon-loggedin"></i> <span data-user-firstname=""></span>
+    </a>
+
+
+
+
+        
+        
+    <ul class="nmm__menu unlist">
+
+            <li>
+                <a class="mobmenu26__itm txtc sr-only sr-only-focusable" href="/nl/site-overzicht" target="" data-webid="header-utility-sitemap">
+                    <span class="mobmenu26__itm__ttl">Site-overzicht</span>
+                </a>
+            </li>
+            <li>
+                <a class="mobmenu26__itm txtc" href="/nl/particulieren/contact" target="" data-webid="header-utility-help and contact">
+                    <span class="mobmenu26__itm__ttl">Hulp en contact</span>
+                </a>
+            </li>
+    </ul>
+<div class="nmm__btm">
+<a href="/nl/particulieren/services/bijstand/bijstand-auto" class="urgent  topbar26__link" data-webid="header-utility-urgent assistance"><i aria-hidden="true" class="icon-buoy"></i><span>Dringende bijstand</span></a>    <a id="mobileLanguage" class="topbar26__link" href="/fr/particuliers" title="Français" data-webid="header-lang-FR">Français</a>
+</div>
+    </nav>
+
+
+
+
+        <div class="mobmenu26 container m-out" data-role="menu" data-menu="slided-884f22feb7c940ebba98bb156fa41adc">
+            <div class="h1 u-margin-top-3">Mobiliteit</div>
+                <ul class="nmm__menu unlist">
+                <li>
+                    <a href="/nl/particulieren/mobiliteit/auto" class="mobmenu26__itm unbtn" target="" data-webid="header-products-car">
+                        <span class="mobmenu26__itm__ttl">Auto</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/mobiliteit/motor" class="mobmenu26__itm unbtn" target="" data-webid="header-products-moto">
+                        <span class="mobmenu26__itm__ttl">Motor</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/mobiliteit/fiets" class="mobmenu26__itm unbtn" target="" data-webid="header-products-bike">
+                        <span class="mobmenu26__itm__ttl">(e)Fiets, e-Step &amp; Co</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/mobiliteit/bestelwagen" class="mobmenu26__itm unbtn" target="" data-webid="header-products-van">
+                        <span class="mobmenu26__itm__ttl">Bestelwagen</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/gezin/reisverzekering" class="mobmenu26__itm unbtn" target="" data-webid="header-products-travel mobility">
+                        <span class="mobmenu26__itm__ttl">Reis</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/gezin/students-travel" class="mobmenu26__itm unbtn" target="" data-webid="header-products-students travel mobility">
+                        <span class="mobmenu26__itm__ttl">Students Travel</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/gezin/bootverzekering" class="mobmenu26__itm unbtn" target="" data-webid="header-products-boat mobility">
+                        <span class="mobmenu26__itm__ttl">Boot</span>
+                    </a>
+                </li>
+    </ul>
+
+
+
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">Beschikbare diensten en voordelen</div>
+    <ul class="nmm__menu unlist">
+            <li>
+                <a href="/nl/particulieren/services/bijstand/bijstand-auto" class="mobmenu26__itm unbtn" target="" data-webid="header-services-car assistance">
+                    <span class="mobmenu26__itm__ttl">Autobijstand</span>
+                </a>
+            </li>
+            <li>
+                <a href="/nl/particulieren/services/bijstand/bijstand-fiets" class="mobmenu26__itm unbtn" target="" data-webid="header-services-bike assistance">
+                    <span class="mobmenu26__itm__ttl">Fietsbijstand</span>
+                </a>
+            </li>
+            <li>
+                <a href="/nl/netwerk/erkende-garages" class="mobmenu26__itm unbtn" target="" data-webid="header-services-partner garages">
+                    <span class="mobmenu26__itm__ttl">Partnergarages</span>
+                </a>
+            </li>
+            <li>
+                <a href="/nl/particulieren/services/fixico" class="mobmenu26__itm unbtn" target="" data-webid="header-services-fixico">
+                    <span class="mobmenu26__itm__ttl">Herstelling voertuig indien niet gedekt (Fixico)</span>
+                </a>
+            </li>
+    </ul>
+
+            </div>
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">AXA staat aan je zijde</div>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><img alt="" height="240" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/mainnav/all-insurances/img_inform/inform_mobility.svg?savif=1&amp;swebp=1&amp;mh=240&amp;la=nl-BE&amp;h=240&amp;mw=600&amp;w=360&amp;hash=24AD37083717D98759EA3CC09264ED64" style="object-position: 51% 21%" width="360"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/particulieren/services/schadegeval-auto/auto-ongeval" class="" data-webid="header-inform-mobility-img"><span>Wat te doen bij een ongeval of botsing?</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+        </div>
+        <div class="mobmenu26 container m-out" data-role="menu" data-menu="slided-a60a86cf003d476b99b80e1216c00579">
+            <div class="h1 u-margin-top-3">Woning</div>
+                <ul class="nmm__menu unlist">
+                <li>
+                    <a href="/nl/particulieren/woning/woonverzekering-brandverzekering" class="mobmenu26__itm unbtn" target="" data-webid="header-products-property">
+                        <span class="mobmenu26__itm__ttl">Woonverzekering</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/woning/blokpolis" class="mobmenu26__itm unbtn" target="" data-webid="header-products-building">
+                        <span class="mobmenu26__itm__ttl">Blokpolis</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/woning/schuldsaldoverzekering" class="mobmenu26__itm unbtn" target="" data-webid="header-products-credit life">
+                        <span class="mobmenu26__itm__ttl">Schuldsaldoverzekering</span>
+                    </a>
+                </li>
+    </ul>
+
+
+
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">Beschikbare diensten en voordelen</div>
+    <ul class="nmm__menu unlist">
+            <li>
+                <a href="/nl/particulieren/services/bijstand/bijstand-woning" class="mobmenu26__itm unbtn" target="" data-webid="header-services-home assistance">
+                    <span class="mobmenu26__itm__ttl">Woningbijstand</span>
+                </a>
+            </li>
+            <li>
+                <a href="/nl/particulieren/services/axa-homecare" class="mobmenu26__itm unbtn" target="" data-webid="header-services-axa homecare">
+                    <span class="mobmenu26__itm__ttl">Klusjes en herstellingen (AXA Homecare)</span>
+                </a>
+            </li>
+    </ul>
+
+            </div>
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">AXA staat aan je zijde</div>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><img alt="" height="240" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/mainnav/all-insurances/img_inform/Banner%20card.svg?savif=1&amp;swebp=1&amp;mh=240&amp;la=nl-BE&amp;h=240&amp;mw=600&amp;w=360&amp;hash=7DEDE9CCA60558F5A45F43C1786181BD" style="object-position: 49% 29%" width="360"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/particulieren/services/schadegeval-woning/storm" class="" data-webid="header-inform-property-img"><span>Wat te doen bij een storm?</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+        </div>
+        <div class="mobmenu26 container m-out" data-role="menu" data-menu="slided-333231274e7d4a198bb5ce39c342efe3">
+            <div class="h1 u-margin-top-3">Gezin</div>
+                <ul class="nmm__menu unlist">
+                <li>
+                    <a href="/nl/particulieren/gezin/familiale-verzekering" class="mobmenu26__itm unbtn" target="" data-webid="header-products-familial">
+                        <span class="mobmenu26__itm__ttl">Familiale</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/gezin/ongevallenverzekering-priveleven" class="mobmenu26__itm unbtn" target="" data-webid="header-products-privacy life">
+                        <span class="mobmenu26__itm__ttl">Ongevallen privéleven</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/gezin/reisverzekering" class="mobmenu26__itm unbtn" target="" data-webid="header-products-travel family">
+                        <span class="mobmenu26__itm__ttl">Reis</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/gezin/students-travel" class="mobmenu26__itm unbtn" target="" data-webid="header-products-students travel family">
+                        <span class="mobmenu26__itm__ttl">Students Travel</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/gezin/dierenverzekering" class="mobmenu26__itm unbtn" target="" data-webid="header-products-animals">
+                        <span class="mobmenu26__itm__ttl">Dieren</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/gezin/bootverzekering" class="mobmenu26__itm unbtn" target="" data-webid="header-products-boat family">
+                        <span class="mobmenu26__itm__ttl">Boot</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/gezin/evenementenverzekering" class="mobmenu26__itm unbtn" target="" data-webid="header-products-events">
+                        <span class="mobmenu26__itm__ttl">Evenementen</span>
+                    </a>
+                </li>
+    </ul>
+
+
+
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">Beschikbare diensten en voordelen</div>
+    <ul class="nmm__menu unlist">
+            <li>
+                <a href="/nl/particulieren/services/bijstand/bijstand-reis" class="mobmenu26__itm unbtn" target="" data-webid="header-services-travel assistance">
+                    <span class="mobmenu26__itm__ttl">Reisbijstand</span>
+                </a>
+            </li>
+    </ul>
+
+            </div>
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">AXA staat aan je zijde</div>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><source height="240" media="(max-width: 420px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=420&amp;hash=245CCA0455C22538C095EDA180C4829F, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=630&amp;hash=4C2BD52EC6F1B29FE6E9DFDC5838AE52 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=1260&amp;hash=1C90EE68EF32E5DFE773CD5DF4EF5F3B 3x" width="420"><img alt="Dankzij een gepaste reisverzekering speelt een man ontspannen met zijn kind op het strand. " height="240" loading="lazy" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=600&amp;hash=B6C0A53A15D04CABF0D55BECC1A01D68, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=900&amp;hash=5E06D1D74F556213BB288273C58BA289 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/testimonial%20travel.jpg?rev=2b0080a879264f1a8b7dce8c12d7935c&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.32&amp;la=nl-BE&amp;cy=0.46&amp;cw=1800&amp;hash=D22EA4527FB766D6546211BD2C659295 3x" style="object-position: 32% 46%" width="600"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/blog/gezin/reisverzekering-belgie-en-buitenland" class="" data-webid="header-inform-family-img"><span>Reisverzekering in België of in het buitenland</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+        </div>
+        <div class="mobmenu26 container m-out" data-role="menu" data-menu="slided-a3ff1534b34e4dcf9adcbeee39ce523a">
+            <div class="h1 u-margin-top-3">Gezondheid</div>
+                <ul class="nmm__menu unlist">
+                <li>
+                    <a href="/nl/particulieren/gezondheid/gezondheidsverzekering" class="mobmenu26__itm unbtn" target="" data-webid="header-products-health group">
+                        <span class="mobmenu26__itm__ttl">Gezondheidsverzekering</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/gezondheid/arbeidsongevallen" class="mobmenu26__itm unbtn" target="" data-webid="header-products-work accident">
+                        <span class="mobmenu26__itm__ttl">Arbeidsongevallen</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/gezondheid/arbeidsongeschiktheid" class="mobmenu26__itm unbtn" target="" data-webid="header-products-work incapacity">
+                        <span class="mobmenu26__itm__ttl">Arbeidsongeschiktheid</span>
+                    </a>
+                </li>
+    </ul>
+
+
+
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">Beschikbare diensten en voordelen</div>
+    <ul class="nmm__menu unlist">
+            <li>
+                <a href="/nl/particulieren/gezondheid/gezondheidsverzekering/doctors-online" class="mobmenu26__itm unbtn" target="" data-webid="header-services-doctors online">
+                    <span class="mobmenu26__itm__ttl">Online consultatie bij een dokter (Doctors Online)</span>
+                </a>
+            </li>
+            <li>
+                <a href="/nl/particulieren/gezondheid/gezondheidsverzekering/tweede-medisch-advies" class="mobmenu26__itm unbtn" target="" data-webid="header-services-smo">
+                    <span class="mobmenu26__itm__ttl">Tweede medisch advies</span>
+                </a>
+            </li>
+            <li>
+                <a href="/nl/particulieren/gezondheid/gezondheidsverzekering/doctena" class="mobmenu26__itm unbtn" target="" data-webid="header-services-doctena">
+                    <span class="mobmenu26__itm__ttl">Doktersafspraak (Doctena)</span>
+                </a>
+            </li>
+            <li>
+                <a href="/nl/particulieren/gezondheid/gezondheidsverzekering/symptomzoom" class="mobmenu26__itm unbtn" target="" data-webid="header-services-symptomzoom">
+                    <span class="mobmenu26__itm__ttl">Analyseer je symptomen online (SymptomZoom)</span>
+                </a>
+            </li>
+    </ul>
+
+            </div>
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">AXA staat aan je zijde</div>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><img alt="" height="240" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/mainnav/all-insurances/img_inform/Pregnancy.svg?savif=1&amp;swebp=1&amp;mh=240&amp;la=nl-BE&amp;h=240&amp;mw=600&amp;w=360&amp;hash=891E5235451B12106032FB9018595E5B" style="object-position: 55% 37%" width="360"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/particulieren/gezondheid/gezondheidsverzekering/zwangerschap" class="" data-webid="header-inform-health-img"><span>Wat te doen bij een zwangerschap?</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+        </div>
+        <div class="mobmenu26 container m-out" data-role="menu" data-menu="slided-f8592024df6242e1be06e1766278cddd">
+            <div class="h1 u-margin-top-3">Pensioen</div>
+                <ul class="nmm__menu unlist">
+                <li>
+                    <a href="/nl/particulieren/pensioen" class="mobmenu26__itm unbtn" target="" data-webid="header-products-pension">
+                        <span class="mobmenu26__itm__ttl">Pensioenverzekeringen</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/pensioen/pensioensparen" class="mobmenu26__itm unbtn" target="" data-webid="header-products-pension savings">
+                        <span class="mobmenu26__itm__ttl">Pensioensparen</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/pensioen/langetermijnsparen" class="mobmenu26__itm unbtn" target="" data-webid="header-products-pension savings long term">
+                        <span class="mobmenu26__itm__ttl">Langetermijnsparen</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/pensioen/vrij-aanvullend-pensioen-werknemers" class="mobmenu26__itm unbtn" target="" data-webid="header-products-pension complementary">
+                        <span class="mobmenu26__itm__ttl">Vrij Aanvullend Pensioen voor Werknemers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/pensioen/groepsverzekering-medewerkers" class="mobmenu26__itm unbtn" target="" data-webid="header-products-group insurance">
+                        <span class="mobmenu26__itm__ttl">Groepsverzekering</span>
+                    </a>
+                </li>
+    </ul>
+
+
+
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">Beschikbare diensten en voordelen</div>
+    <ul class="nmm__menu unlist">
+            <li>
+                <a href="/nl/particulieren/pensioen/fundfinder" class="mobmenu26__itm unbtn" target="" data-webid="header-services-fundfinder pension">
+                    <span class="mobmenu26__itm__ttl">Fondsenoverzicht (Fundfinder)</span>
+                </a>
+            </li>
+    </ul>
+
+            </div>
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">AXA staat aan je zijde</div>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><source height="240" media="(max-width: 420px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=420&amp;hash=DBFE78D4040862C09114ADCA54F15824, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=630&amp;hash=1AA770055FD69F5ECF203105E4709227 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=1260&amp;hash=4958DA37D11A4C8B978E6A996EA3C1CE 3x" width="420"><img alt="Oudere dame geniet van haar aanvullend pensioen en kijkt naar appartementen vanop haar balkon." height="240" loading="lazy" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=600&amp;hash=BE5DFA344A2992D1F05C0AA10324C81C, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=900&amp;hash=0FFC02BD4881D49FD2DEAC7FA5EEBE7A 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/une%20dame%20agee%20regarde%20les%20appartements%20depuis%20le%20balcon.jpg?rev=5d4ea344bf0a42068ca872ce41b2ce63&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.2&amp;la=nl-BE&amp;cy=0.46&amp;cw=1800&amp;hash=0B004EC1FADE0C60E0AAD676D796B007 3x" style="object-position: 20% 46%" width="600"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/blog/pensioen/6-manieren-om-aanvullend-pensioen-op-te-bouwen" class="" data-webid="header-inform-pension-img"><span>6 manieren om een aanvullend pensioen op te bouwen</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+        </div>
+        <div class="mobmenu26 container m-out" data-role="menu" data-menu="slided-e553bc5cf999431585362ecef1d830c4">
+            <div class="h1 u-margin-top-3">Beleggingen</div>
+                <ul class="nmm__menu unlist">
+                <li>
+                    <a href="/nl/particulieren/beleggingen/spaar-en-of-beleggingsverzekering" class="mobmenu26__itm unbtn" target="" data-webid="header-products-invest 4p">
+                        <span class="mobmenu26__itm__ttl">Spaar- en/of beleggingsverzekering</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/nl/particulieren/beleggingen/beleggingsverzekering-tak-23" class="mobmenu26__itm unbtn" target="" data-webid="header-products-index 4p">
+                        <span class="mobmenu26__itm__ttl">Beleggingsverzekering tak 23</span>
+                    </a>
+                </li>
+    </ul>
+
+
+
+    <div class="navlist26 m-related tint radius-s flex-grow m-row">
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">Beschikbare diensten en voordelen</div>
+    <ul class="nmm__menu unlist">
+            <li>
+                <a href="/nl/particulieren/pensioen/fundfinder" class="mobmenu26__itm unbtn" target="" data-webid="header-services-fundfinder invest">
+                    <span class="mobmenu26__itm__ttl">Fondsenoverzicht (Fundfinder)</span>
+                </a>
+            </li>
+    </ul>
+
+            </div>
+            <div class="m-related__column">
+
+                                <div class="h6 u-publico u-light u-margin-top-8">AXA staat aan je zijde</div>
+
+<div class="card m-condensed one-link u-margin-top-3">
+    <div class="card__head">
+        <picture class="pic--fill pic--bg pic"><source height="240" media="(max-width: 420px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=420&amp;hash=AECDC761A9BE2584A4F37F4CCC7FE01D, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=630&amp;hash=ACDDAA1D7918462FB72B4EC01B8A4958 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=1260&amp;hash=6A61AC26A1256C806FCE8816E873BB61 3x" width="420"><img alt="Een oudere vrouw speelt met haar kleindochter, die dankzij generation skipping kan profiteren van lagere successierechten. " height="240" loading="lazy" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=240&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=600&amp;hash=FA282EAC67FD8E919A7EE2FA1F41BD01, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=360&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=900&amp;hash=43F54AAE614C9659B669B76AED1755A5 1.5x, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/blog/GettyImages%20693991959.jpg?rev=f563277ff3334f658865e25872985947&amp;savif=1&amp;swebp=1&amp;ch=720&amp;cx=0.47&amp;la=nl-BE&amp;cy=0.41&amp;cw=1800&amp;hash=072BF0EA32BB924B20867E3D0F3DABD4 3x" style="object-position: 47% 41%" width="600"></picture>
+        <div class="card__ttl bg-blur bg-dark radius-xs flex flex-center gap-4">
+            <div class="h4 u-publico flex-grow"><a href="/nl/blog/beleggingen/successierechten-vermijden-met-levensverzekering" class="" data-webid="header-inform-invest-img"><span>Hoe successierechten beperken of vermijden?</span></a></div>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+
+
+        </div>
+
+    </div>
+
+</section>        <style>
+            .bg-url-anonymous {
+                background-image: url(https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/photos/main-nav/temp%20bg%20login%20modal.jpg?savif=1&amp;swebp=1&amp;cx=0.5&amp;cy=0.5&amp;cw=1&amp;ch=1&amp;hash=0F44F201B4916A4C92F025F847D42950);
+            }
+        </style>
+    <dialog class="dialog bg-cover bg-primary-100 bg-url-anonymous" id="dialog-user-menu-anonymous-" inert="" data-auth-condition="hide-when-authenticated">
+        <div class="dialog__head">
+            <div class="dialog__handle u-hide-desktop"><span></span></div>
+            <button class="dialog__close btn btn--primary--o btn--sm btn--sq" title="Sluiten" autofocus="">
+                <i class="icon-round-close"></i>
+            </button>
+        </div>
+        <div class="dialog__content dum">
+            <div>
+                <div class="h6">Meld je aan</div>
+    <a href="/nl/axa-digital-services?dsfns=customers.be.axa.customer-support.reg.new.retail&amp;origin=axabe" class="epo u-margin-top-4" data-webid="user dialog-client app-client zone">
+        <img alt="" class="epo__img" height="64" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/mainnav/login-modal/MyAXA%20icon.svg?savif=1&amp;swebp=1&amp;mh=64&amp;la=nl-BE&amp;h=64&amp;mw=64&amp;w=64&amp;hash=FE066238E3F38C6B79B2147C7819EA2A" width="64">
+        <div class="epo__body">
+            <p class="epo__ttl">MyAXA klantenzone</p>
+            <p class="epo__txt"></p><p>Alles over je verzekeringen als particulier</p><p></p>
+        </div>
+        <i class="epo__ico icon-angle-right"></i>
+    </a>
+    <a href="/nl/axa-digital-services?dsfns=customers.be.axa-assistance.health.claim.new.*&amp;origin=axabe" class="epo u-margin-top-4" data-webid="user dialog-client app-MyAXA Healthcare">
+        <img alt="" class="epo__img" height="64" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/mainnav/login-modal/healthcare.svg?rev=515c7fdbbd7e4a1db1339d5bc9709017&amp;savif=1&amp;swebp=1&amp;mh=64&amp;la=nl-BE&amp;h=64&amp;mw=64&amp;w=64&amp;hash=92AA1A76490ECB71C20C79807F37370C" width="64">
+        <div class="epo__body">
+            <p class="epo__ttl"><span lang="en">MyAXA Healthcare</span></p>
+            <p class="epo__txt"></p><p>Beheer je gezondheids­verzekering eenvoudig en snel</p><p></p>
+        </div>
+        <i class="epo__ico icon-angle-right"></i>
+    </a>
+
+            </div>
+            <div>
+                <div class="subtitle-2"><p>Wat kan je allemaal doen in je MyAXA klantenzone?</p></div>
+                <a href="/nl/particulieren/services" class="btn btn--white btn--sm u-margin-top-3" data-webid="user dialog-discover-cta"><span>Ontdek het nu</span><i aria-hidden="true" class="icon-arrow-right"></i></a>
+            </div>
+        </div>
+    </dialog>
+        <style>
+            .bg-url-auth {
+                background-image: url(https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/photos/main-nav/temp%20bg%20login%20modal.jpg?savif=1&amp;swebp=1&amp;cx=0.5&amp;cy=0.5&amp;cw=1&amp;ch=1&amp;hash=0F44F201B4916A4C92F025F847D42950);
+            }
+        </style>
+    <dialog class="dialog bg-cover bg-primary-100 bg-url-auth" id="dialog-user-menu-authenticated-" inert="" data-auth-condition="show-when-authenticated">
+        <div class="dialog__head">
+            <div class="dialog__handle u-hide-desktop"><span></span></div>
+            <button class="dialog__close btn btn--primary--o btn--sm btn--sq" data-webid="user dialog-close" title="Sluiten" autofocus="">
+                <i class="icon-round-close"></i>
+            </button>
+        </div>
+        <div class="dialog__content dum">
+            <div>
+                <div class="h6">Klantenzone</div>
+    <a href="/nl/axa-digital-services?dsfns=customers.be.axa.customer-support.reg.new.retail&amp;origin=axabe" class="epo u-margin-top-4" data-webid="user dialog-client app-client zone">
+        <img alt="AXA Homepage" class="epo__img" height="64" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/logo/axa_logo_solid_rgb.png?rev=5a5232451290438c80b7fd0ea57e5fd9&amp;savif=1&amp;swebp=1&amp;mh=64&amp;la=nl-BE&amp;h=64&amp;mw=64&amp;w=64&amp;hash=CD562B371E4FDB8523F591B71225A7B6" width="64">
+        <div class="epo__body">
+            <p class="epo__ttl">MyAXA klantenzone</p>
+            <p class="epo__txt"></p><p>Alles over je verzekeringen als particulier</p><p></p>
+        </div>
+        <i class="epo__ico icon-angle-right"></i>
+    </a>
+    <a href="/nl/axa-digital-services?dsfns=customers.be.axa-assistance.health.claim.new.*&amp;origin=axabe" class="epo u-margin-top-4" data-webid="user dialog-client app-MyAXA Healthcare">
+        <img alt="" class="epo__img" height="64" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/mainnav/login-modal/healthcare.svg?rev=515c7fdbbd7e4a1db1339d5bc9709017&amp;savif=1&amp;swebp=1&amp;mh=64&amp;la=nl-BE&amp;h=64&amp;mw=64&amp;w=64&amp;hash=92AA1A76490ECB71C20C79807F37370C" width="64">
+        <div class="epo__body">
+            <p class="epo__ttl"><span lang="en">MyAXA Healthcare</span></p>
+            <p class="epo__txt"></p><p>Beheer je gezondheids­verzekering eenvoudig en snel</p><p></p>
+        </div>
+        <i class="epo__ico icon-angle-right"></i>
+    </a>
+
+            </div>
+            <div>
+                <div class="h6">Je profiel</div>
+                    <a href="https://my.axa.be/nl/site/profiel" title="" data-webid="user dialog-profile-cta">
+                        <div class="bg-white c-grey-700 label-3 radius-s u-padding-6 u-margin-top-4"><span data-user-firstname=""></span> <span data-user-lastname=""></span></div>
+                    </a>
+                <a href="#" onclick="triggerLogout(); return false;" class="link link--primary u-margin-top-4" data-webid="user dialog-logout-link"><span>Afmelden</span></a>
+            </div>
+        </div>
+    </dialog>
+
+
+
+</header>            </div>
+        </header>
+        <!--END NOINDEX-->
+
+
+    <main id="main-content">
+                    <div class="over-hero">
+                
+            </div>
+
+<section class="hero hero--title align-right   bg-dark  ">
+<picture class="pic--bg hero__bg2 u-hide-mobile pic"><source height="400" media="(max-width: 420px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=400&amp;cx=0.46&amp;la=nl-BE&amp;cy=0.36&amp;cw=420&amp;hash=DECD08636517BE25704DF326AE7AC24F, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=600&amp;cx=0.46&amp;la=nl-BE&amp;cy=0.36&amp;cw=630&amp;hash=66FCACDB9D09A411476847939B734913 1.5x" width="420"><source height="400" media="(max-width: 768px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=400&amp;cx=0.46&amp;la=nl-BE&amp;cy=0.36&amp;cw=768&amp;hash=B0F8FF64940153DC65D37B7586F50A0A, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=600&amp;cx=0.46&amp;la=nl-BE&amp;cy=0.36&amp;cw=1152&amp;hash=4D562E51EDD3DFEEDAC132336C02C47E 1.5x" width="768"><source height="400" media="(max-width: 1280px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=400&amp;cx=0.46&amp;la=nl-BE&amp;cy=0.36&amp;cw=1280&amp;hash=1C8D19D5B57FAB2EE1183866010A3311, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=600&amp;cx=0.46&amp;la=nl-BE&amp;cy=0.36&amp;cw=1920&amp;hash=2C877EF30DA064C8B2779679C9718283 1.5x" width="1280"><source height="400" media="(max-width: 1440px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=400&amp;cx=0.46&amp;la=nl-BE&amp;cy=0.36&amp;cw=1440&amp;hash=E8E505E7DAFFC618E99997669A0DB6F3" width="1440"><source height="400" media="(max-width: 1536px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=400&amp;cx=0.46&amp;la=nl-BE&amp;cy=0.36&amp;cw=1536&amp;hash=23DBA112B689E5DBED4A82C6AE322B50" width="1536"><img alt="" height="400" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=400&amp;cx=0.46&amp;la=nl-BE&amp;cy=0.36&amp;cw=1920&amp;hash=0A05E6786261365638D1A84C0D5D86D5" style="object-position: 46% 36%" width="1920"></picture><picture class="pic--bg hero__bg2 u-hide-desktop pic"><source height="400" media="(max-width: 420px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=400&amp;cx=0.39&amp;la=nl-BE&amp;cy=0.37&amp;cw=420&amp;hash=DFAE850EE74FFCB45B1E92BE23FF0838, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=600&amp;cx=0.39&amp;la=nl-BE&amp;cy=0.37&amp;cw=630&amp;hash=853A54809A899F6E7F1ECF65F6DCA17C 1.5x" width="420"><source height="400" media="(max-width: 768px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=400&amp;cx=0.39&amp;la=nl-BE&amp;cy=0.37&amp;cw=768&amp;hash=B9D531D502387E23735DFD307C9665CD, https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=600&amp;cx=0.39&amp;la=nl-BE&amp;cy=0.37&amp;cw=1152&amp;hash=E464695412D2993BA7887631829C7EA6 1.5x" width="768"><img alt="" height="400" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-images/retail-hp/hp_campaign_home_march_2026.jpg?savif=1&amp;swebp=1&amp;ch=400&amp;cx=0.39&amp;la=nl-BE&amp;cy=0.37&amp;cw=1920&amp;hash=89DE37D59BA21A7AB3F43800D94E6FDD" style="object-position: 39% 37%" width="1920"></picture>    
+    <style>
+ .u-unique-04f5bbf74627479ca6138813d2de7a0e { width: 33%;}
+ @media screen and (max-width: 768px) {.u-unique-04f5bbf74627479ca6138813d2de7a0e { width: 40%;}}
+</style>
+
+    <div class="container">
+        <div class="hero__flexcontent u-unique-04f5bbf74627479ca6138813d2de7a0e">
+            <div class="hero__title">
+<h1 class="h3">Verzekerd online <br>en je makelaar altijd aan&nbsp;je&nbsp;zijde</h1>            </div>
+            
+        </div>
+    </div>
+</section>
+        
+<section class="section    " data-webid="retail_homepage_cards">
+    
+
+
+
+        <div data-webid="section-body" class="section__body  ">
+            <section class="swiper-teaser swiper container_section1_cards" data-webid="retail_homepage_insurance_swiper" data-component="swiper-v3">
+    <div class="swiper-teaser__ctn">
+        <ul class="swiper__grid m-start custom-scroll-secondary" data-swiper-slides-mobile="" data-webid="retail_homepage_insurance_swiperswiper">
+            
+        <li class="imgcard  " data-webid="retail_homepage_insurance_homecard-card">
+            
+
+<a href="/nl/particulieren/woning/woonverzekering-brandverzekering" class="imgcard__ctn" data-webid="retail_homepage_insurance_homecard-card" kameleoonlistener-gs7o="true" data-gtm-vis-recent-on-screen30357916_1258="454" data-gtm-vis-first-on-screen30357916_1258="454" data-gtm-vis-total-visible-time30357916_1258="100" data-gtm-vis-has-fired30357916_1258="1">
+<img alt="" class="imgcard__img" data-webid="img-03933502-dc45-4e8c-9ad4-bf69b0f29eb8" height="100" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-icons/houses.svg?rev=068a259fddb747e3bacb11f76c32e9cb&amp;savif=1&amp;swebp=1&amp;mh=100&amp;la=nl-BE&amp;h=100&amp;mw=255&amp;w=100&amp;hash=28D3FD04279CB332D8E12648B6545812" width="100">
+<div class="imgcard__group">
+<p class="imgcard__title h5" data-webid="title">Woning</p>    <div data-webid="description" class="imgcard__desc richtext">
+
+    </div>
+</div>
+
+</a>
+
+<a href="/nl/particulieren/woning/woonverzekering-brandverzekering#promo" class="ribbon clickable" data-webid="retail_homepage_insurance_homecard-badge">                    <p class="u-hide-mobile">Ontdek onze korting</p>
+                    <p class="u-hide-desktop">Ontdek onze korting</p>
+                    <i class="icon-arrow-right" aria-hidden="true"></i>
+</a>
+        </li>
+
+
+
+        <li class="imgcard  card_rc" data-webid="retail_homepage_insurance_carcard-card">
+            
+
+<a href="/nl/particulieren/mobiliteit/auto" class="imgcard__ctn" data-webid="retail_homepage_insurance_carcard-card" kameleoonlistener-b0dt="true">
+<img alt="" class="imgcard__img" data-webid="img-c335fdf3-827a-4ddb-9644-ffa1cd910c07" height="100" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/auto.svg?rev=18eea8c6bd094f64810af964280af6cd&amp;savif=1&amp;swebp=1&amp;mh=100&amp;la=nl-BE&amp;h=100&amp;mw=255&amp;w=100&amp;hash=F47B89B9DF40C2997E1513A16BA00EB2" width="100">
+<div class="imgcard__group">
+<p class="imgcard__title h5" data-webid="title">Auto</p>    <div data-webid="description" class="imgcard__desc richtext">
+
+    </div>
+</div>
+
+</a>
+
+<a href="/nl/particulieren/mobiliteit/auto#promo" class="ribbon clickable" data-webid="retail_homepage_insurance_carcard-badge">                    <p class="u-hide-mobile">Ontdek onze kortingen</p>
+                    <p class="u-hide-desktop">Ontdek onze kortingen</p>
+                    <i class="icon-arrow-right" aria-hidden="true"></i>
+</a>
+        </li>
+
+
+
+        <li class="imgcard  " data-webid="retail_homepage_insurance_travelcard-card">
+            
+
+<a href="/nl/particulieren/gezin/reisverzekering" class="imgcard__ctn" data-webid="retail_homepage_insurance_travelcard-card" kameleoonlistener-d9vm="true" data-gtm-vis-recent-on-screen30357916_1258="460" data-gtm-vis-first-on-screen30357916_1258="460" data-gtm-vis-total-visible-time30357916_1258="100" data-gtm-vis-has-fired30357916_1258="1">
+<img alt="" class="imgcard__img" data-webid="img-3b0d0e8a-cb5b-42f5-a640-a7e48ed91b74" height="100" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-icons/travel%20new.svg?rev=e570f632aa554bd6a56be921e3de2891&amp;savif=1&amp;swebp=1&amp;mh=100&amp;la=nl-BE&amp;h=100&amp;mw=255&amp;w=100&amp;hash=469B5ABC4CD303505EC7838DE09A8D29" width="100">
+<div class="imgcard__group">
+<p class="imgcard__title h5" data-webid="title">Reis</p>    <div data-webid="description" class="imgcard__desc richtext">
+
+    </div>
+</div>
+
+</a>
+
+<a href="/nl/particulieren/gezin/reisverzekering#promo" class="ribbon clickable" data-webid="retail_homepage_insurance_travelcard-badge">                    <p class="u-hide-mobile">Ontdek onze korting</p>
+                    <p class="u-hide-desktop">Ontdek onze korting</p>
+                    <i class="icon-arrow-right" aria-hidden="true"></i>
+</a>
+        </li>
+
+
+
+        <li class="imgcard  " data-webid="retail_homepage_insurance_pensioncard-card">
+            
+
+<a href="/nl/particulieren/pensioen" class="imgcard__ctn" data-webid="retail_homepage_insurance_pensioncard-card" kameleoonlistener-ckq5="true">
+<img alt="" class="imgcard__img" data-webid="img-dea68270-aa29-4470-a75c-ca4939e230bc" height="100" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/pension.svg?rev=403c064069d8483f81b05e82ecca8f17&amp;savif=1&amp;swebp=1&amp;mh=100&amp;la=nl-BE&amp;h=100&amp;mw=255&amp;w=100&amp;hash=C21128E6457FE240BABAD56F408A8EDD" width="100">
+<div class="imgcard__group">
+<p class="imgcard__title h5" data-webid="title">Pensioen</p>    <div data-webid="description" class="imgcard__desc richtext">
+
+    </div>
+</div>
+
+</a>
+
+
+        </li>
+
+
+
+        <li class="imgcard  " data-webid="retail_homepage_insurance_family-card">
+            
+
+<a href="/nl/particulieren/gezin/familiale-verzekering" class="imgcard__ctn" data-webid="retail_homepage_insurance_family-card" kameleoonlistener-msan="true">
+<img alt="" class="imgcard__img" data-webid="img-88a01282-bc02-4943-bfb7-fcfdcd06a97f" height="100" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/familly%20hp.svg?savif=1&amp;swebp=1&amp;mh=100&amp;la=nl-BE&amp;h=100&amp;mw=255&amp;w=100&amp;hash=30664809CC2C62001C8149A587EB0BEE" width="100">
+<div class="imgcard__group">
+<p class="imgcard__title h5" data-webid="title">Familiale</p>    <div data-webid="description" class="imgcard__desc richtext">
+
+    </div>
+</div>
+
+</a>
+
+
+        </li>
+
+
+
+        <li class="imgcard  " data-webid="retail_homepage_insurance_bikecard-card">
+            
+
+<a href="/nl/particulieren/mobiliteit/fiets" class="imgcard__ctn" data-webid="retail_homepage_insurance_bikecard-card" kameleoonlistener-4hga="true">
+<img alt="" class="imgcard__img" data-webid="img-c6de7df8-5978-4c37-812c-ed799501d33e" height="100" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-icons/new%20bike.svg?rev=1fa578a8e11442bf99b083e23c260d35&amp;savif=1&amp;swebp=1&amp;mh=100&amp;la=nl-BE&amp;h=100&amp;mw=255&amp;w=99&amp;hash=F66ED246FA2C9252C43D9FDC8F7E2E33" width="99">
+<div class="imgcard__group">
+<p class="imgcard__title h5" data-webid="title">(e-)Fietsen, e-steps en co</p>    <div data-webid="description" class="imgcard__desc richtext">
+
+    </div>
+</div>
+
+</a>
+
+
+        </li>
+
+
+
+        <li class="imgcard  " data-webid="_teaser_investment_card">
+            
+
+<a href="/nl/particulieren/beleggingen/spaar-en-of-beleggingsverzekering" class="imgcard__ctn" data-webid="_teaser_investment_image" kameleoonlistener-d6ye="true">
+<img alt="" class="imgcard__img" data-webid="img-0e48f350-cb7f-4ff8-8dbf-adbf181a790d" height="100" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/banner-icons/investissement.svg?savif=1&amp;swebp=1&amp;mh=100&amp;la=nl-BE&amp;h=100&amp;mw=255&amp;w=100&amp;hash=9A25484D37027A63EFF7D718E2965DD3" width="100">
+<div class="imgcard__group">
+<p class="imgcard__title h5" data-webid="title">Beleggingen</p>    <div data-webid="description" class="imgcard__desc richtext">
+
+    </div>
+</div>
+
+</a>
+
+
+        </li>
+
+
+
+        <li class="imgcard  imgcard--teaser" data-webid="retail_homepage_insurance_allinsurancescard-card">
+            
+
+<a href="#all" class="imgcard__ctn" data-webid="retail_homepage_insurance_allinsurancescard-card" rel="nofollow" kameleoonlistener-4g23="true">
+
+<div class="imgcard__group">
+<p class="imgcard__title h5" data-webid="title">Bekijk al onze&nbsp;producten</p>    <div data-webid="description" class="imgcard__desc richtext">
+
+    </div>
+</div>
+
+</a>
+
+
+        </li>
+
+
+
+        </ul>
+    </div>
+        <div class="scrllcntrl u-hide-desktop">
+            <button class="btn btn--primary--o btn--sm btn--sq" aria-label="Vorige" data-swiper-prev="" disabled="">
+                <i class="icon-angle-left" aria-hidden="true"></i>
+            </button>
+            <button class="btn btn--primary--o btn--sm btn--sq" aria-label="Volgende" data-swiper-next="" disabled="">
+                <i class="icon-angle-right" aria-hidden="true"></i>
+            </button>
+        </div>
+</section>
+
+        </div>
+
+</section>
+    <section class="s2c  s2c--img-s u-margin-bottom-11 u-margin-top-10  bg-primary-100 " data-component="s2c">
+
+        <div class="s2c__ctn ">
+
+            <div class="s2c__col  s2c__col--img " style="width: calc(100% * 6 / 12);">
+<img alt="" class="s2c__col__img u-hide-mobile" height="190" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/assistance%20homepage%20illu.svg?savif=1&amp;swebp=1&amp;mh=0&amp;la=nl-BE&amp;h=190&amp;mw=570&amp;w=330&amp;hash=3D023724B30712A7A75E609EF35B4EB4" width="330"><img alt="" class="s2c__col__img u-hide-desktop" height="190" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/assistance%20homepage%20illu.svg?savif=1&amp;swebp=1&amp;mh=0&amp;la=nl-BE&amp;h=190&amp;mw=570&amp;w=330&amp;hash=3D023724B30712A7A75E609EF35B4EB4" width="330">                <div class="s2c__col__filter bg-white" data-role="background" style="width: 632px;"></div>
+            </div>
+
+            <div class="s2c__col  s2c__col--has-content" style="width: calc(100% * 6 / 12);">
+                <div class="richtext">
+<h2 class="h3">
+Dringende bijstand
+</h2>
+<p>
+Heb je dringende hulp nodig voor je voertuig, je woning of je reis? We staan aan jouw zijde.
+</p>
+<a class="btn btn--secondary" href="/nl/particulieren/services/bijstand/bijstand-auto" data-webid="_section_urgent assistance your services_cta"><span>Ontdek je bijstand </span></a>                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="section    ">
+    
+
+        <div class="container-12 " data-webid="section-title">
+            <h2 class="section__title u-publico ">
+Waarom voor AXA Belgium kiezen?                </h2>
+        </div>
+
+        <div class="section__subtitle richtext container-12  subtitle-1 " data-webid="section-description">
+<p class="subtitle-1">Enkele goede redenen</p>        </div>
+
+        <div data-webid="section-body" class="section__body  container-12">
+            
+
+<ul class="row center-xs  services--separate  ">
+    
+
+<li class="feat  col-xs-12 col-sm-4" data-webid="service-5bb51d1ef94648d9aa97a711832692c9">
+    
+    <div class="feat__flex">
+        <div class="feat__icon"></div>
+        <div class="feat__wrap">
+            <div class="feat__content richtext" data-webid="description">
+<p class="u-big-number">3 <span>miljoen</span></p>
+<p class="h5">Trouwe klanten</p>            </div>
+        </div>
+    </div>
+</li>
+<li class="feat  col-xs-12 col-sm-4" data-webid="service-4fd1fd3d918241a3b226ce3d988c6f99">
+    
+    <div class="feat__flex">
+        <div class="feat__icon"></div>
+        <div class="feat__wrap">
+            <div class="feat__content richtext" data-webid="description">
+<p class="u-big-number">3 200 <span></span></p>
+<p class="h5">Makelaars aan je zijde</p>            </div>
+        </div>
+    </div>
+</li>
+<li class="feat  col-xs-12 col-sm-4" data-webid="service-87df97d35f20467896974051f4923987">
+    
+    <div class="feat__flex">
+        <div class="feat__icon"></div>
+        <div class="feat__wrap">
+            <div class="feat__content richtext" data-webid="description">
+<p class="u-big-number">3 000 <span></span></p>
+<p class="h5">Geëngageerde medewerkers</p>            </div>
+        </div>
+    </div>
+</li></ul>
+
+        </div>
+
+</section>
+<section class="section    ">
+    
+
+        <div class=" " data-webid="section-title">
+            <h2 class="section__title u-publico ">
+Duurzaam ondernemen staat centraal in onze visie!                </h2>
+        </div>
+
+        <div class="section__subtitle richtext   subtitle-1 " data-webid="section-description">
+<p class="subtitle-1">Onze inspanningen komen tot uiting in deze 3 pijlers</p>        </div>
+
+        <div data-webid="section-body" class="section__body  ">
+            
+
+<section data-webid="swiper-fed9b74298aa45e3a9e55c426c90b3f9" class="swiper slider" data-component="swiper-v3">
+    <div class="swiper__ctn container-12">
+
+        <button class="btn btn--primary--o btn--sm btn--sq swiper__prev" aria-label="Vorige" data-swiper-prev="" disabled="">
+            <i class="icon-angle-left" aria-hidden="true"></i>
+        </button>
+
+        <ul class="swiper__grid custom-scroll-secondary" data-webid="swiper-fed9b74298aa45e3a9e55c426c90b3f9-cards" data-swiper-slides-mobile="">
+            
+
+        <li class="card   one-link" data-webid="retail_homepage_aboutaxa_climate">
+            
+
+
+
+
+
+
+    <div class="card__head" data-webid="retail_homepage_aboutaxa_climate">
+        <picture class="pic--fill pic--bg pic"><img alt="" height="200" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/illustration_climate_change.png?savif=1&amp;swebp=1&amp;ch=200&amp;cx=0.5&amp;la=nl-BE&amp;cy=0.5&amp;cw=350&amp;hash=827915DA9E37EF7A83CF2444270181C1" width="350"></picture>
+    </div>
+    <div class="card__body ">
+        
+
+
+
+<h3 class="card__title">Klimaatverandering en mobiliteit</h3>
+    <div class="card__content richtext">
+<p>Gebruik maken van onze kernactiviteiten - investeringen en verzekeringen - om de wereld te helpen het hoofd te bieden aan de klimaatverandering en milieu-uitdagingen.</p>    </div>
+
+    <div class="flexspacer"></div>
+
+        <div class="flexspacer"></div>
+        <div class="card__cta" style="text-align: left;"><a href="/nl/over-axa/strategy" class="link link--primary" data-webid="retail_homepage_aboutaxa_climate-link"><span>Lees meer</span><i aria-hidden="true" class="icon-arrow-right"></i></a></div>
+    </div>
+
+        </li>
+
+
+
+
+        <li class="card   one-link" data-webid="retail_homepage_aboutaxa_health">
+            
+
+
+
+
+
+
+    <div class="card__head" data-webid="retail_homepage_aboutaxa_health">
+        <picture class="pic--fill pic--bg pic"><img alt="" height="200" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/illustration_health.png?savif=1&amp;swebp=1&amp;ch=200&amp;cx=0.5&amp;la=nl-BE&amp;cy=0.5&amp;cw=350&amp;hash=90AA23836A0FB6D22D80B479C55FA093" width="350"></picture>
+    </div>
+    <div class="card__body ">
+        
+
+
+
+<h3 class="card__title">Gezondheids- en ziektepreventie</h3>
+    <div class="card__content richtext">
+<p>Een betrouwbare gezondheidspartner voor onze klanten en de maatschappij worden door middel van gezondheidsbevordering en ziektepreventie.</p>    </div>
+
+    <div class="flexspacer"></div>
+
+        <div class="flexspacer"></div>
+        <div class="card__cta" style="text-align: left;"><a href="/nl/over-axa/axa-research-fund" class="link link--primary" data-webid="retail_homepage_aboutaxa_health-link"><span>Lees meer</span><i aria-hidden="true" class="icon-arrow-right"></i></a></div>
+    </div>
+
+        </li>
+
+
+
+
+        <li class="card   one-link" data-webid="retail_homepage_aboutaxa_socialinclusion">
+            
+
+
+
+
+
+
+    <div class="card__head" data-webid="retail_homepage_aboutaxa_socialinclusion">
+        <picture class="pic--fill pic--bg pic"><img alt="" height="200" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/about/illustration_Diversity_2.png?savif=1&amp;swebp=1&amp;ch=200&amp;cx=0.5&amp;la=nl-BE&amp;cy=0.5&amp;cw=350&amp;hash=47D2424652CC14BFD1D2872540FAAA42" width="350"></picture>
+    </div>
+    <div class="card__body ">
+        
+
+
+
+<h3 class="card__title">Sociale inclusie</h3>
+    <div class="card__content richtext">
+<p>Sociale inclusie aanmoedigen om kwetsbare bevolkingsgroepen te beschermen. Bevorderen van vrijwilligerswerk via AXA&nbsp;<span lang="EN">Hearts&nbsp;in&nbsp;Action.</span></p>    </div>
+
+    <div class="flexspacer"></div>
+
+        <div class="flexspacer"></div>
+        <div class="card__cta" style="text-align: left;"><a href="/nl/over-axa/diversity-en-inclusion" class="link link--primary" data-webid="retail_homepage_aboutaxa_socialinclusion-link"><span>Lees meer</span><i aria-hidden="true" class="icon-arrow-right"></i></a></div>
+    </div>
+
+        </li>
+
+
+
+        </ul>
+
+        <button class="btn btn--primary--o btn--sm btn--sq swiper__next" aria-label="Volgende" data-swiper-next="" disabled="">
+            <i class="icon-angle-right" aria-hidden="true"></i>
+        </button>
+
+    </div>
+</section>
+
+
+        </div>
+
+</section>
+<section class="section    ">
+    
+
+        <div class="container-12 " data-webid="section-title">
+            <h2 class="section__title u-publico ">
+We maken deel uit van een globaal netwerk                </h2>
+        </div>
+
+        <div class="section__subtitle richtext container-12  subtitle-1 " data-webid="section-description">
+<p class="subtitle-1">Enkele cijfers waarop we best trots zijn</p>        </div>
+
+        <div data-webid="section-body" class="section__body  container-12">
+            
+
+<ul class="row center-xs  services--separate  ">
+    
+
+<li class="feat  col-xs-12 col-sm-4" data-webid="service-1b66ae028d0340eb961634fc61717d6d">
+    
+    <div class="feat__flex">
+        <div class="feat__icon"></div>
+        <div class="feat__wrap">
+            <div class="feat__content richtext" data-webid="description">
+<p class="u-big-number">105 <span>miljoen</span></p>
+<p class="h5">Klanten wereldwijd </p>
+<p>die op ons&nbsp;vertrouwen</p>            </div>
+        </div>
+    </div>
+</li>
+<li class="feat  col-xs-12 col-sm-4" data-webid="service-9f727ca0aee34b1bbcbd4563de5ec3b5">
+    
+    <div class="feat__flex">
+        <div class="feat__icon"></div>
+        <div class="feat__wrap">
+            <div class="feat__content richtext" data-webid="description">
+<p class="u-big-number">54 <span></span></p>
+<p class="h5">Landen</p>
+<p>waar we onze producten verdelen en diensten&nbsp;leveren</p>            </div>
+        </div>
+    </div>
+</li>
+<li class="feat  col-xs-12 col-sm-4" data-webid="service-858ed127c0d347babc42813ad6424b2f">
+    
+    <div class="feat__flex">
+        <div class="feat__icon"></div>
+        <div class="feat__wrap">
+            <div class="feat__content richtext" data-webid="description">
+<p class="u-big-number">120 000<span></span></p>
+<p class="h5">Medewerkers</p>
+<p>zetten zich dagelijks in voor onze&nbsp;klanten</p>            </div>
+        </div>
+    </div>
+</li></ul>
+
+        </div>
+
+</section>
+<section class="pquote u-margin-bottom-11 u-margin-top-10  bg-primary-100 ">
+    
+    <div class=" container-10">
+<h2 class="pquote__title"><span lang="EN">Newsroom</span></h2>                            <p class="pquote__subt">AXA traint 1.250 verzekeringsmakelaars in klimaatadaptatie</p>
+        <figure class="pquote__quote">
+                <blockquote>“Met de toenemende extreme weersomstandigheden in België, organiseren AXA Verzekeringen en AXA&nbsp;<span lang="en">Climate</span> acht regionale bijeenkomsten om makelaars bewust te maken rond de risico's van klimaatverandering. Deze trainingen zijn erop gericht makelaars in staat te stellen hun klanten op maat te ondersteunen en te sensibiliseren voor klimaatadaptatie, met een focus op toekomstige risico's zoals hittegolven, overstromingen en waterstress.”</blockquote>
+                    </figure>
+        <div class="pquote__ctas">
+            <a href="/nl/pers/2025/1250-makelaars-warm-gemaakt-voor-klimaatadaptatie" class="btn btn--primary" data-webid="_quote_quotearticles_cta left"><span>Lees het persbericht</span></a>
+            <a href="/nl/pers" class="link link--primary" data-webid="_quote_quotearticles_link right"><span>Alle persberichten</span><i aria-hidden="true" class="icon-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+
+<section class="section    ">
+    
+
+        <div class=" " data-webid="section-title">
+            <h2 class="section__title u-publico ">
+Interessant voor jou                </h2>
+        </div>
+
+
+        <div data-webid="section-body" class="section__body  ">
+            
+
+<section data-webid="swiper-2e40e652400c41d6acb1a32a95d9a3d7" class="swiper slider" data-component="swiper-v3">
+    <div class="swiper__ctn container-12">
+
+        <button class="btn btn--primary--o btn--sm btn--sq swiper__prev" aria-label="Vorige" data-swiper-prev="" disabled="">
+            <i class="icon-angle-left" aria-hidden="true"></i>
+        </button>
+
+        <ul class="swiper__grid custom-scroll-secondary" data-webid="swiper-2e40e652400c41d6acb1a32a95d9a3d7-cards" data-swiper-slides-mobile="">
+            
+
+    <li class="card card--ekomi   one-link" data-webid="retail_homepage_insurance_ekomicard">
+        
+
+
+    <div class="card__head  bg-ocean-400">
+        <div class="score">
+            <div class="score__value"><span data-webid="score">4.7</span><span class="score__max">/5</span><span class="sr-only">Sterren</span></div>
+            <div class="score__stars2" aria-hidden="true">
+                <svg width="180" height="24" fill="var(--ekomi-stars-background)" fill-rule="evenodd"><path d="M18 18.365L25.42 24l-2.84-9.099L30 9.391h-9.1L18 0l-2.9 9.391H6l7.42 5.51L10.58 24zm36 0L61.42 24l-2.84-9.099L66 9.391h-9.1L54 0l-2.9 9.391H42l7.42 5.51L46.58 24zm36 0L97.42 24l-2.84-9.099 7.42-5.51h-9.1L90 0l-2.9 9.391H78l7.42 5.51L82.58 24zm36 0L133.42 24l-2.84-9.099 7.42-5.51h-9.1L126 0l-2.9 9.391H114l7.42 5.51L118.58 24zm36 0L169.42 24l-2.84-9.099 7.42-5.51h-9.1L162 0l-2.9 9.391H150l7.42 5.51L154.58 24z"></path></svg>
+                <div class="score__stars2__fill" style="width: 94%">
+                    <svg width="180" height="24" fill="var(--ekomi-stars-foreground)" fill-rule="evenodd"><path d="M18 18.365L25.42 24l-2.84-9.099L30 9.391h-9.1L18 0l-2.9 9.391H6l7.42 5.51L10.58 24zm36 0L61.42 24l-2.84-9.099L66 9.391h-9.1L54 0l-2.9 9.391H42l7.42 5.51L46.58 24zm36 0L97.42 24l-2.84-9.099 7.42-5.51h-9.1L90 0l-2.9 9.391H78l7.42 5.51L82.58 24zm36 0L133.42 24l-2.84-9.099 7.42-5.51h-9.1L126 0l-2.9 9.391H114l7.42 5.51L118.58 24zm36 0L169.42 24l-2.84-9.099 7.42-5.51h-9.1L162 0l-2.9 9.391H150l7.42 5.51L154.58 24z"></path></svg>
+                </div>
+            </div>
+            <div class="score__hr"></div>
+            <p class="score__info">Gemiddelde van 196 beoordelingen</p>
+        </div>
+    </div>
+    <div class="card__body">
+        
+
+        <p class="card__cat">
+Woonverzekering - Afsluiten        </p>
+
+
+<h3 class="card__title">Wat onze klanten denken</h3>
+    <div class="card__content richtext">
+<p>Om de authenticiteit van de klantenbeoordelingen te garanderen, worden ze verzameld door eKomi, een onafhankelijk en gespecialiseerd bedrijf, en in alle transparantie gepubliceerd.</p>    </div>
+
+    <div class="flexspacer"></div>
+
+        <div class="flexspacer"></div>
+        <div class="card__cta" style="text-align: left;"><a href="/nl/ekomi" class="link link--primary" data-webid="retail_homepage_insurance_ekomicard-link"><span>Lees alle beoordelingen</span><i aria-hidden="true" class="icon-arrow-right"></i></a></div>
+    </div>
+
+    </li>
+
+
+
+        <li class="card   one-link" data-webid="retail_homepage_insurance_myafcard">
+            
+
+
+
+
+
+
+    <div class="card__head bg-axa-blue-200" data-webid="retail_homepage_insurance_myafcard">
+        <picture class="pic--fill pic--bg pic"><img alt="" height="200" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/illustrations/myaf/MY%20AF%20Illustration%20small.svg?rev=43c3efe8b84742c7bd40e5ae29891949&amp;savif=1&amp;swebp=1&amp;mh=200&amp;la=nl-BE&amp;h=200&amp;mw=350&amp;w=144&amp;hash=8CD51B0D4E4C870D40EB7A2A151903BF" width="144"></picture>
+    </div>
+    <div class="card__body ">
+        
+
+        <p class="card__cat">
+MyAXA Fidelity        </p>
+
+
+<h3 class="card__title">Wil je lid worden van ons getrouwheidsprogramma? </h3>
+    <div class="card__content richtext">
+<p><span lang="EN">MyAXA Fidelity</span>, aangeboden door je makelaar en AXA, beloont, beschermt en adviseert je elke dag dankzij een heel pak&nbsp;voordelen.
+Je kan lid worden als je 3&nbsp;smileys&nbsp;hebt.
+Meer&nbsp;weten? Contacteer snel je&nbsp;makelaar.</p>    </div>
+
+    <div class="flexspacer"></div>
+
+        <div class="flexspacer"></div>
+        <div class="card__cta" style="text-align: left;"><a href="/nl/particulieren/myaxa-fidelity" class="link link--primary" data-webid="retail_homepage_insurance_myafcard-link"><span>Ontdek MyAXA Fidelity</span><i aria-hidden="true" class="icon-arrow-right"></i></a></div>
+    </div>
+
+        </li>
+
+
+
+        </ul>
+
+        <button class="btn btn--primary--o btn--sm btn--sq swiper__next" aria-label="Volgende" data-swiper-next="" disabled="">
+            <i class="icon-angle-right" aria-hidden="true"></i>
+        </button>
+
+    </div>
+</section>
+
+
+        </div>
+
+</section>
+    <section class="s2c  s2c--reverse-mobile  s2c--img-m u-margin-bottom-11 u-margin-top-10  bg-primary-100 " data-webid="retail_homepage_broker" data-component="s2c">
+
+        <div class="s2c__ctn container-12">
+
+            <div class="s2c__col  s2c__col--has-content " style="width: calc(100% * 6 / 12);">
+                <div class="richtext">
+<h3>Je makelaar staat altijd aan je zijde</h3>
+<ul class="u-checklist">
+    <li>Met vrijblijvend en persoonlijk advies</li>
+    <li>Opmaken van een offerte</li>
+    <li>Hulp met kennis van zaken</li>
+    <li>Ook bij jou in de buurt</li>
+</ul>
+<div class="u-margin-top-6"><a linktype="internal" href="/nl/netwerk/vind-je-makelaar" class="btn btn--primary--o u-margin-top-none" data-webid="retail_homepage_broker-link"><span>Vind je makelaar</span></a></div>
+<img class="u-margin-top-6" alt="Je Makelaar Je beste Verzekering" src="https://cdn.website.axa.be/nl-be/-/media/projects/axabe/axabeweb/brocom/Broker%20Brocom.svg?sc_lang=nl-BE&amp;savif=1&amp;swebp=1&amp;w=314&amp;rev=229a210416af4aadba64e8e672e1e791&amp;hash=F0614CF71B9C308C2F7DCD37E3A4F63C" style="width: 314px;">                </div>
+            </div>
+
+            <div class="s2c__col " style="width: calc(100% * 6 / 12);">
+<picture class="pic--bg s2c__col__bg u-hide-mobile pic" data-role="background" style="width: 632px;"><img alt="" height="964" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/photos/broker%20woman.jpg?savif=1&amp;swebp=1&amp;ch=964&amp;cx=0.5&amp;la=nl-BE&amp;cy=0.5&amp;cw=1264&amp;hash=991840CE9305BBC08641A6DF90216ED4" width="1264"></picture><picture class="pic--bg s2c__col__bg u-hide-desktop pic"><source height="420" media="(max-width: 420px)" srcset="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/photos/broker%20woman%20mobile.jpg?savif=1&amp;swebp=1&amp;ch=420&amp;cx=0.5&amp;la=nl-BE&amp;cy=0.5&amp;cw=420&amp;hash=BEB77E335938E13DD8358ED476C0B39F" width="420"><img alt="" height="468" loading="lazy" src="https://cdn.website.axa.be/-/media/projects/axabe/axabeweb/photos/broker%20woman%20mobile.jpg?savif=1&amp;swebp=1&amp;ch=468&amp;cx=0.5&amp;la=nl-BE&amp;cy=0.5&amp;cw=718&amp;hash=8A610BC4397A1E65D8AC29549237EFDF" width="718"></picture>            </div>
+        </div>
+    </section>
+<div data-role="anchor-target" id="all" title="toutes nos assurances"></div>
+
+<section class="section    ">
+    
+
+        <div class="container " data-webid="section-title">
+            <h2 class="section__title u-publico ">
+Alle verzekeringen                </h2>
+        </div>
+
+
+        <div data-webid="section-body" class="section__body  container">
+            
+
+<section class="catalog  catalog--3-col catalog--ontop    " data-webid="retail_homepage_insurance_catalog" data-component="catalog">
+
+    <div>
+        <ul class="catalog__grid m-parent">
+                <li class="catalog__menu">
+<h3 class="catalog__menu__title h5">                            <span class="u-hide-mobile">Mobiliteit</span>
+                            <button class="unbtn catalog__menu__title__btn u-hide-desktop" aria-controls="49d6d639501c44ceb4cebd83e383e4df" aria-expanded="false"><span>Mobiliteit</span><i aria-hidden="true" class="icon-angle-down u-hide-desktop"></i></button>
+</h3>                        <div id="49d6d639501c44ceb4cebd83e383e4df" class="catalog__grid">
+                                <div class="catalog__submenu">
+                                            <div class="catalog__submenu">
+                                                <ul class="catalog__submenu__items" role="group">
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/mobiliteit/auto" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-auto"><span>Auto­verzekering</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/mobiliteit/motor" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-moto"><span>Motorverzekering</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/mobiliteit/fiets" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-velo"><span>Fietsverzekering</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/mobiliteit/bestelwagen" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-van"><span>Bestelwagen</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezin/reisverzekering" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-travel"><span>Reisverzekering </span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezin/students-travel" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-students-travel"><span>Students Travel</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezin/bootverzekering" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-boats"><span>Bootverzekering</span></a>                                                        </li>
+                                                </ul>
+                                            </div>
+                                </div>
+                        </div>
+                </li>
+                <li class="catalog__menu">
+<h3 class="catalog__menu__title h5">                            <span class="u-hide-mobile">Woning</span>
+                            <button class="unbtn catalog__menu__title__btn u-hide-desktop" aria-controls="e92b9faac73f432fa564e0274a4cf37f" aria-expanded="false"><span>Woning</span><i aria-hidden="true" class="icon-angle-down u-hide-desktop"></i></button>
+</h3>                        <div id="e92b9faac73f432fa564e0274a4cf37f" class="catalog__grid">
+                                <div class="catalog__submenu">
+                                            <div class="catalog__submenu">
+                                                <ul class="catalog__submenu__items" role="group">
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/woning/woonverzekering-brandverzekering" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-home"><span>Woonverzekering</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/woning/blokpolis" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-building"><span>Blokpolis</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/woning/schuldsaldoverzekering" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-solde-restant-du"><span>Schuldsaldoverzekering</span></a>                                                        </li>
+                                                </ul>
+                                            </div>
+                                </div>
+                        </div>
+                </li>
+                <li class="catalog__menu">
+<h3 class="catalog__menu__title h5">                            <span class="u-hide-mobile">Gezin</span>
+                            <button class="unbtn catalog__menu__title__btn u-hide-desktop" aria-controls="b509ad62bbb54701ad69f75fcbb6734f" aria-expanded="false"><span>Gezin</span><i aria-hidden="true" class="icon-angle-down u-hide-desktop"></i></button>
+</h3>                        <div id="b509ad62bbb54701ad69f75fcbb6734f" class="catalog__grid">
+                                <div class="catalog__submenu">
+                                            <div class="catalog__submenu">
+                                                <ul class="catalog__submenu__items" role="group">
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezin/familiale-verzekering" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-familiale"><span>Familiale verzekering</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezin/ongevallenverzekering-priveleven" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-insurance-private-life"><span>Ongevallen privéleven</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezin/reisverzekering" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-travel"><span>Reisverzekering </span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezin/students-travel" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-students-travel"><span>Students Travel</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezin/dierenverzekering" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-animal"><span>Dierenverzekering</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezin/bootverzekering" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-boat" target=""><span>Bootverzekering</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezin/evenementenverzekering" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-events"><span>Evenementenverzekering</span></a>                                                        </li>
+                                                </ul>
+                                            </div>
+                                </div>
+                        </div>
+                </li>
+                <li class="catalog__menu">
+<h3 class="catalog__menu__title h5">                            <span class="u-hide-mobile">Gezondheid</span>
+                            <button class="unbtn catalog__menu__title__btn u-hide-desktop" aria-controls="05de8c20def040e6970de6996276b863" aria-expanded="false"><span>Gezondheid</span><i aria-hidden="true" class="icon-angle-down u-hide-desktop"></i></button>
+</h3>                        <div id="05de8c20def040e6970de6996276b863" class="catalog__grid">
+                                <div class="catalog__submenu">
+                                            <div class="catalog__submenu">
+                                                <ul class="catalog__submenu__items" role="group">
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezondheid/gezondheidsverzekering" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-health-insurance"><span>Gezondheidsverzekering</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezondheid/arbeidsongevallen" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-accident-at-work"><span>Arbeidsongevallen</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/gezondheid/arbeidsongeschiktheid" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-work-incapacity"><span>Arbeidsongeschiktheid</span></a>                                                        </li>
+                                                </ul>
+                                            </div>
+                                </div>
+                        </div>
+                </li>
+                <li class="catalog__menu">
+<h3 class="catalog__menu__title h5">                            <span class="u-hide-mobile">Pensioen</span>
+                            <button class="unbtn catalog__menu__title__btn u-hide-desktop" aria-controls="cfc10444c8a548d9b58fc553860c02c0" aria-expanded="false"><span>Pensioen</span><i aria-hidden="true" class="icon-angle-down u-hide-desktop"></i></button>
+</h3>                        <div id="cfc10444c8a548d9b58fc553860c02c0" class="catalog__grid">
+                                <div class="catalog__submenu">
+                                            <div class="catalog__submenu">
+                                                <ul class="catalog__submenu__items" role="group">
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/pensioen" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-pension-insurance"><span>Pensioenverzekering</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/pensioen/pensioensparen" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-pension-savings"><span>Pensioensparen</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/pensioen/langetermijnsparen" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-long-term-savings"><span>Langetermijnsparen</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/pensioen/vrij-aanvullend-pensioen-werknemers" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-vapw"><span>Vrij aanvullend pensioen voor werknemers</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/pensioen/groepsverzekering-medewerkers" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-group-insurance"><span>Groepsverzekering</span></a>                                                        </li>
+                                                </ul>
+                                            </div>
+                                </div>
+                        </div>
+                </li>
+                <li class="catalog__menu">
+<h3 class="catalog__menu__title h5">                            <span class="u-hide-mobile">Beleggingen</span>
+                            <button class="unbtn catalog__menu__title__btn u-hide-desktop" aria-controls="2419692b3359456da25ff16df622f8c0" aria-expanded="false"><span>Beleggingen</span><i aria-hidden="true" class="icon-angle-down u-hide-desktop"></i></button>
+</h3>                        <div id="2419692b3359456da25ff16df622f8c0" class="catalog__grid">
+                                <div class="catalog__submenu">
+                                            <div class="catalog__submenu">
+                                                <ul class="catalog__submenu__items" role="group">
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/beleggingen/spaar-en-of-beleggingsverzekering" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-savings-and-or-investment-insurance"><span>Spaar- en/of beleggingsverzekering</span></a>                                                        </li>
+                                                        <li class="catalog__submenu__item" role="none">
+<a href="/nl/particulieren/beleggingen/beleggingsverzekering-tak-23" class="link link--primary" data-webid="retail_homepage_insurance_catalog-cta-investment-tak23"><span>Beleggingsverzekering tak 23</span></a>                                                        </li>
+                                                </ul>
+                                            </div>
+                                </div>
+                        </div>
+                </li>
+        </ul>
+    </div>
+</section>
+
+        </div>
+
+</section>
+    </main>
+
+
+        <!--BEGIN NOINDEX-->
+        <footer class="foot">
+            <section class="brocom container-fluid    " data-webid="brocom">
+    
+
+    <img alt="" data-webid="img-brocom-ebda9c78c65846aba0197c6f5de23a95" height="34" src="https://cdn.website.axa.be/nl-be/-/media/projects/axabe/axabeweb/brocom/Brocom.svg?rev=cfac3a6026354b139f3b3ffc97ed6b6d&amp;sc_lang=nl-be&amp;savif=1&amp;swebp=1&amp;mh=0&amp;la=nl-BE&amp;h=34&amp;mw=314&amp;w=314&amp;hash=FEB65DB39DEF1978E660CB5B9DE48374" width="314">
+</section>
+<section class="footer" data-component="footer">
+<div class="container">
+    <nav class="footer__nav" aria-label="footer navigatie" data-webid="secondary-footer">
+     
+
+<div class="footer__menu" data-webid="column-39c56a3a7ba54bcaad09a71d983c6379">
+    <p class="footer__menu__title" data-webid="title">
+        <span class="u-hide-mobile">AXA</span>
+        <button class="footer__menu__title__btn u-hide-desktop" title="AXA" name="AXA" aria-expanded="false">
+            <span>AXA</span>
+            <i aria-hidden="true" class="u-hide-desktop icon-angle-down"></i>
+        </button>
+    </p>
+    <ul class="footer__menu__items" aria-label="AXA">
+                <li id="fo" class="footer__menu__item">
+                    <a href="/nl/jobs" class="" data-webid="footer-footerlink_jobs"><span>Jobs</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="/nl/pers" class="" data-webid="footer-press"><span>Pers</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="/nl/over-axa" class="" data-webid="footer-about-axa"><span>Over AXA</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="/nl/personeel-axa" class="" data-webid="footer-axa-personel"><span>AXA Personeel</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="https://www.axa.com/" class="" data-webid="footer-axa-com" rel="nofollow"><span>AXA.com</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="https://www.crelan.be/nl/particulieren?popup=axa " class="" data-webid="footer-axa-bank" target="_blank" rel="nofollow"><span>Bank</span></a>
+                </li>
+
+    </ul>
+</div>
+<div class="footer__menu" data-webid="column-f24662bdf7264885b707b1f7182a5734">
+    <p class="footer__menu__title" data-webid="title">
+        <span class="u-hide-mobile">Belangrijke info</span>
+        <button class="footer__menu__title__btn u-hide-desktop" title="Belangrijke info" name="Belangrijke info" aria-expanded="false">
+            <span>Belangrijke info</span>
+            <i aria-hidden="true" class="u-hide-desktop icon-angle-down"></i>
+        </button>
+    </p>
+    <ul class="footer__menu__items" aria-label="Belangrijke info">
+                <li id="fo" class="footer__menu__item segment-specific axabe-segment-832cc9a3806a4d25bb26fd0c0679e3c0">
+                    <a href="/nl/juridische-info/wettelijke-documenten/algemene-voorwaarden-en-productfiches" class="" data-webid="footer-legal_info"><span>Algemene&nbsp;voorwaarden&nbsp;&amp;&nbsp;juridische&nbsp;info​</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item segment-specific axabe-segment-c46cb17dbb5d4d62bf7c92221e7cce4e axabe-segment-13d6941dea9f4da7902e71220a2e449e axabe-segment-b0d27484312f493aaf9d2d1b0a436f27">
+                    <a href="/nl/juridische-info/corporate/wettelijke-documenten/algemene-voorwaarden-en-productfiches" class="" data-webid="footer-legal_info_isme"><span>Algemene&nbsp;voorwaarden&nbsp;&amp;&nbsp;juridische&nbsp;info​</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="/nl/privacy-cookiebeleid/privacy-clausule" class="" data-webid="footer-cookie_privatelife"><span>Privacy&nbsp;en&nbsp;cookiebeleid​</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="javascript:tC.privacyCenter.showPrivacyCenter();" class="" data-webid="footer-cookies-preferences" rel="nofollow"><span>Cookies voorkeuren</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="/nl/veelgestelde-vragen" class="" data-webid="footer-faq"><span>FAQ</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="/nl/blog" class="" data-webid="footer-blog"><span>Blog</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="/nl/lexicon" class="" data-webid="footer-lexicon"><span>Lexicon</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="/nl/digitale-toegankelijkheid" class="" data-webid="footer-accessibility-statement"><span>Verklaring Accessibility</span></a>
+                </li>
+
+    </ul>
+</div>
+<div class="footer__menu" data-webid="column-6e4d421e17064ec5897a214790b8493c">
+    <p class="footer__menu__title" data-webid="title">
+        <span class="u-hide-mobile">Contacteer ons</span>
+        <button class="footer__menu__title__btn u-hide-desktop" title="Contacteer ons" name="Contacteer ons" aria-expanded="false">
+            <span>Contacteer ons</span>
+            <i aria-hidden="true" class="u-hide-desktop icon-angle-down"></i>
+        </button>
+    </p>
+    <ul class="footer__menu__items" aria-label="Contacteer ons">
+                <li id="fo" class="footer__menu__item">
+                    <a href="/nl/particulieren/contact" class="" data-webid="footer-help-and-contact"><span>Hulp en contact</span></a>
+                </li>
+                <li id="fo" class="footer__menu__item">
+                    <a href="/nl/netwerk/ons-netwerk" class="" data-webid="footer-networks"><span>Ons netwerk</span></a>
+                </li>
+
+    </ul>
+</div><div class="footer__menu footer__menu--icons" data-webid="column-7392ac15f5d2453e93ccea43d25b4264">
+    <p class="footer__menu__title">Volg ons</p>
+    <ul class="footer__menu__items" aria-label="Volg ons">
+        <li class="footer__menu__item">
+
+<a href="https://www.facebook.com/AXABelgium" data-webid="footer-social-facebook" target="_blank" title="facebook" rel="nofollow">                <i aria-hidden="true" class="icon-facebook"></i>
+</a>        </li>
+        <li class="footer__menu__item">
+
+<a href="https://www.instagram.com/axa_belgium/" data-webid="footer-social-instagram" target="_blank" title="Instagram" rel="nofollow">                <i aria-hidden="true" class="icon-instagram"></i>
+</a>        </li>
+        <li class="footer__menu__item">
+
+<a href="https://www.tiktok.com/@axa_belgium" data-webid="footer-social-tiktok" target="_blank" title="TikTok" rel="nofollow">                <i aria-hidden="true" class="icon-tiktok"></i>
+</a>        </li>
+        <li class="footer__menu__item">
+
+<a href="https://www.youtube.com/user/AXAcomBelgium" data-webid="footer-social-youtube" target="_blank" title="YouTube" rel="nofollow">                <i aria-hidden="true" class="icon-youtube"></i>
+</a>        </li>
+    </ul>
+</div>    </nav>
+</div>    <div class="footer__bar" data-webid="main-footer">
+    <div class="container">
+        <p class="footer__bar__copy" data-webid="copyright">Copyright AXA 2026 ©</p>
+            <div class="flexspacer"></div>
+            <nav aria-label="globale footer navigatie" class="footer__bar__links">
+<a href="/nl/site-overzicht" class="" data-webid="footer-sitemap"><span>Site-overzicht</span></a>            </nav>
+    </div>
+</div>
+</section>        </footer>
+        <!--END NOINDEX-->
+    
+
+<script src="https://cdn.website.axa.be/bundles/js/AxaBe-AxaBeWeb-jquery.js?v=cqo3EYould4n4QMiYCPf7jX8u4ky2Fu0eLK6Fvdvavw1"></script>
+
+
+
+    <div data-coveo-token="eyJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hIdWIiOiJheGFiZXdlYi1haSIsInY4Ijp0cnVlLCJ0b2tlbklkIjoicXFkNnp3M3Z1eG80bjJlMzNhaHFwZWNtZ3EiLCJvcmdhbml6YXRpb24iOiJheGFiZWxnaXVtcHJvZHVjdGlvbnF5OXh0eHVyIiwidXNlcklkcyI6W3sidHlwZSI6IlVzZXIiLCJuYW1lIjoiQW5vbnltb3VzIiwicHJvdmlkZXIiOiJFeHBhbmRlZCBDT1ZFTyBmb3IgU2l0ZWNvcmUifV0sInJvbGVzIjpbInF1ZXJ5RXhlY3V0b3IiXSwiaXNzIjoiU2VhcmNoQXBpIiwiZXhwIjoxNzgxNTcxNzI2LCJpYXQiOjE3ODE0ODUzMjZ9.RnozsjHZMx7Yfx_doOKE63HrD_sR4dtdgt-rnDIFe3w" class="u-hide-all"></div>
+    
+
+
+<script id="axa-session-context-config" type="application/json" nonce="">
+    {"sessionConfig":["utm_source","utm_campaign","utm_medium","NEON","utm_content","params"],"cookieConfig":{"content_st":{"name":"content_st","days":100,"globalDomain":false,"consentLevel":"Comfort"}}}
+</script>
+
+    <script src="https://cdn.website.axa.be/bundles/js/AxaBe-AxaBeWeb-platform.js?v=8Skg1hdIvXL6b27GorGsXqVeHgp2zwFgUYz_rRbUqi01"></script>
+
+    <script src="https://cdn.website.axa.be/bundles/js/AxaBe-AxaBeWeb-basic.js?v=keJSt6SrK9E0UG2-1f-kr7QnjDNhtbHXSu1PkuDIOgs1" defer=""></script>
+
+    <script src="https://cdn.website.axa.be/bundles/js/AxaBe-AxaBeWeb-marketing.js?v=E3aw6rSYd6MKPlAerxj1W8m69oWrWHosktUcSgjuqI81" defer=""></script>
+
+    
+    
+                <script type="application/ld+json">
+                {"@context":"https://schema.org","@type":"WebSite","name":"AXA Verzekeringen","url":"https://www.axa.be/nl","inLanguage":"nl-BE","potentialAction":{"@type":"SearchAction","target":"https://www.axa.be/#q={search_term_string}","query-input":"required name=search_term_string"}}
+            </script>
+            <script type="application/ld+json">
+                {"@context":"https://schema.org","@type":"Organization","name":"AXA","url":"https://www.axa.be","logo":{"@type":"ImageObject","url":"https://cdn.website.axa.be/-/media/shared/logos/LogoSolidBlue.png?rev=b30ff18504a9437ba4c8b61fea345621&savif=1&swebp=1","width":234,"height":234},"address":{"@type":"PostalAddress","name":"AXA","streetAddress":"Troonplein 1","addressLocality":"Brussel","postalCode":"1000","addressCountry":"België"},"sameAs":["https://www.facebook.com/AXABelgium","https://www.instagram.com/axa_belgium/","https://www.tiktok.com/@axa_belgium","https://www.youtube.com/user/AXAcomBelgium"],"contactPoint":[{"@type":"ContactPoint","name":"Helpdesk","email":"","telephone":"003225500555","contactOption":"TollFree"}]}
+            </script>
+
+    
+    
+
+<script src="https://cdn.website.axa.be/bundles/js/AxaBe-AxaBeWeb-components.js?v=ryNQGTjs9rMturRmv-jgreRQns3Zl56p89XSum4WPLY1" defer=""></script>
+<script src="https://cdn.website.axa.be/bundles/js/AxaBe-AxaBeWeb-axabeheader.js?v=_G8Ge9XkNopcqDvmf5VSDb9BEG9TZ2v8m4wLEbR2pYM1" defer=""></script>
+
+
+
+
+
+<div id="tc-privacy-wrapper" class="tc-privacy-wrapper tc-privacy-override"><div id="popin_tc_privacy" class="tc-reset-css tc-privacy-banner tc-privacy-popin tc-privacy-mid" aria-describedby="description" role="dialog" aria-modal="true" style="top: 272px; left: 420px;"><div id="popin_tc_privacy_container_text" class="tc-reset-css tc-privacy-block-text"><div id="popin_tc_privacy_text" class="tc-reset-css tc-privacy-text"><h2>Onze cookies, jouw keuze</h2><p>Onze website maakt gebruik van cookies. Bepaalde cookies zijn noodzakelijk voor de goede werking van de website of kunnen gebruikt worden voor analyses. Dankzij andere cookies kunnen wij onder andere gepersonaliseerde inhoud of publiciteit tonen, die dus beter aansluit bij je profiel en je interesses.<br>Je kan deze cookies aanvaarden of weigeren en je beslissing steeds aanpassen via de ‘cookies voorkeuren’. Weet dat door ze te aanvaarden, je surfervaring heel wat zal verbeteren.<br><a href="https://www.axa.be/nl/privacy-cookiebeleid/cookies" target="_blank" title="cookiebeleid" style="color: white;">Ons cookiebeleid</a></p><div id="popin_tc_privacy_textfocus"></div></div></div><div id="popin_tc_privacy_container_button" class="tc-reset-css tc-privacy-block-button"><button id="popin_tc_privacy_button" class="tc-reset-css tc-privacy-button" type="button" title="Ik aanvaard alle cookies">Ik aanvaard alle cookies</button><button id="popin_tc_privacy_button_2" class="tc-reset-css tc-privacy-button" type="button" title="Ik personaliseer de cookies">Ik personaliseer de cookies</button></div><button id="popin_tc_privacy_btn_close" class="tc-reset-css tc-privacy-button-close"><img id="tc_privacy_close" width="20" height="20" title="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA69pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wUmlnaHRzPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvcmlnaHRzLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcFJpZ2h0czpNYXJrZWQ9IkZhbHNlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InV1aWQ6MjNCRTQwNEZERDRGRTAxMTk2MThCNkJFMkNDQjFEREQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0IxMjAzOUJBRUIyMTFFMDk0ODZGRDU1MzkyMzA2MUEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0IxMjAzOUFBRUIyMTFFMDk0ODZGRDU1MzkyMzA2MUEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0EwRTFCODUwODFFMDExOTExNkFGMEUyMTU0NjI4MiIgc3RSZWY6ZG9jdW1lbnRJRD0idXVpZDoyM0JFNDA0RkRENEZFMDExOTYxOEI2QkUyQ0NCMURERCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ph5A5Y8AAAIzSURBVHjanJRNSFRRFMfPvYmMNDThR8OkqxlxYqKkXaCzMhTbuGrRItpIURC0jfa2DhdFCC7EljmziYmIEEWRFhkuZuEoCPk1UsY0uejNzO1/nvfJe3fuSM4ffjzu1/+d+3GOeDk9TRb1gBGQBjdAXPdvgq9gAXwA382FLUZbgPE/Sj09L0TK8qPrmvtgDUyCKaC8CdI3ub2k1Ct83zQwM3WN54LXvNaMUMBs4oIQD+nsegDadNTKi3C8STNP98Azb8s9fGbmjHNSUjIer7+tWIxiXV0208c8zFseMc+Mze6OjVF7JEKXo1H6vLzs9qd6e+nW4CDVlKJ3uRzt7O/7l3WzaYt+GgG1hUIUCYePTz6ZJCkEbReLNAQzd1to8xyLRqV+ZwGVj45oNpulSrXqtq/29dEwzIQe/7i4SBtbWzbDhPQ92oB+lUr0FqbVWi3Q/2lpifKFQqPLCcvTri7a2UlSBqd040xPkZA6nerENzycTp9ss6q3fyWRcPsbyJE6NwMKtbbS0MAACXFsN7+yQjNzc+RUKiem/SlrMhWlTvTgb7BwZ2/PTVA2+5bPU6lcptlMhv46DlUwXjw4sBl+Eag2XFne69wMvMVLHR20ayzk/ot4nz8OD+viAHekLkGT5ijf7q4lCu63mLkPAGS9K5zSlaNZrYMn/vKldHLPNGn2CBTMevhTl6DnYPs/jPjMcuC23m5dgfUinQA3wQuwCn77KrKjf5bhC+Dc9SLz9E+AAQAaC6l6TNInowAAAABJRU5ErkJggg=="></button></div></div><div id="privacy-overlay" class="tc-reset-css tc-privacy-overlay" style="display: block; z-index: 999997;"></div><script type="text/javascript" id="" charset="">function clicktracking_getDomainFromUrl(a){if(a=a.match(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n\?=]+)/im)){var b=a[1];if(a=b.match(/^[^\.]+\.(.+\..+)$/))b=a[1]}return b}function clicktracking_addIntIdToUrl(a,b){var c="",d=a.split("#");d.length===2&&(a=d[0],c=d[1]);a+=(a.split("?")[1]?"\x26":"?")+"intid\x3d"+b;c.length>0&&(a+="#"+c);return a}
+function clicktracking_isInternalLink(a){return a.startsWith("tel:")||a.startsWith("mailto:")||a.startsWith("javascript:tC.privacyCenter.showPrivacyCenter()")||a.startsWith("http")&&a.indexOf("/efnol")>0||a.startsWith("http")&&a.indexOf("//press.axa.be/")>0||a.startsWith("http")&&clicktracking_getDomainFromUrl(a)!=="axa.be"||a.startsWith("#")?!1:!0}
+function clicktracking_isAxaBeSite(a){return(a.startsWith("/")||a.startsWith("https://www.axa.be")||a.startsWith("https://axa.be"))&&a.indexOf("/axa-digital-service")<0}function clicktracking_getParameterByName(a){a=a.replace(/[\[\]]/g,"\\$\x26");var b=window.location.href;a=new RegExp("[?\x26]"+a+"(\x3d([^\x26#]*)|\x26|#|$)");return(b=a.exec(b))?b[2]?decodeURIComponent(b[2].replace(/\+/g," ")):"":null}
+function clicktracking_getIntId(a){a=a.getAttribute("data-webid");if(a==void 0||a==null||a.length==0)return null;var b=clicktracking_getParameterByName("intid-suffix");b!==null&&b!==""&&(a+="-"+b);return a}
+function clicktracking_handleClick(a){for(a=a.target;a&&a.tagName!=="A";)a=a.parentNode;if(a){var b=a.href,c=clicktracking_getIntId(a);c!==null?b!==void 0&&c!==null&&(c.startsWith("_")&&(c="retail_homepage retail"+c),clicktracking_isInternalLink(b)&&(clicktracking_isAxaBeSite(b)?localStorage.setItem("intid",c):(b=clicktracking_addIntIdToUrl(b,c),a.href=b))):localStorage.removeItem("intid")}}document.addEventListener("click",clicktracking_handleClick);</script><script type="text/javascript" id="" charset="">(function(){var b=+localStorage.PageViewCounter||0,a=new Date(localStorage.PageViewLastCheck);a=(new Date).getTime()-a.getTime();18E5<a&&(b=0);localStorage.PageViewCounter=b+1;localStorage.PageViewLastCheck=new Date;return localStorage.PageViewCounter})();</script>
+
+
+<script type="text/javascript" id="" charset="">var Ref="",RefShort="";Ref.includes("axa")||(RefShort=google_tag_manager["rm"]["30357916"](28));var previousPage=sessionStorage.getItem("gtm.storage.previous_page")||RefShort;window.dataLayer=window.dataLayer||[];dataLayer.push({"page.previousPageName":previousPage});sessionStorage.setItem("gtm.storage.previous_page",google_tag_manager["rm"]["30357916"](34));</script><script type="text/javascript" id="" charset="">(function(){try{window.setTimeout(function(){dataLayer.push({event:"Window Loaded + 1s"})},1E3)}catch(a){}})();</script><script type="text/javascript" id="" charset="">document.addEventListener("abe:swiper:scroll",function(a){dataLayer.push({event:"swipe",position:a.detail.position,elementName:a.detail.webid})});</script><script type="text/javascript" id="" charset="">gtm_windowloaded="true";</script></body></html>

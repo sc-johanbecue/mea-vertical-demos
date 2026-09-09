@@ -1,0 +1,47 @@
+---
+ID: "6d7e8f90-a1b2-4234-d678-901234567abc"
+Parent: "5c6d7e8f-90a1-4123-c567-890123456abc"
+Template: "2b3c4d5e-6f7a-4890-b234-567890abcdef"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondUpcomingAndOnDemandSections/Home Upcoming and On Demand
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1e2f3a-4b5c-4678-d012-345678901abc"
+      Hint: TabUpcoming
+      Value: Upcoming
+    - ID: "1e2f3a4b-5c6d-4890-e123-456789012abc"
+      Hint: TabOnDemand
+      Value: On demand
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260602T120000Z
+    - ID: "2f3a4b5c-6d7e-4901-f234-567890123abc"
+      Hint: ViewMoreLink
+      Value: |
+        <link linktype="external" url="#" text="View more" anchor="" target="" class="" />
+    - ID: "3a4b5c6d-7e8f-4901-a345-678901234abc"
+      Hint: CardsFolder
+      Value: "{31ED7662-82C7-402C-85C0-CC041B93C9BC}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00000000-0000-0000-0000-000000000116"
+    - ID: "9c0d1e2f-3a4b-4567-c901-234567890abc"
+      Hint: Title
+      Value: Upcoming events
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260602T120000Z

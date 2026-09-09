@@ -1,0 +1,33 @@
+﻿---
+ID: "4f2e8459-a83f-4022-9c6b-23afbf7499cd"
+Parent: "c10011ff-fdc9-45b5-aabb-3b8d7fc73064"
+Template: "4c1819fe-711f-4e3c-a5d5-eb14110aacd4"
+Path: "/sitecore/content/industry-verticals/Miller Homes/Data/InspirationSections/Default InspirationSection_var2"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6929a9d7-8ae5-48c7-a261-02f72f0bfb13"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260202T010534Z
+    - ID: "89ddf094-41fd-4761-a4bf-e21df0b4fd62"
+      Hint: CTAText
+      Value: "Get Inspired. NOW!"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "17ebfe0a-c1c7-4a3c-aa45-a769e6d9b898"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\daniela.militaru@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260204T204523Z

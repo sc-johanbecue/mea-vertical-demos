@@ -1,0 +1,194 @@
+[
+  {
+    "url": "https://www.bma.bm/",
+    "slug": "bma-bm--home",
+    "dir": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--home",
+    "shots": {
+      "desktop": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--home\\desktop.png",
+      "tablet": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--home\\tablet.png",
+      "mobile": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--home\\mobile.png"
+    },
+    "shotsClean": {
+      "desktop": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--home\\desktop-clean.png",
+      "tablet": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--home\\tablet-clean.png",
+      "mobile": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--home\\mobile-clean.png"
+    },
+    "html": {
+      "page": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--home\\page.html"
+    },
+    "design": {
+      "fonts": [
+        {
+          "family": "Franklin Gothic Book",
+          "count": 79,
+          "sources": []
+        }
+      ],
+      "colors": {
+        "primary": {
+          "hex": [
+            "#007bff"
+          ],
+          "gradients": []
+        },
+        "secondary": {
+          "hex": [
+            "#002b5c",
+            "#6c757d"
+          ],
+          "gradients": []
+        },
+        "accent": {
+          "hex": [],
+          "gradients": []
+        },
+        "neutrals": {
+          "hex": [
+            "#000000",
+            "#ffffff"
+          ],
+          "gradients": []
+        },
+        "semantic": {
+          "success": null,
+          "error": null,
+          "warning": null,
+          "info": "#002d57"
+        }
+      },
+      "css": {
+        "directory": "css",
+        "files": []
+      }
+    }
+  },
+  {
+    "url": "https://www.bma.bm/about-us",
+    "slug": "bma-bm--about-us",
+    "dir": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--about-us",
+    "shots": {
+      "desktop": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--about-us\\desktop.png",
+      "tablet": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--about-us\\tablet.png",
+      "mobile": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--about-us\\mobile.png"
+    },
+    "shotsClean": {
+      "desktop": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--about-us\\desktop-clean.png",
+      "tablet": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--about-us\\tablet-clean.png",
+      "mobile": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--about-us\\mobile-clean.png"
+    },
+    "html": {
+      "page": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--about-us\\page.html"
+    },
+    "design": {
+      "fonts": [
+        {
+          "family": "Franklin Gothic Book",
+          "count": 52,
+          "sources": []
+        }
+      ],
+      "colors": {
+        "primary": {
+          "hex": [
+            "#007bff"
+          ],
+          "gradients": []
+        },
+        "secondary": {
+          "hex": [
+            "#002b5c",
+            "#6c757d"
+          ],
+          "gradients": []
+        },
+        "accent": {
+          "hex": [],
+          "gradients": []
+        },
+        "neutrals": {
+          "hex": [
+            "#000000",
+            "#ffffff"
+          ],
+          "gradients": []
+        },
+        "semantic": {
+          "success": null,
+          "error": null,
+          "warning": null,
+          "info": "#133649"
+        }
+      },
+      "css": {
+        "directory": "css",
+        "files": []
+      }
+    }
+  },
+  {
+    "url": "https://www.bma.bm/documents-centre/discussion-consultation-papers",
+    "slug": "bma-bm--documents-centre-discussion-consultation-papers",
+    "dir": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--documents-centre-discussion-consultation-papers",
+    "shots": {
+      "desktop": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--documents-centre-discussion-consultation-papers\\desktop.png",
+      "tablet": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--documents-centre-discussion-consultation-papers\\tablet.png",
+      "mobile": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--documents-centre-discussion-consultation-papers\\mobile.png"
+    },
+    "shotsClean": {
+      "desktop": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--documents-centre-discussion-consultation-papers\\desktop-clean.png",
+      "tablet": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--documents-centre-discussion-consultation-papers\\tablet-clean.png",
+      "mobile": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--documents-centre-discussion-consultation-papers\\mobile-clean.png"
+    },
+    "html": {
+      "page": "C:\\Projects\\SE12\\SE12-JBE-DM\\.cursor\\design-screenshots\\bma-bm\\bma-bm--documents-centre-discussion-consultation-papers\\page.html"
+    },
+    "design": {
+      "fonts": [
+        {
+          "family": "Franklin Gothic Book",
+          "count": 192,
+          "sources": []
+        }
+      ],
+      "colors": {
+        "primary": {
+          "hex": [
+            "#007bff"
+          ],
+          "gradients": []
+        },
+        "secondary": {
+          "hex": [
+            "#002b5c",
+            "#002d57"
+          ],
+          "gradients": []
+        },
+        "accent": {
+          "hex": [],
+          "gradients": []
+        },
+        "neutrals": {
+          "hex": [
+            "#000000",
+            "#6c757d",
+            "#9e9e9e",
+            "#f2f4f7",
+            "#ffffff"
+          ],
+          "gradients": []
+        },
+        "semantic": {
+          "success": null,
+          "error": null,
+          "warning": null,
+          "info": "#133649"
+        }
+      },
+      "css": {
+        "directory": "css",
+        "files": []
+      }
+    }
+  }
+]

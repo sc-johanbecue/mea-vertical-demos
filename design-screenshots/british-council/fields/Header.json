@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "name": "Logo",
+      "title": "Logo",
+      "type": "Image",
+      "sort": 100
+    },
+    {
+      "name": "LogoLink",
+      "title": "LogoLink",
+      "type": "General Link",
+      "sort": 200
+    },
+    {
+      "name": "SearchLink",
+      "title": "SearchLink",
+      "type": "General Link",
+      "sort": 300
+    }
+  ]
+}

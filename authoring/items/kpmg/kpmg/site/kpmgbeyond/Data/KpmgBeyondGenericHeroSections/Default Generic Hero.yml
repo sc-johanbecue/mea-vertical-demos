@@ -1,0 +1,53 @@
+﻿---
+ID: "a5000202-0001-4000-8000-000000000001"
+Parent: "a5000002-0001-4000-8000-000000000007"
+Template: "a5000002-0001-4000-8000-000000000002"
+Path: /sitecore/content/kpmg/kpmgbeyond/Data/KpmgBeyondGenericHeroSections/Default Generic Hero
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260606T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d05332ef-3843-4685-b9d5-13e6f4196e1c"
+    - ID: "a5000002-0001-4000-8000-000000000013"
+      Hint: HeroImage
+      Value: |
+        <image mediaid="7f79de79-f448-421b-a0dc-24e2fc17ad42" />
+    - ID: "a5000002-0001-4000-8000-000000000014"
+      Hint: SocialProofText
+      Value: Sign up and join 4,000+ business leaders.
+    - ID: "a5000002-0001-4000-8000-000000000015"
+      Hint: SecondaryJoinLink
+      Value: |
+        <link linktype="external" url="/join" text="Join Beyond" anchor="" target="" class="" />
+    - ID: "a5000002-0001-4000-8000-000000000016"
+      Hint: SecondaryLoginLink
+      Value: |
+        <link linktype="external" url="/auth/login" text="Login" anchor="" target="" class="" />
+    - ID: "a5000002-0001-4000-8000-000000000017"
+      Hint: HeroVideo
+      Value: |
+        <file mediaid="dd454a89-2e87-4e0e-89d9-624d2bae20ac" src="-/media/DD454A892E874E0E89D9624D2BAE20AC.ashx" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260605T123929Z
