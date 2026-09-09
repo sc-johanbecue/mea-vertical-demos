@@ -3,5 +3,35 @@
     "name": "digital-experience-bank",
     "hostName": "*",
     "language": "en"
+  },
+  {
+    "name": "bma-website",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "forma-lux",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "essential-living",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "nova-medical",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "skywings",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "rai-amsterdam",
+    "hostName": "*",
+    "language": "en"
   }
 ]
