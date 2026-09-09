@@ -51,10 +51,10 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
     try {
       // Only pre-render this host's site. Edge may return every site in the
       // environment; SSG'ing those (e.g. scott-dunn) breaks Windows builds.
-      const defaultSite = scConfig.defaultSite || 'bma-website';
+      const defaultSite = scConfig.defaultSite || 'digital-experience-bank';
       const siteNames = sites
         .map((site: SiteInfo) => site.name)
-        .filter((name) => name === defaultSite);
+        .filter((name: string) => name === defaultSite);
       paths = await client.getPagePaths(
         siteNames.length ? siteNames : [defaultSite],
         context?.locales || []

@@ -1,6 +1,7 @@
 import scConfig from './sitecore.config';
 import { defineCliConfig } from '@sitecore-content-sdk/nextjs/config-cli';
 import {
+  generateSites,
   generateMetadata,
   extractFiles,
   writeImportMap,
@@ -10,9 +11,9 @@ export default defineCliConfig({
   config: scConfig,
   build: {
     commands: [
-      // sites.json is authored locally for this demo host (no Edge site fetch required offline).
-      // Re-enable generateSites() once SITECORE_EDGE_CONTEXT_ID points at a live environment.
+      // Required on SitecoreAI: sites.json is gitignored and created here.
       generateMetadata(),
+      generateSites(),
       extractFiles(),
       writeImportMap({
         paths: ['src/components'],
@@ -25,4 +26,3 @@ export default defineCliConfig({
     exclude: ['src/components/content-sdk/*', 'src/components/rai/*'],
   },
 });
-

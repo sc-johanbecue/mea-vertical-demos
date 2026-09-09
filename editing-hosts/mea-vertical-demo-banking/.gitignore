@@ -23,6 +23,7 @@
 
 # sitecore temp files
 .sitecore/*
-# except for component-map
+# except for component-map / import-map / local sites fallback
 !.sitecore/component-map.ts
 !.sitecore/import-map.ts
+!.sitecore/sites.json
