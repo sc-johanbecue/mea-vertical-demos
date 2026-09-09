@@ -15,14 +15,10 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\Admin
-    - ID: "3cad7003-0de2-412c-a3a8-4b2ef6ef1a73"
-      Hint: Type
-      Value: |
-        <image mediapath="" alt="Type" height="" width="" hspace="" vspace="" />
     - ID: "93e4b835-e22d-45b5-b370-e5a1a65624b8"
-      Hint: Type
+      Hint: Label
       Value: "Ask DEB Assistant"
     - ID: "df63e126-b16e-492c-97a3-8a191ada47df"
-      Hint: Type
+      Hint: Link
       Value: |
         <link text="Assistant" linktype="external" url="#" anchor="" target="" />

@@ -169,8 +169,8 @@ main:has(.bank-welcome)>.goal-card{margin-top:0}
   main:has(.bank-welcome){grid-template-columns:1fr;padding:0 0 70px}
 }
 
-/* Editing mode keep chrome usable */
-.editing-mode .assistant-launch{pointer-events:none}
+/* Editing mode: assistant stays visible for authors but is inert */
+.editing-mode .assistant-launch{opacity:.7;cursor:default}
 .offer p p,.feature-article p p,.next-card span p,.confidence span p{margin:0;display:inline}
 .next-card span p{display:inline;color:#b9c5d3;font-size:11px}
 .confidence span p{display:inline;font-size:12px;color:#687382}
@@ -263,4 +263,35 @@ footer .logo .logo-image,footer .logo img{
     min-width:0;
     width:100%;
   }
+}
+
+/* Logged-out header chrome (edit mode) */
+.tools .header-login{
+  flex-direction:row!important;
+  font-weight:600;
+  font-size:14px;
+  padding:8px 10px!important;
+  color:var(--navy);
+}
+.tools .header-cta{
+  flex-direction:row!important;
+  background:var(--navy)!important;
+  color:#fff!important;
+  border-radius:22px;
+  padding:10px 16px!important;
+  font-weight:700;
+  font-size:13px;
+  white-space:nowrap;
+}
+@media(max-width:1100px){
+  .tools .header-login{display:none!important}
+  .tools .header-cta{display:flex!important}
+}
+
+/* Chat panel: user bubbles + scrollable body */
+.chat-body{overflow-y:auto}
+.bubble.user{
+  align-self:flex-end;
+  background:var(--navy);
+  color:#fff;
 }

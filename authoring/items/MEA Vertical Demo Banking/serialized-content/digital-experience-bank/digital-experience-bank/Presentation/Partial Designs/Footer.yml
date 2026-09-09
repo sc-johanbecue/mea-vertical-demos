@@ -42,6 +42,13 @@ SharedFields:
           s:id="{1305A9DB-F7A6-40FA-8A5A-72E8DC884B41}"
           s:par="CSSStyles"
           s:ph="/headless-footer/footer-links-1" />
+        <r
+          uid="{A8F3C2E1-9B4D-4A6F-8C1E-2D3E4F5A6B7C}"
+          p:after="r[@uid='{2D412D5D-3D37-4764-969D-F26C0D48D513}']"
+          s:ds="5cf1c4a3-60c7-4b69-b643-bac65b21c672"
+          s:id="{420FD842-09CB-43A3-96DB-15F41906D281}"
+          s:par="CSSStyles"
+          s:ph="headless-footer" />
       </d>
     </r>
 Languages:

@@ -1,7 +1,7 @@
 'use client';
 
 import type { JSX } from 'react';
-import { Text, Placeholder } from '@sitecore-content-sdk/nextjs';
+import { Text, Placeholder, useSitecore } from '@sitecore-content-sdk/nextjs';
 import type { TextField, LinkField } from '@sitecore-content-sdk/nextjs';
 import { ArrowRight } from '@phosphor-icons/react';
 import { ComponentProps } from '@/lib/component-props';
@@ -16,9 +16,20 @@ export interface RecommendationCardGridFields {
 
 const defaultFields: RecommendationCardGridFields = {
   Eyebrow: { value: 'SELECTED FOR YOUR NEXT CHAPTER' },
-  Title: { value: 'Recommended for you, Sarah' },
+  Title: { value: 'Recommended for you' },
   ViewAllLink: { value: { href: '/Premium', text: 'View all offers' } },
 };
+
+const DEMO_FIRST_NAME = 'Sarah';
+
+/** Preview/live: personalize. Edit mode: keep CMS title (no first name). */
+function titleForMode(title: TextField | undefined, isEditing: boolean): TextField | undefined {
+  if (!title || isEditing) return title;
+  const raw = String(title.value ?? '');
+  if (new RegExp(`\\b${DEMO_FIRST_NAME}\\b`, 'i').test(raw)) return title;
+  const base = raw.trim() || 'Recommended for you';
+  return { ...title, value: `${base}, ${DEMO_FIRST_NAME}` };
+}
 
 export type RecommendationCardGridProps = ComponentProps & { fields?: RecommendationCardGridFields };
 
@@ -27,6 +38,9 @@ export const Default = (props: RecommendationCardGridProps): JSX.Element => {
   const cardsPh = dynamicPlaceholderKey('recommendation-cards', params);
   const styles = `${params?.styles ?? ''} ${(params as { Styles?: string })?.Styles ?? ''}`;
   const compact = styles.includes('three');
+  const { page } = useSitecore();
+  const isEditing = Boolean(page?.mode?.isEditing);
+  const titleField = titleForMode(fields.Title, isEditing);
 
   return (
     <section
@@ -37,7 +51,7 @@ export const Default = (props: RecommendationCardGridProps): JSX.Element => {
       <div className="section-title">
         <div>
           {fields.Eyebrow ? <Text tag="p" field={fields.Eyebrow} className="overline" /> : null}
-          {fields.Title ? <Text tag="h2" field={fields.Title} /> : null}
+          {titleField ? <Text tag="h2" field={titleField} /> : null}
         </div>
         <FieldLink field={fields.ViewAllLink}>
           <ArrowRight aria-hidden="true" />
