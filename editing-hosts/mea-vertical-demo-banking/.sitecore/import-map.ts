@@ -9,7 +9,7 @@ import {
 
 import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
 import { Placeholder, NextImage, Link, Text, useSitecore, CdpHelper, RichText, Image as Image_8a80e63291fea86e0744df19113dc44bec187216 } from '@sitecore-content-sdk/nextjs';
-import { useEffect, createContext, useCallback, useContext, useMemo, useState } from 'react';
+import { useEffect, createContext, useCallback, useContext, useMemo, useState, useRef } from 'react';
 import React from 'react';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
@@ -18,10 +18,11 @@ import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
 import { pageView } from '@sitecore-content-sdk/events';
 import config from 'sitecore.config';
-import { ShieldCheck, AirplaneTilt, User, Crown, Sparkle, TrendUp, ArrowRight, Plant, House, PaperPlaneTilt, CreditCard, UsersThree, Wallet, ChartLineUp, Headset, MagnifyingGlass, ChatCircleDots, CaretDown, List, Calculator, Gift, DeviceMobile, LockKey, Eye } from '@phosphor-icons/react';
+import { ShieldCheck, AirplaneTilt, User, Crown, Sparkle, TrendUp, ArrowRight, Plant, House, PaperPlaneTilt, CreditCard, UsersThree, Wallet, ChartLineUp, Headset, MagnifyingGlass, ChatCircleDots, CaretDown, List, Calculator, Gift, DeviceMobile, LockKey, X, Eye } from '@phosphor-icons/react';
 import { componentKey, dynamicPlaceholderKey, hasLinkField, normalizeLinkField } from '@/lib/component-utils';
 import { FieldLink } from '@/components/banking/FieldLink';
 import { useSolutionTabs, SolutionTabsProvider } from '@/components/banking/SolutionTabsContext';
+import { useDemoNotify } from '@/lib/demo-notify';
 
 const importMap = [
   {
@@ -54,6 +55,7 @@ const importMap = [
       { name: 'useContext', value: useContext },
       { name: 'useMemo', value: useMemo },
       { name: 'useState', value: useState },
+      { name: 'useRef', value: useRef },
       { name: 'default', value: React },
     ]
   },
@@ -125,6 +127,7 @@ const importMap = [
       { name: 'Gift', value: Gift },
       { name: 'DeviceMobile', value: DeviceMobile },
       { name: 'LockKey', value: LockKey },
+      { name: 'X', value: X },
       { name: 'Eye', value: Eye },
     ]
   },
@@ -148,6 +151,12 @@ const importMap = [
     exports: [
       { name: 'useSolutionTabs', value: useSolutionTabs },
       { name: 'SolutionTabsProvider', value: SolutionTabsProvider },
+    ]
+  },
+  {
+    module: '@/lib/demo-notify',
+    exports: [
+      { name: 'useDemoNotify', value: useDemoNotify },
     ]
   }
 ] as ImportEntry[];
